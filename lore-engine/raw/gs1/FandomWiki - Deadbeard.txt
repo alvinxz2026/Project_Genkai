@@ -1,0 +1,121 @@
+Deadbeard
+Save
+Edit
+Deadbeard
+Deadbeard (Talos in Japan, which is a name shared by extremely strong enemies in Camelot's Shining series) is an optional boss monster located and fought in the lowest level of the optional dungeon Crossbone Isle. It is the strongest and most durable boss in the first Golden Sun game and is more dangerous than the game's proper final boss, and awaits daring players willing for the first game's biggest battling challenge.
+
+
+Contents
+1	Background and story
+2	Location
+3	As a boss
+3.1	Arsenal
+3.2	Strategies
+3.2.1	Using Djinn/Summons Efficiently
+3.2.2	Summon Rush Method
+3.2.3	Psynergy Sealing with Luff
+3.2.4	5-Turn Method
+3.2.5	Mia Method
+3.2.6	Flash and Luff Method
+3.2.7	Outliving Deadbeard's PP
+3.2.8	Conservative Method
+4	Etymology
+5	Trivia
+logo
+00:02
+
+41:20
+
+
+Background and story
+Deadbeard
+Deadbeard, like Crossbone Isle itself, is an entity which little tangible information about is provided within the games, so fans can only speculate as to what Deadbeard really is and might have been, as well as his origins. Deadbeard, however, is a monster that a few people around Weyard, mainly pirates, are aware of, and they describe it as an "ancient ghost pirate" that guards the treasures at Crossbone Isle. Pirate lore claims that whosoever may be able to slay Deadbeard in combat will have proven himself worthy of the title of leader of all pirates, and therefore will command the respect of buccaneers the world over. Deadbeard's name is an obvious play on the real-world pirate Blackbeard and its own undead nature.
+
+Deadbeard haunts this Pirate Ship and will attack 's party as soon as the leader walks up these stairs.
+Deadbeard haunts this Pirate Ship and will attack Isaac's party as soon as the leader walks up these stairs.
+
+Deadbeard is a giant, supernatural entity that assumes the guise of a colossal red skeleton, twice the size of a normal human, clad in a thick suit of medieval-looking armor. Where his head/skull is supposed to be is his helmet which obscures his actual face (if Deadbeard even has a face as corporeal as his other features) so that the only visible aspects of the entity's facial area is a glowing pair of beady yellow eyes. He wields a thick-bladed sword that is longer than a human is normally tall.
+
+Deadbeard haunts the dilapidated Pirate Ship located at the bottom of Crossbone Isle, shored up at an underground lake, and presumably has for untold amounts of time. It can be speculated that this ship "belongs" to Deadbeard because of that. Late in Golden Sun, Isaac's traveling party of Adepts explores the island and picks it clean of its loot, defeating all of of the rare and powerful lesser monsters along the way. When they reach the underground lake and board the damaged vessel, Deadbeard attacks the party, and Isaac's group engages in its most intense brawl yet, but they weather Deadbeard's powerful Psynergy-based assaults and eventually slay the wraith, putting Deadbeard's soul to rest. A chest materializes on the bow of the ship after the battle and Isaac claims the sturdy but cursed Demon Mail before departing the now empty Isle.
+
+Pirates across Weyard will somehow learn of Deadbeard's defeat, and that the identity of the one who defeated it and pillaged the Isle clean is Isaac. Recalling the stories that the one who defeats Deadbeard will gain the honorific of leader of all pirates, buccaneers will start seeking out this apparently tough and reliable man to join his pirate crew. If the game file where Deadbeard is defeated is used for data transfer into Golden Sun: The Lost Age, then in the town of Alhafra, after the pirate Briggs flees the town on a ship and departs back for Champa, a pair of swashbucklers will appear in the second floor of Alhafra's inn as the town updates. The moment Felix's party comes in, an optional cutscene will occur in which the two talk about how Crossbone Isle was picked clean and its feared ancient pirate ghost guardian was defeated by Isaac. He effectively is their leader now, so they are looking for him in order to join his crew. Then they will pass by Felix's group as they leave the inn on their search. It should be noted that this cutscene can occur anytime after when it can first occur, meaning that it can be triggered late in the game when Isaac's party has joined Felix's. In that case, though, the cutscene will play out exactly as it would otherwise, and the pirate pair will not realize they just passed by their new "leader" as they leave the inn in search of him.
+
+Location
+Main article: Crossbone Isle
+Deadbeard is located on the Pirate Ship on the lowest level of Crossbone Isle. There are two methods for reaching the island:
+
+The first available method occurs while crossing the Karagol Sea onboard the Tolbi-bound Ship, confirming its location despite the fact that Crossbone Isle doesn't appear on the overworld map. However, this method is not the easiest largely because it isn't obvious, so many players will no doubt play through this portion of the game without ever finding the island. Even if they do reach Crossbone Isle, most of the island cannot be explored until later in the game, at which point players must use the other method.
+
+The second way to reach Crossbone Isle can be found in the Suhalla Desert. Throughout the desert players encounter immobile sandstorms that block all progress. By approaching a sandstorm, a player gets lifted into the air and, after a short while, is blown back to the nearby village. If, before being blown away, the player casts the Douse Psynergy, the sandstorm dies down and the monster creating the sandstorm appears to battle the party. Near the end of the desert a larger, mobile sandstorm created by an appropriately larger and stronger monster appears to chase the party. Shortly before the ladder leading into this area, the Reveal Psynergy can be used to reveal a side path. In addition to a Mars Djinni, this path leads to a cave that in turn leads to a pink tornado created by the Tempest Lizard, the most powerful monster in the desert. By allowing this tornado to carry them out of the desert (without using Douse), Isaac and company finally arrive at Crossbone Isle.
+
+By walking toward the center of Crossbone Isle from the south, players will eventually see the entrance to a cave. The cave is the location of the majority of events on the island and can only be reached by casting the Growth Psynergy on nearby plants and using the resulting vines to climb to the top of a cliff. From up there players can slide down to reach treasure chests or the cave entrance. Once inside players will find that the cave offers a pattern of sorts: there are nine floors, each consisting of a room filled with puzzels and treasure chests, and each guarded by a party of powerful and usually unique monsters. These are the only monsters (besides a pair of Mimics, the Tempest Lizard, and Deadbeard himself) that appear on the island, and they do not return once defeated. Most treasure chests are out of reach normally and require players to solve puzzles that don't necessarily help the player progress to the next floor, although it is usually possible to open all chests and still move on without having to leave the puzzle room, which resets the puzzles. After exiting the room from the other side, players are able to open up a shortcut, allowing them to leave the island and resume their progress at a later date without having to solve the puzzle rooms again.
+
+After the ninth and final puzzle room, players will find a rotting Pirate Ship moored in the lowest level. Fortunately, the ship is still able to support the weight of four Adepts. Unfortunately, it can also support the weight of a large, corporeal, Psynergy-wielding pirate captain determined to keep Isaac's party from taking his treasure.
+
+As a boss
+Deadbeard is a colossal opponent that makes copious use of powerful area-of-effect Psynergy like .
+Deadbeard is a colossal opponent that makes copious use of powerful area-of-effect Psynergy like Freeze Prism.
+
+Deadbeard is by far the strongest boss in the game, with 6000 hp. Deadbeard is a boss enemy stronger and better defended than even the final boss encounter at the end of Golden Sun, though he is completely optional to battle. Therefore he clearly fits the bill of Golden Sun's "Superboss", something a lot of RPGs feature for players willing to challenge. Though a tough battle any way you look at it, it is an exaggeration to call Deadbeard one of the hardest bosses in RPGs, a point made especially clear when Deadbeard is compared to the likes of the superboss of Golden Sun: The Lost Age. Unlike that enemy, a well-leveled-up and well-equipped party can battle and defeat Deadbeard through traditional battling methods.
+
+Deadbeard is encountered in the bottom area of Crossbone Isle, on top of the worn-down Pirate Ship that is docked at an underground lake. Specifically, the battle will begin without warning if Isaac walks up the left flank of stairs towards the top area of the ship. Deadbeard, statistically, has far higher numbers than any other enemies for most of its statistics other than Agility: It has 6000 HP, 600 PP, 468 Attack, 178 Defense, and 60 Luck, all a grade higher than the stats of Fusion Dragon. Its only statistic that is overtaken by other boss enemies' is Agility, which is an impressive 180, compared to the Fusion Dragon's 190 agility and Menardi's 220 agility. In terms of resistance, Deadbeard has a Mercury resistance rating of 193, a Jupiter resistance rating of 152, a Mars resistance rating of 127, and a Venus resistance rating of 72, and in regards to its abilities it uses its available Mercury-based attacks with a Mercury power rating of 130, its abilities it uses its available Mars-based attacks with a Mars power rating of 120, and its available Jupiter-based attacks with a Jupiter power rating of 110.
+
+When defeated Deadbeard rewards the party with 8000 EXP, 9000 coins, and a Water of Life. If felled by an offensive Venus Djinni effect the party receives 10400 EXP, 11700 coins, and a Water of Life. A chest appears after the battle containing the unique Demon Mail, the armor in Golden Sun with the highest physical defense rating. Also, Isaac's party will gain the credit and distinction of having defeated Deadbeard, which will influence a cutscene in the future if the game file is used for data transfer into Golden Sun: The Lost Age.
+
+
+Advertisement
+Arsenal
+Deadbeard's arsenal of battle commands is certainly damaging to the party, though interestingly he does not actually have any Monster skills to call his own, instead relying on top-of-the-line area-of-effect offensive Psynergy on his opponents and casting buffing Psynergy on himself (him having 600 PP means he has plenty of reserves to cast his Psynergy). He is an opponent that acts twice per turn, and with each action he can:
+
+Attack/Psynergy	Description
+Attack (command)	Used 53 out of 256 times, this is this boss' standard physical attack. Since he has the highest physical attack rating in Golden Sun, his attack will do more damage than that of any other opponent, and this command becomes a lot deadlier and more damaging if Deadbeard has cast Impact on himself once or twice.
+Freeze Prism	Used 47 out of 256 times, this is a Psynergy spell that summons a massive storm of huge chunks of ice that shatters into the opposition, dealing a Mercury-based attack with a power rating of 190 and a range of 5. This ability consumes 31 of its user's PP. This is Deadbeard's most common, and most damaging, multi-Adept offense.
+Break	Used 41 out of 256 times, this is a Psynergy spell that removes any statistical buffs from the current battling party. This ability consumes 5 of its user's PP. This effectively prevents players from increasing their party's battling abilities to battle Deadbeard equally as he increases his own stats.
+Impact	Used 35 out of 256 times, this is a Psynergy spell that increases Deadbeard's Attack rating by 25%, and if he uses it again his attack rating is raised to 150%, the maximum. It will always increase his Attack rating by 117 points each time, so his physical attack will become very strong. It costs 7 PP.
+Ward	Used 29 out of 256 times, this is a Psynergy spell that increases Deadbeard's Resistances to all elements by 40, lowering the effectiveness of any assault on him that is based on one of the four elements. It costs him 3 PP.
+Inferno	Used 23 out of 256 times, this is a Psynergy spell that causes a large group of fire balls to spread out from the user and strike the party, dealing a Mars-based attack with a power rating of 140 and a range of 5. It consumes 23 of its user's PP.
+Guard	Used 17 out of 256 times, this is a Psynergy spell that buffs up the user, increasing the user's current Defense by 25%. It consumes 3 of its user's PP. It will always increase Deadbeard's Defense rating by 44 the first time and 45 the second time, making physical attacks against him far less damaging than it should. It costs 3 PP.
+Spark Plasma	Used 11 out of 256 times, this is a Psynergy spell that strikes the party repeatedly with a barrage of purplish-white lightning bolts, dealing a Jupiter-based attack with a power rating of 180 and a range of 7. It consumes 37 of the user’s PP.
+
+
+Strategies
+Many fans have come up with strategies for defeating Deadbeard more efficiently:
+
+Using Djinn/Summons Efficiently
+Summon spells in Golden Sun games deal damage proportional to the size of each struck opponent's maximum HP meter, meaning in Deadbeard's case 4-Djinn summons such as Judgment will do immense damage over 1000 and that even a 1-Djinn summon such as Mars will do several hundred damage points. A great way to maintain a constant flow of damage upon Deadbeard's health meter is to have each Adept alternate between using a Djinni effect and then using that standby Djinni for a level-1 summon the next turn, every two turns. Since Deadbeard is constantly increasing his own stats in areas of attack and defense, it is not as useful to use attack-oriented Djinn as it is to use healing and support Djinn to maintain your party's health, such as the Venus Djinni Granite, the Mars Djinn Flash and Corona, the Jupiter Djinn Breeze and Zephyr, and the Mercury Djinn Spritz and Dew. (Deadbeard may remove the buffing effects instantly with Break, but regardless it is still more useful than attack Djinn because Deadbeard is immune to many status effects.)
+
+
+Advertisement
+Summon Rush Method
+Playing on the above point of summon spells being especially damaging against bosses with huge health meters, even Deadbeard will most likely succumb to a complete rush-summoning in which all twenty-eight Djinn are On Standby and all level four Summons are cast on the first turn, and all level 3 summons cast the second (or vice versa). Assuming most of the party is lucky enough to survive Deadbeard's assaults in between summoning, it is possible to defeat Deadbeard and his 6000 HP in two turns. (Note that when a summon is used, the Adept's elemental power for that element sharply increases, which will largely crank up the power of his next summoning of that element.) The risk of this tactic not fully depleting Deadbeard's HP to zero even if all eight summonings are successfully pulled off manifests if Deadbeard casts Ward early on to increase his resistance. In that case, hopefully your weakened party will survive long enough that their remaining physical or Psynergetic assaults can cross the finish line in time. You can decrease the chances of this scenario occuring if your party is holding equipment that increases elemental power effectively, such as a Feathered Robe for Ivan and the Gaia Blade and Warrior's Helm for Isaac.
+
+Psynergy Sealing with Luff
+Another easy way to defeat Deadbeard is to seal away his Psynergy, since all of his commands aside from his physical attack are Psynergy, you can effectively limit his abilities to attacking you for a turn. The best way to seal his Psynergy is to use the Jupiter Djinn, Luff, as that has an accuracy rating of 100%. Just make sure to reset and cast Luff every turn to allow this effect to continue and Deadbeard should go down without too much trouble. Be careful though, because if Deadbeard manages to cast Impact to increase his attack rating, it can cause major problems.
+
+5-Turn Method
+Perhaps the easiest method to defeat Deadbeard is also the one that may potentially take the most time. If you have all 28 Djinn and have them arranged so that each of the four Adepts are in their mono-elemental classes, put five of Isaac's Venus Djinn on Standby, leaving Granite and Ground Set and ready to use. Similarly, put five of Garet's Mars Djinn on standby, leaving Flash and Torch ready to use. For Ivan and Mia, put all of their Djinn on Standby except for Kite and Luff on Ivan and Spritz on Mia.
+
+On the first turn, use Granite, then summon Meteor, Thor, and Boreas - because of Granite, you shouldn't take too much damage, unless Deadbeard attacks just one person with his multiple actions per turn.
+On the second turn, either make Isaac use Judgment or have him reset Granite (resetting Granite will ensure your party survives, but will lengthen the fight considerably). Have Garet use Flash, Ivan use Luff, and Mia either cast Ply Well on whoever is hurt the most or use Spritz to heal the entire party for a smaller amount.
+On the third turn, if you used Judgment, use Ground with Isaac, or if you had reset Granite, then use Granite again. Have Garet either reset Flash or use Torch (again, resetting Flash will add time to the fight, but ensure that the party survives), have Ivan use Kite on Isaac, and have Mia summon Neptune. Deadbeard should be close to death now, but be careful, if he kills any of your party, you need to revive them the next turn.
+The fourth turn should ideally finish Deadbeard off. Have Isaac either use Ground (if you reset Granite and Flash) or heal, and have Garet either use any of the other Mars Djinn that have reset by now if he had reset Flash, or summon Tiamat if he had used Torch. Have Ivan summon Procne and have Mia heal or use a Djinn that has reset (it should not matter at this point).
+Deadbeard should die, but in the event he has not, if you reset Flash, use Flash on the fifth turn and summon whatever you can with the remaining Djinn that are On Standby, as well as attack normally.
+Mia Method
+The easiest and definitely longest way to beat Deadbeard can be done at a pretty low level (25-26) without all Djinn. However, Flash, Granite and Luff has to be in your party. Also, equip agility boosting armor, so that all of your party have higher agility than your foe (except Mia, she'll work with low agility), and everyone should have over 300 hp. Every other round, Garet or Isaac casts Flash or Granite, while the other one sets his Flash or Granite. Ivan will cast Luff, and reset him every other round. All the offensive attacks will be done by Mia. This will force Deadbeard to use attack exclusively, with small damage (unless he has time to cast impact before you cast Luff, he will do 10-30dmg while you're using Flash, and about 70 while you're using Granite). Mia will unleash one djinn at a time (be sure to time the healing djinn right, or use one turn to cast ply well). When she's stacked up 4 standby djinn, use Boreas, and repeat. You will need to cast Boreas about 8-10 times. This is a cakewalk if you can endure a long and boring battle.
+
+
+Advertisement
+Flash and Luff Method
+Another way to defeat him is with using Flash and Luff. Have Ivan use Luff on Deadbeard, then have everyone else to something to injure him. Have a turn when everyone just uses normal moves. After that turn, Deadbeard's Psynergy seal should be gone. then have Garet cast Flash with everyone else attacking Deadbeard with Psynergy attack or physical attack. repeat this process and he should go down easily.
+
+Outliving Deadbeard's PP
+A good, risk-less choice is to keep buffing your party and healing. You can easily outlive his PP drain better than if you tried to take your chances attacking him. Be sure your healer either has priority over him or always comes after his attacks, in which case you really want said healer to target everyone. Once he runs out of PP (and you will see by his using physical attacks every turn for some reason), it will be the perfect time to rain down hell on him.
+
+Conservative Method
+Another strategy that's possible at low levels (albeit ideally with all Djinn obtained) sits in the middle ground of being slightly more risky than Granite and Flash strategies is also substantially quicker and still carries less risk than a summon rush. Assuming mono-classes start with Issac, Garet, and Ivan with four Djinn on standby. Make sure that Luff is not one of them. Cast all summons and have Mia using Wish Well for the entire fight. What type of move Deadbeard uses will determine the length and risk of the fight. If Deadbeard uses standard attacks and offensive psynergy all of the risk will be during the first turn. If Deadbeard casts Ward it will increase the length of the fight by a respectable amount. If however Deadbeard casts Impact it will substantially increase the risk of the fight. It is far from being a game breaker but it's a good idea to be cautious and cast Granite or Flash if you need to. After the first turn have Ivan cast and set Luff for the rest of the fight locking out Deadbeard's psynergy and buffs. Have Issac and Garet attack for the rest of the fight with Mia continuing to use Wish Well to negate any damage. If Mia runs out of psynergy you can have Garet casting and setting Ember to restore psynergy and have Mia using Spritz to avoid a down. It should be noted that this strategy can be switched to in an emergency and opens up the ability to gain the bonus experience and gold for felling with a Venus Djinn.
+
+Etymology
+The name Talos comes from a figure from Greek mythology, who was a giant bronze man/god who sunk ships approaching Crete by tossing rocks at them.
+
+Trivia
+Deadbeard is one of the few bosses without an overworld sprite. The others are the Crossbone Isle sub-bosses, Fusion Dragon, Storm Lizard, Tempest Lizard, Sand Prince, and Ice Queen.

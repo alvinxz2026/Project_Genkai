@@ -1,0 +1,258 @@
+Boss
+Save
+Edit
+A challenging early-game boss by any standard,  will battle  party atop the .
+A challenging early-game boss by any standard, Saturos will battle Isaac's party atop the Mercury Lighthouse.
+
+A Boss in the Golden Sun series is no different than a boss in any other series. They are stronger than any other enemy in their immediate area, boasting high HP, Attack, and Defense ratings as well as powerful Psynergies and monster skills, and can only be fought once per game. One notable exception would be the Tempest Lizard, which can be fought any number of times. They are often obstacles keeping you from reaching the next required area of the game, accessible only by defeating the boss (the Tempest Lizard's cousin, the Storm Lizard, being an exception as non-mandatory; it can be "outrun"). But some reside at the end of seemingly irrelevant caves guarding a treasure or powerful tool, as the "Super-Bosses" do: Deadbeard in Golden Sun, and the Star Magician, Sentinel, Valukar, and the dreaded Dullahan in Golden Sun: The Lost Age.
+
+Boss Strategies
+Perhaps the most common strategy employed to defeat bosses is the "Summon rush", wherein just before the player encounters the boss, they put all their Djinni on Standby. This allows them to cast many summons in a short period, and, as summons do damage based on a percentage of the opponent's health, their offensive value against bosses is much higher than most other attack options. The biggest drawback to this is that before and after summoning, the player's Adepts will be forced into weaker classes, limiting their offensive and defensive capabilities. Hence the "rush", the player is faced with using up as many summons as possible while their HP is still high, so that they can survive long enough for the Djinni to return to set and finish off the boss. Of course, against specific bosses this strategy is nigh on useless (such as Star Magician, Valukar and the Doom Dragon), but it serves as an effective staple from which the player can add to.
+
+Bosses in Golden Sun
+The following table lists the details of all bosses fought in Golden Sun, sorted by order of appearance (in the cases where order of appearance is optional or unclear, they are listed in ascending order of HP).
+
+KyleSpoiler warning: The following section(s) contain plot and/or ending details that some people may not wish to learn before reaching this point in the game on their own. If this applies to you, take caution while reading this section (if you choose to read it at all).
+Icon	Name	Location	HP	PP	Attack	Defense	Agility	Luck	Elemental Power	Resistance	Rewards	Notes
+Mystery Woman	Mystery Woman	Vale	2600	300	50	20	13	40	Star mars105
+Star venus100	Star mars175
+Star jupiter127
+Star venus100
+Star mercury72	N/A	This battle is unwinnable.
+Fights alongside Mystery Man
+Mystery Man	Mystery Man	Vale	3000	260	63	22	9	40	Star mars110	Star mars175
+Star jupiter127
+Star venus100
+Star mercury72	N/A	This battle is unwinnable.
+Fights alongside Mystery Woman
+Bandit	Bandit	Vault	244	N/A	46	8	20	3	Star jupiter80	Star mercury72
+Star jupiter72
+Star venus72
+Star mars72	36 Exp
+46 coins
+Bandit’s Sword	Fights alongside two “Thief” enemies
+Tret	Tret	Kolima Forest	710	36	89	27	30	28	Star venus105	Star mercury175
+Star jupiter100
+Star venus72
+Star mars25	226 Exp
+700 coins
+Potion	
+Saturos Mercury Lighthouse	Saturos	Mercury Lighthouse	1200	160	113	35	51	40	Star mars110	Star mars175
+Star jupiter127
+Star venus100
+Star mercury72	331 Exp
+800 coins
+Psy Crystal	Mia will regenerate 4 pp per turn during this battle
+Killer Ape	Killer Ape	Mogall Forest	1000	45	156	49	94	26	Star venus100
+Star jupiter80
+Star mercury80	Star jupiter127
+Star venus72
+Star mercury72
+Star mars25	460 Exp
+1500 coins
+Douse Drop	
+Hydros Statue	Hydros Statue	Altin Peak	1300	80	156	53	62	30	Star mercury125	Star mercury193
+Star venus100
+Star jupiter100
+Star mars25	496 Exp
+2400 coins
+Lucky Medal
+Grants access to the Lifting Gem	
+Manticore	Manticore	Lamakan Desert	1700	83	168	48	61	36	Star mars115
+Star venus95	Star mars175
+Star venus100
+Star jupiter100
+Star mercury25	590 Exp
+3400 coins
+Psy Crystal	Acts twice per turn
+Kraken	Kraken	Tolbi-bound Ship	2400	46	216	60	80	21	Star mercury115
+Star venus95
+Star mercury175
+Star venus100
+Star jupiter100
+Star mars25	711 Exp
+5200 coins
+Water of Life	Acts twice per turn
+Toadonpa	Toadonpa	Lunpa Fortress	2800	N/A	266	52	82	18	Star mercury115
+Star mars85	Star mercury175
+Star venus100
+Star jupiter100
+Star mars25	999 Exp
+3200 coins
+Psy Crystal	Regenerates 80 HP per turn
+Storm Lizard	Storm Lizard	Suhalla Desert	2900	42	291	86	112	22	Star jupiter110	Star jupiter152
+Star mars100
+Star mercury100
+Star venus48	1300 Exp
+6100 coins
+Psy Crystal	Acts twice per turn
+Tempest Lizard	Tempest Lizard	Suhalla Desert	3000	45	295	94	114	26	Star jupiter110	Star jupiter152
+Star mars100
+Star mercury100
+Star venus48	1360 Exp
+6400 coins
+Potion	Acts twice per turn
+Menardi Venus Lighthouse	Menardi	Venus Lighthouse	2600	300	389	134	220	50	Star mars105
+Star venus100
+Star mercury95	Star mars175
+Star jupiter127
+Star venus100
+Star mercury72	3000 Exp
+3600 coins	Fights alongside Saturos; Isaac will regenerate 4 pp per turn during this battle
+Saturos Venus Lighthouse	Saturos	Venus Lighthouse	3000	260	409	140	160	50	Star mars110	Star mars175
+Star jupiter127
+Star venus100
+Star mercury72	3000 Exp
+3600 coins	Fights alongside Menardi; Isaac will regenerate 4 pp per turn during this battle
+Question-mark	Final Boss	Venus Lighthouse	5000	500	439	150	190	50	Star mars110
+Star venus100
+Star mars175
+Star venus127
+Star jupiter127
+Star mercury72	N/A	Acts twice per turn; Isaac will regenerate 4 pp per turn during this battle
+Deadbeard	Deadbeard	Crossbone Isle	6000	600	468	178	180	60	Star mercury130
+Star mars120
+Star jupiter110
+Star mercury193
+Star jupiter152
+Star mars127
+Star venus72	8000 Exp
+9000 coins
+Water of life
+Access to Demon Mail	Acts twice per turn
+
+Bosses in The Lost Age
+The following table lists the details of all bosses fought in The Lost Age, sorted by order of appearance (in the cases where order of appearance is optional or unclear, they are listed in ascending order of HP).
+
+KyleSpoiler warning: The following section(s) contain plot and/or ending details that some people may not wish to learn before reaching this point in the game on their own. If this applies to you, take caution while reading this section (if you choose to read it at all).
+Icon	Name	Location	HP	PP	Attack	Defense	Agility	Luck	Elemental Power	Resistance	Rewards	Notes
+Chestbeater	Chestbeater	Kandorean Temple	155	N/A	44	11	20	24	N/A	Star jupiter72
+Star mercury48
+Star venus48
+Star mars25	40 Exp
+28 coins
+Nut (one only)	Three are fought at once
+King Scorpion	King Scorpion	Yampi Desert	1064	N/A	101	32	39	40	Star venus95	Star jupiter100
+Star mercury72
+Star venus72
+Star mars48	440 Exp
+228 coins
+Vial	
+Briggs	Briggs	Alhafra	984	N/A	129	29	76	42	Star mars100	Star jupiter100
+Star mercury100
+Star venus100
+Star mars100	333 Exp
+891 coins
+Vial	Fights alongside (and can summon) Sea Fighter monsters
+Aqua Hydra	Aqua Hydra	Lemurian Ship	2776	70	173	38	63	44	Star mercury115	Star mercury175
+Star venus100
+Star jupiter100
+Star mars25	963 Exp
+1612 coins
+Vial	
+Serpent	Serpent	Gaia Rock	3536	160	249	76	135	46	Star venus110	Star venus152
+Star mercury100
+Star mars100
+Star jupiter48	1995 Exp
+2898 coins
+Access to Cloud Brand	Regenerates HP at one of the following amounts per turn; 2430, 810, 270, 90, 30
+Can act two or three times per turn
+Avimander	Avimander	Champa	3792	87	281	89	94	41	Star mars115	Star mars175
+Star jupiter100
+Star venus100
+Star mercury25	2176 Exp
+1330 coins
+Acts twice per turn
+Poseidon	Poseidon	Sea of Time	4905	162	302	100	185	47	Star mercury115	Star mercury175
+Star jupiter100
+Star venus100
+Star mars25	2930 Exp
+3762 coins
+Psy Crystal	Is invulnerable until the Trident is used
+Acts twice per turn
+Moapa	Moapa	Trial Road	3042	N/A	354	219/174/120	181	40	Star mercury100	Star mercury100
+Star jupiter100
+Star venus100
+Star mars100	1670 Exp
+2460 coins
+Fights alongside two Knight monster
+Karst	Karst	Jupiter Lighthouse	3186	320	354	107	235	50	Star mars105
+Star venus100	Star mars175
+Star venus127
+Star jupiter100
+Star mercury72	2813 Exp
+5280 coins
+Dark Matter	Fights alongside Agatio
+Player uses a vary number of Adepts
+Winning the battle is non-mandatory
+Agatio Battle	Agatio	Jupiter Lighthouse	4248	280	377	114	178	46	Star mars110
+Star mars175
+Star venus127
+Star jupiter100
+Star mercury72	3000 Exp
+3740 coins
+Fights alongside Karst
+Player uses a vary number of Adepts
+Winning the battle is non-mandatory
+Flame Dragon Small	Flame Dragon	Mars Lighthouse	5348	320	389	134	215	55	Star mars115
+Star mars175
+Star venus100
+Star jupiter100
+Star mercury25	2502 Exp
+1872 coins
+Psy Crystal (one only)	Fights alongside another (different) Flame Dragon
+Regenerates 4 PP per turn
+Flame Dragon Big	Flame Dragon	Mars Lighthouse	5724	250	400	137	158	48	Star mars115
+Star mars175
+Star venus100
+Star jupiter100
+Star mercury25	2502 Exp
+1521 coins
+Psy Crystal (one only)	Fights alongside another (different) Flame Dragon
+Regenerates 4 PP per turn
+Star Magician	Star Magician	Treasure Isle	7486	560	460	139	268	52	Star mercury105
+Star jupiter95	Star mercury180
+Star jupiter150
+Star venus130
+Star mars72	7866 Exp
+5566 coins
+Access to the Azul Summon Tablet	Fights alongside (and can summon) four Ball monsters
+Acts twice per turn
+Sentinel	Sentinel	Islet Cave	8736	780	608	216	171	54	Star mars120
+Star jupiter110	Star mercury193
+Star jupiter152
+Star mars127
+Star venus72	10538 Exp
+6144 coins
+Access to the Catastrophe Summon Tablet	Regenerates 200 HP per turn
+Regenerates 30 PP per turn
+Acts three times per turn
+Is immune to Psynergy
+Valukar	Valukar	Yampi Desert Cave	12960	N/A	550	175	206	46	Star mars105
+Star venus95
+Star jupiter95
+Star mercury85
+Star mars175
+Star jupiter100
+Star venus100
+Star mercury60	8702 Exp
+4980 coins
+Access to the Daedalus Summon Tablet	Acts twice per turn
+Can summon using the player’s standby Djinn
+Question-mark	Final Boss	Mars Lighthouse	13200 (5000+4200+4000)	500	470	155	200	50	Star venus110
+Star mars105	Star venus195
+Star mars175
+Star mercury130
+Star jupiter98	N/A	Abilities and statistics change over the course of the battle
+Dullahan	Dullahan	Anemos Inner Sanctum	16000	300	676	269	241	59	Star venus110
+Star mars100
+Star mercury100
+Star jupiter100
+Star mercury190
+Star venus150
+Star mars130
+Star jupiter110	15600 Exp
+6775 coins
+Access to the Iris Summon Tablet	Regenerates 200 HP per turn
+Regenerates 100 PP per turn
+Acts three times per turn

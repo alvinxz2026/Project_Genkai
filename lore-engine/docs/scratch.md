@@ -1,8 +1,1 @@
-Create 4 blank txt files:
-
-```
-raw/gs1/FandomWiki - Venus Djinn.txt
-raw/gs1/FandomWiki - Mars Djinn.txt
-raw/gs1/FandomWiki - Jupiter Djinn.txt
-raw/gs1/FandomWiki - Mercury Djinn.txt
-```
+接下来想讨论下方向。我觉得要么我想去试试看看walkthrough怎么整理，要么想试试看怎么去

@@ -1,0 +1,303 @@
+GBA Equipment Comparison Charts
+Save
+Edit
+The lists on this page are designed to create a comprehensive guide to compare items by the slot in which they are equipped. Items are ordered by the following criteria:
+
+Item cost
+Defense bonus
+Alphabetical order
+Legend:
+
+"Shop": This item can be bought repeatedly in at least one shop in the listed games.
+"Artifact": This item appears at least once as an Artifact in the listed games' shops' Artifact menus.
+"Tolbi Springs"/"Lemuria Springs": This item can be won as a prize from the Lucky Medal Fountains in the listed games, and therefore can be acquired repeatedly.
+"Lucky Wheels": This item can be won as a prize from the Lucky Wheels minigame in the listed games, and therefore can be acquired repeatedly.
+"Chest": This item can generally be found within one of the chests of the listed game and is one-of-a-kind, but can also be received from inspecting the world map itself (such as the Turtle Boots).
+"Forge": This item can be acquired randomly whenever appropriate forgeable material is brought to Sunshine the Blacksmith in Yallam in Golden Sun: The Lost Age, and therefore can be acquired repeatedly.
+"Event": This item is received in a scripted event that triggers in the game itself.
+"Unobtainable": This item exists in the game code of at least the second game, but cannot be obtained without use of a hacking device.
+
+Contents
+1	Body Armor
+2	Hand Armor
+3	Head Armor
+4	Shirts
+5	Boots
+6	A Note on Rings
+
+Body Armor
+The following is a list of items that can be equipped in the Body Armor slot of an Adept's equipment. Ivan, Mia, Jenna and Sheba can equip robes, while Isaac, Garet, Felix and Piers can equip armor. Clothing is available to all Adepts.
+
+Icon	Equipment name	Type	Value	DEF	Other	Obtainable	Game
+Cotton Shirt	Cotton Shirt	Clothing	20	3	N/A	Shop	Both
+One-Piece Dress	One-Piece Dress	Robe	25	4	Females only	Shop	Both
+Travel Vest	Travel Vest	Clothing	50	7	N/A	Shop	Both
+Travel Robe	Travel Robe	Robe	200	10	N/A	Shop	Both
+Leather Armor	Leather Armor	Armor	240	12	N/A	Shop	Both
+Fur Coat	Fur Coat	Clothing	400	16	20 Star mercury RES
+Chest	GS
+Adepts Clothes	Adept's Clothes	Clothing	850	18	8 PP	Shop	Both
+Psynergy Armor	Psynergy Armor	Armor	1000	21	20 PP	Chest
+Shop	Both
+Full Metal Vest	Full Metal Vest	Armor	1100	21	N/A	Chest	TLA
+Ixion Mail	Ixion Mail	Armor	1300	26	20 Star mercury RES
+20 Star jupiter RES	Chest	TLA
+Silk Robe	Silk Robe	Robe	1400	20	N/A	Shop	Both
+China Dress	China Dress	Robe	1600	19	Females only	Artifact	GS
+Elven Shirt	Elven Shirt	Clothing	1700	22	x1.5 AGI	Chest	GS
+Chain Mail	Chain Mail	Armor	2000	25	N/A	Shop	Both
+Jerkin	Jerkin	Robe	2400	26	N/A	Shop	Both
+Kimono	Kimono	Clothing	2800	25	10 AGI
+10 Star mars RES
+Tolbi Springs	GS
+Festival Coat	Festival Coat	Clothing	2800	28	10 Luck	Chest	TLA
+Water Jacket	Water Jacket	Clothing	3000	30	20 Star mars RES
+20 Star mercury RES
+Chest	GS
+Silver Vest	Silver Vest	Clothing	3200	28	N/A	Shop	Both
+Armored Shell	Armored Shell	Armor	3600	30	N/A	Shop	Both
+Cocktail Dress	Cocktail Dress	Robe	4000	29	15 PP
+Females only	Tolbi Springs	GS
+Spirit Armor	Spirit Armor	Armor	4000	32	15 Star mercury RES
+15 Star mars RES
+15 Star venus RES
+15 Star jupiter RES
+Tolbi springs	GS
+Wild Coat	Wild Coat	Clothing	4000	37	40 AGI	Lemuria springs	TLA
+Plate Mail	Plate Mail	Armor	4400	33	N/A	Shop	Both
+Planet Armor	Planet Armor	Armor	4800	36	10 Star mercury POWER
+10 Star jupiter POWER
+10 Star mars POWER
+10 Star venus POWER
+Forge	TLA
+Steel Armor	Steel Armor	Armor	4900	36	N/A	Shop	Both
+Phantasmal Mail	Phantasmal Mail	Armor	5800	38	7 Luck
+Use to delude	Chest	TLA
+Muni Robe	Muni Robe	Robe	6300	39	10 HP regen
+Chest	TLA
+Floral Dress	Floral Dress	Clothing	6600	38	Female only
+Use to induce Sleep	Lemuria Springs	TLA
+Ninja Garb	Ninja Garb	Clothing	6900	36	10 AGI
+10 Star jupiter RES
+Chest	GS
+Faery Vest	Faery Vest	Clothing	6900	38	Use to heal 200 HP	Forge	TLA
+Blessed Robe	Blessed Robe	Robe	7000	36	5 HP regen	Artifact	Both
+Dragon Robe	Dragon Robe	Robe	8900	42	18 Star mercury RES
+18 Star mars RES	Forge	TLA
+Magical Cassock	Magical Cassock	Robe	9000	39	2 PP regen	Artifact	Both
+Erebus Armor	Erebus Armor	Armor	9000	43	6 HP regen	Lemuria Springs	TLA
+Dragon Mail	Dragon Mail	Armor	9700	44	15 Star mars RES
+15 Star mercury RES	Forge	TLA
+Storm Gear	Storm Gear	Clothing	9800	42	30 Star mars RES
+30 Star mercury RES
+30 Star jupiter RES	Chest	GS
+Ardagh Robe	Ardagh Robe	Robe	9900	44	20 Star mars POW
+40 Star mars RES	Forge	TLA
+Erinyes Tunic	Erinyes Tunic	Clothing	10400	44	5 ATK
+10% Unleash	Chest	TLA
+Aeolian Cassock	Aeolian Cassock	Robe	11400	46	15 Star jupiter POW
+50 Star jupiter RES	Drop	TLA
+Chronos Mail	Chronos Mail	Armor	13100	47	20 HP	Forge	TLA
+Oracles Robe	Oracle's Robe	Robe	13500	43	10 HP regen
+40 Star mercury RES
+Females only	Chest	GS
+Spiked Armor	Spiked Armor	Armor	14000	34	10 ATK
+6% Unleash	Drop	GS
+Feathered Robe	Feathered Robe	Robe	14000	45	30 AGI
+20 Star jupiter POW
+30 Star jupiter RES	Drop	Both
+Stealth Armor	Stealth Armor	Armor	14000	48	-10 Star venus RES
+Cursed	Forge	TLA
+Mythril Clothes	Mythril Clothes	Clothing	14900	49	15% Unleash	Forge	TLA
+Asuras Armor	Asura's Armor	Armor	15000	42	5 ATK
+8 HP regen	Chest	GS
+Iris Robe	Iris Robe	Robe	16600	47	15 Luck
+12 PP regen
+30 Star mars RES	Chest	TLA
+Dragon Scales	Dragon Scales	Armor	17000	44	30 Star mars RES
+30 Star mercury RES	Chest	GS
+Demon Mail	Demon Mail	Armor	17000	50	-10 Star jupiter RES
+Cursed	Chest	GS
+Tritons Ward	Triton's Ward	Clothing	21600	47	70 Star mercury RES
+30 Star mercury POW	Drop	TLA
+Xylion Armor	Xylion Armor	Armor	22500	50	12 ATK	Forge	TLA
+Valkyrie Mail	Valkyrie Mail	Armor	25500	53	20% Unleash	Chest	TLA
+Mysterious Robe	Mysterious Robe	Robe	36500	48	20 HP regen
+10 PP regen
+Artifact	TLA
+
+Hand Armor
+The following is a list of all items that can be equipped in the Hand Armor slot of an Adept's equipment. Ivan, Mia, Jenna and Sheba can equip bracelets. Isaac, Garet, Felix and Piers can equip shields. Gloves are available to all Adepts.
+
+Icon	Equipment name	Type	Value	DEF	Other	Obtainable	Game
+Padded Gloves	Padded Gloves	Glove	10	2	N/A	Shop	Both
+Wooden Shield	Wooden Shield	Shield	40	6	N/A	Shop	Both
+Leather Armlet	Leather Armlet	Bracelet	180	7	N/A	Shop	Both
+Leather Gloves	Leather Gloves	Glove	220	10	N/A	Shop	Both
+Bronze Shield	Bronze Shield	Shield	500	14	N/A	Shop	Both
+Armlet	Armlet	Bracelet	900	17	N/A	Shop	Both
+Iron Shield	Iron Shield	Shield	1200	20	N/A	Shop	Both
+Fujin Shield	Fujin Shield	Shield	1400	23	50 Star jupiter RES
+Chest	TLA
+Gauntlets	Gauntlets	Glove	1600	23	N/A	Shop	Both
+Vambrace	Vambrace	Glove	1800	27	5 ATK	Chest	GS
+Heavy Armlet	Heavy Armlet	Bracelet	2000	25	N/A	Shop	Both
+Battle Gloves	Battle Gloves	Glove	2100	26	8 ATK	Tolbi Springs	GS
+Dragon Shield1	Dragon Shield	Shield	2400	26	30 Star mars RES
+Chest	GS
+Guardian Armlet	Guardian Armlet	Bracelet	2600	27	Use to bolster DEF	Tolbi Springs	GS
+Knights Shield	Knight's Shield	Shield	3000	28	N/A	Shop	Both
+Bone Armlet	Bone Armlet	Bracelet	3000	30	Use to haunt	Chest	TLA
+Clear Bracelet	Clear Bracelet	Bracelet	3500	31	25 Star mercury POW
+Forge	TLA
+Luna Shield	Luna Shield	Shield	3900	33	30 Star venus RES
+Forge	TLA
+Silver Armlet	Silver Armlet	Bracelet	4000	30	N/A	Shop	Both
+War Gloves	War Gloves	Glove	4000	32	10 ATK	Artifact	Both
+Earth Shield	Earth Shield	Shield	4100	31	20 Star venus RES
+Use to heal 150 HP	Tolbi Springs	GS
+Crafted Gloves	Crafted Gloves	Glove	4600	35	5 ATK	Lemuria Springs	TLA
+Jesters Armlet	Jester's Armlet	Bracelet	5100	39	30 PP	Chest	TLA
+Spirit Gloves1	Spirit Gloves	Glove	5200	34	5 Star jupiter POW
+5 Star mars POW
+5 Star mercury POW
+5 Star venus POW
+Chest	GS
+Mirrored Shield	Mirrored Shield	Shield	5200	39	Use to delude	Artifact	Both
+Aerial Gloves	Aerial Gloves	Glove	5400	37	20 Star jupiter POW
+Forge	TLA
+Ledas Bracelet	Leda's Bracelet	Bracelet	5800	38	30 Star jupiter POW
+Lemuria Springs	TLA
+Aura Gloves	Aura Gloves	Glove	6500	36	Use to boost RES	Drop	Both
+Aegis Shield	Aegis Shield	Shield	6700	41	10% Unleash	Lemuria Springs	TLA
+Virtuous Armlet	Virtuous Armlet	Bracelet	7000	35	10 Star mars POW
+10 Star jupiter POW
+Use to heal 100HP	Chest	GS
+Spirit Gloves2	Spirit Gloves	Glove	7200	40	20 PP	Chest	TLA
+Dragon Shield2	Dragon Shield	Shield	7400	42	15 Star mars RES
+15 Star mercury RES
+Forge	TLA
+Titan Gloves	Titan Gloves	Glove	8100	43	30 HP	Forge	TLA
+Flame Shield	Flame Shield	Shield	8600	44	60 Star mars RES
+Forge	TLA
+Spirit Armlet	Spirit Armlet	Bracelet	9000	38	10 Star venus POW
+10 Star mercury POW
+Use to emulate restore	Artifact	Both
+Mythril Armlet	Mythril Armlet	Bracelet	9700	46	10% Unleash	Forge	TLA
+Big Bang Gloves	Big Bang Gloves	Glove	10200	47	40 Star mars POW
+Forge	TLA
+Riot Gloves	Riot Gloves	Glove	10400	45	15 ATK
+20% Unleash	Drop	TLA
+Terra Shield	Terra Shield	Shield	11200	48	5 ATK
+Cursed	Forge	TLA
+Cosmos Shield	Cosmos Shield	Shield	12200	49	20 Star mars RES
+20 Star mercury RES
+20 Star venus RES
+20 Star jupiter RES
+Forge	TLA
+
+Head Armor
+The following is a list of all items that can be equipped in the Head Armor slot of an Adept's equipment. Ivan, Mia, Jenna and Sheba can equip circlets. Isaac, Garet, Felix and Piers can equip helms. Hats, crowns, and masks (sorted under "hats" for navigational purposes) are available to all Adepts.
+
+Icon	Equipment name	Type	Value	DEF	Other	Obtainable	Game
+Leather Cap	Leather Cap	Hat	30	3	N/A	Shop	Both
+Circlet	Circlet	Circlet	120	6	N/A	Shop	Both
+Open Helm	Open Helm	Helm	180	9	N/A	Shop	Both
+Wooden Cap	Wooden Cap	Hat	400	10	N/A	Shop	Both
+Bronze Helm	Bronze Helm	Helm	600	14	N/A	Shop	Both
+Nurses Cap	Nurse's Cap	Hat	1200	18	Use to restore 70 HP
+Females only	Chest	TLA
+Silver Circlet	Silver Circlet	Circlet	1300	16	N/A	Shop	Both
+Clarity Circlet	Clarity Circlet	Circlet	1500	21	15 Star jupiter POW
+Chest	TLA
+Iron Helm	Iron Helm	Helm	1600	20	N/A	Shop	Both
+Mail Cap	Mail Cap	Hat	2000	23	N/A	Shop	Both
+Ninja Hood	Ninja Hood	Hat	2800	28	20 AGI	Tolbi Springs	GS
+Lure Cap	Lure Cap	Hat	3000	20	Increases random encounter rate	Event	GS
+Steel Helm	Steel Helm	Helm	3100	27	N/A	Shop	Both
+Thorn Crown	Thorn Crown	Hat	3300	28	8 ATK	Chest	TLA
+Guardian Circlet	Guardian Circlet	Circlet	3400	25	N/A	Shop	Both
+Glittering Tiara	Glittering Tiara	Circlet	3600	27	Protects wearer from delusion
+Use to delude
+Females only	Tolbi Springs	GS
+Adepts Helm	Adept's Helm	Helm	3700	29	x1.2 PP	Tolbi Springs	GS
+Pure Circlet	Pure Circlet	Circlet	3700	29	20 Star mercury POW
+Forge	TLA
+Silver Helm	Silver Helm	Helm	3900	30	N/A	Shop	Both
+Otafuku Mask	Otafuku Mask	Hat	3900	31	Use to attack
+Females only	Drop	TLA
+Viking Helm	Viking Helm	Helm	4000	30	30 Star mercury RES
+Chest	TLA
+Jeweled Crown	Jeweled Crown	Hat	4000	35	5 Luck	Artifact	Both
+Platinum Circlet	Platinum Circlet	Circlet	4200	29	N/A	Shop	Both
+Prophets Hat	Prophet's Hat	Hat	4600	30	Use to inflict Death Curse	Drop	Both
+Astral Circlet	Astral Circlet	Circlet	4600	32	15 PP	Forge	TLA
+Knights Helm	Knight's Helm	Helm	4600	33	N/A	Shop	Both
+Lucky Cap	Lucky Cap	Hat	5200	33	2 PP regen
+8% Unleash	Chest	GS
+Floating Hat	Floating Hat	Hat	5700	34	20 Star jupiter RES
+x1.2 Luck	Forge	TLA
+Brilliant Circlet	Brilliant Circlet	Circlet	6100	36	10 Luck	Lemuria Springs	TLA
+Hiotoko Mask	Hiotoko Mask	Hat	6600	33	Use to attack
+Males only	Drop	TLA
+Mythril Circlet	Mythril Circlet	Circlet	7000	34	3 PP regen	Chest	GS
+Crown of Glory	Crown of Glory	Hat	7400	40	8 PP regen	Lemuria Springs	TLA
+Thunder Crown	Thunder Crown	Hat	7500	40	4 PP regen
+Cursed	Chest	GS
+Minerva Helm	Minerva Helm	Helm	8700	43	20 PP	Lemuria Springs	TLA
+Psychic Circlet	Psychic Circlet	Circlet	8800	39	12 PP regen	Forge	TLA
+Dragon Helm	Dragon Helm	Helm	8900	42	20 Star mercury RES
+20 Star mars RES
+Forge	TLA
+Warriors Helm	Warrior's Helm	Helm	10000	35	10 Star venus POW
+10% Unleash	Chest	GS
+Mythril Helm	Mythril Helm	Helm	11400	44	12% Unleash	Forge	TLA
+Millenium Helm	Millenium Helm	Helm	11400	45	20 HP	Forge	TLA
+Alastors Hood	Alastor's Hood	Hat	11800	47	Use to emulate Condemn	Chest	TLA
+Fear Helm	Fear Helm	Helm	12800	48	10 ATK
+Cursed	Forge	TLA
+Berserker Band	Berserker Band	Circlet	13700	46	15 ATK	Drop	TLA
+Gloria Helm	Gloria Helm	Helm	13800	49	10 HP regen	Drop	TLA
+Demon Circlet	Demon Circlet	Circlet	15800	50	15% Unleash
+Cursed	Forge	TLA
+
+Shirts
+The following is a list of all items that can be equipped in the Shirt slot of an Adept's equipment. All Adepts can equip shirts. Note that Shirts and Clothes--despite their similar names--are equipped in different slots; Shirts have their own slot, while Clothes are equipped in the Body Armor slot.
+
+Icon	Equipment name	Type	Value	DEF	Other	Obtainable	Game
+Casual Shirt	Casual Shirt	Shirt	50	3	5 HP regen	Unobtainable	N/A
+Running Shirt	Running Shirt	Shirt	400	1	15 AGI	Lucky Wheels	Both
+Silk Shirt	Silk Shirt	Shirt	1800	6	1 Luck
+Females only	Lucky Wheels	Both
+Herbed Shirt	Herbed Shirt	Shirt	1900	7	Use to recover 50 HP	Unobtainable	N/A
+Golden Shirt	Golden Shirt	Shirt	2400	12	10 HP	Event	TLA
+Divine Camisole	Divine Camisole	Shirt	2700	10	5 Luck
+Females only	Unobtainable	N/A
+Mythril Shirt	Mythril Shirt	Shirt	2900	10	5 HP	Lucky Wheels	Both
+
+Boots
+The following is a list of all items that can be equipped in the Boots slot of an Adept's equipment. All Adepts can equip boots.
+
+Icon	Equipment name	Type	Value	DEF	Other	Obtainable	Game
+Turtle Boots	Turtle Boots	Boots	600	3	x0.5 AGI	Chest	both
+Fur Boots	Fur Boots	Boots	1200	2	10 Star mercury RES
+Lucky Wheels	both
+Quick Boots	Quick Boots	Boots	2100	3	20 AGI	Lucky Wheels	both
+Hyper Boots	Hyper Boots	Boots	2400	4	12% Unleash	Lucky Wheels	both
+Leather Boots	Leather Boots	Boots	270	6	N/A	Shop	TLA
+Safety Boots	Safety Boots	Boots	700	12	x0.7 AGI	Artifact	TLA
+Ninja Sandals	Ninja Sandals	Boots	2000	5	15% Unleash	Unobtainable	N/A
+Knights Greave	Knight's Greave	Boots	2700	8	5 HP	Unobtainable	N/A
+Silver Greave	Silver Greave	Boots	3800	11	4 Luck	Unobtainable	N/A
+Dragon Boots	Dragon Boots	Boots	4200	12	10 Star mercury RES
+10 Star venus RES
+10 Star mars RES
+Forge	TLA
+Golden Boots	Golden Boots	Boots	4400	15	30 AGI	Event	TLA
+
+A Note on Rings
+All Rings are equippable by all Adepts, but only the following two rings have active effects when equipped. See this page for details on rings.
+
+Icon	Equipment name	Type	Value	DEF	Other	Obtainable	Game
+Guardian Ring	Guardian Ring	Ring	1700	4	20 HP	Chest	TLA
+Clerics Ring	Cleric's Ring	Ring	6400	N/A	Removes side-effects of cursed equipment	Chest	GS
