@@ -1,0 +1,32 @@
+Mars Djinn in Golden Sun
+Name	Statistics change when set	Action when used in battle	Location
+Forge	HP +10
+Attack +2
+Agility +2
+Luck +2
+Increases all currently active party members' Attack ratings by 25%.	Fought and earned in Goma Cave. Earlier on, press an earth pillar right and up into a circular indentation in the ground so that later you can hop to Forge's elevated position.
+Fever	HP +8
+Attack +3
+Agility +2
+Deals a Mars-aligned physical attack equal in power to the user's normal physical attack with an additional 30 damage points added to the result, and there is a chance that the target will be afflicted with the Delusion status condition.	Acquired in Imil Falls Cave, which is reached by sliding a snowman at the top of the town to the left so that it falls onto an ice river, providing a necessary bump for when you slide along the ice river towards the cave.
+Corona	HP +12
+PP +3
+Defense +3
+Luck +1
+Increases all currently active party members' Defense ratings by 25%.	Fought and earned by random overworld monster encounter in Angara, at the contained end of a vertical stretch of land parallel to the Mogall Forest region and north of Xian.
+Scorch	HP +8
+Attack +3
+Deals a Mars-aligned physical attack equal in power to the user's normal physical attack with an additional 50 damage points added to the result, and there is a chance that the target will be afflicted with the Stun status condition.	Acquired in Kalay Tunnel, near where you enter the tunnel from the entrance obscured by a movable statue at the upper right end of the town of Kalay. Inside, push the statue left to cork up the falling water and drain the lake, letting you climb to Scorch.
+Ember	HP +9
+PP +4
+Defense +2
+Agility +2
+Restores all currently active party members' PP meters by 7% of their respective maximum PP meters.	Acquired in the upper-right of the main screen of the town of Tolbi. From the bottom entrance, go right and up and cast Growth on a plant, then climb up and cast Frost on the puddle. Reenter through the town's bottom entrance and use the ice pillar to hop to Ember.
+Flash	HP +14
+PP +3
+Defense +2
+Decreases all damage done to all party members by 90% for the current turn. Acts with increased priority.	Fought and earned in the second, later screen of Suhalla Desert. Before the part where you climb off the rocky terrain onto the sand below, cast the Reveal Psynergy to the left of that and hop across an otherwise invisible earth pillar, which brings you to where Flash is.
+Torch	HP +9
+Attack +3
+Luck +1
+Deals a Mars-aligned physical attack equal in power to the user's normal physical attack with an additional 30 damage points added to the result; when the attack hits, there is a chance that 50% of the target's Defense rating will be ignored.	Acquired on a rooftop to the upper left of the town of Lalivero. It is reached by entering the weapon and armor shop to the lower right, climbing the ladder, jumping onto the wall that comprises the town's perimeter, and walking along the wall's perimeter counter-clockwise until you can jump onto the roofs of Torch's building.

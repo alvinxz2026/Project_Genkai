@@ -1,0 +1,31 @@
+Venus Djinn in Golden Sun
+Name	Statistics change when set	Action when used in battle	Location
+Flint	HP +8
+PP +4
+Attack +3
+Deals a Venus-aligned physical attack 160% of the power of the user's normal physical attack.	Automatically acquired once you leave Vale and enter the overworld for the first time.
+Granite	HP +9
+Defense +2
+Agility +2
+Luck +1
+Decreases all damage done to all party members by 50% for the current turn. Acts with increased priority.	Acquired in Kolima, in a fenced-in area reached from the inside by going into a secret back door behind the treehouse to its left and traversing a short underground path.
+Quartz	HP +10
+PP +3
+Agility +3
+Targeted downed ally has a 50% chance to be revived and their HP restored to 50% of their maximum HP meter.	Fought and earned late in Mogall Forest.
+Vine	HP +12
+PP +4
+Defense +3
+Luck +1
+Lowers all enemies' Agility ratings down to 50%, the minimum possible modifier value Agility can be lowered down to.	Fought and earned by random overworld monster encounter in a small region in Angara just west of the exit to Lamakan Desert on a round island. Alternatively, the random encounter can happen north of the exit on a brown stripe of land near the end of a path between the river and the mountains.
+Sap	HP +10
+Attack +3
+Luck +1
+Deals a Venus-aligned physical attack equal in power to the user's normal physical attack with an additional 50 damage points added to the result, and the user's HP meter is restored by an amount equal to 50% of the damage dealt. If the target dies, the user's HP is restored by half of the target's health before the attack.	Acquired in Vault. First, ring the town bell to make Sap hop to the exit of the Vault Cave optional dungeon, then traverse and complete Vault Cave, whereupon you reach Sap as your "prize".
+Ground	HP +9
+PP +3
+Agility +3
+Prevents the target from performing one of its actions this turn. Acts with increased priority.	Acquired in Kalay Docks. Located on the top side of an impassable mound of dirt, it can only be reached by entering Kalay Docks from the top end of the overworld map.
+Bane	HP +12
+Attack +4
+Deals a Venus-aligned physical attack equal in power to the user's normal physical attack with an additional 60 damage points added to the result, and there is a chance that the target will be afflicted with the Deadly Poison status condition.	Acquired in the sixth floor of Crossbone Isle. The entire room is a puzzle-like maze which must be solved both to pass the room and to reach Bane, and the Halt Psynergy is necessary to collect it.

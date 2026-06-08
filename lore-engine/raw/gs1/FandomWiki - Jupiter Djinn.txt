@@ -1,0 +1,31 @@
+Jupiter Djinn in Golden Sun
+Name	Statistics change when set	Action when used in battle	Location
+Gust	HP +9
+Attack +2
+Agility +2
+Deals a Jupiter-aligned physical attack equal in power to the user's normal physical attack with an additional 10 damage points added to the result, and there is a chance that the resultant damage dealt will be doubled.	Acquired in Bilibin, in the secret underground warehouse. It is properly reached by walking clockwise on the town's perimeter, entering a cave entrance, and casting Move on a statue against the wall to move it downward so you can hop behind it to Gust.
+Breeze	HP +12
+PP +5
+Defense +2
+Luck +1
+Increases all currently active party members' Resistance ratings by 40 each.	Fought and earned in the Tret Tree "dungeon", in the upper right edge of the large, exterior "branch maze" screen.
+Zephyr	HP +11
+PP +3
+Agility +2
+Luck +1
+Increases all currently active party members' Agility ratings up to 100%, the maximum possible modifier value Agility can be raised up to.	Fought and earned in Fuchin Falls Cave, at the bottom of a vertical hallway with water and rolling logs.
+Smog	HP +9
+Attack +3
+Deals a Jupiter-aligned physical attack equal in power to the user's normal physical attack with an additional 60 damage points added to the result, and there is a chance that the target will be afflicted with the Delusion status condition.	Acquired in the second, large screen of Lamakan Desert, hidden in the left of two conjoined circles of stones shortly north and west of where you enter the screen from. It is invisible and unobtainable unless the Reveal Psynergy is used.
+Kite	HP +8
+PP +4
+Agility +3
+Causes the targeted Adept to take two actions next turn instead of one.	Acquired in the optional dungeon Vale Cave. After acquiring the Halt Psynergy right before Kite, chase it down to a series of stones where it will avoid you by moving opposite your position at all times. Cast Halt when you are parallel to it to make it immobile.
+Squall	HP +10
+Attack +5
+Deals a Jupiter-aligned physical attack 140% of the power of the user's normal physical attack, and there is a chance that the target will be afflicted with the Stun status condition.	Fought and earned in Altmiller Cave, in a room that is properly lit up and has a rolling stone pillar puzzle placed to block your way to the Djinni. The solution involves making use of the lone puddle and the Frost Psynergy.
+Luff	HP +11
+PP +5
+Defense +2
+Luck +1
+Seals the target's Psynergy with full accuracy.	Fought and earned in Babi Lighthouse. The isolated platform it resides on must be jumped down onto from the room above using the slide only accessible from the second, "hidden" entrance into the main structure.

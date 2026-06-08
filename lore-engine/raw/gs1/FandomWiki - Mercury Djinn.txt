@@ -1,0 +1,32 @@
+Mercury Djinn in Golden Sun
+Name	Statistics change when set	Action when used in battle	Location
+Fizz	HP +9
+PP +4
+Defense +3
+Restores a targeted party member's HP meter by 60% of their maximum HP meter.	Already in Mia’s possession when she joins your party in Mercury Lighthouse.
+Sleet	HP +12
+Attack +3
+Luck +1
+Deals a Mercury-aligned physical attack equal in power to the user's normal physical attack with an additional 30 damage points added to the result, and there is a chance that the target's Attack rating will be lowered by 25%.	Fought and earned in Mercury Lighthouse, in a secret, hidden room accessible from a hallway with many waterfall walls you ordinarily walk past. To enter the room, you must press up against the center of the correct waterfall wall; might as well press up against every waterfall wall in the dungeon to ensure you don't miss Sleet.
+And You can found in Prox (golden sun 2 : the lost age), in the Puelle's house.
+
+Mist (Djinni)	HP +11
+Attack +4
+Deals a Mercury-aligned physical attack 130% of the power of the user's normal physical attack, and there is a chance that the target will be afflicted with the Sleep status condition.	Acquired in Xian; you must talk to a woman patrolling in the northeastern part of town so that she drops a bucket of water and creates a Frost-able puddle on the ground. Time your talk when she is one tile away from the brown door to the right so that the puddle may be close enough that its ice pillar serves as a stepping stone to Mist's elevated position.
+Spritz	HP +8
+PP +4
+Agility +3
+Restores all currently active party members' HP meters by 30% of their respective maximum HP meters.	Fought and earned in the bottom quadrant of Altin Peak, in a room where a mine cart track's direction at a fork must be redirected and a mine cart must be ridden in order to get to the Djinni's elevated position.
+Hail	HP +9
+Attack +4
+Luck +1
+Deals a Mercury-aligned physical attack equal in power to the user's normal physical attack with an additional 40 damage points added to the result, and there is a chance that the target's Defense rating will be lowered by 25%.	Fought and earned by random overworld monster encounter in Gondowan, in the forested stretch of area southwest of Altmiller Cave and separated from the rest of the explorable area by a river.
+Tonic	HP +8
+PP +3
+Defense +2
+Luck +2
+Heals all status ailments from all currently active party members.	Acquired in the optional Lunpa Fortress only after defeating Toadonpa, bringing Hammet back out to Kalay, and reentering Lunpa Fortress later. Sneak back to Donpa's room and in a cutscene he will allow you access to a neighboring room where Tonic waits to be collected.
+Dew	HP +13
+PP +4
+Agility +4
+Targeted downed ally has an 80% chance to be revived and their HP meter restored to 80% of their maximum HP meter.	Fought and earned in the third screen of Suhalla Gate; to reach its elevated position at the bottom of a cliff, drop down the third cliff slide from the left.

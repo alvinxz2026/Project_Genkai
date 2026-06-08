@@ -1,0 +1,969 @@
+           @@@@@@@@   @@@@@@   @@@       @@@@@@@   @@@@@@@@  @@@  @@@  
+          @@@@@@@@@  @@@@@@@@  @@@       @@@@@@@@  @@@@@@@@  @@@@ @@@  
+          !@@        @@!  @@@  @@!       @@!  @@@  @@!       @@!@!@@@  
+          !@!        !@!  @!@  !@!       !@!  @!@  !@!       !@!!@!@!  
+          !@! @!@!@  @!@  !@!  @!!       @!@  !@!  @!!!:!    @!@ !!@!  
+          !!! !!@!!  !@!  !!!  !!!       !@!  !!!  !!!!!:    !@!  !!!  
+          :!!   !!:  !!:  !!!  !!:       !!:  !!!  !!:       !!:  !!!  
+          :!:   !::  :!:  !:!   :!:      :!:  !:!  :!:       :!:  !:!  
+          ::: ::::  ::::: ::   :: ::::   :::: ::   :: ::::   ::   ::  
+           :: :: :    : :  :   : :: : :  :: :  :   : :: ::   ::    :   
+
+                                                             
+
+                              
+
+                         @@@@@@   @@@  @@@  @@@  @@@  
+                        @@@@@@@   @@@  @@@  @@@@ @@@  
+                        !@@       @@!  @@@  @@!@!@@@  
+                        !@!       !@!  @!@  !@!!@!@!  
+                        !!@@!!    @!@  !@!  @!@ !!@!  
+                         !!@!!!   !@!  !!!  !@!  !!!  
+                             !:!  !!:  !!!  !!:  !!!  
+                            !:!   :!:  !:!  :!:  !:!  
+                        :::: ::   ::::: ::   ::   ::  
+                        :: : :     : :  :   ::    : 
+
+
+                              Golden Sun
+                               Boss FAQ
+                 Written by: LinkTheValiant (J. L. Garber)
+                             (C) 2003-2004
+                              Version 1.03
+
+******************************************************************************
+                            VERY IMPORTANT!!!
+******************************************************************************
+Do NOT copy this guide and pass it off as your work. Do NOT post this guide on
+your site without asking my permission. This guide may ONLY be hosted by
+GameFAQS.com
+This guide is my own work and as such is the sole intellectual property of
+LinkTheValiant.
+******************************************************************************
+
+******************************************************************************
+
+
+Welcome to the Golden Sun Boss FAQ. This guide is specific to answering boss-
+related questions about Golden Sun. Please realize that I do not refrain from
+spoilers in this guide.
+
+If you need to find something specific in the guide, press Control-F to search
+for what you need. If you have searched the FAQ for a boss-related (NOT
+general) topic and can't find it, feel free to e-mail me at the address given
+below in the section "Contacting Me".
+Put "Golden Sun" in the topic, or your message may be deleted before I see it.
+
+This guide was created using Notepad with a width of 79 characters and 12
+point Courier New font at a resolution of 1024 by 768. If the formatting is
+messed up, it's probably your computer, not me. =)
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+                               i  Version Information
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+You can always find the latest version of this guide at GameFAQS and nowhere
+else. If you find this somewhere else, please notify me.
+
+Version 1.0 (5/12/04)
+The first version of the guide is complete. All the fights have been covered,
+and my personal strategies are all recorded. As yet I have not covered most
+mixed classes, which will be put in at a later time.
+
+Version 1.01 (6-2-04)
+Just a few minor things. Fixed the duplicate email addresses. Added the summon
+rush to the Deadbeard fight as per KK's suggestion. Also added a few credits.
+
+Version 1.02 (6-28-04)
+Minor updates. Added the fact that the Kraken has the psynergy attack Drench.
+
+Version 1.03 (1-26-05)
+After 7 months of stagnation, I finally get my lazy rear end to the computer
+and update again. Minor things as usual, with a new Deadbeard tactic added.
+Tret's HP have been fixed. I also got the version number at the top fixed.
+
+Version 1.04 (1-5-06)
+Yes, I'm lazy. More minor things, and I got some really cool ASCII art. To all
+those who e-mailed me during this time, I think I got all of your input placed
+If you feel that I rejected your input in error, please e-mail me and I'll
+either apologize for overlooking it or explain why I didn't place it.
+######################
+Table of contents
+######################
+i  Version Information
+1. General tips
+2. Boss Guide
+      Definitions of terms
+      A. The Bandits
+      B. Tret Tree
+      C. Saturos
+      D. The Killer Ape
+      E. The Hydros Statue
+      F. The Manticore
+      G. The Kraken
+      H. The Colloso Fighters
+      I. Toadonpa
+      J. The Storm Lizard
+      K. DeadBeard
+      L. The Tempest Lizard
+      M. Saturos and Menardi
+      N. The Fusion Dragon
+3. Frequently Asked Questions
+4. Credits
+5. "Wanted" section.
+6. Contacting me
+7. Legal information
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+                                1. General tips
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+This section is simply a collection of useful ideas and hints that can be
+helpful in the boss fights.
+
+1. Use power boosts:
+     One of the character statistics that plays a large role in the damage and
+     effectiveness of character psynergy and summons
+     is the Elemental Power of the character. The higher the elemental power,
+     the more damage/effectiveness that character's psynergy and summons will
+     have. In battle, you can increase your characters' power by having them 
+     summon. If you are fighting in base classes, you should have everyone 
+     summon in his own class type. This way, each character will receive a 
+     power boost when he summons. This will help not only with psynergy but it
+     will also power up any other summons of that element that that character 
+     performs afterward.
+
+2. Tying in with number 1, use support psynergy on your party. A fully powered
+     -up character can withstand much more than a charcter at base power.
+
+3. Try not to have your characters downed at any time.
+     You may think that this goes without saying, but it is important. If you
+     allow a character to be downed, he will lose all status enhancements he's
+     gained up to this point. (Attack, resistance, power, etc.) This can be a
+     significant factor in the outcome of battles. Also, if a character is
+     down at the end of a battle, he will not receive any of the experience
+     gained from the battle.
+
+4. (Thanks to Hyrulian Jedi for bringing this to my attention, even if he does
+     not know that he did =)) Use status ailments on the bosses that can be 
+     affected by them. This can be a key to the win. Cause the Manticore to
+     sleep for two rounds, or infect the Storm Lizard with deadly poison, and
+     the win will come quickly.
+
+==============================================================================
+                                 2. Boss Guide
+==============================================================================
+
+Quick note: Most fights will be in base classes as most of the available
+classes are useless in the early part of the game. If not otherwise noted, the
+fight is in base classes [each character has his elemental djinn (Venus for
+Isaac, Mars for Garet, etc.)] Also, unless otherwise noted in the strategy
+section, all djinn are assumed to be on set.
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                         Definitions of terms
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+HP: Abbreviation of Hit Points
+PP: Abbreviation of Psy Points
+Physical attack: An attack that does not use PP
+Base classes: Each character has his elemental djinn (Venus for Isaac, Mars
+for Garet, etc.)
+Status ailment: A condition such as sleep, delusion, stun, or poison. Usually
+these ailments can be cleared up with in-battle psynergy.
+Turn: A complete round of attacks. (I.E, when the pre-battle screen comes up.)
+
+Unless otherwise noted, psynergy that the bosses use is attack psynergy.
+
+______________________________________________________________________________
+                         Boss fight A: The Bandits
+______________________________________________________________________________
+
+You meet the bandits in the loft of the Vault inn. They do not possess any
+truly devastating attacks, but there are three of them.  They are weak against
+all elements.
+This is not a "boss fight" if you want to be technical about it, but I still
+consider it to be one in much the same way that I consider the Mace Knight in
+Hyrule Castle in LoZ:LttP to be one.
+
+HP: Thief1:~100 Bandit:~260 Thief2:~100
+PP: No
+
+Strategy: Have Ivan use psynergy on the bandits each turn, focusing on the one
+in the middle. Have Isaac unleash and then summon with Flint, or heal if some-
+one needs it. Garet can attack or use psynergy as you see fit.
+The bandits have herbs which they will use on one another as the battle pro-
+gresses, and and they have a habit of using smoke bombs. They will also
+unleash critical hits of their own from time to time. When you defeat them you
+will be rewarded with 50 some experience and the Bandit's sword, which
+unleashes Rapid Smash.
+
+______________________________________________________________________________
+                        Boss fight B: Tret Tree
+______________________________________________________________________________
+
+You find Tret in the base of the tree. He will say a few words about being in
+the heart of his power, and then you will go to the battle screen. But what's
+this? The music is different! Uh-oh, that means he's super-powerful, right?
+Wrong! He has 710 hit points and no powerful attacks
+
+HP: ~710
+PP: Yes
+Attacks: Normal attack. Targets one party member.
+         Thorn.  A Venus psynergy that targets three party members.
+         Growth. A Venus psynergy that targets one party member.
+         Quake.  A Venus psynergy that targets three party members.
+         Sleep Star. A physical attack that targets three party members. Does
+                no damage, but has the possibility of sleeping the targets.
+Weakness: Mars
+Recommended level: 7
+Class setup: Base classes.
+
+To start the battle have Ivan's Djinn on set to increase his HP and PP. He can
+unleash or use psynergy as you see fit. Have Isaac and Garet start the battle
+with their Djinn on standby so that they can summon right off. After this,
+have all characters use psynergy on Tret. If you wish, you can attack with
+Isaac and Garet's Djinn again, and then summon. Or, if you wish to have higher
+stats, simply attack and use psynergy. Tret will go down easily in the first
+few turns.
+You will be rewarded with 226 experience, 700 coins, and a psy crystal.
+______________________________________________________________________________
+                            Boss fight C. Saturos
+______________________________________________________________________________
+
+You find Saturos on top of Mercury Lighthouse. He defeated you once before in 
+the game, so you know he's tough. Luckily, this is Mercury Lighthouse, so his
+"power is bound by the light of Mercury." (Quoted from the game.) This means
+that he does not have access to the level 3 Mars psynergies for this battle.
+Don't let this make you think that he's a pushover, however. He is far more
+difficult than Tret was.
+
+HP: ~1,200
+PP: Yes
+Attacks: Normal attack. Targets 1 party member.
+         Fireball. Level 2 Mars psynergy that targets five party members.
+         Eruption. Level 2 Mars psynergy that targets three party members.
+         Heat flash. Physical attack that targets one party member. Carries
+                with it the chance of deluding the target.
+Weakness: Mercury
+Recommended level: 10
+Class setup: Base classes
+Special: Saturos is a human adept. He is invulnerable to status ailments. 
+
+Before the battle, have Isaac and Garet put their non attacking djinn on
+standby. Ivan should have his djinn set to boost his stats, and Mia should
+have her djinn set for unleashing.
+Isaac and Garet each unleash their attacking djinn, and then use level 2
+summons. Ivan can unleash Gust and then summon, but he is the weak link, and
+conservative players will simply use his psynergy. Mia is crucial, as she is
+the healer. At the start of battle, she can use an attacking psy, which, being
+Mercury, will be strong against the fire enemy. After this, she will most
+probably be healing each turn. Isaac may have to help here, too.
+After the summons, have the characters use psynergy while waiting for their
+djinn to be reset.
+Depending on how well you stood up to the first few attacks, you may or may
+not want to continue with Isaac and Garet unleashing/summoning djinn. If you
+really need a moment's peace, use Granite, which will halve damage that you
+take on that turn.
+You will be rewarded with about 531 experience and 750 coins in addition to a
+psy crystal.
+
+______________________________________________________________________________
+                            Boss fight D. The Killer Ape
+______________________________________________________________________________
+
+You find the killer ape in Mogall Forest, after following his tiny counterpart
+through the woods. He is what I like to call a "dumb" boss, as status ailments
+can affect him easily.
+
+HP: ~1,500
+PP: Yes, although it's very rudimentary.
+Attacks: Normal attack. Targets one party member.
+         Debilitate. Mars psynergy that has a possibility of lowering defense.
+                It targets three party members and does no damage.
+         Ransack. Physical attack. Does greater damage than normal attack.
+                It targets one party member.
+         Douse. Level 1 Mercury psynergy that targets three party members.
+         Bind. Jupiter Psynergy that has the possibility of blocking the 
+                psynergy of the target but does no damage. Targets one party 
+                member.
+         War cry. Physical attack that has the possibility of disabling the 
+                the target for that turn, The target can act again the next 
+                turn. Targets one party member.
+Weakness: Mars
+Recommended level: 13
+Class setup: Base classes.
+Special: This boss is incredibly agile.
+
+To start the battle, have two of every character's djinn on standby and one
+set. The one on set should be an attack djinn. Unleash the djinn, and then
+summon. After the summons, use elemental psynergy, as it will be powered up
+by the summons. When the djinn are set, do it again.
+Use Mia to heal when necessary. She won't be doing much attacking
+anyway as her psynergy is weak against this boss. 
+Especially try to inflict some sort of status ailment on the creature, as it
+will make him that much easier to defeat.
+You will receive the Douse Drop after the battle.
+
+______________________________________________________________________________
+                     Boss fight E. The Hydros statue
+______________________________________________________________________________
+You find the Hydros Statue in the bottom level of the Altin Peak mine. He is
+basically a souped-up version of the Living Statues that you have already
+defeated. 
+
+HP: ~1,250
+PP: Yes
+Attacks: Normal attack. Targets one party member.
+         Water Blessing (The word "blessing" is a translation error. It is 
+                better translated "breath.") Mercury elemental physical attack
+                that targets three party members.
+         Ice Horn. Level 2 Mercury psynergy that targets three party members.
+         Tundra. Level 2 Mercury psynergy that targets three party members.
+         Froth Sphere. Level 2 Mercury psynergy that targets three party
+                members.
+Weakness: Mars
+Class setup: Base classes.
+Recommended level: 16
+
+To start the battle, have all of Mia's djinn set. She will be the healer, for
+the same reasons as the killer ape fight. Ivan should have all but one of his
+djinn on standby, and Isaac and Garet should have all but two. The set djinn
+should be attacking djinn.
+Have the men unleash their djinn. Mia should attack. The Hydros Statue will
+be unable to down you this turn. Have Mia heal next turn if necessary. Have 
+the two fighters unleash their remaining djinn, and have Ivan summon. The two
+fighters summon next turn, Mia heals or attacks, and Ivan uses psynergy.
+When the djinn start setting again, unleash again and summon. The statue will
+be so weak that he cannot stand up to a second round of summons.
+
+You will receive 496 experience, 2,400 coins, and a lucky medal. You will also
+be able to reach the chest behind the statue that contains the Lift Gem.
+______________________________________________________________________________
+                     Boss Fight F. The Manticore
+______________________________________________________________________________
+
+You meet the Manticore at the end of the Lamakan Desert. He's an "Intelligent"
+boss, so status ailments won't work very well against him. Be very careful,
+for he has two actions per turn. Go into this fight with plenty of antidotes
+and healing items. The Unicorn ring and Healing ring wouldn't hurt either.
+This, by the way, happens to be my favorite of the boss fights.
+
+HP: ~2,000
+PP: Yes
+Attacks: Normal attack. Targets one party member.
+         Poison tail. Has a possibility of infecting the target with deadly
+                poison. Targets one party member.
+         Delude. Non-damaging Jupiter psynergy that targets three party
+                members and has a possibility of deluding the targets.
+         Mad Blast. Level 3 Mars psynergy that targets three party members.
+         Curse. Can inflict the "Curse" status ailment, which downs the party
+                member affected in seven turns. Cure with Elixer or Restore,
+         Nova. Level 2 Mars Psynergy that targets five party members. 
+         Impair. Non-damaging Mars Psynergy that has the possibility of lower-
+                ing the target's defense. Targets one party member.
+Weakness: Mercury        
+Class setup: Isaac and Ivan in base classes, and switch Garet and Mia's djinn.
+Special: Two actions per turn. Also is an "intelligent" boss
+Recommended level: Level 18
+
+To start the battle have Isaac, Garet, and Ivan unleash, while Mia uses water
+attacking psynergy. She will have her djinn set the entire battle so that she
+can continue to heal.
+Continue unleashing until the summons are ready. Pull them off, but have Mia 
+summon Boreas, as the power boost will guarantee her ability as a healer.
+Be sure to cure the status ailments, as there are sure to be plenty that need
+healing.
+Watch out for Ivan, as he has a tendency to go down easily when his djinn are
+all on standby.
+When the summons are done, cure status, and then attack with anything you
+have. The Manticore should go down quickly.
+
+You will receive 590 experience, 3,400 coins, and a psy crystal as a reward
+for defeating the Manticore.
+______________________________________________________________________________
+                      Boss Fight G. The Kraken
+______________________________________________________________________________
+
+You meet the Kraken on the Tolbi-bound ship. Before you go up the stairs, set
+your djinn the way you want them. Once you go up the stairs, you will go
+directly to the boss fight without pausing on the middle deck. He is a "dumb"
+boss, so status ailments easily affect him. Use them well.
+
+HP: ~2,450
+PP: Yes
+Attacks: Normal attack. Targets one party member.
+         Spinning beat. Physical attack that targets one party member for more
+                damage than a normal attack.
+         Poison beat. An attack like Spinning beat except with the possibility
+                of poisoning the target. Targets one party member.
+         Water Blessing. (Actually supposed to be Water Breath.) Elemental
+                physical attack that targets three party members.
+         Dark Blessing (Breath). Same as Water Breath with a possibility of
+                        deluding the target. Targets three party members.
+         Drench. Mercury psynergy that targets three party members.
+         Froth Sphere. Mercury Psynergy that targets five party members.
+Recommended level: Level 19
+Weakness: Mars
+Classes: Base classes for all.
+Special: Two actions per turn. Knows the psynergies Ply and Ply well.
+
+Have Isaac's Quartz on standby. Have the men unleash attacking Djinn, except 
+for Garet, who unleashes Forge. Have Mia attack. On the next turn, Mia heals
+or cures poison as necessary. The men continue to unleash until the level 3 or
+4 summons are available. Each summons in his own element. Once the summons are
+done, have Isaac help with healing, have Garet use Mars psynergy, and have 
+Ivan cast Sleep. He should do this until the Kraken falls asleep, at which 
+point he uses his psynergy to attack as well.
+If the blessings are too much for you, have Ivan unleash Breeze or cast 
+Resist. This will strenghthen the party against them.
+
+You will receive 711 experience, 5,200 coins, and a water of life.
+______________________________________________________________________________
+                      Boss Fight H. The Colloso Fighters
+______________________________________________________________________________
+Note: The Colloso fighters are fought with only one character, so I won't go
+into great detail as to how to fight them. I also will not bother finding 
+their stats. If someone out there is willing to let me have the stats, I will
+put them in, and you will receive credit.
+
+There is really not much in the way of strategy to fighting the gladiators. 
+All I can say is be careful and do not let your HP slip below about 80.
+Unleash your djinn as usual, but always leave one on set to keep your HP
+above 160. After the summon, use Ragnarok, stopping to heal as necessary.
+The power boost from the summon will help with psynergy use.
+Also, when doing the racing portion of Colloso, do NOT let the opposition take
+the better item. If you let them do this, the remaining fights will be much,
+much harder.
+______________________________________________________________________________
+                     Optional: Boss Fight I. Toadonpa
+______________________________________________________________________________
+You find Toadonpa in the heart of Lunpa Fortress. Dodonpa [notice the "Dodo"?
+:^)] will say a few words about becoming monster fodder, and will then pull a
+switch that lets Toadonpa into the room. Never mind him, he's the easiest boss
+in the game. He's also the dumbest boss in the game. It's hard for status 
+psynergy not to work on him.
+
+HP:~2,900
+PP: No.
+Attacks: Normal attack. Targets one party member.
+         Thrash. Physical attack that has the possibility of reducing the
+                target's HP to one. Targets one party member.
+         Dark Blessing.(Breath) Elemental physical attack that has the 
+                possibility of lowering the target's defenses. Targets three 
+                party members.
+         Rotten Blood. Physical attack that has the possibility of lowering 
+                the target's defense. Targets one party member.
+         Sticky Poison. Physical attack that has the possibility of poisoning
+                the target. Targets one party member.
+Weakness: Mars
+Classes: Base classes
+Recommended level: Level 21
+Special: Recovers 80 HP at the end of each turn.
+
+Start with two of Isaac and Ivan's djinn on standby (non-attacking ones.)
+Garet has one on standby. (Either Corona or Ember.) Isaac and Ivan unleash an
+attacker, Garet unleashes Forge, and Mia unleashes Mist. (Hopefully he will
+fall asleep due to this attack.)
+On the next turn, the men unleash any attackers they have left and Mia heals
+or attacks as necessary. She should always have at least four djinn set so
+that she has the Wish psynergy.
+The men summon, and Mia attacks or heals. Toadonpa should be so weak at this
+point that a couple of rounds of attacking psynergy should do him in.
+
+You will receive 999 experience, 3,200 coins, and a psy crystal.
+
+ALTERNATIVE STRATEGY.
+Go into the fight with Assassin's blades on Isaac and Garet. Critical-boosting
+items (Hyper boots, for example) will make this easier. Simply attack him each
+round, using sleep with Ivan if you like, and hope that a blade drains him.
+Success with this method is not guaranteed, but Toadonpa has such wimpy attack
+power (thrash excepted, but he rarely uses it) that you should be in no danger
+of being downed. If any character's HP start to fall, have Mia heal him.
+
+______________________________________________________________________________
+                 Optional:Boss Fight J. The Storm Lizard
+______________________________________________________________________________
+You are chased by a giant tornado when you get onto the flats of Suhalla. When
+you douse it, you will find a giant version of the tornado lizards that you
+faced earlier. He is no more intelligent than they are.
+This boss is actually optional. It is possible to outrun him if you are quick
+about it.
+HP: ~3,000
+PP: Yes
+Attacks: Normal Attack. Targets one party member.
+         Wing Stroke. Physical attack that targets three party members.
+         Sonic Slash. Level 3 Jupiter psynergy that targets 5.
+         Tempest. Level 3 Jupiter psynergy that targets 5.
+         Storm Ray. Level 2 Jupiter psynergy that targets 3.
+Other Psynergy (he uses this on himself):
+         Impact. Jupiter Psynergy that increases attack.
+         Ward. Jupiter Psynergy that increases resistance.
+Classes: Base classes.
+Recommended level: Level 23
+Special: Two actions per turn.
+
+To start the battle, Isaac attacks, Garet unleashes Forge, Ivan unleashes 
+Squall, and Mia unleashes Sleet. Next turn, Isaac unleashes Flint, Garet
+unleashes Scorch, Ivan unleashes Smog, and Mia summons, or heals if you need
+to. Continue until Ivan has four djinn on standby, then summon. The fighters
+summon as soon as their level four summons become available.
+After the summons, the fighters use their strong psynergy, Ivan casts Resist
+or High Impact, and Mia heals as necessary.
+When the djinn start setting again, have the men unleash and then summon again
+The Storm Lizard will go down quickly.
+
+
+ALTERNATIVE STRATEGY.
+Go into the fight with Assasin's blades on Isaac and Garet. Critical-boosting
+items (Hyper boots, for example) will make this easier. Simply attack him each
+round, using Sleep with Ivan if you like, and hope that a blade drains him.
+If any character's HP start to fall, have Mia heal him.
+
+_____________________________________________________________________________
+                     Optional:Boss Fight K. DeadBeard
+______________________________________________________________________________
+Ah, yes, the BIG one. Deadbeard is found in the bottom of Crossbone Isle cave.
+He is the hardest boss in the game, even though he is not the final one.
+It's best to fight him when someone has the psynergy Break, as he has a habit
+of using stat boosting psynergy on himself.
+HP: ~6,000
+PP: Yes
+Attacks: Normal attack. Targets one party member.
+         Inferno. Level 3 Mars psynergy that targets 5.
+         Freeze Prism. Level 3 Mercury Psynergy that targets 5.
+         Spark Plasma. Level 3 Jupiter psynergy. Targets 5 party members.
+         Break. Mercury Psynergy that nullifies all stat boosting effects in
+                current play.
+Other Psynergy (He uses this on himself):
+         Guard. Mars Psynergy that increases defense.
+         Ward. Jupiter psynergy that increases resistance.
+         Impact. Jupiter psynergy that increases attack.
+Classes: Base classes.
+Weakness: Venus.
+Special: Two actions per turn. Immune to status ailments, except for psy seal.
+Recommended level: At least level 30. (So the Break psynergy is available.)
+
+SLOWEST STRATEGY: (For those who are desperate.)
+This strategy is nothing more than unleashing Granite on one turn and setting
+it the next. On turns where Granite is being set, unleash Flash. Have the re-
+maining two party members heal and aid as necessary. This strategy takes a
+long time, but is practically infallible.
+
+SUMMON RUSH STRATEGY: (Thanks to KK for suggesting that I put this in here.)
+This consists of putting four of each player's djinn on standby before the
+fight begins and summoning right off. Continue by using the strong psynergy
+for each character and healing as necessary.
+
+NEW SUMMON RUSH
+"First, make sure you have trained up to at least level 28 or 30. Also, you 
+must have all the Djinn. Now, before you start the battle, put all your Djinn
+on standby and save the game. Now, turn your gameboy off and on(a HARD RESET).
+Enter the battle and have everyone summon their respective level 4 summons.
+Lots of damage(blahblahblah).Do not be worried about dying in one hit.
+Deadbeard will just cast Impact for his two turns. On turn 2, have everyone
+summon their remaining respective level 3 summons. The elemental boost from
+the previous summons will greatly increase the power of the summons on turn 2
+Once again, Deadbeard will stand there like an idiot and get hit. After
+everyone summons, he should die. If he doesn't, try gaining a level or two.
+So, for summary, this is how it should go:
+ 
+TURN 1
+Ivan summons Thor
+DEADBEARD casts Impact
+Issac summons Judgement
+Mia summons Boreas
+Garet summons Meteor
+DEADBEARD casts Impact
+ 
+TURN 2
+Ivan summons Procne
+DEADBEARD casts Ward
+Issac summons Cybele
+Mia summons Neptune
+Garet summons Tiamat
+DEADBEARD is Felled!!!
+
+To reiterate:
+
+a. Must have ALL Djinn
+b. Be level 29 or higher
+c. Must HARD RESET after putting all 28 Djinn on standby and saving on the
+   Pirate Ship"
+
+(The above strategy was given to me by Jman2050. It is not my work, and I am
+not the originator thereof.
+
+
+EASIEST STRATEGY: (Recommended for first-timers who are reasonably confident
+in their abilities.)
+
+Go into the fight with everyone's djinn set in base classes. Have Isaac attack
+, Garet unleashes Forge, Ivan unleashes Luff, and Mia unleashes Sleet. Have
+Isaac and Garet continue to unleash, have Ivan alternate between unleashing
+and setting Luff, and have Mia unleash once more or heal. When a turn arrives
+in which Mia can summon without needing to heal, have her do so. (The purpose
+of this is to boost her water power, so that she will be a more effective hea-
+ler.) When the Isaac and Garet have 3 or 4 djinn on standby, have them summon.
+Next turn, have each of them use their strong psynergy. (Ragnarok and Heat
+Wave.) Continue to do this until Isaac has one djinni left to recover. At this
+point have Garet unleash Forge again, and repeat the whole strategy (with the
+exception that Mia heals continuously instead of unleashing. 
+Deadbeard will go down on the second round of summons.
+The point of this strategy is that Deadbeard possesses no non-psynergy special
+attacks, so all he has left is his physical attack, which makes the battle 
+easy.
+
+
+EXPERT'S STRATEGY: (Recommended for those very confident in their abilities.)
+
+This strategy relies on being good more than anything else. 
+Start by having Isaac and Garet unleash attackers, Ivan cast Resist, and Mia
+attack. Deadbeard will probably use some sort of boost on himself, but don't
+worry about it unless it's Impact. If it is, Break him immediately. Otherwise,
+just continue.
+Next, unleash again, and have Ivan do so as well. Ivan unleashes until he has
+three on standby. (Never four, as he is then too weak to stand up to two 
+attacks.) The fighters unleash until they have four on standby, then summon. 
+Mia is healing throughout.
+Deadbeard will probably Break you after the summons, so simply attack with the
+fighters. Ivan uses psynergy after the summons. Also, if Deadbeard has done
+two or three status effects on himself by now, it's probably time to Break
+him. Remember, always Break him immediately if he uses Impact.
+Continue until the djinn start setting, at which point you should start
+unleashing again. After the second round of summons, Deadbeard should go down.
+You will receive 8,000 experience
+
+NEW. blazin elf at the Golden Sun message board has said that he managed to
+kill Deadbeard with an Assassin Blade unleash. If anyone can confirm this for
+me, I would appreciate it.
+______________________________________________________________________________
+                Optional: Boss Fight L. The Tempest Lizard
+______________________________________________________________________________
+You find the Tempest Lizard after you douse the pink tornado. He is just about
+exactly the same as the Storm Lizard you most probably fought earlier. He is
+also completely optional just as the Storm Lizard was.
+HP: ~3,000
+PP: Yes
+Attacks: Normal Attack. Targets one party member.
+         Wing Stroke. Physical attack that targets three party members.
+         Sonic Slash. Jupiter psynergy that targets 5.
+         Tempest. Level 3 Jupiter psynergy that targets 5.
+         Storm Ray. Level 2 Jupiter psynergy that targets 3.
+Other Psynergy (he uses this on himself):
+         Impact. Jupiter Psynergy that increases attack.
+         Ward. Jupiter Psynergy that increases resistance.
+Classes: Base classes.
+Recommended level: Level 23
+Special: Two actions per turn.
+
+Isaac attacks, Garet unleashes Forge, Ivan unleashes Squall, and Mia unleashes
+Sleet. Next turn, Isaac unleashes Flint, Garet unleashes Scorch, Ivan
+unleashes Smog, and Mia summons, or heals if you need to. Continue until Ivan
+has four djinn on standby, then summon. The fighters summon as soon as their 
+level four summons become available. After the summons, the fighters use their
+strong psynergy, Ivan casts Resist or High Impact, and Mia heals as necessary.
+When the djinn start setting again, have the men unleash and then summon again
+The Storm Lizard will go down quickly.
+
+ALTERNATIVE STRATEGY.
+Go into the fight with Assasin's blades on Isaac and Garet. Critical-boosting
+items (Hyper boots, for example) will make this easier. Simply attack him each
+round, using sleep with Ivan if you like, and hope that a blade drains him.
+If any character's HP start to fall, have Mia heal him.
+
+CONTRIBUTED STRATEGY
+
+This was sent in by Ryzure:
+
+"Isaac's Djinn must be set as:
+Flint - Set, Granite - Set, Quartz - Standby, Vine - Standby, Sap - Set,
+Ground - Standby, Bane - Set.
+Ivan's Djinn:
+Gust - Set, Breeze - Standby, Zephyr - Standby, Smog - Set, Kite - Standby,
+Squall - Set, Luff - Set.
+Mia's Djinn:
+Fizz - Standby, Sleet - Set, Mist - Set, Spritz - Standby, Hail - Set,
+Tonic - Standby, Dew - Set.
+Garet's Djinn:
+Forge - Standby, Fever - Set, Corona - Standby, Scorch - Set, Ember - Standby,
+Flash - Set, Torch - Set.
+
+"Round 1:
+Isaac unleashes Granite, Ivan unleashes Squall(or Luff, your choice), Mia 
+unleashes Hail, Garet unleashes Flash
+Round 2: 
+Isaac summons Judgment, Ivan summons Thor, Mia summons Boreas, Garet summons 
+Meteor.
+
+"There shouldn't be a Round 3, but if there is just attack = P"
+
+FUN STRATEGY
+
+The Tempest Lizard is weak to poison. Use Bane or attack with the Wicked Mace/
+Demon Axe, sit back, and enjoy the fun.
+
+
+You receive 1360 experience and 6,400 coins, plus a Potion.
+______________________________________________________________________________
+                      Boss Fight M. Saturos and Menardi
+______________________________________________________________________________
+You find Saturos and Menardi on top of Venus Lighthouse, and this time you get
+there BEFORE they light the beacon for a change. Before you jump over to them,
+set your classes, as you go directly into the fight from the second cutscene.
+
+Saturos
+HP: ~3,000
+PP: Yes
+Attacks:
+       Normal attack. Targets one party member.
+       Heat Flash. Physical attack that has the possibility of deluding the
+       target. Targets one party member.
+       Inferno. Level 3 Mars psynergy. Targets five.
+       Pyroclasm. Level 3 Mars psynergy. Targets five.
+       Break. Mercury psynergy. Resets boosted stats to normal. Targets all.
+       Haunt. Non-damaging Jupiter psynergy that has the possibility of haunt-
+              ing the targets. Targets three.
+Other psynergy. (Uses this on his party.)
+       Protect. Increases the defense of party. Targets all.
+       Potent Cure. Venus psynergy that heals 300 hp. Targets one.
+Menardi
+HP: ~2,000
+PP: Yes
+Attacks:
+       Normal attack. Targets one.
+       Death Size (better translated as Death Scythe). Physical attack that
+       has the possibility of instantly downing the target. Targets one.
+       Flare Storm. Mars psynergy. Targets three.
+       Supernova. Mars psynergy. Targets seven.
+Other psynergy (Uses this on her party.)
+       High Impact. Boosts party's attack.
+       Wish. Heals party HP.
+       Resist. Increases party resistance.
+Recommended level: Level 32 (They can be beaten with levels as low as 25)
+Special: Incredibly intelligent, invulnerable to status ailments (save for Psy
+seal.)
+
+While fighting, keep in mind that you will be going directly from this fight
+to the Fusion Dragon, so when this fight begins winding down, attempt to set
+your djinn the way you like so that you begin the fight with the Fusion
+Dragon on the right foot.
+
+Begin with all djinn set. Isaac unleashes Flint, Garet unleashes Fever, Ivan
+casts Impact on Issac or Garet, and Mia unleashes Sleet. (The purpose of her
+unleashes is to boost her Mercury power. She will be healing just about every
+turn in this battle, so it is crucial that her power be boosted.)
+Isaac continues to unleash attackers, and then unleashes Vine to slow Saturos
+and Menardi. Garet unleashes his attackers and then summons. Ivan unleashes
+Squall, Smog, and Breeze, and then summons. Mia summons at her first 
+opportunity and thereafter heals. All summons are focused on Menardi.
+After the summons, have each character attack Menardi if she is not already
+down. Once she is down, have the men attack Saturos until he goes down.
+
+You receive 6,000 experience and 7,800 coins from this battle.
+______________________________________________________________________________
+                      Boss Fight N. The Fusion Dragon
+______________________________________________________________________________
+Welcome to the almost BIG boss. This is the Final Fight, so enjoy it. 
+
+Attacks: Normal attack. Targets one party member.
+         Break. Mercury Psynergy that nullifies all stat boosting effects in
+                play. Targets all party members.
+         Outer Space. Physical attack that is much like the Meteor summon in 
+                looks and in power. Targets all party members.
+         Dragon Driver. Physical attack much like the Tiamat summon in looks 
+                and power. Targets all party members.
+         Evil Blessing (Breath). Breath that has the possibility of haunting
+                the targets. Targets three party members.
+         Drain Fang. Physical attack that drains the target's HP into the boss
+                Targets one party member.
+         Deadly Gas. Breath that has the possibility of infecting the targets
+                with venom. Targets three party members.
+         Severe Blow. Physical attack that has the possibility of reducing the
+                target's HP to one. Targets one.
+Recommended level: Level 32. (You can beat him with levels as low as 20.)     
+Special: Two actions per turn. Is also semi-intelligent. Status ailments can
+         be inflicted on him, but it is hard to do so.
+
+All right. Hopefully you were preparing for this fight in the last few rounds
+of fighting Saturos and Menardi. If you do not have all djinn set, simply
+attack until they are. 
+Whenever one of the fighters gets all of his djinn on set, have Ivan cast 
+Impact on him and then have him (the fighter) unleash till four are on standby
+, then summon. He should then simply attack, waiting until such time as all 
+but one are back on set. He then uses his strong psynergy and then begins
+unleashing again.
+Ivan, meanwhile, is casting Resist as often as he gets a breathing space. He
+does this four times until the party's resistance in maxed out. He then begins
+his own unleashes. When he gets three on standby, summon.
+Mia is healing throughout. I would recommend, though, that if you are strong
+enough, have her unleash one or two djinn and summon at the start, so that her
+power is boosted and her healing is more effective.
+There will probably come a point where one or more party members are infected
+with venom. At this point you will want to use Granite or Flash while Mia
+fixes the problem.
+Always keep either Flash or Granite available in case the Fusion Dragon uses
+two Outer Spaces in a row. This can (at low levels) make your party vulnerable
+in the next turn. If you are unlucky enough (as I have been once or twice) to
+have him repeat this the next turn, you can say goodbye if you have not been
+preparing for it.
+
+******************************************************************************
+                        Frequently Asked Questions
+******************************************************************************
+
+1. Where do I find (insert name of boss)?
+
+A. See a walkthrough if the brief description I've given with each boss is not
+sufficient. I would recommend the guide by ikillkenny. You can find it on the
+Golden Sun FAQ page where you found this FAQ. (If you can't find it there,
+another website is using my guide without permission. Email me to tell me of 
+any violations of this rule.Remember that this may be found only on 
+GameFAQS.com. )
+Please note that I do not intend for my guide to tell exactly where to find 
+every boss, but how to defeat each one. Don't email me asking where a boss is.
+The email will be deleted.
+
+2. What do you mean by an "intelligent" or "stupid" boss?
+
+A. It should be obvious, but an intelligent boss is one upon whom it is hard
+to inflict status ailments. In some cases it is next to impossible. A stupid
+boss is one that is susceptible to status ailments. (Think Toadonpa, the best
+example of a stupid boss.) Also, the intelligent bosses have better AI than
+the stupid ones. 
+
+******************************************************************************
+                                   4.Credits
+******************************************************************************
+
+First, thanks to God for His help in sustaining me from day to day and making
+a world where video games and technology exist.
+
+Thanks to NoA, for releasing this great game.
+
+Thanks to GameFAQS, for hosting this FAQ.
+
+Thanks to my cousin, who introduced me to this game.
+
+Thanks to my little brother, who gave some small input.
+
+Thanks to gameman250, whose walkthrough for LoZ:LTTP inspired me to write my
+own FAQ.
+
+Thanks to the members of the Golden Sun message board, whose input really 
+helped in the making of this guide.
+
+Thanks to Hyrulian Jedi for reminding me that Menardi possesses the psynergy
+attack Supernova. (Also for reminding me that most bosses are vulnerable to
+status ailments.)
+
+Thanks to KK for suggesting that I put the summon rush "strategy" in the Dead-
+beard fight.
+
+Thanks to Killer Turtle for pointing out that the Fusion Dragon has the attack
+Severe Blow.
+
+Thanks to vegeta4756@hotmail.com for giving me the information (from Prima's
+strategy guide) that Tret has 710 HP, not 450.
+
+Thanks to Jman2050 for sending me the summon rush order for Deadbeard.
+
+Thanks to Clark Beyer for pointing out that the Kraken has the Psynergy attack
+Drench, and the healing Psynergy Ply.
+
+Thanks to Jeffrey for pointing out that the Killer Ape drops the Douse Drop,
+NOT the Frost Gem. (What was I on when I wrote that . . . ?)
+
+Thanks to Dylan Haight for the ASCII art you see at the top.
+
+Thanks to Steve Smith for telling me the reward for defeating S&M.
+
+Thanks to Anarki FX and Ryzure for reminding me that the Storm Lizard uses
+Ward.
+
+Thanks also to Ryzure for telling me the rewards for the Tempest Lizard and
+for sending in the order for a quick kill on him.
+
+Thanks to Sir Omega for reminding me to put in the Tempest Lizard's weakness
+to poison.
+
+
+______________________________________________________________________________
+)                                                                            (
+)                        5."Wanted" section                                  (
+)____________________________________________________________________________(
+
+This section is where I call on you, the readers, to help me. I still need 
+information, which need I will post here as I think of it. If you know the 
+answer, send me an email. You will receive credit for it.
+
+
+1. I have tried to make this guide as complete as possible, but I have most
+   likely missed some boss attacks or small detail of the fights. Let me know.
+2. I would like to know the exact HP of each boss. I have rough approximations
+   of the HP from recording each attack in battle, but I would like exact
+   figures if possible. Are the exact numbers known, and if so what are they?
+3. While going through the game to think of what to put in this guide, I 
+   neglected to note what the reward for the Killer Ape battle is. (Besides
+   the Frost Gem.) Can someone tell me what the Exp reward and the coin reward
+   are? Also, do you receive any other items from the battle?
+4. And, of course, I have probably made some typograaphical (just checking to
+   make sure you're still awake. =) ) errors. Let me know. I want to fix them.
+
+Again, please e-mail me if you know the answer to any of these. You will be
+given credit in the next version of the guide.
+
+``````````````````````````````````````````````````````````````````````````````
+                              Contacting Me
+``````````````````````````````````````````````````````````````````````````````
+
+You can email me with questions, comments, or suggestions. My email is:
+LinkTheValiant [at] juno [dot] com
+
+Before asking me a question, be absolutely certain that I have not covered it
+in this FAQ or stated that I do not cover the topic. If I get one of these I
+will simply delete it.
+
+Please note that I have done my best to make this guide easy to read (grammar,
+spelling, and the like.) I would GREATLY appreciate it if you would extend the
+same courtesy to me when contacting me.
+
+When emailing, be sure to put the phrase "Golden Sun" in the subject. My inbox
+is too full of spam, and I will no longer accept mail that I do not trust. If
+your email does not originate from an email that I know, and does not have the
+phrase "Golden Sun" in the subject line, It WILL BE DELETED. One of these
+conditions must be met if I am to see your message. Note that I will not do
+the deleting. I have my inbox set to delete all such mail.
+
+Please include a name by which you want to be credited. It makes me sleep
+more easily knowing that nobody can call me out complaining of being ripped
+off or shorted.
+
+Do not ask me for permission to translate, HTMLize, format, or otherwise alter
+this document. I will simply delete all such emails. The same goes for
+requests to host it on your website. Only GameFAQs may host this guide. NO
+exceptions.
+
+I may not reply to you for a while after you send your message. My e-mail
+checking is spotty, as real life has caught up with me. I DO read it, so your
+message isn't going into oblivion. If I don't reply it most likely means you
+either didn't follow the directions or the input isn't worth it.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                                 Legal Information
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+This guide may not appear anywhere other than GameFAQS. DO NOT email me asking
+for permission to host this guide. You will NOT receive it.
+
+You may reproduce this guide for your own personal use as long as you do not
+profit by such use. You may store portions or the entirety on your computer's
+hard drive, as long as it remains absolutely unchanged. You may also print it
+to show a friend or help him. The bottom line is:
+You may not derive any profit from use of this guide.
+
+This guide is (C)2003-2004 to LinkTheValiant and is the sole property of 
+LinkTheValiant. This guide may not be reproduced, in whole or in part, for the
+purpose of sale or publication without my explicit consent.
+Restore Page
+
