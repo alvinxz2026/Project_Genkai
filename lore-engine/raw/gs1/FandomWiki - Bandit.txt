@@ -1,0 +1,21 @@
+Bandit
+Bandit
+The Bandit is a normally-colored variant. Exactly one is fought in each game. In the first game, statistically this enemy has 244 HP, 46 Attack, 8 Defense, 20 Agility, and 3 Luck, and in the second game he has 346 HP, 200 Attack, 41 Defense, 98 Agility, and 34 luck. In terms of resistance, every one of his four resistances are 72, and he uses his available Jupiter attacks with a Jupiter power rating of 80.
+
+The Bandit's battle commands are exactly the same in both Golden Sun games:
+
+Slice: Used 4 out of 8 times, this is a monster skill where the user bolts forward to deal either one or two slices in a row, dealing a Jupiter-based attack equal to his normal physical attack multiplied by 0.9, but with the chance that the result will then be multiplied by 2. This is a reference to the sword he's using.
+Attack: Used 2 out of 8 times, this is this enemy's standard physical attack.
+Threaten: Used 2 out of 8 times, this is a Monster Skill that causes the battle text to read "Bandit glowers ferociously!". This does nothing, in other words, and helps make the Bandit an easier enemy to deal with.
+This enemy also carries at least one consumable healing item that it may use in place of something else from its normal command list each time he acts. What the Bandit is in possession of differs between each game. In the first game:
+
+1 Smoke Bomb: An item that envelops a single targeted Adept in a smoke cloud, having a chance to inflict that Adept with the Delude status condition.
+2 Herb: An item that heals either himself or another enemy on his side of the field for 50 HP.
+He has a different and larger selection of items in tow for his return appearance in the second game:
+
+2 Nuts: An item that heals either himself or another enemy on his side of the field for 200 HP.
+1 Sleep Bomb: An item that envelops a single targeted Adept in a smoke cloud, having a chance to inflict that Adept with the Sleep status condition.
+1 Weasel's Claw: An item, that emulates the psynergy Sonic Slash and thus deals jupiter damage on up to five adepts with a base of 120 and normal damage distribution.
+In the first game, felling the Bandit yields 36 Experience Points and 46 Coins, which adds up with the other two enemies in the battle to 66 EXP and 110 Coins, and he is guaranteed to drop the unique Bandit's Sword. In the second game, felling the Bandit yields 136 EXP and 183 Coins, which adds up with the other two enemies in the battle to 366 EXP and 521 Coins. If the Bandit is felled with an offensive Venus Djinni such as Echo, his rewards increase to 176 EXP and 237 EXP.
+
+In the first game, the Bandit is obviously the more noteworthy enemy in the battle with himself and two Thief accomplices, dealing damage more consistently. Nonetheless, the overall boss battle should be won very easily just by having Ivan rely on casting the Ray Psynergy, and perhaps having the other two Adepts cast offensive Psynergy as well. In the second game, despite the Bandit and two thieves having received major statistical enhancements, they should still be very easy to defeat by your party of four Adepts.

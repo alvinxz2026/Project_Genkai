@@ -1,32 +1,25 @@
 [
   {
-    "id": "bandit",
-    "name": "Bandit",
+    "id": "bandits",
+    "name": "Bandits",
     "game": "gs1",
     "is_optional": false,
     "is_superboss": false,
     "encounters": [
       {
-        "encounter_id": "bandit",
+        "encounter_id": "bandits",
         "location": "Vault",
         "is_winnable": true,
         "stats": {
-          "hp": 244,
+          "hp": null,
           "pp": null,
-          "atk": 46,
-          "def": 8,
-          "agi": 20,
-          "lck": 3
+          "atk": null,
+          "def": null,
+          "agi": null,
+          "lck": null
         },
-        "elemental_power": [
-          { "element": "wind", "power": 80 }
-        ],
-        "resistance": [
-          { "element": "water", "value": 72 },
-          { "element": "wind",  "value": 72 },
-          { "element": "earth", "value": 72 },
-          { "element": "fire",  "value": 72 }
-        ],
+        "elemental_power": [],
+        "resistance": [],
         "attacks": [
           {
             "name": "Attack",
@@ -36,38 +29,67 @@
             "damage_power": null,
             "range": 1,
             "pp_cost": null,
-            "special": "Can land critical hits.",
+            "special": null,
+            "use_frequency": null,
+            "source": "linkt"
+          },
+          {
+            "name": "Smoke Bomb",
+            "type": "monster_skill",
+            "target": "enemy",
+            "element": null,
+            "damage_power": null,
+            "range": null,
+            "pp_cost": null,
+            "special": "Inflicts a status effect on the party.",
+            "use_frequency": null,
+            "source": "linkt"
+          },
+          {
+            "name": "Herb",
+            "type": "monster_skill",
+            "target": "ally",
+            "element": null,
+            "damage_power": null,
+            "range": 1,
+            "pp_cost": null,
+            "special": "Uses an Herb to restore HP to an ally bandit.",
             "use_frequency": null,
             "source": "linkt"
           }
         ],
-        "special_mechanics": [
-          "Fights alongside two Thief enemies.",
-          "Uses Herbs to heal its allies as the battle progresses.",
-          "Has a habit of using smoke bombs.",
-          "Weak against all elements."
-        ],
+        "special_mechanics": [],
         "rewards": {
           "exp": 36,
           "coins": 46,
-          "items": ["Bandit's Sword"],
-          "notes": "The Bandit's Sword unleashes Rapid Smash (per LinkTheValiant)."
+          "items": [
+            "Bandit's Sword"
+          ],
+          "notes": "Bandit has 244 HP, 46 Attack, 8 Defense, 20 Agility, 3 Luck per fandom-wiki. Two additional Thief enemies fight alongside."
         },
-        "special_notes": null
+        "special_notes": "Fought as one Bandit (244 HP) and two Thief enemies (~100 HP each) per fandom-wiki. LinkTheValiant lists approximate HP: Thief1 ~100, Bandit ~260, Thief2 ~100. Fandom wiki lists Bandit stats only (244 HP). Fights alongside two Thief enemies."
       }
     ],
-    "weakness": ["earth", "fire", "wind", "water"],
+    "weakness": [
+      "earth",
+      "fire",
+      "wind",
+      "water"
+    ],
     "recommended_level": null,
     "strategy": "Have Ivan use psynergy on the bandits each turn, focusing on the one in the middle. Have Isaac unleash and then summon with Flint, or heal if someone needs it. Garet can attack or use psynergy as you see fit.",
-    "sources": ["linkt", "fandom-wiki"],
+    "sources": [
+      "linkt",
+      "fandom-wiki"
+    ],
     "conflicts": [
       {
-        "field": "encounters[0].rewards.exp",
+        "field": "encounters[0].stats.hp",
         "values": {
-          "linkt": "~50 (\"50 some experience\")",
-          "fandom-wiki": "36"
+          "linkt": 260,
+          "fandom-wiki": 244
         },
-        "note": "LinkTheValiant's approximate figure may cover the whole encounter (Bandit plus two Thieves), while the fandom-wiki value is for the Bandit alone. Fandom exact value used."
+        "note": "LinkTheValiant gives ~260 HP for the Bandit; fandom-wiki lists 244 HP. Fandom-wiki value used as exact figure."
       }
     ]
   },
@@ -91,13 +113,28 @@
           "lck": 28
         },
         "elemental_power": [
-          { "element": "earth", "power": 105 }
+          {
+            "element": "earth",
+            "power": 105
+          }
         ],
         "resistance": [
-          { "element": "water", "value": 175 },
-          { "element": "wind",  "value": 100 },
-          { "element": "earth", "value": 72 },
-          { "element": "fire",  "value": 25 }
+          {
+            "element": "water",
+            "value": 175
+          },
+          {
+            "element": "wind",
+            "value": 100
+          },
+          {
+            "element": "earth",
+            "value": 72
+          },
+          {
+            "element": "fire",
+            "value": 25
+          }
         ],
         "attacks": [
           {
@@ -120,7 +157,7 @@
             "damage_power": null,
             "range": 3,
             "pp_cost": null,
-            "special": "May inflict Sleep on each target. Deals no damage.",
+            "special": "May inflict Sleep on each target.",
             "use_frequency": "2/8",
             "source": "fandom-tret"
           },
@@ -165,26 +202,23 @@
         "rewards": {
           "exp": 226,
           "coins": 700,
-          "items": ["Potion"],
-          "notes": "If felled by the attack effect of an offensive Mars Djinni, rewards increase to 290 EXP and 900 coins."
+          "items": [
+            "Potion"
+          ],
+          "notes": "Rewards increase to 290 EXP and 900 coins if felled by an offensive Mars Djinni."
         },
-        "special_notes": "Much easier to defeat if the party fights him after completing Mercury Lighthouse first."
+        "special_notes": null
       }
     ],
-    "weakness": ["fire"],
+    "weakness": [
+      "fire"
+    ],
     "recommended_level": 7,
-    "strategy": "To start the battle have Ivan's Djinn on set to increase his HP and PP. He can unleash or use psynergy as you see fit. Have Isaac and Garet start the battle with their Djinn on standby so that they can summon right off. After this, have all characters use psynergy on Tret. If you wish, you can attack with Isaac and Garet's Djinn again, and then summon. Or, if you wish to have higher stats, simply attack and use psynergy. Tret will go down easily in the first few turns.",
-    "sources": ["linkt", "fandom-wiki", "fandom-tret"],
-    "conflicts": [
-      {
-        "field": "encounters[0].rewards.items",
-        "values": {
-          "linkt": "Psy Crystal",
-          "fandom-wiki": "Potion",
-          "fandom-tret": "Potion"
-        },
-        "note": "LinkTheValiant states the reward is a Psy Crystal, but both fandom-wiki sources give a guaranteed Potion. Fandom value used; LinkTheValiant likely erred."
-      }
+    "strategy": "Have Ivan's Djinn on set to increase his HP and PP. He can unleash or use psynergy as you see fit. Have Isaac and Garet start the battle with their Djinn on standby so that they can summon right off. After this, have all characters use psynergy on Tret. If you wish, you can attack with Isaac and Garet's Djinn again, and then summon. Tret will go down easily in the first few turns.",
+    "sources": [
+      "linkt",
+      "fandom-wiki",
+      "fandom-tret"
     ]
   },
   {
@@ -207,13 +241,28 @@
           "lck": 40
         },
         "elemental_power": [
-          { "element": "fire", "power": 110 }
+          {
+            "element": "fire",
+            "power": 110
+          }
         ],
         "resistance": [
-          { "element": "fire",  "value": 175 },
-          { "element": "wind",  "value": 127 },
-          { "element": "earth", "value": 100 },
-          { "element": "water", "value": 72 }
+          {
+            "element": "fire",
+            "value": 175
+          },
+          {
+            "element": "wind",
+            "value": 127
+          },
+          {
+            "element": "earth",
+            "value": 100
+          },
+          {
+            "element": "water",
+            "value": 72
+          }
         ],
         "attacks": [
           {
@@ -266,11 +315,11 @@
           }
         ],
         "special_mechanics": [
-          "Scripted loss — the party is expected to be defeated within a turn.",
+          "Scripted loss — party is expected to be defeated.",
           "Fought as 'Mystery Man' alongside 'Mystery Woman' (Menardi)."
         ],
         "rewards": null,
-        "special_notes": "Unwinnable under normal circumstances; young Isaac and Garet are too weak. HP and PP match the Venus Lighthouse encounter, but Attack, Defense, and Agility are far lower."
+        "special_notes": "Unwinnable under normal circumstances. Stats identical to Venus Lighthouse encounter."
       },
       {
         "encounter_id": "saturos-mercury",
@@ -285,13 +334,28 @@
           "lck": 40
         },
         "elemental_power": [
-          { "element": "fire", "power": 110 }
+          {
+            "element": "fire",
+            "power": 110
+          }
         ],
         "resistance": [
-          { "element": "fire",  "value": 175 },
-          { "element": "wind",  "value": 127 },
-          { "element": "earth", "value": 100 },
-          { "element": "water", "value": 72 }
+          {
+            "element": "fire",
+            "value": 175
+          },
+          {
+            "element": "wind",
+            "value": 127
+          },
+          {
+            "element": "earth",
+            "value": 100
+          },
+          {
+            "element": "water",
+            "value": 72
+          }
         ],
         "attacks": [
           {
@@ -344,17 +408,19 @@
           }
         ],
         "special_mechanics": [
-          "Mars powers weakened by the Mercury Beacon — no access to level 3 Mars Psynergy.",
-          "Mia regenerates 4 PP per turn (effectively unlimited PP) during this battle.",
-          "Fixed attack pattern, starting from a random point: Attack - Heat Flash - Fireball - Attack - Fireball - Heat Flash - Attack - Eruption."
+          "Mars powers weakened by the Mercury Beacon.",
+          "Mia regenerates 4 PP per turn during this battle.",
+          "Fixed attack pattern: Attack - Heat Flash - Fireball - Attack - Fireball - Heat Flash - Attack - Eruption"
         ],
         "rewards": {
           "exp": 331,
           "coins": 800,
-          "items": ["Psy Crystal"],
+          "items": [
+            "Psy Crystal"
+          ],
           "notes": null
         },
-        "special_notes": "LinkTheValiant recommends level 10 for this encounter."
+        "special_notes": null
       },
       {
         "encounter_id": "saturos-venus",
@@ -369,13 +435,28 @@
           "lck": 50
         },
         "elemental_power": [
-          { "element": "fire", "power": 110 }
+          {
+            "element": "fire",
+            "power": 110
+          }
         ],
         "resistance": [
-          { "element": "fire",  "value": 175 },
-          { "element": "wind",  "value": 127 },
-          { "element": "earth", "value": 100 },
-          { "element": "water", "value": 72 }
+          {
+            "element": "fire",
+            "value": 175
+          },
+          {
+            "element": "wind",
+            "value": 127
+          },
+          {
+            "element": "earth",
+            "value": 100
+          },
+          {
+            "element": "water",
+            "value": 72
+          }
         ],
         "attacks": [
           {
@@ -458,7 +539,7 @@
             "damage_power": null,
             "range": 3,
             "pp_cost": 5,
-            "special": "May inflict Haunt on each target.",
+            "special": "May inflict Haunt status on each target.",
             "use_frequency": "17/256",
             "source": "fandom-saturos"
           },
@@ -479,31 +560,26 @@
           "Fought alongside Menardi.",
           "Isaac regenerates 4 PP per turn during this battle.",
           "Immune to status ailments except Psynergy Seal.",
-          "Leads directly into the Fusion Dragon fight with no rest."
+          "Leads directly into Fusion Dragon fight with no rest."
         ],
         "rewards": {
           "exp": 3000,
           "coins": 3600,
           "items": [],
-          "notes": "Combined with Menardi's share, the two-boss fight yields 6000 EXP and 7800 coins total."
+          "notes": "Rewards combined with Menardi's share: 6000 EXP and 7800 coins total."
         },
         "special_notes": null
       }
     ],
-    "weakness": ["water"],
-    "recommended_level": 32,
-    "strategy": "Begin with all djinn set. Isaac unleashes Flint, Garet unleashes Fever, Ivan casts Impact on Issac or Garet, and Mia unleashes Sleet. (The purpose of her unleashes is to boost her Mercury power. She will be healing just about every turn in this battle, so it is crucial that her power be boosted.) Isaac continues to unleash attackers, and then unleashes Vine to slow Saturos and Menardi. Garet unleashes his attackers and then summons. Ivan unleashes Squall, Smog, and Breeze, and then summons. Mia summons at her first opportunity and thereafter heals. All summons are focused on Menardi. After the summons, have each character attack Menardi if she is not already down. Once she is down, have the men attack Saturos until he goes down.",
-    "sources": ["linkt", "fandom-wiki", "fandom-saturos"],
-    "conflicts": [
-      {
-        "field": "encounters[1].rewards.exp",
-        "values": {
-          "linkt": "~531 (\"about 531 experience\")",
-          "fandom-wiki": "331",
-          "fandom-saturos": "331"
-        },
-        "note": "LinkTheValiant's approximate figure (about 531 EXP, 750 coins) disagrees with the exact fandom values (331 EXP, 800 coins) for the Mercury Lighthouse encounter. Fandom exact values used."
-      }
+    "weakness": [
+      "water"
+    ],
+    "recommended_level": 10,
+    "strategy": "Before the battle, have Isaac and Garet put their non attacking djinn on standby. Ivan should have his djinn set to boost his stats, and Mia should have her djinn set for unleashing. Isaac and Garet each unleash their attacking djinn, and then use level 2 summons. Ivan can unleash Gust and then summon, but he is the weak link, and conservative players will simply use his psynergy. Mia is crucial, as she is the healer. At the start of battle, she can use an attacking psy, which, being Mercury, will be strong against the fire enemy. After this, she will most probably be healing each turn. Isaac may have to help here, too. After the summons, have the characters use psynergy while waiting for their djinn to be reset.",
+    "sources": [
+      "linkt",
+      "fandom-wiki",
+      "fandom-saturos"
     ]
   },
   {
@@ -526,15 +602,36 @@
           "lck": 26
         },
         "elemental_power": [
-          { "element": "earth", "power": 100 },
-          { "element": "wind",  "power": 80 },
-          { "element": "water", "power": 80 }
+          {
+            "element": "earth",
+            "power": 100
+          },
+          {
+            "element": "wind",
+            "power": 80
+          },
+          {
+            "element": "water",
+            "power": 80
+          }
         ],
         "resistance": [
-          { "element": "wind",  "value": 127 },
-          { "element": "earth", "value": 72 },
-          { "element": "water", "value": 72 },
-          { "element": "fire",  "value": 25 }
+          {
+            "element": "wind",
+            "value": 127
+          },
+          {
+            "element": "earth",
+            "value": 72
+          },
+          {
+            "element": "water",
+            "value": 72
+          },
+          {
+            "element": "fire",
+            "value": 25
+          }
         ],
         "attacks": [
           {
@@ -556,8 +653,8 @@
             "element": "fire",
             "damage_power": null,
             "range": 3,
-            "pp_cost": null,
-            "special": "May lower targets' Defense. Deals no damage.",
+            "pp_cost": 6,
+            "special": "May lower Defense of targets. Non-damaging.",
             "use_frequency": null,
             "source": "linkt"
           },
@@ -569,7 +666,7 @@
             "damage_power": null,
             "range": 1,
             "pp_cost": null,
-            "special": "Deals greater damage than a normal attack.",
+            "special": "Deals greater damage than normal attack.",
             "use_frequency": null,
             "source": "linkt"
           },
@@ -578,9 +675,9 @@
             "type": "psynergy",
             "target": "enemy",
             "element": "water",
-            "damage_power": null,
+            "damage_power": 25,
             "range": 3,
-            "pp_cost": null,
+            "pp_cost": 5,
             "special": null,
             "use_frequency": null,
             "source": "linkt"
@@ -592,41 +689,57 @@
             "element": "wind",
             "damage_power": null,
             "range": 1,
-            "pp_cost": null,
-            "special": "May block the target's Psynergy. Deals no damage.",
+            "pp_cost": 4,
+            "special": "May block target's Psynergy. Non-damaging.",
             "use_frequency": null,
             "source": "linkt"
           },
           {
             "name": "War Cry",
-            "type": "physical",
+            "type": "monster_skill",
             "target": "enemy",
             "element": null,
             "damage_power": null,
             "range": 1,
             "pp_cost": null,
-            "special": "May disable the target for that turn; the target can act again the next turn.",
+            "special": "May disable the target for that turn.",
             "use_frequency": null,
             "source": "linkt"
           }
         ],
         "special_mechanics": [
-          "Incredibly agile.",
-          "A 'dumb' boss — easily affected by status ailments."
+          "Incredibly agile."
         ],
         "rewards": {
           "exp": 460,
           "coins": 1500,
-          "items": ["Douse Drop"],
+          "items": [
+            "Douse Drop"
+          ],
           "notes": null
         },
-        "special_notes": "LinkTheValiant lists approximately 1500 HP; the fandom-wiki exact value of 1000 is used here."
+        "special_notes": "LinkTheValiant lists HP as ~1,500; fandom-wiki gives exact value of 1000. Fandom-wiki value used."
       }
     ],
-    "weakness": ["fire"],
+    "weakness": [
+      "fire"
+    ],
     "recommended_level": 13,
     "strategy": "To start the battle, have two of every character's djinn on standby and one set. The one on set should be an attack djinn. Unleash the djinn, and then summon. After the summons, use elemental psynergy, as it will be powered up by the summons. When the djinn are set, do it again. Use Mia to heal when necessary. She won't be doing much attacking anyway as her psynergy is weak against this boss. Especially try to inflict some sort of status ailment on the creature, as it will make him that much easier to defeat.",
-    "sources": ["linkt", "fandom-wiki"]
+    "sources": [
+      "linkt",
+      "fandom-wiki"
+    ],
+    "conflicts": [
+      {
+        "field": "encounters[0].stats.hp",
+        "values": {
+          "linkt": 1500,
+          "fandom-wiki": 1000
+        },
+        "note": "LinkTheValiant gives ~1,500 HP; fandom-wiki gives exact value of 1000. Fandom-wiki used."
+      }
+    ]
   },
   {
     "id": "hydros-statue",
@@ -648,13 +761,28 @@
           "lck": 30
         },
         "elemental_power": [
-          { "element": "water", "power": 125 }
+          {
+            "element": "water",
+            "power": 125
+          }
         ],
         "resistance": [
-          { "element": "water", "value": 193 },
-          { "element": "earth", "value": 100 },
-          { "element": "wind",  "value": 100 },
-          { "element": "fire",  "value": 25 }
+          {
+            "element": "water",
+            "value": 193
+          },
+          {
+            "element": "earth",
+            "value": 100
+          },
+          {
+            "element": "wind",
+            "value": 100
+          },
+          {
+            "element": "fire",
+            "value": 25
+          }
         ],
         "attacks": [
           {
@@ -670,14 +798,14 @@
             "source": "linkt"
           },
           {
-            "name": "Water Breath",
+            "name": "Water Blessing",
             "type": "monster_skill",
             "target": "enemy",
             "element": "water",
             "damage_power": null,
             "range": 3,
             "pp_cost": null,
-            "special": "Mercury elemental physical attack ('Water Blessing' is a mistranslation of 'Water Breath').",
+            "special": "Mercury elemental physical attack. (Note: 'Blessing' is a translation error; better translated as 'Breath'.)",
             "use_frequency": null,
             "source": "linkt"
           },
@@ -686,9 +814,9 @@
             "type": "psynergy",
             "target": "enemy",
             "element": "water",
-            "damage_power": null,
+            "damage_power": 70,
             "range": 3,
-            "pp_cost": null,
+            "pp_cost": 11,
             "special": null,
             "use_frequency": null,
             "source": "linkt"
@@ -698,9 +826,9 @@
             "type": "psynergy",
             "target": "enemy",
             "element": "water",
-            "damage_power": null,
+            "damage_power": 45,
             "range": 3,
-            "pp_cost": null,
+            "pp_cost": 8,
             "special": null,
             "use_frequency": null,
             "source": "linkt"
@@ -710,9 +838,9 @@
             "type": "psynergy",
             "target": "enemy",
             "element": "water",
-            "damage_power": null,
-            "range": 3,
-            "pp_cost": null,
+            "damage_power": 65,
+            "range": 5,
+            "pp_cost": 12,
             "special": null,
             "use_frequency": null,
             "source": "linkt"
@@ -722,16 +850,33 @@
         "rewards": {
           "exp": 496,
           "coins": 2400,
-          "items": ["Lucky Medal"],
-          "notes": "Grants access to the chest behind the statue containing the Lifting Gem."
+          "items": [
+            "Lucky Medal"
+          ],
+          "notes": "Grants access to the Lifting Gem chest behind the statue."
         },
-        "special_notes": null
+        "special_notes": "LinkTheValiant lists HP as ~1,250; fandom-wiki gives exact value of 1300. Fandom-wiki value used."
       }
     ],
-    "weakness": ["fire"],
+    "weakness": [
+      "fire"
+    ],
     "recommended_level": 16,
-    "strategy": "To start the battle, have all of Mia's djinn set. She will be the healer, for the same reasons as the killer ape fight. Ivan should have all but one of his djinn on standby, and Isaac and Garet should have all but two. The set djinn should be attacking djinn. Have the men unleash their djinn. Mia should attack. The Hydros Statue will be unable to down you this turn. Have Mia heal next turn if necessary. Have the two fighters unleash their remaining djinn, and have Ivan summon. The two fighters summon next turn, Mia heals or attacks, and Ivan uses psynergy. When the djinn start setting again, unleash again and summon. The statue will be so weak that he cannot stand up to a second round of summons.",
-    "sources": ["linkt", "fandom-wiki"]
+    "strategy": "To start the battle, have all of Mia's djinn set. She will be the healer. Ivan should have all but one of his djinn on standby, and Isaac and Garet should have all but two. The set djinn should be attacking djinn. Have the men unleash their djinn. Mia should attack. The Hydros Statue will be unable to down you this turn. Have Mia heal next turn if necessary. Have the two fighters unleash their remaining djinn, and have Ivan summon. The two fighters summon next turn, Mia heals or attacks, and Ivan uses psynergy. When the djinn start setting again, unleash again and summon. The statue will be so weak that he cannot stand up to a second round of summons.",
+    "sources": [
+      "linkt",
+      "fandom-wiki"
+    ],
+    "conflicts": [
+      {
+        "field": "encounters[0].stats.hp",
+        "values": {
+          "linkt": 1250,
+          "fandom-wiki": 1300
+        },
+        "note": "LinkTheValiant gives ~1,250 HP; fandom-wiki gives exact value of 1300. Fandom-wiki used."
+      }
+    ]
   },
   {
     "id": "manticore",
@@ -753,14 +898,32 @@
           "lck": 36
         },
         "elemental_power": [
-          { "element": "fire",  "power": 115 },
-          { "element": "earth", "power": 95 }
+          {
+            "element": "fire",
+            "power": 115
+          },
+          {
+            "element": "earth",
+            "power": 95
+          }
         ],
         "resistance": [
-          { "element": "fire",  "value": 175 },
-          { "element": "earth", "value": 100 },
-          { "element": "wind",  "value": 100 },
-          { "element": "water", "value": 25 }
+          {
+            "element": "fire",
+            "value": 175
+          },
+          {
+            "element": "earth",
+            "value": 100
+          },
+          {
+            "element": "wind",
+            "value": 100
+          },
+          {
+            "element": "water",
+            "value": 25
+          }
         ],
         "attacks": [
           {
@@ -783,7 +946,7 @@
             "damage_power": null,
             "range": 1,
             "pp_cost": null,
-            "special": "May infect the target with deadly poison.",
+            "special": "May inflict Deadly Poison on target.",
             "use_frequency": null,
             "source": "linkt"
           },
@@ -794,8 +957,8 @@
             "element": "wind",
             "damage_power": null,
             "range": 3,
-            "pp_cost": null,
-            "special": "May inflict Delusion. Deals no damage.",
+            "pp_cost": 4,
+            "special": "May inflict Delusion on each target. Non-damaging.",
             "use_frequency": null,
             "source": "linkt"
           },
@@ -804,22 +967,22 @@
             "type": "psynergy",
             "target": "enemy",
             "element": "fire",
-            "damage_power": null,
+            "damage_power": 50,
             "range": 3,
-            "pp_cost": null,
+            "pp_cost": 9,
             "special": null,
             "use_frequency": null,
             "source": "linkt"
           },
           {
             "name": "Curse",
-            "type": "monster_skill",
+            "type": "psynergy",
             "target": "enemy",
-            "element": null,
+            "element": "earth",
             "damage_power": null,
             "range": 1,
-            "pp_cost": null,
-            "special": "May inflict the Curse status, which downs the affected party member in seven turns. Cured with Elixir or Restore.",
+            "pp_cost": 6,
+            "special": "May inflict Curse status, which downs the target in seven turns.",
             "use_frequency": null,
             "source": "linkt"
           },
@@ -828,9 +991,9 @@
             "type": "psynergy",
             "target": "enemy",
             "element": "fire",
-            "damage_power": null,
+            "damage_power": 70,
             "range": 5,
-            "pp_cost": null,
+            "pp_cost": 13,
             "special": null,
             "use_frequency": null,
             "source": "linkt"
@@ -842,29 +1005,46 @@
             "element": "fire",
             "damage_power": null,
             "range": 1,
-            "pp_cost": null,
-            "special": "May lower the target's Defense. Deals no damage.",
+            "pp_cost": 4,
+            "special": "May lower target's Defense. Non-damaging.",
             "use_frequency": null,
             "source": "linkt"
           }
         ],
         "special_mechanics": [
           "Acts twice per turn.",
-          "An 'intelligent' boss — resistant to status ailments."
+          "Intelligent boss — status ailments are difficult to inflict."
         ],
         "rewards": {
           "exp": 590,
           "coins": 3400,
-          "items": ["Psy Crystal"],
+          "items": [
+            "Psy Crystal"
+          ],
           "notes": null
         },
-        "special_notes": "LinkTheValiant lists approximately 2000 HP; the fandom-wiki exact value of 1700 is used here."
+        "special_notes": "LinkTheValiant lists HP as ~2,000; fandom-wiki gives exact value of 1700. Fandom-wiki value used."
       }
     ],
-    "weakness": ["water"],
+    "weakness": [
+      "water"
+    ],
     "recommended_level": 18,
     "strategy": "To start the battle have Isaac, Garet, and Ivan unleash, while Mia uses water attacking psynergy. She will have her djinn set the entire battle so that she can continue to heal. Continue unleashing until the summons are ready. Pull them off, but have Mia summon Boreas, as the power boost will guarantee her ability as a healer. Be sure to cure the status ailments, as there are sure to be plenty that need healing. Watch out for Ivan, as he has a tendency to go down easily when his djinn are all on standby. When the summons are done, cure status, and then attack with anything you have. The Manticore should go down quickly.",
-    "sources": ["linkt", "fandom-wiki"]
+    "sources": [
+      "linkt",
+      "fandom-wiki"
+    ],
+    "conflicts": [
+      {
+        "field": "encounters[0].stats.hp",
+        "values": {
+          "linkt": 2000,
+          "fandom-wiki": 1700
+        },
+        "note": "LinkTheValiant gives ~2,000 HP; fandom-wiki gives exact value of 1700. Fandom-wiki used."
+      }
+    ]
   },
   {
     "id": "kraken",
@@ -886,14 +1066,32 @@
           "lck": 21
         },
         "elemental_power": [
-          { "element": "water", "power": 115 },
-          { "element": "earth", "power": 95 }
+          {
+            "element": "water",
+            "power": 115
+          },
+          {
+            "element": "earth",
+            "power": 95
+          }
         ],
         "resistance": [
-          { "element": "water", "value": 175 },
-          { "element": "earth", "value": 100 },
-          { "element": "wind",  "value": 100 },
-          { "element": "fire",  "value": 25 }
+          {
+            "element": "water",
+            "value": 175
+          },
+          {
+            "element": "earth",
+            "value": 100
+          },
+          {
+            "element": "wind",
+            "value": 100
+          },
+          {
+            "element": "fire",
+            "value": 25
+          }
         ],
         "attacks": [
           {
@@ -910,7 +1108,7 @@
           },
           {
             "name": "Spinning Beat",
-            "type": "physical",
+            "type": "monster_skill",
             "target": "enemy",
             "element": null,
             "damage_power": null,
@@ -922,37 +1120,37 @@
           },
           {
             "name": "Poison Beat",
-            "type": "physical",
+            "type": "monster_skill",
             "target": "enemy",
             "element": null,
             "damage_power": null,
             "range": 1,
             "pp_cost": null,
-            "special": "Deals more damage than a normal attack; may inflict Poison.",
+            "special": "Like Spinning Beat but may inflict Poison.",
             "use_frequency": null,
             "source": "linkt"
           },
           {
-            "name": "Water Breath",
+            "name": "Water Blessing",
             "type": "monster_skill",
             "target": "enemy",
             "element": "water",
             "damage_power": null,
             "range": 3,
             "pp_cost": null,
-            "special": "Elemental physical attack ('Water Blessing' is a mistranslation of 'Water Breath').",
+            "special": "Elemental physical attack. (Note: better translated as 'Water Breath'.)",
             "use_frequency": null,
             "source": "linkt"
           },
           {
-            "name": "Dark Breath",
+            "name": "Dark Blessing",
             "type": "monster_skill",
             "target": "enemy",
             "element": null,
             "damage_power": null,
             "range": 3,
             "pp_cost": null,
-            "special": "Breath attack like Water Breath; may inflict Delusion ('Dark Blessing' is a mistranslation of 'Dark Breath').",
+            "special": "Like Water Breath but may inflict Delusion. (Note: better translated as 'Dark Breath'.)",
             "use_frequency": null,
             "source": "linkt"
           },
@@ -961,9 +1159,9 @@
             "type": "psynergy",
             "target": "enemy",
             "element": "water",
-            "damage_power": null,
+            "damage_power": 60,
             "range": 3,
-            "pp_cost": null,
+            "pp_cost": 10,
             "special": null,
             "use_frequency": null,
             "source": "linkt"
@@ -973,32 +1171,71 @@
             "type": "psynergy",
             "target": "enemy",
             "element": "water",
-            "damage_power": null,
+            "damage_power": 65,
             "range": 5,
-            "pp_cost": null,
+            "pp_cost": 12,
             "special": null,
+            "use_frequency": null,
+            "source": "linkt"
+          },
+          {
+            "name": "Ply",
+            "type": "psynergy",
+            "target": "self",
+            "element": "water",
+            "damage_power": null,
+            "range": 1,
+            "pp_cost": 4,
+            "special": "Restores HP to the Kraken.",
+            "use_frequency": null,
+            "source": "linkt"
+          },
+          {
+            "name": "Ply Well",
+            "type": "psynergy",
+            "target": "self",
+            "element": "water",
+            "damage_power": null,
+            "range": 1,
+            "pp_cost": 8,
+            "special": "Restores HP to the Kraken.",
             "use_frequency": null,
             "source": "linkt"
           }
         ],
         "special_mechanics": [
-          "Acts twice per turn.",
-          "Knows the healing Psynergy Ply and Ply Well.",
-          "A 'dumb' boss — easily affected by status ailments."
+          "Acts twice per turn."
         ],
         "rewards": {
           "exp": 711,
           "coins": 5200,
-          "items": ["Water of Life"],
+          "items": [
+            "Water of Life"
+          ],
           "notes": null
         },
-        "special_notes": null
+        "special_notes": "LinkTheValiant lists HP as ~2,450; fandom-wiki gives exact value of 2400. Fandom-wiki value used."
       }
     ],
-    "weakness": ["fire"],
+    "weakness": [
+      "fire"
+    ],
     "recommended_level": 19,
-    "strategy": "Have Isaac's Quartz on standby. Have the men unleash attacking Djinn, except for Garet, who unleashes Forge. Have Mia attack. On the next turn, Mia heals or cures poison as necessary. The men continue to unleash until the level 3 or 4 summons are available. Each summons in his own element. Once the summons are done, have Isaac help with healing, have Garet use Mars psynergy, and have Ivan cast Sleep. He should do this until the Kraken falls asleep, at which point he uses his psynergy to attack as well. If the blessings are too much for you, have Ivan unleash Breeze or cast Resist. This will strenghthen the party against them.",
-    "sources": ["linkt", "fandom-wiki"]
+    "strategy": "Have Isaac's Quartz on standby. Have the men unleash attacking Djinn, except for Garet, who unleashes Forge. Have Mia attack. On the next turn, Mia heals or cures poison as necessary. The men continue to unleash until the level 3 or 4 summons are available. Each summons in his own element. Once the summons are done, have Isaac help with healing, have Garet use Mars psynergy, and have Ivan cast Sleep. He should do this until the Kraken falls asleep, at which point he uses his psynergy to attack as well. If the blessings are too much for you, have Ivan unleash Breeze or cast Resist.",
+    "sources": [
+      "linkt",
+      "fandom-wiki"
+    ],
+    "conflicts": [
+      {
+        "field": "encounters[0].stats.hp",
+        "values": {
+          "linkt": 2450,
+          "fandom-wiki": 2400
+        },
+        "note": "LinkTheValiant gives ~2,450 HP; fandom-wiki gives exact value of 2400. Fandom-wiki used."
+      }
+    ]
   },
   {
     "id": "toadonpa",
@@ -1020,14 +1257,32 @@
           "lck": 18
         },
         "elemental_power": [
-          { "element": "water", "power": 115 },
-          { "element": "fire",  "power": 85 }
+          {
+            "element": "water",
+            "power": 115
+          },
+          {
+            "element": "fire",
+            "power": 85
+          }
         ],
         "resistance": [
-          { "element": "water", "value": 175 },
-          { "element": "earth", "value": 100 },
-          { "element": "wind",  "value": 100 },
-          { "element": "fire",  "value": 25 }
+          {
+            "element": "water",
+            "value": 175
+          },
+          {
+            "element": "earth",
+            "value": 100
+          },
+          {
+            "element": "wind",
+            "value": 100
+          },
+          {
+            "element": "fire",
+            "value": 25
+          }
         ],
         "attacks": [
           {
@@ -1044,70 +1299,86 @@
           },
           {
             "name": "Thrash",
-            "type": "physical",
+            "type": "monster_skill",
             "target": "enemy",
             "element": null,
             "damage_power": null,
             "range": 1,
             "pp_cost": null,
-            "special": "May reduce the target's HP to one.",
+            "special": "May reduce target's HP to 1.",
             "use_frequency": null,
             "source": "linkt"
           },
           {
-            "name": "Dark Breath",
+            "name": "Dark Blessing",
             "type": "monster_skill",
             "target": "enemy",
             "element": null,
             "damage_power": null,
             "range": 3,
             "pp_cost": null,
-            "special": "Elemental physical (breath) attack; may lower targets' Defense ('Dark Blessing' is a mistranslation of 'Dark Breath').",
+            "special": "Elemental physical attack that may lower target's Defense. (Note: better translated as 'Dark Breath'.)",
             "use_frequency": null,
             "source": "linkt"
           },
           {
             "name": "Rotten Blood",
-            "type": "physical",
+            "type": "monster_skill",
             "target": "enemy",
             "element": null,
             "damage_power": null,
             "range": 1,
             "pp_cost": null,
-            "special": "May lower the target's Defense.",
+            "special": "May lower target's Defense.",
             "use_frequency": null,
             "source": "linkt"
           },
           {
             "name": "Sticky Poison",
-            "type": "physical",
+            "type": "monster_skill",
             "target": "enemy",
             "element": null,
             "damage_power": null,
             "range": 1,
             "pp_cost": null,
-            "special": "May inflict Poison.",
+            "special": "May inflict Poison on target.",
             "use_frequency": null,
             "source": "linkt"
           }
         ],
         "special_mechanics": [
-          "Regenerates 80 HP at the end of each turn.",
-          "The 'dumbest' boss in the game — extremely susceptible to status ailments."
+          "Regenerates 80 HP per turn."
         ],
         "rewards": {
           "exp": 999,
           "coins": 3200,
-          "items": ["Psy Crystal"],
+          "items": [
+            "Psy Crystal"
+          ],
           "notes": null
         },
-        "special_notes": null
+        "special_notes": "LinkTheValiant lists HP as ~2,900; fandom-wiki gives exact value of 2800. Fandom-wiki value used. Has no PP (confirmed by both sources)."
       }
     ],
-    "weakness": ["fire"],
+    "weakness": [
+      "fire"
+    ],
     "recommended_level": 21,
     "strategy": "Start with two of Isaac and Ivan's djinn on standby (non-attacking ones.) Garet has one on standby. (Either Corona or Ember.) Isaac and Ivan unleash an attacker, Garet unleashes Forge, and Mia unleashes Mist. (Hopefully he will fall asleep due to this attack.) On the next turn, the men unleash any attackers they have left and Mia heals or attacks as necessary. She should always have at least four djinn set so that she has the Wish psynergy. The men summon, and Mia attacks or heals. Toadonpa should be so weak at this point that a couple of rounds of attacking psynergy should do him in.",
-    "sources": ["linkt", "fandom-wiki"]
+    "sources": [
+      "linkt",
+      "fandom-wiki"
+    ],
+    "conflicts": [
+      {
+        "field": "encounters[0].stats.hp",
+        "values": {
+          "linkt": 2900,
+          "fandom-wiki": 2800
+        },
+        "note": "LinkTheValiant gives ~2,900 HP; fandom-wiki gives exact value of 2800. Fandom-wiki used."
+      }
+    ]
   },
   {
     "id": "storm-lizard",
@@ -1129,13 +1400,28 @@
           "lck": 22
         },
         "elemental_power": [
-          { "element": "wind", "power": 110 }
+          {
+            "element": "wind",
+            "power": 110
+          }
         ],
         "resistance": [
-          { "element": "wind",  "value": 152 },
-          { "element": "fire",  "value": 100 },
-          { "element": "water", "value": 100 },
-          { "element": "earth", "value": 48 }
+          {
+            "element": "wind",
+            "value": 152
+          },
+          {
+            "element": "fire",
+            "value": 100
+          },
+          {
+            "element": "water",
+            "value": 100
+          },
+          {
+            "element": "earth",
+            "value": 48
+          }
         ],
         "attacks": [
           {
@@ -1152,7 +1438,7 @@
           },
           {
             "name": "Wing Stroke",
-            "type": "physical",
+            "type": "monster_skill",
             "target": "enemy",
             "element": null,
             "damage_power": null,
@@ -1167,9 +1453,9 @@
             "type": "psynergy",
             "target": "enemy",
             "element": "wind",
-            "damage_power": null,
+            "damage_power": 120,
             "range": 5,
-            "pp_cost": null,
+            "pp_cost": 20,
             "special": null,
             "use_frequency": null,
             "source": "linkt"
@@ -1179,9 +1465,9 @@
             "type": "psynergy",
             "target": "enemy",
             "element": "wind",
-            "damage_power": null,
+            "damage_power": 160,
             "range": 5,
-            "pp_cost": null,
+            "pp_cost": 27,
             "special": null,
             "use_frequency": null,
             "source": "linkt"
@@ -1191,9 +1477,9 @@
             "type": "psynergy",
             "target": "enemy",
             "element": "wind",
-            "damage_power": null,
+            "damage_power": 65,
             "range": 3,
-            "pp_cost": null,
+            "pp_cost": 10,
             "special": null,
             "use_frequency": null,
             "source": "linkt"
@@ -1204,9 +1490,9 @@
             "target": "self",
             "element": "wind",
             "damage_power": null,
-            "range": null,
-            "pp_cost": null,
-            "special": "Increases its own Attack.",
+            "range": 1,
+            "pp_cost": 7,
+            "special": "Increases own Attack rating.",
             "use_frequency": null,
             "source": "linkt"
           },
@@ -1216,304 +1502,47 @@
             "target": "self",
             "element": "wind",
             "damage_power": null,
-            "range": null,
-            "pp_cost": null,
-            "special": "Increases its own Resistance.",
+            "range": 1,
+            "pp_cost": 3,
+            "special": "Increases own Resistance.",
             "use_frequency": null,
             "source": "linkt"
           }
         ],
         "special_mechanics": [
           "Acts twice per turn.",
-          "Optional — can be outrun and skipped entirely."
+          "Can be outrun — this boss is optional."
         ],
         "rewards": {
           "exp": 1300,
           "coins": 6100,
-          "items": ["Psy Crystal"],
+          "items": [
+            "Psy Crystal"
+          ],
           "notes": null
         },
-        "special_notes": null
+        "special_notes": "LinkTheValiant lists HP as ~3,000; fandom-wiki gives exact value of 2900. Fandom-wiki value used."
       }
     ],
-    "weakness": [],
+    "weakness": [
+      "earth"
+    ],
     "recommended_level": 23,
     "strategy": "To start the battle, Isaac attacks, Garet unleashes Forge, Ivan unleashes Squall, and Mia unleashes Sleet. Next turn, Isaac unleashes Flint, Garet unleashes Scorch, Ivan unleashes Smog, and Mia summons, or heals if you need to. Continue until Ivan has four djinn on standby, then summon. The fighters summon as soon as their level four summons become available. After the summons, the fighters use their strong psynergy, Ivan casts Resist or High Impact, and Mia heals as necessary. When the djinn start setting again, have the men unleash and then summon again. The Storm Lizard will go down quickly.",
-    "sources": ["linkt", "fandom-wiki"]
-  },
-  {
-    "id": "tempest-lizard",
-    "name": "Tempest Lizard",
-    "game": "gs1",
-    "is_optional": true,
-    "is_superboss": false,
-    "encounters": [
-      {
-        "encounter_id": "tempest-lizard",
-        "location": "Suhalla Desert",
-        "is_winnable": true,
-        "stats": {
-          "hp": 3000,
-          "pp": 45,
-          "atk": 295,
-          "def": 94,
-          "agi": 114,
-          "lck": 26
-        },
-        "elemental_power": [
-          { "element": "wind", "power": 110 }
-        ],
-        "resistance": [
-          { "element": "wind",  "value": 152 },
-          { "element": "fire",  "value": 100 },
-          { "element": "water", "value": 100 },
-          { "element": "earth", "value": 48 }
-        ],
-        "attacks": [
-          {
-            "name": "Attack",
-            "type": "physical",
-            "target": "enemy",
-            "element": null,
-            "damage_power": null,
-            "range": 1,
-            "pp_cost": null,
-            "special": null,
-            "use_frequency": null,
-            "source": "linkt"
-          },
-          {
-            "name": "Wing Stroke",
-            "type": "physical",
-            "target": "enemy",
-            "element": null,
-            "damage_power": null,
-            "range": 3,
-            "pp_cost": null,
-            "special": null,
-            "use_frequency": null,
-            "source": "linkt"
-          },
-          {
-            "name": "Sonic Slash",
-            "type": "psynergy",
-            "target": "enemy",
-            "element": "wind",
-            "damage_power": null,
-            "range": 5,
-            "pp_cost": null,
-            "special": null,
-            "use_frequency": null,
-            "source": "linkt"
-          },
-          {
-            "name": "Tempest",
-            "type": "psynergy",
-            "target": "enemy",
-            "element": "wind",
-            "damage_power": null,
-            "range": 5,
-            "pp_cost": null,
-            "special": null,
-            "use_frequency": null,
-            "source": "linkt"
-          },
-          {
-            "name": "Storm Ray",
-            "type": "psynergy",
-            "target": "enemy",
-            "element": "wind",
-            "damage_power": null,
-            "range": 3,
-            "pp_cost": null,
-            "special": null,
-            "use_frequency": null,
-            "source": "linkt"
-          },
-          {
-            "name": "Impact",
-            "type": "psynergy",
-            "target": "self",
-            "element": "wind",
-            "damage_power": null,
-            "range": null,
-            "pp_cost": null,
-            "special": "Increases its own Attack.",
-            "use_frequency": null,
-            "source": "linkt"
-          },
-          {
-            "name": "Ward",
-            "type": "psynergy",
-            "target": "self",
-            "element": "wind",
-            "damage_power": null,
-            "range": null,
-            "pp_cost": null,
-            "special": "Increases its own Resistance.",
-            "use_frequency": null,
-            "source": "linkt"
-          }
-        ],
-        "special_mechanics": [
-          "Acts twice per turn.",
-          "Susceptible to Poison.",
-          "Optional — can be outrun and skipped entirely."
-        ],
-        "rewards": {
-          "exp": 1360,
-          "coins": 6400,
-          "items": ["Potion"],
-          "notes": null
-        },
-        "special_notes": "Unlike other Golden Sun bosses, the Tempest Lizard can be fought any number of times."
-      }
+    "sources": [
+      "linkt",
+      "fandom-wiki"
     ],
-    "weakness": [],
-    "recommended_level": 23,
-    "strategy": "Isaac attacks, Garet unleashes Forge, Ivan unleashes Squall, and Mia unleashes Sleet. Next turn, Isaac unleashes Flint, Garet unleashes Scorch, Ivan unleashes Smog, and Mia summons, or heals if you need to. Continue until Ivan has four djinn on standby, then summon. The fighters summon as soon as their level four summons become available. After the summons, the fighters use their strong psynergy, Ivan casts Resist or High Impact, and Mia heals as necessary. When the djinn start setting again, have the men unleash and then summon again. The Storm Lizard will go down quickly.",
-    "sources": ["linkt", "fandom-wiki"]
-  },
-  {
-    "id": "fusion-dragon",
-    "name": "Fusion Dragon",
-    "game": "gs1",
-    "is_optional": false,
-    "is_superboss": false,
-    "encounters": [
+    "conflicts": [
       {
-        "encounter_id": "fusion-dragon",
-        "location": "Venus Lighthouse",
-        "is_winnable": true,
-        "stats": {
-          "hp": 5000,
-          "pp": 500,
-          "atk": 439,
-          "def": 150,
-          "agi": 190,
-          "lck": 50
+        "field": "encounters[0].stats.hp",
+        "values": {
+          "linkt": 3000,
+          "fandom-wiki": 2900
         },
-        "elemental_power": [
-          { "element": "fire",  "power": 110 },
-          { "element": "earth", "power": 100 }
-        ],
-        "resistance": [
-          { "element": "fire",  "value": 175 },
-          { "element": "earth", "value": 127 },
-          { "element": "wind",  "value": 127 },
-          { "element": "water", "value": 72 }
-        ],
-        "attacks": [
-          {
-            "name": "Attack",
-            "type": "physical",
-            "target": "enemy",
-            "element": null,
-            "damage_power": null,
-            "range": 1,
-            "pp_cost": null,
-            "special": null,
-            "use_frequency": null,
-            "source": "linkt"
-          },
-          {
-            "name": "Break",
-            "type": "psynergy",
-            "target": "enemy",
-            "element": null,
-            "damage_power": null,
-            "range": null,
-            "pp_cost": null,
-            "special": "Nullifies all stat-boosting effects on the party.",
-            "use_frequency": null,
-            "source": "linkt"
-          },
-          {
-            "name": "Outer Space",
-            "type": "monster_skill",
-            "target": "enemy",
-            "element": null,
-            "damage_power": null,
-            "range": null,
-            "pp_cost": null,
-            "special": "Resembles the Meteor summon in appearance and power. Targets all party members.",
-            "use_frequency": null,
-            "source": "linkt"
-          },
-          {
-            "name": "Dragon Driver",
-            "type": "monster_skill",
-            "target": "enemy",
-            "element": null,
-            "damage_power": null,
-            "range": null,
-            "pp_cost": null,
-            "special": "Resembles the Tiamat summon in appearance and power. Targets all party members.",
-            "use_frequency": null,
-            "source": "linkt"
-          },
-          {
-            "name": "Evil Breath",
-            "type": "monster_skill",
-            "target": "enemy",
-            "element": null,
-            "damage_power": null,
-            "range": 3,
-            "pp_cost": null,
-            "special": "Breath attack; may inflict Haunt ('Evil Blessing' is a mistranslation of 'Evil Breath').",
-            "use_frequency": null,
-            "source": "linkt"
-          },
-          {
-            "name": "Drain Fang",
-            "type": "monster_skill",
-            "target": "enemy",
-            "element": null,
-            "damage_power": null,
-            "range": 1,
-            "pp_cost": null,
-            "special": "Drains the target's HP into the boss.",
-            "use_frequency": null,
-            "source": "linkt"
-          },
-          {
-            "name": "Deadly Gas",
-            "type": "monster_skill",
-            "target": "enemy",
-            "element": null,
-            "damage_power": null,
-            "range": 3,
-            "pp_cost": null,
-            "special": "Breath attack; may infect targets with Venom (deadly poison).",
-            "use_frequency": null,
-            "source": "linkt"
-          },
-          {
-            "name": "Severe Blow",
-            "type": "monster_skill",
-            "target": "enemy",
-            "element": null,
-            "damage_power": null,
-            "range": 1,
-            "pp_cost": null,
-            "special": "May reduce the target's HP to one.",
-            "use_frequency": null,
-            "source": "linkt"
-          }
-        ],
-        "special_mechanics": [
-          "Acts twice per turn.",
-          "Semi-intelligent — status ailments can be inflicted, but only with difficulty.",
-          "Isaac regenerates 4 PP per turn during this battle."
-        ],
-        "rewards": null,
-        "special_notes": "Listed as the unnamed 'Final Boss' on the fandom-wiki Boss page. The merged form of Saturos and Menardi. As the final boss, defeating it ends the game and yields no EXP or coin rewards (N/A per fandom-wiki)."
+        "note": "LinkTheValiant gives ~3,000 HP; fandom-wiki gives exact value of 2900. Fandom-wiki used."
       }
-    ],
-    "weakness": [],
-    "recommended_level": 32,
-    "strategy": "All right. Hopefully you were preparing for this fight in the last few rounds of fighting Saturos and Menardi. If you do not have all djinn set, simply attack until they are. Whenever one of the fighters gets all of his djinn on set, have Ivan cast Impact on him and then have him (the fighter) unleash till four are on standby, then summon. He should then simply attack, waiting until such time as all but one are back on set. He then uses his strong psynergy and then begins unleashing again. Ivan, meanwhile, is casting Resist as often as he gets a breathing space. He does this four times until the party's resistance in maxed out. He then begins his own unleashes. When he gets three on standby, summon. Mia is healing throughout. I would recommend, though, that if you are strong enough, have her unleash one or two djinn and summon at the start, so that her power is boosted and her healing is more effective. There will probably come a point where one or more party members are infected with venom. At this point you will want to use Granite or Flash while Mia fixes the problem. Always keep either Flash or Granite available in case the Fusion Dragon uses two Outer Spaces in a row. This can (at low levels) make your party vulnerable in the next turn.",
-    "sources": ["linkt", "fandom-wiki", "fandom-saturos"]
+    ]
   },
   {
     "id": "deadbeard",
@@ -1535,15 +1564,36 @@
           "lck": 60
         },
         "elemental_power": [
-          { "element": "water", "power": 130 },
-          { "element": "fire",  "power": 120 },
-          { "element": "wind",  "power": 110 }
+          {
+            "element": "water",
+            "power": 130
+          },
+          {
+            "element": "fire",
+            "power": 120
+          },
+          {
+            "element": "wind",
+            "power": 110
+          }
         ],
         "resistance": [
-          { "element": "water", "value": 193 },
-          { "element": "wind",  "value": 152 },
-          { "element": "fire",  "value": 127 },
-          { "element": "earth", "value": 72 }
+          {
+            "element": "water",
+            "value": 193
+          },
+          {
+            "element": "wind",
+            "value": 152
+          },
+          {
+            "element": "fire",
+            "value": 127
+          },
+          {
+            "element": "earth",
+            "value": 72
+          }
         ],
         "attacks": [
           {
@@ -1554,7 +1604,7 @@
             "damage_power": null,
             "range": 1,
             "pp_cost": null,
-            "special": "Highest physical Attack rating in Golden Sun; far deadlier if Deadbeard has cast Impact on himself.",
+            "special": null,
             "use_frequency": "53/256",
             "source": "fandom-deadbeard"
           },
@@ -1566,7 +1616,7 @@
             "damage_power": 190,
             "range": 5,
             "pp_cost": 31,
-            "special": "Deadbeard's most common and most damaging multi-Adept offense.",
+            "special": null,
             "use_frequency": "47/256",
             "source": "fandom-deadbeard"
           },
@@ -1578,7 +1628,7 @@
             "damage_power": null,
             "range": null,
             "pp_cost": 5,
-            "special": "Removes any statistical buffs from the battling party.",
+            "special": "Removes all statistical buffs from the current battling party.",
             "use_frequency": "41/256",
             "source": "fandom-deadbeard"
           },
@@ -1588,9 +1638,9 @@
             "target": "self",
             "element": "wind",
             "damage_power": null,
-            "range": null,
+            "range": 1,
             "pp_cost": 7,
-            "special": "Increases own Attack by 25% (about 117 points each time); stacks up to 150% maximum.",
+            "special": "Increases Deadbeard's Attack by 25% (up to 150% max).",
             "use_frequency": "35/256",
             "source": "fandom-deadbeard"
           },
@@ -1602,7 +1652,7 @@
             "damage_power": null,
             "range": null,
             "pp_cost": 3,
-            "special": "Increases own Resistance to all elements by 40.",
+            "special": "Increases Deadbeard's Resistance to all elements by 40.",
             "use_frequency": "29/256",
             "source": "fandom-deadbeard"
           },
@@ -1624,9 +1674,9 @@
             "target": "self",
             "element": "fire",
             "damage_power": null,
-            "range": null,
+            "range": 1,
             "pp_cost": 3,
-            "special": "Increases own Defense by 25% (about 44 then 45 points).",
+            "special": "Increases Deadbeard's Defense by 25%.",
             "use_frequency": "17/256",
             "source": "fandom-deadbeard"
           },
@@ -1645,22 +1695,556 @@
         ],
         "special_mechanics": [
           "Acts twice per turn.",
-          "Immune to status ailments, except for Psynergy Seal.",
-          "Strongest and most durable boss in Golden Sun — stronger and better defended than the final boss.",
-          "Has no monster skills; relies entirely on area-of-effect offensive Psynergy and self-buffing Psynergy."
+          "Immune to status ailments except Psynergy Seal."
         ],
         "rewards": {
           "exp": 8000,
           "coins": 9000,
-          "items": ["Water of Life"],
-          "notes": "If felled by the attack effect of an offensive Venus Djinni, rewards increase to 10400 EXP and 11700 coins. A chest containing the Demon Mail (highest physical-defense armor in Golden Sun) appears after the battle."
+          "items": [
+            "Water of Life"
+          ],
+          "notes": "Rewards increase to 10400 EXP and 11700 coins if felled by an offensive Venus Djinni. A chest containing Demon Mail appears after the battle."
         },
-        "special_notes": "Stats are all a grade higher than the Fusion Dragon's except Agility (180 vs the Fusion Dragon's 190)."
+        "special_notes": null
       }
     ],
-    "weakness": ["earth"],
+    "weakness": [
+      "earth"
+    ],
     "recommended_level": 30,
-    "strategy": "SLOWEST STRATEGY: This strategy is nothing more than unleashing Granite on one turn and setting it the next. On turns where Granite is being set, unleash Flash. Have the remaining two party members heal and aid as necessary. This strategy takes a long time, but is practically infallible.\n\nSUMMON RUSH STRATEGY: This consists of putting four of each player's djinn on standby before the fight begins and summoning right off. Continue by using the strong psynergy for each character and healing as necessary.\n\nEASIEST STRATEGY: Go into the fight with everyone's djinn set in base classes. Have Isaac attack, Garet unleashes Forge, Ivan unleashes Luff, and Mia unleashes Sleet. Have Isaac and Garet continue to unleash, have Ivan alternate between unleashing and setting Luff, and have Mia unleash once more or heal. When a turn arrives in which Mia can summon without needing to heal, have her do so. (The purpose of this is to boost her water power, so that she will be a more effective healer.) When the Isaac and Garet have 3 or 4 djinn on standby, have them summon. Next turn, have each of them use their strong psynergy. (Ragnarok and Heat Wave.) Continue to do this until Isaac has one djinni left to recover. At this point have Garet unleash Forge again, and repeat the whole strategy (with the exception that Mia heals continuously instead of unleashing. Deadbeard will go down on the second round of summons. The point of this strategy is that Deadbeard possesses no non-psynergy special attacks, so all he has left is his physical attack, which makes the battle easy.\n\nEXPERT'S STRATEGY: Start by having Isaac and Garet unleash attackers, Ivan cast Resist, and Mia attack. Deadbeard will probably use some sort of boost on himself, but don't worry about it unless it's Impact. If it is, Break him immediately. Otherwise, just continue. Next, unleash again, and have Ivan do so as well. Ivan unleashes until he has three on standby. (Never four, as he is then too weak to stand up to two attacks.) The fighters unleash until they have four on standby, then summon. Mia is healing throughout. Deadbeard will probably Break you after the summons, so simply attack with the fighters. Ivan uses psynergy after the summons. Also, if Deadbeard has done two or three status effects on himself by now, it's probably time to Break him. Remember, always Break him immediately if he uses Impact. Continue until the djinn start setting, at which point you should start unleashing again. After the second round of summons, Deadbeard should go down.",
-    "sources": ["linkt", "fandom-wiki", "fandom-deadbeard"]
+    "strategy": "EASIEST STRATEGY: Go into the fight with everyone's djinn set in base classes. Have Isaac attack, Garet unleashes Forge, Ivan unleashes Luff, and Mia unleashes Sleet. Have Isaac and Garet continue to unleash, have Ivan alternate between unleashing and setting Luff, and have Mia unleash once more or heal. When a turn arrives in which Mia can summon without needing to heal, have her do so. When Isaac and Garet have 3 or 4 djinn on standby, have them summon. Next turn, have each of them use their strong psynergy. Continue to do this until Isaac has one djinni left to recover. At this point have Garet unleash Forge again, and repeat the whole strategy. Deadbeard will go down on the second round of summons. EXPERT'S STRATEGY: Start by having Isaac and Garet unleash attackers, Ivan cast Resist, and Mia attack. Deadbeard will probably use some sort of boost on himself, but don't worry about it unless it's Impact. If it is, Break him immediately. Otherwise, just continue. Next, unleash again, and have Ivan do so as well. Ivan unleashes until he has three on standby. The fighters unleash until they have four on standby, then summon. Mia is healing throughout. Deadbeard will probably Break you after the summons, so simply attack with the fighters. Ivan uses psynergy after the summons. Also, if Deadbeard has done two or three status effects on himself by now, it's probably time to Break him. Continue until the djinn start setting, at which point you should start unleashing again. After the second round of summons, Deadbeard should go down.",
+    "sources": [
+      "linkt",
+      "fandom-wiki",
+      "fandom-deadbeard"
+    ]
+  },
+  {
+    "id": "tempest-lizard",
+    "name": "Tempest Lizard",
+    "game": "gs1",
+    "is_optional": true,
+    "is_superboss": false,
+    "encounters": [
+      {
+        "encounter_id": "tempest-lizard",
+        "location": "Suhalla Desert",
+        "is_winnable": true,
+        "stats": {
+          "hp": 3000,
+          "pp": 45,
+          "atk": 295,
+          "def": 94,
+          "agi": 114,
+          "lck": 26
+        },
+        "elemental_power": [
+          {
+            "element": "wind",
+            "power": 110
+          }
+        ],
+        "resistance": [
+          {
+            "element": "wind",
+            "value": 152
+          },
+          {
+            "element": "fire",
+            "value": 100
+          },
+          {
+            "element": "water",
+            "value": 100
+          },
+          {
+            "element": "earth",
+            "value": 48
+          }
+        ],
+        "attacks": [
+          {
+            "name": "Attack",
+            "type": "physical",
+            "target": "enemy",
+            "element": null,
+            "damage_power": null,
+            "range": 1,
+            "pp_cost": null,
+            "special": null,
+            "use_frequency": null,
+            "source": "linkt"
+          },
+          {
+            "name": "Wing Stroke",
+            "type": "monster_skill",
+            "target": "enemy",
+            "element": null,
+            "damage_power": null,
+            "range": 3,
+            "pp_cost": null,
+            "special": null,
+            "use_frequency": null,
+            "source": "linkt"
+          },
+          {
+            "name": "Sonic Slash",
+            "type": "psynergy",
+            "target": "enemy",
+            "element": "wind",
+            "damage_power": 120,
+            "range": 5,
+            "pp_cost": 20,
+            "special": null,
+            "use_frequency": null,
+            "source": "linkt"
+          },
+          {
+            "name": "Tempest",
+            "type": "psynergy",
+            "target": "enemy",
+            "element": "wind",
+            "damage_power": 160,
+            "range": 5,
+            "pp_cost": 27,
+            "special": null,
+            "use_frequency": null,
+            "source": "linkt"
+          },
+          {
+            "name": "Storm Ray",
+            "type": "psynergy",
+            "target": "enemy",
+            "element": "wind",
+            "damage_power": 65,
+            "range": 3,
+            "pp_cost": 10,
+            "special": null,
+            "use_frequency": null,
+            "source": "linkt"
+          },
+          {
+            "name": "Impact",
+            "type": "psynergy",
+            "target": "self",
+            "element": "wind",
+            "damage_power": null,
+            "range": 1,
+            "pp_cost": 7,
+            "special": "Increases own Attack rating.",
+            "use_frequency": null,
+            "source": "linkt"
+          },
+          {
+            "name": "Ward",
+            "type": "psynergy",
+            "target": "self",
+            "element": "wind",
+            "damage_power": null,
+            "range": 1,
+            "pp_cost": 3,
+            "special": "Increases own Resistance.",
+            "use_frequency": null,
+            "source": "linkt"
+          }
+        ],
+        "special_mechanics": [
+          "Acts twice per turn.",
+          "Can be fought any number of times (unlike other bosses).",
+          "Weak to Poison."
+        ],
+        "rewards": {
+          "exp": 1360,
+          "coins": 6400,
+          "items": [
+            "Potion"
+          ],
+          "notes": null
+        },
+        "special_notes": null
+      }
+    ],
+    "weakness": [
+      "earth"
+    ],
+    "recommended_level": 23,
+    "strategy": "Isaac attacks, Garet unleashes Forge, Ivan unleashes Squall, and Mia unleashes Sleet. Next turn, Isaac unleashes Flint, Garet unleashes Scorch, Ivan unleashes Smog, and Mia summons, or heals if you need to. Continue until Ivan has four djinn on standby, then summon. The fighters summon as soon as their level four summons become available. After the summons, the fighters use their strong psynergy, Ivan casts Resist or High Impact, and Mia heals as necessary. When the djinn start setting again, have the men unleash and then summon again. The Storm Lizard will go down quickly.",
+    "sources": [
+      "linkt",
+      "fandom-wiki"
+    ]
+  },
+  {
+    "id": "menardi",
+    "name": "Menardi",
+    "game": "gs1",
+    "is_optional": false,
+    "is_superboss": false,
+    "encounters": [
+      {
+        "encounter_id": "menardi-prologue",
+        "location": "Vale",
+        "is_winnable": false,
+        "stats": {
+          "hp": 2600,
+          "pp": 300,
+          "atk": 50,
+          "def": 20,
+          "agi": 13,
+          "lck": 40
+        },
+        "elemental_power": [
+          {
+            "element": "fire",
+            "power": 105
+          },
+          {
+            "element": "earth",
+            "power": 100
+          }
+        ],
+        "resistance": [
+          {
+            "element": "fire",
+            "value": 175
+          },
+          {
+            "element": "wind",
+            "value": 127
+          },
+          {
+            "element": "earth",
+            "value": 100
+          },
+          {
+            "element": "water",
+            "value": 72
+          }
+        ],
+        "attacks": [],
+        "special_mechanics": [
+          "Scripted loss — party is expected to be defeated.",
+          "Fought as 'Mystery Woman' alongside 'Mystery Man' (Saturos)."
+        ],
+        "rewards": null,
+        "special_notes": "Fought anonymously as 'Mystery Woman'. No individual attack data available for prologue encounter."
+      },
+      {
+        "encounter_id": "menardi-venus",
+        "location": "Venus Lighthouse",
+        "is_winnable": true,
+        "stats": {
+          "hp": 2600,
+          "pp": 300,
+          "atk": 389,
+          "def": 134,
+          "agi": 220,
+          "lck": 50
+        },
+        "elemental_power": [
+          {
+            "element": "fire",
+            "power": 105
+          },
+          {
+            "element": "earth",
+            "power": 100
+          },
+          {
+            "element": "water",
+            "power": 95
+          }
+        ],
+        "resistance": [
+          {
+            "element": "fire",
+            "value": 175
+          },
+          {
+            "element": "wind",
+            "value": 127
+          },
+          {
+            "element": "earth",
+            "value": 100
+          },
+          {
+            "element": "water",
+            "value": 72
+          }
+        ],
+        "attacks": [
+          {
+            "name": "Attack",
+            "type": "physical",
+            "target": "enemy",
+            "element": null,
+            "damage_power": null,
+            "range": 1,
+            "pp_cost": null,
+            "special": null,
+            "use_frequency": null,
+            "source": "linkt"
+          },
+          {
+            "name": "Death Size",
+            "type": "monster_skill",
+            "target": "enemy",
+            "element": null,
+            "damage_power": null,
+            "range": 1,
+            "pp_cost": null,
+            "special": "May instantly down the target. (Better translated as 'Death Scythe'.)",
+            "use_frequency": null,
+            "source": "linkt"
+          },
+          {
+            "name": "Flare Storm",
+            "type": "psynergy",
+            "target": "enemy",
+            "element": "fire",
+            "damage_power": 80,
+            "range": 3,
+            "pp_cost": 12,
+            "special": null,
+            "use_frequency": null,
+            "source": "linkt"
+          },
+          {
+            "name": "Supernova",
+            "type": "psynergy",
+            "target": "enemy",
+            "element": "fire",
+            "damage_power": 150,
+            "range": 7,
+            "pp_cost": 31,
+            "special": null,
+            "use_frequency": null,
+            "source": "linkt"
+          },
+          {
+            "name": "High Impact",
+            "type": "psynergy",
+            "target": "ally",
+            "element": "wind",
+            "damage_power": null,
+            "range": null,
+            "pp_cost": 12,
+            "special": "Boosts party's Attack.",
+            "use_frequency": null,
+            "source": "linkt"
+          },
+          {
+            "name": "Wish",
+            "type": "psynergy",
+            "target": "ally",
+            "element": "water",
+            "damage_power": null,
+            "range": null,
+            "pp_cost": 9,
+            "special": "Heals party HP.",
+            "use_frequency": null,
+            "source": "linkt"
+          },
+          {
+            "name": "Resist",
+            "type": "psynergy",
+            "target": "ally",
+            "element": "wind",
+            "damage_power": null,
+            "range": null,
+            "pp_cost": 5,
+            "special": "Increases party resistance.",
+            "use_frequency": null,
+            "source": "linkt"
+          }
+        ],
+        "special_mechanics": [
+          "Fought alongside Saturos.",
+          "Isaac regenerates 4 PP per turn during this battle.",
+          "Immune to status ailments except Psynergy Seal.",
+          "Leads directly into Fusion Dragon fight with no rest."
+        ],
+        "rewards": {
+          "exp": 3000,
+          "coins": 3600,
+          "items": [],
+          "notes": "Rewards combined with Saturos's share: 6000 EXP and 7800 coins total."
+        },
+        "special_notes": null
+      }
+    ],
+    "weakness": [
+      "water"
+    ],
+    "recommended_level": 32,
+    "strategy": "Begin with all djinn set. Isaac unleashes Flint, Garet unleashes Fever, Ivan casts Impact on Isaac or Garet, and Mia unleashes Sleet. Isaac continues to unleash attackers, then unleashes Vine to slow Saturos and Menardi. Garet unleashes his attackers and then summons. Ivan unleashes Squall, Smog, and Breeze, then summons. Mia summons at her first opportunity and thereafter heals. All summons are focused on Menardi. After the summons, have each character attack Menardi if she is not already down. Once she is down, have the men attack Saturos until he goes down.",
+    "sources": [
+      "linkt",
+      "fandom-wiki"
+    ]
+  },
+  {
+    "id": "fusion-dragon",
+    "name": "Fusion Dragon",
+    "game": "gs1",
+    "is_optional": false,
+    "is_superboss": false,
+    "encounters": [
+      {
+        "encounter_id": "fusion-dragon",
+        "location": "Venus Lighthouse",
+        "is_winnable": true,
+        "stats": {
+          "hp": 5000,
+          "pp": 500,
+          "atk": 439,
+          "def": 150,
+          "agi": 190,
+          "lck": 50
+        },
+        "elemental_power": [
+          {
+            "element": "fire",
+            "power": 110
+          },
+          {
+            "element": "earth",
+            "power": 100
+          }
+        ],
+        "resistance": [
+          {
+            "element": "fire",
+            "value": 175
+          },
+          {
+            "element": "earth",
+            "value": 127
+          },
+          {
+            "element": "wind",
+            "value": 127
+          },
+          {
+            "element": "water",
+            "value": 72
+          }
+        ],
+        "attacks": [
+          {
+            "name": "Attack",
+            "type": "physical",
+            "target": "enemy",
+            "element": null,
+            "damage_power": null,
+            "range": 1,
+            "pp_cost": null,
+            "special": null,
+            "use_frequency": null,
+            "source": "linkt"
+          },
+          {
+            "name": "Break",
+            "type": "psynergy",
+            "target": "enemy",
+            "element": null,
+            "damage_power": null,
+            "range": null,
+            "pp_cost": 5,
+            "special": "Removes all stat-boosting effects from the player party.",
+            "use_frequency": null,
+            "source": "linkt"
+          },
+          {
+            "name": "Outer Space",
+            "type": "monster_skill",
+            "target": "enemy",
+            "element": null,
+            "damage_power": null,
+            "range": null,
+            "pp_cost": null,
+            "special": "Physical attack similar to the Meteor summon in appearance and power. Targets all party members.",
+            "use_frequency": null,
+            "source": "linkt"
+          },
+          {
+            "name": "Dragon Driver",
+            "type": "monster_skill",
+            "target": "enemy",
+            "element": null,
+            "damage_power": null,
+            "range": null,
+            "pp_cost": null,
+            "special": "Physical attack similar to the Tiamat summon in appearance and power. Targets all party members.",
+            "use_frequency": null,
+            "source": "linkt"
+          },
+          {
+            "name": "Evil Blessing",
+            "type": "monster_skill",
+            "target": "enemy",
+            "element": null,
+            "damage_power": null,
+            "range": 3,
+            "pp_cost": null,
+            "special": "Breath attack that may inflict Haunt on targets. (Note: better translated as 'Evil Breath'.)",
+            "use_frequency": null,
+            "source": "linkt"
+          },
+          {
+            "name": "Drain Fang",
+            "type": "monster_skill",
+            "target": "enemy",
+            "element": null,
+            "damage_power": null,
+            "range": 1,
+            "pp_cost": null,
+            "special": "Drains target's HP into the boss.",
+            "use_frequency": null,
+            "source": "linkt"
+          },
+          {
+            "name": "Deadly Gas",
+            "type": "monster_skill",
+            "target": "enemy",
+            "element": null,
+            "damage_power": null,
+            "range": 3,
+            "pp_cost": null,
+            "special": "Breath attack that may inflict Venom on targets.",
+            "use_frequency": null,
+            "source": "linkt"
+          },
+          {
+            "name": "Severe Blow",
+            "type": "monster_skill",
+            "target": "enemy",
+            "element": null,
+            "damage_power": null,
+            "range": 1,
+            "pp_cost": null,
+            "special": "May reduce target's HP to 1.",
+            "use_frequency": null,
+            "source": "linkt"
+          }
+        ],
+        "special_mechanics": [
+          "Acts twice per turn.",
+          "Isaac regenerates 4 PP per turn during this battle.",
+          "Semi-intelligent — status ailments can be inflicted but it is difficult.",
+          "Fought immediately after Saturos and Menardi with no opportunity to rest."
+        ],
+        "rewards": null,
+        "special_notes": "Fandom-wiki lists this as the Final Boss with N/A rewards. No EXP or coins are confirmed. The fandom-wiki resistance lists two Jupiter values (127 each for earth and wind); using the displayed values: fire 175, earth/venus 127, jupiter/wind 127, water/mercury 72."
+      }
+    ],
+    "weakness": [],
+    "recommended_level": 32,
+    "strategy": "Hopefully you were preparing for this fight in the last few rounds of fighting Saturos and Menardi. If you do not have all djinn set, simply attack until they are. Whenever one of the fighters gets all of his djinn on set, have Ivan cast Impact on him and then have him unleash till four are on standby, then summon. He should then simply attack, waiting until such time as all but one are back on set. He then uses his strong psynergy and then begins unleashing again. Ivan, meanwhile, is casting Resist as often as he gets a breathing space. He does this four times until the party's resistance is maxed out. He then begins his own unleashes. When he gets three on standby, summon. Mia is healing throughout. If you are strong enough, have her unleash one or two djinn and summon at the start, so that her power is boosted and her healing is more effective. Always keep either Flash or Granite available in case the Fusion Dragon uses two Outer Spaces in a row.",
+    "sources": [
+      "linkt",
+      "fandom-wiki"
+    ]
   }
 ]

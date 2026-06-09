@@ -1,0 +1,73 @@
+Fusion Dragon
+Save
+Edit
+"Uh-oh...They're fusing!
+
+They've merged into one another! Everyone get back!"
+
+- Garet and Ivan
+
+Fusion Dragon
+The Fusion Dragon is the final boss of the original Golden Sun, fought on top of the final storyline dungeon in the game, Venus Lighthouse. After Isaac defeated Saturos and Menardi, they fuse to turn into a Fusion Dragon. This monster is the game's last battle, and defeating it will lead eventually to the ending cutscenes and the game's completion.
+
+
+Contents
+1	As a boss
+1.1	Arsenal
+1.2	Strategies
+2	Story
+3	Trivia
+logo
+00:01
+
+41:20
+
+
+As a boss
+Fusion Dragon sprite.
+Fusion Dragon sprite.
+
+The battle with the Fusion Dragon is the second of two major, consecutive battles that take place at the end of the game's last dungeon-style location, Venus Lighthouse, and count together as the game's final storyline challenge. (See here and here for more information on the two opponents that comprise the first major battle.) As the final boss of Golden Sun, Fusion Dragon is the strongest and most resilient mandatory opponent to battle, and since it is fought right after a similarly difficult battle without any chance to heal in between battles, it is most definitely one of the game's toughest battles. (There is an optional boss hiding at the end of the hidden dungeon Crossbone Isle that is even stronger and more dangerous than the dragon itself, however.)
+
+Fusion Dragon has 5000 HP, 500 PP, 439 Attack, 150 Defense, 190 Agility, 50 Luck, and it attacks twice per turn. While these are high statistics indeed, every one of these statistics count as the second-highest ratings in the game. In terms of resistance, the Fusion Dragon has a Mars resistance rating of 175, a Venus and Jupiter resistance rating of 127 each, and a Mercury resistance rating of 72. It has a Venus power of 100 and a Mars power of 110. Since there are no battles in the first Golden Sun to follow after this final battle, there is no EXP, no Coins, or item awards whatsoever; you're instead rewarded with the game's epilogue cutscenes and end credits.
+
+Arsenal
+Fusion Dragon's collection of abilities is almost entirely comprised of monster skills, which are quite strong, and it will randomly select two of the following commands for each turn:
+
+Outer Space: Used 53 out of 256 times, this ability is a Summon sequence-style effect where the Fusion Dragon leaps up high into outer space and immediately reenters the atmosphere, surrounded by purple fire, and collides into the party with great force and fiery energy bright enough to turn the entire screen white. This deals a Mars-based attack with a power rating of 200 and a range of all Adepts--very powerful, but easier to manage with a higher-leveled party. Unlike the player's summons, Outer Space doesn't deal extra damage based on your HP; its damage multiplier is 0. As this is the Fusion Dragon's most powerful offense, and also the most commonly used, this is what most contributes to the boss' threat level. Note that the visuals are a mirrored, purple palette swap of the special effects of the Meteor summon sequence, with the Fusion Dragon itself replacing the sprite of the giant rocky meteorite in the normal summon.
+Attack: Used 47 out of 256 times, this is this monster's standard physical attack. This attack also converts all damage to Mars damage.
+Evil Blessing: Used 41 out of 256 times, this is a monster skill where the Fusion Dragon breathes a huge swarm of evil spirits onto multiple Adepts, dealing a Mars-based attack with a power rating of 80 and a range of 3 (the Adepts on either side of the targeted Adept will only take 50% of the attack's force, instead of the normal 80%, however). While it does not do much damage on its own compared to the other abilities, it may inflict each affected Adept with Haunt, which can be occasionally damaging but probably should not be a priority to use up your turns removing.
+Dragon Driver: Used 35 out of 256 times, this ability is a Summon sequence-style effect where the Fusion Dragon sets the battlefield on fire before blasting the opposing party with a stream of white-hot purple fire from its mouth. This deals a Mars-based attack with a power rating of 120 and a range of all Adepts. Unlike the player's summons, Dragon Driver doesn't deal extra damage based on your HP; its damage multiplier is 0. This attack functions exactly like Outer Space, but with only about 3/5 the damage output. Note that the visuals are a mirrored, purple palette swap of the special effects of the Tiamat summon sequence, with the Fusion Dragon itself replacing the sprite of the giant dragon in the normal summon.
+Break: Used 29 out of 256 times, this is a Psynergy spell that removes any statistical buffs from the current battling party. This is the only move that costs Fusion Dragon PP because it's a Psynergy spell, and since it costs 5 PP and the creature has 500 PP to start with, he can use this move up to one hundred times during the battle. Obviously the idea of Fusion Dragon running out of PP does not apply relevantly to this battle.
+Fusion Dragon's impressive repertoire of attacks covers a wide variety of functions, including HP siphoning and -inflicting.
+Fusion Dragon's impressive repertoire of attacks covers a wide variety of functions, including HP siphoning and Deadly Poison-inflicting.
+
+Drain Fang: Used 23 out of 256 times, this is a monster skill where the red image of a pair of jaws chomps down on an Adept, and red energy orbs are siphoned out of the target into the Fusion Dragon. It deals a Venus-based attack with a power rating of 80, and the boss may heal its own HP by the amount of damage caused by this attack. Occasionally, it fails to do anything at all.
+Deadly Gas: Used 17 out of 256 times, this is a monster skill where Fusion Dragon breathes white-hot red vaporous gas onto multiple Adepts, dealing a Venus-based attack with a power rating of 30 and a range of 3 (the Adepts on either side of the targeted Adept will only take 50% of the attack's force, instead of the normal 80%, however). While it does not do anywhere near as much damage on its own as the boss' other abilities, Deadly Gas may inflict each hit Adept with Deadly Poison, a very damaging status condition that should be removed as quickly as possible.
+Severe Blow: Used 11 out of 256 times, this is a monster skill where the Fusion Dragon strikes an Adept with enough force that a huge discharge of purple energy explodes to fill the screen on impact, either dealing a Venus attack equal to its normal physical attack multiplied by 1.2 or reducing that Adept's HP meter to 1 point remaining.
+Strategies
+Fusion Dragon's ultimate attack, Outer Space, is used freely and can be used multiple times in a row, like all its other abilities.
+Fusion Dragon's ultimate attack, Outer Space, is used freely and can be used multiple times in a row, like all its other abilities.
+
+Fusion Dragon, as an endgame boss, is certainly tough, and the battle is made all the tougher by virtue of the fact you are forced into it right after conducting another boss battle that's about as tough as this one, without any chance to heal and restock in between. Nevertheless, this is a battle that can be won with traditional battling methods and is for the most part merely dependent on how well your party's levels and ability to outlast the beast in battle are.
+
+When using a party at level 28 or close to that number, you can pretty much expect your warrior attacks and Psynergy spells like Shine Plasma and Glacier to do a little over 100 damage each time, with the Gaia Blade on Isaac unleashing its Titan Blade effect to do over 200 damage, and having an Adept use Wish Well each turn should keep everyone alive relatively reliably. Fighting the entire battle like this, while a common approach to conducting it, makes it quite long and drawn out.
+
+Summon spells in Golden Sun games, however, deal damage proportional to the size of each struck opponent's maximum HP meter, and in this battle with an opponent with a 5000 HP health meter, even summons requiring one Djinni will be as strong as your normal attacks and above that. Mia in her mono-elemental Water Seer class series, for example, will do over 200 damage if she summons Mercury, and over 1000 damage if she summons Boreas. So, once or twice during the battle you may want an Adept to use four of their Set Djinn over the amount of turns necessary to perform a 4-Djinn summoning the turn after that; the amount of damage done to Fusion Dragon will cut down on the battle's elapsed time nicely. If not it wouldn't be bad to maintain a constant flow of damage upon Fusion Dragon's health meter by having each Adept alternate between using a Djinni effect one turn and then using that standby Djinni for a level-1 summon the next turn, every two turns.
+
+Another extremely slow but nonetheless effective strategy is to unleash Flash and Granite on alternating turns, returning the used one from standby to set while unleashing the other. This means that only two Adepts can attack freely, and one of those will occasionally have to heal, greatly reducing the party's offensive capabilities. On the flip side, the Dragon will deal very low amounts of damage, allowing the party to defeat the boss at extraordinarily low levels with little to no risk. This strategy applies to many enemies in either game, although the presence of abilities like Djinn Storm make it ineffective in certain battles in the latter portion of The Lost Age.
+
+Story
+KyleSpoiler warning: The following section(s) contain plot and/or ending details that some people may not wish to learn before reaching this point in the game on their own. If this applies to you, take caution while reading this section (if you choose to read it at all).
+At the peak of Venus Lighthouse during Golden Sun's finale, the pair of powerful Mars Adept warriors Saturos and Menardi are on the verge of activating the Lighthouse's beacon with the Venus Star in their possession when Isaac's group of warrior Adepts catch up to them and confront them in what becomes an intense brawl and showcase of swordsmanship and Psynergy, one that eventually results in the temporary defeat of Saturos and Menardi. Saturos, not to be dissuaded from their set objective, tosses the Venus Star into the Venus Lighthouse's opening, commencing the Lighthouse's activation. Then Saturos explains to Isaac's party what is happening: The Venus-based flow of energy that is now emanating from the Lighthouse is restoring his and Menardi's strength even though their innate element is Mars, since the elements of Venus (Earth) and Mars (Fire) share a symbiotic relationship.
+
+At the end of the climactic confrontation on ,  and  perform their ultimate power: Merging together to become the Fusion Dragon.
+At the end of the climactic confrontation on Venus Lighthouse, Saturos and Menardi perform their ultimate power: Merging together to become the Fusion Dragon.
+
+Empowered by the Venus energy, Saturos and Menardi begin to glow, and their increasing Psynergy reserves start to visibly overflow as they execute one of the most startling abilities Isaac has seen yet: Their bodies physically join and amalgamate, transforming and growing in size to form a single, terrifying creature, a colossal quadrupedal dragon with two heads and pale white, yellow, and light-blue skin. Being a fusion of two lifeforms, the Fusion Dragon's heads are colored to represent each individual involved in the fusing: the right dragon head that is blue represents Saturos while the left dragon head that is pink represents Menardi, and the positioning of the two heads relative to each other are consistent with where Saturos and Menardi were standing relative to each other before the transformation.
+
+The physical merging of the two humanlike Mars Adepts into a single dragonian creature is one of the most fantastic occurences in the Golden Sun series. The dragon obviously carries far more physical size and mass than the two individuals comprising it; the main thing that can explain how this is possible without breaking laws of physics is that all the excess elemental energy coming from both the pair and the Lighthouse itself contributes to the size and power of the Fusion Dragon when it is formed. The dragon appears to act as a single-minded entity even though it is a fusion of two clearly separate individuals, as well. While it is not known whether it's possible for other Adepts of other elements to achieve "ultimate fusions" like what Saturos and Menardi demonstrate, it can be assumed that the reason the creature is a dragon is because Mars is the element represented by dragons, just like how Jupiter is represented by birds, Mercury is represented by fish, and Venus is represented by mankind.
+
+As a unified force, the Fusion Dragon attacks Isaac's party of Adepts and engages in an intense and spectacular confrontation. But even though this is their last and most powerful stand, and should by all means be superior to their opponents, the dragon is ultimately defeated in battle by Isaac and his companions. The dragon reverts back to the original individual forms of Saturos and Menardi, who are completely defeated physically and in spirit, and they ultimately fall backwards into the opening of Venus Lighthouse and meet their shared demise.
+
+The Fusion Dragon is referenced at the end of Golden Sun: The Lost Age, when the party of Adepts are faced with their final battle: A colossal dragon with three heads, named the Doom Dragon. Garet remarks that they already defeated a two-headed dragon before so this one shouldn't be much tougher, while Mia proclaims she doesn't care how many heads the dragon has since they will defeat it nonetheless. As Kraden watches from a safe distance, he thinks about how the Fusion Dragon they defeated before was essentially a fusion of two human Adepts, and it dawns on him the truth about this Doom Dragon, but he is unsuccessful in trying to stop the battle-ready Adepts from killing it as the battle begins.
