@@ -1,0 +1,1056 @@
+**************************
+Golden Sun Artifacts Guide
+Version 1.6
+**************************
+
+2002 Rocket Trekkie Evoli
+eeveegin@yahoo.com
+
+Contents
+--------
+1. Introduction
+ -Notes on Artifacts
+2. Weapon Artifacts
+3. Armor Artifacts
+4. Item Artifacts
+5. Version History
+6. Credits
+
+
+****************
+[1] INTRODUCTION
+****************
+
+This is a guide to the many magical artifacts and items available in the Game
+Boy Advance game Golden Sun. I wrote this guide assuming that you, the reader,
+have this game and already know how to play it, unless you're like me and you
+like to read strategy guides even if you don't have the game.
+
+Unlike the other items available from stores, Artifacts can be bought back from
+a store if they are dropped or sold, and have magical properties. As you
+progress through the game, artifacts appear on the shops' Artifact Lists. Once
+an artifact appears in a shop's Artifact List, it will stay there on all of
+those shops' Artifact Lists until it is bought, unlike regular items which
+differ depending on what town you're in. If you find an artifact and sell it to
+a shop, it will show up in the Artifact List. Artifacts also show up in the
+List if you drop them from your item inventory. Artifacts appear in a Weapon,
+Armor, or Item Shop's artifact list, depending on the artifact.
+Artifacts are divided into three classes: Weapon, Armor, and Item. Artifacts
+are a good deal more expensive than normal weapons and armor, but they are
+usually worth the investment.
+
+Notes on Artifacts
+==================
+Price: Items can be sold to a shop for 75% of the shop price. You can sell any
+items at any shop, and the artifact will go to its Artifact List.
+
+Quantity: Most artifacts are unique and you can only get one of each. However,
+you can get multiples of some artifacts, like Item Drops and Tolbi Springs
+items. The Artifact list keeps track of how many of each item you've put on the
+List.
+
+Obtaining Artifacts: Artifacts appear in the List as you progress through the
+game and visit more towns. Artifacts can also be obtained by receiving them
+from people or treasure chests, the Lucky Wheels slot game in Tolbi, by using a
+Lucky Medal in Tolbi Springs, or (rarely) from monsters after winning a battle.
+Artifacts obtained after defeating a monster are known as Rare Item Drops,
+since they are harder to obtain than other item drops such as Antidotes, Nuts,
+and Vials.
+
+Curse: Some items are cursed, meaning that once you equip it, you can't remove
+it unless you visit a Sanctum and have the Healer remove the curse. If you have
+a cursed item equipped, there is a chance of you being "bound and unable it
+move" for one turn in battle. The Cleric's Ring protects you from this effect
+of curses, but you'll still need to visit a Sanctum to remove the cursed item.
+
+Break: Rings and some Weapon and Armor artifacts can be used to heal or change
+stats during battle. Some artifacts say that "it may break if used in battle,"
+meaning that there is a chance of the item breaking after you use it. (How a
+dress or hat can "break" is beyond me.) If an item is broken, it will still
+affect your statistics in battle, but you won't be able to use its special
+powers again until you get it repaired at a shop. Items used for healing can be
+used outside of battle, and may still break. Armor and weapon artifacts in your
+inventory but not equipped can be used in battle, but only if you can equip it.
+
+Unique Artifacts: The only artifacts that don't show up in the Artifact List
+when you drop them or sell them are the Fur Coat and the Psynergy Armor. Once
+you get rid of them, they're gone for good. They're not exactly the best armor
+in the game, however, so it doesn't really matter.
+
+
+********************
+[2] WEAPON ARTIFACTS
+********************
+
+Weapon Artifacts
+================
+
+Weapons are divided into five classes: Long Sword, Light Blade, Axe, Mace, and
+Staff. Isaac and Garet can equip Long Swords, Light Blades, Axes, and Maces;
+Ivan can equip Light Blades and Staffs; and Mia can equip Maces and Staffs. For
+you sharkers, Jenna can equip Light Blades and Staffs. Weapons affect the
+user's Attack status.
+Most weapon artifacts have unleashes, hidden magic attacks that may be released
+when the weapon is used. Unleashes are based on one of four elements: Earth,
+Fire, Wind, and Water. Unleashes may have secondary effects on the monster they
+are used on, such as a status change or lowering statistics. Normally, weapon
+attacks without an unleash are neutral attacks, but a few weapons are aligned
+with one of the four Elements, and attacks take the opponent's elemental
+resistances and weaknesses into account.
+There are three weapons (Kusanagi, Masamune, Sol Blade) that are in the game's
+code but cannot be obtained through normal gameplay; you must use a hacking
+device to get them.
+
+Weapon Artifact entry:
+
+Name of weapon
+--------------
+Where this weapon can be obtained (Town, if from Artifact List)
+Price of weapon in shop
+Element of weapon, if any
+Effects on user's statistics
+Name of unleash (Element of unleash)
+Secondary effects of unleash, if any
+Other notes on weapon
+
+
+Long Swords
+===========
+Equippable by Isaac and Garet
+
+Shamshir
+--------
+Artifacts list (Lunpa)
+10000 coins
+Attack +99
+Acid Bath (Fire)
+May drop opponent's Attack
+
+Silver Blade
+------------
+Artifacts list (Lalivero)
+12000 coins
+Attack +108
+Aqua Sock (Water)
+
+Arctic Blade
+------------
+Fuchin Falls Cave
+2600 coins
+Attack +55
+Blizzard (Water)
+May drop opponent's Attack
+
+Gaia Blade
+----------
+Upper floors of Venus Lighthouse
+17000 coins
+Element: Earth
+Attack +135
+Earth Power +20, Earth Resistance +20
+Titan Blade (Earth)
+
+Muramasa
+--------
+Ninth floor of Crossbone Isle Cave
+13600 coins
+Attack +126
+Demon Fire (Fire)
+May draw evil spirits to opponent
+Cursed
+
+Masamune
+--------
+Only available if you use a Gameshark or other hacking device
+Attack +115
+Sells for 10050 coins
+No unleash
+
+Sol Blade
+---------
+Only available if you use a Gameshark or other hacking device
+Attack +138
+Sells for 14250 coins
+No unleash
+
+
+Light Blades
+============
+Equippable by Isaac, Garet, and Ivan
+
+Ninja Blade
+-----------
+Artifacts list (Lunpa)
+8800 coins
+Attack +94
+Cyclone Attack (Wind)
+May drop opponent's Resistance
+
+Swift Sword
+-----------
+Artifacts list (Lalivero)
+9400 coins
+Attack +104
+Wind Power +10
+Sonic Smash (Wind)
+May hit multiple times
+
+Elven Rapier
+------------
+Bilibin Cave
+2200 coins
+Element: Wind
+Attack +44
+Vorpal Slash (Wind)
+
+Assassin Blade
+--------------
+Tolbi Springs
+7800 coins
+Attack +90
+Mortal Danger (Earth)
+May drain opponent's spirit, one-hit kill
+
+Mystery Blade
+-------------
+Second floor of Crossbone Isle Cave
+6400 coins
+Attack +84
+Life Nourish (Earth)
+May recover some of user's HP
+
+Kikuichimonji
+-------------
+Rare Item Drop
+Dropped by Fenrirs in upper Venus Lighthouse
+13400 coins
+Attack +128
+Asura (Wind)
+
+Bandit's Sword
+--------------
+Dropped by Thieves in Vault
+700 coins
+Attack +12
+Rapid Smash (Wind)
+May hit multiple times
+
+Kusanagi
+--------
+Only available if you use a Gameshark or other hacking device
+Sells for 14250 coins
+Attack +135
+No unleash
+
+
+Axes
+====
+Equippable by Isaac and Garet
+
+Dragon Axe
+----------
+Artifacts list (Lunpa)
+10300 coins
+Attack +100
+Heat Mirage (Fire)
+May delude opponent
+
+Giant Axe
+---------
+Rare Item Drop
+Dropped by Earth Golems in Suhalla Pass and lower Venus Lighthouse
+14000 coins
+Attack +114
+Meltdown (Fire)
+May drop opponent's Defense
+
+Vulcan Axe
+----------
+Lamakan Desert
+4600 coins
+Element: Fire
+Attack +76
+Barrage (Fire)
+May stun opponent
+
+Burning Axe
+-----------
+Tolbi Springs
+7500 coins
+Element: Fire
+Attack +84
+Broil (Fire)
+
+Demon Axe
+---------
+Sixth floor of Crossbone Isle Cave
+1600 coins
+Attack +132
+Poison Cloud (Earth)
+May poison opponent
+Cursed
+
+
+Maces
+=====
+Equippable by Isaac, Garet, and Mia
+
+Righteous Mace
+--------------
+Artifacts list (Lalivero)
+8400 coins
+Attack +112
+HP recovery +3
+Blinding Smog (Wind)
+May delude opponent
+
+Grievous Mace
+-------------
+Tolbi Springs
+7000 coins
+Element: Earth
+Attack +88
+Terra Strike (Earth)
+
+Blessed Mace
+------------
+Rare Item Drop
+Dropped by Thunder Lizards in upper Venus Lighthouse
+14500 coins
+Attack +126
+HP recovery +2
+No unleash
+Use to replenish 200 HP, may break if used
+
+Wicked Mace
+-----------
+Seventh floor of Crossbone Isle Cave
+13800 coins
+Attack +130
+Poison Death (Earth)
+May strike opponent with deadly venom
+Cursed
+
+
+Staffs
+======
+Equippable by Ivan and Mia
+
+Magic Rod
+---------
+Artifacts list
+380 coins
+Attack +16
+Murk (Wind)
+May put opponent to sleep
+
+Witch's Wand
+------------
+Artifacts list (Bilibin); Mia
+860 coins
+Attack +32
+Stun Voltage (Wind)
+May stun opponent
+
+Blessed Ankh
+------------
+Artifacts list (Imil)
+1600 coins
+Attack +46
+Psyphon Seal (Wind)
+May seal opponent's Psynergy
+
+Psynergy Rod
+------------
+Artifacts list (Altin)
+3800 coins
+Attack +64
+Psynergy Leech (Water)
+May recover some of user's PP
+
+Frost Wand
+----------
+Artifacts list (Kalay)
+5400 coins
+Element: Water
+Attack +76
+Frost Bite (Water)
+May stun opponent
+
+Angelic Ankh
+------------
+Artifacts list (Tolbi)
+6400 coins
+Attack +83
+Life Leech (Water)
+May recover some of user's HP
+
+Demonic Staff
+-------------
+Artifacts list (Lunpa)
+10000 coins
+Attack +92
+Bad Omen (Earth)
+May draw evil spirits to opponent
+Cursed
+
+Crystal Rod
+-----------
+Artifacts list (Lalivero)
+13400 coins
+Attack +106
+Drown (Water)
+May suffocate opponent, one-hit kill
+
+Zodiac Wand
+-----------
+Rare Item Drop
+Dropped by Grand Golems in upper Venus Lighthouse
+11400 coins
+Attack +102
+Shining Star (Wind)
+May delude opponent
+
+Shaman's Rod
+------------
+Recovered from thieves in Vault
+Can't be dropped or sold
+Attack +10
+The Shaman's Rod is included in this guide because even though it isn't quite
+an artifact, it's certainly not a regular item, so I put it in here.
+
+
+*******************
+[3] ARMOR ARTIFACTS
+*******************
+
+Armor Artifacts
+===============
+Armor is used to protect the body from attacks. Armor can protect four areas of
+the body: head, body, arms, and feet. Normally, only one piece of armor can be
+worn on an area at a time, but the three Shirts obtained from the Lucky Wheels
+slot game in Tolbi can be worn under other body armor.
+Head: Helm, Crown, Hat, Circlet
+Body: Armor, Clothing, Robe, Shirt
+Arms: Shield, Gloves, Bracelet
+Feet: Boots
+
+Armor can be equipped by: Isaac and Garet
+Clothing: All
+Robe: Ivan and Mia
+Shield: Isaac and Garet
+Gloves: All
+Bracelet: Ivan and Mia
+Helm: Isaac and Garet
+Crown: All
+Hat: All
+Circlet: Ivan and Mia
+Shirt: All
+Boots: All
+The China Dress, Cocktail Dress, Oracle's Robe, Glittering Tiara, and Silk
+Shirt are only equippable on Mia.
+
+Sample Armor Artifact entry:
+
+Name of armor
+-------------
+Where this armor can be obtained (Town, if from Artifact List)
+Price of armor in shop
+Effects on user's statistics
+Other notes on armor
+
+
+Armor
+=====
+Equippable by Isaac and Garet
+
+Spirit Armor
+------------
+Tolbi Springs
+4000 coins
+Defense +32
+Earth, Fire, Wind, and Water Resistance +15
+
+Dragon Scales
+-------------
+Upper floors of Venus Lighthouse
+17000 coins
+Defense +44
+Water and Fire Resistance +30
+
+Demon Mail
+----------
+Chest revealed after you defeat Deadbeard in Crossbone Isle Cave
+17000 coins
+Defense +50
+Wind Resistance -10
+Cursed
+
+Asura's Armor
+-------------
+Tunnel Ruins (right path, hidden in statue)
+15000 coins
+Defense +42
+Attack +5
+HP recovery +8
+
+Spiked Armor
+------------
+Rare Item Drop
+Dropped by Chimera Mages in Babi Lighthouse, Tunnel Ruins, upper Venus
+Lighthouse
+14000 coins
+Defense +34
+Attack +10
+Critical Hits increase
+
+Psynergy Armor
+--------------
+Mercury Lighthouse
+Doesn't show up in Artifact List, sells for 750 coins
+Defense +21
+Maximum PP +20
+If you sell this item, you can't buy it back from the Armor Shop.
+
+Clothing
+========
+Equippable by everyone
+
+Elven Shirt
+-----------
+Mogall Forest
+1700 coins
+Defense +22
+Agility x1.5
+
+Water Jacket
+------------
+Hammet Palace
+3000 coins
+Defense +30
+Water Resistance +30, Fire Resistance +20
+
+Storm Gear
+----------
+Fourth floor of Crossbone Isle Cave
+9800 coins
+Defense +42
+Water, Fire, and Wind Resistance +30
+
+Kimono
+------
+Tolbi Springs
+2800 coins
+Defense +25
+Fire Resistance +10
+Agility +10
+
+Ninja Garb
+----------
+Fifth floor of Crossbone Isle Cave
+6900 coins
+Defense +36
+Agility +30
+Wind Resistance +10
+
+Fur Coat
+--------
+Kolima Forest
+Doesn't show up in Artifact List, sells for 300 coins
+Defense +16
+Water Resistance +20
+If you sell this item, you can't buy it back from the Armor Shop.
+
+Robes
+=====
+Equippable by Ivan and Mia
+
+China Dress
+-----------
+Artifacts list (Xian)
+1600 coins
+Defense +19
+Drops enemy Attack, may break if used
+Only Mia can equip this
+
+Cocktail Dress
+--------------
+Tolbi Springs
+4000 coins
+Defense +29
+Maximum PP +15
+Only Mia can equip this
+
+Blessed Robe
+------------
+Artifacts list (Lunpa)
+7000 coins
+Defense +36
+HP recovery +5
+
+Magical Cassock
+---------------
+Artifacts list (Lalivero)
+9000 coins
+Defense +39
+PP recovery +2
+
+Feathered Robe
+--------------
+Rare Item Drop
+Dropped by Wild Gryphons in Babi Lighthouse, Tunnel Ruins, upper Venus
+Lighthouse
+14000 coins
+Defense +45
+Wind Power +20, Wind Resistance +30
+Agility +30
+
+Oracle's Robe
+-------------
+Tunnel Ruins (left path, hidden in statue)
+13500 coins
+Defense +43
+Water Resistance +40
+HP recovery +10
+Only Mia can equip this
+
+Shields
+=======
+Equippable by Isaac and Garet
+
+Mirrored Shield
+---------------
+Artifacts list (Lalivero)
+5200 coins
+Defense +39
+Deludes enemies, may break if used
+
+Dragon Shield
+-------------
+Altin Peak
+2400 coins
+Defense +26
+Fire Resistance +30
+
+Earth Shield
+------------
+Tolbi Springs
+4100 coins
+Defense +31
+Earth Resistance +20
+Use to restore 150 HP, may break if used
+
+Gloves
+======
+Equippable by everyone
+
+Vambrace
+--------
+Vault Cave
+1800 coins
+Defense +27
+Attack +5
+
+War Gloves
+----------
+Artifacts list (Lunpa)
+4000 coins
+Defense +32
+Attack +10
+
+Spirit Gloves
+-------------
+Kalay Tunnel
+5200 coins
+Defense +34
+Earth, Fire, Wind, and Water Power +5
+
+Battle Gloves
+-------------
+Tolbi Springs
+2100 coins
+Defense +26
+Attack +8
+
+Aura Gloves
+-----------
+Rare Item Drop
+Dropped by Magicores in the Suhalla Desert
+6500 coins
+Defense +36
+Use to boost Resistance, may break if used
+
+Bracelets
+=========
+Equippable by Ivan and Mia
+
+Spirit Armlet
+-------------
+Artifacts list (Lalivero)
+9000 coins
+Defense +38
+Earth and Water Power +10
+Use to cure ailments, may break if used
+
+Virtuous Armlet
+---------------
+Suhalla Desert
+7000 coins
+Defense +35
+Fire and Wind Power +10
+Use to restore 100 HP, may break if used
+
+Guardian Armlet
+---------------
+Tolbi Springs
+2600 coins
+Defense +27
+Use to boost Defense, may break if used
+
+Helms
+=====
+Equippable by Isaac and Garet
+
+Warrior's Helm
+--------------
+Lalivero
+10000 coins
+Defense +35
+Earth Power +10
+Critical Hits increase
+
+Adept's Helm
+------------
+Tolbi Springs
+3700 coins
+Defense +29
+Maximum PP x1.2
+
+Crowns
+======
+Equippable by everyone
+
+Jeweled Crown
+-------------
+Artifacts list (Lalivero)
+4000 coins
+Defense +35
+Luck +5
+
+Lucky Cap
+---------
+Lower floors of Venus Lighthouse
+5200 coins
+Defense +33
+Critical Hits increase
+PP recovery +2
+
+Thunder Crown
+-------------
+Upper floors of Venus Lighthouse
+7500 coins
+Defense +40
+PP recovery +4
+Cursed
+
+Hats
+====
+Equippable by everyone
+
+Ninja Hood
+----------
+Tolbi Springs
+2800 coins
+Defense +28
+Agility +20
+
+Prophet's Hat
+-------------
+Rare Item Drop
+Dropped by Dread Hounds in Altmiller Cave
+4600 coins
+Defense +30
+Use to put a curse on opponent, may break if used
+
+Lure Cap
+--------
+Receive from Babi if you win all three Colosso battles
+3000 coins
+Defense +20
+Monster encounters increase
+
+Circlets
+========
+Equippable by Ivan and Mia
+
+Mythril Circlet
+---------------
+Lunpa Fortress
+7000 coins
+Defense +34
+PP recovery +3
+
+Glittering Tiara
+----------------
+Tolbi Springs
+3600 coins
+Defense +27
+Prevents delusions
+Use to delude enemies, may break if used
+
+Shirts
+======
+Can wear under other body armor, equippable by everyone
+
+Mythril Shirt
+-------------
+Lucky Wheels
+2900 coins
+Defense +10
+Maximum HP +5
+
+Silk Shirt
+----------
+Lucky Wheels
+1800 coins
+Defense +6
+Luck +1
+
+Running Shirt
+-------------
+Lucky Wheels
+400 coins
+Defense +1
+Agility +15
+
+Boots
+=====
+Equippable by everyone
+
+Hyper Boots
+-----------
+Lucky Wheels
+2400 coins
+Defense +4
+Critical Hits increase
+
+Quick Boots
+-----------
+Lucky Wheels
+2100 coins
+Defense +3
+Agility +20
+
+Fur Boots
+---------
+Lucky Wheels
+1200 coins
+Defense +2
+Water Resistance +15
+
+Turtle Boots
+------------
+World Map
+600 coins
+Defense +3
+Agility x0.5
+Walk west from Kolima. You should walk onto a peninsula. Near the end of the
+peninsula is a clump of forest. Walk into the trees and press A. You should
+find the Turtle Boots. As far as I know, this is the only item found on the
+World Map.
+
+
+******************
+[4] ITEM ARTIFACTS
+******************
+
+Item Artifacts
+==============
+There are many types of Item Artifacts. I have divided them into three classes:
+Healing, Miscellaneous, and Ring. Rings can be equipped, but they can be used
+in or out of battle (depending on their use) even if they are unequipped. The
+exception to this is the Cleric's Ring, which automatically takes effect on the
+wearer when equipped and can't be "used."
+
+Sample Item Artifact Entry:
+
+Name of item
+------------
+Where this item can be obtained (Town, if from Artifact List)
+Price of item in shop
+Uses of item
+Other notes on item
+
+
+Healing
+=======
+
+Potion
+------
+Rare Item Drop
+Chests, Tolbi Springs, Lucky Wheels, Artifact list (Suhalla), Item Drop,
+dropped by Ice Gargoyles in Babi Lighthouse, Tunnel Ruins, and upper Venus
+Lighthouse
+1000 coins
+Replenishes all HP
+Some boss monsters drop Potions
+
+Hermes' Water
+-------------
+Mercury Lighthouse (use Empty Bottle on the fountain)
+2000 coins
+Replenishes all HP
+Works like a Potion, but with free refills.
+
+Psy Crystal
+-----------
+Rare Item Drop
+Chests, Tolbi Springs, Lucky Wheels, Artifact List (Suhalla), dropped by
+Manticore Kings in Babi Lighthouse, Tunnel Ruins, upper Venus Lighthouse
+1500 coins
+Replenishes all PP
+Some bosses drop Psy Crystals
+
+Water of Life
+-------------
+Rare Item Drop
+Chests, Tolbi Springs, Lucky Wheels, Artifact List (Tolbi), dropped by Boulder
+Beasts in upper Venus Lighthouse
+3000 coins
+Revives Downed characters
+Some bosses and Mimics drop Water of Life
+
+Miscellaneous
+=============
+
+Empty Bottle
+------------
+House in Imil
+1000 coins
+Extracts water from a magic spring
+
+Game Ticket
+-----------
+Receive when you purchase an item, dropped by some Mimics
+50 coins
+A special ticket from Tolbi
+Used to play Lucky Wheels
+
+Lucky Medal
+-----------
+Rare Item Drop
+Chests, hidden in barrels & jars, dropped by Orc Lords in Babi Lighthouse and
+Tunnel Ruins, dropped by some Mimics
+100 coins
+A special medal from Tolbi
+Used at Tolbi Springs
+
+Cell Key
+--------
+Lunpa Fortress (use Catch)
+30 coins
+The key to the cells in Lunpa Fortress
+
+Ring
+====
+
+Adept Ring
+----------
+Lucky Wheels
+3100 coins
+Use to restore 7 PP
+May break if used
+
+War Ring
+--------
+Lucky Wheels
+2600 coins
+Use to boost Attack
+May break if used
+
+Sleep Ring
+----------
+Lucky Wheels
+1400 coins
+Use to lull enemies to sleep
+May break if used
+
+Healing Ring
+------------
+Rare Item Drop
+Tret Tree, dropped by Nightmares in Suhalla Pass and lower Venus Lighthouse
+800 coins
+Use to restore 70 HP
+May break if used
+
+Unicorn Ring
+------------
+Rare Item Drop
+Fuchin Temple (hidden in jar), dropped by Recluses in upper Venus Lighthouse
+1100 coins
+Use to remove poison
+May break if used
+
+Fairy Ring
+----------
+Third floor of Crossbone Isle
+2900 coins
+Acts like an Elixir in battle
+May break if used
+
+Cleric's Ring
+-------------
+Eighth floor of Crossbone Isle
+6400 coins
+Removes a curse's effects
+May break if used
+
+
+*******************
+[5] VERSION HISTORY
+*******************
+7/23/02 v1.0 Started this Artifact Guide. Began Introduction and Weapons
+sections.
+7/24/02 v1.1 Weapons section finished. Added more to Introduction. Began Armor
+section.
+7/24/02 v1.2 Introduction finished. Armor section finished.
+7/25/02 v1.3 Edited Introduction. Started and finished Item section.
+7/25/02 v1.4 Changed layout, moving some parts of the Introduction into the
+main guide. Added Credits and copyright information.
+8/26/02 v1.5 Added the towns where some artifacts appear in the list.
+2/09/03 v1.6 Added information about the Masamune, Sol Blade, and Kusanagi
+(stats, not the codes to get them). Updated credits.
+
+
+***********
+[6] CREDITS
+***********
+
+ikillkenny: THE best Golden Sun text walkthrough I've found yet. Helped me get
+through a couple of sticky parts, which in turn made this Artifact Guide
+possible.
+BlackMarauder: Author of an Item List guide, from which I got many item
+locations.
+Both ikillkenny's FAQ/Walkthrough and BlackMarauder's Item List can be found on
+the Golden Sun page at GameFaqs.com:
+http://www.gamefaqs.com/portable/gbadvance/game/30328.html
+Camelot: For making Golden Sun, one of the best video games I've played.
+GameFaqs: For hosting this Artifact Guide
+The people at the GameFaqs Golden Sun message board: Thanks, y'all!
+Kurt Reonis: I got the information about the Gameshark-only weapons from his
+item listing. His website is http://www.reonis.d2g.com/GS/index.htm
+
+You may print out this document or any of its parts for personal use only- keep
+it with your strategy guides, crumple it up and let your cat play with it,
+whatever. I am not letting any Web site but Gamefaqs.com (and my webpage,
+should I ever make one) host this Artifact Guide. Use of this document on any
+other website or for commercial use is prohibited.
+
+Golden Sun copyright 2001 Camelot and Nintendo
+This document copyright 2002 Rocket Trekkie Evoli
+Contact me at eeveegin@yahoo.com
+
+"We did it because...we're us!"
+-Ivan
+Restore Page
+

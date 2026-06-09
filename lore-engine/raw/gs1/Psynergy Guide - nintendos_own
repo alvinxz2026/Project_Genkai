@@ -1,0 +1,527 @@
++-----------------------------------+
+|Golden Sun Psynergy Guide          |
+|Version 3.11                       |
+|Written by and © Tetzcatlipoca     |
+|Last Update - 24th February 2004   |
++-----------------------------------+
+
+*******************************************************************************
+*                              Table of Contents                              *
+*******************************************************************************
+
+ 1. Introduction
+ 2. Psynergy List
+    -2.1 Everyone
+    -2.2 Isaac
+    -2.3 Garet
+    -2.4 Ivan
+    -2.5 Mia
+ 3. Frequently Asked Questions
+ 4. Version History
+ 5. Credits
+ 6. Legal Stuff
+
+
++-----------------------------------------------------------------------------+
+|1.                             Introduction                                  |
++-----------------------------------------------------------------------------+
+
+This guide is a list of all the Psynergies in Golden Sun. Psynergy is best 
+described as the ability to make things happen using your mind. The way I 
+have listed the Psynergies is by who is able to use it, so some Psynergies 
+may appear more than once. The way it will be layed out is like this:
+
+Whirlwind  5PP  |||  Attack with a swirling Tornado
+            
+Psynergy name - PP Required - Number affected - Description
+
+Some Psynergies are not for battle (e.g. move), and will not have the 'Number 
+of opponents/party members affected' listed.
+
++-----------------------------------------------------------------------------+
+|2.                             Psynergy List                                 |
++-----------------------------------------------------------------------------+
+Psynergies can be gained and lost by changing Djinn types.
+The alignment I have is:
+
+Isaac --- Venus Djinn
+Garet --- Mars Djinn
+Ivan ---- Jupiter Djinn
+Mia ----- Mercury Djinn
+
+Psynergies marked with a '*' are gotten by trading Djinn. The keys for which
+Djinn type to trade for are:
+
+[V]-Venus
+[M]-Mars
+[J]-Jupiter
+[Me]-Mercury
+
+If you are looking for a certain psynergy, use Ctrl + F to bring up the Find 
+box and type in the psynergy name.
+
+ ----------------------------------------------------------------------------
+   2.1                            Everyone
+ ----------------------------------------------------------------------------
+
+These are Psynegies gained by equipping items.
+
+Catch
+-----
+PP: 1
+Affected: N/A
+Description: Grab light objects from afar.
+Item: Catch Beads
+Where:
+As you are leaving Vale to set out on your journey, Garet's sister gives them 
+to you. They're from Dora.
+
+
+Force
+-----
+PP: 2
+Affected: N/A
+Description: Strike a distant object.
+Item: Orb of Force
+Where:
+Complete the puzzles in Fuchin Falls Cave to get this. Force is not needed to 
+complete the game, however.
+
+
+Lift
+----
+PP: 2
+Affected: N/A
+Description: Lift an object vertically.
+Item: Lifting Gem
+Where:
+Defeat the Hydros Statue in Altin Peak. Open the chest behind it to get the 
+Lifting Gem.
+
+
+Carry
+-----
+PP: 2
+Affected: N/A
+Description: Lift and move light objects.
+Item: Carry Stone
+Where:
+The Carry Stone is found in Vvenus Lighthouse.
+
+
+Douse
+-----
+PP: 5
+Affected: ||| (3)
+Description: Attack with a surge of water.
+Item: Douse Drop
+Where:
+Defeat the Ape at the end of Mogall Forest, and he will drop the Douse Drop.
+
+Halt
+----
+PP: 2
+Affected: N/A
+Description: Stop a moving object.
+Item: Halt Gem
+Where:
+Revisit Vale later in the game. Use Lift to move the rock near Kraden's house,
+and enter the cave. You can find the Halt Gem in here.
+
+
+Cloak
+-----
+PP: 1
+Affected: N/A 
+Description: Hide away in shadows.
+Item: Cloak Ball
+Where:
+It is beside Babi's bed after you win in Colosso.
+
+
+Frost
+-----
+PP: 5
+Affected: ||| (3)
+Description: Attack with frigid blasts.
+Item: Frost Jewel
+Where:
+Mia should already know this Psynergy. Otherwise, go to Altin Peak, and defeat
+the first Living Statue to get the Frost Jewel.
+
+ ----------------------------------------------------------------------------
+   2.2                             Isaac
+ ----------------------------------------------------------------------------
+
+ |Psynergy| -|PP| - |Affected| - |Description|
+
+Move          2PP     N/A     Move an object on the ground
+Retreat       6PP     N/A     Return to the dungeon's entrance
+Cure          3PP      |      Restore 70 HP
+Cure Well     7PP      |      Restore 150 HP
+Potent Cure   10PP     |      Restore 300 HP
+Revive        15PP     |      Revive a downed ally
+Growth      * 4PP      |      Attack with wild plants [M]
+Mad Growth  * 10PP    |||     Attack with ferocious plants [M]
+Wild Growth * 19PP   |||||    Attack with giant plants [M]
+Planet Diver* 7PP      |      Leap skyward and lunge onto a foe [M]
+Blast       * 7PP     |||     Attack with a massive explosion [M]
+Nova        * 13PP   |||||    Attack with a massive explosion [M]
+Supernova   * 31PP  |||||||   Attack with a massive explosion [M]
+Haunt       * 5PP     |||     Haunt a foe with an evil spirit [M] or [J]
+Curse       * 6PP      |      Draw the spirit of death to a foe [M] or [J]
+Condemn     * 8PP      |      Disable your enemy with evil power [M]
+Ragnarok      7PP      |      Strike with a massive sword
+Quake         4PP     |||     Attack with a powerful quake
+Earthquake    7PP    |||||    Attack with a mighty tremor
+Quake Sphere  15PP  |||||||   Attack with a massive quake
+Spire         5PP      |      Attack with earthen spire
+Clay Spire    13PP    |||     Attack with earthen spire
+Stone Spire   22PP    |||     Attack with earthen spire
+Gaia          7PP     |||     Attack with the earth's might
+Mother Gaia   17PP   |||||    Attack with the earth's might
+Grand Gaia    32PP   |||||    Attack with the earth's might
+Astral Blast* 5PP      |      Attack with celestial force [J]
+Weaken      * 4PP      |      Drop enemy's resistance [J]
+Enfeeble    * 6PP     |||     Drop enemy party's resistance [J]
+Delude      * 4PP     |||     Wrap multiple foes in delusion [J]
+Sleep       * 5PP     |||     Lull multiple enemies to sleep [J]
+Drain       * 3PP      |      Drain enemy's HP to yourself [J]
+Psy Drain     0PP      |      Drain enemy's PP to yourself [J]
+Cutting Edge* 5PP      |      Inflict damage with a shock wave [J]
+Thorn       * 6PP     |||     Attack with stabbing thorns [Me]
+Briar       * 11PP    |||     Attack with sharpened briars [Me]
+Nettle      * 23PP   |||||    Attack with stinging nettles [Me]
+Cure Poison * 2PP      |      Cleanse the body of poison [Me]
+Restore     * 3PP      |      Remove sleep, stun, and delusion [Me]
+Break       * 5PP  |||||||||  Eliminate an enemy's bonuses [Me]
+Wish        * 9PP    |||||    Restore 80 HP to the whole party [Me]
+Wish Well   * 13PP   |||||    Restore 160 HP to the whole party [Me]
+Pure Wish   * 20PP   |||||    Restore 400 HP to the whole party [Me]
+Gale        * 3PP     |||     Attack with the wind's might [M(3)] AND [J(4)]
+Typhoon     * 12PP   |||||    Attack with the wind's might [M(3)] AND [J(4)]
+Hurricane   * 25PP  |||||||   Attack with the wind's might [M(3)] AND [J(4)]
+Death Plunge* 14PP     |      Plunge your weapon into a foe [M(3)] AND [J(4)]
+Shuriken    *  8PP     |||     Attack with a throwing knife [M(3)] AND [J(4)]
+Annihalation* 18PP     |      Attempt to annihalate a foe [M(3)] AND [J(4)]
+Punji       * 7PP     |||     Attack with a bamboo weapon [M(3)] AND [J(4)]
+Punji Trap  * 13PP    |||     Attack with a bamboo weapon [M(3)] AND [J(4)]
+Punji Strike* 24PP   |||||    Attack with a bamboo weapon [M(3)] AND [J(4)]
+Fire Bomb   * 5PP     |||     Attack with a bomb blast [M(3)] AND [J(4)]
+Cluster Bomb* 11PP   |||||    Attack with a bomb blast [M(3)] AND [J(4)]
+Carpet Bomb * 29PP  |||||||   Attack with a bomb blast [M(3)] AND [J(4)]
+Thunderclap * 9PP     |||     Attack with the storm's fury [M(3)] AND [J(4)]
+Thunderbolt * 19PP   |||||    Attack with the storm's fury [M(3)] AND [J(4)]
+Thunderstorm* 39PP  |||||||   Attack with the storm's fury [M(3)] AND [J(4)]
+Mist        * 4PP     |||     Wrap a foe in a cloud of delusion [M(3)] , [J(4)]
+Dragon Cloud* 6PP      |      Strike an enemy with Dragon Cloud [M(4)] , [J(3)]
+Demon Night * 12PP    |||     Unleash a myriad of monsters [M(4)] AND [J(3)]
+Helm Splitter* 8PP     |      Paralyze a foe with a mighty blow [M(4)] , [J(3)]
+Quick Strike* 12PP     |      Blind an enemy with a rapid strike [M(4)], [J(3)]
+Rockfall    * 5PP     |||     Attack with a blast of rocks [M(4)] AND [J(3)]
+Rockslide   * 15PP   |||||    Attack with a blast of rocks [M(4)] AND [J(3)]
+Avalanche   * 30PP   |||||    Attack with a blast of rocks [M(4)] AND [J(3)]
+Lava Shower * 4PP      |      Attack with a volcano's might [M(4)] AND [J(3)]
+Molten Bath * 12PP    |||     Attack with a volcano's might [M(4)] AND [J(3)]
+Magma Storm * 27PP   |||||    Attack with a volcano's might [M(4)] AND [J(3)]
+Demon Spear * 7PP      |      Boost attack with a demonic blade [M(4)] , [J(3)]
+Angel Spear * 12PP |||||||||  Boost attack with a heavenly blade [M(4)], [J(3)]
+Guardian    * 3PP      |      Boost defence with divine might [M(4)] AND [J(3)]
+Protector   * 5PP  |||||||||  Boost defence with divine might [M(4)] AND [J(3)]
+Magic Shell * 3PP      |      Boost elemental resistance [M(4)] AND [J(3)]
+Magic Shield* 5PP  |||||||||  Boost elemental resistance [M(4)] AND [J(3)]
+
+
+ ----------------------------------------------------------------------------
+   2.3                           Garet
+ ----------------------------------------------------------------------------
+
+ |Psynergy| -|PP| - |Affected| - |Description|
+
+Move          2PP     N/A     Move an object on the ground
+Heat Wave     6PP      |      Attack with fiery bolts
+Flare         4PP     |||     Attack with flaring flames
+Flare Wall    7PP     |||     Attack with searing flames
+Flare Storm   12PP    |||     Attack with incinerating flames
+Fire          6PP     |||     Attack with a scorching fireball
+Fireball      12PP   |||||    Attack with a scorching fireball
+Inferno       23PP   |||||    Attack with a scorching fireball
+Volcano       6PP      |      Attack with volcanic might
+Eruption      14PP    |||     Attack with volcanic might
+Pyroclasm     29PP   |||||    Attack with volcanic might
+Guard         3PP      |      Boost ally's defence
+Protect       5PP  |||||||||  Boost party's defence
+Impair        4PP      |      Drop enemy's defnce
+Debilitate    6PP     |||     Drop enemy party's defence
+Astral Blast* 5PP      |      Attack with celestial force [J]
+Weaken      * 4PP      |      Drop enemy's resistance [J]
+Enfeeble    * 6PP     |||     Drop enemy party's resistance [J]
+Delude      * 4PP     |||     Wrap multiple foes in delusion [J]
+Sleep       * 5PP     |||     Lull multiple enemies to sleep [J]
+Drain       * 3PP      |      Drain enemy's HP to yourself [J]
+Psy Drain     0PP      |      Drain enemy's PP to yourself [J]
+Cutting Edge* 5PP      |      Inflict damage with a shock wave [Me]
+Blast       * 5PP     |||     Attack with an explosive blast [Me]
+Mad Blast   * 9PP     |||     Attack with an explosive blast [Me]
+Fiery Blast * 19PP   |||||    Attack with an explosive blast [Me]
+Guard       * 3PP      |      Boost ally's defence [Me]
+Protect     * 5PP  |||||||||  Boost party's defence [Me]
+Break       * 5PP  |||||||||  Eliminate an enemy's bonuses [Me]
+Restore     * 3PP      |      Remove sleep, stun, and delusion [Me]
+Wish        * 9PP    |||||    Restore 80 HP to the whole party [Me]
+Wish Well   * 13PP   |||||    Restore 160 HP to the whole party [Me]
+Pure Wish   * 20PP   |||||    Restore 400 HP to the whole party [Me]
+Douse       * 5PP     |||     Attack with a surge of water [Me]
+Spire       * 5PP      |      Attack with earthen spire [V(4)] AND [M(3)]
+Clay Spire  * 13PP    |||     Attack with earthen spire [V(4)] AND [M(3)]
+Stone Spire * 22PP    |||     Attack with earthen spire [V(4)] AND [M(3)]
+Revive      * 15PP     |      Revive a downed ally [V(4)] AND [M(3)]
+Gale        * 3PP     |||     Attack with the wind's might [V(3)] AND [J(4)]
+Typhoon     * 12PP   |||||    Attack with the wind's might [V(3)] AND [J(4)]
+Hurricane   * 25PP  |||||||   Attack with the wind's might [V(3)] AND [J(4)]
+Death Plunge* 14PP     |      Plunge your weapon into a foe [V(3)] AND [J(4)]
+Shuriken    * 8PP     |||     Attack with a throwing knife [V(3)] AND [J(4)]
+Annihalation* 18PP     |      Attempt to annihalate a foe [V(3)] AND [J(4)]
+Punji       * 7PP     |||     Attack with a bamboo weapon [V(3)] AND [J(4)]
+Punji Trap  * 13PP    |||     Attack with a bamboo weapon [V(3)] AND [J(4)]
+Punji Strike* 24PP   |||||    Attack with a bamboo weapon [V(3)] AND [J(4)]
+Fire Bomb   * 5PP     |||     Attack with a bomb blast [V(3)] AND [J(4)]
+Cluster Bomb* 11PP   |||||    Attack with a bomb blast [V(3)] AND [J(4)]
+Carpet Bomb * 29PP  |||||||   Attack with a bomb blast [V(3)] AND [J(4)]
+Thunderclap * 9PP     |||     Attack with the storm's fury [V(3)] AND [J(4)]
+Thunderbolt * 19PP   |||||    Attack with the storm's fury [V(3)] AND [J(4)]
+Thunderstorm* 39PP  |||||||   Attack with the storm's fury [V(3)] AND [J(4)]
+Mist        * 4PP     |||     Wrap a foe in a cloud of delusion [V(3)] , [J(4)]
+Dragon Cloud* 6PP      |      Strike an enemy with Dragon Cloud [V(4)] , [J(3)]
+Demon Night * 12PP    |||     Unleash a myriad of monsters [V(4)] AND [J(3)]
+Helm Splitter* 8PP     |      Paralyze a foe with a mighty blow [V(4)] , [J(3)]
+Quick Strike* 12PP     |      Blind an enemy with a rapid strike [V(4)], [J(3)]
+Rockfall    * 5PP     |||     Attack with a blast of rocks [V(4)] AND [J(3)]
+Rockslide   * 15PP   |||||    Attack with a blast of rocks [V(4)] AND [J(3)]
+Avalanche   * 30PP   |||||    Attack with a blast of rocks [V(4)] AND [J(3)]
+Lava Shower * 4PP      |      Attack with a volcano's might [V(4)] AND [J(3)]
+Molten Bath * 12PP    |||     Attack with a volcano's might [V(4)] AND [J(3)]
+Magma Storm * 27PP   |||||    Attack with a volcano's might [V(4)] AND [J(3)]
+Demon Spear * 7PP      |      Boost attack with a demonic blade [V(4)] , [J(3)]
+Angel Spear * 12PP |||||||||  Boost attack with a heavenly blade [V(4)], [J(3)]
+Guardian    * 3PP      |      Boost defence with divine might [V(4)] AND [J(3)]
+Protector   * 5PP  |||||||||  Boost defence with divine might [V(4)] AND [J(3)]
+Magic Shell * 3PP      |      Boost elemental resistance [V(4)] AND [J(3)]
+Magic Shield* 5PP  |||||||||  Boost elemental resistance [V(4)] AND [J(3)]
+
+
+ ----------------------------------------------------------------------------
+   2.4                           Ivan
+ ----------------------------------------------------------------------------
+
+ |Psynergy| -|PP| - |Affected| - |Description|
+
+Whirlwind     5PP     |||     Attack with a swirling tornado
+Tornado       14PP   |||||    Attack with a mighty tornado
+Tempest       27PP   |||||    Attack with a fearsome windstorm
+Mind Read     1PP     N/A     Read someone's mind
+Reveal        1PP     N/A     Perceive hidden truths
+Ray           6PP     |||     Attack with a magnetic storm
+Storm Ray     10PP    |||     Attack with a magnetic storm
+Destruct Ray  21PP    |||     Attack with a magnetic storm
+Plasma        8PP     |||     Attack with a barrage of bolts
+Shine Plasma  18PP   |||||    Attack with a barrage of bolts
+Spark Plasma  37PP  |||||||   Attack with a barrage of bolts
+Impact        7PP      |      Boost ally's attack
+High Impact   12PP |||||||||  Boost party's attack
+Sleep         5PP     |||     Lull multiple foes to sleep
+Bind          4PP      |      Block a foe's psynergy
+Bolt        * 4PP      |      Attack with a lightning bolt [V]
+Flash Bolt  * 7PP     |||     Attack with a lightning bolt [V]
+Blue Bolt   * 14PP    |||     Attack with a lightning bolt [V]
+Drain       * 3PP      |      Drain enemy's HP to yourself [V]
+Psy Drain   * 0PP      |      Drain enemy's PP to yourself [V]
+Cure        * 3PP      |      Restore 70 HP [V]
+Cure Well   * 7PP      |      Restore 150 HP [V]
+Potent Cure * 10PP     |      Restore 300 HP [V]
+Growth      * 4PP      |      Attack with wild plants [V]
+Mad Growth  * 10PP    |||     Attack with ferocious plants [V]
+Wild Growth * 19PP   |||||    Attack with giant plants [V]
+Slash       * 4PP      |      Attack with a blade of focused air [M]
+Wind Slash  * 9PP     |||     Attack with a blade of focused air [M]
+Sonic Slash * 20PP   |||||    Attack with a blade of focused air [M]
+Drain       * 3PP      |      Drain enemy's HP to yourself [M]
+Psy Drain     0PP      |      Drain enemy's PP to yourself [M]
+Ward          3PP      |      Boost ally's resistance
+Resist        5PP  |||||||||  Boost party's resistance
+Wish        * 9PP    |||||    Restore 80 HP to the whole party [Me]
+Wish Well   * 13PP   |||||    Restore 160 HP to the whole party [Me]
+Pure Wish   * 20PP   |||||    Restore 400 HP to the whole party [Me]
+Prism       * 7PP     |||     Attack with ice crystals [J(4)] AND [Me(3)]
+Hail Prism  * 16PP   |||||    Attack with ice crystals [J(4)] AND [Me(3)]
+Freeze Prism* 31PP   |||||    Attack with ice crystals [J(4)] AND [Me(3)]
+
+
+ ----------------------------------------------------------------------------
+   2.5                           Mia
+ ----------------------------------------------------------------------------
+
+ |Psynergy| -|PP| - |Affected| - |Description|
+
+Ply           4PP      |      Restore 100 HP with faith's power
+Ply Well      8PP      |      Restore 200 HP with faith's power
+Pure Ply      12PP     |      Restore 1000 HP with faith's power
+Wish          9PP    |||||    Restore 80 HP to the whole party
+Wish Well     13PP   |||||    Restore 160 HP to the whole party
+Pure Wish     20PP   |||||    Restore 400 HP to the whole party
+Cure Poison   2PP      |      Cleanse the body of poison
+Restore       3PP      |      Remove sleep, stun, and delusion
+Frost         5PP     |||     Attack with frigid blasts
+Tundra        8PP     |||     Attack with frigid blasts
+Glacier       15PP    |||     Attack with frigid blasts
+Ice           5PP      |      Attack with spikes of ice
+Ice Horn      11PP    |||     Attack with spikes of ice
+Ice Missile   23PP    |||     Attack with spikes of ice
+Break         5PP  |||||||||  Eliminate an enemy's bonuses
+Prism       * 7PP     |||     Attack with ice crystals [J] or [M]
+Hail Prism  * 16PP   |||||    Attack with ice crystals [J] or [M]
+Freeze Prism* 31PP   |||||    Attack with ice crystals [J] or [M]
+Plasma        8PP     |||     Attack with a barrage of bolts [J]
+Shine Plasma  18PP   |||||    Attack with a barrage of bolts [J]
+Spark Plasma  37PP  |||||||   Attack with a barrage of bolts [J]
+Impact        7PP      |      Boost ally's attack [J]
+High Impact   12PP |||||||||  Boost party's attack [J]
+Bind          4PP      |      Block a foe's psynergy [J]
+Drain       * 3PP      |      Drain enemy's HP to yourself [J]
+Psy Drain     0PP      |      Drain enemy's PP to yourself [J]
+Froth       * 5PP     |||     Attack with frothing bubbles [J]
+Froth Sphere* 12PP   |||||    Attack with frenzied bubbles [J]
+Froth Spiral* 31PP  |||||||   Attack with a bubble vortex [J]
+Douse       * 5PP     |||     Attack with a surge of water [M]
+Drench      * 10PP    |||     Attack with a torrent of water [M]
+Deluge      * 20PP   |||||    Attack with a deadly flood [M]
+Avoid       * 5PP     N/A     Encounter fewer monsters [V] or [M]
+Mia also gains Growth, Mad Growth, Wild Growth, Cure, Cure Well, and Potent 
+Cure from the trade of [M] for [V]. These are explained in the -Isaac- section.
+
++-----------------------------------------------------------------------------+
+|3.                       Frequently Asked Questions                          |
++-----------------------------------------------------------------------------+
+
+These are questions I got in e-mails, and the replies.
+
+Q. How do you get Growth?
+A. I have been asked this many times, and the easiest solution is switching 
+   Djinn. To get Growth with Garet, give him all the Mars Djinn, and no others.
+   To get Growth with Isaac, give him one Mars Djinn, and make the rest Venus 
+   Djinn.
+
+Q. By trading Djinn you mean trading with other people in your party, right?
+A. Yes.
+
+Q. Where can I find the teleport psynergy in the game Golden Sun 2?
+A. This is not a Golden Sun 2 Psynergy Guide.
+
+Q. Ivan can't use Whirlwind anymore. What's wrong?
+A. Try switching all the Jupiter Djinn to Ivan. (He replied, and it worked.)
+
+Q. How do I get carry?
+A. You need the Carry Stone from Venus Lighthouse.
+
+Q. How do I get the Halt Gem?
+A. Later on in the game, you return to Vale with Lift. You go around the cliff,
+   and lift a rock. Go down into the cave. You'll find it there, along with the
+   Jupiter Djinn, Kite.
+
+Q. Where do I get the Cloak Ball?
+A. It is beside Babi's bed after you win in Colosso.
+
+Q. I need the Catch Psynergy, but I don't have it :( How do I get it and where?
+A. You get Catch Beads at the very start, after Sol Sanctum, just before you
+   leave Vale. You should have them. Maybe they're just not equipped...
+
+Q. Will you be listing all the Psynergies like in "Everybody"?
+A. No. I only listed them like that to show where to find them, after receiving
+   many e-mails asking where to find them.
+
++-----------------------------------------------------------------------------+
+|4.                            Version History                                |
++-----------------------------------------------------------------------------+
+
+ver 1.0 = First version of the FAQ. Most Psynegies accounted for.
+        = 18th January 2003
+
+ver 1.1 = Thanks for the e-mails regarding missing Psynergies. More added, 
+          and names added to Credits. Also fixed the mistake with Mars and 
+          Mercury Djinn. I had them both as [M], but now Mercury is [Me].
+        = 28th March 2003
+
+ver 1.5 = More Psynergies added. In the next version, I will add a section 
+          where they are listed by element (not in detail).
+        = 30th March 2003
+
+ver 1.5a= Made a few minor changes. Nothing huge. I've been busy, but I will 
+          have the psynergies listed by element soon...
+        = 29th July 2003
+
+ver 1.51= I am deciding whether I will do the psynergies by element. Haven't 
+          done anything on it yet. Only changes to the FAQ is formatting. No 
+          content added.
+        = 21st August 2003
+
+ver 2.0 = Added a Frequently Asked Questions section, since I am getting 
+          many e-mails about certain Pysnergies.
+        = 13th September 2003
+
+ver 2.01= A small change to the Legal Stuff, but that's it.
+        = 19th September 2003
+
+ver 2.02= Changed the format to make things slightly easier to find.
+        = 23rd September 2003
+
+ver 2.03= New question in FAQ section.
+        = 3rd November 2003
+
+ver 3.0 = Re-vamped the format for the Psynergy List. Made 79 CPL.
+        = 20th November 2003
+
+ver 3.0a= Changed headers in Psynergy section.
+        = 22nd November 2003
+
+ver 3.01= Added 2 Frequently Asked Questions.
+        = 30th November 2003
+
+ver 3.1 = Locations for Psynergyies gained by equipping items added.
+        = 19th December 2003
+
+ver 3.11= Final revision.
+        = 24th February 2004
+
++-----------------------------------------------------------------------------+
+|5.                                 Credits                                   |
++-----------------------------------------------------------------------------+
+
+Thanks to MysticFlame and Joshua Gotlieb for information on missing psynergies.
+Thanks to nnguyen11940 for rating my FAQ, and giving advice on formatting.
+Thanks to CWall and Brian Sulpher, whose critiques/FotD convinced me to change
+the headers in the Psynergy section.
+And obviously thanks to Nintendo and Camelot for such a great game.
+Also to Neoseeker, IGN and GameFAQs for putting up my FAQ.
+
++-----------------------------------------------------------------------------+
+|6.                               Legal Stuff                                 |
++-----------------------------------------------------------------------------+
+
+This guide is © Copyright 2004 Tetzcatlipoca. This FAQ can not be distributed
+in any part without my prior written consent.
+
+Golden Sun is © Nintendo.
+
+This FAQ can only be be posted on:
+ -GameFAQs [www.gamefaqs.com]
+ -Neoseeker [www.neoseeker.com]
+ -IGN [faqs.ign.com]
+
+And hopefully, I'll be making an FAQ like this for The Lost Age soon.....
+
+All Rights Reserved
+
+________________________________________________________________________________
+                                                            © Tetzcatlipoca 2004
+Restore Page
+

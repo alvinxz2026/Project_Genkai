@@ -22,6 +22,12 @@ Status: v1.0
   - [Example Entry: Tret](#example-entry-tret-single-encounter-wiki-detail-page-available)
   - [Example Entry: Saturos](#example-entry-saturos-three-encounters)
   - [Notes for CC (Extraction Instructions)](#notes-for-cc-extraction-instructions-1)
+- [Schema: `equipment`](#schema-equipment)
+  - [Type Enums](#type-enums)
+  - [Equippable-By Reference](#equippable-by-reference)
+  - [Example Entry: Gaia Blade (weapon)](#example-entry-gaia-blade-weapon)
+  - [Example Entry: Spirit Armlet (armor)](#example-entry-spirit-armlet-armor)
+  - [Notes for CC (Extraction Instructions)](#notes-for-cc-extraction-instructions-2)
 
 ---
 
@@ -47,6 +53,9 @@ This table lists every source ID used across all schemas in this file.
 | `fandom-tret` | Golden Sun Fandom Wiki — Tret page (fetched 2026) |
 | `fandom-saturos` | Golden Sun Fandom Wiki — Saturos page (fetched 2026) |
 | `fandom-deadbeard` | Golden Sun Fandom Wiki — Deadbeard page (fetched 2026) |
+| `dnextreme88` | Equipment Capabilities FAQ by dnextreme88 (GameFAQs, date unknown) |
+| `fandom-equipment` | Golden Sun Fandom Wiki — GBA Equipment Comparison Charts (fetched 2026) |
+| `rockettrekkie` | Golden Sun Artifacts Guide by RocketTrekkieEvoli (GameFAQs, date unknown) |
 
 Add new rows here when new sources are ingested.
 
@@ -759,3 +768,324 @@ When extracting boss data from raw source files:
    Extract GS1 entries only. Stop at and include Deadbeard. Do not extract
    any Lost Age entries.
 10. **Do not invent data.** If a field cannot be confirmed, use `null`.
+
+---
+
+## Schema: `equipment`
+
+One entry per named equipment piece. Covers weapons, armor, and usable/artifact items.
+Weapons, armor, and items share a single schema; use `category` + `type` to discriminate.
+
+File: `data/gs1/equipment.json`
+
+```
+Field               Type              Required   Notes
+---------------------------------------------------------------------------
+id                  string            YES        Lowercase, hyphens only.
+                                                 e.g. "gaia-blade", "demon-mail", "spirit-armlet"
+name                string            YES        Display name as it appears in-game.
+                                                 e.g. "Gaia Blade", "Demon Mail"
+game                string            YES        Always "gs1" for this file.
+category            string            YES        One of: "weapon" | "armor" | "item"
+type                string            YES        See Type Enums below.
+is_cursed           boolean           YES        true if equipping the item curses the character.
+                                                 false for all non-cursed items.
+is_artifact         boolean           YES        true if the item cannot be repurchased after
+                                                 selling (one-time acquisition only).
+                                                 false for ordinary shop items.
+equippable_by       array of string   YES        Characters who can equip this item.
+                                                 e.g. ["Isaac", "Garet"] or
+                                                 ["Isaac", "Garet", "Ivan", "Mia"]
+                                                 See Equippable-By Reference below.
+
+stat_bonus          object            YES        Flat numeric stat changes when equipped.
+  .atk              integer | null    YES        Attack bonus. 0 if confirmed none. null if unknown.
+  .def              integer | null    YES        Defense bonus.
+  .hp               integer | null    YES        Max HP bonus.
+  .pp               integer | null    YES        Max PP bonus.
+  .agi              integer | null    YES        Agility bonus.
+  .lck              integer | null    YES        Luck bonus.
+  .hp_regen         integer | null    YES        Passive HP restored per turn when equipped.
+                                                 0 if confirmed none. null if unknown.
+  .pp_regen         integer | null    YES        Passive PP restored per turn when equipped.
+
+stat_multiplier     object | null     NO         Only present when a source explicitly states a
+                                                 multiplicative modifier (e.g. "Agility x1.5").
+                                                 null if the item has no multiplicative stats.
+  .pp               float | null      NO         PP multiplier. e.g. 1.2 for "Max PP x1.2".
+  .agi              float | null      NO         Agility multiplier. e.g. 1.5 for "Agility x1.5".
+
+increases_critical  boolean | null    YES        true if the item increases the wearer's
+                                                 critical hit rate. false if confirmed no effect.
+                                                 null if unknown.
+
+elemental_power     object            YES        Elemental attack power bonuses when equipped.
+                                                 Use 0 for confirmed none.
+  .earth            integer           YES
+  .fire             integer           YES
+  .wind             integer           YES
+  .water            integer           YES
+
+elemental_resistance object           YES        Elemental resistance bonuses when equipped.
+                                                 Use 0 for confirmed none. Negative values are
+                                                 valid (e.g. Demon Mail: Wind Resist −10).
+  .earth            integer           YES
+  .fire             integer           YES
+  .wind             integer           YES
+  .water            integer           YES
+
+unleash             object | null     YES        Weapon unleash data. null for armor, items,
+                                                 or weapons that have no unleash (e.g. Blessed Mace
+                                                 has a use effect but no unleash).
+  .name             string            YES        Unleash ability name. e.g. "Titan Blade"
+  .element          string | null     YES        Element of the unleash.
+                                                 One of: "earth" | "fire" | "wind" | "water" | null
+                                                 null for non-elemental unleashes.
+  .rate             string            YES        How often the unleash triggers on a normal attack.
+                                                 One of: "low" | "medium" | "high"
+  .power_level      string            YES        Relative damage power of the unleash.
+                                                 One of: "low" | "medium" | "high"
+  .effects          array of string   YES        Secondary status/damage effects in plain English.
+                                                 e.g. ["may poison foe", "may drop foe's defense"]
+                                                 Empty array [] if no secondary effects.
+  .notes            string | null     NO         Extra context. Use for "2 different unleashes;
+                                                 second unnamed in source" cases. null if none.
+
+use_effect          object | null     YES        In-battle use effect when item is selected from
+                                                 the menu. null if the item cannot be used.
+  .description      string            YES        Plain English description of the effect.
+                                                 e.g. "Restores 150 HP to one ally"
+  .may_break        boolean           YES        true if using the item may permanently destroy it.
+
+acquisition         object            YES        Primary acquisition method.
+  .method           string            YES        One of:
+                                                 "shop"         — purchasable at a weapon/armor dealer
+                                                 "chest"        — found in a treasure chest
+                                                 "lucky_wheels" — prize from Lucky Medal (Tolbi Springs)
+                                                 "drop"         — monster drop (RNG)
+                                                 "event"        — story/event reward (e.g. Colosso)
+                                                 "unobtainable" — cannot be obtained without hacking
+  .location         string | null     YES        Town, dungeon, or monster source.
+                                                 null only for "unobtainable" method.
+  .price            integer | null    YES        Purchase price in coins. null if not sold in shops.
+  .notes            string | null     NO         Extra acquisition conditions or caveats.
+                                                 e.g. "employ RNG strategy", "sells for X coins"
+
+sources             array of string   YES        All source IDs that contributed data to this entry.
+conflicts           array of object   NO         Only present if two sources disagree on a field.
+                                                 Omit this field entirely if no conflicts exist.
+  [].field          string            YES        Dot-notation path. e.g. "stat_bonus.def"
+  [].values         object            YES        Map of source_id → conflicting value.
+  [].note           string | null     NO         Optional human note explaining the discrepancy.
+```
+
+### Type Enums
+
+```
+category = "weapon"
+  type: "axe" | "light_blade" | "long_sword" | "mace" | "staff"
+
+category = "armor"
+  type: "armor" | "robe" | "clothing" | "shield" | "gloves" | "bracelet" |
+        "helm" | "crown" | "hat" | "circlet" | "shirt" | "boots"
+
+category = "item"
+  type: "item"
+```
+
+### Equippable-By Reference
+
+Derived from the character equipment table at the top of dnextreme88's FAQ.
+
+```
+Armor types:
+  armor, shield, helm, crown, hat, gloves, clothing
+    → Isaac, Garet can equip (and NOT Ivan, Mia)
+  robe, circlet, bracelet
+    → Ivan, Mia can equip (and NOT Isaac, Garet)
+  hat, clothing, gloves, crown
+    → all four characters can equip
+  (hats/crowns: all four; circlets: Ivan+Mia only; helms: Isaac+Garet only)
+
+Full breakdown (from FAQ table):
+  armor     → ["Isaac", "Garet"]
+  robe      → ["Ivan", "Mia"]
+  clothing  → ["Isaac", "Garet", "Ivan", "Mia"]
+  shield    → ["Isaac", "Garet"]
+  gloves    → ["Isaac", "Garet", "Ivan", "Mia"]
+  bracelet  → ["Ivan", "Mia"]
+  helm      → ["Isaac", "Garet"]
+  crown     → ["Isaac", "Garet", "Ivan", "Mia"]
+  hat       → ["Isaac", "Garet", "Ivan", "Mia"]
+  circlet   → ["Ivan", "Mia"]
+  shirt     → ["Isaac", "Garet", "Ivan", "Mia"]
+  boots     → ["Isaac", "Garet", "Ivan", "Mia"]
+
+Weapon types:
+  axe        → ["Isaac", "Garet"]
+  long_sword → ["Isaac", "Garet"]
+  light_blade → ["Isaac", "Garet", "Ivan"]
+  mace       → ["Isaac", "Garet", "Mia"]
+  staff      → ["Ivan", "Mia"]
+
+Items:
+  item       → ["Isaac", "Garet", "Ivan", "Mia"]
+```
+
+Note: individual items may have further restrictions noted in source text
+(e.g. "Females only"). Override the type-based default when a source
+explicitly restricts or expands equippability.
+
+### Example Entry: Gaia Blade (weapon)
+
+```json
+{
+  "id": "gaia-blade",
+  "name": "Gaia Blade",
+  "game": "gs1",
+  "category": "weapon",
+  "type": "long_sword",
+  "is_cursed": false,
+  "is_artifact": true,
+  "equippable_by": ["Isaac", "Garet"],
+  "stat_bonus": {
+    "atk": 135,
+    "def": 0,
+    "hp": 0,
+    "pp": 0,
+    "agi": 0,
+    "lck": 0,
+    "hp_regen": 0,
+    "pp_regen": 0
+  },
+  "stat_multiplier": null,
+  "increases_critical": false,
+  "elemental_power": { "earth": 20, "fire": 0, "wind": 0, "water": 0 },
+  "elemental_resistance": { "earth": 20, "fire": 0, "wind": 0, "water": 0 },
+  "unleash": {
+    "name": "Titan Blade",
+    "element": "earth",
+    "rate": "high",
+    "power_level": "high",
+    "effects": [],
+    "notes": null
+  },
+  "use_effect": null,
+  "acquisition": {
+    "method": "chest",
+    "location": "Venus Lighthouse",
+    "price": null,
+    "notes": null
+  },
+  "sources": ["dnextreme88", "rockettrekkie"]
+}
+```
+
+### Example Entry: Spirit Armlet (armor)
+
+```json
+{
+  "id": "spirit-armlet",
+  "name": "Spirit Armlet",
+  "game": "gs1",
+  "category": "armor",
+  "type": "bracelet",
+  "is_cursed": false,
+  "is_artifact": false,
+  "equippable_by": ["Ivan", "Mia"],
+  "stat_bonus": {
+    "atk": 0,
+    "def": 38,
+    "hp": 0,
+    "pp": 0,
+    "agi": 0,
+    "lck": 0,
+    "hp_regen": 0,
+    "pp_regen": 0
+  },
+  "stat_multiplier": null,
+  "increases_critical": false,
+  "elemental_power": { "earth": 10, "fire": 0, "wind": 0, "water": 10 },
+  "elemental_resistance": { "earth": 0, "fire": 0, "wind": 0, "water": 0 },
+  "unleash": null,
+  "use_effect": {
+    "description": "Cures status ailments on one ally.",
+    "may_break": false
+  },
+  "acquisition": {
+    "method": "shop",
+    "location": "Lalivero",
+    "price": 9000,
+    "notes": null
+  },
+  "sources": ["dnextreme88"]
+}
+```
+
+### Notes for CC (Extraction Instructions)
+
+When extracting equipment data from the three raw source files:
+
+1. **One JSON object per named equipment piece.** Items that share a name but
+   differ in stats (e.g. Dragon Scales appears as both a Shield and an Armor)
+   get separate entries with distinct IDs (e.g. `"dragon-scales-shield"` and
+   `"dragon-scales-armor"`).
+
+2. **Primary source for stats**: dnextreme88's FAQ is the most complete source
+   for GS1 equipment stats. Use it as the base. Supplement with rockettrekkie
+   (artifact context, element field, additional stat details) and fandom-equipment
+   (obtainable method classification, price confirmation).
+
+3. **`equippable_by`**: derive from equipment type using the Equippable-By
+   Reference table above. Override only when a source explicitly states a
+   character or gender restriction (e.g. "Females only", "Only Mia can equip").
+
+4. **`is_artifact`**: set to true when rockettrekkie lists the item in the
+   Artifacts Guide AND the item has no regular shop price, or when fandom-equipment
+   marks the item's obtainable column as "Artifact". Set to false for all
+   ordinary shop items.
+
+5. **`unleash`**: Only weapons have unleash effects. Extract name from the
+   "Unleashes X (Element)" text in the EFFECT column. Extract rate and
+   power_level from the UNLEASH CAPABILITIES column ("Low/Medium/High Unleash
+   rate, Low/Medium/High Unleash power"). Lowercase all enum values.
+   For items with "2 Different Unleashes" where the second is unnamed, set
+   `notes: "2 different unleashes; second unnamed in source"`.
+
+6. **`use_effect`**: Set for any item whose EFFECT column says "Use to …" or
+   "Replenishes …" or similar action-in-battle language. Set `may_break: true`
+   when the source says "may break if used."
+
+7. **`elemental_power` / `elemental_resistance`**: populate from STATS GIVEN
+   column entries like "Earth Power +10" and "Wind Resist +20". Use 0 for all
+   elements not mentioned. Negative resistance values are valid (e.g. Demon Mail
+   "Wind Resist -10" → `elemental_resistance.wind: -10`).
+
+8. **`stat_multiplier`**: only populate when the source uses "x N" notation
+   (e.g. "Agility x1.5", "Max PP x1.2"). Do not attempt to convert these to
+   flat values. Items with a multiplier still need all `stat_bonus` fields set
+   (use 0 for the multiplied stat in `stat_bonus`).
+
+9. **`increases_critical`**: set to true when the STATS GIVEN column says
+   "Critical Hits increase" or similar. false for all others.
+
+10. **`acquisition.method`**: Use `"lucky_wheels"` for "A prize from throwing
+    a Lucky Medal into Tolbi Springs." Use `"drop"` for any "Dropped from …"
+    or "employ RNG strategy" entries. Use `"event"` for Colosso prizes or
+    story-reward items. Use `"unobtainable"` only when a source explicitly
+    states the item cannot be obtained without hacking.
+
+11. **`acquisition.price`**: populate from the coins figure in "Buy from X's
+    weapon/armor dealer (N coins)." null for non-shop items. For artifact items
+    where rockettrekkie lists a "Sells for X coins" figure, that is the sell
+    price — do NOT use it as `price`; note it in `acquisition.notes` instead.
+
+12. **Conflict handling**: flag conflicts with the `conflicts` array when
+    sources disagree on a numeric stat, element, or acquisition method.
+    Do NOT silently pick a winner. Common conflicts to watch for:
+    - dnextreme88 vs. rockettrekkie on stat values
+    - fandom-equipment method classification vs. FAQ description
+
+13. **Do not invent data.** If a field cannot be determined from available
+    sources, use `null` (or `0` for elemental fields confirmed to be zero).
+    Do not guess at missing stat values.

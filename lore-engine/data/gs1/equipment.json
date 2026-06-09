@@ -1,0 +1,5248 @@
+[
+  {
+    "id": "gaia-blade",
+    "name": "Gaia Blade",
+    "game": "gs1",
+    "category": "weapon",
+    "type": "long_sword",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 135,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 20,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 20,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": {
+      "name": "Titan Blade",
+      "element": "earth",
+      "rate": "high",
+      "power_level": "high",
+      "effects": [],
+      "notes": null
+    },
+    "use_effect": null,
+    "acquisition": {
+      "method": "chest",
+      "location": "Venus Lighthouse",
+      "price": 17000,
+      "notes": null
+    },
+    "sources": [
+      "dnextreme88",
+      "rockettrekkie"
+    ]
+  },
+  {
+    "id": "muramasa",
+    "name": "Muramasa",
+    "game": "gs1",
+    "category": "weapon",
+    "type": "long_sword",
+    "is_cursed": true,
+    "is_artifact": true,
+    "equippable_by": [
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 126,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": {
+      "name": "Demon Fire",
+      "element": "fire",
+      "rate": "medium",
+      "power_level": "high",
+      "effects": [
+        "may haunt opponent"
+      ],
+      "notes": null
+    },
+    "use_effect": null,
+    "acquisition": {
+      "method": "chest",
+      "location": "Crossbone Isle",
+      "price": 13600,
+      "notes": null
+    },
+    "sources": [
+      "dnextreme88",
+      "rockettrekkie"
+    ]
+  },
+  {
+    "id": "silver-blade",
+    "name": "Silver Blade",
+    "game": "gs1",
+    "category": "weapon",
+    "type": "long_sword",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 108,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": {
+      "name": "Aqua Sock",
+      "element": "water",
+      "rate": "high",
+      "power_level": "low",
+      "effects": [],
+      "notes": null
+    },
+    "use_effect": null,
+    "acquisition": {
+      "method": "shop",
+      "location": "Lalivero",
+      "price": 12000,
+      "notes": null
+    },
+    "sources": [
+      "dnextreme88",
+      "rockettrekkie"
+    ]
+  },
+  {
+    "id": "shamshir",
+    "name": "Shamshir",
+    "game": "gs1",
+    "category": "weapon",
+    "type": "long_sword",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 99,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": {
+      "name": "Acid Bath",
+      "element": "fire",
+      "rate": "medium",
+      "power_level": "high",
+      "effects": [
+        "may drop opponent's attack"
+      ],
+      "notes": null
+    },
+    "use_effect": null,
+    "acquisition": {
+      "method": "shop",
+      "location": "Lunpa",
+      "price": 10000,
+      "notes": null
+    },
+    "sources": [
+      "dnextreme88",
+      "rockettrekkie"
+    ],
+    "conflicts": [
+      {
+        "field": "acquisition.location",
+        "values": {
+          "dnextreme88": "Tolbi",
+          "rockettrekkie": "Lunpa"
+        },
+        "note": "dnextreme88 says buy from Tolbi's weapon dealer; rockettrekkie lists as Artifacts list (Lunpa)"
+      }
+    ]
+  },
+  {
+    "id": "arctic-blade",
+    "name": "Arctic Blade",
+    "game": "gs1",
+    "category": "weapon",
+    "type": "long_sword",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 55,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": {
+      "name": "Blizzard",
+      "element": "water",
+      "rate": "high",
+      "power_level": "medium",
+      "effects": [
+        "may drop opponent's attack"
+      ],
+      "notes": null
+    },
+    "use_effect": null,
+    "acquisition": {
+      "method": "chest",
+      "location": "Fuchin Falls Cave",
+      "price": 2600,
+      "notes": null
+    },
+    "sources": [
+      "dnextreme88",
+      "rockettrekkie"
+    ]
+  },
+  {
+    "id": "masamune",
+    "name": "Masamune",
+    "game": "gs1",
+    "category": "weapon",
+    "type": "long_sword",
+    "is_cursed": false,
+    "is_artifact": false,
+    "equippable_by": [
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 115,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "unobtainable",
+      "location": null,
+      "price": null,
+      "notes": "Sells for 10050 coins; only accessible via hacking device"
+    },
+    "sources": [
+      "rockettrekkie"
+    ]
+  },
+  {
+    "id": "sol-blade",
+    "name": "Sol Blade",
+    "game": "gs1",
+    "category": "weapon",
+    "type": "long_sword",
+    "is_cursed": false,
+    "is_artifact": false,
+    "equippable_by": [
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 138,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "unobtainable",
+      "location": null,
+      "price": null,
+      "notes": "Sells for 14250 coins; only accessible via hacking device"
+    },
+    "sources": [
+      "rockettrekkie"
+    ]
+  },
+  {
+    "id": "kikuichimonji",
+    "name": "Kikuichimonji",
+    "game": "gs1",
+    "category": "weapon",
+    "type": "light_blade",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Isaac",
+      "Garet",
+      "Ivan"
+    ],
+    "stat_bonus": {
+      "atk": 128,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": {
+      "name": "Asura",
+      "element": "wind",
+      "rate": "medium",
+      "power_level": "medium",
+      "effects": [
+        "may delude opponent"
+      ],
+      "notes": null
+    },
+    "use_effect": null,
+    "acquisition": {
+      "method": "drop",
+      "location": "Venus Lighthouse (Fenrir)",
+      "price": 13400,
+      "notes": null
+    },
+    "sources": [
+      "dnextreme88",
+      "rockettrekkie"
+    ]
+  },
+  {
+    "id": "swift-sword",
+    "name": "Swift Sword",
+    "game": "gs1",
+    "category": "weapon",
+    "type": "light_blade",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Isaac",
+      "Garet",
+      "Ivan"
+    ],
+    "stat_bonus": {
+      "atk": 104,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 10,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": {
+      "name": "Sonic Smash",
+      "element": "wind",
+      "rate": "low",
+      "power_level": "high",
+      "effects": [
+        "may hit multiple times"
+      ],
+      "notes": "2 different unleashes; second unleash unnamed in sources"
+    },
+    "use_effect": null,
+    "acquisition": {
+      "method": "shop",
+      "location": "Lalivero",
+      "price": 9400,
+      "notes": null
+    },
+    "sources": [
+      "dnextreme88",
+      "rockettrekkie"
+    ],
+    "conflicts": [
+      {
+        "field": "unleash.name",
+        "values": {
+          "dnextreme88": "Sonic Slash",
+          "rockettrekkie": "Sonic Smash"
+        },
+        "note": "Unleash name differs between sources; rockettrekkie preferred as primary"
+      }
+    ]
+  },
+  {
+    "id": "ninja-blade",
+    "name": "Ninja Blade",
+    "game": "gs1",
+    "category": "weapon",
+    "type": "light_blade",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Isaac",
+      "Garet",
+      "Ivan"
+    ],
+    "stat_bonus": {
+      "atk": 94,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": {
+      "name": "Cyclone Attack",
+      "element": "wind",
+      "rate": "medium",
+      "power_level": "low",
+      "effects": [
+        "may drop opponent's resistance"
+      ],
+      "notes": null
+    },
+    "use_effect": null,
+    "acquisition": {
+      "method": "shop",
+      "location": "Lunpa",
+      "price": 8800,
+      "notes": null
+    },
+    "sources": [
+      "dnextreme88",
+      "rockettrekkie"
+    ]
+  },
+  {
+    "id": "assassin-blade",
+    "name": "Assassin Blade",
+    "game": "gs1",
+    "category": "weapon",
+    "type": "light_blade",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Isaac",
+      "Garet",
+      "Ivan"
+    ],
+    "stat_bonus": {
+      "atk": 90,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": {
+      "name": "Mortal Danger",
+      "element": "earth",
+      "rate": "low",
+      "power_level": "high",
+      "effects": [
+        "may drain opponent's spirit",
+        "one-hit kill possible"
+      ],
+      "notes": null
+    },
+    "use_effect": null,
+    "acquisition": {
+      "method": "lucky_wheels",
+      "location": "Tolbi Springs",
+      "price": 7800,
+      "notes": null
+    },
+    "sources": [
+      "dnextreme88",
+      "rockettrekkie"
+    ]
+  },
+  {
+    "id": "mystery-blade",
+    "name": "Mystery Blade",
+    "game": "gs1",
+    "category": "weapon",
+    "type": "light_blade",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Isaac",
+      "Garet",
+      "Ivan"
+    ],
+    "stat_bonus": {
+      "atk": 84,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": {
+      "name": "Life Nourish",
+      "element": "earth",
+      "rate": "medium",
+      "power_level": "low",
+      "effects": [
+        "may restore user's HP"
+      ],
+      "notes": null
+    },
+    "use_effect": null,
+    "acquisition": {
+      "method": "chest",
+      "location": "Crossbone Isle",
+      "price": 6400,
+      "notes": null
+    },
+    "sources": [
+      "dnextreme88",
+      "rockettrekkie"
+    ]
+  },
+  {
+    "id": "elven-rapier",
+    "name": "Elven Rapier",
+    "game": "gs1",
+    "category": "weapon",
+    "type": "light_blade",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Isaac",
+      "Garet",
+      "Ivan"
+    ],
+    "stat_bonus": {
+      "atk": 44,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": {
+      "name": "Vorpal Slash",
+      "element": "wind",
+      "rate": "high",
+      "power_level": "high",
+      "effects": [],
+      "notes": "wind-element aligned weapon"
+    },
+    "use_effect": null,
+    "acquisition": {
+      "method": "chest",
+      "location": "Bilibin Cave",
+      "price": 2200,
+      "notes": "Accessible via Grow Psynergy on ivy outside the cave"
+    },
+    "sources": [
+      "dnextreme88",
+      "rockettrekkie"
+    ]
+  },
+  {
+    "id": "bandits-sword",
+    "name": "Bandit's Sword",
+    "game": "gs1",
+    "category": "weapon",
+    "type": "light_blade",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Isaac",
+      "Garet",
+      "Ivan"
+    ],
+    "stat_bonus": {
+      "atk": 12,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": {
+      "name": "Rapid Smash",
+      "element": "wind",
+      "rate": "medium",
+      "power_level": "low",
+      "effects": [
+        "may hit multiple times"
+      ],
+      "notes": "2 different unleashes; second unleash unnamed in sources"
+    },
+    "use_effect": null,
+    "acquisition": {
+      "method": "event",
+      "location": "Vault",
+      "price": 700,
+      "notes": "Obtained after defeating the bandits"
+    },
+    "sources": [
+      "dnextreme88",
+      "rockettrekkie"
+    ]
+  },
+  {
+    "id": "kusanagi",
+    "name": "Kusanagi",
+    "game": "gs1",
+    "category": "weapon",
+    "type": "light_blade",
+    "is_cursed": false,
+    "is_artifact": false,
+    "equippable_by": [
+      "Isaac",
+      "Garet",
+      "Ivan"
+    ],
+    "stat_bonus": {
+      "atk": 135,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "unobtainable",
+      "location": null,
+      "price": null,
+      "notes": "Sells for 14250 coins; only accessible via hacking device"
+    },
+    "sources": [
+      "rockettrekkie"
+    ]
+  },
+  {
+    "id": "demon-axe",
+    "name": "Demon Axe",
+    "game": "gs1",
+    "category": "weapon",
+    "type": "axe",
+    "is_cursed": true,
+    "is_artifact": true,
+    "equippable_by": [
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 132,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": {
+      "name": "Poison Cloud",
+      "element": "earth",
+      "rate": "low",
+      "power_level": "medium",
+      "effects": [
+        "may poison opponent"
+      ],
+      "notes": null
+    },
+    "use_effect": null,
+    "acquisition": {
+      "method": "chest",
+      "location": "Crossbone Isle",
+      "price": 1600,
+      "notes": null
+    },
+    "sources": [
+      "dnextreme88",
+      "rockettrekkie"
+    ]
+  },
+  {
+    "id": "giant-axe",
+    "name": "Giant Axe",
+    "game": "gs1",
+    "category": "weapon",
+    "type": "axe",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 114,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": {
+      "name": "Meltdown",
+      "element": "fire",
+      "rate": "medium",
+      "power_level": "high",
+      "effects": [
+        "may drop opponent's defense"
+      ],
+      "notes": null
+    },
+    "use_effect": null,
+    "acquisition": {
+      "method": "drop",
+      "location": "Suhalla Pass / Venus Lighthouse (Earth Golem)",
+      "price": 14000,
+      "notes": null
+    },
+    "sources": [
+      "dnextreme88",
+      "rockettrekkie"
+    ],
+    "conflicts": [
+      {
+        "field": "acquisition.location",
+        "values": {
+          "dnextreme88": "Suhalla Gate and Tunnel Ruins",
+          "rockettrekkie": "Suhalla Pass and lower Venus Lighthouse"
+        },
+        "note": "Drop location differs between sources"
+      }
+    ]
+  },
+  {
+    "id": "dragon-axe",
+    "name": "Dragon Axe",
+    "game": "gs1",
+    "category": "weapon",
+    "type": "axe",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 100,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": {
+      "name": "Heat Mirage",
+      "element": "fire",
+      "rate": "high",
+      "power_level": "medium",
+      "effects": [
+        "may delude opponent"
+      ],
+      "notes": null
+    },
+    "use_effect": null,
+    "acquisition": {
+      "method": "shop",
+      "location": "Lunpa",
+      "price": 10300,
+      "notes": null
+    },
+    "sources": [
+      "dnextreme88",
+      "rockettrekkie"
+    ],
+    "conflicts": [
+      {
+        "field": "acquisition.location",
+        "values": {
+          "dnextreme88": "Tolbi",
+          "rockettrekkie": "Lunpa"
+        },
+        "note": "dnextreme88 says buy from Tolbi's weapon dealer; rockettrekkie lists as Artifacts list (Lunpa)"
+      }
+    ]
+  },
+  {
+    "id": "burning-axe",
+    "name": "Burning Axe",
+    "game": "gs1",
+    "category": "weapon",
+    "type": "axe",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 84,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": {
+      "name": "Broil",
+      "element": "fire",
+      "rate": "medium",
+      "power_level": "medium",
+      "effects": [],
+      "notes": null
+    },
+    "use_effect": null,
+    "acquisition": {
+      "method": "lucky_wheels",
+      "location": "Tolbi Springs",
+      "price": 7500,
+      "notes": null
+    },
+    "sources": [
+      "dnextreme88",
+      "rockettrekkie"
+    ]
+  },
+  {
+    "id": "vulcan-axe",
+    "name": "Vulcan Axe",
+    "game": "gs1",
+    "category": "weapon",
+    "type": "axe",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 76,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": {
+      "name": "Barrage",
+      "element": "fire",
+      "rate": "medium",
+      "power_level": "medium",
+      "effects": [
+        "may stun opponent"
+      ],
+      "notes": null
+    },
+    "use_effect": null,
+    "acquisition": {
+      "method": "chest",
+      "location": "Lamakan Desert",
+      "price": 4600,
+      "notes": null
+    },
+    "sources": [
+      "dnextreme88",
+      "rockettrekkie"
+    ]
+  },
+  {
+    "id": "wicked-mace",
+    "name": "Wicked Mace",
+    "game": "gs1",
+    "category": "weapon",
+    "type": "mace",
+    "is_cursed": true,
+    "is_artifact": true,
+    "equippable_by": [
+      "Isaac",
+      "Garet",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 130,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": {
+      "name": "Poison Death",
+      "element": "earth",
+      "rate": "medium",
+      "power_level": "medium",
+      "effects": [
+        "may poison opponent with deadly venom"
+      ],
+      "notes": null
+    },
+    "use_effect": null,
+    "acquisition": {
+      "method": "chest",
+      "location": "Crossbone Isle",
+      "price": 13800,
+      "notes": null
+    },
+    "sources": [
+      "dnextreme88",
+      "rockettrekkie"
+    ]
+  },
+  {
+    "id": "blessed-mace",
+    "name": "Blessed Mace",
+    "game": "gs1",
+    "category": "weapon",
+    "type": "mace",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Isaac",
+      "Garet",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 126,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 2,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": {
+      "description": "Restores 200 HP to one ally",
+      "may_break": true
+    },
+    "acquisition": {
+      "method": "drop",
+      "location": "Venus Lighthouse (Thunder Lizard)",
+      "price": 14500,
+      "notes": null
+    },
+    "sources": [
+      "dnextreme88",
+      "rockettrekkie"
+    ]
+  },
+  {
+    "id": "righteous-mace",
+    "name": "Righteous Mace",
+    "game": "gs1",
+    "category": "weapon",
+    "type": "mace",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Isaac",
+      "Garet",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 112,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 3,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": {
+      "name": "Blinding Smog",
+      "element": "wind",
+      "rate": "low",
+      "power_level": "medium",
+      "effects": [
+        "may delude opponent"
+      ],
+      "notes": null
+    },
+    "use_effect": null,
+    "acquisition": {
+      "method": "shop",
+      "location": "Lalivero",
+      "price": 8400,
+      "notes": null
+    },
+    "sources": [
+      "dnextreme88",
+      "rockettrekkie"
+    ]
+  },
+  {
+    "id": "grievous-mace",
+    "name": "Grievous Mace",
+    "game": "gs1",
+    "category": "weapon",
+    "type": "mace",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Isaac",
+      "Garet",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 88,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": {
+      "name": "Terra Strike",
+      "element": "earth",
+      "rate": "low",
+      "power_level": "high",
+      "effects": [],
+      "notes": null
+    },
+    "use_effect": null,
+    "acquisition": {
+      "method": "lucky_wheels",
+      "location": "Tolbi Springs",
+      "price": 7000,
+      "notes": null
+    },
+    "sources": [
+      "dnextreme88",
+      "rockettrekkie"
+    ]
+  },
+  {
+    "id": "crystal-rod",
+    "name": "Crystal Rod",
+    "game": "gs1",
+    "category": "weapon",
+    "type": "staff",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 106,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": {
+      "name": "Drown",
+      "element": "water",
+      "rate": "medium",
+      "power_level": "medium",
+      "effects": [
+        "may suffocate opponent",
+        "one-hit kill possible"
+      ],
+      "notes": null
+    },
+    "use_effect": null,
+    "acquisition": {
+      "method": "shop",
+      "location": "Lalivero",
+      "price": 13400,
+      "notes": null
+    },
+    "sources": [
+      "dnextreme88",
+      "rockettrekkie"
+    ]
+  },
+  {
+    "id": "zodiac-wand",
+    "name": "Zodiac Wand",
+    "game": "gs1",
+    "category": "weapon",
+    "type": "staff",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 102,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": {
+      "name": "Shining Star",
+      "element": "wind",
+      "rate": "medium",
+      "power_level": "high",
+      "effects": [
+        "may delude opponent"
+      ],
+      "notes": null
+    },
+    "use_effect": null,
+    "acquisition": {
+      "method": "drop",
+      "location": "Venus Lighthouse (Grand Golem)",
+      "price": 11400,
+      "notes": null
+    },
+    "sources": [
+      "dnextreme88",
+      "rockettrekkie"
+    ]
+  },
+  {
+    "id": "demonic-staff",
+    "name": "Demonic Staff",
+    "game": "gs1",
+    "category": "weapon",
+    "type": "staff",
+    "is_cursed": true,
+    "is_artifact": true,
+    "equippable_by": [
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 92,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": {
+      "name": "Bad Omen",
+      "element": "earth",
+      "rate": "high",
+      "power_level": "medium",
+      "effects": [
+        "may haunt opponent"
+      ],
+      "notes": null
+    },
+    "use_effect": null,
+    "acquisition": {
+      "method": "shop",
+      "location": "Lunpa",
+      "price": 10000,
+      "notes": null
+    },
+    "sources": [
+      "dnextreme88",
+      "rockettrekkie"
+    ]
+  },
+  {
+    "id": "angelic-ankh",
+    "name": "Angelic Ankh",
+    "game": "gs1",
+    "category": "weapon",
+    "type": "staff",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 83,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": {
+      "name": "Life Leech",
+      "element": "water",
+      "rate": "high",
+      "power_level": "medium",
+      "effects": [
+        "may restore user's HP"
+      ],
+      "notes": null
+    },
+    "use_effect": null,
+    "acquisition": {
+      "method": "shop",
+      "location": "Tolbi",
+      "price": 6400,
+      "notes": null
+    },
+    "sources": [
+      "dnextreme88",
+      "rockettrekkie"
+    ]
+  },
+  {
+    "id": "frost-wand",
+    "name": "Frost Wand",
+    "game": "gs1",
+    "category": "weapon",
+    "type": "staff",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 76,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": {
+      "name": "Frost Bite",
+      "element": "water",
+      "rate": "medium",
+      "power_level": "medium",
+      "effects": [
+        "may stun opponent"
+      ],
+      "notes": null
+    },
+    "use_effect": null,
+    "acquisition": {
+      "method": "shop",
+      "location": "Kalay",
+      "price": 5400,
+      "notes": null
+    },
+    "sources": [
+      "dnextreme88",
+      "rockettrekkie"
+    ]
+  },
+  {
+    "id": "psynergy-rod",
+    "name": "Psynergy Rod",
+    "game": "gs1",
+    "category": "weapon",
+    "type": "staff",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 64,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": {
+      "name": "Psynergy Leech",
+      "element": "water",
+      "rate": "medium",
+      "power_level": "medium",
+      "effects": [
+        "may restore user's PP"
+      ],
+      "notes": null
+    },
+    "use_effect": null,
+    "acquisition": {
+      "method": "shop",
+      "location": "Altin",
+      "price": 3800,
+      "notes": null
+    },
+    "sources": [
+      "dnextreme88",
+      "rockettrekkie"
+    ]
+  },
+  {
+    "id": "blessed-ankh",
+    "name": "Blessed Ankh",
+    "game": "gs1",
+    "category": "weapon",
+    "type": "staff",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 46,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": {
+      "name": "Psyphon Seal",
+      "element": "wind",
+      "rate": "medium",
+      "power_level": "medium",
+      "effects": [
+        "may seal opponent's Psynergy"
+      ],
+      "notes": null
+    },
+    "use_effect": null,
+    "acquisition": {
+      "method": "shop",
+      "location": "Imil",
+      "price": 1600,
+      "notes": null
+    },
+    "sources": [
+      "dnextreme88",
+      "rockettrekkie"
+    ]
+  },
+  {
+    "id": "witchs-wand",
+    "name": "Witch's Wand",
+    "game": "gs1",
+    "category": "weapon",
+    "type": "staff",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 32,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": {
+      "name": "Stun Voltage",
+      "element": "wind",
+      "rate": "medium",
+      "power_level": "medium",
+      "effects": [
+        "may stun opponent"
+      ],
+      "notes": null
+    },
+    "use_effect": null,
+    "acquisition": {
+      "method": "shop",
+      "location": "Bilibin",
+      "price": 860,
+      "notes": null
+    },
+    "sources": [
+      "dnextreme88",
+      "rockettrekkie"
+    ]
+  },
+  {
+    "id": "magic-rod",
+    "name": "Magic Rod",
+    "game": "gs1",
+    "category": "weapon",
+    "type": "staff",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 16,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": {
+      "name": "Murk",
+      "element": "wind",
+      "rate": "low",
+      "power_level": "medium",
+      "effects": [
+        "may put opponent to sleep"
+      ],
+      "notes": null
+    },
+    "use_effect": null,
+    "acquisition": {
+      "method": "shop",
+      "location": "Bilibin",
+      "price": 380,
+      "notes": null
+    },
+    "sources": [
+      "dnextreme88",
+      "rockettrekkie"
+    ]
+  },
+  {
+    "id": "shamans-rod",
+    "name": "Shaman's Rod",
+    "game": "gs1",
+    "category": "weapon",
+    "type": "staff",
+    "is_cursed": false,
+    "is_artifact": false,
+    "equippable_by": [
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 10,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "event",
+      "location": "Vault",
+      "price": null,
+      "notes": "Recovered from thieves in Vault; cannot be dropped or sold"
+    },
+    "sources": [
+      "rockettrekkie"
+    ]
+  },
+  {
+    "id": "demon-mail",
+    "name": "Demon Mail",
+    "game": "gs1",
+    "category": "armor",
+    "type": "armor",
+    "is_cursed": true,
+    "is_artifact": true,
+    "equippable_by": [
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 50,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": -10,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "chest",
+      "location": "Crossbone Isle",
+      "price": 17000,
+      "notes": "Chest revealed after defeating Deadbeard"
+    },
+    "sources": [
+      "dnextreme88",
+      "rockettrekkie",
+      "fandom-equipment"
+    ]
+  },
+  {
+    "id": "dragon-scales",
+    "name": "Dragon Scales",
+    "game": "gs1",
+    "category": "armor",
+    "type": "armor",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 44,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 30,
+      "wind": 0,
+      "water": 30
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "chest",
+      "location": "Venus Lighthouse",
+      "price": 17000,
+      "notes": null
+    },
+    "sources": [
+      "dnextreme88",
+      "rockettrekkie",
+      "fandom-equipment"
+    ]
+  },
+  {
+    "id": "asuras-armor",
+    "name": "Asura's Armor",
+    "game": "gs1",
+    "category": "armor",
+    "type": "armor",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 5,
+      "def": 42,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 8,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "chest",
+      "location": "Tunnel Ruins",
+      "price": 15000,
+      "notes": "Hidden in statue on right path"
+    },
+    "sources": [
+      "dnextreme88",
+      "rockettrekkie",
+      "fandom-equipment"
+    ]
+  },
+  {
+    "id": "spiked-armor",
+    "name": "Spiked Armor",
+    "game": "gs1",
+    "category": "armor",
+    "type": "armor",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 10,
+      "def": 34,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": true,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "drop",
+      "location": "Babi Lighthouse / Tunnel Ruins / Venus Lighthouse (Chimera Mage)",
+      "price": 14000,
+      "notes": null
+    },
+    "sources": [
+      "dnextreme88",
+      "rockettrekkie",
+      "fandom-equipment"
+    ]
+  },
+  {
+    "id": "spirit-armor",
+    "name": "Spirit Armor",
+    "game": "gs1",
+    "category": "armor",
+    "type": "armor",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 32,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 15,
+      "fire": 15,
+      "wind": 15,
+      "water": 15
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "lucky_wheels",
+      "location": "Tolbi Springs",
+      "price": 4000,
+      "notes": null
+    },
+    "sources": [
+      "dnextreme88",
+      "rockettrekkie",
+      "fandom-equipment"
+    ]
+  },
+  {
+    "id": "psynergy-armor",
+    "name": "Psynergy Armor",
+    "game": "gs1",
+    "category": "armor",
+    "type": "armor",
+    "is_cursed": false,
+    "is_artifact": false,
+    "equippable_by": [
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 21,
+      "hp": 0,
+      "pp": 20,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "chest",
+      "location": "Mercury Lighthouse",
+      "price": null,
+      "notes": "Does not appear in Artifact List if sold or dropped"
+    },
+    "sources": [
+      "rockettrekkie",
+      "fandom-equipment"
+    ]
+  },
+  {
+    "id": "storm-gear",
+    "name": "Storm Gear",
+    "game": "gs1",
+    "category": "armor",
+    "type": "clothing",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 42,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 30,
+      "wind": 30,
+      "water": 30
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "chest",
+      "location": "Crossbone Isle",
+      "price": 9800,
+      "notes": null
+    },
+    "sources": [
+      "dnextreme88",
+      "rockettrekkie",
+      "fandom-equipment"
+    ]
+  },
+  {
+    "id": "ninja-garb",
+    "name": "Ninja Garb",
+    "game": "gs1",
+    "category": "armor",
+    "type": "clothing",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 36,
+      "hp": 0,
+      "pp": 0,
+      "agi": 30,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 10,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "chest",
+      "location": "Crossbone Isle",
+      "price": 6900,
+      "notes": null
+    },
+    "sources": [
+      "dnextreme88",
+      "rockettrekkie",
+      "fandom-equipment"
+    ],
+    "conflicts": [
+      {
+        "field": "stat_bonus.def",
+        "values": {
+          "dnextreme88": 35,
+          "rockettrekkie": 36,
+          "fandom-equipment": 36
+        },
+        "note": "dnextreme88 gives DEF+35; rockettrekkie and fandom agree on DEF+36"
+      },
+      {
+        "field": "stat_bonus.agi",
+        "values": {
+          "dnextreme88": 30,
+          "rockettrekkie": 30,
+          "fandom-equipment": 10
+        },
+        "note": "dnextreme88 and rockettrekkie give AGI+30; fandom gives AGI+10"
+      }
+    ]
+  },
+  {
+    "id": "water-jacket",
+    "name": "Water Jacket",
+    "game": "gs1",
+    "category": "armor",
+    "type": "clothing",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 30,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 20,
+      "wind": 0,
+      "water": 30
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "chest",
+      "location": "Hammet Palace",
+      "price": 3000,
+      "notes": null
+    },
+    "sources": [
+      "dnextreme88",
+      "rockettrekkie",
+      "fandom-equipment"
+    ],
+    "conflicts": [
+      {
+        "field": "elemental_resistance.water",
+        "values": {
+          "dnextreme88": 30,
+          "rockettrekkie": 30,
+          "fandom-equipment": 20
+        },
+        "note": "dnextreme88 and rockettrekkie give Water RES+30; fandom gives Water RES+20"
+      }
+    ]
+  },
+  {
+    "id": "kimono",
+    "name": "Kimono",
+    "game": "gs1",
+    "category": "armor",
+    "type": "clothing",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 25,
+      "hp": 0,
+      "pp": 0,
+      "agi": 10,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 10,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "lucky_wheels",
+      "location": "Tolbi Springs",
+      "price": 2800,
+      "notes": null
+    },
+    "sources": [
+      "dnextreme88",
+      "rockettrekkie",
+      "fandom-equipment"
+    ]
+  },
+  {
+    "id": "elven-shirt",
+    "name": "Elven Shirt",
+    "game": "gs1",
+    "category": "armor",
+    "type": "clothing",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 22,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": {
+      "agi": 1.5
+    },
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "chest",
+      "location": "Mogall Forest",
+      "price": 1700,
+      "notes": null
+    },
+    "sources": [
+      "dnextreme88",
+      "rockettrekkie",
+      "fandom-equipment"
+    ]
+  },
+  {
+    "id": "fur-coat",
+    "name": "Fur Coat",
+    "game": "gs1",
+    "category": "armor",
+    "type": "clothing",
+    "is_cursed": false,
+    "is_artifact": false,
+    "equippable_by": [
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 16,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 20
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "chest",
+      "location": "Kolima Forest",
+      "price": null,
+      "notes": "Does not appear in Artifact List if sold or dropped"
+    },
+    "sources": [
+      "rockettrekkie",
+      "fandom-equipment"
+    ]
+  },
+  {
+    "id": "feathered-robe",
+    "name": "Feathered Robe",
+    "game": "gs1",
+    "category": "armor",
+    "type": "robe",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 45,
+      "hp": 0,
+      "pp": 0,
+      "agi": 30,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 20,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 30,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "drop",
+      "location": "Babi Lighthouse / Tunnel Ruins / Venus Lighthouse (Wild Gryphon)",
+      "price": 14000,
+      "notes": null
+    },
+    "sources": [
+      "dnextreme88",
+      "rockettrekkie",
+      "fandom-equipment"
+    ]
+  },
+  {
+    "id": "oracles-robe",
+    "name": "Oracle's Robe",
+    "game": "gs1",
+    "category": "armor",
+    "type": "robe",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 43,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 10,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 40
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "chest",
+      "location": "Tunnel Ruins",
+      "price": 13500,
+      "notes": "Hidden in statue on left path; equippable by Mia only"
+    },
+    "sources": [
+      "dnextreme88",
+      "rockettrekkie",
+      "fandom-equipment"
+    ],
+    "conflicts": [
+      {
+        "field": "stat_bonus.def",
+        "values": {
+          "dnextreme88": 42,
+          "rockettrekkie": 43,
+          "fandom-equipment": 43
+        },
+        "note": "dnextreme88 gives DEF+42; rockettrekkie and fandom agree on DEF+43"
+      }
+    ]
+  },
+  {
+    "id": "magical-cassock",
+    "name": "Magical Cassock",
+    "game": "gs1",
+    "category": "armor",
+    "type": "robe",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 39,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 2
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "shop",
+      "location": "Lalivero",
+      "price": 9000,
+      "notes": null
+    },
+    "sources": [
+      "dnextreme88",
+      "rockettrekkie",
+      "fandom-equipment"
+    ]
+  },
+  {
+    "id": "blessed-robe",
+    "name": "Blessed Robe",
+    "game": "gs1",
+    "category": "armor",
+    "type": "robe",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 36,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 5,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "shop",
+      "location": "Lunpa",
+      "price": 7000,
+      "notes": null
+    },
+    "sources": [
+      "dnextreme88",
+      "rockettrekkie",
+      "fandom-equipment"
+    ]
+  },
+  {
+    "id": "cocktail-dress",
+    "name": "Cocktail Dress",
+    "game": "gs1",
+    "category": "armor",
+    "type": "robe",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 29,
+      "hp": 0,
+      "pp": 15,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "lucky_wheels",
+      "location": "Tolbi Springs",
+      "price": 4000,
+      "notes": "Equippable by Mia only"
+    },
+    "sources": [
+      "dnextreme88",
+      "rockettrekkie",
+      "fandom-equipment"
+    ]
+  },
+  {
+    "id": "china-dress",
+    "name": "China Dress",
+    "game": "gs1",
+    "category": "armor",
+    "type": "robe",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 19,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": {
+      "description": "Drops one enemy's attack",
+      "may_break": true
+    },
+    "acquisition": {
+      "method": "shop",
+      "location": "Xian",
+      "price": 1600,
+      "notes": "Equippable by Mia only"
+    },
+    "sources": [
+      "dnextreme88",
+      "rockettrekkie",
+      "fandom-equipment"
+    ]
+  },
+  {
+    "id": "mirrored-shield",
+    "name": "Mirrored Shield",
+    "game": "gs1",
+    "category": "armor",
+    "type": "shield",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 39,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": {
+      "description": "Deludes one enemy",
+      "may_break": true
+    },
+    "acquisition": {
+      "method": "shop",
+      "location": "Lalivero",
+      "price": 5200,
+      "notes": null
+    },
+    "sources": [
+      "dnextreme88",
+      "rockettrekkie",
+      "fandom-equipment"
+    ],
+    "conflicts": [
+      {
+        "field": "name",
+        "values": {
+          "dnextreme88": "Mirror Shield",
+          "rockettrekkie": "Mirrored Shield",
+          "fandom-equipment": "Mirrored Shield"
+        },
+        "note": "dnextreme88 calls it 'Mirror Shield'; rockettrekkie and fandom call it 'Mirrored Shield'"
+      }
+    ]
+  },
+  {
+    "id": "earth-shield",
+    "name": "Earth Shield",
+    "game": "gs1",
+    "category": "armor",
+    "type": "shield",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 31,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 20,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": {
+      "description": "Restores 150 HP to one ally",
+      "may_break": true
+    },
+    "acquisition": {
+      "method": "lucky_wheels",
+      "location": "Tolbi Springs",
+      "price": 4100,
+      "notes": null
+    },
+    "sources": [
+      "dnextreme88",
+      "rockettrekkie",
+      "fandom-equipment"
+    ]
+  },
+  {
+    "id": "dragon-shield",
+    "name": "Dragon Shield",
+    "game": "gs1",
+    "category": "armor",
+    "type": "shield",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 26,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 30,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "chest",
+      "location": "Altin Peak",
+      "price": 2400,
+      "notes": null
+    },
+    "sources": [
+      "dnextreme88",
+      "rockettrekkie",
+      "fandom-equipment"
+    ],
+    "conflicts": [
+      {
+        "field": "name",
+        "values": {
+          "dnextreme88": "Dragon Scales",
+          "rockettrekkie": "Dragon Shield",
+          "fandom-equipment": "Dragon Shield"
+        },
+        "note": "dnextreme88 calls this shield 'Dragon Scales'; rockettrekkie and fandom call it 'Dragon Shield'"
+      }
+    ]
+  },
+  {
+    "id": "aura-gloves",
+    "name": "Aura Gloves",
+    "game": "gs1",
+    "category": "armor",
+    "type": "gloves",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 36,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": {
+      "description": "Boosts elemental resistance of one ally",
+      "may_break": true
+    },
+    "acquisition": {
+      "method": "drop",
+      "location": "Suhalla Desert (Magicore)",
+      "price": 6500,
+      "notes": null
+    },
+    "sources": [
+      "dnextreme88",
+      "rockettrekkie",
+      "fandom-equipment"
+    ]
+  },
+  {
+    "id": "spirit-gloves",
+    "name": "Spirit Gloves",
+    "game": "gs1",
+    "category": "armor",
+    "type": "gloves",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 34,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 5,
+      "fire": 5,
+      "wind": 5,
+      "water": 5
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "chest",
+      "location": "Kalay Tunnel",
+      "price": 5200,
+      "notes": null
+    },
+    "sources": [
+      "dnextreme88",
+      "rockettrekkie",
+      "fandom-equipment"
+    ]
+  },
+  {
+    "id": "war-gloves",
+    "name": "War Gloves",
+    "game": "gs1",
+    "category": "armor",
+    "type": "gloves",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 10,
+      "def": 32,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "shop",
+      "location": "Lunpa",
+      "price": 4000,
+      "notes": null
+    },
+    "sources": [
+      "dnextreme88",
+      "rockettrekkie",
+      "fandom-equipment"
+    ]
+  },
+  {
+    "id": "battle-gloves",
+    "name": "Battle Gloves",
+    "game": "gs1",
+    "category": "armor",
+    "type": "gloves",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 8,
+      "def": 26,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "lucky_wheels",
+      "location": "Tolbi Springs",
+      "price": 2100,
+      "notes": null
+    },
+    "sources": [
+      "dnextreme88",
+      "rockettrekkie",
+      "fandom-equipment"
+    ]
+  },
+  {
+    "id": "vambrace",
+    "name": "Vambrace",
+    "game": "gs1",
+    "category": "armor",
+    "type": "gloves",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 5,
+      "def": 27,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "chest",
+      "location": "Vault Cave",
+      "price": 1800,
+      "notes": null
+    },
+    "sources": [
+      "dnextreme88",
+      "rockettrekkie",
+      "fandom-equipment"
+    ]
+  },
+  {
+    "id": "spirit-armlet",
+    "name": "Spirit Armlet",
+    "game": "gs1",
+    "category": "armor",
+    "type": "bracelet",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 38,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 10,
+      "fire": 0,
+      "wind": 0,
+      "water": 10
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": {
+      "description": "Cures one ally's status ailments",
+      "may_break": true
+    },
+    "acquisition": {
+      "method": "shop",
+      "location": "Lalivero",
+      "price": 9000,
+      "notes": null
+    },
+    "sources": [
+      "dnextreme88",
+      "rockettrekkie",
+      "fandom-equipment"
+    ]
+  },
+  {
+    "id": "virtuous-armlet",
+    "name": "Virtuous Armlet",
+    "game": "gs1",
+    "category": "armor",
+    "type": "bracelet",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 35,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 10,
+      "wind": 10,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": {
+      "description": "Restores 100 HP to one ally",
+      "may_break": true
+    },
+    "acquisition": {
+      "method": "chest",
+      "location": "Suhalla Desert",
+      "price": 7000,
+      "notes": null
+    },
+    "sources": [
+      "dnextreme88",
+      "rockettrekkie",
+      "fandom-equipment"
+    ]
+  },
+  {
+    "id": "guardian-armlet",
+    "name": "Guardian Armlet",
+    "game": "gs1",
+    "category": "armor",
+    "type": "bracelet",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 27,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": {
+      "description": "Temporarily boosts user's defense",
+      "may_break": true
+    },
+    "acquisition": {
+      "method": "lucky_wheels",
+      "location": "Tolbi Springs",
+      "price": 2600,
+      "notes": null
+    },
+    "sources": [
+      "dnextreme88",
+      "rockettrekkie",
+      "fandom-equipment"
+    ]
+  },
+  {
+    "id": "warriors-helm",
+    "name": "Warrior's Helm",
+    "game": "gs1",
+    "category": "armor",
+    "type": "helm",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 35,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": true,
+    "elemental_power": {
+      "earth": 10,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "chest",
+      "location": "Venus Lighthouse",
+      "price": 10000,
+      "notes": null
+    },
+    "sources": [
+      "dnextreme88",
+      "rockettrekkie",
+      "fandom-equipment"
+    ],
+    "conflicts": [
+      {
+        "field": "acquisition.method",
+        "values": {
+          "dnextreme88": "chest (Venus Lighthouse)",
+          "rockettrekkie": "Artifacts list (Lalivero)",
+          "fandom-equipment": "Chest (GS)"
+        },
+        "note": "rockettrekkie lists as Artifacts list Lalivero; dnextreme88 and fandom agree it is found in a chest in Venus Lighthouse"
+      }
+    ]
+  },
+  {
+    "id": "adepts-helm",
+    "name": "Adept's Helm",
+    "game": "gs1",
+    "category": "armor",
+    "type": "helm",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 29,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": {
+      "pp": 1.2
+    },
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "lucky_wheels",
+      "location": "Tolbi Springs",
+      "price": 3700,
+      "notes": null
+    },
+    "sources": [
+      "dnextreme88",
+      "rockettrekkie",
+      "fandom-equipment"
+    ]
+  },
+  {
+    "id": "thunder-crown",
+    "name": "Thunder Crown",
+    "game": "gs1",
+    "category": "armor",
+    "type": "crown",
+    "is_cursed": true,
+    "is_artifact": true,
+    "equippable_by": [
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 40,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 4
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "chest",
+      "location": "Venus Lighthouse",
+      "price": 7500,
+      "notes": null
+    },
+    "sources": [
+      "dnextreme88",
+      "rockettrekkie",
+      "fandom-equipment"
+    ],
+    "conflicts": [
+      {
+        "field": "type",
+        "values": {
+          "dnextreme88": "crown",
+          "rockettrekkie": "crown",
+          "fandom-equipment": "hat"
+        },
+        "note": "dnextreme88 and rockettrekkie classify as Crown; fandom classifies as Hat"
+      }
+    ]
+  },
+  {
+    "id": "jeweled-crown",
+    "name": "Jeweled Crown",
+    "game": "gs1",
+    "category": "armor",
+    "type": "crown",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 35,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 5,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "shop",
+      "location": "Lalivero",
+      "price": 4000,
+      "notes": null
+    },
+    "sources": [
+      "dnextreme88",
+      "rockettrekkie",
+      "fandom-equipment"
+    ],
+    "conflicts": [
+      {
+        "field": "type",
+        "values": {
+          "dnextreme88": "crown",
+          "rockettrekkie": "crown",
+          "fandom-equipment": "hat"
+        },
+        "note": "dnextreme88 and rockettrekkie classify as Crown; fandom classifies as Hat"
+      }
+    ]
+  },
+  {
+    "id": "lucky-cap",
+    "name": "Lucky Cap",
+    "game": "gs1",
+    "category": "armor",
+    "type": "crown",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 33,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 2
+    },
+    "stat_multiplier": null,
+    "increases_critical": true,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "chest",
+      "location": "Venus Lighthouse",
+      "price": 5200,
+      "notes": null
+    },
+    "sources": [
+      "dnextreme88",
+      "rockettrekkie",
+      "fandom-equipment"
+    ],
+    "conflicts": [
+      {
+        "field": "type",
+        "values": {
+          "dnextreme88": "crown",
+          "rockettrekkie": "crown",
+          "fandom-equipment": "hat"
+        },
+        "note": "dnextreme88 and rockettrekkie classify as Crown; fandom classifies as Hat"
+      }
+    ]
+  },
+  {
+    "id": "prophets-hat",
+    "name": "Prophet's Hat",
+    "game": "gs1",
+    "category": "armor",
+    "type": "hat",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 30,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": {
+      "description": "Inflicts a death curse on one enemy",
+      "may_break": true
+    },
+    "acquisition": {
+      "method": "drop",
+      "location": "Altmiller Cave (Dread Hound)",
+      "price": 4600,
+      "notes": null
+    },
+    "sources": [
+      "dnextreme88",
+      "rockettrekkie",
+      "fandom-equipment"
+    ]
+  },
+  {
+    "id": "ninja-hood",
+    "name": "Ninja Hood",
+    "game": "gs1",
+    "category": "armor",
+    "type": "hat",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 28,
+      "hp": 0,
+      "pp": 0,
+      "agi": 20,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "lucky_wheels",
+      "location": "Tolbi Springs",
+      "price": 2800,
+      "notes": null
+    },
+    "sources": [
+      "dnextreme88",
+      "rockettrekkie",
+      "fandom-equipment"
+    ]
+  },
+  {
+    "id": "lure-cap",
+    "name": "Lure Cap",
+    "game": "gs1",
+    "category": "armor",
+    "type": "hat",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 20,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "event",
+      "location": "Tolbi (Colosso)",
+      "price": 3000,
+      "notes": "Prize for winning first place in all three Colosso matches; increases random encounter rate when equipped"
+    },
+    "sources": [
+      "dnextreme88",
+      "rockettrekkie",
+      "fandom-equipment"
+    ]
+  },
+  {
+    "id": "mythril-circlet",
+    "name": "Mythril Circlet",
+    "game": "gs1",
+    "category": "armor",
+    "type": "circlet",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 34,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 3
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "chest",
+      "location": "Lunpa Fortress",
+      "price": 7000,
+      "notes": null
+    },
+    "sources": [
+      "dnextreme88",
+      "rockettrekkie",
+      "fandom-equipment"
+    ]
+  },
+  {
+    "id": "glittering-tiara",
+    "name": "Glittering Tiara",
+    "game": "gs1",
+    "category": "armor",
+    "type": "circlet",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 27,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": {
+      "description": "Inflicts delusion on one enemy",
+      "may_break": true
+    },
+    "acquisition": {
+      "method": "lucky_wheels",
+      "location": "Tolbi Springs",
+      "price": 3600,
+      "notes": "Prevents wearer from being deluded; equippable by Mia only"
+    },
+    "sources": [
+      "dnextreme88",
+      "rockettrekkie",
+      "fandom-equipment"
+    ]
+  },
+  {
+    "id": "mythril-shirt",
+    "name": "Mythril Shirt",
+    "game": "gs1",
+    "category": "armor",
+    "type": "shirt",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 10,
+      "hp": 5,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "lucky_wheels",
+      "location": "Tolbi (Lucky Wheels)",
+      "price": 2900,
+      "notes": "Can be worn under body armor"
+    },
+    "sources": [
+      "rockettrekkie",
+      "fandom-equipment"
+    ]
+  },
+  {
+    "id": "silk-shirt",
+    "name": "Silk Shirt",
+    "game": "gs1",
+    "category": "armor",
+    "type": "shirt",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 6,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 1,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "lucky_wheels",
+      "location": "Tolbi (Lucky Wheels)",
+      "price": 1800,
+      "notes": "Can be worn under body armor; equippable by Mia only"
+    },
+    "sources": [
+      "rockettrekkie",
+      "fandom-equipment"
+    ]
+  },
+  {
+    "id": "running-shirt",
+    "name": "Running Shirt",
+    "game": "gs1",
+    "category": "armor",
+    "type": "shirt",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 1,
+      "hp": 0,
+      "pp": 0,
+      "agi": 15,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "lucky_wheels",
+      "location": "Tolbi (Lucky Wheels)",
+      "price": 400,
+      "notes": "Can be worn under body armor"
+    },
+    "sources": [
+      "rockettrekkie",
+      "fandom-equipment"
+    ]
+  },
+  {
+    "id": "hyper-boots",
+    "name": "Hyper Boots",
+    "game": "gs1",
+    "category": "armor",
+    "type": "boots",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 4,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": true,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "lucky_wheels",
+      "location": "Tolbi (Lucky Wheels)",
+      "price": 2400,
+      "notes": null
+    },
+    "sources": [
+      "rockettrekkie",
+      "fandom-equipment"
+    ]
+  },
+  {
+    "id": "quick-boots",
+    "name": "Quick Boots",
+    "game": "gs1",
+    "category": "armor",
+    "type": "boots",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 3,
+      "hp": 0,
+      "pp": 0,
+      "agi": 20,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "lucky_wheels",
+      "location": "Tolbi (Lucky Wheels)",
+      "price": 2100,
+      "notes": null
+    },
+    "sources": [
+      "rockettrekkie",
+      "fandom-equipment"
+    ]
+  },
+  {
+    "id": "fur-boots",
+    "name": "Fur Boots",
+    "game": "gs1",
+    "category": "armor",
+    "type": "boots",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 2,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 15
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "lucky_wheels",
+      "location": "Tolbi (Lucky Wheels)",
+      "price": 1200,
+      "notes": null
+    },
+    "sources": [
+      "rockettrekkie",
+      "fandom-equipment"
+    ],
+    "conflicts": [
+      {
+        "field": "elemental_resistance.water",
+        "values": {
+          "rockettrekkie": 15,
+          "fandom-equipment": 10
+        },
+        "note": "rockettrekkie gives Water RES+15; fandom gives Water RES+10"
+      }
+    ]
+  },
+  {
+    "id": "turtle-boots",
+    "name": "Turtle Boots",
+    "game": "gs1",
+    "category": "armor",
+    "type": "boots",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 3,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": {
+      "agi": 0.5
+    },
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "chest",
+      "location": "World Map (peninsula west of Kolima)",
+      "price": 600,
+      "notes": "Hidden in a forest clump on the peninsula; walk into the trees and press A"
+    },
+    "sources": [
+      "rockettrekkie",
+      "fandom-equipment"
+    ]
+  },
+  {
+    "id": "potion",
+    "name": "Potion",
+    "game": "gs1",
+    "category": "item",
+    "type": "item",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": {
+      "description": "Restores all HP to one ally",
+      "may_break": false
+    },
+    "acquisition": {
+      "method": "drop",
+      "location": "Babi Lighthouse / Tunnel Ruins / Venus Lighthouse (Ice Gargoyle); also chests, Tolbi Springs, Lucky Wheels",
+      "price": 1000,
+      "notes": "Some bosses also drop Potions; Artifact list appears at Suhalla"
+    },
+    "sources": [
+      "rockettrekkie"
+    ]
+  },
+  {
+    "id": "hermes-water",
+    "name": "Hermes' Water",
+    "game": "gs1",
+    "category": "item",
+    "type": "item",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": {
+      "description": "Restores all HP to one ally",
+      "may_break": false
+    },
+    "acquisition": {
+      "method": "event",
+      "location": "Mercury Lighthouse",
+      "price": 2000,
+      "notes": "Use the Empty Bottle on the spring fountain inside Mercury Lighthouse; can be refilled repeatedly"
+    },
+    "sources": [
+      "rockettrekkie"
+    ]
+  },
+  {
+    "id": "psy-crystal",
+    "name": "Psy Crystal",
+    "game": "gs1",
+    "category": "item",
+    "type": "item",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": {
+      "description": "Restores all PP to one ally",
+      "may_break": false
+    },
+    "acquisition": {
+      "method": "drop",
+      "location": "Babi Lighthouse / Tunnel Ruins / Venus Lighthouse (Manticore King); also chests, Tolbi Springs, Lucky Wheels",
+      "price": 1500,
+      "notes": "Some bosses also drop Psy Crystals; Artifact list appears at Suhalla"
+    },
+    "sources": [
+      "rockettrekkie"
+    ]
+  },
+  {
+    "id": "water-of-life",
+    "name": "Water of Life",
+    "game": "gs1",
+    "category": "item",
+    "type": "item",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": {
+      "description": "Revives a downed ally",
+      "may_break": false
+    },
+    "acquisition": {
+      "method": "drop",
+      "location": "Venus Lighthouse (Boulder Beast); also chests, Tolbi Springs, Lucky Wheels",
+      "price": 3000,
+      "notes": "Some bosses and Mimics also drop Water of Life; Artifact list appears at Tolbi"
+    },
+    "sources": [
+      "rockettrekkie"
+    ]
+  },
+  {
+    "id": "empty-bottle",
+    "name": "Empty Bottle",
+    "game": "gs1",
+    "category": "item",
+    "type": "item",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": {
+      "description": "When used near a magic spring, extracts the water to create Hermes' Water",
+      "may_break": false
+    },
+    "acquisition": {
+      "method": "event",
+      "location": "Imil",
+      "price": 1000,
+      "notes": "Found in a house in Imil"
+    },
+    "sources": [
+      "rockettrekkie"
+    ]
+  },
+  {
+    "id": "game-ticket",
+    "name": "Game Ticket",
+    "game": "gs1",
+    "category": "item",
+    "type": "item",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": {
+      "description": "Used to play Lucky Wheels at Tolbi",
+      "may_break": false
+    },
+    "acquisition": {
+      "method": "drop",
+      "location": "Various shops / Mimics",
+      "price": 50,
+      "notes": "Received randomly when purchasing items from shops; also dropped by some Mimics"
+    },
+    "sources": [
+      "rockettrekkie"
+    ]
+  },
+  {
+    "id": "lucky-medal",
+    "name": "Lucky Medal",
+    "game": "gs1",
+    "category": "item",
+    "type": "item",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": {
+      "description": "Thrown into Tolbi Springs to receive a random prize",
+      "may_break": false
+    },
+    "acquisition": {
+      "method": "drop",
+      "location": "Chests / hidden in barrels and jars / Orc Lord (Babi Lighthouse, Tunnel Ruins) / Mimics",
+      "price": 100,
+      "notes": null
+    },
+    "sources": [
+      "rockettrekkie"
+    ]
+  },
+  {
+    "id": "cell-key",
+    "name": "Cell Key",
+    "game": "gs1",
+    "category": "item",
+    "type": "item",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": {
+      "description": "Opens cell doors in Lunpa Fortress",
+      "may_break": false
+    },
+    "acquisition": {
+      "method": "event",
+      "location": "Lunpa Fortress",
+      "price": 30,
+      "notes": "Obtained by using the Catch Psynergy on a guard"
+    },
+    "sources": [
+      "rockettrekkie"
+    ]
+  },
+  {
+    "id": "adept-ring",
+    "name": "Adept Ring",
+    "game": "gs1",
+    "category": "item",
+    "type": "ring",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": {
+      "description": "Restores 7 PP to the user",
+      "may_break": true
+    },
+    "acquisition": {
+      "method": "lucky_wheels",
+      "location": "Tolbi (Lucky Wheels)",
+      "price": 3100,
+      "notes": null
+    },
+    "sources": [
+      "rockettrekkie"
+    ]
+  },
+  {
+    "id": "war-ring",
+    "name": "War Ring",
+    "game": "gs1",
+    "category": "item",
+    "type": "ring",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": {
+      "description": "Temporarily boosts user's attack",
+      "may_break": true
+    },
+    "acquisition": {
+      "method": "lucky_wheels",
+      "location": "Tolbi (Lucky Wheels)",
+      "price": 2600,
+      "notes": null
+    },
+    "sources": [
+      "rockettrekkie"
+    ]
+  },
+  {
+    "id": "sleep-ring",
+    "name": "Sleep Ring",
+    "game": "gs1",
+    "category": "item",
+    "type": "ring",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": {
+      "description": "Lulls one enemy to sleep",
+      "may_break": true
+    },
+    "acquisition": {
+      "method": "lucky_wheels",
+      "location": "Tolbi (Lucky Wheels)",
+      "price": 1400,
+      "notes": null
+    },
+    "sources": [
+      "rockettrekkie"
+    ]
+  },
+  {
+    "id": "healing-ring",
+    "name": "Healing Ring",
+    "game": "gs1",
+    "category": "item",
+    "type": "ring",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": {
+      "description": "Restores 70 HP to one ally",
+      "may_break": true
+    },
+    "acquisition": {
+      "method": "drop",
+      "location": "Tret Tree (event) / Suhalla Pass / Venus Lighthouse (Nightmare)",
+      "price": 800,
+      "notes": null
+    },
+    "sources": [
+      "rockettrekkie"
+    ]
+  },
+  {
+    "id": "unicorn-ring",
+    "name": "Unicorn Ring",
+    "game": "gs1",
+    "category": "item",
+    "type": "ring",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": {
+      "description": "Removes poison from one ally",
+      "may_break": true
+    },
+    "acquisition": {
+      "method": "drop",
+      "location": "Fuchin Temple (hidden in jar) / Venus Lighthouse (Recluse)",
+      "price": 1100,
+      "notes": null
+    },
+    "sources": [
+      "rockettrekkie"
+    ]
+  },
+  {
+    "id": "fairy-ring",
+    "name": "Fairy Ring",
+    "game": "gs1",
+    "category": "item",
+    "type": "ring",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": {
+      "description": "Restores HP and PP to one ally (acts like an Elixir)",
+      "may_break": true
+    },
+    "acquisition": {
+      "method": "chest",
+      "location": "Crossbone Isle",
+      "price": 2900,
+      "notes": null
+    },
+    "sources": [
+      "rockettrekkie"
+    ]
+  },
+  {
+    "id": "clerics-ring",
+    "name": "Cleric's Ring",
+    "game": "gs1",
+    "category": "item",
+    "type": "ring",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "chest",
+      "location": "Crossbone Isle",
+      "price": 6400,
+      "notes": "Passive equip effect: prevents the 'bound and unable to move' side-effect of cursed equipment; cannot be actively used in battle"
+    },
+    "sources": [
+      "rockettrekkie",
+      "fandom-equipment"
+    ]
+  }
+]

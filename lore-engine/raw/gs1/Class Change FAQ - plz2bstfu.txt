@@ -1,0 +1,686 @@
+                       __   
+                      //\\   
+                     //  \\_   
+                     \\   \/   
+                   __ \\_
+             _    //|| \/
+             \\  //// _  
+              \\ \\  //
+               \\ \\//
+              //\\ \/
+         _   //  \\
+         \\  \\  //
+          \\  \\//
+           \\  \/
+         __ \\_ 
+        //\\ \/    __   spoon
+   _   //  \\     //\\ /
+  //   \\  //    //  \\_
+ //     \\//     \\   \/TM
+//    /\ \/     _ \\_
+\\   //\\       \\ \/
+ \\    //    _   \\
+  \\  // _   \\  //
+   \\// // __ \\//
+    \/ // //\\ \/
+      // //  \\
+      \\//   //
+       \/   //
+           //
+          /_|  
+
+
+
+GOLDEN SUN for GBA
+English FAQ v0.9
+
+What's new in this version:
+I forgot the White Mage class in my last version, and I added an ASCii.
+
+
+Intro:
+Well, here it is, the different class changes, with their respective spells based on a 
+level 29-30 party, which rely on the Djinn that you possess.  I'll be updating the spell
+list when my characters reach 40.  Currently they are 36-37, so it won't be long.  Enjoy!
+
+
+Note:  While some class spells may be the same as others, check out the variations anyway, 
+       to check out the different stat boosts.
+Note:  Add extra Djinn to some classes to boost that character's stats.  If you add the
+       wrong ones, the class will change rather than boosting the stats.
+Note:  YOU DO NOT need to be a certain class to learn the spells of that class when you
+       level up.  People are concerned about this, so I thought I'd bring it out in the open.
+Note:  Combining 3 different types of Djinn never gives you a new class that you couldn't get
+       by just combining 2 different types of Djinn.
+
+
+
+
+=================
+-=-------------=-
+ Isaac's Classes
+-=-------------=-
+=================
+
+Note:  Isaac's inherited spells are Move and Retreat.
+Note:  Spells are based on a level 30 Isaac.
+
+
+=----=
+Squire - 0-1 Earth Djinn
+=----=
+Ragnarok 7pp, Quake 4pp, Earthquake 7pp, Quake Sphere 15pp, Spire 5pp, Clay Spire 13pp, 
+Cure 3pp, Cure Well 7pp, Potent Cure 10pp
+
+
+=----=
+Knight - 2-3 Earth Djinn
+=----=
+Same as Squire
+
+
+=-----=
+Gallant - 4-5 Earth Djinn
+=-----=
+Same as Knight, with these additions:
+Gaia 7pp, Mother Gaia 17pp, Revive 15pp
+
+
+=--=
+Lord - 6-7 Earth Djinn
+=--=
+Same as Gallant
+
+
+=---=
+Brute - 1 Fire Djinni
+=---=
+Planet Diver 7pp, Growth 4pp, Mad Growth 10pp, Wild Growth 19pp, Blast 7pp, Nova 13pp, 
+Haunt 5pp, Curse 6pp, Condemn 8pp
+
+
+=-----=
+Ruffian - 2-3 Fire Djinn
+=-----=
+Same as Brute
+
+
+=----=
+Savage - 4 Fire Djinn
+=----=
+Same as Ruffian, with these additions:
+Spire 5pp, Clay Spire 13pp, Revive 15pp, Impair 4pp, Debilitate 6pp
+
+
+=-------=
+Barbarian - 5-7 Fire Djinn
+=-------=
+Same as Savage
+
+
+=-------=
+Swordsman - 1 Water Djinni
+=-------=
+Cutting Edge 5pp, Thorn 6pp, Briar 11pp, Revive 15pp, Cure Poison 2pp, Restore 3pp, 
+Break 5pp
+
+
+=------=
+Defender - 2-3 Water Djinn
+=------=
+Same as Swordsman, with these additions:
+Ply 4pp, Ply Well 8pp, Avoid 5pp
+
+
+=------=
+Cavalier - 4-5 Water Djinn
+=------=
+Same as Defender, with these additions:
+Wish 9pp, Wish Well 13pp
+
+
+=------------=
+(Water) Shaman - 6-7 Water Djinn
+=------------=
+Froth 5pp, Froth Sphere 12pp, Growth 4pp, Mad Growth 10pp, Wild Growth 19pp, Cure 3pp, 
+Cure Well 7pp, Potent Cure 10pp, Revive 15pp, Wish 9pp, Wish Well 13pp, Cure Poison 2pp, 
+Restore 3pp, Break 5pp
+
+
+=--------=
+Apprentice - 1 Wind Djinni
+=--------=
+Astral Blast 5pp, Gaia 7pp, Mother Gaia 17pp, Weaken 4pp, Enfeeble 6pp, Delude 4pp, 
+Sleep 5pp, Haunt 5pp, Curse 6pp
+
+
+=---------=
+Illusionist - 2-3 Wind Djinn
+=---------=
+Same as Apprentice
+
+
+=-------=
+Enchanter - 4-5 Wind Djinn
+=-------=
+Same as Illusionist, with these additions:
+Impact 7pp, High Impact 12pp, Ward 3pp, Resist 5pp
+
+
+=-----------=
+(Wind) Shaman - 6-7 Wind Djinn
+=-----------=
+Bolt 4pp, Flash Bolt 7pp, Blue Bolt 14pp, Growth 4pp, Mad Growth 10pp, Wild Growth 19pp, 
+Cure 3pp, Cure Well 7pp, Potent Cure 10pp, Revive 15pp, Ward 3pp, Resist 5pp, Bind 4pp
+
+
+=-------=
+Berserker - 1 Earth, 6 Fire Djinn
+=-------=
+Same as Barbarian
+
+
+=------=
+Guardian - 1 Earth, 6 Water Djinn
+=------=
+Same as Cavalier
+
+
+=------=
+Conjurer - 1 Earth, 6 Wind Djinn
+=------=
+Same as Enchanter
+
+
+=-----=
+Dragoon - 3 Fire, 3-4 Water Djinn
+=-----=
+Cutting Edge 5pp, Thorn 6pp, Briar 11pp, Blast 5pp, Mad Blast 9pp, Fiery Blast 19pp,
+Ply 4pp, Ply Well 8pp, Wish 9pp, Wish Well 13pp, Cure Poison 2pp, Restore 3pp, Avoid 5pp
+
+
+=---=
+Ninja - 3 Fire, 3-4 Wind Djinn
+=---=
+Death Plunge 14pp, Shuriken 8pp, Pungi 7pp, Pungi Trap 13pp, Fire Bomb 5pp, Cluster Bomb 11pp,
+Gale 3pp, Typhoon 12pp, Thunderclap 9pp, Thunderbolt 19pp, Mist 4pp
+
+
+=-----=
+Samurai - 4 Fire, 3 Wind Djinn
+=-----=
+Dragon Cloud 6pp, Demon Night 12pp, Rockfall 5pp, Rockslide 15pp, Lava Shower 4pp,
+Molten Bath 12pp, Demon Spear 7pp, Angel Spear 12pp, Guardian 3pp, Protector 5pp,
+Magic Shell 3pp, Magic Shield 5pp
+
+
+
+
+=================
+-=-------------=-
+ Garet's Classes
+-=-------------=-
+=================
+
+Note:  Garet's inherited spell is Move.
+Note:  Spells are based on a level 29 Garet.
+
+
+=---=
+Guard - 0-1 Fire Djinn
+=---=
+Heat Wave 6pp, Flare 4pp, Flare Wall 7pp, Flare Storm 12pp, Fire 6pp, Fireball 12pp, 
+Volcano 6pp, Eruption 14pp
+
+
+=-----=
+Soldier - 2-3 Fire Djinn
+=-----=
+Same as Guard
+
+
+=-----=
+Warrior - 4-5 Fire Djinn
+=-----=
+Same as Soldier, with these additions:
+Guard 3pp, Protect 5pp, Impair 4pp, Debilitate 6pp
+
+
+=------=
+Champion - 6-7 Fire Djinn
+=------=
+Same as Warrior
+
+
+=---=
+Brute - 1 Earth Djinni
+=---=
+Same as Isaac as a Brute
+
+
+=-----=
+Ruffian - 2-3 Earth Djinn
+=-----=
+Same as Isaac as a Ruffian
+
+
+=----=
+Savage - 4-5 Earth Djinn
+=----=
+Same as Isaac as a Savage
+
+
+=-------=
+Barbarian - 5-7 Earth Djinn
+=-------=
+Same as Isaac as a Barbarian
+
+
+=-------=
+Swordsman - 1 Water Djinni
+=-------=
+Cutting Edge 5pp, Blast 5pp, Mad Blast 9pp, Fiery Blast 19pp, Cure Poison 2pp, Restore 3pp,
+Guard 3pp, Protect 5pp
+
+
+=------=
+Defender - 2-3 Water Djinn
+=------=
+Same as Swordsman, with these additions:
+Ply 4pp, Ply Well 8pp, Avoid 5pp
+
+
+=------=
+Cavalier - 4-5 Water Djinn
+=------=
+Same as Defender, with these additions:
+Wish 9pp, Wish Well 13pp
+
+
+=-------------=
+(Water) Ascetic - 6-7 Water Djinn
+=-------------=
+Douse 5pp, Drench 10pp, Prism 7pp, Hail Prism 16pp, Volcano 6pp, Eruption 14pp, Wish 9pp,
+Wish Well 13pp, Cure Poison 2pp, Restore 3pp
+
+
+=--=
+Page - 1 Wind Djinni
+=--=
+Astral Blast 5pp, Volcano 6pp, Eruption 14pp, Ward 3pp, Resist 5pp, Weaken 4pp, Enfeeble 6pp,
+Delude 4pp, Sleep 5pp
+
+
+=---------=
+Illusionist - 2-3 Wind Djinn
+=---------=
+Same as Page
+
+
+=-------=
+Enchanter - 4-5 Wind Djinn
+=-------=
+Same as Illusionist, with these additions:
+Impact 7pp, High Impact 12pp, Guard 3pp, Protect 5pp
+
+
+=------------=
+(Wind) Ascetic - 6-7 Wind Djinn
+=------------=
+Slash 4pp, Wind Slash 9pp, Plasma 8pp, Shine Plasma 18pp, Volcano 6pp, Eruption 14pp, Ward 3pp,
+Resist 5pp, Bind 4pp
+
+
+=-------=
+Berserker - 1 Fire, 6 Earth Djinn
+=-------=
+Same as Isaac as a Berserker
+
+
+=------=
+Luminier - 1 Fire, 6 Water Djinn
+=------=
+Same as Cavalier
+
+
+=------=
+Conjurer - 1 Fire, 6 Wind Djinn
+=------=
+Same as Enchanter
+
+
+=-----=
+Dragoon - 3 Earth Djinn, 3-4 Water Djinn
+=-----=
+Cutting Edge 5pp, Thorn 6pp, Briar 11pp, Blast 5pp, Mad Blast 9pp, Fiery Blast 19pp,
+Ply 4pp, Ply Well 8pp, Wish 9pp, Wish Well 13pp, Cure Poison 2pp, Restore 3pp, Avoid 5pp
+
+
+=---=
+Ninja - 3 Earth Djinn, 3-4 Wind Djinn
+=---=
+Same as Isaac as a Ninja
+
+
+=-----=
+Samurai - 4 Earth Djinn, 3 Wind Djinn
+=-----=
+Same as Isaac as a Samurai
+
+
+
+
+===============
+-=-----------=-
+ Mia's Classes
+-=-----------=-
+===============
+
+Note:  Mia has no inherited spells that are inclusive with every class she can become.
+Note:  Spells are based on a level 29 Mia.
+
+
+=--------=
+Water Seer - 0-1 Water Djinn
+=--------=
+Ply 4pp, Ply Well 8pp, Cure Poison 2pp, Restore 3pp, Frost 5pp, Tundra 8pp, Glacier 15pp,
+Ice 5pp, Ice Horn 11pp
+
+
+=----=
+Scribe - 2-3 Water Djinn
+=----=
+Same as Water Seer
+
+
+=----=
+Cleric - 4-5 Water Djinn
+=----=
+Same as Scribe, with these additions:
+Wish 9pp, Wish Well 13pp
+
+
+=-----=
+Paragon - 6-7 Water Djinn
+=-----=
+Same as Cleric
+
+
+=--=
+Seer - 1 Earth Djinni
+=--=
+Froth 5pp, Froth Sphere 12pp, Growth 4pp, Mad Growth 10pp, Wild Growth 19pp, Cure 3pp,
+Cure Well 7pp, Potent Cure 10pp, Cure Poison 2pp, Restore 3pp
+
+
+=-----=
+Diviner - 2-3 Earth Djinn
+=-----=
+Same as Seer
+
+
+=----=
+Shaman - 4-5 Earth Djinn
+=----=
+Same as Diviner, with these additions:
+Wish 9pp, Wish Well 13pp
+
+
+=--------------=
+(Earth) Cavalier - 6-7 Earth Djinn
+=--------------=
+Cutting Edge 5pp, Thorn 6pp, Briar 11pp, Ply 4pp, Ply Well 8pp, Wish 9pp, Wish Well 13pp,
+Revive 15pp, Cure Poison 2pp, Restore 3pp, Avoid 5pp
+
+
+=-----=
+Pilgrim - 1 Fire Djinn
+=-----=
+Douse 5pp, Drench 10pp, Prism 7pp, Hail Prism 16pp, Cure Poison 2pp, Restore 3pp
+
+
+=------=
+Wanderer - 2-3 Fire Djinn
+=------=
+Same as Pilgrim
+
+
+=-----=
+Ascetic - 4-5 Fire Djinn
+=-----=
+Same as Garet as a (Water) Ascetic
+
+
+=-------------=
+(Fire) Cavalier - 6-7 Fire Djinn
+=-------------=
+Cutting Edge 5pp, Blast 5pp, Mad Blast 9pp, Fiery Blast 19pp, Ply 4pp, Ply Well 8pp,
+Wish 9pp, Wish Well 13pp, Cure poison 2pp, Restore 3pp, Guard 3pp, Protect 5pp, Avoid 5pp
+
+
+=----=
+Hermit - 1 Wind Djinni
+=----=
+Prism 7pp, Hail Prism 16pp, Plasma 8pp, Shine Plasma 18pp, Impact 7pp, High Impact 12pp,
+Bind 4pp
+
+
+=---=
+Elder - 2-3 Wind Djinn
+=---=
+Same as Hermit
+
+=-----=
+Scholar - 4 Wind Djinn
+=-----=
+Same as Elder, with these additions:
+Wish 9pp, Wish Well 13pp
+
+
+=----=
+Savant - 5-7 Wind Djinn
+=----=
+Same as Scholar
+
+
+=---=
+Druid - 1 Water, 6 Earth Djinn
+=---=
+Froth 5pp, Froth Sphere 12pp, Growth 4pp, Mad Growth 10pp, Wild Growth 19pp, Cure 3pp,
+Cure Well 7pp, Potent Cure 10pp, Revive 15pp, Wish 9pp, Wish Well 13pp, Cure Poison 2pp,
+Restore 3pp
+
+
+=--------=
+Water Monk - 1 Water, 6 Fire Djinn
+=--------=
+Douse 5pp, Drench 10pp, Prism 7pp, Hail Prism 16pp, Volcano 6pp, Eruption 14pp,
+Wish 9pp, Wish Well 13pp, Cure Poison 2pp, Restore 3pp
+
+
+=--=
+Sage - 1 Water, 6 Air Djinn
+=--=
+Same as Savant
+
+
+=----=
+Medium - 3-4 Earth, 3 Wind Djinn
+=----=
+Haunt 5pp, Curse 6pp, Condemn 8pp, Bolt 4pp, Flash Bolt 7pp, Blue Bolt 14pp, Froth 5pp,
+Froth Sphere 12pp, Cure 3pp, Cure Well 7pp, Potent Cure 10pp, Revive 15pp
+
+
+=----=
+Ranger - 3-4 Fire Djinn, 3 Wind Djinn
+=----=
+Slash 4pp, Wind Slash 9pp, Douse 5pp, Drench 10pp, Volcano 6pp, Eruption 14pp, Ward 3pp,
+Resist 5pp, Bind 4pp
+
+
+=--------=
+White Mage - 3 Earth, 4 Water Djinn
+=--------=
+
+
+
+
+================
+-=------------=-
+ Ivan's Classes
+-=------------=-
+================
+
+Note:  Ivan's inherited abilities are Mind Read and Reveal.
+Note:  Spells are based on a level 29 Ivan.
+
+
+=-------=
+Wind Seer - 0-1 Wind Djinn
+=-------=
+Ray 6pp, Storm Ray 10pp, Whirlwind 5pp, Tornado 14pp, Plasma 8pp, Shine Plasma 18pp,
+Sleep 5pp, Bind 4pp
+
+
+=------=
+Magician - 2-3 Wind Djinn
+=------=
+Same as Wind Seer, with these additions:
+Impact 7pp, High Impact 12pp
+
+
+=--=
+Mage - 4-5 Wind Djinn
+=--=
+Same as Magician, with these additions:
+Ward 3pp, Resist 5pp
+
+
+=------=
+Magister - 6-7 Wind Djinn
+=------=
+Same as Mage
+
+
+=--=
+Seer - 1 Earth Djinni
+=--=
+Bolt 4pp, Flash Bolt 7pp, Blue Bolt 14pp, Growth 4pp, Mad Growth 10pp, Wild Growth 19pp,
+Cure 3pp, Cure Well 7pp, Potent Cure 10pp, Bind 4pp
+
+
+=-----=
+Diviner - 2-3 Earth Djinn
+=-----=
+Same as Seer
+
+
+=----=
+Shaman - 4-5 Earth Djinn
+=----=
+Same as Diviner, with these additions:
+Revive 15pp, Ward 3pp, Resist 5pp
+
+
+=---------------=
+(Earth) Enchanter - 6-7 Earth Djinn
+=---------------=
+Astral Blast 5pp, Gaia 7pp, Mother Gaia 17pp, Impact 7pp, High Impact 12pp, Ward 3pp,
+Resist 5pp, Weaken 4pp, Enfeeble 6pp, Delude 4pp, Sleep 5pp, Haunt 5pp, Curse 6pp
+
+
+=-----=
+Pilgrim - 1 Fire Djinni
+=-----=
+Slash 4pp, Wind Slash 9pp, Plasma 8pp, Shine Plasma 18pp, Bind 4pp
+
+
+=------=
+Wanderer - 2-3 Fire Djinn
+=------=
+Same as Pilgrim
+
+
+=-----=
+Ascetic - 4-5 Fire Djinn
+=-----=
+Same as Wanderer, with these additions:
+Volcano 6pp, Eruption 14pp, Ward 3pp, Resist 5pp
+
+
+=--------------=
+(Fire) Enchanter - 6-7 Fire Djinn
+=--------------=
+Astral Blast 5pp, Volcano 6pp, Eruption 14pp, Impact 7pp, Impact 7pp, High Impact 12pp,
+Guard 3pp, Protect 5pp, Ward 3pp, Resist 5pp, Weaken 4pp, Enfeeble 6pp, Delude 4pp,
+Sleep 5pp
+
+
+=----=
+Hermit - 1 Water Djinni
+=----=
+Same as Mia as a Hermit
+
+
+=---=
+Elder - 2-3 Water Djinn
+=---=
+Same as Mia as an Elder
+
+
+=-----=
+Scholar - 4 Water Djinn
+=-----=
+Same as Mia as a Scholar
+
+
+=----=
+Savant - 5-7 Water Djinn
+=----=
+Same as Mia as a Savant
+
+
+=---=
+Druid - 1 Wind, 6 Earth Djinn
+=---=
+Same as Shaman
+
+
+=-------=
+Fire Monk - 1 Wind, 6 Fire Djinn
+=-------=
+Same as Ascetic
+
+
+=--=
+Sage - 1 Wind, 6 Water Djinn
+=--=
+Same as Mia as a Sage
+
+
+=----=
+Medium - 3-4 Earth, 3 Water Djinn
+=----=
+Same as Mia as a Medium
+
+
+=----=
+Ranger - 3-4 Fire, 3 Water Djinn
+=----=
+Same as Mia as a Ranger
+
+
+=--------=
+White Mage - 3 Earth, 4 Water Djinn
+=--------=
+Same as Mia as a White Mage
+
+
+
+This FAQ is copyright (c) 2001 by me.  If you wish to post a link to this FAQ, or put 
+it on your site unaltered, that's ok too.  Enjoy.
+
+Author
+'spoon', or, on GameFAQS msg board 'plz2bstfu' - i.give.up@home.com
+Restore Page
+

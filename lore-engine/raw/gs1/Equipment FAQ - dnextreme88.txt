@@ -1,0 +1,109 @@
+Equipment Capabilities
+Not every character in Golden Sun can equip certain armors and weapons. For instance, take Isaac as an example. Isaac seems to be the warrior type of the group and it is just fitting that he equips weapons fit for a fighter - axes, swords etc. Here is a list of what each character is capable of equipping:
+
+ARMORS:
+
+CHARACTER	ARMOR	BRACELETS	CIRCLETS	CLOTHING	CROWNS	GLOVES	HATS	HELMS	ROBES	SHIELDS
+Garet	YES	-	-	YES	YES	YES	YES	YES	-	YES
+Isaac	YES	-	-	YES	YES	YES	YES	YES	-	YES
+Ivan	-	YES	YES	YES	YES	YES	YES	-	YES	-
+Mia	-	YES	YES	YES	YES	YES	YES	-	YES	-
+WEAPONS:
+
+CHARACTER	AXES	LIGHT BLADES	LONG SWORDS	MACES	STAVES
+Garet	YES	YES	YES	YES	-
+Isaac	YES	YES	YES	YES	-
+Ivan	-	YES	-	-	YES
+Mia	-	-	-	YES	YES
+
+
+Armor List
+Classified into groups, sorted by defense power (from highest to lowest).
+
+Arms
+NAME	TYPE	EFFECT	STATS GIVEN	HOW TO OBTAIN
+Mirror Shield	Shield	Deludes enemies.	Defense +39	Buy from Lalivero's armor dealer (5,200 coins).
+Spirit Armlet	Bracelet	Use to cure ailments	Defense +38, Earth Power +10, Water Power +10	Buy from Lalivero's armor dealer (9,000 coins).
+Aura Gloves	Gloves	Use to boost Resistance	Defense +36	Dropped from Magicore in Suhalla Desert (employ RNG strategy).
+Virtuous Armlet	Bracelet	Use to restore 100 HP	Defense +35, Fire Power +10, Wind Power +10	Found in a chest in Suhalla Desert.
+Spirit Gloves	Gloves	Boosts Elemental power	Defense +34, Earth Power +5, Water Power +5, Fire Power +5, Wind Power +5	Found in a chest in Kalay Tunnel.
+War Gloves	Gloves	Boost Attack	Attack +10, Defense +32	Buy from Lunpa's armor dealer (4,000 coins).
+Earth Shield	Shield	Use to restore 150 HP	Defense +31, Earth Resist +20	A prize from throwing a Lucky Medal into Tolbi Springs.
+Guardian Armlet	Bracelet	Use to boost Defense	Defense +27	A prize from throwing a Lucky Medal into Tolbi Springs.
+Vambrace	Gloves	Boost Attack	Attack +5, Defense +27	Found in a chest in Vault Cave.
+Battle Gloves	Gloves	Boost Attack	Attack +8, Defense +26	A prize from throwing a Lucky Medal into Tolbi Springs.
+Dragon Scales	Shield	Resists Fire	Defense +26, Fire Resist +30	Found in a chest in Altin Peak.
+Chest
+NAME	TYPE	EFFECT	STATS GIVEN	HOW TO OBTAIN
+Demon Mail (Cursed)	Armor	Drops Wind Resistance	Defense +50, Wind Resist -10	Found in a chest in Crossbone Isle after you defeat Deadbeard.
+Feathered Robe	Robe	Boosts Agility, Wind Power	Defense +45, Agility +30, Wind Power +20, Wind Resist +30	Dropped by Wild Gryphon in Tunnel Ruins, Babi Lighthouse, and Venus Lighthouse (employ RNG strategy).
+Dragon Scales	Armor	Resists Water & Fire	Defense +44, Water Resist +30, Fire Resist +30	Found in a chest in Venus Lighthouse.
+Asura's Armor	Armor	Boosts Attack; replenishes HP	Attack +5, Defense +42, HP recovery +8	Found in a chest in Tunnel Ruins.
+Oracle's Robe	Robe	Resists Water; boosts HP recovery	Defense +42, Water Resist +40, HP recovery +10	Found in a chest in Venus Lighthouse.
+Storm Gear	Clothing	Resists Water, Fire, & Wind	Defense +42, Water Resist +30, Fire Resist +30, Wind Resist +30	Found in a chest in Crossbone Isle.
+Magical Cassock	Robe	Replenishes HP	Defense +39, PP recovery +2	Buy from Lalivero's armor dealer (9,000 coins).
+Blessed Robe	Robe	Replenishes HP	Defense +36, HP recovery +5	Buy from Lunpa's armor dealer (7,000 coins).
+Ninja Garb	Clothing	Boosts Agility; resists Wind	Defense +35, Agility +30, Wind Resist +10	Found in a chest in Crossbone Isle.
+Spiked Armor	Armor	Boosts Attack, Critical Hits	Attack +10, Defense +34, Critical Hits increase	Dropped from Chimera Mages in Tunnel Ruins, Babi Lighthouse, and Venus Lighthouse (employ RNG strategy).
+Spirit Armor	Armor	Resists all elements	Defense +32, Earth Resist +15, Water Resist +15, Fire Resist +15, Wind Resist +15	A prize from throwing a Lucky Medal into Tolbi Springs.
+Water Jacket	Clothing	Resists Water & Fire	Defense +30, Water Resist +30, Fire Resist +20	Found in a chest in Hammet's Castle.
+Cocktail Dress	Robe	Boosts PP	Defense +29, Max PP +15	A prize from throwing a Lucky Medal into Tolbi Springs.
+Kimono	Clothing	Boosts Agility; resists Fire	Defense +25, Agility +10, Fire Resist +10	A prize from throwing a Lucky Medal into Tolbi Springs.
+Elven Shirt	Clothing	Boosts Agility	Defense +22, Agility x1.5	Found in a chest in Mogall Forest.
+China Dress	Robe	Drops enemy's Attack	Defense +19	Buy from Xian's armor dealer (1,600 coins).
+Headwears
+NAME	TYPE	EFFECT	STATS GIVEN	HOW TO OBTAIN
+Thunder Crown (Cursed)	Crown	Replenishes PP	Defense +40, PP recovery +4	Found in a chest in Venus Lighthouse.
+Warrior's Helm	Helm	Boosts Earth power, Critical Hits	Defense +35, Earth Power +10, Critical Hits increase	Found in a chest in Venus Lighthouse.
+Jeweled Crown	Crown	Boosts Luck	Defense +35, Luck +5	Buy from Lalivero's armor dealer (4,000 coins).
+Mythril Circlet	Circlet	Replenishes PP	Defense +34, PP recovery +3	Found in a chest in Lunpa Fortress.
+Lucky Cap	Crown	Boosts Critical Hits; restores PP	Defense +33, Critical Hits increase, PP recovery +2	Found in a chest in Venus Lighthouse.
+Prophet's Hat	Hat	Use to put a curse on an enemy	Defense +30	Dropped from Dreadhounds in Atmiller Cave (employ RNG strategy).
+Adept's Helm	Helm	Boosts PP	Defense +29, Max PP x1.2	A prize from throwing a Lucky Medal into Tolbi Springs.
+Ninja Hood	Hat	Boosts Agility	Defense +28, Agility +20	A prize from throwing a Lucky Medal into Tolbi Springs.
+Glittering Tiara	Circlet	Use to delude enemies	Defense +27, prevents Delusion	A prize from throwing a Lucky Medal into Tolbi Springs.
+Lure Cap	Hat	Increases random battles when equipped	Defense +20, Boosts monster encounters	First place prize of Colosso.
+
+Weapon List
+Classified into groups, sorted by attack power (from highest to lowest).
+
+Axes
+NAME	TYPE	EFFECT	STATS GIVEN	UNLEASH CAPABILITIES	HOW TO OBTAIN
+Demon Axe (Cursed)	Axe	Unleashes Poison Cloud (Earth)	Attack +132	Low Unleash rate, Medium Unleash power; Unleash may poison foe	Found in a chest in Crossbone Isle.
+Giant Axe	Axe	Unleashes Meltdown (Fire)	Attack +114	Medium Unleash rate, High Unleash power; Unleash may drop foe's Defense	Dropped from Earth Golems in Suhalla Gate and Tunnel Ruins (employ RNG strategy).
+Dragon Axe	Axe	Unleashes Heat Mirage (Fire)	Attack +100	High Unleash rate, Medium Unleash power; Unleash may delude foe	Buy from Tolbi's weapon dealer (10,300 coins).
+Burning Axe	Axe	Unleashes Broil (Fire)	Attack +84	Medium Unleash rate, Medium Unleash power	A prize from throwing a Lucky Medal into Tolbi Springs.
+Vulcan Axe	Axe	Unleashes Barrage (Fire)	Attack +76	Medium Unleash rate, Medium Unleash power; Unleash may stun foe	Found in a chest in Lamakan Desert.
+Light Blades
+NAME	TYPE	EFFECT	STATS GIVEN	UNLEASH CAPABILITIES	HOW TO OBTAIN
+Kikuichimonji	Light Blade	Unleashes Asura (Wind)	Attack +128	Medium Unleash rate, Medium Unleash power; Unleash may delude foe	Dropped from Fenrir in Venus Lighthouse (employ RNG strategy).
+Swift Sword	Light Blade	Unleashes Sonic Slash (Wind)	Attack +104, Wind Power +10	Low Unleash rate, High Unleash power; 2 Different Unleashes	Buy from Lalivero's weapon dealer (9,400 coins).
+Ninja Blade	Light Blade	Unleashes Cyclone Attack (Wind)	Attack +94	Medium Unleash rate, Low Unleash power; Unleash may drop foe's Resist.	Buy from Lunpa's weapon dealer (8,800 coins).
+Assassin Blade	Light Blade	Unleashes Mortal Danger (Earth)	Attack +90	Low Unleash rate, High Unleash power; Unleash may drain spirit of foe.	A prize from throwing a Lucky Medal into Tolbi Springs.
+Mystery Blade	Light Blade	Unleashes Life Nourish (Earth)	Attack +84	Medium Unleash rate, Low Unleash power; Unleash may restore HP	Found in a chest in Crossbone Isle.
+Elven Rapier	Light Blade	Unleashes Vorpal Slash (Wind)	Attack +44	High Unleash rate, High Unleash power	Found in a chest in Bilibin cave, accessible by Growing the weed into ivy outside the cave.
+Bandit's Sword	Light Blade	Unleashes Rapid Smash	Attack +12	Medium Unleash rate, Low Unleash power; 2 Different Unleashes	Obtained after defeating the bandits in Vault.
+Long Swords
+NAME	TYPE	EFFECT	STATS GIVEN	UNLEASH CAPABILITIES	HOW TO OBTAIN
+Gaia Blade	Long Sword	Unleashes Titan Blade (Earth)	Attack +135, Earth Power +20, Earth Resist +20	High Unleash rate, High Unleash power	Found in a chest in Venus Lighthouse.
+Muramasa (Cursed)	Long Sword	Unleashes Demon Fire (Fire)	Attack +126	Medium Unleash rate, High Unleash power; Unleash may Haunt foe	Found in a chest in Crossbone Isle.
+Silver Blade	Long Sword	Unleashes Aqua Sock (Water)	Attack +108	High Unleash rate, Low Unleash power	Buy from Lalivero's weapon dealer (12,000 coins).
+Shamshir	Long Sword	Unleashes Acid Bath	Attack +99	Medium Unleash rate, High Unleash power; Unleash may drop foe's Attack	Buy from Tolbi's weapon dealer (10,000 coins).
+Arctic Blade	Long Sword	Unleashes Blizzard	Attack +55	High Unleash rate, Medium Unleash power; Unleash may drop foe's Attack	Found in a chest in Fuchin Falls Cave.
+Maces
+NAME	TYPE	EFFECT	STATS GIVEN	UNLEASH CAPABILITIES	HOW TO OBTAIN
+Wicked Mace (Cursed)	Mace	Unleashes Poison Death (Earth)	Attack +130	Medium Unleash rate, Medium Unleash power, Unleash may poison foe	Found in a chest in Crossbone Isle.
+Blessed Mace	Mace	Use to restore 200 HP	Attack +126, HP recovery +2	Dropped from Thunder Lizard in Venus Lighthouse (employ RNG strategy).
+Righteous Mace	Mace	Unleashes Blinding Smog (Wind)	Attack +112, HP recovery +3	Low Unleash rate, Medium Unleash power, May cause Delusion to foe	Buy from Lalivero's weapon dealer (8,400 coins).
+Grievous Mace	Mace	Unleashes Terra Strike (Earth)	Attack +88	Low Unleash rate, High Unleash power	A prize from throwing a Lucky Medal into Tolbi Springs.
+Staves
+NAME	TYPE	EFFECT	STATS GIVEN	UNLEASH CAPABILITIES	HOW TO OBTAIN
+Crystal Rod	Staff	Unleashes Drown (Water)	Attack +106	Medium Unleash rate, Medium Unleash power; Unleash may suffocate foe	Buy from Lalivero's weapon dealer (13,400 coins).
+Zodiac Wand	Staff	Unleashes Shining Star (Wind)	Attack +102	Medium Unleash rate, High Unleash power; Unleash may delude foe	Dropped from Grand Golems in Venus Lighthouse (employ RNG strategy).
+Demonic Staff (Cursed)	Staff	Unleashes Bad Omen (Earth)	Attack +92	High Unleash rate, Medium Unleash power; Unleash may Haunt foe	Buy from Lunpa's weapon dealer (10,000 coins).
+Angelic Ankh	Staff	Unleashes Life Leech (Water)	Attack +83	High Unleash rate, Medium unleash power; Unleash may restore HP	Buy from Tolbi's weapon dealer (6,400 coins).
+Frost Wand	Staff	Unleashes Frost Bite (Water)	Attack +76	Medium Unleash rate, Medium Unleash power; Unleash may stun foe	Buy from Kalay's weapon dealer (5,400 coins).
+Psynergy Rod	Staff	Unleashes Psynergy Leech (Water)	Attack +64	Medium Unleash rate, Medium Unleash power; Unleash may restore PP	Buy from Altin's weapon dealer (3,800 coins).
+Blessed Ankh	Staff	Unleashes Psyphon Seal (Wind)	Attack +46	Medium Unleash rate, Medium Unleash power; Unleash may seal foe's Psy	Buy from Imil's weapon dealer (1,600 coins).
+Witch's Wand	Staff	Unleashes Stun Voltage (Wind)	Attack +32	Medium Unleash rate, Medium Unleash power; Unleash may stun foe	Buy from Bilibin's weapon dealer (860 coins).
+Magic Rod	Staff	Unleashes Murk (Wind)	Attack +16	Low Unleash rate, Medium Unleash power; Unleash may put foe to sleep	Buy from Bilibin's weapon dealer (380 coins).

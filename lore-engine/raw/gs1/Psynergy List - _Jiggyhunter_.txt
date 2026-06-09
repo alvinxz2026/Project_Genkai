@@ -1,0 +1,209 @@
+Psynergy List for Golden Sun
+For the Game Boy Advance
+Copyright (c) 2002 by Jiggyhunter 
+(jiggyhunter@yahoo.com)
+Version 1.1
+
+Table of Contents
+1. Introduction
+2. Psynergy List
+3. Copyright Information
+4. Contact Information
+5. Updates
+
+
+
+
+1. Introduction
+
+Welcome to my Psynergy Guide for the Game Boy Advance
+Game Golden Sun!
+This will tell you all of the attack Psynergies there
+are, but it isn’t
+complete....yet. There’ll be more updates to come.
+Okay, now I’ll tell
+you how to read the list: there are four categories,
+based on the four
+elements, inside each one there will be entries, like
+the one below:
+Froth  5PP     III   Attack with frothing bubbles
+First, there will be the name, then the PP
+requirement, number of
+enemies, and a description.
+HOW TO READ THE AFFECTED ENEMIES NUMBER
+I= 1 enemy or party member
+III= 3 enemies
+IIIII= 5 enemies
+IIIIII= 7 enemies
+IIIIIIIII= All enemies or party members
+
+And without further adieu, the Psynergy List!
+
+
+
+2. Psynergy List
+
+
+EARTH-VENUS
+
+Cure 3PP  I  Restore 70 HP
+Cure Well 7PP  I  Restore 150 HP
+Potent Cure 10PP  I  Restore 300 HP
+Revive 15PP  I  Revive a downed ally
+Ragnarok 7PP  I Strike with a massive sword
+Quake 4PP III  Attack with a powerful quake
+Earthquake 7PP  IIIII  Attack with a mighty tremor
+Quake Sphere 15PP IIIIIII  Attack with a massive quake
+Spire 5PP  I  Attack with earthen spire
+Clay Spire 13PP  III  Attack with earthen spire
+Gaia 7PP III  Attack with the earth’s might
+Mother Gaia 17PP IIIII Attack with the earth’s might
+Punji 7PP III Attack with a bamboo weapon
+Punji Trap 13PP III Attack with a bamboo weapon
+Demon Night 12PP III Unleash a myriad of monsters
+Rockfall 5PP III  Attack with a blast of rock
+Rockslide 15PP IIIII Attack with a blast of rock
+Growth 4PP I Attack with wild plants
+Mad Growth 10PP III Attack with ferocious plants
+Stone Spire 22PP IIIII Attack with earthen spire
+Haunt 5PP III  Haunt a foe with an evil spirit
+Curse 6PP I  Draw the spirit of death to a foe
+Grand Gaia   Description Needed
+
+
+FIRE-MARS
+
+Heat Wave 6PP I Attack with fiery bolts
+Flare 4PP III Attack with flaring flames
+Flare Wall 7PP III  Attack with searing flames
+Flare Storm 12PP III  Attack with incinerating flames
+Fire 6PP III  Attack with a scorching fireball
+Fireball 12PP IIIII Attack with a scorching fireball
+Volcano 6PP I Attack with volcanic might
+Eruption 14PP  III  Attack with volcanic might
+Guard 3PP I  Boost ally’s defense
+Protect 5PP IIIIIIIII  Boost party’s defense
+Impair 4PP I  Drop enemy’s defense
+Debilitate 6PP III Drop enemy party’s defense
+Fire Bomb 5PP III  Attack with a bomb blast
+Cluster Bomb 11PP IIIII  Attack with a bomb blast
+Dragon Cloud 6PP I  Strike with a Dragon Cloud
+Lava Shower 4PP I  Attack with volcanic might
+Molten Bath 12PP III  Attack with volcanic might
+Guardian 3PP I  Boost Defense with a divine might
+Protector 5PP IIIIIIIII  Boost party Defense with a
+divine might
+Planet Diver 7PP I  Leap skyward and lunge into a foe
+Blast 7PP III  Attack with a massive explosion
+Nova 13PP IIIII  Attack with a massive explosion
+Blast 5PP III  Attack with an explosive blast
+Mad Blast 9PP III  Attack with an explosive blast
+Inferno 23PP IIIII Attack with a scorching fireball
+Fiery Blast 19PP IIIII  Attack with an explosive blast
+Inferno   Description Needed
+Pyroclasm   Description Needed
+
+
+WIND-JUPITER
+
+Whirlwind 5PP III Attack with a swirling tornado
+Ray 6PP III  Attack with a magnetic storm
+Storm Ray 10PP III Attack with a magnetic storm
+Tornado 14PP IIIII Attack with a mighty tornado
+Plasma 8PP III Attack with a barrage of bolts
+Shine Plasma 18PP IIIII Attack with a barrage of bolts
+Impact 7PP I Boost Ally’s Attack
+High Impact 12PP IIIIIIIII Boost party’s attack
+Ward 3PP I Boost Resistance
+Resist 5PP IIIIIIIII  Boost party resistance
+Sleep 5PP III Lull multiple enemies to sleep
+Bind 4PP I Block a foe’s Psynergy
+Gale 3PP III Attack with the wind’s might
+Death Plunge 14PP I  Plunge your weapon into a foe
+Shuriken 8PP  III  Attack with a huge throwing knife
+Typhoon 12PP IIIII  Attack with the wind’s might
+Thunderclap 9PP III  Attack with the storm’s fury
+Thunderbolt 19PP IIIII  Attack with the storm’s fury
+Mist 4PP III  Wrap a foe in a cloud of delusion
+Demon Spear 7PP I Boost attack with a demonic blade
+Angel Spear 12PP IIIIIIIII  Boost attack with a
+heavenly blade
+Magic Shell 3PP I  Boost Elemental Resistance
+Magic Shield 5PP IIIIIIIII  Boost Elemental Resistance
+Bolt 4PP I  Attack with a lightning bolt
+Flash Bolt 7PP III  Attack with a lightning bolt
+Blue Bolt 14PP III  Attack with a lightning bolt
+Dull 6PP I  Drop enemy attack
+Slash 4PP  I  Attack with a blade of focused air
+Wind Slash 9PP III Attack with a blade of focused air
+Astral Blast 5PP I  Attack with a celestial force
+Weaken 4PP I  Drop enemy resistance
+Enfeeble 6PP III Drop enemy party’s resistance
+Destruct Ray 21PP III Attack with a magnetic storm
+Tempest 27PP IIIII  Attack with a fearsome windstorm
+Spark Plasma   Description Needed
+
+
+WATER-MERCURY
+
+Ply 4PP I  Restore 100 HP with faith’s power
+Ply Well 8PP I  Restore 200 HP with faith’s power
+Wish 9PP IIIIIIIII  Restore 80 HP to the entire party
+Wish Well 13PP IIIIIIIII  Restore 160 HP to the entire
+party
+Cure Poison 2PP I  Cleanse the body of poison
+Frost 5PP III Attack with fridgid blasts
+Restore 3PP I  Remove sleep,stun and delusion
+Tundra 8PP III Attack with fridgid blasts
+Glacier 15PP III  Attack with fridgid blasts
+Ice 5PP I  Attack with spikes of ice
+Ice Horn 11PP III  Attack with spikes of ice
+Prism 7PP III Attack with ice crystals
+Hail Prism 16PP IIIII  Attack with ice crystals
+Drench 10PP III  Attack with a torrent of water
+Douse 5PP III  Attack with a torrent of water
+Cutting Edge 5PP I  Inflict damage with a shock wave
+Froth 5PP III  Attack with frothing bubbles
+Froth Sphere 12PP IIIII  Attack with frenzied bubbles
+Break 5PP IIIIIIIII Eliminate enemy’s bonuses
+Pure Ply 12PP I  Restore 1000 HP with faith’s power
+Ice Missile 23PP III Attack with spikes of ice
+Pure Wish   Description Needed
+
+
+3. Copyright Information
+This FAQ is Copyright (c) 2002 Jiggyhunter
+Copying this FAQ in part is forbidden; if you wish to
+copy it you must
+copy 
+it in full, including the copyright information.  Feel
+free to use this
+FAQ's 
+information, but you HAVE to give me credit. Also, if
+you want to use
+this 
+information on another site you must ask me first,
+then e-mail me the
+URL at 
+jiggyhunter@yahoo.com first. 
+
+4. Contact Information
+If you see something wrong with this FAQ, like it is
+missing a Psynergy,
+PLEASE email me at jiggyhunter@yahoo.com. THANKS!
+
+
+5. Updates
+
+Version 1.1
+-Added Pure Wish, Inferno, Pyroclasm, Spark Plasma and
+Grand Gaia.
+Descriptions Needed.
+-Added Updates Section
+
+
+Version 1.0
+-Added most Psynergies
+-Release Version
+Restore Page
+

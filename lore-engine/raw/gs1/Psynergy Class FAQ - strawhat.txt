@@ -1,0 +1,4411 @@
+My E-mail is at the bottom of the FAQ, if you need to contact me.
+                                                                 
+                       #                                         
+                       MM                                        
+           jX         ;7MP                                       
+            MN@P      N,9M.                                      
+             #;XMH.   M;7MM                                      
+             ,H;jLRMKRMPZKMMMM@                                  
+               MRH5jjiM@RKRP@RMMN        M5               M      
+               PR   i,LXX9999R@2MM  .i9MMP              KM       
+               K.  :jLL599P9Zjj KR@MMNMM              ZMM,       
+               M;i722ZPXKXZMMMMMX7 L9@             iHMMM         
+               ML77jLX@NK7MMMHMMMMM@5L@@7Z5ii2L@KL2KMM9          
+               2MM@R#MM#jMMZ     MMMMMNN,;: :: :9MMM@            
+                 :MMMM@RZM#R,  Z2XMMMMMMMMMMMMMMM@               
+                  MPLjZ#MMM@RK,XLXL   :PMMMH;                    
+                  NK@MMM  PMMMHiL iL         HM                  
+                  M2M7        ZNMNM     ;@HKMMKX#MMMMMMM         
+                    :   ;MMMMM#H@#M    @5P9;   LK@RKNX           
+                  HMMMMMMi  2.:L@#M   NPPj  7K92ii2LZKMM         
+             ;@@9L          K:,.2NM  M5PL:;X9LL9X9XX@KR#MMM#2    
+            i#;     ..,:i, ML::,LMM  M2ZijX5PR@NMMMM#H###MMMMM:  
+            Kj,  ,,:,,.:X9M@PP99MML  Mj2jP5LKMMMMMMMMMMMMM       
+            X7:  ,,,,,.. K#2jj7ZM9   M2ZZLLMMMMM;       2#MMj    
+            ZR7:   ..,:; 9MMMMH5M   KR2jijN#MN                   
+            jR#Li,:,;777iPH  :MMMKMMP;.iXN#MP                    
+            R  5XLj ;2j2@:     MMMMMMMMMMMM5                     
+            j7;LLRMPXMMMM,   ,iK ij9NM#Li                        
+             MHNHKMMMMM  Z. .:7H                                 
+           iMMK@MMMMMX  :MH5LZMM                                 
+         7MMMMMMM ;      M@MHMMM                                 
+       ZMMMMP,           LRP9KHM                                 
+    ;MMM5                 iHZKNM                                 
+    9i                     ZMR#M                                 
+                            :MKM                                 
+                              MM                                
+                              :M
+                                      ___     _    _            ___           
+                                     / __|___| |__| |___ _ _   / __|_  _ _ _  
+                                    | (_ / _ \ / _` / -_) ' \  \__ \ || | ' \ 
+                                     \___\___/_\__,_\___|_||_| |___/\_,_|_||_|
+
+                                      P S Y N E R G Y / C L A S S   G U I D E
+
+
+Golden Sun(GBA)
+Psynergy/Class Guide
+File Created: 7/7/05
+By strawhat
+Version 1.01
+Last Update: 7/10/05
+
+Note: For easy searching, highlight a section name and number(without the
+spaces at the beginning), press Ctrl + F and paste the section name in the
+menu. Press find and voila! For Mac users, use the command key in place of the
+control key.
+
+
+The latest version of this FAQ will always be at Gamefaqs.com or IGN.com.
+
+
+~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
+Table of Contents
+~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
+
+{1.0} Psynergy and its Purposes
+
+{2.0} List of Psynergy
+   [2.1] Isaac
+   [2.2] Garet
+   [2.3] Ivan
+   [2.4] Mia
+   [2.5] Jenna
+   [2.6] Universal
+
+{3.0} List of Classes
+   [3.1] Isaac
+   [3.2] Garet
+   [3.3] Ivan
+   [3.4] Mia
+
+{4.0} FAQ
+
+{5.0} Conclusion
+
+
+~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
+
+
+Version History:
+==============================================================================
+
+7/13 Version 1.01: Accidentally had two Rockslides instead of Avanlanche.
+                   Corrected that.
+
+7/10 Version 1.0: It's an hour before midnight and I've finished the FAQ.
+
+
+
+Disclaimer:
+==============================================================================
+This may be not be reproduced under any circumstances except for personal,
+private use. It may not be placed on any web site or otherwise distributed
+publicly without advance written permission. Use of this guide on any other
+web site or as a part of any public display is strictly prohibited, and
+violation of copyright.
+
+Sites allowed to host this FAQ:
+www.gamefaqs.com
+faqs.ign.com
+www.honestgamers.com
+www.1up.com
+www.supercheats.com
+www.gamerhelp.com
+
+
+
+<#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#>
+
+                       {1.0} PSYNERGY AND ITS PURPOSES
+
+<#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#>
+
+Psynergy is probably one of the most important aspects of Golden Sun. It acts
+as what other games might call "magic", or "spells". There is a wide abundancy
+of Psynergy that you can choose to use, different classes that learns that
+Psynergy, and different effects that will change the outcome of your battle.
+This FAQ here is to discuss them all.
+
+Psynergy uses up PP. Once your PP is out, you're done. No more Psynergy for
+you. So when you use, make sure to watch you PP levels as some can save your
+life in a boss battle. There are four different elements in Psynergy. Earth
+(Venus), fire(Mars), water(Mercury), and wind(Jupiter). Venus and Jupiter
+oppose each other, meaning that wind is weak against earth and earth is weak
+against wind. The same relationship is there with Mars and Mercury. This
+information is just a heads up for those newbies out there.
+
+
+
+
+<#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#>
+
+                           {2.0} LIST OF PSYNERGY
+
+<#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#>
+
+This is a list of all the Psynergy in the game. There's not much of an order
+to it because, well, it's kind of hard to...I'll try to keep the attacks in
+"groups" if you know what I mean.
+
+
+<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+                                 [2.1] Isaac
+<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
+
+Isaac is the head honcho of your party. He can heal, he can attack, he can
+defend, he's quick...pretty much all the things that you want in a strong
+party member. He also carries Ragnarok, which is just so damn cool.
+
+
+Retreat
+-------
+PP: 6
+Level Learned: 1
+Range: None
+Element: None
+Ingame Description: Return to the dungeon's entrance.
+Comments: You can't use it in battle. If you're not battling and in a
+          dungeon, you can use this to...return to the dungeon's
+          entrance.
+
+
+Cure
+----
+PP: 3
+Level Learned: 1
+Range: |
+Element: Venus
+Learned by: Squire, Knight, (Water) Shaman, Gallant, Lord, Slayer, (Wind)
+            Shaman.
+Ingame Description: Restores 70 HP.
+Comments: It doesn't exactle restore 70 HP. Just around there, depending
+          on the level. Helpful if you haven't met Mia yet.
+
+
+Move
+----
+PP: 2
+Level Learned: 1
+Range: None
+Element: None
+Ingame Description: Move an object on the ground.
+Comments: It's necessary to use this outside of battle to finish the game.
+          This can move tree trunks, standing pillars, and boxes, but not
+          round boulders.
+
+
+Cure Well
+---------
+PP: 7
+Level Learned: 10
+Range: |
+Element: Venus
+Learned by: Squire, Knight, (Water) Shaman, Gallant, Lord, Slayer, (Wind)
+            Shaman.
+Ingame Description: Restore 150 HP.
+Comments: Like Cure, it doesn't exactly restore 150 HP. Just somewhere within
+          that area. Cure Well isn't really that helpful on Isaac since most
+          of the time he'll be attacking. Plus, Mia has the Wish spells.
+
+
+Potent Cure
+-----------
+PP: 10
+Level Learned: 26
+Range: |
+Element: Venus
+Learned by: Squire, Knight, (Water) Shaman, Gallant, Lord, Slayer, (Wind)
+            Shaman.
+Ingame Description: Restore 300 HP.
+Comments: By the time you get Potent Cure, you probably won't need it. It
+          restores AROUND 300 HP, not exactly.
+
+
+Revive
+------
+PP: 15
+Level Learned: 19
+Range: |
+Element: Venus
+Learned by: Barbarian, Berserker, Chaos, Lord, Savage, (Water) Shaman, (Wind)
+            Shaman.
+Ingame Description: Revive a downed ally.
+Comments: Extremely useful since he learns it early.
+
+
+Growth
+------
+PP: 4
+Level Learned: 1
+Range: |
+Element: Venus
+Learned by: Barbarian, Berserker, Chaos Lord, Savage, (Water) Shaman, (Wind)
+            Shaman, Brute, Ruffian.
+Ingame Description: Attack with wild plants.
+Comments: Not so great of an attack. Avoid using it.
+
+
+Mad Growth
+----------
+PP: 10
+Level Learned: 12
+Range: ;|;
+Element: Venus
+Learned by: Barbarian, Berserker, Chaos Lord, Savage, (Water) Shaman, (Wind)
+            Shaman, Brute, Ruffian.
+Ingame Description: Attack with ferocious plants.
+
+
+Wild Growth
+-----------
+PP: 15
+Level Learned: 28
+Range: ,;|;,
+Element: Venus
+Learned by: Barbarian, Berserker, Chaos Lord, Savage, (Water) Shaman, (Wind)
+            Shaman, Brute, Ruffian.
+Ingame Description: Attack with giant plants.
+
+
+Blast(Nova)
+-----------
+PP: 7
+Level Learned: 6
+Range: ;|;
+Element: Mars
+Learned by: Brute, Barbarian, Berserker, Chaos Lord, Savage, Ruffian.
+Ingame Description: Attack with a massive explosion.
+Comments: If you need fire on Isaac, this would be pretty decent to use.
+
+
+Nova
+----
+PP: 13
+Level Learned: 16
+Range: ,;|;,
+Element: Mars
+Learned by: Barbarian, Berserker, Chaos Lord, Savage, Brute, Ruffian.
+Ingame Description: Attack with a massive explosion.
+
+
+Supernova
+---------
+PP: 31
+Level Learned: 40
+Range: ,,;|;,,
+Element: Mars
+Learned by: Barbarian, Berserker, Chaos Lord, Savage, Brute, Ruffian.
+Ingame Description: Attack with a massive explosion.
+
+
+Haunt
+-----
+PP: 13
+Level Learned: 17
+Range: .;|;.
+Element: Mars
+Learned by: Barbarian, Berserker, Chaos Lord, Savage, Enchanter, Illusionist,
+            Apprentice, Brute, Ruffian.
+Ingame Description: Attack with a massive explosion.
+
+
+Astral Blast
+------------
+PP: 5
+Level Learned: 11
+Range: |
+Element: Jupiter
+Learned by: Conjurer, Enchanter, Illusionist, Apprentice.
+Ingame Description: Attack with celestial force.
+Comments: It's a really pretty attack.
+
+
+Gaia
+----
+PP: 7
+Level Learned: 7
+Range: ;|;
+Element: Venus
+Learned by: Conjurer, Enchanter, Illusionist, Apprentice, Gallant, Lord,
+            Slayer.
+Ingame Description: Attack with the earth's might.
+Comments: Gaia is a very good move when you first get it. If you're fighting
+          multiple enemies, Gaia's a good pick for a move.
+
+
+Mother Gaia
+-----------
+PP: 17
+Level Learned: 24
+Range: .;|;.
+Element: Venus
+Learned by: Conjurer, Enchanter, Illusionist, Apprentice, Gallant, Lord,
+            Slayer.
+Ingame Description: Attack with the earth's might.
+
+
+Grand Gaia
+----------
+PP: 17
+Level Learned: 54
+Range: .;|;.
+Element: Venus
+Learned by: Conjurer, Enchanter, Illusionist, Apprentice, Gallant, Lord,
+            Slayer.
+Ingame Description: Attack with the earth's might.
+
+
+Weaken
+------
+PP: 4
+Level Learned: 9
+Range: |
+Element: Jupiter
+Learned by: Conjurer, Enchanter, Illusionist, Apprentice.
+Ingame Description: Drop enemy's Resistance.
+Comments: Not very useful unless you're fighting a boss.
+
+
+Enfeeble
+--------
+PP: 6
+Level Learned: 25
+Range: ;|;
+Element: Jupiter
+Learned by: Conjurer, Enchanter, Illusionist, Apprentice.
+Ingame Description: Drop enemy party's Resistance.
+
+
+Delude
+------
+PP: 4
+Level Learned: 1
+Range: ;|;
+Element: Jupiter
+Learned by: Conjurer, Enchanter, Illusionist, Apprentice.
+Ingame Description: Wraps multiple foes in delusion.
+Comments: It's nice when it works.
+
+
+Sleep
+-----
+PP: 5
+Level Learned: 14
+Range: ;|;
+Element: Jupiter
+Learned by: Conjurer, Enchanter, Illusionist, Apprentice.
+Ingame Description: Lull multiple foes to sleep.
+
+
+Haunt
+-----
+PP: 5
+Level Learned: 17
+Range: ;|;
+Element: Venus
+Learned by: Conjurer, Enchanter, Illusionist, Apprentice, Barbarian,
+            Berserker, Chaos Lord, Savage.
+Ingame Description: Haunt a foe with an evil spirit.
+
+
+Curse
+-----
+PP: 5
+Level Learned: 20(Apprentice, Illusionist, Enchanter, Conjurer)
+               24(Brute, Savage, Ruffian, Barbarian, Berserker)
+Range: |
+Element: Venus
+Learned by: Conjurer, Enchanter, Illusionist, Apprentice, Barbarian,
+            Berserker, Chaos Lord, Savage, Brute.
+Ingame Description: Draw the Spirit of Death to a foe.
+
+
+Drain
+-----
+PP: 3
+Level Learned: 31
+Range: |
+Element: Jupiter
+Learned by: Conjurer, Enchanter, Illusionist, Apprentice, (Wind) Shaman
+Ingame Description: Drain enemy's HP into yourself.
+
+
+Psy Drain
+---------
+PP: 0
+Level Learned: 39
+Range: |
+Element: Jupiter
+Learned by: Conjurer, Enchanter, Illusionist, Apprentice, (Wind) Shaman
+Ingame Description: Drain enemy's PP into yourself.
+
+
+Death Plunge
+------------
+PP: 14
+Level Learned: 12
+Range: |
+Element: Jupiter
+Learned by: Ninja
+Ingame Description: Plunge your weapon into a foe.
+Comments: Nothing really fancy. I find Ragnarok to be better.
+
+
+Shuriken
+--------
+PP: 8
+Level Learned: 21
+Range: ;|;
+Element: Jupiter
+Learned by: Ninja
+Ingame Description: Attack with a huge throwing knife.
+Comments: Nothing really fancy. I find Ragnarok to be better.
+
+
+Annihilation
+------------
+PP: 18
+Level Learned: 31
+Range: |
+Element: Venus
+Learned by: Ninja
+Ingame Description: Attempt to annihilate a foe.
+Comments: The above translates to: attempt to insta-kill!
+
+
+Punji
+-----
+PP: 7
+Level Learned: 4
+Range: ;|;
+Element: Venus
+Learned by: Ninja
+Ingame Description: Attack with a bamboo weapon.
+
+
+Punji Trap
+----------
+PP: 13
+Level Learned: 15
+Range: ;|;
+Element: Venus
+Learned by: Ninja
+Ingame Description: Attack with a bamboo weapon.
+
+
+Punji Strike
+------------
+PP: 24
+Level Learned: 36
+Range: ,;|;,
+Element: Venus
+Learned by: Ninja
+Ingame Description: Attack with a bamboo weapon.
+
+
+Fire Bomb
+---------
+PP: 5
+Level Learned: 6
+Range: ,;|;,
+Element: Mars
+Learned by: Ninja
+Ingame Description: Attack with a bomb blast.
+
+
+Cluster Bomb
+------------
+PP: 11
+Level Learned: 16
+Range: ,;|;,
+Element: Mars
+Learned by: Ninja
+Ingame Description: Attack with a bomb blast.
+
+
+Carpet Bomb
+-----------
+PP: 29
+Level Learned: 40
+Range: .,;|;,.
+Element: Mars
+Learned by: Ninja
+Ingame Description: Attack with a bomb blast.
+
+
+Gale
+----
+PP: 3
+Level Learned: 1
+Range: ;|;
+Element: Jupiter
+Learned by: Ninja
+Ingame Description: Attack with the wind's might.
+Comments: Can blow away vines outside of battle, same a Whirlwind.
+
+
+Typhoon
+-------
+PP: 12
+Level Learned: 18
+Range: ;|;
+Element: Jupiter
+Learned by: Ninja
+Ingame Description: Attack with the wind's might.
+
+
+Hurricane
+---------
+PP: 25
+Level Learned: 44
+Range: ,;|;,
+Element: Jupiter
+Learned by: Ninja
+Ingame Description: Attack with the wind's might.
+
+
+Thunderclap
+-----------
+PP: 9
+Level Learned: 8
+Range: ;|;
+Element: Jupiter
+Learned by: Ninja
+Ingame Description: Attack with the storm's might.
+
+
+Thunderbolt
+-----------
+PP: 19
+Level Learned: 26
+Range: ,;|;,
+Element: Jupiter
+Learned by: Ninja
+Ingame Description: Attack with the storm's might.
+
+
+Thunderbolt
+-----------
+PP: 19
+Level Learned: 50
+Range: .,;|;,.
+Element: Jupiter
+Learned by: Ninja
+Ingame Description: Attack with the storm's might.
+
+
+Mist
+----
+PP: 4
+Level Learned: 7
+Range: ;|;
+Element: Jupiter
+Learned by: Ninja
+Ingame Description: Wrap a foe in a cloud of delusion.
+Comments: Can obviously delude the opponent.
+
+
+Ragnarok
+--------
+PP: 7
+Level Learned: 13
+Range: |
+Element: Venus
+Learned by: Squire, Knight, Gallant, Lord
+Ingame Description: Strike with a massive sword.
+Comments: One of the most powerful attacks you can have early in the game.
+
+
+Quake
+-----
+PP: 4
+Level Learned: 2
+Range: ;|;
+Element: Venus
+Learned by: Quire, Knight, Gallant, Lord
+Ingame Description: Attack with a powerful quake.
+
+
+Earthquake
+----------
+PP: 7
+Level Learned: 4
+Range: ,;|;,
+Element: Venus
+Learned by: Quire, Knight, Gallant, Lord
+Ingame Description: Attack with a mighty tremor.
+
+
+Quake Sphere
+------------
+PP: 15
+Level Learned: 14
+Range: .,;|;,.
+Element: Venus
+Learned by: Quire, Knight, Gallant, Lord
+Ingame Description: Attack with a massive quake.
+
+
+Spire
+-----
+PP: 5
+Level Learned: 6
+Range: ;|;
+Element: Venus
+Learned by: Quire, Knight, Gallant, Lord
+Ingame Description: Attack with earthen spire.
+
+
+Clay Spire
+----------
+PP: 13
+Level Learned: 20
+Range: ;|;
+Element: Venus
+Learned by: Quire, Knight, Gallant, Lord
+Ingame Description: Attack with earthen spire.
+
+
+Clay Spire
+----------
+PP: 22
+Level Learned: 42
+Range: ;|;
+Element: Venus
+Learned by: Quire, Knight, Gallant, Lord
+Ingame Description: Attack with earthen spire.
+
+
+Planet Diver
+------------
+PP: 7
+Level Learned: 13
+Range: |
+Element: Mars
+Learned by: Barbarian, Berserker, Chaos Lord, Savage, Brute.
+Ingame Description: Leap skyward and lunge onto a foe.
+
+
+Condemn
+-------
+PP: 8
+Level Learned: 29
+Range: |
+Element: Venus
+Learned by: Barbarian, Berserker, Chaos Lord, Savage, Brute.
+Ingame Description: Disable your enemy with evil power.
+
+
+Froth
+-----
+PP: 5
+Level Learned: 2
+Range: ;|;
+Element: Mercury
+Learned by: (Water) Shaman.
+Ingame Description: Attack with frothing bubbles.
+
+
+Froth Sphere
+------------
+PP: 12
+Level Learned: 14
+Range: ,;|;,
+Element: Mercury
+Learned by: (Water) Shaman.
+Ingame Description: Attack with frenzied bubbles.
+
+
+Froth Spiral
+------------
+PP: 31
+Level Learned: 40
+Range: .,;|;,.
+Element: Mercury
+Learned by: (Water) Shaman.
+Ingame Description: Attack with a bubble vortex.
+
+
+Restore
+-------
+PP: 3
+Level Learned: 13
+Range: |
+Element: Mercury
+Learned by: (Water) Shaman, Swordsman, Defender, Cavalier, Guardian, Dragoon.
+Ingame Description: Remove sleep, stun, and delusion.
+
+
+Cure Poison
+-----------
+PP: 2
+Level Learned: 5
+Range: |
+Element: Mercury
+Learned by: (Water) Shaman, Swordsman, Dragoon, Defender, Cavalier, Guardian.
+Ingame Description: Cleanse the body of poison.
+
+
+Wish
+----
+PP: 9
+Level Learned: 5
+Range: |||||||||
+Element: Mercury
+Learned by: (Water) Shaman, Cavalier, Guardian, Dragoon.
+Ingame Description: Restore 80 HP to the whole party.
+Comments: One of the most useful Psynergy early in the game.
+
+
+Wish Well
+---------
+PP: 13
+Level Learned: 22
+Range: |||||||||
+Element: Mercury
+Learned by: (Water) Shaman, Cavalier, Guardian, Dragoon.
+Ingame Description: Restore 160 HP to the whole party.
+
+
+Pure Wish
+---------
+PP: 20
+Level Learned: 46
+Range: |||||||||
+Element: Mercury
+Learned by: (Water) Shaman, Cavalier, Guardian, Dragoon.
+Ingame Description: Restore 400 HP to the whole party.
+
+
+Break
+-----
+PP: 5
+Level Learned: 46
+Range: |||||||||
+Element: Mercury
+Learned by: (Water) Shaman, Cavalier, Guardian, Dragoon, Swordsman.
+Ingame Description: Eliminate an enemy's bonuses.
+
+
+Cutting Edge
+------------
+PP: 5
+Level Learned: 11
+Range: |
+Element: Mercury
+Learned by: Cavalier, Guardian, Dragoon, Swordsman.
+Ingame Description: Inflict damage with a shock wave.
+
+
+Thorn
+-----
+PP: 4
+Level Learned: 11
+Range: ;|;
+Element: Venus
+Learned by: Cavalier, Guardian, Dragoon, Swordsman.
+Ingame Description: Attack with stabbing thorns.
+
+
+Briar
+-----
+PP: 11
+Level Learned: 14(Cavalier, Guardian, Swordsman)
+               17(Dragoon)
+Range: ;|;
+Element: Venus
+Learned by: Cavalier, Guardian, Dragoon, Swordsman.
+Ingame Description: Attack with sharpened briars.
+
+
+Nettle
+------
+PP: 23
+Level Learned: 36
+Range: ,;|;,
+Element: Venus
+Learned by: Cavalier, Guardian, Dragoon, Swordsman.
+Ingame Description: Attack with stinging nettles.
+
+
+Ply
+---
+PP: 3
+Level Learned: 1
+Range: |
+Element: Mercury
+Learned by: Cavalier, Guardian, Dragoon.
+Ingame Description: Restore 100 HP with faith's power.
+Comments: Great when you get it, but the Wish spells will eventually be more
+          useful.
+
+
+Ply Well
+--------
+PP: 8
+Level Learned: 16
+Range: |
+Element: Mercury
+Learned by: Cavalier, Guardian, Dragoon.
+Ingame Description: Restore 200 HP with faith's power.
+
+
+Pure Ply
+--------
+PP: 12
+Level Learned: 34
+Range: |
+Element: Mercury
+Learned by: Cavalier, Guardian, Dragoon.
+Ingame Description: Restore 1000 HP with faith's power.
+
+
+Blast
+-----
+PP: 5
+Level Learned: 2
+Range: ;|;
+Element: Mars
+Learned by: Dragoon
+Ingame Description: Attack with an explosive blast.
+
+
+Mad Blast
+---------
+PP: 9
+Level Learned: 10
+Range: ;|;
+Element: Mars
+Learned by: Dragoon
+Ingame Description: Attack with an explosive blast.
+
+
+Fiery Blast
+-----------
+PP: 19
+Level Learned: 27
+Range: ,;|;,
+Element: Mars
+Learned by: Dragoon
+Ingame Description: Attack with an explosive blast.
+
+
+Avoid
+-----
+PP: 5
+Level Learned: 6
+Range: None
+Element: None
+Learned by: Dragoon
+Ingame Description: Encounter fewer monsters.
+
+
+Impair
+------
+PP: 4
+Level Learned: 9
+Range: |
+Element: Mars
+Learned by: Barbarian, Berserker, Chaos Lord, Savage.
+Ingame Description: Drop enemy's defense.
+
+
+Debilitate
+----------
+PP: 6
+Level Learned: 23
+Range: ;|;
+Element: Mars
+Learned by: Barbarian, Berserker, Chaos Lord, Savage.
+Ingame Description: Drop enemy party's defense.
+
+
+Dragon Cloud
+------------
+PP: 6
+Level Learned: 12
+Range: |
+Element: Mars
+Learned by: Samurai
+Ingame Description: Strike an enemy with Dragon Cloud.
+
+
+Demon Night
+-----------
+PP: 12
+Level Learned: 18
+Range: ;|;
+Element: Venus
+Learned by: Samurai
+Ingame Description: Unleash a myriad of monsters.
+
+
+Rockfall
+--------
+PP: 5
+Level Learned: 6
+Range: ;|;
+Element: Venus
+Learned by: Samurai
+Ingame Description: Attack with a blast of rocks.
+
+
+Rockslide
+---------
+PP: 15
+Level Learned: 24
+Range: ,;|;,
+Element: Venus
+Learned by: Samurai
+Ingame Description: Attack with a blast of rocks.
+
+
+Avanlanche
+----------
+PP: 30
+Level Learned: 54
+Range: ,;|;,
+Element: Venus
+Learned by: Samurai
+Ingame Description: Attack with a blast of rocks.
+
+
+Lava Shower
+-----------
+PP: 4
+Level Learned: 8
+Range: |
+Element: Mars
+Learned by: Samurai
+Ingame Description: Attack with a volcano's might.
+
+
+Molten Bath
+-----------
+PP: 12
+Level Learned: 22
+Range: ;|;
+Element: Mars
+Learned by: Samurai
+Ingame Description: Attack with a volcano's might.
+
+
+Magma Storm
+-----------
+PP: 27
+Level Learned: 48
+Range: ,;|;,
+Element: Mars
+Learned by: Samurai
+Ingame Description: Attack with a volcano's might.
+
+
+Demon Spear
+-----------
+PP: 7
+Level Learned: 5
+Range: |
+Element: Jupiter
+Learned by: Samurai
+Ingame Description: Boost attack with a demonic blade.
+
+
+Angel Spear
+-----------
+PP: 12
+Level Learned: 21
+Range: ||||||||
+Element: Jupiter
+Learned by: Samurai
+Ingame Description: Boost attack with a heavenly blade.
+Comments: Excellent for juicing yourself up before bosses.
+
+
+Guardian
+--------
+PP: 3
+Level Learned: 3
+Range: |
+Element: Mars
+Learned by: Samurai
+Ingame Description: Boost Defense with divine might.
+
+
+Protector
+---------
+PP: 5
+Level Learned: 15
+Range: ||||||||
+Element: Mars
+Learned by: Samurai
+Ingame Description: Boost Defense with divine might.
+
+
+Magic Shell
+-----------
+PP: 3
+Level Learned: 10
+Range: |
+Element: Jupiter
+Learned by: Samurai
+Ingame Description: Boost Elemental Resistance.
+
+
+Magic Shield
+------------
+PP: 5
+Level Learned: 27
+Range: ||||||||
+Element: Jupiter
+Learned by: Samurai
+Ingame Description: Boost Elemental Resistance.
+
+
+Helm Splitter
+-------------
+PP: 8
+Level Learned: 33
+Range: |
+Element: Venus
+Learned by: Samurai
+Ingame Description: Paralyze a foe with a mighty blow.
+
+
+Quick Strike
+------------
+PP: 12
+Level Learned: 40
+Range: |
+Element: Jupiter
+Learned by: Samurai
+Ingame Description: Blind an enemy with a rapid strike.
+Comments; Extremely powerful.
+
+
+<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+                                 [2.2] Garet
+<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
+Garet is the slowest party member in your party. He's not as strong as Isaac,
+but matches his defense. So...Garet's raw stats aren't exactly impressive. But
+he uses fire! That ups his cool factor instantly. And he can also increase
+defense for your party, something you wouldn't expect a guy like him to do.
+Most of Garet's classes are the same as Isaac's.
+
+
+Move
+----
+PP: 2
+Level Learned: 1
+Range: None
+Element: None
+Ingame Description: Move an object on the ground.
+Comments: It's necessary to use this outside of battle to finish the game.
+          This can move tree trunks, standing pillars, and boxes, but not
+          round boulders.
+
+
+Revive
+------
+PP: 15
+Level Learned: 19
+Range: |
+Element: Venus
+Learned by: Savage, Barbarian, Berserket
+Ingame Description: Revive a downed ally.
+
+
+Growth
+------
+PP: 4
+Level Learned: 1
+Range: |
+Element: Venus
+Learned by: Barbarian, Berserker, Chaos Lord, Savage, (Water) Ascetic, (Wind)
+            Ascetic, Brute, Ruffian.
+Ingame Description: Attack with wild plants.
+Comments: Not so great of an attack. Avoid using it.
+
+
+Mad Growth
+----------
+PP: 10
+Level Learned: 12
+Range: ;|;
+Element: Venus
+Learned by: Barbarian, Berserker, Chaos Lord, Savage, (Water) Ascetic, (Wind)
+            Ascetic, Brute, Ruffian.
+Ingame Description: Attack with ferocious plants.
+
+
+Wild Growth
+-----------
+PP: 15
+Level Learned: 28
+Range: ,;|;,
+Element: Venus
+Learned by: Barbarian, Berserker, Chaos Lord, Savage, (Water) Ascetic, (Wind)
+            Ascetic, Brute, Ruffian.
+Ingame Description: Attack with giant plants.
+
+
+Blast(Nova)
+-----------
+PP: 7
+Level Learned: 6
+Range: ;|;
+Element: Mars
+Learned by: Brute, Ruffian, Barbarian, Berserker, Chaos Lord, Savage.
+Ingame Description: Attack with a massive explosion.
+Comments: If you need fire on Isaac, this would be pretty decent to use.
+
+
+Nova
+----
+PP: 13
+Level Learned: 16
+Range: ,;|;,
+Element: Mars
+Learned by: Barbarian, Berserker, Chaos Lord, Savage, Brute, Ruffian.
+Ingame Description: Attack with a massive explosion.
+
+
+Supernova
+---------
+PP: 31
+Level Learned: 40
+Range: ,,;|;,,
+Element: Mars
+Learned by: Barbarian, Berserker, Chaos Lord, Savage, Brute, Ruffian.
+Ingame Description: Attack with a massive explosion.
+
+
+Haunt
+-----
+PP: 13
+Level Learned: 17
+Range: .;|;.
+Element: Mars
+Learned by: Brute, Ruffian, Savage, Barbarian, Berserket.
+Ingame Description: Attack with a massive explosion.
+
+
+Astral Blast
+------------
+PP: 5
+Level Learned: 11
+Range: |
+Element: Jupiter
+Learned by: Conjurer, Enchanter, Illusionist, Page.
+Ingame Description: Attack with celestial force.
+Comments: It's a really pretty attack.
+
+
+Weaken
+------
+PP: 4
+Level Learned: 9
+Range: |
+Element: Jupiter
+Learned by: Conjurer, Enchanter, Illusionist, Page.
+Ingame Description: Drop enemy's Resistance.
+Comments: Not very useful unless you're fighting a boss.
+
+
+Enfeeble
+--------
+PP: 6
+Level Learned: 25
+Range: ;|;
+Element: Jupiter
+Learned by: Conjurer, Enchanter, Illusionist, Page.
+Ingame Description: Drop enemy party's Resistance.
+
+
+Delude
+------
+PP: 4
+Level Learned: 1
+Range: ;|;
+Element: Jupiter
+Learned by: Conjurer, Enchanter, Illusionist, Page.
+Ingame Description: Wraps multiple foes in delusion.
+Comments: It's nice when it works.
+
+
+Sleep
+-----
+PP: 5
+Level Learned: 14
+Range: ;|;
+Element: Jupiter
+Learned by: Conjurer, Enchanter, Illusionist, Page.
+Ingame Description: Lull multiple foes to sleep.
+
+
+Haunt
+-----
+PP: 5
+Level Learned: 17
+Range: ;|;
+Element: Venus
+Learned by: Brute, Ruffian, Savage, Barbarian, Berserker.
+Ingame Description: Haunt a foe with an evil spirit.
+
+
+Curse
+-----
+PP: 5
+Level Learned: 24
+Range: |
+Element: Venus
+Learned by: Brute, Ruffian, Savage, Berserker, Barbarian.
+Ingame Description: Draw the Spirit of Death to a foe.
+
+
+Drain
+-----
+PP: 3
+Level Learned: 31(Conjurer, Illusionist, Page, Enchanter)
+               33((Wind) Ascetic)
+Range: |
+Element: Jupiter
+Learned by: Conjurer, Enchanter, Illusionist, Page, (Wind) Ascetic
+Ingame Description: Drain enemy's HP into yourself.
+
+
+Psy Drain
+---------
+PP: 0
+Level Learned: 41(Conjurer, Illusionist, Page, Enchanter)
+               39((Wind) Ascetic)
+Range: |
+Element: Jupiter
+Learned by: Conjurer, Enchanter, Illusionist, Page, (Wind) Ascetic
+Ingame Description: Drain enemy's PP into yourself.
+
+
+Death Plunge
+------------
+PP: 14
+Level Learned: 12
+Range: |
+Element: Jupiter
+Learned by: Ninja
+Ingame Description: Plunge your weapon into a foe.
+Comments: Nothing really fancy. I find Ragnarok to be better.
+
+
+Shuriken
+--------
+PP: 8
+Level Learned: 21
+Range: ;|;
+Element: Jupiter
+Learned by: Ninja
+Ingame Description: Attack with a huge throwing knife.
+Comments: Nothing really fancy. I find Ragnarok to be better.
+
+
+Annihilation
+------------
+PP: 18
+Level Learned: 31
+Range: |
+Element: Venus
+Learned by: Ninja
+Ingame Description: Attempt to annihilate a foe.
+Comments: The above translates to: attempt to insta-kill!
+
+
+Punji
+-----
+PP: 7
+Level Learned: 4
+Range: ;|;
+Element: Venus
+Learned by: Ninja
+Ingame Description: Attack with a bamboo weapon.
+
+
+Punji Trap
+----------
+PP: 13
+Level Learned: 15
+Range: ;|;
+Element: Venus
+Learned by: Ninja
+Ingame Description: Attack with a bamboo weapon.
+
+
+Punji Strike
+------------
+PP: 24
+Level Learned: 36
+Range: ,;|;,
+Element: Venus
+Learned by: Ninja
+Ingame Description: Attack with a bamboo weapon.
+
+
+Fire Bomb
+---------
+PP: 5
+Level Learned: 6
+Range: ,;|;,
+Element: Mars
+Learned by: Ninja
+Ingame Description: Attack with a bomb blast.
+
+
+Cluster Bomb
+------------
+PP: 11
+Level Learned: 16
+Range: ,;|;,
+Element: Mars
+Learned by: Ninja
+Ingame Description: Attack with a bomb blast.
+
+
+Carpet Bomb
+-----------
+PP: 29
+Level Learned: 40
+Range: .,;|;,.
+Element: Mars
+Learned by: Ninja
+Ingame Description: Attack with a bomb blast.
+
+
+Gale
+----
+PP: 3
+Level Learned: 1
+Range: ;|;
+Element: Jupiter
+Learned by: Ninja
+Ingame Description: Attack with the wind's might.
+Comments: Can blow away vines outside of battle, same a Whirlwind.
+
+
+Typhoon
+-------
+PP: 12
+Level Learned: 18
+Range: ;|;
+Element: Jupiter
+Learned by: Ninja
+Ingame Description: Attack with the wind's might.
+
+
+Hurricane
+---------
+PP: 25
+Level Learned: 44
+Range: ,;|;,
+Element: Jupiter
+Learned by: Ninja
+Ingame Description: Attack with the wind's might.
+
+
+Thunderclap
+-----------
+PP: 9
+Level Learned: 8
+Range: ;|;
+Element: Jupiter
+Learned by: Ninja
+Ingame Description: Attack with the storm's might.
+
+
+Thunderbolt
+-----------
+PP: 19
+Level Learned: 26
+Range: ,;|;,
+Element: Jupiter
+Learned by: Ninja
+Ingame Description: Attack with the storm's might.
+
+
+Thunderbolt
+-----------
+PP: 19
+Level Learned: 50
+Range: .,;|;,.
+Element: Jupiter
+Learned by: Ninja
+Ingame Description: Attack with the storm's might.
+
+
+Mist
+----
+PP: 4
+Level Learned: 7
+Range: ;|;
+Element: Jupiter
+Learned by: Ninja
+Ingame Description: Wrap a foe in a cloud of delusion.
+Comments: Can obviously delude the opponent.
+
+
+Ragnarok
+--------
+PP: 7
+Level Learned: 13
+Range: |
+Element: Venus
+Learned by: Squire, Knight, Gallant, Lord
+Ingame Description: Strike with a massive sword.
+Comments: One of the most powerful attacks you can have early in the game.
+
+
+Spire
+-----
+PP: 5
+Level Learned: 6
+Range: ;|;
+Element: Venus
+Learned by: Savage, Barbarian, Berserker
+Ingame Description: Attack with earthen spire.
+
+
+Clay Spire
+----------
+PP: 13
+Level Learned: 20
+Range: ;|;
+Element: Venus
+Learned by: Savage, Barbarian, Berserker
+Ingame Description: Attack with earthen spire.
+
+
+Clay Spire
+----------
+PP: 22
+Level Learned: 42
+Range: ;|;
+Element: Venus
+Learned by: Savage, Barbarian, Berserker
+Ingame Description: Attack with earthen spire.
+
+
+Planet Diver
+------------
+PP: 7
+Level Learned: 13
+Range: |
+Element: Mars
+Learned by: Barbarian, Berserker, Chaos Lord, Savage, Brute.
+Ingame Description: Leap skyward and lunge onto a foe.
+
+
+Condemn
+-------
+PP: 8
+Level Learned: 29
+Range: |
+Element: Venus
+Learned by: Barbarian, Berserker, Chaos Lord, Savage, Brute.
+Ingame Description: Disable your enemy with evil power.
+
+
+Restore
+-------
+PP: 3
+Level Learned: 13
+Range: |
+Element: Mercury
+Learned by: (Water) Ascetic, Swordsman, Defender, Cavalier, Luminier, Dragoon.
+Ingame Description: Remove sleep, stun, and delusion.
+
+
+Cure Poison
+-----------
+PP: 2
+Level Learned: 5
+Range: |
+Element: Mercury
+Learned by: (Water) Ascetic, Swordsman, Defender, Cavalier, Luminier, Dragoon.
+Ingame Description: Cleanse the body of poison.
+
+
+Wish
+----
+PP: 9
+Level Learned: 8
+Range: |||||||||
+Element: Mercury
+Learned by: (Water) Ascetic, Cavalier, Luminier, Dragoon.
+Ingame Description: Restore 80 HP to the whole party.
+Comments: One of the most useful Psynergy early in the game.
+
+
+Wish Well
+---------
+PP: 13
+Level Learned: 22
+Range: |||||||||
+Element: Mercury
+Learned by: (Water) Ascetic, Cavalier, Luminier, Dragoon.
+Ingame Description: Restore 160 HP to the whole party.
+
+
+Pure Wish
+---------
+PP: 20
+Level Learned: 46
+Range: |||||||||
+Element: Mercury
+Learned by: (Water) Ascetic, Cavalier, Luminier, Dragoon.
+Ingame Description: Restore 400 HP to the whole party.
+
+
+Break
+-----
+PP: 5
+Level Learned: 30(Swordsman, Defender, Cavalier, Luminier)
+               34(Water Ascetic)
+Range: |||||||||
+Element: Mercury
+Learned by: (Water) Ascetic, Cavalier, Luminier, Dragoon, Swordsman, Defender.
+Ingame Description: Eliminate an enemy's bonuses.
+
+
+Cutting Edge
+------------
+PP: 5
+Level Learned: 11
+Range: |
+Element: Mercury
+Learned by: Cavalier, Luminier, Dragoon, Swordsman, Defender.
+Ingame Description: Inflict damage with a shock wave.
+
+
+Thorn
+-----
+PP: 4
+Level Learned: 4
+Range: ;|;
+Element: Venus
+Learned by: Dragoon
+Ingame Description: Attack with stabbing thorns.
+
+
+Briar
+-----
+PP: 11
+Level Learned: 17
+Range: ;|;
+Element: Venus
+Learned by: Dragoon
+Ingame Description: Attack with sharpened briars.
+
+
+Nettle
+------
+PP: 11
+Level Learned: 23
+Range: ,;|;,
+Element: Venus
+Learned by: Dragoon
+Ingame Description: Attack with stinging nettles.
+
+
+Ply
+---
+PP: 3
+Level Learned: 1
+Range: |
+Element: Mercury
+Learned by: Cavalier, Defender, Luminier, Dragoon.
+Ingame Description: Restore 100 HP with faith's power.
+Comments: Great when you get it, but the Wish spells will eventually be more
+          useful.
+
+
+Ply Well
+--------
+PP: 8
+Level Learned: 16
+Range: |
+Element: Mercury
+Learned by: Cavalier, Defender, Luminier, Dragoon.
+Ingame Description: Restore 200 HP with faith's power.
+
+
+Pure Ply
+--------
+PP: 12
+Level Learned: 34
+Range: |
+Element: Mercury
+Learned by: Cavalier, Defender, Luminier, Dragoon.
+Ingame Description: Restore 1000 HP with faith's power.
+
+
+Blast
+-----
+PP: 5
+Level Learned: 2
+Range: ;|;
+Element: Mars
+Learned by: Dragoon, Swordsman, Defender, Cavalier, Luminier.
+Ingame Description: Attack with an explosive blast.
+
+
+Mad Blast
+---------
+PP: 9
+Level Learned: 10
+Range: ;|;
+Element: Mars
+Learned by: Dragoon, Swordsman, Defender, Cavalier, Luminier.
+Ingame Description: Attack with an explosive blast.
+
+
+Fiery Blast
+-----------
+PP: 19
+Level Learned: 27
+Range: ,;|;,
+Element: Mars
+Learned by: Dragoon, Swordsman, Defender, Cavalier, Luminier.
+Ingame Description: Attack with an explosive blast.
+
+
+Avoid
+-----
+PP: 5
+Level Learned: 6
+Range: None
+Element: None
+Learned by: Dragoon, Defender, Cavalier, Luminier.
+Ingame Description: Encounter fewer monsters.
+
+
+Impair
+------
+PP: 4
+Level Learned: 9
+Range: |
+Element: Mars
+Learned by: Savage, Barbarian, Berserker, Warrior, Champion.
+Ingame Description: Drop enemy's defense.
+
+
+Debilitate
+----------
+PP: 6
+Level Learned: 26(Warrior, Champion)
+               23(Savage, Barbarian, Berserker)
+Range: ;|;
+Element: Mars
+Learned by: Savage, Barbarian, Berserker, Warrior, Champion.
+Ingame Description: Drop enemy party's defense.
+
+
+Dragon Cloud
+------------
+PP: 6
+Level Learned: 12
+Range: |
+Element: Mars
+Learned by: Samurai
+Ingame Description: Strike an enemy with Dragon Cloud.
+
+
+Demon Night
+-----------
+PP: 12
+Level Learned: 18
+Range: ;|;
+Element: Venus
+Learned by: Samurai
+Ingame Description: Unleash a myriad of monsters.
+
+
+Rockfall
+--------
+PP: 5
+Level Learned: 6
+Range: ;|;
+Element: Venus
+Learned by: Samurai
+Ingame Description: Attack with a blast of rocks.
+
+
+Rockslide
+---------
+PP: 15
+Level Learned: 24
+Range: ,;|;,
+Element: Venus
+Learned by: Samurai
+Ingame Description: Attack with a blast of rocks.
+
+
+Rockslide
+---------
+PP: 30
+Level Learned: 54
+Range: ,;|;,
+Element: Venus
+Learned by: Samurai
+Ingame Description: Attack with a blast of rocks.
+
+
+Lava Shower
+-----------
+PP: 4
+Level Learned: 8
+Range: |
+Element: Mars
+Learned by: Samurai
+Ingame Description: Attack with a volcano's might.
+
+
+Molten Bath
+-----------
+PP: 12
+Level Learned: 22
+Range: ;|;
+Element: Mars
+Learned by: Samurai
+Ingame Description: Attack with a volcano's might.
+
+
+Magma Storm
+-----------
+PP: 27
+Level Learned: 48
+Range: ,;|;,
+Element: Mars
+Learned by: Samurai
+Ingame Description: Attack with a volcano's might.
+
+
+Demon Spear
+-----------
+PP: 7
+Level Learned: 5
+Range: |
+Element: Jupiter
+Learned by: Samurai
+Ingame Description: Boost attack with a demonic blade.
+
+
+Angel Spear
+-----------
+PP: 12
+Level Learned: 21
+Range: ||||||||
+Element: Jupiter
+Learned by: Samurai
+Ingame Description: Boost attack with a heavenly blade.
+Comments: Excellent for juicing yourself up before bosses.
+
+
+Guardian
+--------
+PP: 3
+Level Learned: 3
+Range: |
+Element: Mars
+Learned by: Samurai
+Ingame Description: Boost Defense with divine might.
+
+
+Protector
+---------
+PP: 5
+Level Learned: 15
+Range: ||||||||
+Element: Mars
+Learned by: Samurai
+Ingame Description: Boost Defense with divine might.
+
+
+Magic Shell
+-----------
+PP: 3
+Level Learned: 10
+Range: |
+Element: Jupiter
+Learned by: Samurai
+Ingame Description: Boost Elemental Resistance.
+
+
+Magic Shield
+------------
+PP: 5
+Level Learned: 27
+Range: ||||||||
+Element: Jupiter
+Learned by: Samurai
+Ingame Description: Boost Elemental Resistance.
+
+
+Helm Splitter
+-------------
+PP: 8
+Level Learned: 33
+Range: |
+Element: Venus
+Learned by: Samurai
+Ingame Description: Paralyze a foe with a mighty blow.
+
+
+Quick Strike
+------------
+PP: 12
+Level Learned: 40
+Range: |
+Element: Jupiter
+Learned by: Samurai
+Ingame Description: Blind an enemy with a rapid strike.
+Comments: Extremely powerful.
+
+
+Douse
+-----
+PP: 5
+Level Learned: 1
+Range: ;|;
+Element: Mercury
+Learned by: (Water) Ascetic
+Ingame Description: Attack with a surge of water.
+
+
+Drench
+------
+PP: 10
+Level Learned: 12
+Range: ;|;
+Element: Mercury
+Learned by: (Water) Ascetic
+Ingame Description: Attack with a torrent of water.
+
+
+Deluge
+------
+PP: 20
+Level Learned: 30
+Range: ,;|;,
+Element: Mercury
+Learned by: (Water) Ascetic
+Ingame Description: Attack with a deadly flood.
+
+
+Prism
+-----
+PP: 7
+Level Learned: 6
+Range: ;|;
+Element: Mercury
+Learned by: (Water) Ascetic
+Ingame Description: Attack with ice crystals.
+
+
+Hail Prism
+----------
+PP: 16
+Level Learned: 20
+Range: ,;|;,
+Element: Mercury
+Learned by: (Water) Ascetic
+Ingame Description: Attack with ice crystals.
+
+
+Freeze Prism
+------------
+PP: 31
+Level Learned: 52
+Range: ,;|;,
+Element: Mercury
+Learned by: (Water) Ascetic
+Ingame Description: Attack with ice crystals.
+
+
+Volcano
+-------
+PP: 6
+Level Learned: 8
+Range: |
+Element: Mars
+Learned by: Guard, Soldier, Warrior, Champion, (Water) Ascetic, Page,
+            Illusionist, Enchanter, Conjurer, (Wind) Ascetic.
+Ingame Description: Attack with volcanic might.
+
+
+Eruption
+--------
+PP: 14
+Level Learned: 22
+Range: ;|;
+Element: Mars
+Learned by: Guard, Soldier, Warrior, Champion, (Water) Ascetic, Page,
+            Illusionist, Enchanter, Conjurer, (Wind) Ascetic.
+Ingame Description: Attack with volcanic might.
+
+
+Pyroclasm
+---------
+PP: 29
+Level Learned: 48
+Range: ,;|;,
+Element: Mars
+Learned by: Guard, Soldier, Warrior, Champion, (Water) Ascetic, Page,
+            Illusionist, Enchanter, Conjurer, (Wind) Ascetic.
+Ingame Description: Attack with volcanic might.
+
+
+Heat Wave
+---------
+PP: 6
+Level Learned: 12
+Range: |
+Element: Mars
+Learned by: Guard, Soldier, Warrior, Champion.
+Ingame Description: Attack with fiery bolts.
+
+
+Flare
+-----
+PP: 4
+Level Learned: 1
+Range: ;|;
+Element: Mars
+Learned by: Guard, Soldier, Warrior, Champion.
+Ingame Description: Attack with flaring flames.
+
+
+Flare Wall
+----------
+PP: 7
+Level Learned: 6
+Range: ;|;
+Element: Mars
+Learned by: Guard, Soldier, Warrior, Champion.
+Ingame Description: Attack with searing flames.
+
+
+Flare Storm
+-----------
+PP: 12
+Level Learned: 18
+Range: ;|;
+Element: Mars
+Learned by: Guard, Soldier, Warrior, Champion.
+Ingame Description: Attack with incinerating flames.
+
+
+Fire
+----
+PP: 6
+Level Learned: 4
+Range: ;|;
+Element: Mars
+Learned by: Guard, Soldier, Warrior, Champion.
+Ingame Description: Attack with a scorching fireball.
+
+
+Fireball
+--------
+PP: 12
+Level Learned: 14
+Range: ,;|;,
+Element: Mars
+Learned by: Guard, Soldier, Warrior, Champion.
+Ingame Description: Attack with a scorching fireball.
+
+
+Inferno
+-------
+PP: 23
+Level Learned: 36
+Range: ,;|;,
+Element: Mars
+Learned by: Guard, Soldier, Warrior, Champion.
+Ingame Description: Attack with a scorching fireball.
+
+
+Guard
+-----
+PP: 3
+Level Learned: 3
+Range: |
+Element: Mars
+Learned by: Enchanter, Conjurer, (Wind) Ascetic, Warrior, Champion, Swordsman,
+            Defender, Cavalier, Luminier.
+Ingame Description: Boost ally's Defense.
+
+
+Protect
+-------
+PP: 5
+Level Learned: 15
+Range: |||||||
+Element: Mars
+Learned by: Enchanter, Conjurer, (Wind) Ascetic, Warrior, Champion, Swordsman,
+            Defender, Cavalier, Luminier.
+Ingame Description: Boost party's Defense.
+
+
+Slash
+-----
+PP: 4
+Level Learned: 1
+Range: |
+Element: Jupiter
+Learned by: (Wind) Ascetic
+Ingame Description: Attack with a blade of focused air.
+
+
+Wind Slash
+----------
+PP: 9
+Level Learned: 10
+Range: ;|;
+Element: Jupiter
+Learned by: (Wind) Ascetic
+Ingame Description: Attack with a blade of focused air.
+
+
+Sonic Slash
+-----------
+PP: 20
+Level Learned: 30
+Range: ,;|;,
+Element: Jupiter
+Learned by: (Wind) Ascetic
+Ingame Description: Attack with a blade of focused air.
+
+
+Plasma
+------
+PP: 8
+Level Learned: 9
+Range: ;|;
+Element: Jupiter
+Learned by: (Wind) Ascetic
+Ingame Description: Attack with a barrage of bolts.
+
+
+Shine Plasma
+------------
+PP: 18
+Level Learned: 26
+Range: ,;|;,
+Element: Jupiter
+Learned by: (Wind) Ascetic
+Ingame Description: Attack with a barrage of bolts.
+
+
+Spark Plasma
+------------
+PP: 37
+Level Learned: 50(Everyone except below)
+Range: .,;|;,.
+Element: Jupiter
+Learned by: (Wind) Ascetic
+Ingame Description: Attack with a barrage of bolts.
+
+
+
+<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+                                 [2.3] Ivan
+<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
+Ivan's unique abilities are very cool and at times, necessary. Him and Mia
+have similar classes, but are totally different from Garet and Isaac. Ivan's
+defense isn't very good, but is fast. Use this to your advantage. Or change
+your other party members to be faster.
+
+
+Mind Read
+---------
+PP: 1
+Level Learned: 1
+Range: None
+Element: None
+Learned by: Default
+Ingame Description: Read someone's mind.
+Comments: It's very useful in finding information outside of battle. Can't be
+          used during battle.
+
+
+Reveal
+------
+PP: 1
+Level Learned: N/A
+Range: None
+Element: None
+Learned by: Mandatory scene.
+Ingame Description: Perceive hidden truths.
+Comments: If there are any hidden doors or items, using Reveal will show them.
+
+
+Ray
+---
+PP: 6
+Level Learned: 4
+Range: ;|;
+Element: Jupiter
+Learned by: Wind Seer, Magician, Mage, Magister.
+Ingame Description: Attack with a magnetic storm.
+
+
+Storm Ray
+---------
+PP: 10
+Level Learned: 14
+Range: ;|;
+Element: Jupiter
+Learned by: Wind Seer, Magician, Mage, Magister.
+Ingame Description: Attack with a magnetic storm.
+
+
+Storm Ray
+---------
+PP: 21
+Level Learned: 36
+Range: ;|;
+Element: Jupiter
+Learned by: Wind Seer, Magician, Mage, Magister.
+Ingame Description: Attack with a magnetic storm.
+
+
+Whirlwind
+---------
+PP: 5
+Level Learned: 1
+Range: ;|;
+Element: Jupiter
+Learned by: Wind Seer, Magician, Mage, Magister.
+Ingame Description: Attack with a swirling tornado.
+
+
+Tornado
+-------
+PP: 14
+Level Learned: 18
+Range: ,;|;,
+Element: Jupiter
+Learned by: Wind Seer, Magician, Mage, Magister.
+Ingame Description: Attack with a mighty tornado.
+
+
+Tempest
+-------
+PP: 27
+Level Learned: 44
+Range: ,;|;,
+Element: Jupiter
+Learned by: Wind Seer, Magician, Mage, Magister.
+Ingame Description: Attack with a fearsome windstorm.
+
+
+Plasma
+------
+PP: 8
+Level Learned: 8
+Range: ;|;
+Element: Jupiter
+Learned by: Wind Seer, Magician, Mage, Magister, Hermit, Elder, Scholar,
+            Savant, Sage, Pilgrim, Wanderer, Ascetic, Fire Monk, White Mage.
+Ingame Description: Attack with a barrage of bolts.
+
+
+Shine Plasma
+------------
+PP: 18
+Level Learned: 26
+Range: ,;|;,
+Element: Jupiter
+Learned by: Wind Seer, Magician, Mage, Magister, Hermit, Elder, Scholar,
+            Savant, Sage, Pilgrim, Wanderer, Ascetic, Fire Monk, White Mage.
+Ingame Description: Attack with a barrage of bolts.
+
+
+Spark Plasma
+------------
+PP: 37
+Level Learned: 50(Everyone except below)
+               46(White Mage)
+Range: .,;|;,.
+Element: Jupiter
+Learned by: Wind Seer, Magician, Mage, Magister, Hermit, Elder, Scholar,
+            Savant, Sage, Pilgrim, Wanderer, Ascetic, Fire Monk, White Mage.
+Ingame Description: Attack with a barrage of bolts.
+
+
+Impact
+------
+PP: 7
+Level Learned: 1(Hermit, Elder, Scholar, Savant, Sage)
+               5(Magician, Mage, Magister, (both) Enchanter)
+Range: |
+Element: Jupiter
+Learned by: Magician, Mage, Magister, Hermit, Elder, Scholar, Savant, Sage,
+            (Earth) Enchanter, (Fire) Enchanter.
+Ingame Description: Boost ally's Attack.
+
+
+High Impact
+-----------
+PP: 12
+Level Learned: 21
+Range: ||||||||||
+Element: Jupiter
+Learned by: Magician, Mage, Magister, Hermit, Elder, Scholar, Savant, Sage,
+            (Earth) Enchanter, (Fire) Enchanter.
+Ingame Description: Boost party's Attack.
+
+
+Ward
+----
+PP: 3
+Level Learned: 6(Those not listed below)
+               7(Shaman, Druid)
+               9(White Mage)
+Range: |
+Element: Jupiter
+Learned by: Mage, Magister, Shaman, Druid, (Earth) Enchanter, Ascetic, Fire
+            Monk, (Fire) Enchanter, Ranger, White Mage.
+Ingame Description: Boost Resistance.
+
+
+Resist
+------
+PP: 5
+Level Learned: 22(Mage, Magister, (both) Enchanter)
+               23(Shaman, Druid)
+               24(Ascetic, Fire Monk, Ranger)
+               31(White Mage)
+Range: ||||||||
+Element: Jupiter
+Learned by: Mage, Magister, Shaman, Druid, (Earth) Enchanter, Ascetic, Fire
+            Monk, (Fire) Enchanter, Ranger, White Mage.
+Ingame Description: Boost Resistance.
+
+
+Sleep
+-----
+PP: 5
+Level Learned: 12(Wind Seer, Magician, Mage, Magister)
+               14(Enchanters)
+Range: ;|;
+Element: Jupiter
+Learned by: Wind Seer, Magician, Mage, Magister, (Earth) Enchanter, (Fire)
+            Enchanter,
+Ingame Description: Boost Resistance.
+
+
+Bind
+----
+PP: 7
+Level Learned: 17(Wind Seer, Magician, Mage, Magister)
+               18(Everybody not listed above)
+Range: |
+Element: Jupiter
+Learned by: Wind Seer, Magician, Mage, Magister, Hermit, Elder, Scholar,
+            Savant, Sage, Seer, Diviner, Shaman, Druid, Pilgrim, Wanderer,
+            Ascetic, Fire Monk, Ranger
+Ingame Description: Boost Resistance.
+
+
+Prism
+-----
+PP: 7
+Level Learned: 6
+Range: ;|;
+Element: Mercury
+Learned by: White Mage, Hermit, Elder, Scholar, Savant, Sage.
+Ingame Description: Attack with ice crystals.
+
+
+Hail Prism
+----------
+PP: 16
+Level Learned: 20
+Range: ,;|;,
+Element: Mercury
+Learned by: White Mage, Hermit, Elder, Scholar, Savant, Sage.
+Ingame Description: Attack with ice crystals.
+
+
+Freeze Prism
+------------
+PP: 31
+Level Learned: 52
+Range: ,;|;,
+Element: Mercury
+Learned by: White Mage, Hermit, Elder, Scholar, Savant, Sage.
+Ingame Description: Attack with ice crystals.
+
+
+Drain
+-----
+PP: 3
+Level Learned: 31(Everything not below)
+               33(Pilgrim, Wanderer, Ascetic, Fire Monk, Ranger)
+Range: |
+Element: Jupiter
+Learned by: Hermit, Elder, Scholar, Savant, Sage, Seer, Diviner, Shaman,
+            Druid, (Earth) Enchanter, Pilgrim, (Fire) Enchanter, Medium,
+            Ranger.
+Ingame Description: Drain enemy's HP into yourself.
+
+
+Psy Drain
+---------
+PP: 0
+Level Learned: 39(Everything not below)
+               41(Pilgrim, Wanderer, Ascetic, Fire Monk, Ranger)
+Range: |
+Element: Jupiter
+Learned by: Hermit, Elder, Scholar, Savant, Sage, Seer, Diviner, Shaman,
+            Druid, (Earth) Enchanter, Pilgrim, (Fire) Enchanter, Medium,
+            Ranger.
+Ingame Description: Drain enemy's PP into yourself.
+
+
+Wish
+----
+PP: 9
+Level Learned: 12
+Range: |||||||||
+Element: Mercury
+Learned by: Scholar, Savant, Sage, White Mage.
+Ingame Description: Restore 80 HP to the whole party.
+Comments: One of the most useful Psynergy early in the game.
+
+
+Wish Well
+---------
+PP: 13
+Level Learned: 24
+Range: |||||||||
+Element: Mercury
+Learned by: Scholar, Savant, Sage, White Mage.
+Ingame Description: Restore 160 HP to the whole party.
+
+
+Pure Wish
+---------
+PP: 20
+Level Learned: 46
+Range: |||||||||
+Element: Mercury
+Learned by: Scholar, Savant, Sage, White Mage.
+Ingame Description: Restore 400 HP to the whole party.
+
+
+Cure
+----
+PP: 3
+Level Learned: 1
+Range: |
+Element: Venus
+Learned by: Seer, Diviner, Shaman, Druid, Ranger.
+Ingame Description: Restores 70 HP.
+
+
+Cure Well
+---------
+PP: 7
+Level Learned: 10
+Range: |
+Element: Venus
+Learned by: Seer, Diviner, Shaman, Druid, Ranger.
+Ingame Description: Restore 150 HP.
+
+
+Potent Cure
+-----------
+PP: 10
+Level Learned: 26
+Range: |
+Element: Venus
+Learned by: Seer, Diviner, Shaman, Druid, Ranger.
+Ingame Description: Restore 300 HP.
+
+
+Bolt
+----
+PP: 4
+Level Learned: 2
+Range: |
+Element: Jupiter
+Learned by: Seer, Diviner, Shaman, Druid, Medium.
+Ingame Description: Attack with a lightning bolt.
+
+
+Flash Bolt
+----------
+PP: 7
+Level Learned: 6
+Range: ;|;
+Element: Jupiter
+Learned by: Seer, Diviner, Shaman, Druid, Medium.
+Ingame Description: Attack with a lightning bolt.
+
+
+Blue Bolt
+---------
+PP: 14
+Level Learned: 22
+Range: ;|;
+Element: Jupiter
+Learned by: Seer, Diviner, Shaman, Druid, Medium.
+Ingame Description: Attack with a lightning bolt.
+
+
+Growth
+------
+PP: 4
+Level Learned: 3
+Range: |
+Element: Venus
+Learned by: Seer, Diviner, Shaman, Druid.
+Ingame Description: Attack with wild plants.
+Comments: Not so great of an attack. Avoid using it.
+
+
+Mad Growth
+----------
+PP: 10
+Level Learned: 12
+Range: ;|;
+Element: Venus
+Learned by: Seer, Diviner, Shaman, Druid.
+Ingame Description: Attack with ferocious plants.
+
+
+Wild Growth
+-----------
+PP: 15
+Level Learned: 29
+Range: ,;|;,
+Element: Venus
+Learned by: Seer, Diviner, Shaman, Druid.
+Ingame Description: Attack with giant plants.
+
+
+Revive
+------
+PP: 15
+Level Learned: 19(Shaman, Druid, Medium)
+               17(White Mage)
+Range: |
+Element: Venus
+Learned by: Shaman, Druid, Medium, White Mage.
+Ingame Description: Revive a downed ally.
+Comments: Extremely useful since he learns it early.
+
+
+Delude
+------
+PP: 4
+Level Learned: 1
+Range: ;|;
+Element: Jupiter
+Learned by: Both Enchanters
+Ingame Description: Wraps multiple foes in delusion.
+Comments: It's nice when it works.
+
+
+Astral Blast
+------------
+PP: 5
+Level Learned: 11
+Range: |
+Element: Jupiter
+Learned by: Both Enchanters.
+Ingame Description: Attack with celestial force.
+
+
+Gaia
+----
+PP: 7
+Level Learned: 6
+Range: ;|;
+Element: Venus
+Learned by: (Earth) Enchanter
+Ingame Description: Attack with the earth's might.
+
+
+Mother Gaia
+-----------
+PP: 17
+Level Learned: 24
+Range: .;|;.
+Element: Venus
+Learned by: (Earth) Enchanter
+Ingame Description: Attack with the earth's might.
+
+
+Grand Gaia
+----------
+PP: 17
+Level Learned: 54
+Range: .;|;.
+Element: Venus
+Learned by: (Earth) Enchanter
+Ingame Description: Attack with the earth's might.
+
+
+Weaken
+------
+PP: 4
+Level Learned: 9
+Range: |
+Element: Jupiter
+Learned by: Both Enchanters.
+Ingame Description: Drop enemy's Resistance.
+Comments: Not very useful unless you're fighting a boss.
+
+
+Enfeeble
+--------
+PP: 6
+Level Learned: 25
+Range: ;|;
+Element: Jupiter
+Learned by: Both Enchanters.
+Ingame Description: Drop enemy party's Resistance.
+
+
+Slash
+-----
+PP: 4
+Level Learned: 1
+Range: |
+Element: Jupiter
+Learned by: Pilgrim, Wanderer, Ascetic, Fire Monk, Ranger.
+Ingame Description: Attack with a blade of focused air.
+
+
+Wind Slash
+----------
+PP: 9
+Level Learned: 10
+Range: ;|;
+Element: Jupiter
+Learned by: Pilgrim, Wanderer, Ascetic, Fire Monk, Ranger.
+Ingame Description: Attack with a blade of focused air.
+
+
+Sonic Slash
+-----------
+PP: 20
+Level Learned: 30
+Range: ,;|;,
+Element: Jupiter
+Learned by: Pilgrim, Wanderer, Ascetic, Fire Monk, Ranger.
+Ingame Description: Attack with a blade of focused air.
+
+
+Volcano
+-------
+PP: 6
+Level Learned: 8
+Range: |
+Element: Mars
+Learned by: Asceti, Fire Monk, (Fire) Enchanter, Ranger.
+Ingame Description: Attack with volcanic might.
+
+
+Eruption
+--------
+PP: 14
+Level Learned: 22
+Range: ;|;
+Element: Mars
+Learned by: Asceti, Fire Monk, (Fire) Enchanter, Ranger.
+Ingame Description: Attack with volcanic might.
+
+
+Pyroclasm
+---------
+PP: 29
+Level Learned: 48
+Range: ,;|;,
+Element: Mars
+Learned by: Asceti, Fire Monk, (Fire) Enchanter, Ranger.
+Ingame Description: Attack with volcanic might.
+
+
+Douse
+-----
+PP: 5
+Level Learned: 2
+Range: ;|;
+Element: Mercury
+Learned by: Ranger.
+Ingame Description: Attack with a surge of water.
+
+
+Drench
+------
+PP: 10
+Level Learned: 12
+Range: ;|;
+Element: Mercury
+Learned by: Ranger.
+Ingame Description: Attack with a torrent of water.
+
+
+Deluge
+------
+PP: 20
+Level Learned: 30
+Range: ,;|;,
+Element: Mercury
+Learned by: Ranger.
+Ingame Description: Attack with a deadly flood.
+
+
+Froth
+-----
+PP: 5
+Level Learned: 2
+Range: ;|;
+Element: Mercury
+Learned by: Medium.
+Ingame Description: Attack with frothing bubbles.
+
+
+Froth Sphere
+------------
+PP: 12
+Level Learned: 14
+Range: ,;|;,
+Element: Mercury
+Learned by: Medium.
+Ingame Description: Attack with frenzied bubbles.
+
+
+Froth Spiral
+------------
+PP: 31
+Level Learned: 40
+Range: .,;|;,.
+Element: Mercury
+Learned by: Medium.
+Ingame Description: Attack with a bubble vortex.
+
+
+Haunt
+-----
+PP: 13
+Level Learned: 17
+Range: .;|;.
+Element: Mars
+Learned by: Medium.
+Ingame Description: Attack with a massive explosion.
+
+
+Curse
+-----
+PP: 5
+Level Learned: 20
+Range: |
+Element: Venus
+Learned by: Medium.
+Ingame Description: Draw the Spirit of Death to a foe.
+
+
+Condemn
+-------
+PP: 8
+Level Learned: 29
+Range: |
+Element: Venus
+Learned by: Medium.
+Ingame Description: Disable your enemy with evil power.
+
+
+Prism
+-----
+PP: 7
+Level Learned: 6
+Range: ;|;
+Element: Mercury
+Learned by: White Mage
+Ingame Description: Attack with ice crystals.
+
+
+Hail Prism
+----------
+PP: 16
+Level Learned: 20
+Range: ,;|;,
+Element: Mercury
+Learned by: White Mage
+Ingame Description: Attack with ice crystals.
+
+
+Freeze Prism
+------------
+PP: 31
+Level Learned: 52
+Range: ,;|;,
+Element: Mercury
+Learned by: White Mage
+Ingame Description: Attack with ice crystals.
+
+
+Dull
+----
+PP: 6
+Level Learned: 11
+Range: |
+Element: Mercury
+Learned by: Jupiter
+Ingame Description: Drop enemy Attack.
+
+
+Blunt
+-----
+PP: 11
+Level Learned: 37
+Range: ;|;
+Element: Jupiter
+Learned by: White Mage
+Ingame Description: Drop enemy Attack.
+
+
+<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+                                  [2.4] Mia
+<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
+Mia's default role is to be your cleric or healer. She's a Mercury Adept and
+learns great moves for healing such as Pure Wish and Restore. Like Ivan, she
+has weak offense but has invaluable Psynergy skills.
+
+Frost
+-----
+PP: 5
+Level Learned: 2
+Range: ;|;
+Element: Mercury
+Learned by: Water Seer, Scribe, Cleric, Paragon.
+Ingame Description: Attack with frigid blasts.
+Comments: Can freeze puddles outside of battle.
+
+
+Tundra
+------
+PP: 8
+Level Learned: 9
+Range: ;|;
+Element: Mercury
+Learned by: Water Seer, Scribe, Cleric, Paragon.
+Ingame Description: Attack with frigid blasts.
+
+
+Glacier
+-------
+PP: 15
+Level Learned: 24
+Range: ;|;
+Element: Mercury
+Learned by: Water Seer, Scribe, Cleric, Paragon.
+Ingame Description: Attack with frigid blasts.
+
+
+Ice
+---
+PP: 5
+Level Learned: 9
+Range: |
+Element: Mercury
+Learned by: Water Seer, Scribe, Cleric, Paragon.
+Ingame Description: Attack with spikes of ice.
+
+
+Ice Horn
+--------
+PP: 11
+Level Learned: 17
+Range: ;|;
+Element: Mercury
+Learned by: Water Seer, Scribe, Cleric, Paragon.
+Ingame Description: Attack with spikes of ice.
+
+
+Ice Missle
+----------
+PP: 23
+Level Learned: 42
+Range: ;|;
+Element: Mercury
+Learned by: Water Seer, Scribe, Cleric, Paragon.
+Ingame Description: Attack with spikes of ice.
+
+
+Break
+-----
+PP: 5
+Level Learned: 30(Those not listed below)
+               34(Pilgrim, Wanderer, Ascetic, Water Monk, Ranger)
+Range: |||||||||
+Element: Mercury
+Learned by: Water Seer, Scribe, Cleric, Paragon, Hermit, Elder, Scholar,
+            Savant, Sage, Pilgrim, Wanderer, Ascetic, Water Monk, (Fire)
+            Cavalier, Seer, Shman, Druid, (Earth) Cavalier, Ranger.
+Ingame Description: Eliminate an enemy's bonuses.
+
+
+Wish
+----
+PP: 9
+Level Learned: 8(Cleric, Paragon, (Fire) Cavalier, Shaman, Druid, (Earth) 
+                 Cavalier)
+               12(Scholar, Savant, Sage)
+               9(Ascetic, Water Monk, White Mage)
+Range: |||||||||
+Element: Mercury
+Learned by: Cleric, Paragon, Scholar, Savant, Sage, Ascetic, Water Monk,
+            (Fire) Cavalier, Shaman, Druid, (Earth) Cavalier, White Mage.
+Ingame Description: Restore 80 HP to the whole party.
+Comments: One of the most useful Psynergy early in the game.
+
+
+Wish Well
+---------
+PP: 13
+Level Learned: 22(Those not listed below)
+               24(White Mage)
+Range: |||||||||
+Element: Mercury
+Learned by: Cleric, Paragon, Scholar, Savant, Sage, Ascetic, Water Monk,
+            (Fire) Cavalier, Shaman, Druid, (Earth) Cavalier, White Mage.
+Ingame Description: Restore 160 HP to the whole party.
+
+
+Pure Wish
+---------
+PP: 20
+Level Learned: 46
+Range: |||||||||
+Element: Mercury
+Learned by: Cleric, Paragon, Scholar, Savant, Sage, Ascetic, Water Monk,
+            (Fire) Cavalier, Shaman, Druid, (Earth) Cavalier, White Mage.
+Ingame Description: Restore 400 HP to the whole party.
+
+
+Ply
+---
+PP: 3
+Level Learned: 1
+Range: |
+Element: Mercury
+Learned by: Water Seer, Scribe, Cleric, Paragon, (Fire) Cavalier, (Earth)
+            Cavalier.
+Ingame Description: Restore 100 HP with faith's power.
+Comments: Great when you get it, but the Wish spells will eventually be more
+          useful.
+
+
+Ply Well
+--------
+PP: 8
+Level Learned: 16
+Range: |
+Element: Mercury
+Learned by: Water Seer, Scribe, Cleric, Paragon, (Fire) Cavalier, (Earth)
+            Cavalier.
+Ingame Description: Restore 200 HP with faith's power.
+
+
+Pure Ply
+--------
+PP: 12
+Level Learned: 34
+Range: |
+Element: Mercury
+Learned by: Water Seer, Scribe, Cleric, Paragon, (Fire) Cavalier, (Earth)
+            Cavalier.
+Ingame Description: Restore 1000 HP with faith's power.
+
+
+Plasma
+------
+PP: 8
+Level Learned: 8
+Range: ;|;
+Element: Jupiter
+Learned by: Hermit, Elder, Scholar, Savant, Sage, White Mage.
+Ingame Description: Attack with a barrage of bolts.
+
+
+Shine Plasma
+------------
+PP: 18
+Level Learned: 26
+Range: ,;|;,
+Element: Jupiter
+Learned by: Hermit, Elder, Scholar, Savant, Sage, White Mage.
+Ingame Description: Attack with a barrage of bolts.
+
+
+Spark Plasma
+------------
+PP: 37
+Level Learned: 50(Everyone except below)
+Range: .,;|;,.
+Element: Jupiter
+Learned by: Hermit, Elder, Scholar, Savant, Sage, White Mage.
+Ingame Description: Attack with a barrage of bolts.
+
+
+Prism
+-----
+PP: 7
+Level Learned: 6
+Range: ;|;
+Element: Mercury
+Learned by: Hermit, Elder, Scholar, Savant, Sage, Pilgrim, Wanderer, Ascetic,
+            Water Monk, White Mage.
+Ingame Description: Attack with ice crystals.
+
+
+Hail Prism
+----------
+PP: 16
+Level Learned: 20
+Range: ,;|;,
+Element: Mercury
+Learned by: Hermit, Elder, Scholar, Savant, Sage, Pilgrim, Wanderer, Ascetic,
+            Water Monk, White Mage.
+Ingame Description: Attack with ice crystals.
+
+
+Freeze Prism
+------------
+PP: 31
+Level Learned: 52
+Range: ,;|;,
+Element: Mercury
+Learned by: Hermit, Elder, Scholar, Savant, Sage, Pilgrim, Wanderer, Ascetic,
+            Water Monk, White Mage.
+Ingame Description: Attack with ice crystals.
+
+
+Volcano
+-------
+PP: 6
+Level Learned: 8
+Range: |
+Element: Mars
+Learned by: Ascetic, Water Monk, Ranger.
+Ingame Description: Attack with volcanic might.
+
+
+Eruption
+--------
+PP: 14
+Level Learned: 22
+Range: ;|;
+Element: Mars
+Learned by: Ascetic, Water Monk, Ranger.
+Ingame Description: Attack with volcanic might.
+
+
+Pyroclasm
+---------
+PP: 29
+Level Learned: 48
+Range: ,;|;,
+Element: Mars
+Learned by: Ascetic, Water Monk, Ranger.
+Ingame Description: Attack with volcanic might.
+
+
+Blast
+-----
+PP: 5
+Level Learned: 2
+Range: ;|;
+Element: Mars
+Learned by: (Fire) Cavalier
+Ingame Description: Attack with an explosive blast.
+
+
+Mad Blast
+---------
+PP: 9
+Level Learned: 10
+Range: ;|;
+Element: Mars
+Learned by: (Fire) Cavalier
+Ingame Description: Attack with an explosive blast.
+
+
+Fiery Blast
+-----------
+PP: 19
+Level Learned: 27
+Range: ,;|;,
+Element: Mars
+Learned by: (Fire) Cavalier
+Ingame Description: Attack with an explosive blast.
+
+
+Guard
+-----
+PP: 3
+Level Learned: 3
+Range: |
+Element: Mars
+Learned by: (Fire) Cavalier.
+Ingame Description: Boost ally's Defense.
+
+
+Protect
+-------
+PP: 5
+Level Learned: 15
+Range: |||||||
+Element: Mars
+Learned by: (Fire) Cavalier.
+Ingame Description: Boost party's Defense.
+
+
+Cure
+----
+PP: 3
+Level Learned: 1(Everything that's not a Medium)
+               3(Medium)
+Range: |
+Element: Venus
+Learned by: Seer, Diviner, Shaman, Druid, Medium.
+Ingame Description: Restores 70 HP.
+Comments: It doesn't exactle restore 70 HP. Just around there, depending
+          on the level.
+
+
+Cure Well
+---------
+PP: 7
+Level Learned: 10
+Range: |
+Element: Venus
+Learned by: Seer, Diviner, Shaman, Druid, Medium.
+Ingame Description: Restore 150 HP.
+Comments: Like Cure, it doesn't exactly restore 150 HP. Just somewhere within
+          that area. Cure Well isn't really that helpful on Isaac since most
+          of the time he'll be attacking.
+
+
+Potent Cure
+-----------
+PP: 10
+Level Learned: 26
+Range: |
+Element: Venus
+Learned by: Seer, Diviner, Shaman, Druid, Medium.
+Ingame Description: Restore 300 HP.
+Comments: By the time you get Potent Cure, you probably won't need it. It
+          restores AROUND 300 HP, not exactly.
+
+
+Froth
+-----
+PP: 5
+Level Learned: 2
+Range: ;|;
+Element: Mercury
+Learned by: Seer, Diviner, Shaman, Druid, Medium.
+Ingame Description: Attack with frothing bubbles.
+
+
+Froth Sphere
+------------
+PP: 12
+Level Learned: 14
+Range: ,;|;,
+Element: Mercury
+Learned by: Seer, Diviner, Shaman, Druid, Medium.
+Ingame Description: Attack with frenzied bubbles.
+
+
+Froth Spiral
+------------
+PP: 31
+Level Learned: 40
+Range: .,;|;,.
+Element: Mercury
+Learned by: Seer, Diviner, Shaman, Druid, Medium.
+Ingame Description: Attack with a bubble vortex.
+
+
+Restore
+-------
+PP: 3
+Level Learned: 13
+Range: |
+Element: Mercury
+Learned by: Water Seer, SCribe, Cleric, Paragon, Pilgrim, Wanderer, Ascetic,
+            Water Monk, (Fire) Cavalier, Seer, Diviner, Shaman, Druid, (Earth)
+            Cavalier, White Mage.
+Ingame Description: Remove sleep, stun, and delusion.
+
+
+Cure Poison
+-----------
+PP: 2
+Level Learned: 5(Everything not a White Mage)
+               1(White Mage)
+Range: |
+Element: Mercury
+Learned by: Water Seer, SCribe, Cleric, Paragon, Pilgrim, Wanderer, Ascetic,
+            Water Monk, (Fire) Cavalier, Seer, Diviner, Shaman, Druid, (Earth)
+            Cavalier, White Mage.
+Ingame Description: Cleanse the body of poison.
+
+
+Cutting Edge
+------------
+PP: 5
+Level Learned: 11
+Range: |
+Element: Mercury
+Learned by: Both Cavaliers
+Ingame Description: Inflict damage with a shock wave.
+
+
+Growth
+------
+PP: 4
+Level Learned: 1
+Range: |
+Element: Venus
+Learned by: Seer, Diviner, Shaman, Druid.
+Ingame Description: Attack with wild plants.
+Comments: Not so great of an attack. Avoid using it.
+
+
+Mad Growth
+----------
+PP: 10
+Level Learned: 12
+Range: ;|;
+Element: Venus
+Learned by: Seer, Diviner, Shaman, Druid.
+Ingame Description: Attack with ferocious plants.
+
+
+Wild Growth
+-----------
+PP: 15
+Level Learned: 28
+Range: ,;|;,
+Element: Venus
+Learned by: Seer, Diviner, Shaman, Druid.
+Ingame Description: Attack with giant plants.
+
+
+Thorn
+-----
+PP: 4
+Level Learned: 4
+Range: ;|;
+Element: Venus
+Learned by: (Earth) Cavalier.
+Ingame Description: Attack with stabbing thorns.
+
+
+Briar
+-----
+PP: 11
+Level Learned: 14
+Range: ;|;
+Element: Venus
+Learned by: (Earth) Cavalier.
+Ingame Description: Attack with sharpened briars.
+
+
+Nettle
+------
+PP: 23
+Level Learned: 36
+Range: ,;|;,
+Element: Venus
+Learned by: (Earth) Cavalier.
+Ingame Description: Attack with stinging nettles.
+
+
+Slash
+-----
+PP: 4
+Level Learned: 1
+Range: |
+Element: Jupiter
+Learned by: Ranger.
+Ingame Description: Attack with a blade of focused air.
+
+
+Wind Slash
+----------
+PP: 9
+Level Learned: 10
+Range: ;|;
+Element: Jupiter
+Learned by: Ranger.
+Ingame Description: Attack with a blade of focused air.
+
+
+Sonic Slash
+-----------
+PP: 20
+Level Learned: 30
+Range: ,;|;,
+Element: Jupiter
+Learned by: Ranger.
+Ingame Description: Attack with a blade of focused air.
+
+
+Haunt
+-----
+PP: 13
+Level Learned: 17
+Range: .;|;.
+Element: Mars
+Learned by: Medium.
+Ingame Description: Attack with a massive explosion.
+
+
+Curse
+-----
+PP: 5
+Level Learned: 20
+Range: |
+Element: Venus
+Learned by: Medium.
+Ingame Description: Draw the Spirit of Death to a foe.
+
+
+Condemn
+-------
+PP: 8
+Level Learned: 29
+Range: |
+Element: Venus
+Learned by: Medium.
+Ingame Description: Disable your enemy with evil power.
+
+
+Dull
+----
+PP: 6
+Level Learned: 11
+Range: |
+Element: Mercury
+Learned by: Jupiter
+Ingame Description: Drop enemy Attack.
+
+
+Blunt
+-----
+PP: 11
+Level Learned: 37
+Range: ;|;
+Element: Jupiter
+Learned by: White Mage
+Ingame Description: Drop enemy Attack.
+
+
+<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+                                 [2.5] Jenna
+<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
+You can control Jenna for only a little while, but she has moves nonetheless.
+You cannot change her class or moves. Her class is a Flame User.
+
+
+Flare
+-----
+PP: 4
+Level Learned: 1
+Range: ;|;
+Element: Mars
+Learned by: Flame User.
+Ingame Description: Attack with flaring flames.
+
+
+Flare Wall
+----------
+PP: 7
+Level Learned: 6
+Range: ;|;
+Element: Mars
+Learned by: Flame User.
+Ingame Description: Attack with searing flames.
+
+
+Flare Storm
+-----------
+PP: 12
+Level Learned: 18
+Range: ;|;
+Element: Mars
+Learned by: Flame User.
+Ingame Description: Attack with incinerating flames.
+
+
+<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+                              [2.6] Universal
+<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
+This is just a list of the Psynergy that you learn by equipping an item. Most
+can't be used during battle.
+
+
+Douse
+-----
+PP: 5
+Item Needed: Douse Drop
+Ingame Description: Attack with a surge of water.
+
+
+Catch
+-----
+PP: 1
+Item Needed: Catch Beeds
+Ingame Description: Grab light objects from afar.
+
+
+Halt
+----
+PP: 2
+Item Needed: Halt Gem. You'll use it twice in the game.
+Ingame Description: Stop a moving object.
+
+
+Cloak
+-----
+PP: 1
+Item Needed: Cloak Ball. You must have won Colosso to get this.
+Ingame Description: Hide away in shadows.
+
+
+Force
+-----
+PP: 2
+Item Needed: Force Gem.
+Ingame Description: Strike a distant object.
+
+
+Carry
+-----
+PP: 2
+Item Needed: Carry Gem.
+Ingame Description: Lift and move light objects.
+
+
+Lift
+----
+PP: 2
+Item Needed: Lifting Gem.
+Ingame Description: Lift an object vertically.
+
+
+
+<#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#>
+
+                            {3.0} LIST OF CLASSES
+
+<#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#>
+
+
+As you may know, having a different Djinni or making them standby can change
+your class and the moves that you learn. This is a grand list of all the
+classes in the game, how to change to them, and the moves you gain of lose
+with them. Use this list to decide what you want your character to be or the
+best classes for him/her.
+
+Note: The Djinn needed is just one example of how you can get that class.
+There are multiple ways of getting it, but most of these are based on when you
+have seven Djinn.
+
+
+<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+                                 [3.1] Isaac
+<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
+Squire/Knight:
+--------------
+Ragnarok
+Quake   
+Earthquake
+Quake Sphere
+Spire       
+Clay Spire  
+Stone Spire 
+Cure        
+Cure Well   
+Potent Cure 
+                             
+Djinn Needed: 1-3 Venus Djinn
+
+
+Gallant/Lord/Slayer
+-------------------
+All of the above
+Gaia
+Mother Gaia
+Grand Gaia
+
+Djinn Needed: 4-8 Venus Djinn
+                             
+
+Brute:
+------
+Planet Diver
+Growth
+Mad Growth
+Wild Growth
+Blast
+Nova
+Supernova
+Curse
+Condemn
+
+Djinn Needed: 3 Venus Djinn, 3 Mars Djinn
+
+
+Apprentice/Illusionist:
+-----------------------
+Astral Blast
+Gaia
+Mother Gaia
+Grand Gaia
+Weaken
+Enfeeble
+Delude
+Sleep
+Haunt
+Curse
+Drain
+Psy Drain
+
+Djinn Needed: 4 Venus, 3 Jupiter
+
+
+Enchanter/Conjurer/War Adept:
+-----------------------------
+All of the above
+Impact
+High Impace
+Resist
+Ward
+
+Djinn Needed: 6 Jupiter, 1 Venus
+
+
+Ninja:
+------
+Death Plunge
+Shuriken
+Annihilation
+Punji
+Punji Strike
+Punji Trap
+Fire Bomb
+Cluster Bomb
+Carpet Bomb
+Gale
+Typhoon
+Hurricane
+Thunderclap
+Thunderbolt
+Thunderstorm
+Mist
+
+Djinn Needed: 3 Mars, 4 Jupiter
+
+
+Samurai:
+--------
+Dragon Cloud
+Demon Night
+Helm Splitter
+Quick Strike
+Rockfall
+Rockslide
+Avalanche
+Lava Shower
+Molten Bath
+Magma Storm
+Demon Spear
+Angel Spear
+Guardian
+Protector
+Magic Shell
+Magic Shield
+
+Djinn Needed: 3 Jupiter, 4 Mars
+
+
+Barbarian/Berserker/Chaos Lord/Savage:
+--------------------------------------
+Planet Diver
+Spire
+Clay Spire
+Stone Spire
+Growth
+Mad Growth
+Wild Growth
+Blast
+Nova
+Supernova
+Revive
+Impair
+Debilitate
+Haunt
+Curse
+Condemn
+
+Djinn Needed: 8 Mars
+
+
+Swordsman:
+----------
+Cutting Edge
+Thorn
+Briar
+Nettle
+Revive
+Cure Poison
+Break
+Restore
+
+Djinn Needed: 1 Mercury, 6 Venus
+
+
+Defender:
+---------
+Same as above
+Ply
+Ply Well
+Pure Ply
+Avoid
+
+Djinn Needed: 3 Mercury, 4 Venus
+
+
+Cavalier/Guardian:
+------------------
+Same as above
+Wish
+Wish Well
+Pure Wish
+
+Djinn Needed: 2 Venus, 5 Mercury
+
+
+(Water) Shaman:
+---------------
+Froth
+Froth Sphere
+Froth Spiral
+Growth
+Mad Growth
+Wild Growth
+Cure
+Cure Well
+Potent Cure
+Revive
+Wish
+Wish Well
+Pure Wish
+Cure Poison
+Restore
+Break
+
+Djinn Needed: 7 Mercury
+
+
+(Wind) Shaman:
+--------------
+Bolt
+Flash Bolt
+Blue Bolt
+Growth
+Mad Growth
+Wild Growth
+Cure
+Cure Well
+Potent Cure
+Revive
+Ward
+Resist
+Bind
+Drain
+Psy Drain
+
+Djinn Needed: 7 Jupiter
+
+
+Dragoon:
+--------
+Cutting Edge
+Thorn
+Briar
+Nettle
+Blast
+Mad Blast
+Fiery Blast
+Ply
+Ply Well
+Pure Ply
+Wish
+Wish Well
+Pure Wish
+Cure Poison
+Restore
+Avoid
+
+Djinn Needed: 3 Mars, 4 Mercury
+
+
+<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+                                 [3.2] Garet
+<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
+Guard/Soldier:
+--------------
+Flare
+Fire
+Flare Wall
+Volcano
+Heat Wave
+Fireball
+Flare Storm
+Eruption
+Inferno
+Pyroclasm
+                             
+Djinn Needed: 1-3 Mars Djinn
+
+
+Warrior/Champion:
+-----------------
+All of the above
+Guard
+Impair
+Protect
+Debilitate
+
+Djinn Needed: 4-8 Mars Djinn
+                             
+
+Brute/Ruffian:
+--------------
+Planet Diver
+Growth
+Mad Growth
+Wild Growth
+Blast
+Nova
+Supernova
+Curse
+Condemn
+
+Djinn Needed: 1 Venus Djinn, 6 Mars Djinn
+
+
+Savage/Barbarian/Berserker:
+---------------------------
+All of the above
+Spire
+Impair
+Revive
+Clay Spire
+Debilitate
+Stone Spire
+
+Djinn Needed: 4 Venus Djinn, 3 Mars Djinn
+
+
+Swordsman:
+----------
+Blast
+Guard
+Cure Poison
+Mad Blast
+Cutting Edge
+Restore
+Protect
+Fiery Blast
+Break
+
+Djinn Needed: 1 Mercury, 6 Mars
+
+
+Defender:
+---------
+Same as above
+Ply
+Ply Well
+Pure Ply
+Avoid
+
+Djinn Needed: 2 Mercury, 5 Mars
+
+
+Cavalier/Luminier:
+-----------------
+Same as above
+Wish
+Wish Well
+Pure Wish
+
+Djinn Needed: 3 Mars, 4 Mercury
+
+
+(Water) Ascetic:
+----------------
+Douse
+Cure Poison
+Prism
+Volcano
+Wish
+Drench
+Restore
+Hail Prism
+Eruption
+Wish Well
+Deluge
+Break
+Pure Wish
+Pyroclasm
+Freeze Prism
+
+Djinn Needed: 8 Mercury
+
+
+Page/Illusionist:
+-----------------
+Delude
+Ward
+Volcano
+Weaken
+Astral Blast
+Eruption
+Resist
+Enfeeble
+Drain
+Psy Drain
+Pyroclasm
+
+Djinn Needed: 6 Mars, 1 Jupiter
+
+
+Enchanter/Conjurer:
+-------------------
+All of the above
+Impact
+High Impact
+Guard
+Protect
+
+Djinn Needed: 6 Jupiter, 1 Mars
+
+
+Ninja:
+------
+Death Plunge
+Shuriken
+Annihilation
+Punji
+Punji Strike
+Punji Trap
+Fire Bomb
+Cluster Bomb
+Carpet Bomb
+Gale
+Typhoon
+Hurricane
+Thunderclap
+Thunderbolt
+Thunderstorm
+Mist
+
+Djinn Needed: 3 Venus, 4 Jupiter
+
+
+Samurai:
+--------
+Dragon Cloud
+Demon Night
+Helm Splitter
+Quick Strike
+Rockfall
+Rockslide
+Avalanche
+Lava Shower
+Molten Bath
+Magma Storm
+Demon Spear
+Angel Spear
+Guardian
+Protector
+Magic Shell
+Magic Shield
+
+Djinn Needed: 3 Jupiter, 4 Venus
+
+
+(Wind) Ascetic:
+---------------
+Slash
+Ward
+Volcano
+Plasma
+Wind Slash
+Bind
+Eruption
+Resist
+Shine Plasma
+Sonic Slash
+Drain
+Psy Drain
+Pyroclasm
+Spark Plasma
+
+Djinn Needed: 7 Jupiter
+
+
+Dragoon:
+--------
+Cutting Edge
+Thorn
+Briar
+Nettle
+Blast
+Mad Blast
+Fiery Blast
+Ply
+Ply Well
+Pure Ply
+Wish
+Wish Well
+Pure Wish
+Cure Poison
+Restore
+Avoid
+
+Djinn Needed: 3 Venus 4 Mercury
+
+
+<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+                                 [3.3] Ivan
+<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
+Wind Seer:
+----------
+Ray
+Storm Ray
+Destruct Ray
+Whirlwind
+Tornado
+Tempest
+Plasma
+Shine Plasma
+Spark Plasma
+Sleep
+Bind
+
+Djinn Needed: 1 Jupiter
+
+
+Magician:
+---------
+All of the above
+Impact
+High Impact
+
+Djinn Needed: 2 Jupiter
+
+
+Mage/Magister:
+--------------
+Same as above
+Ward
+Resist
+
+Djinn Needed: 7 Jupiter
+
+
+Hermit/Elder:
+-------------
+Prism
+Hail Prism
+Freeze Prism
+Plasma
+Shine Plasma
+Spark Plasma
+Impact
+High Impact
+Bind
+Drain
+Psy Drain
+Break
+
+Djinn Needed: 2 Mercury, 5 Jupiter
+
+
+Scholar/Savant/Sage:
+--------------------
+All of the above
+Wish
+Wish Well
+Pure Wish
+
+Djinn Needed: 1 Jupiter, 6 Mercury
+
+
+Seer/Diviner:
+-------------
+Bolt
+Flash Bolt
+Blue Bolt
+Growth
+Mad Growth
+Wild Growth
+Cure
+Cure Well
+Potent Cure
+Bind
+Drain
+Psy Drain
+
+Djinn Needed: 2 Venus, 5 Jupiter
+
+
+Shaman/Druid:
+-------------
+All of the above
+Revive
+Ward
+Resist
+
+Djinn Needed: 6 Venus, 1 Jupiter
+
+
+(Earth) Shaman:
+---------------
+Astral Blast
+Gaia
+Mother Gaia
+Grand Gaia
+Impact
+High Impact
+Ward
+Resist
+Weaken
+Enfeeble
+Delude
+Sleep
+Haunt
+Curse
+Drain
+Psy Drain
+
+Djinn Needed: 7 Venus
+
+
+Pilgrim/Wanderer:
+-----------------
+Slash
+Wind Slash
+Sonic Slash
+Plasma
+Shine Plasma
+Spark Plasma
+Bind
+Drain
+Psy Drain
+
+Djinn Needed: 6 Jupiter, 1 Mars
+
+
+Ascetic/Fire Monk:
+------------------
+All of the above
+Volcano
+Eruption
+Pyroclasm
+Ward
+Resist
+
+Djinn Needed: 4 Mars, 3 Jupiter
+
+
+(Fire) Enchanter:
+-----------------
+Astral Blast
+Volcano
+Eruption
+Pyroclasm
+Impact
+High Impact
+Guard
+Protect
+Ward
+Resist
+Weaken
+Enfeeble
+Delude
+Sleep
+Drain
+Psy Drain
+
+Djinn Needed: 7 Mars
+
+
+Ranger:
+-------
+Slash
+Wind Slash
+Sonich Slash
+Douse
+Drench
+Deluge
+Volcano
+Eruption
+Pyroclasm
+Ward
+Resist
+Bind
+Drain
+Psy Drain
+Break
+
+Djinn Needed: 4 Mars, 3 Mercury
+
+
+Medium:
+-------
+Haunt
+Curse
+Condemn
+Bolt
+Flash Bolt
+Blue Bolt
+Froth
+Froth Sphere
+Froth Spiral
+Cure
+Cure Well
+Potent Cure
+Revive
+Drain
+Psy Drain
+
+Djinn Needed: 4 Venus, 3 Mercury
+
+
+White Mage:
+-----------
+Prism
+Hail Prism
+Freeze Prism
+Plasma
+Shine Plasma
+Spark Plasma
+Wish
+Wish Well
+Pure Wish
+Revive
+Cure Poison
+Restore
+Dull
+Blunt
+Ward
+Resist
+
+Djinn Needed: 3 Venus, 4 Mercury
+
+
+<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+                                 [3.4] Mia
+<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
+Water Seer/Scribe:
+------------------
+Ply
+Ply Well
+Pure Ply
+Cure Poison
+Restore
+Frost
+Tundra
+Glacier
+Ice
+Ice Horn
+Ice Missle
+Break
+
+Djinn Needed: 2 Mercury
+
+
+Cleric/Paragon:
+---------------
+Same as above
+Wish
+Wish Well
+Pure Wish
+
+Djinn Needed: 7 Mercury
+
+
+Hermit/Elder:
+-------------
+Prism
+Hail Prism
+Freeze Prism
+Plasma
+Shine Plasma
+Spark Plasma
+Impact
+High Impact
+Bind
+Drain
+Psy Drain
+Break
+
+Djinn Needed: 5 Mercury, 2 Jupiter
+
+
+Scholar/Savant/Sage:
+--------------------
+All of the above
+Wish
+Wish Well
+Pure Wish
+
+Djinn Needed: 6 Jupiter, 1 Mercury
+
+
+Seer/Diviner:
+-------------
+Froth
+Froth Sphere
+Froth Spiral
+Growth
+Mad Growth
+Wild Growth
+Cure
+Cure Well
+Potent Cure
+Cure Poison
+Restore
+Break
+
+Djinn Needed: 2 Venus, 5 Mercury
+
+
+Shaman/Druid:
+-------------
+All of the above
+Revive
+Wish
+Wish Well
+Pure Wish
+
+Djinn Needed: 5 Venus, 2 Mercury
+
+
+(Earth) Cavalier:
+-----------------
+Cutting Edge
+Thorn
+Briar
+Nettle
+Ply
+Ply Well
+Pure Ply
+Wish
+Wish Well
+Pure Wish
+Revive
+Cure Poison
+Restore
+Break
+Avoid
+
+Djinn Needed: 7 Venus
+
+
+Pilgrim/Wanderer:
+-----------------
+Douse
+Drench
+Deluge
+Prism
+Hail Prism
+Freeze Prism
+Cure Poison
+Restore
+Break
+
+Djinn Needed: 6 Mercury, 1 Mars
+
+
+Ascetic/Water Monk:
+-------------------
+All of the above
+Volcano
+Eruption
+Pyroclasm
+Wish
+Wish Well
+Pure Wish
+
+Djinn Needed: 4 Mars, 3 Mercury
+
+
+(Fire) Cavalier:
+----------------
+Cutting Edge
+Blast
+Mad Blast
+Fiery Blast
+Ply
+Ply Well
+Pure Ply
+Wish
+Wish Well
+Pure Wish
+Cure Poison
+Restore
+Guard
+Protect
+Break
+Avoid
+
+Djinn Needed: 7 Mars
+
+
+Ranger:
+-------
+Slash
+Wind Slash
+Sonic Slash
+Douse
+Drench
+Deluge
+Volcano
+Eruption
+Pyroclasm
+Ward
+Resist
+Bind
+Drain
+Psy Drain
+Break
+
+Djinn Needed: 4 Mars, 3 Jupiter
+
+
+Medium:
+-------
+Haunt
+Curse
+Condemn
+Bolt
+Flash Bolt
+Blue Bolt
+Froth
+Froth Sphere
+Froth Spiral
+Cure
+Cure Well
+Potent Cure
+Revive
+Drain
+Psy Drain
+
+Djinn Needed: 4 Venus, 3 Mercury
+
+
+White Mage:
+-----------
+Prism
+Hail Prism
+Freeze Prism
+Plasma
+Shine Plasma
+Spark Plasma
+Wish
+Wish Well
+Pure Wish
+Revive
+Cure Poison
+Restore
+Dull
+Blunt
+Ward
+Resist
+
+Djinn Needed: 3 Venus, 4 Mercury
+
+
+
+<#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#>
+
+                                  {4.0} FAQ
+
+<#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#>
+
+
+Q: Can you get Jenna as a permanent party member?
+A: No, but I think there's an Action Replay(cheat device) code for it. I don't
+   know it though.
+
+
+Q: What's the best class for each character?
+A: I don't know. I'm not a Golden Sun expert, it's best if you ask the
+   GameFAQs message board for that.
+
+
+Q: Where do I get...
+A: I don't remember. Look up another FAQ for it as most of the universal
+   Psynergy are default items that you get during the storyline.
+
+
+
+<#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#>
+
+                               {5.0} CONCLUSION
+
+<#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#><#>
+
+
+Thanks for reading this FAQ. I'm hoping it helped, even if it's just a little.
+If there's any further questions you're like to ask me, feel free to E-mail
+at:
+
+
+plasmad00d13smooth{at}gmail[dot]com
+
+
+Credits:
+=-=-=-=-
+1. TFergusson - I learned a lot about this game from your FAQ. :)
+
+
+
+------------------------------------------------------------------------------
+Copyright 2005 {c} MG(Strawhat)                 #26                END OF FILE
+Restore Page
+
