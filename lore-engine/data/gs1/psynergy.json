@@ -1,0 +1,4039 @@
+[
+  {
+    "id": "cure",
+    "name": "Cure",
+    "game": "gs1",
+    "element": "earth",
+    "category": "healing",
+    "pp_cost": 3,
+    "range": 1,
+    "target": "ally",
+    "battle_usable": true,
+    "level_learned": 1,
+    "level_learned_variants": "1 (most classes) / 3 (Mia/Ivan Medium)",
+    "series": "cure",
+    "tier": 1,
+    "description": "Restore 70 HP.",
+    "effect_notes": "Restores approximately 70 HP, scaling with level (strawhat).",
+    "available_to": [
+      "Isaac",
+      "Ivan",
+      "Mia"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "cure-well",
+    "name": "Cure Well",
+    "game": "gs1",
+    "element": "earth",
+    "category": "healing",
+    "pp_cost": 7,
+    "range": 1,
+    "target": "ally",
+    "battle_usable": true,
+    "level_learned": 10,
+    "series": "cure",
+    "tier": 2,
+    "description": "Restore 150 HP.",
+    "effect_notes": "Restores approximately 150 HP, scaling with level (strawhat).",
+    "available_to": [
+      "Isaac",
+      "Ivan",
+      "Mia"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "potent-cure",
+    "name": "Potent Cure",
+    "game": "gs1",
+    "element": "earth",
+    "category": "healing",
+    "pp_cost": 10,
+    "range": 1,
+    "target": "ally",
+    "battle_usable": true,
+    "level_learned": 26,
+    "series": "cure",
+    "tier": 3,
+    "description": "Restore 300 HP.",
+    "effect_notes": "Restores approximately 300 HP, not an exact amount (strawhat).",
+    "available_to": [
+      "Isaac",
+      "Ivan",
+      "Mia"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "revive",
+    "name": "Revive",
+    "game": "gs1",
+    "element": "earth",
+    "category": "healing",
+    "pp_cost": 15,
+    "range": 1,
+    "target": "ally",
+    "battle_usable": true,
+    "level_learned": 17,
+    "level_learned_variants": "17 (Ivan White Mage) / 19 (all other classes)",
+    "series": null,
+    "tier": null,
+    "description": "Revive a downed ally.",
+    "effect_notes": null,
+    "available_to": [
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "ragnarok",
+    "name": "Ragnarok",
+    "game": "gs1",
+    "element": "earth",
+    "category": "attack",
+    "pp_cost": 7,
+    "range": 1,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 13,
+    "series": null,
+    "tier": null,
+    "description": "Strike with a massive sword.",
+    "effect_notes": "One of the most powerful attacks available early in the game (strawhat).",
+    "available_to": [
+      "Isaac"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "quake",
+    "name": "Quake",
+    "game": "gs1",
+    "element": "earth",
+    "category": "attack",
+    "pp_cost": 4,
+    "range": 3,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 2,
+    "series": "quake",
+    "tier": 1,
+    "description": "Attack with a powerful quake.",
+    "effect_notes": null,
+    "available_to": [
+      "Isaac"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "earthquake",
+    "name": "Earthquake",
+    "game": "gs1",
+    "element": "earth",
+    "category": "attack",
+    "pp_cost": 7,
+    "range": 5,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 4,
+    "series": "quake",
+    "tier": 2,
+    "description": "Attack with a mighty tremor.",
+    "effect_notes": null,
+    "available_to": [
+      "Isaac"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "quake-sphere",
+    "name": "Quake Sphere",
+    "game": "gs1",
+    "element": "earth",
+    "category": "attack",
+    "pp_cost": 15,
+    "range": 7,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 14,
+    "series": "quake",
+    "tier": 3,
+    "description": "Attack with a massive quake.",
+    "effect_notes": null,
+    "available_to": [
+      "Isaac"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "spire",
+    "name": "Spire",
+    "game": "gs1",
+    "element": "earth",
+    "category": "attack",
+    "pp_cost": 5,
+    "range": 1,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 6,
+    "series": "spire",
+    "tier": 1,
+    "description": "Attack with earthen spire.",
+    "effect_notes": null,
+    "available_to": [
+      "Isaac",
+      "Garet"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ],
+    "conflicts": [
+      {
+        "field": "range",
+        "values": {
+          "jiggyhunter": 1,
+          "tetzcatlipoca": 1,
+          "strawhat": 3
+        },
+        "note": "Majority value (1) used."
+      }
+    ]
+  },
+  {
+    "id": "clay-spire",
+    "name": "Clay Spire",
+    "game": "gs1",
+    "element": "earth",
+    "category": "attack",
+    "pp_cost": 13,
+    "range": 3,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 20,
+    "series": "spire",
+    "tier": 2,
+    "description": "Attack with earthen spire.",
+    "effect_notes": null,
+    "available_to": [
+      "Isaac",
+      "Garet"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "stone-spire",
+    "name": "Stone Spire",
+    "game": "gs1",
+    "element": "earth",
+    "category": "attack",
+    "pp_cost": 22,
+    "range": 3,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 42,
+    "series": "spire",
+    "tier": 3,
+    "description": "Attack with earthen spire.",
+    "effect_notes": "strawhat lists this as a second 'Clay Spire' entry (22 PP, level 42) — a transcription error.",
+    "available_to": [
+      "Isaac",
+      "Garet"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat"
+    ],
+    "conflicts": [
+      {
+        "field": "range",
+        "values": {
+          "jiggyhunter": 5,
+          "tetzcatlipoca": 3,
+          "strawhat": 3
+        },
+        "note": "Majority value (3) used."
+      }
+    ]
+  },
+  {
+    "id": "gaia",
+    "name": "Gaia",
+    "game": "gs1",
+    "element": "earth",
+    "category": "attack",
+    "pp_cost": 7,
+    "range": 3,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 6,
+    "level_learned_variants": "6 (Ivan Enchanter classes) / 7 (Isaac classes)",
+    "series": "gaia",
+    "tier": 1,
+    "description": "Attack with the earth's might.",
+    "effect_notes": "A very good move when first obtained, especially against multiple enemies (strawhat).",
+    "available_to": [
+      "Isaac",
+      "Ivan"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "mother-gaia",
+    "name": "Mother Gaia",
+    "game": "gs1",
+    "element": "earth",
+    "category": "attack",
+    "pp_cost": 17,
+    "range": 5,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 24,
+    "series": "gaia",
+    "tier": 2,
+    "description": "Attack with the earth's might.",
+    "effect_notes": null,
+    "available_to": [
+      "Isaac",
+      "Ivan"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "grand-gaia",
+    "name": "Grand Gaia",
+    "game": "gs1",
+    "element": "earth",
+    "category": "attack",
+    "pp_cost": 32,
+    "range": 5,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 54,
+    "series": "gaia",
+    "tier": 3,
+    "description": "Attack with the earth's might.",
+    "effect_notes": null,
+    "available_to": [
+      "Isaac",
+      "Ivan"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat"
+    ],
+    "conflicts": [
+      {
+        "field": "pp_cost",
+        "values": {
+          "tetzcatlipoca": 32,
+          "strawhat": 17
+        },
+        "note": "strawhat's 17 PP appears copied from its Mother Gaia entry. tetzcatlipoca value used. jiggyhunter lists the ability without PP ('Description Needed')."
+      }
+    ]
+  },
+  {
+    "id": "growth",
+    "name": "Growth",
+    "game": "gs1",
+    "element": "earth",
+    "category": "attack",
+    "pp_cost": 4,
+    "range": 1,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 1,
+    "level_learned_variants": "1 (Isaac, Garet, Mia) / 3 (Ivan Seer classes)",
+    "series": "growth",
+    "tier": 1,
+    "description": "Attack with wild plants.",
+    "effect_notes": "Not so great of an attack; avoid using it (strawhat).",
+    "available_to": [
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "mad-growth",
+    "name": "Mad Growth",
+    "game": "gs1",
+    "element": "earth",
+    "category": "attack",
+    "pp_cost": 10,
+    "range": 3,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 12,
+    "series": "growth",
+    "tier": 2,
+    "description": "Attack with ferocious plants.",
+    "effect_notes": null,
+    "available_to": [
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "wild-growth",
+    "name": "Wild Growth",
+    "game": "gs1",
+    "element": "earth",
+    "category": "attack",
+    "pp_cost": 19,
+    "range": 5,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 28,
+    "level_learned_variants": "28 (Isaac, Garet, Mia) / 29 (Ivan Seer classes)",
+    "series": "growth",
+    "tier": 3,
+    "description": "Attack with giant plants.",
+    "effect_notes": null,
+    "available_to": [
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ],
+    "conflicts": [
+      {
+        "field": "pp_cost",
+        "values": {
+          "tetzcatlipoca": 19,
+          "strawhat": 15,
+          "plz2bstfu-class": 19
+        },
+        "note": "Majority value (19) used."
+      }
+    ]
+  },
+  {
+    "id": "punji",
+    "name": "Punji",
+    "game": "gs1",
+    "element": "earth",
+    "category": "attack",
+    "pp_cost": 7,
+    "range": 3,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 4,
+    "series": "punji",
+    "tier": 1,
+    "description": "Attack with a bamboo weapon.",
+    "effect_notes": null,
+    "available_to": [
+      "Isaac",
+      "Garet"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "punji-trap",
+    "name": "Punji Trap",
+    "game": "gs1",
+    "element": "earth",
+    "category": "attack",
+    "pp_cost": 13,
+    "range": 3,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 15,
+    "series": "punji",
+    "tier": 2,
+    "description": "Attack with a bamboo weapon.",
+    "effect_notes": null,
+    "available_to": [
+      "Isaac",
+      "Garet"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "punji-strike",
+    "name": "Punji Strike",
+    "game": "gs1",
+    "element": "earth",
+    "category": "attack",
+    "pp_cost": 24,
+    "range": 5,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 36,
+    "series": "punji",
+    "tier": 3,
+    "description": "Attack with a bamboo weapon.",
+    "effect_notes": null,
+    "available_to": [
+      "Isaac",
+      "Garet"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "tetzcatlipoca",
+      "strawhat"
+    ]
+  },
+  {
+    "id": "demon-night",
+    "name": "Demon Night",
+    "game": "gs1",
+    "element": "earth",
+    "category": "attack",
+    "pp_cost": 12,
+    "range": 3,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 18,
+    "series": null,
+    "tier": null,
+    "description": "Unleash a myriad of monsters.",
+    "effect_notes": "Can inflict foes with negative statuses (aku-chi).",
+    "available_to": [
+      "Isaac",
+      "Garet"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class",
+      "aku-chi"
+    ]
+  },
+  {
+    "id": "rockfall",
+    "name": "Rockfall",
+    "game": "gs1",
+    "element": "earth",
+    "category": "attack",
+    "pp_cost": 5,
+    "range": 3,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 6,
+    "series": "rockfall",
+    "tier": 1,
+    "description": "Attack with a blast of rocks.",
+    "effect_notes": null,
+    "available_to": [
+      "Isaac",
+      "Garet"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "rockslide",
+    "name": "Rockslide",
+    "game": "gs1",
+    "element": "earth",
+    "category": "attack",
+    "pp_cost": 15,
+    "range": 5,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 24,
+    "series": "rockfall",
+    "tier": 2,
+    "description": "Attack with a blast of rocks.",
+    "effect_notes": null,
+    "available_to": [
+      "Isaac",
+      "Garet"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "avalanche",
+    "name": "Avalanche",
+    "game": "gs1",
+    "element": "earth",
+    "category": "attack",
+    "pp_cost": 30,
+    "range": 5,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 54,
+    "series": "rockfall",
+    "tier": 3,
+    "description": "Attack with a blast of rocks.",
+    "effect_notes": "strawhat spells it 'Avanlanche' in the Isaac section and duplicates it as a second 'Rockslide' (30 PP, level 54) in the Garet section.",
+    "available_to": [
+      "Isaac",
+      "Garet"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "tetzcatlipoca",
+      "strawhat"
+    ]
+  },
+  {
+    "id": "haunt",
+    "name": "Haunt",
+    "game": "gs1",
+    "element": "earth",
+    "category": "status",
+    "pp_cost": 5,
+    "range": 3,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 17,
+    "series": null,
+    "tier": null,
+    "description": "Haunt a foe with an evil spirit.",
+    "effect_notes": "strawhat also lists a corrupted duplicate 'Haunt' (13 PP, Mars, 'Attack with a massive explosion') that copies its Nova entry; ignored.",
+    "available_to": [
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "curse",
+    "name": "Curse",
+    "game": "gs1",
+    "element": "earth",
+    "category": "status",
+    "pp_cost": 6,
+    "range": 1,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 20,
+    "level_learned_variants": "20 (Apprentice/Enchanter line, Medium) / 24 (Brute line)",
+    "series": null,
+    "tier": null,
+    "description": "Draw the spirit of death to a foe.",
+    "effect_notes": null,
+    "available_to": [
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ],
+    "conflicts": [
+      {
+        "field": "pp_cost",
+        "values": {
+          "jiggyhunter": 6,
+          "tetzcatlipoca": 6,
+          "strawhat": 5,
+          "plz2bstfu-class": 6
+        },
+        "note": "Majority value (6) used."
+      }
+    ]
+  },
+  {
+    "id": "condemn",
+    "name": "Condemn",
+    "game": "gs1",
+    "element": "earth",
+    "category": "status",
+    "pp_cost": 8,
+    "range": 1,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 29,
+    "series": null,
+    "tier": null,
+    "description": "Disable your enemy with evil power.",
+    "effect_notes": null,
+    "available_to": [
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "thorn",
+    "name": "Thorn",
+    "game": "gs1",
+    "element": "earth",
+    "category": "attack",
+    "pp_cost": 6,
+    "range": 3,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 4,
+    "level_learned_variants": "4 (Garet/Mia classes per strawhat) / 11 (Isaac water classes per strawhat)",
+    "series": "thorn",
+    "tier": 1,
+    "description": "Attack with stabbing thorns.",
+    "effect_notes": null,
+    "available_to": [
+      "Isaac",
+      "Garet",
+      "Mia"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ],
+    "conflicts": [
+      {
+        "field": "pp_cost",
+        "values": {
+          "tetzcatlipoca": 6,
+          "strawhat": 4,
+          "plz2bstfu-class": 6
+        },
+        "note": "Majority value (6) used."
+      }
+    ]
+  },
+  {
+    "id": "briar",
+    "name": "Briar",
+    "game": "gs1",
+    "element": "earth",
+    "category": "attack",
+    "pp_cost": 11,
+    "range": 3,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 14,
+    "level_learned_variants": "14 (Cavalier, Guardian, Swordsman) / 17 (Dragoon)",
+    "series": "thorn",
+    "tier": 2,
+    "description": "Attack with sharpened briars.",
+    "effect_notes": null,
+    "available_to": [
+      "Isaac",
+      "Garet",
+      "Mia"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "nettle",
+    "name": "Nettle",
+    "game": "gs1",
+    "element": "earth",
+    "category": "attack",
+    "pp_cost": 23,
+    "range": 5,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 36,
+    "level_learned_variants": "36 (Isaac/Mia classes) / 23 (Garet Dragoon, per strawhat — likely an error)",
+    "series": "thorn",
+    "tier": 3,
+    "description": "Attack with stinging nettles.",
+    "effect_notes": "strawhat's Garet section lists Nettle at 11 PP, contradicting its own Isaac section (23 PP); 23 matches tetzcatlipoca.",
+    "available_to": [
+      "Isaac",
+      "Garet",
+      "Mia"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "tetzcatlipoca",
+      "strawhat"
+    ]
+  },
+  {
+    "id": "annihilation",
+    "name": "Annihilation",
+    "game": "gs1",
+    "element": "earth",
+    "category": "attack",
+    "pp_cost": 18,
+    "range": 1,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 31,
+    "series": null,
+    "tier": null,
+    "description": "Attempt to annihilate a foe.",
+    "effect_notes": "Attempts to instantly kill the target (strawhat). tetzcatlipoca spells it 'Annihalation'.",
+    "available_to": [
+      "Isaac",
+      "Garet"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "tetzcatlipoca",
+      "strawhat"
+    ]
+  },
+  {
+    "id": "helm-splitter",
+    "name": "Helm Splitter",
+    "game": "gs1",
+    "element": "earth",
+    "category": "attack",
+    "pp_cost": 8,
+    "range": 1,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 33,
+    "series": null,
+    "tier": null,
+    "description": "Paralyze a foe with a mighty blow.",
+    "effect_notes": "Can inflict foes with negative statuses (aku-chi).",
+    "available_to": [
+      "Isaac",
+      "Garet"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "tetzcatlipoca",
+      "strawhat",
+      "aku-chi"
+    ]
+  },
+  {
+    "id": "heat-wave",
+    "name": "Heat Wave",
+    "game": "gs1",
+    "element": "fire",
+    "category": "attack",
+    "pp_cost": 6,
+    "range": 1,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 12,
+    "series": null,
+    "tier": null,
+    "description": "Attack with fiery bolts.",
+    "effect_notes": null,
+    "available_to": [
+      "Garet"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "flare",
+    "name": "Flare",
+    "game": "gs1",
+    "element": "fire",
+    "category": "attack",
+    "pp_cost": 4,
+    "range": 3,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 1,
+    "series": "flare",
+    "tier": 1,
+    "description": "Attack with flaring flames.",
+    "effect_notes": null,
+    "available_to": [
+      "Garet",
+      "Jenna"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "flare-wall",
+    "name": "Flare Wall",
+    "game": "gs1",
+    "element": "fire",
+    "category": "attack",
+    "pp_cost": 7,
+    "range": 3,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 6,
+    "series": "flare",
+    "tier": 2,
+    "description": "Attack with searing flames.",
+    "effect_notes": null,
+    "available_to": [
+      "Garet",
+      "Jenna"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "flare-storm",
+    "name": "Flare Storm",
+    "game": "gs1",
+    "element": "fire",
+    "category": "attack",
+    "pp_cost": 12,
+    "range": 3,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 18,
+    "series": "flare",
+    "tier": 3,
+    "description": "Attack with incinerating flames.",
+    "effect_notes": null,
+    "available_to": [
+      "Garet",
+      "Jenna"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "fire",
+    "name": "Fire",
+    "game": "gs1",
+    "element": "fire",
+    "category": "attack",
+    "pp_cost": 6,
+    "range": 3,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 4,
+    "series": "fire",
+    "tier": 1,
+    "description": "Attack with a scorching fireball.",
+    "effect_notes": null,
+    "available_to": [
+      "Garet"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "fireball",
+    "name": "Fireball",
+    "game": "gs1",
+    "element": "fire",
+    "category": "attack",
+    "pp_cost": 12,
+    "range": 5,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 14,
+    "series": "fire",
+    "tier": 2,
+    "description": "Attack with a scorching fireball.",
+    "effect_notes": null,
+    "available_to": [
+      "Garet"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "inferno",
+    "name": "Inferno",
+    "game": "gs1",
+    "element": "fire",
+    "category": "attack",
+    "pp_cost": 23,
+    "range": 5,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 36,
+    "series": "fire",
+    "tier": 3,
+    "description": "Attack with a scorching fireball.",
+    "effect_notes": null,
+    "available_to": [
+      "Garet"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat"
+    ]
+  },
+  {
+    "id": "volcano",
+    "name": "Volcano",
+    "game": "gs1",
+    "element": "fire",
+    "category": "attack",
+    "pp_cost": 6,
+    "range": 1,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 8,
+    "series": "volcano",
+    "tier": 1,
+    "description": "Attack with volcanic might.",
+    "effect_notes": null,
+    "available_to": [
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "eruption",
+    "name": "Eruption",
+    "game": "gs1",
+    "element": "fire",
+    "category": "attack",
+    "pp_cost": 14,
+    "range": 3,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 22,
+    "series": "volcano",
+    "tier": 2,
+    "description": "Attack with volcanic might.",
+    "effect_notes": null,
+    "available_to": [
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "pyroclasm",
+    "name": "Pyroclasm",
+    "game": "gs1",
+    "element": "fire",
+    "category": "attack",
+    "pp_cost": 29,
+    "range": 5,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 48,
+    "series": "volcano",
+    "tier": 3,
+    "description": "Attack with volcanic might.",
+    "effect_notes": "jiggyhunter lists the ability without PP or description ('Description Needed').",
+    "available_to": [
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat"
+    ]
+  },
+  {
+    "id": "blast-nova",
+    "name": "Blast",
+    "game": "gs1",
+    "element": "fire",
+    "category": "attack",
+    "pp_cost": 7,
+    "range": 3,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 6,
+    "series": "blast-nova",
+    "tier": 1,
+    "description": "Attack with a massive explosion.",
+    "effect_notes": "Distinct from the 5-PP Blast of the Mad Blast series. strawhat labels this one 'Blast(Nova)'.",
+    "available_to": [
+      "Isaac",
+      "Garet"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "nova",
+    "name": "Nova",
+    "game": "gs1",
+    "element": "fire",
+    "category": "attack",
+    "pp_cost": 13,
+    "range": 5,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 16,
+    "series": "blast-nova",
+    "tier": 2,
+    "description": "Attack with a massive explosion.",
+    "effect_notes": null,
+    "available_to": [
+      "Isaac",
+      "Garet"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "supernova",
+    "name": "Supernova",
+    "game": "gs1",
+    "element": "fire",
+    "category": "attack",
+    "pp_cost": 31,
+    "range": 7,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 40,
+    "series": "blast-nova",
+    "tier": 3,
+    "description": "Attack with a massive explosion.",
+    "effect_notes": null,
+    "available_to": [
+      "Isaac",
+      "Garet"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "tetzcatlipoca",
+      "strawhat"
+    ]
+  },
+  {
+    "id": "blast-mad",
+    "name": "Blast",
+    "game": "gs1",
+    "element": "fire",
+    "category": "attack",
+    "pp_cost": 5,
+    "range": 3,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 2,
+    "series": "blast-mad",
+    "tier": 1,
+    "description": "Attack with an explosive blast.",
+    "effect_notes": "Distinct from the 7-PP Blast of the Nova series.",
+    "available_to": [
+      "Isaac",
+      "Garet",
+      "Mia"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "mad-blast",
+    "name": "Mad Blast",
+    "game": "gs1",
+    "element": "fire",
+    "category": "attack",
+    "pp_cost": 9,
+    "range": 3,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 10,
+    "series": "blast-mad",
+    "tier": 2,
+    "description": "Attack with an explosive blast.",
+    "effect_notes": null,
+    "available_to": [
+      "Isaac",
+      "Garet",
+      "Mia"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "fiery-blast",
+    "name": "Fiery Blast",
+    "game": "gs1",
+    "element": "fire",
+    "category": "attack",
+    "pp_cost": 19,
+    "range": 5,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 27,
+    "series": "blast-mad",
+    "tier": 3,
+    "description": "Attack with an explosive blast.",
+    "effect_notes": null,
+    "available_to": [
+      "Isaac",
+      "Garet",
+      "Mia"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "planet-diver",
+    "name": "Planet Diver",
+    "game": "gs1",
+    "element": "fire",
+    "category": "attack",
+    "pp_cost": 7,
+    "range": 1,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 13,
+    "series": null,
+    "tier": null,
+    "description": "Leap skyward and lunge onto a foe.",
+    "effect_notes": null,
+    "available_to": [
+      "Isaac",
+      "Garet"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "guard",
+    "name": "Guard",
+    "game": "gs1",
+    "element": "fire",
+    "category": "buff",
+    "pp_cost": 3,
+    "range": 1,
+    "target": "ally",
+    "battle_usable": true,
+    "level_learned": 3,
+    "series": "guard",
+    "tier": 1,
+    "description": "Boost ally's defense.",
+    "effect_notes": null,
+    "available_to": [
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "protect",
+    "name": "Protect",
+    "game": "gs1",
+    "element": "fire",
+    "category": "buff",
+    "pp_cost": 5,
+    "range": "all",
+    "target": "ally",
+    "battle_usable": true,
+    "level_learned": 15,
+    "series": "guard",
+    "tier": 2,
+    "description": "Boost party's defense.",
+    "effect_notes": null,
+    "available_to": [
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "impair",
+    "name": "Impair",
+    "game": "gs1",
+    "element": "fire",
+    "category": "debuff",
+    "pp_cost": 4,
+    "range": 1,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 9,
+    "series": "impair",
+    "tier": 1,
+    "description": "Drop enemy's defense.",
+    "effect_notes": null,
+    "available_to": [
+      "Isaac",
+      "Garet"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "debilitate",
+    "name": "Debilitate",
+    "game": "gs1",
+    "element": "fire",
+    "category": "debuff",
+    "pp_cost": 6,
+    "range": 3,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 23,
+    "level_learned_variants": "23 (Savage/Barbarian/Berserker) / 26 (Warrior/Champion)",
+    "series": "impair",
+    "tier": 2,
+    "description": "Drop enemy party's defense.",
+    "effect_notes": null,
+    "available_to": [
+      "Isaac",
+      "Garet"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "guardian",
+    "name": "Guardian",
+    "game": "gs1",
+    "element": "fire",
+    "category": "buff",
+    "pp_cost": 3,
+    "range": 1,
+    "target": "ally",
+    "battle_usable": true,
+    "level_learned": 3,
+    "series": "guardian",
+    "tier": 1,
+    "description": "Boost Defense with divine might.",
+    "effect_notes": "Unrelated to the Guardian class (Isaac, 1 earth + 6 water djinn).",
+    "available_to": [
+      "Isaac",
+      "Garet"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "protector",
+    "name": "Protector",
+    "game": "gs1",
+    "element": "fire",
+    "category": "buff",
+    "pp_cost": 5,
+    "range": "all",
+    "target": "ally",
+    "battle_usable": true,
+    "level_learned": 15,
+    "series": "guardian",
+    "tier": 2,
+    "description": "Boost party Defense with divine might.",
+    "effect_notes": null,
+    "available_to": [
+      "Isaac",
+      "Garet"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "fire-bomb",
+    "name": "Fire Bomb",
+    "game": "gs1",
+    "element": "fire",
+    "category": "attack",
+    "pp_cost": 5,
+    "range": 3,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 6,
+    "series": "fire-bomb",
+    "tier": 1,
+    "description": "Attack with a bomb blast.",
+    "effect_notes": null,
+    "available_to": [
+      "Isaac",
+      "Garet"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ],
+    "conflicts": [
+      {
+        "field": "range",
+        "values": {
+          "jiggyhunter": 3,
+          "tetzcatlipoca": 3,
+          "strawhat": 5
+        },
+        "note": "Majority value (3) used."
+      }
+    ]
+  },
+  {
+    "id": "cluster-bomb",
+    "name": "Cluster Bomb",
+    "game": "gs1",
+    "element": "fire",
+    "category": "attack",
+    "pp_cost": 11,
+    "range": 5,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 16,
+    "series": "fire-bomb",
+    "tier": 2,
+    "description": "Attack with a bomb blast.",
+    "effect_notes": null,
+    "available_to": [
+      "Isaac",
+      "Garet"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "carpet-bomb",
+    "name": "Carpet Bomb",
+    "game": "gs1",
+    "element": "fire",
+    "category": "attack",
+    "pp_cost": 29,
+    "range": 7,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 40,
+    "series": "fire-bomb",
+    "tier": 3,
+    "description": "Attack with a bomb blast.",
+    "effect_notes": null,
+    "available_to": [
+      "Isaac",
+      "Garet"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "tetzcatlipoca",
+      "strawhat"
+    ]
+  },
+  {
+    "id": "dragon-cloud",
+    "name": "Dragon Cloud",
+    "game": "gs1",
+    "element": "fire",
+    "category": "attack",
+    "pp_cost": 6,
+    "range": 1,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 12,
+    "series": null,
+    "tier": null,
+    "description": "Strike an enemy with Dragon Cloud.",
+    "effect_notes": null,
+    "available_to": [
+      "Isaac",
+      "Garet"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "lava-shower",
+    "name": "Lava Shower",
+    "game": "gs1",
+    "element": "fire",
+    "category": "attack",
+    "pp_cost": 4,
+    "range": 1,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 8,
+    "series": "lava-shower",
+    "tier": 1,
+    "description": "Attack with a volcano's might.",
+    "effect_notes": null,
+    "available_to": [
+      "Isaac",
+      "Garet"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "molten-bath",
+    "name": "Molten Bath",
+    "game": "gs1",
+    "element": "fire",
+    "category": "attack",
+    "pp_cost": 12,
+    "range": 3,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 22,
+    "series": "lava-shower",
+    "tier": 2,
+    "description": "Attack with a volcano's might.",
+    "effect_notes": null,
+    "available_to": [
+      "Isaac",
+      "Garet"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "magma-storm",
+    "name": "Magma Storm",
+    "game": "gs1",
+    "element": "fire",
+    "category": "attack",
+    "pp_cost": 27,
+    "range": 5,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 48,
+    "series": "lava-shower",
+    "tier": 3,
+    "description": "Attack with a volcano's might.",
+    "effect_notes": null,
+    "available_to": [
+      "Isaac",
+      "Garet"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "tetzcatlipoca",
+      "strawhat"
+    ]
+  },
+  {
+    "id": "whirlwind",
+    "name": "Whirlwind",
+    "game": "gs1",
+    "element": "wind",
+    "category": "attack",
+    "pp_cost": 5,
+    "range": 3,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 1,
+    "series": "whirlwind",
+    "tier": 1,
+    "description": "Attack with a swirling tornado.",
+    "effect_notes": null,
+    "field_effect": "Blows away vines outside of battle.",
+    "available_to": [
+      "Ivan"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "tornado",
+    "name": "Tornado",
+    "game": "gs1",
+    "element": "wind",
+    "category": "attack",
+    "pp_cost": 14,
+    "range": 5,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 18,
+    "series": "whirlwind",
+    "tier": 2,
+    "description": "Attack with a mighty tornado.",
+    "effect_notes": null,
+    "available_to": [
+      "Ivan"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "tempest",
+    "name": "Tempest",
+    "game": "gs1",
+    "element": "wind",
+    "category": "attack",
+    "pp_cost": 27,
+    "range": 5,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 44,
+    "series": "whirlwind",
+    "tier": 3,
+    "description": "Attack with a fearsome windstorm.",
+    "effect_notes": null,
+    "available_to": [
+      "Ivan"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat"
+    ]
+  },
+  {
+    "id": "ray",
+    "name": "Ray",
+    "game": "gs1",
+    "element": "wind",
+    "category": "attack",
+    "pp_cost": 6,
+    "range": 3,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 4,
+    "series": "ray",
+    "tier": 1,
+    "description": "Attack with a magnetic storm.",
+    "effect_notes": null,
+    "available_to": [
+      "Ivan"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "storm-ray",
+    "name": "Storm Ray",
+    "game": "gs1",
+    "element": "wind",
+    "category": "attack",
+    "pp_cost": 10,
+    "range": 3,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 14,
+    "series": "ray",
+    "tier": 2,
+    "description": "Attack with a magnetic storm.",
+    "effect_notes": null,
+    "available_to": [
+      "Ivan"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "destruct-ray",
+    "name": "Destruct Ray",
+    "game": "gs1",
+    "element": "wind",
+    "category": "attack",
+    "pp_cost": 21,
+    "range": 3,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 36,
+    "series": "ray",
+    "tier": 3,
+    "description": "Attack with a magnetic storm.",
+    "effect_notes": "strawhat lists this as a second 'Storm Ray' entry (21 PP, level 36) — a transcription error.",
+    "available_to": [
+      "Ivan"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat"
+    ]
+  },
+  {
+    "id": "plasma",
+    "name": "Plasma",
+    "game": "gs1",
+    "element": "wind",
+    "category": "attack",
+    "pp_cost": 8,
+    "range": 3,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 8,
+    "level_learned_variants": "8 (Ivan, Mia classes) / 9 (Garet Wind Ascetic)",
+    "series": "plasma",
+    "tier": 1,
+    "description": "Attack with a barrage of bolts.",
+    "effect_notes": null,
+    "available_to": [
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "shine-plasma",
+    "name": "Shine Plasma",
+    "game": "gs1",
+    "element": "wind",
+    "category": "attack",
+    "pp_cost": 18,
+    "range": 5,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 26,
+    "series": "plasma",
+    "tier": 2,
+    "description": "Attack with a barrage of bolts.",
+    "effect_notes": null,
+    "available_to": [
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "spark-plasma",
+    "name": "Spark Plasma",
+    "game": "gs1",
+    "element": "wind",
+    "category": "attack",
+    "pp_cost": 37,
+    "range": 7,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 46,
+    "level_learned_variants": "46 (White Mage) / 50 (all other classes)",
+    "series": "plasma",
+    "tier": 3,
+    "description": "Attack with a barrage of bolts.",
+    "effect_notes": "jiggyhunter lists the ability without PP or description ('Description Needed').",
+    "available_to": [
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat"
+    ]
+  },
+  {
+    "id": "impact",
+    "name": "Impact",
+    "game": "gs1",
+    "element": "wind",
+    "category": "buff",
+    "pp_cost": 7,
+    "range": 1,
+    "target": "ally",
+    "battle_usable": true,
+    "level_learned": 1,
+    "level_learned_variants": "1 (Hermit/Sage line) / 5 (Magician line, Enchanters)",
+    "series": "impact",
+    "tier": 1,
+    "description": "Boost ally's attack.",
+    "effect_notes": null,
+    "available_to": [
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "high-impact",
+    "name": "High Impact",
+    "game": "gs1",
+    "element": "wind",
+    "category": "buff",
+    "pp_cost": 12,
+    "range": "all",
+    "target": "ally",
+    "battle_usable": true,
+    "level_learned": 21,
+    "series": "impact",
+    "tier": 2,
+    "description": "Boost party's attack.",
+    "effect_notes": "strawhat spells it 'High Impace' in one class list.",
+    "available_to": [
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "ward",
+    "name": "Ward",
+    "game": "gs1",
+    "element": "wind",
+    "category": "buff",
+    "pp_cost": 3,
+    "range": 1,
+    "target": "ally",
+    "battle_usable": true,
+    "level_learned": 6,
+    "level_learned_variants": "6 (most classes) / 7 (Shaman, Druid) / 9 (White Mage)",
+    "series": "ward",
+    "tier": 1,
+    "description": "Boost ally's resistance.",
+    "effect_notes": null,
+    "available_to": [
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "resist",
+    "name": "Resist",
+    "game": "gs1",
+    "element": "wind",
+    "category": "buff",
+    "pp_cost": 5,
+    "range": "all",
+    "target": "ally",
+    "battle_usable": true,
+    "level_learned": 22,
+    "level_learned_variants": "22 (Mage/Magister, Enchanters) / 23 (Shaman, Druid) / 24 (Ascetic, Fire Monk, Ranger) / 31 (White Mage)",
+    "series": "ward",
+    "tier": 2,
+    "description": "Boost party's resistance.",
+    "effect_notes": null,
+    "available_to": [
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "sleep",
+    "name": "Sleep",
+    "game": "gs1",
+    "element": "wind",
+    "category": "status",
+    "pp_cost": 5,
+    "range": 3,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 12,
+    "level_learned_variants": "12 (Wind Seer line) / 14 (Enchanters)",
+    "series": null,
+    "tier": null,
+    "description": "Lull multiple enemies to sleep.",
+    "effect_notes": "strawhat's entry carries the description 'Boost Resistance' — a copy-paste error.",
+    "available_to": [
+      "Isaac",
+      "Garet",
+      "Ivan"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "bind",
+    "name": "Bind",
+    "game": "gs1",
+    "element": "wind",
+    "category": "status",
+    "pp_cost": 4,
+    "range": 1,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 17,
+    "level_learned_variants": "17 (Wind Seer line) / 18 (all other classes)",
+    "series": null,
+    "tier": null,
+    "description": "Block a foe's Psynergy.",
+    "effect_notes": "strawhat's entry carries the description 'Boost Resistance' — a copy-paste error.",
+    "available_to": [
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ],
+    "conflicts": [
+      {
+        "field": "pp_cost",
+        "values": {
+          "jiggyhunter": 4,
+          "tetzcatlipoca": 4,
+          "strawhat": 7,
+          "plz2bstfu-class": 4
+        },
+        "note": "Majority value (4) used."
+      }
+    ]
+  },
+  {
+    "id": "gale",
+    "name": "Gale",
+    "game": "gs1",
+    "element": "wind",
+    "category": "attack",
+    "pp_cost": 3,
+    "range": 3,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 1,
+    "series": "gale",
+    "tier": 1,
+    "description": "Attack with the wind's might.",
+    "effect_notes": null,
+    "field_effect": "Can blow away vines outside of battle, same as Whirlwind (strawhat).",
+    "available_to": [
+      "Isaac",
+      "Garet"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "typhoon",
+    "name": "Typhoon",
+    "game": "gs1",
+    "element": "wind",
+    "category": "attack",
+    "pp_cost": 12,
+    "range": 5,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 18,
+    "series": "gale",
+    "tier": 2,
+    "description": "Attack with the wind's might.",
+    "effect_notes": null,
+    "available_to": [
+      "Isaac",
+      "Garet"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ],
+    "conflicts": [
+      {
+        "field": "range",
+        "values": {
+          "jiggyhunter": 5,
+          "tetzcatlipoca": 5,
+          "strawhat": 3
+        },
+        "note": "Majority value (5) used."
+      }
+    ]
+  },
+  {
+    "id": "hurricane",
+    "name": "Hurricane",
+    "game": "gs1",
+    "element": "wind",
+    "category": "attack",
+    "pp_cost": 25,
+    "range": 7,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 44,
+    "series": "gale",
+    "tier": 3,
+    "description": "Attack with the wind's might.",
+    "effect_notes": null,
+    "available_to": [
+      "Isaac",
+      "Garet"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "tetzcatlipoca",
+      "strawhat"
+    ],
+    "conflicts": [
+      {
+        "field": "range",
+        "values": {
+          "tetzcatlipoca": 7,
+          "strawhat": 5
+        },
+        "note": "tetzcatlipoca value used per tie-break rule."
+      }
+    ]
+  },
+  {
+    "id": "death-plunge",
+    "name": "Death Plunge",
+    "game": "gs1",
+    "element": "wind",
+    "category": "attack",
+    "pp_cost": 14,
+    "range": 1,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 12,
+    "series": null,
+    "tier": null,
+    "description": "Plunge your weapon into a foe.",
+    "effect_notes": "Can produce a special status infliction in addition to damage (aku-chi).",
+    "available_to": [
+      "Isaac",
+      "Garet"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class",
+      "aku-chi"
+    ]
+  },
+  {
+    "id": "shuriken",
+    "name": "Shuriken",
+    "game": "gs1",
+    "element": "wind",
+    "category": "attack",
+    "pp_cost": 8,
+    "range": 3,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 21,
+    "series": null,
+    "tier": null,
+    "description": "Attack with a huge throwing knife.",
+    "effect_notes": null,
+    "available_to": [
+      "Isaac",
+      "Garet"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "thunderclap",
+    "name": "Thunderclap",
+    "game": "gs1",
+    "element": "wind",
+    "category": "attack",
+    "pp_cost": 9,
+    "range": 3,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 8,
+    "series": "thunderclap",
+    "tier": 1,
+    "description": "Attack with the storm's fury.",
+    "effect_notes": null,
+    "available_to": [
+      "Isaac",
+      "Garet"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "thunderbolt",
+    "name": "Thunderbolt",
+    "game": "gs1",
+    "element": "wind",
+    "category": "attack",
+    "pp_cost": 19,
+    "range": 5,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 26,
+    "series": "thunderclap",
+    "tier": 2,
+    "description": "Attack with the storm's fury.",
+    "effect_notes": null,
+    "available_to": [
+      "Isaac",
+      "Garet"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "thunderstorm",
+    "name": "Thunderstorm",
+    "game": "gs1",
+    "element": "wind",
+    "category": "attack",
+    "pp_cost": 39,
+    "range": 7,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 50,
+    "series": "thunderclap",
+    "tier": 3,
+    "description": "Attack with the storm's fury.",
+    "effect_notes": "strawhat lists this as a second 'Thunderbolt' entry (level 50) — a transcription error.",
+    "available_to": [
+      "Isaac",
+      "Garet"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "tetzcatlipoca",
+      "strawhat"
+    ],
+    "conflicts": [
+      {
+        "field": "pp_cost",
+        "values": {
+          "tetzcatlipoca": 39,
+          "strawhat": 19
+        },
+        "note": "strawhat's 19 PP is copied from its Thunderbolt entry. tetzcatlipoca value used."
+      }
+    ]
+  },
+  {
+    "id": "mist",
+    "name": "Mist",
+    "game": "gs1",
+    "element": "wind",
+    "category": "status",
+    "pp_cost": 4,
+    "range": 3,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 7,
+    "series": null,
+    "tier": null,
+    "description": "Wrap a foe in a cloud of delusion.",
+    "effect_notes": null,
+    "available_to": [
+      "Isaac",
+      "Garet"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "demon-spear",
+    "name": "Demon Spear",
+    "game": "gs1",
+    "element": "wind",
+    "category": "buff",
+    "pp_cost": 7,
+    "range": 1,
+    "target": "ally",
+    "battle_usable": true,
+    "level_learned": 5,
+    "series": "demon-spear",
+    "tier": 1,
+    "description": "Boost attack with a demonic blade.",
+    "effect_notes": null,
+    "available_to": [
+      "Isaac",
+      "Garet"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "angel-spear",
+    "name": "Angel Spear",
+    "game": "gs1",
+    "element": "wind",
+    "category": "buff",
+    "pp_cost": 12,
+    "range": "all",
+    "target": "ally",
+    "battle_usable": true,
+    "level_learned": 21,
+    "series": "demon-spear",
+    "tier": 2,
+    "description": "Boost attack with a heavenly blade.",
+    "effect_notes": "Excellent for buffing up before bosses (strawhat).",
+    "available_to": [
+      "Isaac",
+      "Garet"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "magic-shell",
+    "name": "Magic Shell",
+    "game": "gs1",
+    "element": "wind",
+    "category": "buff",
+    "pp_cost": 3,
+    "range": 1,
+    "target": "ally",
+    "battle_usable": true,
+    "level_learned": 10,
+    "series": "magic-shell",
+    "tier": 1,
+    "description": "Boost Elemental Resistance.",
+    "effect_notes": null,
+    "available_to": [
+      "Isaac",
+      "Garet"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "magic-shield",
+    "name": "Magic Shield",
+    "game": "gs1",
+    "element": "wind",
+    "category": "buff",
+    "pp_cost": 5,
+    "range": "all",
+    "target": "ally",
+    "battle_usable": true,
+    "level_learned": 27,
+    "series": "magic-shell",
+    "tier": 2,
+    "description": "Boost Elemental Resistance.",
+    "effect_notes": null,
+    "available_to": [
+      "Isaac",
+      "Garet"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "quick-strike",
+    "name": "Quick Strike",
+    "game": "gs1",
+    "element": "wind",
+    "category": "attack",
+    "pp_cost": 12,
+    "range": 1,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 40,
+    "series": null,
+    "tier": null,
+    "description": "Blind an enemy with a rapid strike.",
+    "effect_notes": "Extremely powerful (strawhat); the most powerful elemental physical attack in Golden Sun (aku-chi).",
+    "available_to": [
+      "Isaac",
+      "Garet"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "tetzcatlipoca",
+      "strawhat",
+      "aku-chi"
+    ]
+  },
+  {
+    "id": "bolt",
+    "name": "Bolt",
+    "game": "gs1",
+    "element": "wind",
+    "category": "attack",
+    "pp_cost": 4,
+    "range": 1,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 2,
+    "series": "bolt",
+    "tier": 1,
+    "description": "Attack with a lightning bolt.",
+    "effect_notes": null,
+    "available_to": [
+      "Isaac",
+      "Ivan",
+      "Mia"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "flash-bolt",
+    "name": "Flash Bolt",
+    "game": "gs1",
+    "element": "wind",
+    "category": "attack",
+    "pp_cost": 7,
+    "range": 3,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 6,
+    "series": "bolt",
+    "tier": 2,
+    "description": "Attack with a lightning bolt.",
+    "effect_notes": null,
+    "available_to": [
+      "Isaac",
+      "Ivan",
+      "Mia"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "blue-bolt",
+    "name": "Blue Bolt",
+    "game": "gs1",
+    "element": "wind",
+    "category": "attack",
+    "pp_cost": 14,
+    "range": 3,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 22,
+    "series": "bolt",
+    "tier": 3,
+    "description": "Attack with a lightning bolt.",
+    "effect_notes": null,
+    "available_to": [
+      "Isaac",
+      "Ivan",
+      "Mia"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "slash",
+    "name": "Slash",
+    "game": "gs1",
+    "element": "wind",
+    "category": "attack",
+    "pp_cost": 4,
+    "range": 1,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 1,
+    "series": "slash",
+    "tier": 1,
+    "description": "Attack with a blade of focused air.",
+    "effect_notes": null,
+    "available_to": [
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "wind-slash",
+    "name": "Wind Slash",
+    "game": "gs1",
+    "element": "wind",
+    "category": "attack",
+    "pp_cost": 9,
+    "range": 3,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 10,
+    "series": "slash",
+    "tier": 2,
+    "description": "Attack with a blade of focused air.",
+    "effect_notes": null,
+    "available_to": [
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "sonic-slash",
+    "name": "Sonic Slash",
+    "game": "gs1",
+    "element": "wind",
+    "category": "attack",
+    "pp_cost": 20,
+    "range": 5,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 30,
+    "series": "slash",
+    "tier": 3,
+    "description": "Attack with a blade of focused air.",
+    "effect_notes": "strawhat spells it 'Sonich Slash' in one class list.",
+    "available_to": [
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "tetzcatlipoca",
+      "strawhat"
+    ]
+  },
+  {
+    "id": "weaken",
+    "name": "Weaken",
+    "game": "gs1",
+    "element": "wind",
+    "category": "debuff",
+    "pp_cost": 4,
+    "range": 1,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 9,
+    "series": "weaken",
+    "tier": 1,
+    "description": "Drop enemy's resistance.",
+    "effect_notes": "Not very useful unless fighting a boss (strawhat).",
+    "available_to": [
+      "Isaac",
+      "Garet",
+      "Ivan"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "enfeeble",
+    "name": "Enfeeble",
+    "game": "gs1",
+    "element": "wind",
+    "category": "debuff",
+    "pp_cost": 6,
+    "range": 3,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 25,
+    "series": "weaken",
+    "tier": 2,
+    "description": "Drop enemy party's resistance.",
+    "effect_notes": null,
+    "available_to": [
+      "Isaac",
+      "Garet",
+      "Ivan"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "delude",
+    "name": "Delude",
+    "game": "gs1",
+    "element": "wind",
+    "category": "status",
+    "pp_cost": 4,
+    "range": 3,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 1,
+    "series": null,
+    "tier": null,
+    "description": "Wrap multiple foes in delusion.",
+    "effect_notes": "It's nice when it works (strawhat).",
+    "available_to": [
+      "Isaac",
+      "Garet",
+      "Ivan"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "drain",
+    "name": "Drain",
+    "game": "gs1",
+    "element": "wind",
+    "category": "drain",
+    "pp_cost": 3,
+    "range": 1,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 31,
+    "level_learned_variants": "31 (most classes) / 33 (fire-line classes: Pilgrim, Wanderer, Ascetic, Fire Monk, Ranger, Wind Ascetic)",
+    "series": null,
+    "tier": null,
+    "description": "Drain enemy's HP to yourself.",
+    "effect_notes": null,
+    "available_to": [
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "tetzcatlipoca",
+      "strawhat"
+    ]
+  },
+  {
+    "id": "psy-drain",
+    "name": "Psy Drain",
+    "game": "gs1",
+    "element": "wind",
+    "category": "drain",
+    "pp_cost": 0,
+    "range": 1,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 39,
+    "level_learned_variants": "39 (most classes) / 41 (fire-line classes: Pilgrim, Wanderer, Ascetic, Fire Monk, Ranger, Conjurer line per strawhat Garet)",
+    "series": null,
+    "tier": null,
+    "description": "Drain enemy's PP to yourself.",
+    "effect_notes": null,
+    "available_to": [
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "tetzcatlipoca",
+      "strawhat"
+    ]
+  },
+  {
+    "id": "dull",
+    "name": "Dull",
+    "game": "gs1",
+    "element": "wind",
+    "category": "debuff",
+    "pp_cost": 6,
+    "range": 1,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 11,
+    "series": "dull",
+    "tier": 1,
+    "description": "Drop enemy attack.",
+    "effect_notes": "strawhat's 'Learned by: Jupiter' line is garbled; it belongs to the White Mage class per the Blunt entry and class lists.",
+    "available_to": [
+      "Ivan",
+      "Mia"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "strawhat"
+    ],
+    "conflicts": [
+      {
+        "field": "element",
+        "values": {
+          "jiggyhunter": "wind",
+          "strawhat": "water"
+        },
+        "note": "jiggyhunter groups Dull under Wind-Jupiter; strawhat states Mercury but its companion Blunt is Jupiter. Wind used."
+      }
+    ]
+  },
+  {
+    "id": "blunt",
+    "name": "Blunt",
+    "game": "gs1",
+    "element": "wind",
+    "category": "debuff",
+    "pp_cost": 11,
+    "range": 3,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 37,
+    "series": "dull",
+    "tier": 2,
+    "description": "Drop enemy Attack.",
+    "effect_notes": null,
+    "available_to": [
+      "Ivan",
+      "Mia"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "strawhat"
+    ]
+  },
+  {
+    "id": "astral-blast",
+    "name": "Astral Blast",
+    "game": "gs1",
+    "element": "wind",
+    "category": "attack",
+    "pp_cost": 5,
+    "range": 1,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 11,
+    "series": null,
+    "tier": null,
+    "description": "Attack with celestial force.",
+    "effect_notes": "It's a really pretty attack (strawhat).",
+    "available_to": [
+      "Isaac",
+      "Garet",
+      "Ivan"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "mind-read",
+    "name": "Mind Read",
+    "game": "gs1",
+    "element": null,
+    "category": "utility",
+    "pp_cost": 1,
+    "range": null,
+    "target": "none",
+    "battle_usable": false,
+    "level_learned": 1,
+    "series": null,
+    "tier": null,
+    "description": "Read someone's mind.",
+    "effect_notes": "Inherited ability available in every class (plz2bstfu-class). Cannot be used during battle.",
+    "available_to": [
+      "Ivan"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "reveal",
+    "name": "Reveal",
+    "game": "gs1",
+    "element": null,
+    "category": "utility",
+    "pp_cost": 1,
+    "range": null,
+    "target": "none",
+    "battle_usable": false,
+    "level_learned": null,
+    "series": null,
+    "tier": null,
+    "description": "Perceive hidden truths.",
+    "effect_notes": "Learned in a mandatory story scene (strawhat). Shows hidden doors and items. Inherited ability available in every class (plz2bstfu-class).",
+    "available_to": [
+      "Ivan"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "ply",
+    "name": "Ply",
+    "game": "gs1",
+    "element": "water",
+    "category": "healing",
+    "pp_cost": 4,
+    "range": 1,
+    "target": "ally",
+    "battle_usable": true,
+    "level_learned": 1,
+    "series": "ply",
+    "tier": 1,
+    "description": "Restore 100 HP with faith's power.",
+    "effect_notes": "Great when first obtained, but the Wish spells eventually become more useful (strawhat).",
+    "available_to": [
+      "Isaac",
+      "Garet",
+      "Mia"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ],
+    "conflicts": [
+      {
+        "field": "pp_cost",
+        "values": {
+          "jiggyhunter": 4,
+          "tetzcatlipoca": 4,
+          "strawhat": 3,
+          "plz2bstfu-class": 4
+        },
+        "note": "Majority value (4) used."
+      }
+    ]
+  },
+  {
+    "id": "ply-well",
+    "name": "Ply Well",
+    "game": "gs1",
+    "element": "water",
+    "category": "healing",
+    "pp_cost": 8,
+    "range": 1,
+    "target": "ally",
+    "battle_usable": true,
+    "level_learned": 16,
+    "series": "ply",
+    "tier": 2,
+    "description": "Restore 200 HP with faith's power.",
+    "effect_notes": null,
+    "available_to": [
+      "Isaac",
+      "Garet",
+      "Mia"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "pure-ply",
+    "name": "Pure Ply",
+    "game": "gs1",
+    "element": "water",
+    "category": "healing",
+    "pp_cost": 12,
+    "range": 1,
+    "target": "ally",
+    "battle_usable": true,
+    "level_learned": 34,
+    "series": "ply",
+    "tier": 3,
+    "description": "Restore 1000 HP with faith's power.",
+    "effect_notes": null,
+    "available_to": [
+      "Isaac",
+      "Garet",
+      "Mia"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat"
+    ]
+  },
+  {
+    "id": "wish",
+    "name": "Wish",
+    "game": "gs1",
+    "element": "water",
+    "category": "healing",
+    "pp_cost": 9,
+    "range": "all",
+    "target": "ally",
+    "battle_usable": true,
+    "level_learned": 5,
+    "level_learned_variants": "5 (Isaac water classes) / 8 (Garet, Mia Cleric/Cavalier/Shaman lines) / 9 (Mia Ascetic/Water Monk/White Mage) / 12 (Ivan, Mia Scholar line)",
+    "series": "wish",
+    "tier": 1,
+    "description": "Restore 80 HP to the whole party.",
+    "effect_notes": "One of the most useful Psynergy early in the game (strawhat).",
+    "available_to": [
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "wish-well",
+    "name": "Wish Well",
+    "game": "gs1",
+    "element": "water",
+    "category": "healing",
+    "pp_cost": 13,
+    "range": "all",
+    "target": "ally",
+    "battle_usable": true,
+    "level_learned": 22,
+    "level_learned_variants": "22 (most classes) / 24 (White Mage, Ivan Scholar line)",
+    "series": "wish",
+    "tier": 2,
+    "description": "Restore 160 HP to the whole party.",
+    "effect_notes": null,
+    "available_to": [
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "pure-wish",
+    "name": "Pure Wish",
+    "game": "gs1",
+    "element": "water",
+    "category": "healing",
+    "pp_cost": 20,
+    "range": "all",
+    "target": "ally",
+    "battle_usable": true,
+    "level_learned": 46,
+    "series": "wish",
+    "tier": 3,
+    "description": "Restore 400 HP to the whole party.",
+    "effect_notes": "jiggyhunter lists the ability without PP or description ('Description Needed').",
+    "available_to": [
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat"
+    ]
+  },
+  {
+    "id": "cure-poison",
+    "name": "Cure Poison",
+    "game": "gs1",
+    "element": "water",
+    "category": "status",
+    "pp_cost": 2,
+    "range": 1,
+    "target": "ally",
+    "battle_usable": true,
+    "level_learned": 1,
+    "level_learned_variants": "1 (White Mage) / 5 (all other classes)",
+    "series": null,
+    "tier": null,
+    "description": "Cleanse the body of poison.",
+    "effect_notes": null,
+    "available_to": [
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "restore",
+    "name": "Restore",
+    "game": "gs1",
+    "element": "water",
+    "category": "status",
+    "pp_cost": 3,
+    "range": 1,
+    "target": "ally",
+    "battle_usable": true,
+    "level_learned": 13,
+    "series": null,
+    "tier": null,
+    "description": "Remove sleep, stun, and delusion.",
+    "effect_notes": null,
+    "available_to": [
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "frost",
+    "name": "Frost",
+    "game": "gs1",
+    "element": "water",
+    "category": "attack",
+    "pp_cost": 5,
+    "range": 3,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 2,
+    "series": "frost",
+    "tier": 1,
+    "description": "Attack with frigid blasts.",
+    "effect_notes": "Mia learns it natively; other characters can gain it from the Frost Jewel.",
+    "field_effect": "Can freeze puddles outside of battle (strawhat).",
+    "available_to": [
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "acquired_via_item": {
+      "item": "Frost Jewel",
+      "location": "Defeat the first Living Statue in Altin Peak.",
+      "source": "tetzcatlipoca"
+    },
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "tundra",
+    "name": "Tundra",
+    "game": "gs1",
+    "element": "water",
+    "category": "attack",
+    "pp_cost": 8,
+    "range": 3,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 9,
+    "series": "frost",
+    "tier": 2,
+    "description": "Attack with frigid blasts.",
+    "effect_notes": null,
+    "available_to": [
+      "Mia"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "glacier",
+    "name": "Glacier",
+    "game": "gs1",
+    "element": "water",
+    "category": "attack",
+    "pp_cost": 15,
+    "range": 3,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 24,
+    "series": "frost",
+    "tier": 3,
+    "description": "Attack with frigid blasts.",
+    "effect_notes": null,
+    "available_to": [
+      "Mia"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "ice",
+    "name": "Ice",
+    "game": "gs1",
+    "element": "water",
+    "category": "attack",
+    "pp_cost": 5,
+    "range": 1,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 9,
+    "series": "ice",
+    "tier": 1,
+    "description": "Attack with spikes of ice.",
+    "effect_notes": null,
+    "available_to": [
+      "Mia"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "ice-horn",
+    "name": "Ice Horn",
+    "game": "gs1",
+    "element": "water",
+    "category": "attack",
+    "pp_cost": 11,
+    "range": 3,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 17,
+    "series": "ice",
+    "tier": 2,
+    "description": "Attack with spikes of ice.",
+    "effect_notes": null,
+    "available_to": [
+      "Mia"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "ice-missile",
+    "name": "Ice Missile",
+    "game": "gs1",
+    "element": "water",
+    "category": "attack",
+    "pp_cost": 23,
+    "range": 3,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 42,
+    "series": "ice",
+    "tier": 3,
+    "description": "Attack with spikes of ice.",
+    "effect_notes": "strawhat spells it 'Ice Missle'.",
+    "available_to": [
+      "Mia"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat"
+    ]
+  },
+  {
+    "id": "prism",
+    "name": "Prism",
+    "game": "gs1",
+    "element": "water",
+    "category": "attack",
+    "pp_cost": 7,
+    "range": 3,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 6,
+    "series": "prism",
+    "tier": 1,
+    "description": "Attack with ice crystals.",
+    "effect_notes": null,
+    "available_to": [
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "hail-prism",
+    "name": "Hail Prism",
+    "game": "gs1",
+    "element": "water",
+    "category": "attack",
+    "pp_cost": 16,
+    "range": 5,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 20,
+    "series": "prism",
+    "tier": 2,
+    "description": "Attack with ice crystals.",
+    "effect_notes": null,
+    "available_to": [
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "freeze-prism",
+    "name": "Freeze Prism",
+    "game": "gs1",
+    "element": "water",
+    "category": "attack",
+    "pp_cost": 31,
+    "range": 5,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 52,
+    "series": "prism",
+    "tier": 3,
+    "description": "Attack with ice crystals.",
+    "effect_notes": null,
+    "available_to": [
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "tetzcatlipoca",
+      "strawhat"
+    ]
+  },
+  {
+    "id": "douse",
+    "name": "Douse",
+    "game": "gs1",
+    "element": "water",
+    "category": "attack",
+    "pp_cost": 5,
+    "range": 3,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 1,
+    "level_learned_variants": "1 (Garet Water Ascetic) / 2 (Ivan Ranger, Mia classes)",
+    "series": "douse",
+    "tier": 1,
+    "description": "Attack with a surge of water.",
+    "effect_notes": "Class-learnable by Garet, Ivan, and Mia; any character can gain it from the Douse Drop. jiggyhunter describes it as 'Attack with a torrent of water'.",
+    "available_to": [
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "acquired_via_item": {
+      "item": "Douse Drop",
+      "location": "Defeat the Ape at the end of Mogall Forest.",
+      "source": "tetzcatlipoca"
+    },
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "drench",
+    "name": "Drench",
+    "game": "gs1",
+    "element": "water",
+    "category": "attack",
+    "pp_cost": 10,
+    "range": 3,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 12,
+    "series": "douse",
+    "tier": 2,
+    "description": "Attack with a torrent of water.",
+    "effect_notes": null,
+    "available_to": [
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "deluge",
+    "name": "Deluge",
+    "game": "gs1",
+    "element": "water",
+    "category": "attack",
+    "pp_cost": 20,
+    "range": 5,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 30,
+    "series": "douse",
+    "tier": 3,
+    "description": "Attack with a deadly flood.",
+    "effect_notes": null,
+    "available_to": [
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "tetzcatlipoca",
+      "strawhat",
+      "aku-chi"
+    ]
+  },
+  {
+    "id": "froth",
+    "name": "Froth",
+    "game": "gs1",
+    "element": "water",
+    "category": "attack",
+    "pp_cost": 5,
+    "range": 3,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 2,
+    "series": "froth",
+    "tier": 1,
+    "description": "Attack with frothing bubbles.",
+    "effect_notes": null,
+    "available_to": [
+      "Isaac",
+      "Ivan",
+      "Mia"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "froth-sphere",
+    "name": "Froth Sphere",
+    "game": "gs1",
+    "element": "water",
+    "category": "attack",
+    "pp_cost": 12,
+    "range": 5,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 14,
+    "series": "froth",
+    "tier": 2,
+    "description": "Attack with frenzied bubbles.",
+    "effect_notes": null,
+    "available_to": [
+      "Isaac",
+      "Ivan",
+      "Mia"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "froth-spiral",
+    "name": "Froth Spiral",
+    "game": "gs1",
+    "element": "water",
+    "category": "attack",
+    "pp_cost": 31,
+    "range": 7,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 40,
+    "series": "froth",
+    "tier": 3,
+    "description": "Attack with a bubble vortex.",
+    "effect_notes": null,
+    "available_to": [
+      "Isaac",
+      "Ivan",
+      "Mia"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "tetzcatlipoca",
+      "strawhat"
+    ]
+  },
+  {
+    "id": "cutting-edge",
+    "name": "Cutting Edge",
+    "game": "gs1",
+    "element": "water",
+    "category": "attack",
+    "pp_cost": 5,
+    "range": 1,
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 11,
+    "series": null,
+    "tier": null,
+    "description": "Inflict damage with a shock wave.",
+    "effect_notes": null,
+    "available_to": [
+      "Isaac",
+      "Garet",
+      "Mia"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "break",
+    "name": "Break",
+    "game": "gs1",
+    "element": "water",
+    "category": "debuff",
+    "pp_cost": 5,
+    "range": "all",
+    "target": "enemy",
+    "battle_usable": true,
+    "level_learned": 30,
+    "level_learned_variants": "30 (most classes) / 34 (fire/water cross classes: Pilgrim, Wanderer, Ascetic, Water Monk, Ranger) / 46 (Isaac water classes per strawhat)",
+    "series": null,
+    "tier": null,
+    "description": "Eliminate an enemy's bonuses.",
+    "effect_notes": "Removes stat bonuses from all enemies.",
+    "available_to": [
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "jiggyhunter",
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "move",
+    "name": "Move",
+    "game": "gs1",
+    "element": null,
+    "category": "utility",
+    "pp_cost": 2,
+    "range": null,
+    "target": "none",
+    "battle_usable": false,
+    "level_learned": 1,
+    "series": null,
+    "tier": null,
+    "description": "Move an object on the ground.",
+    "effect_notes": "Required to finish the game. Can move tree trunks, standing pillars, and boxes, but not round boulders (strawhat). Inherited ability available in every class for Isaac and Garet (plz2bstfu-class).",
+    "available_to": [
+      "Isaac",
+      "Garet"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "retreat",
+    "name": "Retreat",
+    "game": "gs1",
+    "element": null,
+    "category": "utility",
+    "pp_cost": 6,
+    "range": null,
+    "target": "none",
+    "battle_usable": false,
+    "level_learned": 1,
+    "series": null,
+    "tier": null,
+    "description": "Return to the dungeon's entrance.",
+    "effect_notes": "Inherited ability available in every class for Isaac (plz2bstfu-class).",
+    "available_to": [
+      "Isaac"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "avoid",
+    "name": "Avoid",
+    "game": "gs1",
+    "element": null,
+    "category": "utility",
+    "pp_cost": 5,
+    "range": null,
+    "target": "none",
+    "battle_usable": false,
+    "level_learned": 6,
+    "series": null,
+    "tier": null,
+    "description": "Encounter fewer monsters.",
+    "effect_notes": "Class-learned (Defender/Cavalier/Dragoon lines, Mia's Cavalier classes), not item-granted.",
+    "available_to": [
+      "Isaac",
+      "Garet",
+      "Mia"
+    ],
+    "acquired_via_item": null,
+    "sources": [
+      "tetzcatlipoca",
+      "strawhat",
+      "plz2bstfu-class"
+    ]
+  },
+  {
+    "id": "catch",
+    "name": "Catch",
+    "game": "gs1",
+    "element": null,
+    "category": "utility",
+    "pp_cost": 1,
+    "range": null,
+    "target": "none",
+    "battle_usable": false,
+    "level_learned": null,
+    "series": null,
+    "tier": null,
+    "description": "Grab light objects from afar.",
+    "effect_notes": null,
+    "available_to": [
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "acquired_via_item": {
+      "item": "Catch Beads",
+      "location": "Given by Garet's sister (from Dora) when leaving Vale at the start of the journey.",
+      "source": "tetzcatlipoca"
+    },
+    "sources": [
+      "tetzcatlipoca",
+      "strawhat"
+    ]
+  },
+  {
+    "id": "force",
+    "name": "Force",
+    "game": "gs1",
+    "element": null,
+    "category": "utility",
+    "pp_cost": 2,
+    "range": null,
+    "target": "none",
+    "battle_usable": false,
+    "level_learned": null,
+    "series": null,
+    "tier": null,
+    "description": "Strike a distant object.",
+    "effect_notes": "Not needed to complete the game (tetzcatlipoca).",
+    "available_to": [
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "acquired_via_item": {
+      "item": "Orb of Force",
+      "location": "Complete the puzzles in Fuchin Falls Cave.",
+      "source": "tetzcatlipoca"
+    },
+    "sources": [
+      "tetzcatlipoca",
+      "strawhat"
+    ],
+    "conflicts": [
+      {
+        "field": "acquired_via_item.item",
+        "values": {
+          "tetzcatlipoca": "Orb of Force",
+          "strawhat": "Force Gem"
+        },
+        "note": null
+      }
+    ]
+  },
+  {
+    "id": "lift",
+    "name": "Lift",
+    "game": "gs1",
+    "element": null,
+    "category": "utility",
+    "pp_cost": 2,
+    "range": null,
+    "target": "none",
+    "battle_usable": false,
+    "level_learned": null,
+    "series": null,
+    "tier": null,
+    "description": "Lift an object vertically.",
+    "effect_notes": null,
+    "available_to": [
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "acquired_via_item": {
+      "item": "Lifting Gem",
+      "location": "Defeat the Hydros Statue in Altin Peak; open the chest behind it.",
+      "source": "tetzcatlipoca"
+    },
+    "sources": [
+      "tetzcatlipoca",
+      "strawhat"
+    ]
+  },
+  {
+    "id": "carry",
+    "name": "Carry",
+    "game": "gs1",
+    "element": null,
+    "category": "utility",
+    "pp_cost": 2,
+    "range": null,
+    "target": "none",
+    "battle_usable": false,
+    "level_learned": null,
+    "series": null,
+    "tier": null,
+    "description": "Lift and move light objects.",
+    "effect_notes": null,
+    "available_to": [
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "acquired_via_item": {
+      "item": "Carry Stone",
+      "location": "Found in Venus Lighthouse.",
+      "source": "tetzcatlipoca"
+    },
+    "sources": [
+      "tetzcatlipoca",
+      "strawhat"
+    ],
+    "conflicts": [
+      {
+        "field": "acquired_via_item.item",
+        "values": {
+          "tetzcatlipoca": "Carry Stone",
+          "strawhat": "Carry Gem"
+        },
+        "note": null
+      }
+    ]
+  },
+  {
+    "id": "halt",
+    "name": "Halt",
+    "game": "gs1",
+    "element": null,
+    "category": "utility",
+    "pp_cost": 2,
+    "range": null,
+    "target": "none",
+    "battle_usable": false,
+    "level_learned": null,
+    "series": null,
+    "tier": null,
+    "description": "Stop a moving object.",
+    "effect_notes": "Used only twice in the game (strawhat).",
+    "available_to": [
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "acquired_via_item": {
+      "item": "Halt Gem",
+      "location": "Revisit Vale later in the game; use Lift on the rock near Kraden's house and enter the cave.",
+      "source": "tetzcatlipoca"
+    },
+    "sources": [
+      "tetzcatlipoca",
+      "strawhat"
+    ]
+  },
+  {
+    "id": "cloak",
+    "name": "Cloak",
+    "game": "gs1",
+    "element": null,
+    "category": "utility",
+    "pp_cost": 1,
+    "range": null,
+    "target": "none",
+    "battle_usable": false,
+    "level_learned": null,
+    "series": null,
+    "tier": null,
+    "description": "Hide away in shadows.",
+    "effect_notes": null,
+    "available_to": [
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "acquired_via_item": {
+      "item": "Cloak Ball",
+      "location": "Beside Babi's bed after winning Colosso.",
+      "source": "tetzcatlipoca"
+    },
+    "sources": [
+      "tetzcatlipoca",
+      "strawhat"
+    ]
+  }
+]

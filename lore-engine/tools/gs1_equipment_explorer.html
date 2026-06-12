@@ -1,0 +1,1637 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Weyard Armory — Golden Sun Equipment Codex</title>
+<style>
+  :root {
+    --bg: #0d1020;
+    --bg-deep: #090b16;
+    --panel: #161b30;
+    --panel-2: #1c2240;
+    --panel-3: #232a4e;
+    --line: #2e3660;
+    --line-soft: #242b4d;
+    --gold: #d4af5e;
+    --gold-bright: #f0cd83;
+    --gold-dim: #8a7344;
+    --text: #e8e4d8;
+    --text-dim: #9a97a8;
+    --text-faint: #6a687c;
+    --venus: #d9a93d;
+    --mars: #e0633e;
+    --jupiter: #a06ce0;
+    --mercury: #4f9fe0;
+    --cursed: #c05ad0;
+    --good: #6fce8f;
+    --bad: #e06868;
+    --radius: 10px;
+    --font-display: Palatino, "Palatino Linotype", "Book Antiqua", Georgia, serif;
+    --font-body: "Segoe UI", system-ui, -apple-system, sans-serif;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scrollbar-color: var(--line) var(--bg-deep); }
+  body {
+    background: var(--bg);
+    background-image:
+      radial-gradient(ellipse 80% 50% at 50% -10%, rgba(76, 88, 170, 0.22), transparent),
+      radial-gradient(ellipse 40% 30% at 85% 15%, rgba(212, 175, 94, 0.06), transparent),
+      radial-gradient(ellipse 50% 40% at 10% 90%, rgba(79, 159, 224, 0.05), transparent);
+    background-attachment: fixed;
+    color: var(--text);
+    font-family: var(--font-body);
+    font-size: 14px;
+    min-height: 100vh;
+  }
+  ::selection { background: rgba(212, 175, 94, 0.35); }
+
+  /* ---------- Header ---------- */
+  header {
+    text-align: center;
+    padding: 30px 20px 6px;
+  }
+  header h1 {
+    font-family: var(--font-display);
+    font-size: 34px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: var(--gold-bright);
+    text-shadow: 0 0 24px rgba(212, 175, 94, 0.35), 0 2px 4px rgba(0,0,0,0.6);
+  }
+  header .subtitle {
+    color: var(--text-dim);
+    font-size: 13px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    margin-top: 6px;
+  }
+  .header-rule {
+    width: 420px; max-width: 80%;
+    height: 1px; margin: 18px auto 0;
+    background: linear-gradient(90deg, transparent, var(--gold), transparent);
+    position: relative;
+  }
+  .header-rule::after {
+    content: "◆";
+    position: absolute; left: 50%; top: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--gold); font-size: 9px;
+    background: var(--bg); padding: 0 10px;
+  }
+
+  /* ---------- Nav tabs ---------- */
+  nav {
+    display: flex; justify-content: center; gap: 6px;
+    padding: 18px 20px 0;
+  }
+  nav button {
+    font-family: var(--font-display);
+    font-size: 14px; letter-spacing: 2px; text-transform: uppercase;
+    background: transparent;
+    color: var(--text-dim);
+    border: 1px solid transparent;
+    border-bottom: none;
+    padding: 10px 26px;
+    cursor: pointer;
+    border-radius: var(--radius) var(--radius) 0 0;
+    transition: color .15s, background .15s;
+  }
+  nav button:hover { color: var(--gold-bright); }
+  nav button.active {
+    color: var(--gold-bright);
+    background: var(--panel);
+    border-color: var(--line);
+    box-shadow: 0 -4px 16px rgba(0,0,0,0.3);
+  }
+  nav button .count-pip {
+    display: inline-block; min-width: 18px;
+    background: var(--gold); color: #1a1505;
+    font-family: var(--font-body); font-size: 11px; font-weight: 700;
+    border-radius: 9px; padding: 1px 5px; margin-left: 6px;
+    letter-spacing: 0;
+  }
+
+  main {
+    max-width: 1500px;
+    margin: 0 auto;
+    border-top: 1px solid var(--line);
+    min-height: 70vh;
+  }
+  .view { display: none; }
+  .view.active { display: block; }
+
+  /* ---------- Browse layout ---------- */
+  .browse-layout {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    gap: 0;
+  }
+  .sidebar {
+    border-right: 1px solid var(--line-soft);
+    padding: 20px 18px 40px;
+  }
+  .sidebar h3 {
+    font-family: var(--font-display);
+    font-size: 11px; font-weight: 600;
+    letter-spacing: 2px; text-transform: uppercase;
+    color: var(--gold-dim);
+    margin: 22px 0 10px;
+  }
+  .sidebar h3:first-child { margin-top: 0; }
+
+  .search-wrap { position: relative; }
+  .search-wrap input {
+    width: 100%;
+    background: var(--bg-deep);
+    border: 1px solid var(--line);
+    color: var(--text);
+    padding: 9px 12px 9px 32px;
+    border-radius: var(--radius);
+    font-size: 13px;
+    outline: none;
+    transition: border-color .15s;
+  }
+  .search-wrap input:focus { border-color: var(--gold-dim); }
+  .search-wrap::before {
+    content: "⌕";
+    position: absolute; left: 10px; top: 50%;
+    transform: translateY(-50%);
+    color: var(--text-faint); font-size: 16px;
+  }
+
+  .pill-row { display: flex; flex-wrap: wrap; gap: 6px; }
+  .pill {
+    background: var(--panel);
+    border: 1px solid var(--line);
+    color: var(--text-dim);
+    font-size: 12px;
+    padding: 5px 12px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all .12s;
+    user-select: none;
+  }
+  .pill:hover { border-color: var(--gold-dim); color: var(--text); }
+  .pill.active {
+    background: linear-gradient(160deg, #4a3c1c, #2e2611);
+    border-color: var(--gold);
+    color: var(--gold-bright);
+  }
+
+  .char-row { display: flex; gap: 7px; }
+  .char-chip {
+    flex: 1;
+    display: flex; flex-direction: column; align-items: center; gap: 4px;
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 8px 2px 6px;
+    cursor: pointer;
+    transition: all .12s;
+    user-select: none;
+  }
+  .char-chip .orb {
+    width: 26px; height: 26px; border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-family: var(--font-display); font-weight: 700; font-size: 13px;
+    color: #0d1020;
+    box-shadow: inset 0 -3px 5px rgba(0,0,0,0.35), 0 0 0 1px rgba(255,255,255,0.15);
+    opacity: .45; filter: saturate(.4);
+    transition: all .12s;
+  }
+  .char-chip span { font-size: 10px; color: var(--text-faint); letter-spacing: .5px; }
+  .char-chip:hover { border-color: var(--gold-dim); }
+  .char-chip.active { border-color: var(--gold); background: var(--panel-2); }
+  .char-chip.active .orb { opacity: 1; filter: none; box-shadow: inset 0 -3px 5px rgba(0,0,0,0.35), 0 0 10px 1px var(--glow, transparent); }
+  .char-chip.active span { color: var(--text); }
+
+  select {
+    width: 100%;
+    background: var(--bg-deep);
+    border: 1px solid var(--line);
+    color: var(--text);
+    padding: 8px 10px;
+    border-radius: var(--radius);
+    font-size: 13px;
+    outline: none;
+    cursor: pointer;
+  }
+  select:focus { border-color: var(--gold-dim); }
+
+  .flag-list { display: flex; flex-direction: column; gap: 8px; }
+  .flag-list label {
+    display: flex; align-items: center; gap: 9px;
+    color: var(--text-dim); font-size: 13px;
+    cursor: pointer; user-select: none;
+  }
+  .flag-list label:hover { color: var(--text); }
+  .flag-list input { display: none; }
+  .flag-list .box {
+    width: 16px; height: 16px;
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    background: var(--bg-deep);
+    display: inline-flex; align-items: center; justify-content: center;
+    font-size: 11px; color: var(--gold-bright);
+    transition: all .12s;
+    flex-shrink: 0;
+  }
+  .flag-list input:checked + .box { background: #3a2f14; border-color: var(--gold); }
+  .flag-list input:checked + .box::after { content: "✓"; }
+
+  .reset-btn {
+    margin-top: 24px; width: 100%;
+    background: transparent;
+    border: 1px solid var(--line);
+    color: var(--text-faint);
+    padding: 8px;
+    border-radius: var(--radius);
+    cursor: pointer;
+    font-size: 12px; letter-spacing: 1px; text-transform: uppercase;
+    transition: all .12s;
+  }
+  .reset-btn:hover { color: var(--text); border-color: var(--gold-dim); }
+
+  /* ---------- Card grid ---------- */
+  .grid-area { padding: 20px 24px 60px; }
+  .grid-toolbar {
+    display: flex; align-items: center; justify-content: space-between;
+    margin-bottom: 16px; gap: 12px; flex-wrap: wrap;
+  }
+  .result-count { color: var(--text-faint); font-size: 13px; }
+  .result-count b { color: var(--gold); font-weight: 600; }
+  .sort-wrap { display: flex; align-items: center; gap: 8px; color: var(--text-faint); font-size: 12px; }
+  .sort-wrap select { width: auto; padding: 6px 10px; }
+
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+    gap: 14px;
+  }
+  .card {
+    background: linear-gradient(170deg, var(--panel-2), var(--panel));
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 14px 14px 12px;
+    cursor: pointer;
+    position: relative;
+    transition: transform .15s, border-color .15s, box-shadow .15s;
+    overflow: hidden;
+  }
+  .card::before {
+    content: "";
+    position: absolute; left: 0; top: 0; bottom: 0;
+    width: 3px;
+    background: var(--accent, var(--line));
+    opacity: .9;
+  }
+  .card:hover {
+    transform: translateY(-3px);
+    border-color: var(--gold-dim);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.45), 0 0 0 1px rgba(212,175,94,0.12);
+  }
+  .card.cursed-item { border-color: #50306a; }
+  .card.cursed-item:hover { border-color: var(--cursed); }
+  .card .c-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 8px; }
+  .card .c-name {
+    font-family: var(--font-display);
+    font-size: 16px;
+    color: var(--gold-bright);
+    line-height: 1.25;
+  }
+  .card.cursed-item .c-name { color: #d9a3e3; }
+  .card .c-type { font-size: 11px; color: var(--text-faint); letter-spacing: 1px; text-transform: uppercase; margin-top: 3px; }
+  .card .c-badges { display: flex; gap: 4px; flex-shrink: 0; }
+  .badge {
+    width: 20px; height: 20px;
+    display: inline-flex; align-items: center; justify-content: center;
+    border-radius: 5px;
+    font-size: 11px;
+    background: var(--bg-deep);
+    border: 1px solid var(--line);
+    cursor: help;
+  }
+  .badge.artifact { color: var(--gold); }
+  .badge.cursed { color: var(--cursed); border-color: #50306a; }
+  .badge.usable { color: var(--mercury); }
+  .card .c-stat-row {
+    display: flex; align-items: baseline; gap: 14px;
+    margin: 12px 0 8px;
+  }
+  .card .c-mainstat { display: flex; align-items: baseline; gap: 5px; }
+  .card .c-mainstat .num { font-size: 24px; font-weight: 300; color: var(--text); font-family: var(--font-display); }
+  .card .c-mainstat .lbl { font-size: 10px; color: var(--text-faint); letter-spacing: 1px; }
+  .card .c-substats { font-size: 11px; color: var(--text-dim); display: flex; flex-wrap: wrap; gap: 4px 10px; }
+  .card .c-foot {
+    display: flex; justify-content: space-between; align-items: center;
+    border-top: 1px solid var(--line-soft);
+    padding-top: 8px; margin-top: 8px;
+    min-height: 30px;
+  }
+  .unleash-tag { display: flex; align-items: center; gap: 6px; font-size: 11.5px; color: var(--text-dim); overflow: hidden; }
+  .unleash-tag .u-name { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .elem-dot {
+    width: 9px; height: 9px; border-radius: 50%;
+    flex-shrink: 0;
+    box-shadow: 0 0 6px 0 currentColor;
+    background: currentColor;
+  }
+  .use-tag { font-size: 11px; color: var(--mercury); display:flex; align-items:center; gap:5px; overflow:hidden; }
+  .use-tag span { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .c-price { font-size: 11.5px; color: var(--gold-dim); white-space: nowrap; flex-shrink: 0; }
+  .compare-btn {
+    position: absolute; right: 10px; bottom: 44px;
+    width: 26px; height: 26px;
+    border-radius: 6px;
+    border: 1px solid var(--line);
+    background: var(--bg-deep);
+    color: var(--text-faint);
+    cursor: pointer;
+    font-size: 13px;
+    opacity: 0;
+    transition: all .12s;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .card:hover .compare-btn { opacity: 1; }
+  .compare-btn:hover { color: var(--gold-bright); border-color: var(--gold-dim); }
+  .compare-btn.selected { opacity: 1; background: #3a2f14; border-color: var(--gold); color: var(--gold-bright); }
+
+  .empty-state {
+    text-align: center; padding: 70px 20px; color: var(--text-faint);
+  }
+  .empty-state .big { font-size: 40px; margin-bottom: 12px; opacity: .5; }
+
+  /* ---------- Detail drawer ---------- */
+  .drawer-backdrop {
+    position: fixed; inset: 0;
+    background: rgba(5, 7, 14, 0.6);
+    backdrop-filter: blur(2px);
+    opacity: 0; pointer-events: none;
+    transition: opacity .2s;
+    z-index: 40;
+  }
+  .drawer-backdrop.open { opacity: 1; pointer-events: auto; }
+  .drawer {
+    position: fixed; top: 0; right: 0; bottom: 0;
+    width: 420px; max-width: 95vw;
+    background: linear-gradient(200deg, var(--panel-2), var(--panel) 40%);
+    border-left: 1px solid var(--gold-dim);
+    box-shadow: -12px 0 40px rgba(0,0,0,0.55);
+    transform: translateX(105%);
+    transition: transform .25s cubic-bezier(.3,.7,.3,1);
+    z-index: 41;
+    overflow-y: auto;
+    padding: 24px 24px 40px;
+  }
+  .drawer.open { transform: translateX(0); }
+  .drawer .close-x {
+    position: absolute; top: 14px; right: 14px;
+    width: 30px; height: 30px;
+    background: var(--bg-deep);
+    border: 1px solid var(--line);
+    border-radius: 50%;
+    color: var(--text-dim);
+    cursor: pointer; font-size: 14px;
+  }
+  .drawer .close-x:hover { color: var(--gold-bright); border-color: var(--gold-dim); }
+  .d-type { font-size: 11px; letter-spacing: 2px; text-transform: uppercase; color: var(--text-faint); }
+  .d-name {
+    font-family: var(--font-display);
+    font-size: 26px;
+    color: var(--gold-bright);
+    margin: 4px 0 2px;
+    line-height: 1.2;
+    padding-right: 30px;
+  }
+  .d-flags { display: flex; gap: 6px; margin: 10px 0 4px; flex-wrap: wrap; }
+  .flag-tag {
+    font-size: 11px; letter-spacing: .5px;
+    padding: 3px 10px; border-radius: 12px;
+    border: 1px solid var(--line);
+    background: var(--bg-deep);
+    color: var(--text-dim);
+  }
+  .flag-tag.artifact { color: var(--gold); border-color: var(--gold-dim); }
+  .flag-tag.cursed { color: var(--cursed); border-color: #50306a; background: #1d1228; }
+  .flag-tag.crit { color: var(--mars); border-color: #6a3a2a; }
+
+  .d-section { margin-top: 20px; }
+  .d-section h4 {
+    font-family: var(--font-display);
+    font-size: 11px; font-weight: 600;
+    letter-spacing: 2px; text-transform: uppercase;
+    color: var(--gold-dim);
+    margin-bottom: 9px;
+    display: flex; align-items: center; gap: 8px;
+  }
+  .d-section h4::after { content: ""; flex: 1; height: 1px; background: var(--line-soft); }
+
+  .d-chars { display: flex; gap: 7px; }
+  .d-char {
+    display: flex; align-items: center; gap: 6px;
+    font-size: 12px;
+    padding: 4px 11px 4px 5px;
+    border-radius: 16px;
+    border: 1px solid var(--line);
+    background: var(--bg-deep);
+    color: var(--text-faint);
+  }
+  .d-char .orb { width: 16px; height: 16px; border-radius: 50%; opacity: .3; filter: saturate(.3); }
+  .d-char.can { color: var(--text); border-color: var(--gold-dim); }
+  .d-char.can .orb { opacity: 1; filter: none; box-shadow: 0 0 6px 0 var(--glow, transparent); }
+
+  .stat-rows { display: flex; flex-direction: column; gap: 7px; }
+  .stat-row { display: grid; grid-template-columns: 78px 1fr 44px; align-items: center; gap: 10px; }
+  .stat-row .s-lbl { font-size: 12px; color: var(--text-dim); }
+  .stat-row .s-bar { height: 6px; background: var(--bg-deep); border-radius: 3px; overflow: hidden; }
+  .stat-row .s-bar i {
+    display: block; height: 100%;
+    background: linear-gradient(90deg, var(--gold-dim), var(--gold-bright));
+    border-radius: 3px;
+  }
+  .stat-row .s-val { font-size: 13px; text-align: right; color: var(--gold-bright); font-weight: 600; }
+  .mult-note { font-size: 12px; color: var(--jupiter); margin-top: 8px; }
+  .none-note { font-size: 12.5px; color: var(--text-faint); font-style: italic; }
+
+  .elem-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 7px; }
+  .elem-cell {
+    display: flex; align-items: center; justify-content: space-between;
+    background: var(--bg-deep);
+    border: 1px solid var(--line-soft);
+    border-radius: 7px;
+    padding: 6px 10px;
+    font-size: 12px;
+  }
+  .elem-cell .e-name { display: flex; align-items: center; gap: 7px; color: var(--text-dim); }
+  .elem-cell .e-val { font-weight: 600; }
+  .elem-cell .e-val.pos { color: var(--good); }
+  .elem-cell .e-val.neg { color: var(--bad); }
+  .elem-cell.zero { opacity: .35; }
+
+  .unleash-box {
+    background: var(--bg-deep);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 13px 14px;
+    position: relative;
+    overflow: hidden;
+  }
+  .unleash-box::before {
+    content: "";
+    position: absolute; left: 0; top: 0; bottom: 0; width: 3px;
+    background: var(--accent, var(--gold));
+  }
+  .unleash-box .u-title { display: flex; align-items: center; gap: 8px; }
+  .unleash-box .u-title b { font-family: var(--font-display); font-size: 16px; font-weight: 600; color: var(--text); letter-spacing: .5px; }
+  .pips-row { display: flex; gap: 22px; margin-top: 9px; }
+  .pips { display: flex; align-items: center; gap: 7px; font-size: 11px; color: var(--text-faint); }
+  .pips .dots { display: flex; gap: 3px; }
+  .pips .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--line); }
+  .pips .dot.on { background: var(--gold); box-shadow: 0 0 5px rgba(212,175,94,.6); }
+  .u-effects { margin-top: 10px; display: flex; flex-direction: column; gap: 4px; }
+  .u-effects li { list-style: none; font-size: 12.5px; color: var(--text-dim); padding-left: 14px; position: relative; }
+  .u-effects li::before { content: "✦"; position: absolute; left: 0; color: var(--gold-dim); font-size: 10px; }
+  .u-note { font-size: 11.5px; color: var(--text-faint); font-style: italic; margin-top: 8px; }
+
+  .use-box {
+    background: #11202c;
+    border: 1px solid #234458;
+    border-radius: var(--radius);
+    padding: 12px 14px;
+    font-size: 13px;
+    color: #b8d4e8;
+  }
+  .use-box .may-break { display: block; margin-top: 6px; font-size: 11.5px; color: var(--bad); }
+
+  .acq-table { display: flex; flex-direction: column; gap: 8px; }
+  .acq-row { display: flex; gap: 10px; font-size: 13px; }
+  .acq-row .k { width: 76px; flex-shrink: 0; color: var(--text-faint); font-size: 12px; padding-top: 1px; }
+  .acq-row .v { color: var(--text); }
+  .method-tag {
+    display: inline-block;
+    font-size: 11px; letter-spacing: .5px;
+    padding: 2px 9px; border-radius: 10px;
+    border: 1px solid;
+  }
+
+  .conflict-box {
+    background: #251c10;
+    border: 1px solid #5a4622;
+    border-radius: var(--radius);
+    padding: 11px 13px;
+    font-size: 12px;
+    margin-bottom: 8px;
+  }
+  .conflict-box .cf-field { color: var(--gold); font-weight: 600; margin-bottom: 5px; }
+  .conflict-box .cf-val { color: var(--text-dim); padding-left: 10px; }
+  .conflict-box .cf-val b { color: var(--text); font-weight: 600; }
+  .conflict-box .cf-note { color: var(--text-faint); font-style: italic; margin-top: 5px; }
+
+  .d-sources { font-size: 11px; color: var(--text-faint); margin-top: 22px; padding-top: 12px; border-top: 1px solid var(--line-soft); }
+
+  .d-actions { display: flex; gap: 8px; margin-top: 22px; }
+  .btn {
+    flex: 1;
+    background: linear-gradient(170deg, #4a3c1c, #2e2611);
+    border: 1px solid var(--gold-dim);
+    color: var(--gold-bright);
+    padding: 10px;
+    border-radius: var(--radius);
+    cursor: pointer;
+    font-size: 12px; letter-spacing: 1.5px; text-transform: uppercase;
+    transition: all .12s;
+  }
+  .btn:hover { border-color: var(--gold); box-shadow: 0 0 14px rgba(212,175,94,.25); }
+  .btn.ghost { background: transparent; border-color: var(--line); color: var(--text-dim); }
+  .btn.ghost:hover { color: var(--text); border-color: var(--gold-dim); box-shadow: none; }
+
+  /* ---------- Compare tray ---------- */
+  .compare-tray {
+    position: fixed; bottom: 18px; left: 50%;
+    transform: translate(-50%, 90px);
+    background: var(--panel-3);
+    border: 1px solid var(--gold-dim);
+    border-radius: 14px;
+    box-shadow: 0 10px 36px rgba(0,0,0,.6);
+    display: flex; align-items: center; gap: 12px;
+    padding: 10px 14px;
+    z-index: 30;
+    transition: transform .25s cubic-bezier(.3,.7,.3,1);
+  }
+  .compare-tray.visible { transform: translate(-50%, 0); }
+  .tray-slot {
+    display: flex; align-items: center; gap: 8px;
+    background: var(--bg-deep);
+    border: 1px dashed var(--line);
+    border-radius: 8px;
+    padding: 6px 12px;
+    font-size: 12.5px;
+    min-width: 140px;
+    color: var(--text-faint);
+  }
+  .tray-slot.filled { border-style: solid; border-color: var(--gold-dim); color: var(--gold-bright); font-family: var(--font-display); }
+  .tray-slot .rm { cursor: pointer; color: var(--text-faint); font-size: 14px; margin-left: auto; }
+  .tray-slot .rm:hover { color: var(--bad); }
+  .tray-vs { font-family: var(--font-display); color: var(--gold-dim); font-size: 13px; letter-spacing: 1px; }
+
+  /* ---------- Compare view ---------- */
+  .compare-wrap { max-width: 980px; margin: 0 auto; padding: 30px 24px 80px; }
+  .compare-hint { text-align: center; color: var(--text-faint); padding: 60px 0; }
+  .compare-hint .big { font-size: 44px; opacity: .4; margin-bottom: 14px; }
+  .vs-header {
+    display: grid; grid-template-columns: 1fr 60px 1fr;
+    align-items: center; gap: 8px;
+    margin-bottom: 22px;
+  }
+  .vs-item {
+    text-align: center;
+    background: linear-gradient(170deg, var(--panel-2), var(--panel));
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 18px 14px 14px;
+    position: relative;
+    overflow: hidden;
+  }
+  .vs-item::before { content:""; position:absolute; top:0; left:0; right:0; height:3px; background: var(--accent, var(--line)); }
+  .vs-item .v-name { font-family: var(--font-display); font-size: 21px; color: var(--gold-bright); }
+  .vs-item .v-type { font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase; color: var(--text-faint); margin-top: 3px; }
+  .vs-item .v-flags { margin-top: 8px; display: flex; justify-content: center; gap: 5px; flex-wrap: wrap; }
+  .vs-item .swap-link { font-size: 11px; color: var(--text-faint); cursor: pointer; margin-top: 10px; display: inline-block; text-decoration: underline dotted; }
+  .vs-item .swap-link:hover { color: var(--gold-bright); }
+  .vs-mid { text-align: center; font-family: var(--font-display); color: var(--gold); font-size: 17px; letter-spacing: 2px; }
+
+  .cmp-table { display: flex; flex-direction: column; gap: 2px; }
+  .cmp-row {
+    display: grid; grid-template-columns: 1fr 150px 1fr;
+    align-items: center;
+    background: var(--panel);
+    border: 1px solid transparent;
+    padding: 9px 16px;
+    gap: 10px;
+  }
+  .cmp-row:nth-child(odd) { background: var(--panel-2); }
+  .cmp-row .c-lbl { text-align: center; font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase; color: var(--text-faint); }
+  .cmp-row .c-l, .cmp-row .c-r { font-size: 14px; color: var(--text-dim); }
+  .cmp-row .c-l { text-align: right; }
+  .cmp-row .c-r { text-align: left; }
+  .cmp-row .win { color: var(--good); font-weight: 600; }
+  .cmp-row .win::before { content: "▲ "; font-size: 9px; vertical-align: 2px; }
+  .cmp-row.section-break {
+    background: transparent; border: none;
+    padding-top: 22px; padding-bottom: 4px;
+  }
+  .cmp-row.section-break .c-lbl { color: var(--gold-dim); font-family: var(--font-display); font-size: 12px; }
+
+  /* ---------- Loadout ---------- */
+  .loadout-wrap { max-width: 1180px; margin: 0 auto; padding: 26px 24px 80px; }
+  .char-select-row { display: flex; justify-content: center; gap: 10px; margin-bottom: 28px; }
+  .char-tab {
+    display: flex; align-items: center; gap: 10px;
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 10px 22px;
+    cursor: pointer;
+    transition: all .15s;
+    user-select: none;
+  }
+  .char-tab .orb {
+    width: 30px; height: 30px; border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-family: var(--font-display); font-weight: 700; font-size: 15px; color: #0d1020;
+    box-shadow: inset 0 -4px 6px rgba(0,0,0,.35), 0 0 0 1px rgba(255,255,255,.15);
+    opacity: .5; filter: saturate(.45);
+  }
+  .char-tab .ct-name { font-family: var(--font-display); font-size: 16px; color: var(--text-dim); letter-spacing: 1px; }
+  .char-tab .ct-elem { font-size: 10px; color: var(--text-faint); letter-spacing: 1.5px; text-transform: uppercase; }
+  .char-tab:hover { border-color: var(--gold-dim); }
+  .char-tab.active { border-color: var(--gold); background: var(--panel-2); box-shadow: 0 0 18px rgba(212,175,94,.12); }
+  .char-tab.active .orb { opacity: 1; filter: none; box-shadow: inset 0 -4px 6px rgba(0,0,0,.35), 0 0 12px 1px var(--glow, transparent); }
+  .char-tab.active .ct-name { color: var(--gold-bright); }
+
+  .loadout-grid {
+    display: grid;
+    grid-template-columns: 1fr 330px;
+    gap: 22px;
+    align-items: start;
+  }
+  .slots-col { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  .slot-card {
+    background: linear-gradient(170deg, var(--panel-2), var(--panel));
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 13px 15px;
+    cursor: pointer;
+    transition: all .13s;
+    min-height: 92px;
+    position: relative;
+  }
+  .slot-card:hover { border-color: var(--gold-dim); transform: translateY(-2px); }
+  .slot-card .sl-label {
+    font-size: 10px; letter-spacing: 2px; text-transform: uppercase;
+    color: var(--gold-dim);
+    display: flex; align-items: center; gap: 7px;
+  }
+  .slot-card .sl-empty { color: var(--text-faint); font-size: 13px; font-style: italic; margin-top: 14px; }
+  .slot-card .sl-name { font-family: var(--font-display); font-size: 16.5px; color: var(--gold-bright); margin-top: 9px; line-height: 1.2; }
+  .slot-card .sl-name.cursed { color: #d9a3e3; }
+  .slot-card .sl-sub { font-size: 11.5px; color: var(--text-dim); margin-top: 4px; display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+  .slot-card .sl-clear {
+    position: absolute; top: 9px; right: 9px;
+    width: 22px; height: 22px;
+    border-radius: 50%;
+    border: 1px solid var(--line);
+    background: var(--bg-deep);
+    color: var(--text-faint);
+    font-size: 11px;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity .12s;
+  }
+  .slot-card:hover .sl-clear { opacity: 1; }
+  .slot-card .sl-clear:hover { color: var(--bad); border-color: var(--bad); }
+
+  .totals-panel {
+    background: linear-gradient(190deg, var(--panel-3), var(--panel));
+    border: 1px solid var(--gold-dim);
+    border-radius: var(--radius);
+    padding: 20px;
+    position: sticky;
+    top: 16px;
+  }
+  .totals-panel h3 {
+    font-family: var(--font-display);
+    font-size: 13px; letter-spacing: 2.5px; text-transform: uppercase;
+    color: var(--gold-bright);
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  .tot-main { display: flex; justify-content: space-around; margin-bottom: 14px; }
+  .tot-main .tm { text-align: center; }
+  .tot-main .tm .v { font-family: var(--font-display); font-size: 30px; color: var(--text); }
+  .tot-main .tm .k { font-size: 10px; letter-spacing: 2px; color: var(--text-faint); text-transform: uppercase; }
+  .tot-others { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px 14px; font-size: 12px; color: var(--text-dim); margin-bottom: 6px; }
+  .tot-others b { color: var(--good); font-weight: 600; }
+  .tot-sec {
+    border-top: 1px solid var(--line-soft);
+    margin-top: 13px; padding-top: 12px;
+  }
+  .tot-sec .ts-title { font-size: 10px; letter-spacing: 2px; text-transform: uppercase; color: var(--gold-dim); margin-bottom: 9px; }
+  .elem-bars { display: flex; flex-direction: column; gap: 6px; }
+  .elem-bar-row { display: grid; grid-template-columns: 56px 1fr 34px; gap: 8px; align-items: center; font-size: 11px; }
+  .elem-bar-row .eb-name { color: var(--text-dim); display: flex; align-items: center; gap: 6px; }
+  .elem-bar-row .eb-track { height: 5px; background: var(--bg-deep); border-radius: 3px; overflow: hidden; }
+  .elem-bar-row .eb-track i { display: block; height: 100%; border-radius: 3px; }
+  .elem-bar-row .eb-v { text-align: right; color: var(--text-dim); }
+  .tot-warn { font-size: 12px; color: var(--cursed); margin-top: 10px; display: flex; gap: 7px; align-items: flex-start; }
+  .tot-mult { font-size: 11.5px; color: var(--jupiter); margin-top: 8px; }
+  .tot-cost { text-align: center; font-size: 12px; color: var(--gold-dim); margin-top: 13px; }
+  .tot-cost b { color: var(--gold); font-size: 14px; }
+  .loadout-note { font-size: 11px; color: var(--text-faint); text-align: center; margin-top: 14px; line-height: 1.5; }
+
+  /* ---------- Picker modal ---------- */
+  .modal-backdrop {
+    position: fixed; inset: 0;
+    background: rgba(5,7,14,.7);
+    backdrop-filter: blur(3px);
+    z-index: 50;
+    display: none;
+    align-items: center; justify-content: center;
+    padding: 30px;
+  }
+  .modal-backdrop.open { display: flex; }
+  .picker {
+    background: var(--panel-2);
+    border: 1px solid var(--gold-dim);
+    border-radius: 14px;
+    width: 640px; max-width: 100%;
+    max-height: 80vh;
+    display: flex; flex-direction: column;
+    box-shadow: 0 20px 60px rgba(0,0,0,.7);
+    overflow: hidden;
+  }
+  .picker .pk-head {
+    padding: 16px 20px 12px;
+    border-bottom: 1px solid var(--line);
+    display: flex; align-items: center; justify-content: space-between;
+  }
+  .picker .pk-head h3 { font-family: var(--font-display); font-size: 17px; color: var(--gold-bright); font-weight: 400; letter-spacing: 1px; }
+  .picker .pk-head .close-x {
+    width: 28px; height: 28px; border-radius: 50%;
+    background: var(--bg-deep); border: 1px solid var(--line);
+    color: var(--text-dim); cursor: pointer;
+  }
+  .picker .pk-list { overflow-y: auto; padding: 10px 12px 16px; }
+  .pk-item {
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+    gap: 14px; align-items: center;
+    padding: 10px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 1px solid transparent;
+  }
+  .pk-item:hover { background: var(--panel-3); border-color: var(--gold-dim); }
+  .pk-item.equipped { background: #2c2511; border-color: var(--gold); }
+  .pk-item .pi-name { font-family: var(--font-display); font-size: 15px; color: var(--text); }
+  .pk-item .pi-name .cursed-mark { color: var(--cursed); font-size: 12px; margin-left: 5px; }
+  .pk-item .pi-sub { font-size: 11px; color: var(--text-faint); margin-top: 2px; }
+  .pk-item .pi-stat { font-size: 15px; color: var(--gold-bright); font-family: var(--font-display); white-space: nowrap; }
+  .pk-item .pi-stat small { font-size: 10px; color: var(--text-faint); letter-spacing: 1px; }
+  .pk-item .pi-extra { font-size: 11px; color: var(--text-dim); text-align: right; min-width: 80px; }
+  .pk-unequip {
+    margin: 4px 12px 10px;
+    padding: 9px;
+    text-align: center;
+    border: 1px dashed var(--line);
+    border-radius: 8px;
+    color: var(--text-faint);
+    cursor: pointer;
+    font-size: 12px;
+  }
+  .pk-unequip:hover { color: var(--bad); border-color: var(--bad); }
+
+  footer {
+    text-align: center;
+    padding: 26px 20px 36px;
+    color: var(--text-faint);
+    font-size: 11px;
+    letter-spacing: 1px;
+    border-top: 1px solid var(--line-soft);
+  }
+
+  @media (max-width: 900px) {
+    .browse-layout { grid-template-columns: 1fr; }
+    .sidebar { border-right: none; border-bottom: 1px solid var(--line-soft); }
+    .loadout-grid { grid-template-columns: 1fr; }
+    .totals-panel { position: static; }
+    .char-select-row { flex-wrap: wrap; }
+    .vs-header { grid-template-columns: 1fr; }
+    .vs-mid { padding: 8px 0; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Weyard Armory</h1>
+  <div class="subtitle">Golden Sun · Equipment Codex</div>
+  <div class="header-rule"></div>
+</header>
+
+<nav>
+  <button data-view="browse" class="active">Armory</button>
+  <button data-view="compare">Compare <span class="count-pip" id="cmpCount" style="display:none">0</span></button>
+  <button data-view="loadout">Loadout</button>
+</nav>
+
+<main>
+  <!-- BROWSE -->
+  <section class="view active" id="view-browse">
+    <div class="browse-layout">
+      <aside class="sidebar">
+        <h3>Search</h3>
+        <div class="search-wrap">
+          <input type="text" id="searchInput" placeholder="Name, unleash, location…">
+        </div>
+
+        <h3>Category</h3>
+        <div class="pill-row" id="categoryPills"></div>
+
+        <h3>Type</h3>
+        <select id="typeSelect"></select>
+
+        <h3>Equippable By</h3>
+        <div class="char-row" id="charFilter"></div>
+
+        <h3>Traits</h3>
+        <div class="flag-list" id="flagList"></div>
+
+        <button class="reset-btn" id="resetBtn">Clear Filters</button>
+      </aside>
+
+      <div class="grid-area">
+        <div class="grid-toolbar">
+          <div class="result-count" id="resultCount"></div>
+          <div class="sort-wrap">
+            <span>Sort</span>
+            <select id="sortSelect">
+              <option value="atk">Attack ↓</option>
+              <option value="def">Defense ↓</option>
+              <option value="price">Price ↓</option>
+              <option value="name">Name A–Z</option>
+            </select>
+          </div>
+        </div>
+        <div class="card-grid" id="cardGrid"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMPARE -->
+  <section class="view" id="view-compare">
+    <div class="compare-wrap" id="compareWrap"></div>
+  </section>
+
+  <!-- LOADOUT -->
+  <section class="view" id="view-loadout">
+    <div class="loadout-wrap">
+      <div class="char-select-row" id="charTabs"></div>
+      <div class="loadout-grid">
+        <div class="slots-col" id="slotsCol"></div>
+        <div class="totals-panel" id="totalsPanel"></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  95 entries · Golden Sun (GBA, 2001) · compiled from dnextreme88, rockettrekkie &amp; fandom guides
+</footer>
+
+<!-- Detail drawer -->
+<div class="drawer-backdrop" id="drawerBackdrop"></div>
+<aside class="drawer" id="drawer"></aside>
+
+<!-- Compare tray -->
+<div class="compare-tray" id="compareTray"></div>
+
+<!-- Picker modal -->
+<div class="modal-backdrop" id="pickerBackdrop">
+  <div class="picker" id="picker"></div>
+</div>
+
+<script>
+const DATA = [{"id":"gaia-blade","name":"Gaia Blade","game":"gs1","category":"weapon","type":"long_sword","is_cursed":false,"is_artifact":true,"equippable_by":["Isaac","Garet"],"stat_bonus":{"atk":135,"def":0,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":20,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":20,"fire":0,"wind":0,"water":0},"unleash":{"name":"Titan Blade","element":"earth","rate":"high","power_level":"high","effects":[],"notes":null},"use_effect":null,"acquisition":{"method":"chest","location":"Venus Lighthouse","price":17000,"notes":null},"sources":["dnextreme88","rockettrekkie"]},{"id":"muramasa","name":"Muramasa","game":"gs1","category":"weapon","type":"long_sword","is_cursed":true,"is_artifact":true,"equippable_by":["Isaac","Garet"],"stat_bonus":{"atk":126,"def":0,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":0},"unleash":{"name":"Demon Fire","element":"fire","rate":"medium","power_level":"high","effects":["may haunt opponent"],"notes":null},"use_effect":null,"acquisition":{"method":"chest","location":"Crossbone Isle","price":13600,"notes":null},"sources":["dnextreme88","rockettrekkie"]},{"id":"silver-blade","name":"Silver Blade","game":"gs1","category":"weapon","type":"long_sword","is_cursed":false,"is_artifact":true,"equippable_by":["Isaac","Garet"],"stat_bonus":{"atk":108,"def":0,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":0},"unleash":{"name":"Aqua Sock","element":"water","rate":"high","power_level":"low","effects":[],"notes":null},"use_effect":null,"acquisition":{"method":"shop","location":"Lalivero","price":12000,"notes":null},"sources":["dnextreme88","rockettrekkie"]},{"id":"shamshir","name":"Shamshir","game":"gs1","category":"weapon","type":"long_sword","is_cursed":false,"is_artifact":true,"equippable_by":["Isaac","Garet"],"stat_bonus":{"atk":99,"def":0,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":0},"unleash":{"name":"Acid Bath","element":"fire","rate":"medium","power_level":"high","effects":["may drop opponent's attack"],"notes":null},"use_effect":null,"acquisition":{"method":"shop","location":"Lunpa","price":10000,"notes":null},"sources":["dnextreme88","rockettrekkie"],"conflicts":[{"field":"acquisition.location","values":{"dnextreme88":"Tolbi","rockettrekkie":"Lunpa"},"note":"dnextreme88 says buy from Tolbi's weapon dealer; rockettrekkie lists as Artifacts list (Lunpa)"}]},{"id":"arctic-blade","name":"Arctic Blade","game":"gs1","category":"weapon","type":"long_sword","is_cursed":false,"is_artifact":true,"equippable_by":["Isaac","Garet"],"stat_bonus":{"atk":55,"def":0,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":0},"unleash":{"name":"Blizzard","element":"water","rate":"high","power_level":"medium","effects":["may drop opponent's attack"],"notes":null},"use_effect":null,"acquisition":{"method":"chest","location":"Fuchin Falls Cave","price":2600,"notes":null},"sources":["dnextreme88","rockettrekkie"]},{"id":"masamune","name":"Masamune","game":"gs1","category":"weapon","type":"long_sword","is_cursed":false,"is_artifact":false,"equippable_by":["Isaac","Garet"],"stat_bonus":{"atk":115,"def":0,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":0},"unleash":null,"use_effect":null,"acquisition":{"method":"unobtainable","location":null,"price":null,"notes":"Sells for 10050 coins; only accessible via hacking device"},"sources":["rockettrekkie"]},{"id":"sol-blade","name":"Sol Blade","game":"gs1","category":"weapon","type":"long_sword","is_cursed":false,"is_artifact":false,"equippable_by":["Isaac","Garet"],"stat_bonus":{"atk":138,"def":0,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":0},"unleash":null,"use_effect":null,"acquisition":{"method":"unobtainable","location":null,"price":null,"notes":"Sells for 14250 coins; only accessible via hacking device"},"sources":["rockettrekkie"]},{"id":"kikuichimonji","name":"Kikuichimonji","game":"gs1","category":"weapon","type":"light_blade","is_cursed":false,"is_artifact":true,"equippable_by":["Isaac","Garet","Ivan"],"stat_bonus":{"atk":128,"def":0,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":0},"unleash":{"name":"Asura","element":"wind","rate":"medium","power_level":"medium","effects":["may delude opponent"],"notes":null},"use_effect":null,"acquisition":{"method":"drop","location":"Venus Lighthouse (Fenrir)","price":13400,"notes":null},"sources":["dnextreme88","rockettrekkie"]},{"id":"swift-sword","name":"Swift Sword","game":"gs1","category":"weapon","type":"light_blade","is_cursed":false,"is_artifact":true,"equippable_by":["Isaac","Garet","Ivan"],"stat_bonus":{"atk":104,"def":0,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":10,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":0},"unleash":{"name":"Sonic Smash","element":"wind","rate":"low","power_level":"high","effects":["may hit multiple times"],"notes":"2 different unleashes; second unleash unnamed in sources"},"use_effect":null,"acquisition":{"method":"shop","location":"Lalivero","price":9400,"notes":null},"sources":["dnextreme88","rockettrekkie"],"conflicts":[{"field":"unleash.name","values":{"dnextreme88":"Sonic Slash","rockettrekkie":"Sonic Smash"},"note":"Unleash name differs between sources; rockettrekkie preferred as primary"}]},{"id":"ninja-blade","name":"Ninja Blade","game":"gs1","category":"weapon","type":"light_blade","is_cursed":false,"is_artifact":true,"equippable_by":["Isaac","Garet","Ivan"],"stat_bonus":{"atk":94,"def":0,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":0},"unleash":{"name":"Cyclone Attack","element":"wind","rate":"medium","power_level":"low","effects":["may drop opponent's resistance"],"notes":null},"use_effect":null,"acquisition":{"method":"shop","location":"Lunpa","price":8800,"notes":null},"sources":["dnextreme88","rockettrekkie"]},{"id":"assassin-blade","name":"Assassin Blade","game":"gs1","category":"weapon","type":"light_blade","is_cursed":false,"is_artifact":true,"equippable_by":["Isaac","Garet","Ivan"],"stat_bonus":{"atk":90,"def":0,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":0},"unleash":{"name":"Mortal Danger","element":"earth","rate":"low","power_level":"high","effects":["may drain opponent's spirit","one-hit kill possible"],"notes":null},"use_effect":null,"acquisition":{"method":"lucky_wheels","location":"Tolbi Springs","price":7800,"notes":null},"sources":["dnextreme88","rockettrekkie"]},{"id":"mystery-blade","name":"Mystery Blade","game":"gs1","category":"weapon","type":"light_blade","is_cursed":false,"is_artifact":true,"equippable_by":["Isaac","Garet","Ivan"],"stat_bonus":{"atk":84,"def":0,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":0},"unleash":{"name":"Life Nourish","element":"earth","rate":"medium","power_level":"low","effects":["may restore user's HP"],"notes":null},"use_effect":null,"acquisition":{"method":"chest","location":"Crossbone Isle","price":6400,"notes":null},"sources":["dnextreme88","rockettrekkie"]},{"id":"elven-rapier","name":"Elven Rapier","game":"gs1","category":"weapon","type":"light_blade","is_cursed":false,"is_artifact":true,"equippable_by":["Isaac","Garet","Ivan"],"stat_bonus":{"atk":44,"def":0,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":0},"unleash":{"name":"Vorpal Slash","element":"wind","rate":"high","power_level":"high","effects":[],"notes":"wind-element aligned weapon"},"use_effect":null,"acquisition":{"method":"chest","location":"Bilibin Cave","price":2200,"notes":"Accessible via Grow Psynergy on ivy outside the cave"},"sources":["dnextreme88","rockettrekkie"]},{"id":"bandits-sword","name":"Bandit's Sword","game":"gs1","category":"weapon","type":"light_blade","is_cursed":false,"is_artifact":true,"equippable_by":["Isaac","Garet","Ivan"],"stat_bonus":{"atk":12,"def":0,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":0},"unleash":{"name":"Rapid Smash","element":"wind","rate":"medium","power_level":"low","effects":["may hit multiple times"],"notes":"2 different unleashes; second unleash unnamed in sources"},"use_effect":null,"acquisition":{"method":"event","location":"Vault","price":700,"notes":"Obtained after defeating the bandits"},"sources":["dnextreme88","rockettrekkie"]},{"id":"kusanagi","name":"Kusanagi","game":"gs1","category":"weapon","type":"light_blade","is_cursed":false,"is_artifact":false,"equippable_by":["Isaac","Garet","Ivan"],"stat_bonus":{"atk":135,"def":0,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":0},"unleash":null,"use_effect":null,"acquisition":{"method":"unobtainable","location":null,"price":null,"notes":"Sells for 14250 coins; only accessible via hacking device"},"sources":["rockettrekkie"]},{"id":"demon-axe","name":"Demon Axe","game":"gs1","category":"weapon","type":"axe","is_cursed":true,"is_artifact":true,"equippable_by":["Isaac","Garet"],"stat_bonus":{"atk":132,"def":0,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":0},"unleash":{"name":"Poison Cloud","element":"earth","rate":"low","power_level":"medium","effects":["may poison opponent"],"notes":null},"use_effect":null,"acquisition":{"method":"chest","location":"Crossbone Isle","price":1600,"notes":null},"sources":["dnextreme88","rockettrekkie"]},{"id":"giant-axe","name":"Giant Axe","game":"gs1","category":"weapon","type":"axe","is_cursed":false,"is_artifact":true,"equippable_by":["Isaac","Garet"],"stat_bonus":{"atk":114,"def":0,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":0},"unleash":{"name":"Meltdown","element":"fire","rate":"medium","power_level":"high","effects":["may drop opponent's defense"],"notes":null},"use_effect":null,"acquisition":{"method":"drop","location":"Suhalla Pass / Venus Lighthouse (Earth Golem)","price":14000,"notes":null},"sources":["dnextreme88","rockettrekkie"],"conflicts":[{"field":"acquisition.location","values":{"dnextreme88":"Suhalla Gate and Tunnel Ruins","rockettrekkie":"Suhalla Pass and lower Venus Lighthouse"},"note":"Drop location differs between sources"}]},{"id":"dragon-axe","name":"Dragon Axe","game":"gs1","category":"weapon","type":"axe","is_cursed":false,"is_artifact":true,"equippable_by":["Isaac","Garet"],"stat_bonus":{"atk":100,"def":0,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":0},"unleash":{"name":"Heat Mirage","element":"fire","rate":"high","power_level":"medium","effects":["may delude opponent"],"notes":null},"use_effect":null,"acquisition":{"method":"shop","location":"Lunpa","price":10300,"notes":null},"sources":["dnextreme88","rockettrekkie"],"conflicts":[{"field":"acquisition.location","values":{"dnextreme88":"Tolbi","rockettrekkie":"Lunpa"},"note":"dnextreme88 says buy from Tolbi's weapon dealer; rockettrekkie lists as Artifacts list (Lunpa)"}]},{"id":"burning-axe","name":"Burning Axe","game":"gs1","category":"weapon","type":"axe","is_cursed":false,"is_artifact":true,"equippable_by":["Isaac","Garet"],"stat_bonus":{"atk":84,"def":0,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":0},"unleash":{"name":"Broil","element":"fire","rate":"medium","power_level":"medium","effects":[],"notes":null},"use_effect":null,"acquisition":{"method":"lucky_wheels","location":"Tolbi Springs","price":7500,"notes":null},"sources":["dnextreme88","rockettrekkie"]},{"id":"vulcan-axe","name":"Vulcan Axe","game":"gs1","category":"weapon","type":"axe","is_cursed":false,"is_artifact":true,"equippable_by":["Isaac","Garet"],"stat_bonus":{"atk":76,"def":0,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":0},"unleash":{"name":"Barrage","element":"fire","rate":"medium","power_level":"medium","effects":["may stun opponent"],"notes":null},"use_effect":null,"acquisition":{"method":"chest","location":"Lamakan Desert","price":4600,"notes":null},"sources":["dnextreme88","rockettrekkie"]},{"id":"wicked-mace","name":"Wicked Mace","game":"gs1","category":"weapon","type":"mace","is_cursed":true,"is_artifact":true,"equippable_by":["Isaac","Garet","Mia"],"stat_bonus":{"atk":130,"def":0,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":0},"unleash":{"name":"Poison Death","element":"earth","rate":"medium","power_level":"medium","effects":["may poison opponent with deadly venom"],"notes":null},"use_effect":null,"acquisition":{"method":"chest","location":"Crossbone Isle","price":13800,"notes":null},"sources":["dnextreme88","rockettrekkie"]},{"id":"blessed-mace","name":"Blessed Mace","game":"gs1","category":"weapon","type":"mace","is_cursed":false,"is_artifact":true,"equippable_by":["Isaac","Garet","Mia"],"stat_bonus":{"atk":126,"def":0,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":2,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":0},"unleash":null,"use_effect":{"description":"Restores 200 HP to one ally","may_break":true},"acquisition":{"method":"drop","location":"Venus Lighthouse (Thunder Lizard)","price":14500,"notes":null},"sources":["dnextreme88","rockettrekkie"]},{"id":"righteous-mace","name":"Righteous Mace","game":"gs1","category":"weapon","type":"mace","is_cursed":false,"is_artifact":true,"equippable_by":["Isaac","Garet","Mia"],"stat_bonus":{"atk":112,"def":0,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":3,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":0},"unleash":{"name":"Blinding Smog","element":"wind","rate":"low","power_level":"medium","effects":["may delude opponent"],"notes":null},"use_effect":null,"acquisition":{"method":"shop","location":"Lalivero","price":8400,"notes":null},"sources":["dnextreme88","rockettrekkie"]},{"id":"grievous-mace","name":"Grievous Mace","game":"gs1","category":"weapon","type":"mace","is_cursed":false,"is_artifact":true,"equippable_by":["Isaac","Garet","Mia"],"stat_bonus":{"atk":88,"def":0,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":0},"unleash":{"name":"Terra Strike","element":"earth","rate":"low","power_level":"high","effects":[],"notes":null},"use_effect":null,"acquisition":{"method":"lucky_wheels","location":"Tolbi Springs","price":7000,"notes":null},"sources":["dnextreme88","rockettrekkie"]},{"id":"crystal-rod","name":"Crystal Rod","game":"gs1","category":"weapon","type":"staff","is_cursed":false,"is_artifact":true,"equippable_by":["Ivan","Mia"],"stat_bonus":{"atk":106,"def":0,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":0},"unleash":{"name":"Drown","element":"water","rate":"medium","power_level":"medium","effects":["may suffocate opponent","one-hit kill possible"],"notes":null},"use_effect":null,"acquisition":{"method":"shop","location":"Lalivero","price":13400,"notes":null},"sources":["dnextreme88","rockettrekkie"]},{"id":"zodiac-wand","name":"Zodiac Wand","game":"gs1","category":"weapon","type":"staff","is_cursed":false,"is_artifact":true,"equippable_by":["Ivan","Mia"],"stat_bonus":{"atk":102,"def":0,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":0},"unleash":{"name":"Shining Star","element":"wind","rate":"medium","power_level":"high","effects":["may delude opponent"],"notes":null},"use_effect":null,"acquisition":{"method":"drop","location":"Venus Lighthouse (Grand Golem)","price":11400,"notes":null},"sources":["dnextreme88","rockettrekkie"]},{"id":"demonic-staff","name":"Demonic Staff","game":"gs1","category":"weapon","type":"staff","is_cursed":true,"is_artifact":true,"equippable_by":["Ivan","Mia"],"stat_bonus":{"atk":92,"def":0,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":0},"unleash":{"name":"Bad Omen","element":"earth","rate":"high","power_level":"medium","effects":["may haunt opponent"],"notes":null},"use_effect":null,"acquisition":{"method":"shop","location":"Lunpa","price":10000,"notes":null},"sources":["dnextreme88","rockettrekkie"]},{"id":"angelic-ankh","name":"Angelic Ankh","game":"gs1","category":"weapon","type":"staff","is_cursed":false,"is_artifact":true,"equippable_by":["Ivan","Mia"],"stat_bonus":{"atk":83,"def":0,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":0},"unleash":{"name":"Life Leech","element":"water","rate":"high","power_level":"medium","effects":["may restore user's HP"],"notes":null},"use_effect":null,"acquisition":{"method":"shop","location":"Tolbi","price":6400,"notes":null},"sources":["dnextreme88","rockettrekkie"]},{"id":"frost-wand","name":"Frost Wand","game":"gs1","category":"weapon","type":"staff","is_cursed":false,"is_artifact":true,"equippable_by":["Ivan","Mia"],"stat_bonus":{"atk":76,"def":0,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":0},"unleash":{"name":"Frost Bite","element":"water","rate":"medium","power_level":"medium","effects":["may stun opponent"],"notes":null},"use_effect":null,"acquisition":{"method":"shop","location":"Kalay","price":5400,"notes":null},"sources":["dnextreme88","rockettrekkie"]},{"id":"psynergy-rod","name":"Psynergy Rod","game":"gs1","category":"weapon","type":"staff","is_cursed":false,"is_artifact":true,"equippable_by":["Ivan","Mia"],"stat_bonus":{"atk":64,"def":0,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":0},"unleash":{"name":"Psynergy Leech","element":"water","rate":"medium","power_level":"medium","effects":["may restore user's PP"],"notes":null},"use_effect":null,"acquisition":{"method":"shop","location":"Altin","price":3800,"notes":null},"sources":["dnextreme88","rockettrekkie"]},{"id":"blessed-ankh","name":"Blessed Ankh","game":"gs1","category":"weapon","type":"staff","is_cursed":false,"is_artifact":true,"equippable_by":["Ivan","Mia"],"stat_bonus":{"atk":46,"def":0,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":0},"unleash":{"name":"Psyphon Seal","element":"wind","rate":"medium","power_level":"medium","effects":["may seal opponent's Psynergy"],"notes":null},"use_effect":null,"acquisition":{"method":"shop","location":"Imil","price":1600,"notes":null},"sources":["dnextreme88","rockettrekkie"]},{"id":"witchs-wand","name":"Witch's Wand","game":"gs1","category":"weapon","type":"staff","is_cursed":false,"is_artifact":true,"equippable_by":["Ivan","Mia"],"stat_bonus":{"atk":32,"def":0,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":0},"unleash":{"name":"Stun Voltage","element":"wind","rate":"medium","power_level":"medium","effects":["may stun opponent"],"notes":null},"use_effect":null,"acquisition":{"method":"shop","location":"Bilibin","price":860,"notes":null},"sources":["dnextreme88","rockettrekkie"]},{"id":"magic-rod","name":"Magic Rod","game":"gs1","category":"weapon","type":"staff","is_cursed":false,"is_artifact":true,"equippable_by":["Ivan","Mia"],"stat_bonus":{"atk":16,"def":0,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":0},"unleash":{"name":"Murk","element":"wind","rate":"low","power_level":"medium","effects":["may put opponent to sleep"],"notes":null},"use_effect":null,"acquisition":{"method":"shop","location":"Bilibin","price":380,"notes":null},"sources":["dnextreme88","rockettrekkie"]},{"id":"shamans-rod","name":"Shaman's Rod","game":"gs1","category":"weapon","type":"staff","is_cursed":false,"is_artifact":false,"equippable_by":["Ivan","Mia"],"stat_bonus":{"atk":10,"def":0,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":0},"unleash":null,"use_effect":null,"acquisition":{"method":"event","location":"Vault","price":null,"notes":"Recovered from thieves in Vault; cannot be dropped or sold"},"sources":["rockettrekkie"]},{"id":"demon-mail","name":"Demon Mail","game":"gs1","category":"armor","type":"armor","is_cursed":true,"is_artifact":true,"equippable_by":["Isaac","Garet"],"stat_bonus":{"atk":0,"def":50,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":-10,"water":0},"unleash":null,"use_effect":null,"acquisition":{"method":"chest","location":"Crossbone Isle","price":17000,"notes":"Chest revealed after defeating Deadbeard"},"sources":["dnextreme88","rockettrekkie","fandom-equipment"]},{"id":"dragon-scales","name":"Dragon Scales","game":"gs1","category":"armor","type":"armor","is_cursed":false,"is_artifact":true,"equippable_by":["Isaac","Garet"],"stat_bonus":{"atk":0,"def":44,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":30,"wind":0,"water":30},"unleash":null,"use_effect":null,"acquisition":{"method":"chest","location":"Venus Lighthouse","price":17000,"notes":null},"sources":["dnextreme88","rockettrekkie","fandom-equipment"]},{"id":"asuras-armor","name":"Asura's Armor","game":"gs1","category":"armor","type":"armor","is_cursed":false,"is_artifact":true,"equippable_by":["Isaac","Garet"],"stat_bonus":{"atk":5,"def":42,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":8,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":0},"unleash":null,"use_effect":null,"acquisition":{"method":"chest","location":"Tunnel Ruins","price":15000,"notes":"Hidden in statue on right path"},"sources":["dnextreme88","rockettrekkie","fandom-equipment"]},{"id":"spiked-armor","name":"Spiked Armor","game":"gs1","category":"armor","type":"armor","is_cursed":false,"is_artifact":true,"equippable_by":["Isaac","Garet"],"stat_bonus":{"atk":10,"def":34,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":null,"increases_critical":true,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":0},"unleash":null,"use_effect":null,"acquisition":{"method":"drop","location":"Babi Lighthouse / Tunnel Ruins / Venus Lighthouse (Chimera Mage)","price":14000,"notes":null},"sources":["dnextreme88","rockettrekkie","fandom-equipment"]},{"id":"spirit-armor","name":"Spirit Armor","game":"gs1","category":"armor","type":"armor","is_cursed":false,"is_artifact":true,"equippable_by":["Isaac","Garet"],"stat_bonus":{"atk":0,"def":32,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":15,"fire":15,"wind":15,"water":15},"unleash":null,"use_effect":null,"acquisition":{"method":"lucky_wheels","location":"Tolbi Springs","price":4000,"notes":null},"sources":["dnextreme88","rockettrekkie","fandom-equipment"]},{"id":"psynergy-armor","name":"Psynergy Armor","game":"gs1","category":"armor","type":"armor","is_cursed":false,"is_artifact":false,"equippable_by":["Isaac","Garet"],"stat_bonus":{"atk":0,"def":21,"hp":0,"pp":20,"agi":0,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":0},"unleash":null,"use_effect":null,"acquisition":{"method":"chest","location":"Mercury Lighthouse","price":null,"notes":"Does not appear in Artifact List if sold or dropped"},"sources":["rockettrekkie","fandom-equipment"]},{"id":"storm-gear","name":"Storm Gear","game":"gs1","category":"armor","type":"clothing","is_cursed":false,"is_artifact":true,"equippable_by":["Isaac","Garet","Ivan","Mia"],"stat_bonus":{"atk":0,"def":42,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":30,"wind":30,"water":30},"unleash":null,"use_effect":null,"acquisition":{"method":"chest","location":"Crossbone Isle","price":9800,"notes":null},"sources":["dnextreme88","rockettrekkie","fandom-equipment"]},{"id":"ninja-garb","name":"Ninja Garb","game":"gs1","category":"armor","type":"clothing","is_cursed":false,"is_artifact":true,"equippable_by":["Isaac","Garet","Ivan","Mia"],"stat_bonus":{"atk":0,"def":36,"hp":0,"pp":0,"agi":30,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":10,"water":0},"unleash":null,"use_effect":null,"acquisition":{"method":"chest","location":"Crossbone Isle","price":6900,"notes":null},"sources":["dnextreme88","rockettrekkie","fandom-equipment"],"conflicts":[{"field":"stat_bonus.def","values":{"dnextreme88":35,"rockettrekkie":36,"fandom-equipment":36},"note":"dnextreme88 gives DEF+35; rockettrekkie and fandom agree on DEF+36"},{"field":"stat_bonus.agi","values":{"dnextreme88":30,"rockettrekkie":30,"fandom-equipment":10},"note":"dnextreme88 and rockettrekkie give AGI+30; fandom gives AGI+10"}]},{"id":"water-jacket","name":"Water Jacket","game":"gs1","category":"armor","type":"clothing","is_cursed":false,"is_artifact":true,"equippable_by":["Isaac","Garet","Ivan","Mia"],"stat_bonus":{"atk":0,"def":30,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":20,"wind":0,"water":30},"unleash":null,"use_effect":null,"acquisition":{"method":"chest","location":"Hammet Palace","price":3000,"notes":null},"sources":["dnextreme88","rockettrekkie","fandom-equipment"],"conflicts":[{"field":"elemental_resistance.water","values":{"dnextreme88":30,"rockettrekkie":30,"fandom-equipment":20},"note":"dnextreme88 and rockettrekkie give Water RES+30; fandom gives Water RES+20"}]},{"id":"kimono","name":"Kimono","game":"gs1","category":"armor","type":"clothing","is_cursed":false,"is_artifact":true,"equippable_by":["Isaac","Garet","Ivan","Mia"],"stat_bonus":{"atk":0,"def":25,"hp":0,"pp":0,"agi":10,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":10,"wind":0,"water":0},"unleash":null,"use_effect":null,"acquisition":{"method":"lucky_wheels","location":"Tolbi Springs","price":2800,"notes":null},"sources":["dnextreme88","rockettrekkie","fandom-equipment"]},{"id":"elven-shirt","name":"Elven Shirt","game":"gs1","category":"armor","type":"clothing","is_cursed":false,"is_artifact":true,"equippable_by":["Isaac","Garet","Ivan","Mia"],"stat_bonus":{"atk":0,"def":22,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":{"agi":1.5},"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":0},"unleash":null,"use_effect":null,"acquisition":{"method":"chest","location":"Mogall Forest","price":1700,"notes":null},"sources":["dnextreme88","rockettrekkie","fandom-equipment"]},{"id":"fur-coat","name":"Fur Coat","game":"gs1","category":"armor","type":"clothing","is_cursed":false,"is_artifact":false,"equippable_by":["Isaac","Garet","Ivan","Mia"],"stat_bonus":{"atk":0,"def":16,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":20},"unleash":null,"use_effect":null,"acquisition":{"method":"chest","location":"Kolima Forest","price":null,"notes":"Does not appear in Artifact List if sold or dropped"},"sources":["rockettrekkie","fandom-equipment"]},{"id":"feathered-robe","name":"Feathered Robe","game":"gs1","category":"armor","type":"robe","is_cursed":false,"is_artifact":true,"equippable_by":["Ivan","Mia"],"stat_bonus":{"atk":0,"def":45,"hp":0,"pp":0,"agi":30,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":20,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":30,"water":0},"unleash":null,"use_effect":null,"acquisition":{"method":"drop","location":"Babi Lighthouse / Tunnel Ruins / Venus Lighthouse (Wild Gryphon)","price":14000,"notes":null},"sources":["dnextreme88","rockettrekkie","fandom-equipment"]},{"id":"oracles-robe","name":"Oracle's Robe","game":"gs1","category":"armor","type":"robe","is_cursed":false,"is_artifact":true,"equippable_by":["Mia"],"stat_bonus":{"atk":0,"def":43,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":10,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":40},"unleash":null,"use_effect":null,"acquisition":{"method":"chest","location":"Tunnel Ruins","price":13500,"notes":"Hidden in statue on left path; equippable by Mia only"},"sources":["dnextreme88","rockettrekkie","fandom-equipment"],"conflicts":[{"field":"stat_bonus.def","values":{"dnextreme88":42,"rockettrekkie":43,"fandom-equipment":43},"note":"dnextreme88 gives DEF+42; rockettrekkie and fandom agree on DEF+43"}]},{"id":"magical-cassock","name":"Magical Cassock","game":"gs1","category":"armor","type":"robe","is_cursed":false,"is_artifact":true,"equippable_by":["Ivan","Mia"],"stat_bonus":{"atk":0,"def":39,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":0,"pp_regen":2},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":0},"unleash":null,"use_effect":null,"acquisition":{"method":"shop","location":"Lalivero","price":9000,"notes":null},"sources":["dnextreme88","rockettrekkie","fandom-equipment"]},{"id":"blessed-robe","name":"Blessed Robe","game":"gs1","category":"armor","type":"robe","is_cursed":false,"is_artifact":true,"equippable_by":["Ivan","Mia"],"stat_bonus":{"atk":0,"def":36,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":5,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":0},"unleash":null,"use_effect":null,"acquisition":{"method":"shop","location":"Lunpa","price":7000,"notes":null},"sources":["dnextreme88","rockettrekkie","fandom-equipment"]},{"id":"cocktail-dress","name":"Cocktail Dress","game":"gs1","category":"armor","type":"robe","is_cursed":false,"is_artifact":true,"equippable_by":["Mia"],"stat_bonus":{"atk":0,"def":29,"hp":0,"pp":15,"agi":0,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":0},"unleash":null,"use_effect":null,"acquisition":{"method":"lucky_wheels","location":"Tolbi Springs","price":4000,"notes":"Equippable by Mia only"},"sources":["dnextreme88","rockettrekkie","fandom-equipment"]},{"id":"china-dress","name":"China Dress","game":"gs1","category":"armor","type":"robe","is_cursed":false,"is_artifact":true,"equippable_by":["Mia"],"stat_bonus":{"atk":0,"def":19,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":0},"unleash":null,"use_effect":{"description":"Drops one enemy's attack","may_break":true},"acquisition":{"method":"shop","location":"Xian","price":1600,"notes":"Equippable by Mia only"},"sources":["dnextreme88","rockettrekkie","fandom-equipment"]},{"id":"mirrored-shield","name":"Mirrored Shield","game":"gs1","category":"armor","type":"shield","is_cursed":false,"is_artifact":true,"equippable_by":["Isaac","Garet"],"stat_bonus":{"atk":0,"def":39,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":0},"unleash":null,"use_effect":{"description":"Deludes one enemy","may_break":true},"acquisition":{"method":"shop","location":"Lalivero","price":5200,"notes":null},"sources":["dnextreme88","rockettrekkie","fandom-equipment"],"conflicts":[{"field":"name","values":{"dnextreme88":"Mirror Shield","rockettrekkie":"Mirrored Shield","fandom-equipment":"Mirrored Shield"},"note":"dnextreme88 calls it 'Mirror Shield'; rockettrekkie and fandom call it 'Mirrored Shield'"}]},{"id":"earth-shield","name":"Earth Shield","game":"gs1","category":"armor","type":"shield","is_cursed":false,"is_artifact":true,"equippable_by":["Isaac","Garet"],"stat_bonus":{"atk":0,"def":31,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":20,"fire":0,"wind":0,"water":0},"unleash":null,"use_effect":{"description":"Restores 150 HP to one ally","may_break":true},"acquisition":{"method":"lucky_wheels","location":"Tolbi Springs","price":4100,"notes":null},"sources":["dnextreme88","rockettrekkie","fandom-equipment"]},{"id":"dragon-shield","name":"Dragon Shield","game":"gs1","category":"armor","type":"shield","is_cursed":false,"is_artifact":true,"equippable_by":["Isaac","Garet"],"stat_bonus":{"atk":0,"def":26,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":30,"wind":0,"water":0},"unleash":null,"use_effect":null,"acquisition":{"method":"chest","location":"Altin Peak","price":2400,"notes":null},"sources":["dnextreme88","rockettrekkie","fandom-equipment"],"conflicts":[{"field":"name","values":{"dnextreme88":"Dragon Scales","rockettrekkie":"Dragon Shield","fandom-equipment":"Dragon Shield"},"note":"dnextreme88 calls this shield 'Dragon Scales'; rockettrekkie and fandom call it 'Dragon Shield'"}]},{"id":"aura-gloves","name":"Aura Gloves","game":"gs1","category":"armor","type":"gloves","is_cursed":false,"is_artifact":true,"equippable_by":["Isaac","Garet","Ivan","Mia"],"stat_bonus":{"atk":0,"def":36,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":0},"unleash":null,"use_effect":{"description":"Boosts elemental resistance of one ally","may_break":true},"acquisition":{"method":"drop","location":"Suhalla Desert (Magicore)","price":6500,"notes":null},"sources":["dnextreme88","rockettrekkie","fandom-equipment"]},{"id":"spirit-gloves","name":"Spirit Gloves","game":"gs1","category":"armor","type":"gloves","is_cursed":false,"is_artifact":true,"equippable_by":["Isaac","Garet","Ivan","Mia"],"stat_bonus":{"atk":0,"def":34,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":5,"fire":5,"wind":5,"water":5},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":0},"unleash":null,"use_effect":null,"acquisition":{"method":"chest","location":"Kalay Tunnel","price":5200,"notes":null},"sources":["dnextreme88","rockettrekkie","fandom-equipment"]},{"id":"war-gloves","name":"War Gloves","game":"gs1","category":"armor","type":"gloves","is_cursed":false,"is_artifact":true,"equippable_by":["Isaac","Garet","Ivan","Mia"],"stat_bonus":{"atk":10,"def":32,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":0},"unleash":null,"use_effect":null,"acquisition":{"method":"shop","location":"Lunpa","price":4000,"notes":null},"sources":["dnextreme88","rockettrekkie","fandom-equipment"]},{"id":"battle-gloves","name":"Battle Gloves","game":"gs1","category":"armor","type":"gloves","is_cursed":false,"is_artifact":true,"equippable_by":["Isaac","Garet","Ivan","Mia"],"stat_bonus":{"atk":8,"def":26,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":0},"unleash":null,"use_effect":null,"acquisition":{"method":"lucky_wheels","location":"Tolbi Springs","price":2100,"notes":null},"sources":["dnextreme88","rockettrekkie","fandom-equipment"]},{"id":"vambrace","name":"Vambrace","game":"gs1","category":"armor","type":"gloves","is_cursed":false,"is_artifact":true,"equippable_by":["Isaac","Garet","Ivan","Mia"],"stat_bonus":{"atk":5,"def":27,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":0},"unleash":null,"use_effect":null,"acquisition":{"method":"chest","location":"Vault Cave","price":1800,"notes":null},"sources":["dnextreme88","rockettrekkie","fandom-equipment"]},{"id":"spirit-armlet","name":"Spirit Armlet","game":"gs1","category":"armor","type":"bracelet","is_cursed":false,"is_artifact":true,"equippable_by":["Ivan","Mia"],"stat_bonus":{"atk":0,"def":38,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":10,"fire":0,"wind":0,"water":10},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":0},"unleash":null,"use_effect":{"description":"Cures one ally's status ailments","may_break":true},"acquisition":{"method":"shop","location":"Lalivero","price":9000,"notes":null},"sources":["dnextreme88","rockettrekkie","fandom-equipment"]},{"id":"virtuous-armlet","name":"Virtuous Armlet","game":"gs1","category":"armor","type":"bracelet","is_cursed":false,"is_artifact":true,"equippable_by":["Ivan","Mia"],"stat_bonus":{"atk":0,"def":35,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":10,"wind":10,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":0},"unleash":null,"use_effect":{"description":"Restores 100 HP to one ally","may_break":true},"acquisition":{"method":"chest","location":"Suhalla Desert","price":7000,"notes":null},"sources":["dnextreme88","rockettrekkie","fandom-equipment"]},{"id":"guardian-armlet","name":"Guardian Armlet","game":"gs1","category":"armor","type":"bracelet","is_cursed":false,"is_artifact":true,"equippable_by":["Ivan","Mia"],"stat_bonus":{"atk":0,"def":27,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":0},"unleash":null,"use_effect":{"description":"Temporarily boosts user's defense","may_break":true},"acquisition":{"method":"lucky_wheels","location":"Tolbi Springs","price":2600,"notes":null},"sources":["dnextreme88","rockettrekkie","fandom-equipment"]},{"id":"warriors-helm","name":"Warrior's Helm","game":"gs1","category":"armor","type":"helm","is_cursed":false,"is_artifact":true,"equippable_by":["Isaac","Garet"],"stat_bonus":{"atk":0,"def":35,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":null,"increases_critical":true,"elemental_power":{"earth":10,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":0},"unleash":null,"use_effect":null,"acquisition":{"method":"chest","location":"Venus Lighthouse","price":10000,"notes":null},"sources":["dnextreme88","rockettrekkie","fandom-equipment"],"conflicts":[{"field":"acquisition.method","values":{"dnextreme88":"chest (Venus Lighthouse)","rockettrekkie":"Artifacts list (Lalivero)","fandom-equipment":"Chest (GS)"},"note":"rockettrekkie lists as Artifacts list Lalivero; dnextreme88 and fandom agree it is found in a chest in Venus Lighthouse"}]},{"id":"adepts-helm","name":"Adept's Helm","game":"gs1","category":"armor","type":"helm","is_cursed":false,"is_artifact":true,"equippable_by":["Isaac","Garet"],"stat_bonus":{"atk":0,"def":29,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":{"pp":1.2},"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":0},"unleash":null,"use_effect":null,"acquisition":{"method":"lucky_wheels","location":"Tolbi Springs","price":3700,"notes":null},"sources":["dnextreme88","rockettrekkie","fandom-equipment"]},{"id":"thunder-crown","name":"Thunder Crown","game":"gs1","category":"armor","type":"crown","is_cursed":true,"is_artifact":true,"equippable_by":["Isaac","Garet","Ivan","Mia"],"stat_bonus":{"atk":0,"def":40,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":0,"pp_regen":4},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":0},"unleash":null,"use_effect":null,"acquisition":{"method":"chest","location":"Venus Lighthouse","price":7500,"notes":null},"sources":["dnextreme88","rockettrekkie","fandom-equipment"],"conflicts":[{"field":"type","values":{"dnextreme88":"crown","rockettrekkie":"crown","fandom-equipment":"hat"},"note":"dnextreme88 and rockettrekkie classify as Crown; fandom classifies as Hat"}]},{"id":"jeweled-crown","name":"Jeweled Crown","game":"gs1","category":"armor","type":"crown","is_cursed":false,"is_artifact":true,"equippable_by":["Isaac","Garet","Ivan","Mia"],"stat_bonus":{"atk":0,"def":35,"hp":0,"pp":0,"agi":0,"lck":5,"hp_regen":0,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":0},"unleash":null,"use_effect":null,"acquisition":{"method":"shop","location":"Lalivero","price":4000,"notes":null},"sources":["dnextreme88","rockettrekkie","fandom-equipment"],"conflicts":[{"field":"type","values":{"dnextreme88":"crown","rockettrekkie":"crown","fandom-equipment":"hat"},"note":"dnextreme88 and rockettrekkie classify as Crown; fandom classifies as Hat"}]},{"id":"lucky-cap","name":"Lucky Cap","game":"gs1","category":"armor","type":"crown","is_cursed":false,"is_artifact":true,"equippable_by":["Isaac","Garet","Ivan","Mia"],"stat_bonus":{"atk":0,"def":33,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":0,"pp_regen":2},"stat_multiplier":null,"increases_critical":true,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":0},"unleash":null,"use_effect":null,"acquisition":{"method":"chest","location":"Venus Lighthouse","price":5200,"notes":null},"sources":["dnextreme88","rockettrekkie","fandom-equipment"],"conflicts":[{"field":"type","values":{"dnextreme88":"crown","rockettrekkie":"crown","fandom-equipment":"hat"},"note":"dnextreme88 and rockettrekkie classify as Crown; fandom classifies as Hat"}]},{"id":"prophets-hat","name":"Prophet's Hat","game":"gs1","category":"armor","type":"hat","is_cursed":false,"is_artifact":true,"equippable_by":["Isaac","Garet","Ivan","Mia"],"stat_bonus":{"atk":0,"def":30,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":0},"unleash":null,"use_effect":{"description":"Inflicts a death curse on one enemy","may_break":true},"acquisition":{"method":"drop","location":"Altmiller Cave (Dread Hound)","price":4600,"notes":null},"sources":["dnextreme88","rockettrekkie","fandom-equipment"]},{"id":"ninja-hood","name":"Ninja Hood","game":"gs1","category":"armor","type":"hat","is_cursed":false,"is_artifact":true,"equippable_by":["Isaac","Garet","Ivan","Mia"],"stat_bonus":{"atk":0,"def":28,"hp":0,"pp":0,"agi":20,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":0},"unleash":null,"use_effect":null,"acquisition":{"method":"lucky_wheels","location":"Tolbi Springs","price":2800,"notes":null},"sources":["dnextreme88","rockettrekkie","fandom-equipment"]},{"id":"lure-cap","name":"Lure Cap","game":"gs1","category":"armor","type":"hat","is_cursed":false,"is_artifact":true,"equippable_by":["Isaac","Garet","Ivan","Mia"],"stat_bonus":{"atk":0,"def":20,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":0},"unleash":null,"use_effect":null,"acquisition":{"method":"event","location":"Tolbi (Colosso)","price":3000,"notes":"Prize for winning first place in all three Colosso matches; increases random encounter rate when equipped"},"sources":["dnextreme88","rockettrekkie","fandom-equipment"]},{"id":"mythril-circlet","name":"Mythril Circlet","game":"gs1","category":"armor","type":"circlet","is_cursed":false,"is_artifact":true,"equippable_by":["Ivan","Mia"],"stat_bonus":{"atk":0,"def":34,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":0,"pp_regen":3},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":0},"unleash":null,"use_effect":null,"acquisition":{"method":"chest","location":"Lunpa Fortress","price":7000,"notes":null},"sources":["dnextreme88","rockettrekkie","fandom-equipment"]},{"id":"glittering-tiara","name":"Glittering Tiara","game":"gs1","category":"armor","type":"circlet","is_cursed":false,"is_artifact":true,"equippable_by":["Mia"],"stat_bonus":{"atk":0,"def":27,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":0},"unleash":null,"use_effect":{"description":"Inflicts delusion on one enemy","may_break":true},"acquisition":{"method":"lucky_wheels","location":"Tolbi Springs","price":3600,"notes":"Prevents wearer from being deluded; equippable by Mia only"},"sources":["dnextreme88","rockettrekkie","fandom-equipment"]},{"id":"mythril-shirt","name":"Mythril Shirt","game":"gs1","category":"armor","type":"shirt","is_cursed":false,"is_artifact":true,"equippable_by":["Isaac","Garet","Ivan","Mia"],"stat_bonus":{"atk":0,"def":10,"hp":5,"pp":0,"agi":0,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":0},"unleash":null,"use_effect":null,"acquisition":{"method":"lucky_wheels","location":"Tolbi (Lucky Wheels)","price":2900,"notes":"Can be worn under body armor"},"sources":["rockettrekkie","fandom-equipment"]},{"id":"silk-shirt","name":"Silk Shirt","game":"gs1","category":"armor","type":"shirt","is_cursed":false,"is_artifact":true,"equippable_by":["Mia"],"stat_bonus":{"atk":0,"def":6,"hp":0,"pp":0,"agi":0,"lck":1,"hp_regen":0,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":0},"unleash":null,"use_effect":null,"acquisition":{"method":"lucky_wheels","location":"Tolbi (Lucky Wheels)","price":1800,"notes":"Can be worn under body armor; equippable by Mia only"},"sources":["rockettrekkie","fandom-equipment"]},{"id":"running-shirt","name":"Running Shirt","game":"gs1","category":"armor","type":"shirt","is_cursed":false,"is_artifact":true,"equippable_by":["Isaac","Garet","Ivan","Mia"],"stat_bonus":{"atk":0,"def":1,"hp":0,"pp":0,"agi":15,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":0},"unleash":null,"use_effect":null,"acquisition":{"method":"lucky_wheels","location":"Tolbi (Lucky Wheels)","price":400,"notes":"Can be worn under body armor"},"sources":["rockettrekkie","fandom-equipment"]},{"id":"hyper-boots","name":"Hyper Boots","game":"gs1","category":"armor","type":"boots","is_cursed":false,"is_artifact":true,"equippable_by":["Isaac","Garet","Ivan","Mia"],"stat_bonus":{"atk":0,"def":4,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":null,"increases_critical":true,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":0},"unleash":null,"use_effect":null,"acquisition":{"method":"lucky_wheels","location":"Tolbi (Lucky Wheels)","price":2400,"notes":null},"sources":["rockettrekkie","fandom-equipment"]},{"id":"quick-boots","name":"Quick Boots","game":"gs1","category":"armor","type":"boots","is_cursed":false,"is_artifact":true,"equippable_by":["Isaac","Garet","Ivan","Mia"],"stat_bonus":{"atk":0,"def":3,"hp":0,"pp":0,"agi":20,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":0},"unleash":null,"use_effect":null,"acquisition":{"method":"lucky_wheels","location":"Tolbi (Lucky Wheels)","price":2100,"notes":null},"sources":["rockettrekkie","fandom-equipment"]},{"id":"fur-boots","name":"Fur Boots","game":"gs1","category":"armor","type":"boots","is_cursed":false,"is_artifact":true,"equippable_by":["Isaac","Garet","Ivan","Mia"],"stat_bonus":{"atk":0,"def":2,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":15},"unleash":null,"use_effect":null,"acquisition":{"method":"lucky_wheels","location":"Tolbi (Lucky Wheels)","price":1200,"notes":null},"sources":["rockettrekkie","fandom-equipment"],"conflicts":[{"field":"elemental_resistance.water","values":{"rockettrekkie":15,"fandom-equipment":10},"note":"rockettrekkie gives Water RES+15; fandom gives Water RES+10"}]},{"id":"turtle-boots","name":"Turtle Boots","game":"gs1","category":"armor","type":"boots","is_cursed":false,"is_artifact":true,"equippable_by":["Isaac","Garet","Ivan","Mia"],"stat_bonus":{"atk":0,"def":3,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":{"agi":0.5},"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":0},"unleash":null,"use_effect":null,"acquisition":{"method":"chest","location":"World Map (peninsula west of Kolima)","price":600,"notes":"Hidden in a forest clump on the peninsula; walk into the trees and press A"},"sources":["rockettrekkie","fandom-equipment"]},{"id":"potion","name":"Potion","game":"gs1","category":"item","type":"item","is_cursed":false,"is_artifact":true,"equippable_by":["Isaac","Garet","Ivan","Mia"],"stat_bonus":{"atk":0,"def":0,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":0},"unleash":null,"use_effect":{"description":"Restores all HP to one ally","may_break":false},"acquisition":{"method":"drop","location":"Babi Lighthouse / Tunnel Ruins / Venus Lighthouse (Ice Gargoyle); also chests, Tolbi Springs, Lucky Wheels","price":1000,"notes":"Some bosses also drop Potions; Artifact list appears at Suhalla"},"sources":["rockettrekkie"]},{"id":"hermes-water","name":"Hermes' Water","game":"gs1","category":"item","type":"item","is_cursed":false,"is_artifact":true,"equippable_by":["Isaac","Garet","Ivan","Mia"],"stat_bonus":{"atk":0,"def":0,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":0},"unleash":null,"use_effect":{"description":"Restores all HP to one ally","may_break":false},"acquisition":{"method":"event","location":"Mercury Lighthouse","price":2000,"notes":"Use the Empty Bottle on the spring fountain inside Mercury Lighthouse; can be refilled repeatedly"},"sources":["rockettrekkie"]},{"id":"psy-crystal","name":"Psy Crystal","game":"gs1","category":"item","type":"item","is_cursed":false,"is_artifact":true,"equippable_by":["Isaac","Garet","Ivan","Mia"],"stat_bonus":{"atk":0,"def":0,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":0},"unleash":null,"use_effect":{"description":"Restores all PP to one ally","may_break":false},"acquisition":{"method":"drop","location":"Babi Lighthouse / Tunnel Ruins / Venus Lighthouse (Manticore King); also chests, Tolbi Springs, Lucky Wheels","price":1500,"notes":"Some bosses also drop Psy Crystals; Artifact list appears at Suhalla"},"sources":["rockettrekkie"]},{"id":"water-of-life","name":"Water of Life","game":"gs1","category":"item","type":"item","is_cursed":false,"is_artifact":true,"equippable_by":["Isaac","Garet","Ivan","Mia"],"stat_bonus":{"atk":0,"def":0,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":0},"unleash":null,"use_effect":{"description":"Revives a downed ally","may_break":false},"acquisition":{"method":"drop","location":"Venus Lighthouse (Boulder Beast); also chests, Tolbi Springs, Lucky Wheels","price":3000,"notes":"Some bosses and Mimics also drop Water of Life; Artifact list appears at Tolbi"},"sources":["rockettrekkie"]},{"id":"empty-bottle","name":"Empty Bottle","game":"gs1","category":"item","type":"item","is_cursed":false,"is_artifact":true,"equippable_by":["Isaac","Garet","Ivan","Mia"],"stat_bonus":{"atk":0,"def":0,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":0},"unleash":null,"use_effect":{"description":"When used near a magic spring, extracts the water to create Hermes' Water","may_break":false},"acquisition":{"method":"event","location":"Imil","price":1000,"notes":"Found in a house in Imil"},"sources":["rockettrekkie"]},{"id":"game-ticket","name":"Game Ticket","game":"gs1","category":"item","type":"item","is_cursed":false,"is_artifact":true,"equippable_by":["Isaac","Garet","Ivan","Mia"],"stat_bonus":{"atk":0,"def":0,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":0},"unleash":null,"use_effect":{"description":"Used to play Lucky Wheels at Tolbi","may_break":false},"acquisition":{"method":"drop","location":"Various shops / Mimics","price":50,"notes":"Received randomly when purchasing items from shops; also dropped by some Mimics"},"sources":["rockettrekkie"]},{"id":"lucky-medal","name":"Lucky Medal","game":"gs1","category":"item","type":"item","is_cursed":false,"is_artifact":true,"equippable_by":["Isaac","Garet","Ivan","Mia"],"stat_bonus":{"atk":0,"def":0,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":0},"unleash":null,"use_effect":{"description":"Thrown into Tolbi Springs to receive a random prize","may_break":false},"acquisition":{"method":"drop","location":"Chests / hidden in barrels and jars / Orc Lord (Babi Lighthouse, Tunnel Ruins) / Mimics","price":100,"notes":null},"sources":["rockettrekkie"]},{"id":"cell-key","name":"Cell Key","game":"gs1","category":"item","type":"item","is_cursed":false,"is_artifact":true,"equippable_by":["Isaac","Garet","Ivan","Mia"],"stat_bonus":{"atk":0,"def":0,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":0},"unleash":null,"use_effect":{"description":"Opens cell doors in Lunpa Fortress","may_break":false},"acquisition":{"method":"event","location":"Lunpa Fortress","price":30,"notes":"Obtained by using the Catch Psynergy on a guard"},"sources":["rockettrekkie"]},{"id":"adept-ring","name":"Adept Ring","game":"gs1","category":"item","type":"ring","is_cursed":false,"is_artifact":true,"equippable_by":["Isaac","Garet","Ivan","Mia"],"stat_bonus":{"atk":0,"def":0,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":0},"unleash":null,"use_effect":{"description":"Restores 7 PP to the user","may_break":true},"acquisition":{"method":"lucky_wheels","location":"Tolbi (Lucky Wheels)","price":3100,"notes":null},"sources":["rockettrekkie"]},{"id":"war-ring","name":"War Ring","game":"gs1","category":"item","type":"ring","is_cursed":false,"is_artifact":true,"equippable_by":["Isaac","Garet","Ivan","Mia"],"stat_bonus":{"atk":0,"def":0,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":0},"unleash":null,"use_effect":{"description":"Temporarily boosts user's attack","may_break":true},"acquisition":{"method":"lucky_wheels","location":"Tolbi (Lucky Wheels)","price":2600,"notes":null},"sources":["rockettrekkie"]},{"id":"sleep-ring","name":"Sleep Ring","game":"gs1","category":"item","type":"ring","is_cursed":false,"is_artifact":true,"equippable_by":["Isaac","Garet","Ivan","Mia"],"stat_bonus":{"atk":0,"def":0,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":0},"unleash":null,"use_effect":{"description":"Lulls one enemy to sleep","may_break":true},"acquisition":{"method":"lucky_wheels","location":"Tolbi (Lucky Wheels)","price":1400,"notes":null},"sources":["rockettrekkie"]},{"id":"healing-ring","name":"Healing Ring","game":"gs1","category":"item","type":"ring","is_cursed":false,"is_artifact":true,"equippable_by":["Isaac","Garet","Ivan","Mia"],"stat_bonus":{"atk":0,"def":0,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":0},"unleash":null,"use_effect":{"description":"Restores 70 HP to one ally","may_break":true},"acquisition":{"method":"drop","location":"Tret Tree (event) / Suhalla Pass / Venus Lighthouse (Nightmare)","price":800,"notes":null},"sources":["rockettrekkie"]},{"id":"unicorn-ring","name":"Unicorn Ring","game":"gs1","category":"item","type":"ring","is_cursed":false,"is_artifact":true,"equippable_by":["Isaac","Garet","Ivan","Mia"],"stat_bonus":{"atk":0,"def":0,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":0},"unleash":null,"use_effect":{"description":"Removes poison from one ally","may_break":true},"acquisition":{"method":"drop","location":"Fuchin Temple (hidden in jar) / Venus Lighthouse (Recluse)","price":1100,"notes":null},"sources":["rockettrekkie"]},{"id":"fairy-ring","name":"Fairy Ring","game":"gs1","category":"item","type":"ring","is_cursed":false,"is_artifact":true,"equippable_by":["Isaac","Garet","Ivan","Mia"],"stat_bonus":{"atk":0,"def":0,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":0},"unleash":null,"use_effect":{"description":"Restores HP and PP to one ally (acts like an Elixir)","may_break":true},"acquisition":{"method":"chest","location":"Crossbone Isle","price":2900,"notes":null},"sources":["rockettrekkie"]},{"id":"clerics-ring","name":"Cleric's Ring","game":"gs1","category":"item","type":"ring","is_cursed":false,"is_artifact":true,"equippable_by":["Isaac","Garet","Ivan","Mia"],"stat_bonus":{"atk":0,"def":0,"hp":0,"pp":0,"agi":0,"lck":0,"hp_regen":0,"pp_regen":0},"stat_multiplier":null,"increases_critical":false,"elemental_power":{"earth":0,"fire":0,"wind":0,"water":0},"elemental_resistance":{"earth":0,"fire":0,"wind":0,"water":0},"unleash":null,"use_effect":null,"acquisition":{"method":"chest","location":"Crossbone Isle","price":6400,"notes":"Passive equip effect: prevents the 'bound and unable to move' side-effect of cursed equipment; cannot be actively used in battle"},"sources":["rockettrekkie","fandom-equipment"]}];
+
+/* ---------- Constants ---------- */
+const ELEMENTS = [
+  { key: 'earth', label: 'Venus',   color: 'var(--venus)',   hex: '#d9a93d' },
+  { key: 'fire',  label: 'Mars',    color: 'var(--mars)',    hex: '#e0633e' },
+  { key: 'wind',  label: 'Jupiter', color: 'var(--jupiter)', hex: '#a06ce0' },
+  { key: 'water', label: 'Mercury', color: 'var(--mercury)', hex: '#4f9fe0' },
+];
+const ELEM_BY_KEY = Object.fromEntries(ELEMENTS.map(e => [e.key, e]));
+
+const CHARACTERS = [
+  { name: 'Isaac', element: 'earth', color: '#d9a93d', title: 'Venus Adept' },
+  { name: 'Garet', element: 'fire',  color: '#e0633e', title: 'Mars Adept' },
+  { name: 'Ivan',  element: 'wind',  color: '#a06ce0', title: 'Jupiter Adept' },
+  { name: 'Mia',   element: 'water', color: '#4f9fe0', title: 'Mercury Adept' },
+];
+const CHAR_BY_NAME = Object.fromEntries(CHARACTERS.map(c => [c.name, c]));
+
+const TYPE_LABELS = {
+  long_sword: 'Long Sword', light_blade: 'Light Blade', axe: 'Axe', mace: 'Mace', staff: 'Staff',
+  armor: 'Armor', clothing: 'Clothing', robe: 'Robe', shield: 'Shield', gloves: 'Gloves',
+  bracelet: 'Bracelet', helm: 'Helm', crown: 'Crown', hat: 'Hat', circlet: 'Circlet',
+  boots: 'Boots', shirt: 'Shirt', ring: 'Ring', item: 'Item',
+};
+const STAT_LABELS = {
+  atk: 'Attack', def: 'Defense', hp: 'Max HP', pp: 'Max PP',
+  agi: 'Agility', lck: 'Luck', hp_regen: 'HP Regen', pp_regen: 'PP Regen',
+};
+const STAT_MAX = { atk: 140, def: 50, hp: 20, pp: 20, agi: 30, lck: 10, hp_regen: 10, pp_regen: 5 };
+const METHOD_META = {
+  chest:        { label: 'Treasure Chest', color: '#d4af5e' },
+  shop:         { label: 'Shop',           color: '#6fce8f' },
+  drop:         { label: 'Enemy Drop',     color: '#e0633e' },
+  event:        { label: 'Story Event',    color: '#4f9fe0' },
+  lucky_wheels: { label: 'Lucky Wheels',   color: '#a06ce0' },
+  unobtainable: { label: 'Unobtainable',   color: '#6a687c' },
+};
+const SLOTS = [
+  { id: 'weapon', label: 'Weapon', icon: '⚔',  match: it => it.category === 'weapon' },
+  { id: 'hand',   label: 'Hand',   icon: '🛡', match: it => ['shield','gloves','bracelet'].includes(it.type) },
+  { id: 'head',   label: 'Head',   icon: '👑', match: it => ['helm','crown','hat','circlet'].includes(it.type) },
+  { id: 'body',   label: 'Body',   icon: '🧥', match: it => ['armor','clothing','robe'].includes(it.type) },
+  { id: 'shirt',  label: 'Shirt',  icon: '👕', match: it => it.type === 'shirt' },
+  { id: 'boots',  label: 'Boots',  icon: '🥾', match: it => it.type === 'boots' },
+  { id: 'ring',   label: 'Ring',   icon: '💍', match: it => it.type === 'ring' },
+];
+
+const byId = Object.fromEntries(DATA.map(d => [d.id, d]));
+const fmt = n => n.toLocaleString('en-US');
+const esc = s => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+
+/* ---------- State ---------- */
+const state = {
+  view: 'browse',
+  q: '',
+  category: 'all',
+  type: 'all',
+  char: 'all',
+  flags: { artifact: false, cursed: false, unleash: false, usable: false },
+  sort: 'atk',
+  compare: [],          // up to 2 ids
+  loadout: loadLoadouts(), // { Isaac: {weapon: id, ...}, ... }
+  loadoutChar: 'Isaac',
+  pickerSlot: null,
+};
+
+function loadLoadouts() {
+  try {
+    const raw = localStorage.getItem('gs1-loadouts');
+    if (raw) {
+      const parsed = JSON.parse(raw);
+      const out = {};
+      for (const c of CHARACTERS) {
+        out[c.name] = {};
+        const src = parsed[c.name] || {};
+        for (const s of SLOTS) {
+          const id = src[s.id];
+          if (id && byId[id] && byId[id].equippable_by.includes(c.name) && s.match(byId[id])) out[c.name][s.id] = id;
+        }
+      }
+      return out;
+    }
+  } catch (e) { /* fresh start */ }
+  return Object.fromEntries(CHARACTERS.map(c => [c.name, {}]));
+}
+function saveLoadouts() {
+  try { localStorage.setItem('gs1-loadouts', JSON.stringify(state.loadout)); } catch (e) {}
+}
+
+/* ---------- Item helpers ---------- */
+function mainStat(it) {
+  if (it.category === 'weapon') return { key: 'atk', label: 'ATK', val: it.stat_bonus.atk };
+  if (it.stat_bonus.def > 0 || it.category === 'armor') return { key: 'def', label: 'DEF', val: it.stat_bonus.def };
+  return null;
+}
+function accentColor(it) {
+  if (it.unleash) return ELEM_BY_KEY[it.unleash.element].hex;
+  for (const e of ELEMENTS) if (it.elemental_power[e.key] > 0) return e.hex;
+  for (const e of ELEMENTS) if (it.elemental_resistance[e.key] > 0) return e.hex;
+  if (it.is_cursed) return '#c05ad0';
+  return '#3a4470';
+}
+function subStats(it) {
+  const main = mainStat(it);
+  const out = [];
+  for (const [k, label] of Object.entries(STAT_LABELS)) {
+    const v = it.stat_bonus[k];
+    if (v !== 0 && (!main || k !== main.key)) out.push(`+${v} ${label.replace('Max ','')}`);
+  }
+  if (it.stat_multiplier) {
+    for (const [k, m] of Object.entries(it.stat_multiplier)) {
+      out.push(`${STAT_LABELS[k].replace('Max ','')} ×${m}`);
+    }
+  }
+  if (it.increases_critical) out.push('Crit ↑');
+  return out;
+}
+function pips(level) {
+  const n = { low: 1, medium: 2, high: 3 }[level] || 0;
+  return [1,2,3].map(i => `<span class="dot${i <= n ? ' on' : ''}"></span>`).join('');
+}
+
+/* ---------- Filtering ---------- */
+function filteredItems() {
+  const q = state.q.trim().toLowerCase();
+  let items = DATA.filter(it => {
+    if (state.category !== 'all' && it.category !== state.category) return false;
+    if (state.type !== 'all' && it.type !== state.type) return false;
+    if (state.char !== 'all' && !it.equippable_by.includes(state.char)) return false;
+    if (state.flags.artifact && !it.is_artifact) return false;
+    if (state.flags.cursed && !it.is_cursed) return false;
+    if (state.flags.unleash && !it.unleash) return false;
+    if (state.flags.usable && !it.use_effect) return false;
+    if (q) {
+      const hay = [
+        it.name, TYPE_LABELS[it.type],
+        it.unleash && it.unleash.name,
+        it.acquisition.location,
+        it.use_effect && it.use_effect.description,
+      ].filter(Boolean).join(' ').toLowerCase();
+      if (!hay.includes(q)) return false;
+    }
+    return true;
+  });
+  const sorters = {
+    atk:   (a, b) => b.stat_bonus.atk - a.stat_bonus.atk || b.stat_bonus.def - a.stat_bonus.def || a.name.localeCompare(b.name),
+    def:   (a, b) => b.stat_bonus.def - a.stat_bonus.def || b.stat_bonus.atk - a.stat_bonus.atk || a.name.localeCompare(b.name),
+    price: (a, b) => (b.acquisition.price || 0) - (a.acquisition.price || 0) || a.name.localeCompare(b.name),
+    name:  (a, b) => a.name.localeCompare(b.name),
+  };
+  items.sort(sorters[state.sort]);
+  return items;
+}
+
+/* ---------- Render: sidebar controls ---------- */
+function renderSidebar() {
+  const cats = [['all', 'All'], ['weapon', 'Weapons'], ['armor', 'Armor'], ['item', 'Items']];
+  document.getElementById('categoryPills').innerHTML = cats.map(([v, l]) =>
+    `<span class="pill${state.category === v ? ' active' : ''}" data-cat="${v}">${l}</span>`).join('');
+
+  const typeOrder = {};
+  for (const it of DATA) {
+    if (state.category !== 'all' && it.category !== state.category) continue;
+    typeOrder[it.type] = (typeOrder[it.type] || 0) + 1;
+  }
+  const types = Object.keys(typeOrder).sort((a, b) => TYPE_LABELS[a].localeCompare(TYPE_LABELS[b]));
+  const sel = document.getElementById('typeSelect');
+  sel.innerHTML = `<option value="all">All types</option>` +
+    types.map(t => `<option value="${t}"${state.type === t ? ' selected' : ''}>${TYPE_LABELS[t]} (${typeOrder[t]})</option>`).join('');
+  if (state.type !== 'all' && !types.includes(state.type)) { state.type = 'all'; sel.value = 'all'; }
+
+  document.getElementById('charFilter').innerHTML = CHARACTERS.map(c => `
+    <div class="char-chip${state.char === c.name ? ' active' : ''}" data-char="${c.name}" style="--glow:${c.color}" title="${c.title}">
+      <div class="orb" style="background: radial-gradient(circle at 35% 30%, #fff7, transparent 45%), ${c.color}">${c.name[0]}</div>
+      <span>${c.name}</span>
+    </div>`).join('');
+
+  const flags = [['artifact', '★ Artifact'], ['cursed', '☠ Cursed'], ['unleash', '⚡ Has Unleash'], ['usable', '◈ Usable in battle']];
+  document.getElementById('flagList').innerHTML = flags.map(([k, l]) => `
+    <label><input type="checkbox" data-flag="${k}"${state.flags[k] ? ' checked' : ''}><span class="box"></span>${l}</label>`).join('');
+}
+
+/* ---------- Render: cards ---------- */
+function cardHTML(it) {
+  const ms = mainStat(it);
+  const subs = subStats(it);
+  const inCompare = state.compare.includes(it.id);
+  const price = it.acquisition.price != null ? `${fmt(it.acquisition.price)} ¢` : '';
+  let foot;
+  if (it.unleash) {
+    const e = ELEM_BY_KEY[it.unleash.element];
+    foot = `<div class="unleash-tag" title="Unleash: ${esc(it.unleash.name)} (${e.label})">
+      <span class="elem-dot" style="color:${e.hex}"></span><span class="u-name">${esc(it.unleash.name)}</span></div>`;
+  } else if (it.use_effect) {
+    foot = `<div class="use-tag" title="${esc(it.use_effect.description)}">◈<span>${esc(it.use_effect.description)}</span></div>`;
+  } else {
+    foot = `<div></div>`;
+  }
+  return `
+  <div class="card${it.is_cursed ? ' cursed-item' : ''}" data-id="${it.id}" style="--accent:${accentColor(it)}">
+    <div class="c-head">
+      <div>
+        <div class="c-name">${esc(it.name)}</div>
+        <div class="c-type">${TYPE_LABELS[it.type]}</div>
+      </div>
+      <div class="c-badges">
+        ${it.is_artifact ? '<span class="badge artifact" title="Artifact — unique item">★</span>' : ''}
+        ${it.is_cursed ? '<span class="badge cursed" title="Cursed — binds to the wearer">☠</span>' : ''}
+        ${it.use_effect ? '<span class="badge usable" title="Usable in battle">◈</span>' : ''}
+      </div>
+    </div>
+    <div class="c-stat-row">
+      ${ms ? `<div class="c-mainstat"><span class="num">${ms.val}</span><span class="lbl">${ms.label}</span></div>` : ''}
+      <div class="c-substats">${subs.map(s => `<span>${esc(s)}</span>`).join('')}</div>
+    </div>
+    <button class="compare-btn${inCompare ? ' selected' : ''}" data-compare="${it.id}" title="${inCompare ? 'Remove from comparison' : 'Add to comparison'}">⚖</button>
+    <div class="c-foot">${foot}<span class="c-price">${price}</span></div>
+  </div>`;
+}
+
+function renderGrid() {
+  const items = filteredItems();
+  document.getElementById('resultCount').innerHTML = `<b>${items.length}</b> of ${DATA.length} entries`;
+  const grid = document.getElementById('cardGrid');
+  if (!items.length) {
+    grid.innerHTML = `<div class="empty-state" style="grid-column:1/-1"><div class="big">🜨</div>No equipment matches these filters.</div>`;
+    return;
+  }
+  grid.innerHTML = items.map(cardHTML).join('');
+}
+
+/* ---------- Render: detail drawer ---------- */
+function elemGridHTML(values, signed) {
+  return `<div class="elem-grid">` + ELEMENTS.map(e => {
+    const v = values[e.key];
+    const cls = v > 0 ? 'pos' : v < 0 ? 'neg' : '';
+    return `<div class="elem-cell${v === 0 ? ' zero' : ''}">
+      <span class="e-name"><span class="elem-dot" style="color:${e.hex}"></span>${e.label}</span>
+      <span class="e-val ${cls}">${v > 0 ? '+' : ''}${v}</span>
+    </div>`;
+  }).join('') + `</div>`;
+}
+
+function openDetail(id) {
+  const it = byId[id];
+  if (!it) return;
+  const drawer = document.getElementById('drawer');
+
+  const statRows = Object.entries(STAT_LABELS)
+    .filter(([k]) => it.stat_bonus[k] !== 0)
+    .map(([k, label]) => {
+      const v = it.stat_bonus[k];
+      const pct = Math.min(100, Math.abs(v) / STAT_MAX[k] * 100);
+      return `<div class="stat-row">
+        <span class="s-lbl">${label}</span>
+        <span class="s-bar"><i style="width:${pct}%"></i></span>
+        <span class="s-val">+${v}</span>
+      </div>`;
+    }).join('');
+
+  const multNote = it.stat_multiplier
+    ? `<div class="mult-note">✧ ${Object.entries(it.stat_multiplier).map(([k, m]) => `${STAT_LABELS[k]} ×${m}`).join(', ')}</div>` : '';
+
+  const hasPower = ELEMENTS.some(e => it.elemental_power[e.key] !== 0);
+  const hasRes = ELEMENTS.some(e => it.elemental_resistance[e.key] !== 0);
+
+  let unleashHTML = '';
+  if (it.unleash) {
+    const u = it.unleash;
+    const e = ELEM_BY_KEY[u.element];
+    unleashHTML = `<div class="d-section"><h4>Unleash</h4>
+      <div class="unleash-box" style="--accent:${e.hex}">
+        <div class="u-title"><span class="elem-dot" style="color:${e.hex}"></span><b>${esc(u.name)}</b>
+          <span style="font-size:11px;color:${e.hex};margin-left:auto">${e.label}</span></div>
+        <div class="pips-row">
+          <div class="pips">Rate<span class="dots">${pips(u.rate)}</span></div>
+          <div class="pips">Power<span class="dots">${pips(u.power_level)}</span></div>
+        </div>
+        ${u.effects.length ? `<ul class="u-effects">${u.effects.map(x => `<li>${esc(x)}</li>`).join('')}</ul>` : ''}
+        ${u.notes ? `<div class="u-note">${esc(u.notes)}</div>` : ''}
+      </div></div>`;
+  }
+
+  let useHTML = '';
+  if (it.use_effect) {
+    useHTML = `<div class="d-section"><h4>Battle Use</h4>
+      <div class="use-box">◈ ${esc(it.use_effect.description)}
+        ${it.use_effect.may_break ? `<span class="may-break">⚠ May break after use</span>` : ''}
+      </div></div>`;
+  }
+
+  const acq = it.acquisition;
+  const mm = METHOD_META[acq.method] || { label: acq.method, color: '#888' };
+  const acqHTML = `<div class="d-section"><h4>Acquisition</h4>
+    <div class="acq-table">
+      <div class="acq-row"><span class="k">Method</span><span class="v"><span class="method-tag" style="color:${mm.color};border-color:${mm.color}55">${mm.label}</span></span></div>
+      ${acq.location ? `<div class="acq-row"><span class="k">Location</span><span class="v">${esc(acq.location)}</span></div>` : ''}
+      ${acq.price != null ? `<div class="acq-row"><span class="k">Value</span><span class="v">${fmt(acq.price)} coins</span></div>` : ''}
+      ${acq.notes ? `<div class="acq-row"><span class="k">Notes</span><span class="v" style="color:var(--text-dim)">${esc(acq.notes)}</span></div>` : ''}
+    </div></div>`;
+
+  let conflictHTML = '';
+  if (it.conflicts && it.conflicts.length) {
+    conflictHTML = `<div class="d-section"><h4>Source Discrepancies</h4>` +
+      it.conflicts.map(cf => `<div class="conflict-box">
+        <div class="cf-field">${esc(cf.field)}</div>
+        ${Object.entries(cf.values).map(([src, val]) => `<div class="cf-val"><b>${esc(src)}</b>: ${esc(val)}</div>`).join('')}
+        ${cf.note ? `<div class="cf-note">${esc(cf.note)}</div>` : ''}
+      </div>`).join('') + `</div>`;
+  }
+
+  const inCmp = state.compare.includes(it.id);
+  drawer.innerHTML = `
+    <button class="close-x" id="drawerClose">✕</button>
+    <div class="d-type">${TYPE_LABELS[it.type]} · ${it.category}</div>
+    <div class="d-name">${esc(it.name)}</div>
+    <div class="d-flags">
+      ${it.is_artifact ? '<span class="flag-tag artifact">★ Artifact</span>' : ''}
+      ${it.is_cursed ? '<span class="flag-tag cursed">☠ Cursed</span>' : ''}
+      ${it.increases_critical ? '<span class="flag-tag crit">⚡ Critical Up</span>' : ''}
+    </div>
+
+    <div class="d-section"><h4>Equippable By</h4>
+      <div class="d-chars">${CHARACTERS.map(c => {
+        const can = it.equippable_by.includes(c.name);
+        return `<span class="d-char${can ? ' can' : ''}" style="--glow:${c.color}66">
+          <span class="orb" style="background: radial-gradient(circle at 35% 30%, #fff7, transparent 45%), ${c.color}"></span>${c.name}</span>`;
+      }).join('')}</div>
+    </div>
+
+    <div class="d-section"><h4>Stat Bonuses</h4>
+      ${statRows ? `<div class="stat-rows">${statRows}</div>` : (it.stat_multiplier ? '' : '<div class="none-note">No flat stat bonuses.</div>')}
+      ${multNote}
+    </div>
+
+    ${hasPower ? `<div class="d-section"><h4>Elemental Power</h4>${elemGridHTML(it.elemental_power)}</div>` : ''}
+    ${hasRes ? `<div class="d-section"><h4>Elemental Resistance</h4>${elemGridHTML(it.elemental_resistance)}</div>` : ''}
+    ${unleashHTML}
+    ${useHTML}
+    ${acqHTML}
+    ${conflictHTML}
+
+    <div class="d-actions">
+      <button class="btn" id="drawerCompare">${inCmp ? '⚖ In Comparison' : '⚖ Compare'}</button>
+    </div>
+    <div class="d-sources">Sources: ${it.sources.join(' · ')}</div>
+  `;
+  document.getElementById('drawerClose').onclick = closeDetail;
+  document.getElementById('drawerCompare').onclick = () => { toggleCompare(it.id); openDetail(it.id); };
+  drawer.classList.add('open');
+  document.getElementById('drawerBackdrop').classList.add('open');
+  drawer.scrollTop = 0;
+}
+function closeDetail() {
+  document.getElementById('drawer').classList.remove('open');
+  document.getElementById('drawerBackdrop').classList.remove('open');
+}
+
+/* ---------- Compare ---------- */
+function toggleCompare(id) {
+  const i = state.compare.indexOf(id);
+  if (i >= 0) state.compare.splice(i, 1);
+  else {
+    if (state.compare.length >= 2) state.compare.shift();
+    state.compare.push(id);
+  }
+  renderCompareTray();
+  renderGrid();
+  if (state.view === 'compare') renderCompare();
+}
+
+function renderCompareTray() {
+  const tray = document.getElementById('compareTray');
+  const pip = document.getElementById('cmpCount');
+  pip.style.display = state.compare.length ? '' : 'none';
+  pip.textContent = state.compare.length;
+
+  if (!state.compare.length || state.view !== 'browse') {
+    tray.classList.remove('visible');
+    return;
+  }
+  const slot = i => {
+    const id = state.compare[i];
+    if (!id) return `<div class="tray-slot">select an item…</div>`;
+    return `<div class="tray-slot filled">${esc(byId[id].name)}<span class="rm" data-rm="${id}" title="Remove">✕</span></div>`;
+  };
+  const ready = state.compare.length === 2;
+  tray.innerHTML = `${slot(0)}<span class="tray-vs">VS</span>${slot(1)}
+    <button class="btn" style="flex:0;white-space:nowrap;padding:8px 18px;${ready ? '' : 'opacity:.4;cursor:default'}" ${ready ? '' : 'disabled'} id="trayGo">Compare</button>`;
+  tray.classList.add('visible');
+  const go = document.getElementById('trayGo');
+  if (go && state.compare.length === 2) go.onclick = () => switchView('compare');
+  tray.querySelectorAll('[data-rm]').forEach(el => el.onclick = () => toggleCompare(el.dataset.rm));
+}
+
+function cmpRow(label, a, b, opts = {}) {
+  const { higherWins = true, fmt: f = v => v } = opts;
+  let aw = false, bw = false;
+  if (typeof a === 'number' && typeof b === 'number' && a !== b && higherWins) {
+    aw = a > b; bw = b > a;
+  }
+  return `<div class="cmp-row">
+    <span class="c-l ${aw ? 'win' : ''}">${f(a)}</span>
+    <span class="c-lbl">${label}</span>
+    <span class="c-r ${bw ? 'win' : ''}">${f(b)}</span>
+  </div>`;
+}
+function sectionRow(label) {
+  return `<div class="cmp-row section-break"><span></span><span class="c-lbl">${label}</span><span></span></div>`;
+}
+
+function renderCompare() {
+  const wrap = document.getElementById('compareWrap');
+  if (state.compare.length < 2) {
+    wrap.innerHTML = `<div class="compare-hint">
+      <div class="big">⚖</div>
+      <p>Select two pieces of equipment to compare.</p>
+      <p style="margin-top:8px;font-size:12px">Hover a card in the Armory and press the ⚖ button.</p>
+    </div>`;
+    return;
+  }
+  const [a, b] = state.compare.map(id => byId[id]);
+
+  const vsCard = it => `
+    <div class="vs-item" style="--accent:${accentColor(it)}">
+      <div class="v-name">${esc(it.name)}</div>
+      <div class="v-type">${TYPE_LABELS[it.type]}</div>
+      <div class="v-flags">
+        ${it.is_artifact ? '<span class="flag-tag artifact">★ Artifact</span>' : ''}
+        ${it.is_cursed ? '<span class="flag-tag cursed">☠ Cursed</span>' : ''}
+        ${it.increases_critical ? '<span class="flag-tag crit">⚡ Crit Up</span>' : ''}
+      </div>
+      <span class="swap-link" data-detail="${it.id}">view details</span>
+    </div>`;
+
+  let rows = '';
+  rows += sectionRow('Stat Bonuses');
+  for (const [k, label] of Object.entries(STAT_LABELS)) {
+    if (a.stat_bonus[k] === 0 && b.stat_bonus[k] === 0) continue;
+    rows += cmpRow(label, a.stat_bonus[k], b.stat_bonus[k], { fmt: v => v > 0 ? '+' + v : v });
+  }
+  const multStr = it => it.stat_multiplier
+    ? Object.entries(it.stat_multiplier).map(([k, m]) => `${STAT_LABELS[k]} ×${m}`).join(', ') : '—';
+  if (a.stat_multiplier || b.stat_multiplier) rows += cmpRow('Multiplier', multStr(a), multStr(b));
+
+  const anyElem = key => ELEMENTS.some(e => a[key][e.key] !== 0 || b[key][e.key] !== 0);
+  if (anyElem('elemental_power')) {
+    rows += sectionRow('Elemental Power');
+    for (const e of ELEMENTS) {
+      if (a.elemental_power[e.key] === 0 && b.elemental_power[e.key] === 0) continue;
+      rows += cmpRow(e.label, a.elemental_power[e.key], b.elemental_power[e.key], { fmt: v => v > 0 ? '+' + v : v });
+    }
+  }
+  if (anyElem('elemental_resistance')) {
+    rows += sectionRow('Elemental Resistance');
+    for (const e of ELEMENTS) {
+      if (a.elemental_resistance[e.key] === 0 && b.elemental_resistance[e.key] === 0) continue;
+      rows += cmpRow(e.label, a.elemental_resistance[e.key], b.elemental_resistance[e.key], { fmt: v => v > 0 ? '+' + v : v });
+    }
+  }
+
+  rows += sectionRow('Unleash');
+  const uName = it => it.unleash ? `${esc(it.unleash.name)} (${ELEM_BY_KEY[it.unleash.element].label})` : '—';
+  const uLvl = (it, k) => it.unleash ? it.unleash[k] : '—';
+  rows += cmpRow('Name', uName(a), uName(b));
+  rows += cmpRow('Rate', uLvl(a, 'rate'), uLvl(b, 'rate'));
+  rows += cmpRow('Power', uLvl(a, 'power_level'), uLvl(b, 'power_level'));
+  const uFx = it => it.unleash && it.unleash.effects.length ? it.unleash.effects.map(esc).join('; ') : '—';
+  rows += cmpRow('Effects', uFx(a), uFx(b));
+
+  if (a.use_effect || b.use_effect) {
+    rows += sectionRow('Battle Use');
+    rows += cmpRow('Effect', a.use_effect ? esc(a.use_effect.description) : '—', b.use_effect ? esc(b.use_effect.description) : '—');
+  }
+
+  rows += sectionRow('Logistics');
+  const mLbl = it => (METHOD_META[it.acquisition.method] || {}).label || it.acquisition.method;
+  rows += cmpRow('Source', `${mLbl(a)}${a.acquisition.location ? ' · ' + esc(a.acquisition.location) : ''}`,
+                            `${mLbl(b)}${b.acquisition.location ? ' · ' + esc(b.acquisition.location) : ''}`);
+  rows += cmpRow('Value', a.acquisition.price != null ? a.acquisition.price : '—',
+                          b.acquisition.price != null ? b.acquisition.price : '—',
+                          { fmt: v => typeof v === 'number' ? fmt(v) + ' ¢' : v });
+  const eqStr = it => it.equippable_by.join(', ');
+  rows += cmpRow('Equippable', eqStr(a), eqStr(b));
+
+  wrap.innerHTML = `
+    <div class="vs-header">${vsCard(a)}<div class="vs-mid">VS</div>${vsCard(b)}</div>
+    <div class="cmp-table">${rows}</div>`;
+  wrap.querySelectorAll('[data-detail]').forEach(el => el.onclick = () => openDetail(el.dataset.detail));
+}
+
+/* ---------- Loadout ---------- */
+function eligibleFor(charName, slot) {
+  return DATA.filter(it => slot.match(it) && it.equippable_by.includes(charName) && it.type !== 'item')
+    .sort((x, y) => {
+      const mx = mainStat(x), my = mainStat(y);
+      return (my ? my.val : 0) - (mx ? mx.val : 0) || x.name.localeCompare(y.name);
+    });
+}
+
+function renderLoadout() {
+  document.getElementById('charTabs').innerHTML = CHARACTERS.map(c => `
+    <div class="char-tab${state.loadoutChar === c.name ? ' active' : ''}" data-lchar="${c.name}" style="--glow:${c.color}">
+      <div class="orb" style="background: radial-gradient(circle at 35% 30%, #fff7, transparent 45%), ${c.color}">${c.name[0]}</div>
+      <div><div class="ct-name">${c.name}</div><div class="ct-elem">${c.title}</div></div>
+    </div>`).join('');
+
+  const lo = state.loadout[state.loadoutChar];
+  document.getElementById('slotsCol').innerHTML = SLOTS.map(s => {
+    const id = lo[s.id];
+    const it = id ? byId[id] : null;
+    const count = eligibleFor(state.loadoutChar, s).length;
+    let body;
+    if (it) {
+      const ms = mainStat(it);
+      const bits = [];
+      if (ms && ms.val) bits.push(`<b style="color:var(--gold-bright)">${ms.val} ${ms.label}</b>`);
+      bits.push(...subStats(it).slice(0, 3));
+      if (it.unleash) {
+        const e = ELEM_BY_KEY[it.unleash.element];
+        bits.push(`<span class="elem-dot" style="color:${e.hex}"></span>${esc(it.unleash.name)}`);
+      }
+      body = `<div class="sl-name${it.is_cursed ? ' cursed' : ''}">${it.is_cursed ? '☠ ' : ''}${esc(it.name)}</div>
+        <div class="sl-sub">${bits.join(' ')}</div>
+        <button class="sl-clear" data-clear="${s.id}" title="Unequip">✕</button>`;
+    } else {
+      body = `<div class="sl-empty">${count ? `Choose from ${count} options…` : 'Nothing available'}</div>`;
+    }
+    return `<div class="slot-card" data-slot="${s.id}">
+      <div class="sl-label"><span>${s.icon}</span>${s.label}</div>${body}</div>`;
+  }).join('');
+
+  renderTotals();
+}
+
+function renderTotals() {
+  const charName = state.loadoutChar;
+  const c = CHAR_BY_NAME[charName];
+  const lo = state.loadout[charName];
+  const items = Object.values(lo).map(id => byId[id]).filter(Boolean);
+
+  const tot = Object.fromEntries(Object.keys(STAT_LABELS).map(k => [k, 0]));
+  const power = Object.fromEntries(ELEMENTS.map(e => [e.key, 0]));
+  const res = Object.fromEntries(ELEMENTS.map(e => [e.key, 0]));
+  const mults = [];
+  let cost = 0, cursedItems = [], critUp = false;
+  for (const it of items) {
+    for (const k in tot) tot[k] += it.stat_bonus[k];
+    for (const e of ELEMENTS) {
+      power[e.key] += it.elemental_power[e.key];
+      res[e.key] += it.elemental_resistance[e.key];
+    }
+    if (it.stat_multiplier) {
+      for (const [k, m] of Object.entries(it.stat_multiplier)) mults.push(`${STAT_LABELS[k]} ×${m} (${it.name})`);
+    }
+    if (it.acquisition.price != null) cost += it.acquisition.price;
+    if (it.is_cursed) cursedItems.push(it.name);
+    if (it.increases_critical) critUp = true;
+  }
+
+  const others = Object.entries(STAT_LABELS)
+    .filter(([k]) => !['atk', 'def'].includes(k) && tot[k] !== 0)
+    .map(([k, label]) => `${label} <b>+${tot[k]}</b>`);
+  if (critUp) others.push(`<b style="color:var(--mars)">Crit ↑</b>`);
+
+  const barRow = (e, v, max) => {
+    const pct = Math.min(100, Math.abs(v) / max * 100);
+    return `<div class="elem-bar-row">
+      <span class="eb-name"><span class="elem-dot" style="color:${e.hex}"></span>${e.label}</span>
+      <span class="eb-track"><i style="width:${pct}%;background:${v < 0 ? 'var(--bad)' : e.hex}"></i></span>
+      <span class="eb-v" style="${v < 0 ? 'color:var(--bad)' : ''}">${v > 0 ? '+' : ''}${v}</span>
+    </div>`;
+  };
+
+  const equippedCount = items.length;
+  document.getElementById('totalsPanel').innerHTML = `
+    <h3>${charName}'s Loadout</h3>
+    <div class="tot-main">
+      <div class="tm"><div class="v">+${tot.atk}</div><div class="k">Attack</div></div>
+      <div class="tm"><div class="v">+${tot.def}</div><div class="k">Defense</div></div>
+    </div>
+    ${others.length ? `<div class="tot-others">${others.join('<span style="color:var(--line)">·</span>')}</div>` : ''}
+    <div class="tot-sec"><div class="ts-title">Elemental Power</div>
+      <div class="elem-bars">${ELEMENTS.map(e => barRow(e, power[e.key], 40)).join('')}</div></div>
+    <div class="tot-sec"><div class="ts-title">Elemental Resistance</div>
+      <div class="elem-bars">${ELEMENTS.map(e => barRow(e, res[e.key], 60)).join('')}</div></div>
+    ${mults.length ? `<div class="tot-mult">✧ ${mults.map(esc).join('<br>✧ ')}</div>` : ''}
+    ${cursedItems.length ? `<div class="tot-warn">☠<span>Cursed: ${cursedItems.map(esc).join(', ')} — binds to ${charName} and may immobilize in battle.</span></div>` : ''}
+    <div class="tot-cost">${equippedCount} piece${equippedCount === 1 ? '' : 's'} equipped · est. value <b>${fmt(cost)}</b> coins</div>
+    <div class="loadout-note">Totals are equipment bonuses only, on top of ${charName}'s base stats as a ${c.title}.</div>
+  `;
+}
+
+/* ---------- Picker ---------- */
+function openPicker(slotId) {
+  const slot = SLOTS.find(s => s.id === slotId);
+  state.pickerSlot = slotId;
+  const charName = state.loadoutChar;
+  const items = eligibleFor(charName, slot);
+  const current = state.loadout[charName][slotId];
+
+  const list = items.map(it => {
+    const ms = mainStat(it);
+    const subs = subStats(it);
+    let extra = '';
+    if (it.unleash) {
+      const e = ELEM_BY_KEY[it.unleash.element];
+      extra = `<span class="elem-dot" style="color:${e.hex};margin-right:4px"></span>${esc(it.unleash.name)}`;
+    } else if (it.use_effect) {
+      extra = `◈ usable`;
+    }
+    return `<div class="pk-item${current === it.id ? ' equipped' : ''}" data-pick="${it.id}">
+      <div>
+        <div class="pi-name">${esc(it.name)}${it.is_cursed ? '<span class="cursed-mark">☠</span>' : ''}${it.is_artifact ? '' : ''}</div>
+        <div class="pi-sub">${TYPE_LABELS[it.type]}${subs.length ? ' · ' + subs.join(', ') : ''}</div>
+      </div>
+      <div class="pi-extra">${extra}</div>
+      <div class="pi-stat">${ms && ms.val ? `${ms.val} <small>${ms.label}</small>` : ''}</div>
+    </div>`;
+  }).join('');
+
+  document.getElementById('picker').innerHTML = `
+    <div class="pk-head">
+      <h3>${slot.icon} ${slot.label} — ${charName}</h3>
+      <button class="close-x" id="pickerClose">✕</button>
+    </div>
+    ${current ? `<div class="pk-unequip" id="pickerUnequip">✕ Unequip current</div>` : ''}
+    <div class="pk-list">${list || '<div class="empty-state">Nothing available for this slot.</div>'}</div>`;
+
+  document.getElementById('pickerBackdrop').classList.add('open');
+  document.getElementById('pickerClose').onclick = closePicker;
+  const un = document.getElementById('pickerUnequip');
+  if (un) un.onclick = () => { delete state.loadout[charName][slotId]; saveLoadouts(); closePicker(); renderLoadout(); };
+  document.querySelectorAll('#picker [data-pick]').forEach(el => el.onclick = () => {
+    state.loadout[charName][slotId] = el.dataset.pick;
+    saveLoadouts();
+    closePicker();
+    renderLoadout();
+  });
+}
+function closePicker() {
+  document.getElementById('pickerBackdrop').classList.remove('open');
+  state.pickerSlot = null;
+}
+
+/* ---------- View switching ---------- */
+function switchView(v) {
+  state.view = v;
+  document.querySelectorAll('nav button').forEach(b => b.classList.toggle('active', b.dataset.view === v));
+  document.querySelectorAll('.view').forEach(s => s.classList.toggle('active', s.id === 'view-' + v));
+  closeDetail();
+  if (v === 'compare') renderCompare();
+  if (v === 'loadout') renderLoadout();
+  renderCompareTray();
+}
+
+/* ---------- Events ---------- */
+document.querySelectorAll('nav button').forEach(b => b.onclick = () => switchView(b.dataset.view));
+
+document.getElementById('searchInput').addEventListener('input', e => { state.q = e.target.value; renderGrid(); });
+document.getElementById('sortSelect').addEventListener('change', e => { state.sort = e.target.value; renderGrid(); });
+document.getElementById('typeSelect').addEventListener('change', e => { state.type = e.target.value; renderGrid(); });
+
+document.getElementById('categoryPills').addEventListener('click', e => {
+  const p = e.target.closest('[data-cat]');
+  if (!p) return;
+  state.category = p.dataset.cat;
+  state.type = 'all';
+  renderSidebar(); renderGrid();
+});
+document.getElementById('charFilter').addEventListener('click', e => {
+  const c = e.target.closest('[data-char]');
+  if (!c) return;
+  state.char = state.char === c.dataset.char ? 'all' : c.dataset.char;
+  renderSidebar(); renderGrid();
+});
+document.getElementById('flagList').addEventListener('change', e => {
+  const f = e.target.dataset.flag;
+  if (!f) return;
+  state.flags[f] = e.target.checked;
+  renderGrid();
+});
+document.getElementById('resetBtn').onclick = () => {
+  state.q = ''; state.category = 'all'; state.type = 'all'; state.char = 'all';
+  state.flags = { artifact: false, cursed: false, unleash: false, usable: false };
+  document.getElementById('searchInput').value = '';
+  renderSidebar(); renderGrid();
+};
+
+document.getElementById('cardGrid').addEventListener('click', e => {
+  const cmp = e.target.closest('[data-compare]');
+  if (cmp) { toggleCompare(cmp.dataset.compare); return; }
+  const card = e.target.closest('[data-id]');
+  if (card) openDetail(card.dataset.id);
+});
+
+document.getElementById('drawerBackdrop').onclick = closeDetail;
+document.getElementById('pickerBackdrop').addEventListener('click', e => {
+  if (e.target.id === 'pickerBackdrop') closePicker();
+});
+
+document.getElementById('charTabs').addEventListener('click', e => {
+  const t = e.target.closest('[data-lchar]');
+  if (!t) return;
+  state.loadoutChar = t.dataset.lchar;
+  renderLoadout();
+});
+document.getElementById('slotsCol').addEventListener('click', e => {
+  const clr = e.target.closest('[data-clear]');
+  if (clr) {
+    delete state.loadout[state.loadoutChar][clr.dataset.clear];
+    saveLoadouts(); renderLoadout();
+    return;
+  }
+  const sc = e.target.closest('[data-slot]');
+  if (sc) openPicker(sc.dataset.slot);
+});
+
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') { closeDetail(); closePicker(); }
+});
+
+/* ---------- Init ---------- */
+renderSidebar();
+renderGrid();
+renderCompareTray();
+renderLoadout();
+</script>
+</body>
+</html>

@@ -2,8 +2,8 @@
 
 File: `gs1_schema.md`
 Lore-Engine | `schema/gs1/`
-Last updated: 2026-06-08
-Status: v1.0
+Last updated: 2026-06-11
+Status: v1.1
 
 ---
 
@@ -28,6 +28,18 @@ Status: v1.0
   - [Example Entry: Gaia Blade (weapon)](#example-entry-gaia-blade-weapon)
   - [Example Entry: Spirit Armlet (armor)](#example-entry-spirit-armlet-armor)
   - [Notes for CC (Extraction Instructions)](#notes-for-cc-extraction-instructions-2)
+- [Schema: `classes`](#schema-classes)
+  - [Class ID Disambiguation](#class-id-disambiguation)
+  - [Example Entry: Lord](#example-entry-lord)
+  - [Example Entry: Water Shaman](#example-entry-water-shaman)
+  - [Notes for CC (Extraction Instructions)](#notes-for-cc-extraction-instructions-3)
+- [Schema: `psynergy`](#schema-psynergy)
+  - [Range Notation Mapping](#range-notation-mapping)
+  - [Category Enum](#category-enum)
+  - [Example Entry: Ragnarok](#example-entry-ragnarok)
+  - [Example Entry: Wish (party heal)](#example-entry-wish-party-heal)
+  - [Example Entry: Force (item-granted utility)](#example-entry-force-item-granted-utility)
+  - [Notes for CC (Extraction Instructions)](#notes-for-cc-extraction-instructions-4)
 
 ---
 
@@ -56,6 +68,11 @@ This table lists every source ID used across all schemas in this file.
 | `dnextreme88` | Equipment Capabilities FAQ by dnextreme88 (GameFAQs, date unknown) |
 | `fandom-equipment` | Golden Sun Fandom Wiki — GBA Equipment Comparison Charts (fetched 2026) |
 | `rockettrekkie` | Golden Sun Artifacts Guide by RocketTrekkieEvoli (GameFAQs, date unknown) |
+| `plz2bstfu-class` | Class Change FAQ by plz2bstfu / 'spoon' (GameFAQs, 2001). Same author as `plz2bstfu`, different document. |
+| `aku-chi` | Class Setup Guide v1.50 by Christopher Goss / aku chi (GameFAQs, 2005) |
+| `tetzcatlipoca` | Psynergy Guide v3.11 by Tetzcatlipoca (GameFAQs, 2004; raw file named "Psynergy Guide - nintendos_own.txt") |
+| `jiggyhunter` | Psynergy List v1.1 by Jiggyhunter (GameFAQs, 2002) |
+| `strawhat` | Psynergy/Class Guide v1.01 by strawhat (GameFAQs, 2005) |
 
 Add new rows here when new sources are ingested.
 
@@ -1089,3 +1106,508 @@ When extracting equipment data from the three raw source files:
 13. **Do not invent data.** If a field cannot be determined from available
     sources, use `null` (or `0` for elemental fields confirmed to be zero).
     Do not guess at missing stat values.
+
+---
+
+## Schema: `classes`
+
+One entry per distinct class. A "class" here is a unique combination of
+display name + element context: the game reuses display names (e.g. "Shaman")
+for mechanically different classes reached via different djinn mixes, and the
+FAQ sources disambiguate these with parenthesised qualifiers ("(Water) Shaman").
+Each such qualified variant is its own entry. Tier chains (Squire → Knight →
+Gallant → Lord) are separate entries linked by `class_line`.
+
+File: `data/gs1/classes.json`
+
+```
+Field                   Type              Required   Notes
+---------------------------------------------------------------------------
+id                      string            YES        Lowercase, hyphens only. Element qualifier
+                                                     prefix when sources use one.
+                                                     e.g. "lord", "water-shaman", "chaos-lord"
+                                                     See Class ID Disambiguation below.
+name                    string            YES        In-game display name. e.g. "Shaman", "Lord"
+qualified_name          string | null     YES        Disambiguated name as used by sources,
+                                                     e.g. "(Water) Shaman". null when the display
+                                                     name is already unique.
+game                    string            YES        Always "gs1" for this file.
+class_line              string            YES        `id` of the lowest tier in this class's
+                                                     psynergy family (classes that share base
+                                                     psynergy and upgrade into each other).
+                                                     Standalone classes use their own id.
+                                                     e.g. "squire" for Squire/Knight/Gallant/
+                                                     Lord/Slayer; "ninja" for Ninja;
+                                                     "water-shaman" for (Water) Shaman.
+reachable_in_gs1        boolean           YES        false for classes requiring 8 djinn of one
+                                                     element (Slayer, Chaos Lord, War Adept) —
+                                                     GS1 caps at 7 set djinn per character.
+                                                     true for everything else.
+
+available_to            array of object   YES        One object per character who can take this
+                                                     class. Jenna's Flame User lists Jenna.
+  [].character          string            YES        "Isaac" | "Garet" | "Ivan" | "Mia" | "Jenna"
+  [].djinn_requirements array of object   YES        Djinn setups per source. Sources express
+                                                     requirements differently (ranges relative to
+                                                     the character's base element vs. concrete
+                                                     7-djinn examples); keep each as stated.
+    [].requirement      string            YES        Verbatim-ish requirement prose.
+                                                     e.g. "0-1 Earth Djinn", "3 Mars, 4 Jupiter"
+    [].source           string            YES        Source ID this requirement came from.
+  [].acr                number | null     YES        aku-chi's Combat efficiency Rank (out of 10)
+                                                     for this character in this class.
+                                                     null if aku-chi does not rate it.
+
+stat_multiplier         object | null     YES        Class stat bonuses as percentages, from
+                                                     aku-chi (originally Terence's data). The
+                                                     class multiplies (base + djinn + equip)
+                                                     stats by these values. null when no source
+                                                     provides them.
+  .hp                   integer           YES        e.g. 170 for "170%".
+  .pp                   integer           YES
+  .atk                  integer           YES
+  .def                  integer           YES
+  .agi                  integer           YES
+  .lck                  integer           YES
+
+psynergy                array of object   YES        Psynergy learnable in this class. Union of
+                                                     all sources' lists, with attribution.
+                                                     Empty array [] only if no source lists any
+                                                     (should not happen).
+  [].name               string            YES        Psynergy display name, matching `name` in
+                                                     psynergy.json. e.g. "Mother Gaia"
+  [].sources            array of string   YES        Source IDs that list this psynergy for this
+                                                     class.
+notes                   string | null     NO         Caveats: tier-snapshot limitations of a
+                                                     source list, source typos corrected, etc.
+sources                 array of string   YES        All source IDs that contributed data.
+conflicts               array of object   NO         Only present if sources disagree on a field.
+                                                     Same shape as in other schemas.
+  [].field              string            YES        Dot-notation path.
+  [].values             object            YES        Map of source_id → conflicting value.
+  [].note               string | null     NO         Optional human note.
+```
+
+### Class ID Disambiguation
+
+The same display name can belong to several distinct classes. Two
+disambiguation mechanisms apply, in this order:
+
+1. **Source element qualifier**: when sources write "(Water) Shaman",
+   "(Earth) Cavalier" etc., the qualifier becomes an id prefix:
+   `water-shaman`, `earth-cavalier`.
+2. **Character suffix**: when the same unqualified display name on two
+   characters carries DIFFERENT psynergy lists (because the underlying
+   element mix differs), split into per-character entries suffixed with the
+   character name: `swordsman-isaac` vs `swordsman-garet`.
+
+A class shared by two characters with IDENTICAL psynergy lists stays a single
+entry with multiple `available_to` objects (Brute line, Ninja, Samurai,
+Dragoon, Hermit/Elder/Scholar/Savant/Sage, Medium, Ranger, White Mage).
+
+```
+Display name   Distinct classes (id)
+-----------------------------------------------------------------
+Shaman         "water-shaman" (Isaac, 6-7 water)
+               "wind-shaman"  (Isaac, 6-7 wind)
+               "shaman-ivan"  (Ivan, Seer-line tier 3: Bolt series)
+               "shaman-mia"   (Mia, Seer-line tier 3: Froth series)
+Seer           "wind-seer"  (Ivan base class)
+               "water-seer" (Mia base class)
+               "seer-ivan"  (Ivan, 1 earth: Bolt series)
+               "seer-mia"   (Mia, 1 earth: Froth series)
+Diviner        "diviner-ivan" / "diviner-mia" (tier 2 of the Seer lines)
+Druid          "druid-ivan" / "druid-mia"     (tier 4 of the Seer lines)
+Ascetic        "water-ascetic" (Garet, 6-7 water)
+               "wind-ascetic"  (Garet, 6-7 wind)
+               "ascetic-ivan"  (Ivan, Pilgrim-line: Slash series)
+               "ascetic-mia"   (Mia, Pilgrim-line: Douse/Prism series)
+Cavalier       "cavalier-isaac" / "cavalier-garet" (water-line tier 3)
+               "earth-cavalier" (Mia, 6-7 earth)
+               "fire-cavalier"  (Mia, 6-7 fire)
+Enchanter      "enchanter-isaac" / "enchanter-garet" (wind-line tier 3)
+               "earth-enchanter" (Ivan, 6-7 earth)
+               "fire-enchanter"  (Ivan, 6-7 fire)
+Swordsman      "swordsman-isaac" (Thorn series + Revive)
+               "swordsman-garet" (Mad Blast series + Guard/Protect)
+Defender       "defender-isaac" / "defender-garet"
+Illusionist    "illusionist-isaac" (Apprentice line)
+               "illusionist-garet" (Page line)
+Conjurer       "conjurer-isaac" / "conjurer-garet"
+Pilgrim        "pilgrim-ivan" (Slash/Plasma) / "pilgrim-mia" (Douse/Prism)
+Wanderer       "wanderer-ivan" / "wanderer-mia"
+```
+
+Note: "Guardian" the class (Isaac, 1 earth + 6 water) and "Guardian" the
+psynergy (Samurai defense buff) are unrelated; they live in different files
+so no disambiguation is needed.
+
+### Example Entry: Lord
+
+```json
+{
+  "id": "lord",
+  "name": "Lord",
+  "qualified_name": null,
+  "game": "gs1",
+  "class_line": "squire",
+  "reachable_in_gs1": true,
+  "available_to": [
+    {
+      "character": "Isaac",
+      "djinn_requirements": [
+        { "requirement": "6-7 Earth Djinn", "source": "plz2bstfu-class" },
+        { "requirement": "6 earth", "source": "aku-chi" },
+        { "requirement": "4-8 Venus Djinn (Gallant/Lord/Slayer tier group)", "source": "strawhat" }
+      ],
+      "acr": 9
+    }
+  ],
+  "stat_multiplier": {
+    "hp": 170,
+    "pp": 110,
+    "atk": 140,
+    "def": 130,
+    "agi": 140,
+    "lck": 100
+  },
+  "psynergy": [
+    { "name": "Ragnarok", "sources": ["plz2bstfu-class", "strawhat"] },
+    { "name": "Quake", "sources": ["plz2bstfu-class", "strawhat"] },
+    { "name": "Gaia", "sources": ["plz2bstfu-class", "strawhat"] },
+    { "name": "Grand Gaia", "sources": ["strawhat"] },
+    { "name": "Revive", "sources": ["plz2bstfu-class"] }
+  ],
+  "notes": "plz2bstfu's spell list is a level-30 snapshot and omits psynergy learned above level 30 (e.g. Grand Gaia).",
+  "sources": ["plz2bstfu-class", "aku-chi", "strawhat"]
+}
+```
+
+(Example abbreviated — real entries list the full psynergy union.)
+
+### Example Entry: Water Shaman
+
+```json
+{
+  "id": "water-shaman",
+  "name": "Shaman",
+  "qualified_name": "(Water) Shaman",
+  "game": "gs1",
+  "class_line": "water-shaman",
+  "reachable_in_gs1": true,
+  "available_to": [
+    {
+      "character": "Isaac",
+      "djinn_requirements": [
+        { "requirement": "6-7 Water Djinn", "source": "plz2bstfu-class" },
+        { "requirement": "7 Mercury", "source": "strawhat" }
+      ],
+      "acr": null
+    }
+  ],
+  "stat_multiplier": null,
+  "psynergy": [
+    { "name": "Froth", "sources": ["plz2bstfu-class", "strawhat"] },
+    { "name": "Froth Spiral", "sources": ["strawhat"] },
+    { "name": "Wish", "sources": ["plz2bstfu-class", "strawhat"] }
+  ],
+  "notes": null,
+  "sources": ["plz2bstfu-class", "strawhat"]
+}
+```
+
+(Example abbreviated.)
+
+### Notes for CC (Extraction Instructions)
+
+When extracting class data from raw source files:
+
+1. **One JSON object per distinct class** per the Class ID Disambiguation
+   table. A class shared by two characters is ONE entry with multiple
+   `available_to` objects ONLY when both characters' psynergy lists are
+   identical in the sources (Brute line, Ninja, Samurai, Dragoon,
+   Hermit/Elder/Scholar/Savant/Sage, Medium, Ranger, White Mage). When the
+   lists differ (Swordsman, Seer, Pilgrim lines...), split per character.
+2. **Tier groups**: strawhat groups tiers ("Squire/Knight", "Gallant/Lord/
+   Slayer") and gives one psynergy list per group; plz2bstfu lists each tier
+   with "Same as X, with these additions". Expand both into per-tier entries.
+   A strawhat group list applies to every tier in the group.
+3. **plz2bstfu psynergy lists are level-29/30 snapshots** — they omit
+   psynergy learned at higher levels. A spell present in strawhat but absent
+   in plz2bstfu is NOT a conflict. A spell present in plz2bstfu but absent
+   from strawhat's class list (e.g. Revive on Gallant/Lord) should be
+   included with plz2bstfu attribution and noted in `notes` if it looks like
+   a strawhat omission.
+4. **djinn_requirements**: keep each source's phrasing. plz2bstfu states
+   counts of non-base elements relative to the character ("1 Fire Djinni");
+   strawhat gives example 7-8 djinn setups ("3 Venus, 3 Mars"); aku-chi
+   gives top-tier setups ("1 earth, 6 wind"). These describe the same class
+   from different angles — record all, flag only direct contradictions.
+5. **stat_multiplier / acr**: only aku-chi provides these, and only for the
+   classes it discusses. stat_multiplier is class-level; acr is per
+   character + class (lives in `available_to`).
+6. **8-djinn classes** (Slayer, Chaos Lord, War Adept — mentioned only in
+   strawhat's tier headers): create entries with `reachable_in_gs1: false`
+   and a note. Do not invent psynergy beyond the tier-group list.
+7. **Jenna's Flame User** (strawhat section 2.5): one entry, `available_to`
+   Jenna, psynergy Flare / Flare Wall / Flare Storm, note that her class
+   cannot be changed.
+8. **strawhat's "(Earth) Shaman" header for Ivan** is a typo: its content
+   matches plz2bstfu's "(Earth) Enchanter". Extract as `earth-enchanter`
+   and flag in `conflicts` or `notes`.
+9. **Normalize element words**: sources mix Venus/Mars/Jupiter/Mercury with
+   earth/fire/wind/water. Keep requirement strings close to source wording
+   but the rest of the entry uses earth/fire/wind/water.
+10. **Do not invent data.** Missing stat multipliers stay null; do not
+    derive them from Terence's GS2 guide or memory.
+
+---
+
+## Schema: `psynergy`
+
+One entry per distinct psynergy ability. Abilities sharing a display name but
+mechanically distinct (the two "Blast" lines) get separate entries with
+distinct ids. Upgrades (Cure → Cure Well → Potent Cure) are separate entries
+linked by `series` + `tier`.
+
+File: `data/gs1/psynergy.json`
+
+```
+Field                   Type              Required   Notes
+---------------------------------------------------------------------------
+id                      string            YES        Lowercase, hyphens only. e.g. "ragnarok",
+                                                     "mother-gaia". For the two "Blast" lines:
+                                                     "blast-nova" (7pp, Nova series) and
+                                                     "blast-mad" (5pp, Mad Blast series).
+name                    string            YES        Display name. e.g. "Mother Gaia", "Blast"
+game                    string            YES        Always "gs1" for this file.
+element                 string | null     YES        One of: "earth" | "fire" | "wind" | "water".
+                                                     null for non-elemental utility psynergy
+                                                     (Move, Retreat, Catch, Avoid, ...).
+category                string            YES        Primary effect. See Category Enum below.
+pp_cost                 integer | null    YES        PP cost. null only if no source states it.
+range                   integer | string  YES        Number of targets: 1, 3, 5, 7, or "all"
+                        | null                       for party-wide effects. null for field-only
+                                                     utility psynergy. See Range Notation Mapping.
+target                  string            YES        "enemy" | "ally" | "none".
+                                                     "ally" covers self/single-ally/party
+                                                     beneficial psynergy (disambiguated by range).
+                                                     "none" for field utility.
+battle_usable           boolean           YES        false for field-only psynergy (Move,
+                                                     Retreat, Mind Read, Catch, ...). Avoid is
+                                                     field-only → false.
+level_learned           integer | null    YES        Level learned, from strawhat. When strawhat
+                                                     lists different levels per class, use the
+                                                     LOWEST and put the rest in
+                                                     level_learned_variants. null if not given
+                                                     (item-granted or default psynergy).
+level_learned_variants  string | null     NO         Per-class level variations, condensed from
+                                                     strawhat. e.g. "20 (Apprentice line) / 24
+                                                     (Brute line)". Omit or null if none.
+series                  string | null     YES        `id` of the series' first tier. e.g.
+                                                     "growth" for Growth/Mad Growth/Wild Growth;
+                                                     "blast-nova" vs "blast-mad" keeps the two
+                                                     Blast lines distinct. null for standalone
+                                                     psynergy.
+tier                    integer | null    YES        1-based position within the series.
+                                                     null when series is null.
+description             string | null     YES        In-game description text from sources.
+                                                     e.g. "Attack with the earth's might."
+effect_notes            string | null     YES        Mechanics beyond the description: healing
+                                                     amounts, status chances, instant-kill
+                                                     attempts, source commentary worth keeping.
+                                                     null if nothing to add.
+field_effect            string | null     NO         Out-of-battle use of a battle psynergy
+                                                     (e.g. Frost freezes puddles, Gale/Whirlwind
+                                                     clear vines). null/omit if none.
+available_to            array of string   YES        Characters who can access this psynergy via
+                                                     any class or item, per sources.
+                                                     Subset of ["Isaac","Garet","Ivan","Mia",
+                                                     "Jenna"].
+acquired_via_item       object | null     YES        For psynergy granted by equipping an item.
+                                                     null for class-learned psynergy.
+  .item                 string            YES        Item name. e.g. "Catch Beads"
+  .location             string | null     YES        Where the item is obtained, prose from
+                                                     source. null if not stated.
+  .source               string            YES        Source ID for the item/location info.
+sources                 array of string   YES        All source IDs that contributed data.
+conflicts               array of object   NO         Only present if sources disagree on a field.
+                                                     Same shape as in other schemas.
+  [].field              string            YES        e.g. "pp_cost", "range", "element"
+  [].values             object            YES        Map of source_id → conflicting value.
+  [].note               string | null     NO         Optional human note.
+```
+
+Note: the class → psynergy mapping lives in `classes.json` (`psynergy`
+arrays). It is NOT duplicated here; psynergy entries only carry the coarser
+`available_to` character list.
+
+### Range Notation Mapping
+
+Sources draw target counts as bar/tally diagrams. Map as follows:
+
+| Source | Notation | Meaning |
+|---|---|---|
+| jiggyhunter | `I`, `III`, `IIIII`, `IIIIIII`, `IIIIIIIII` | 1, 3, 5, 7, all |
+| tetzcatlipoca | `\|`, `\|\|\|`, `\|\|\|\|\|`, `\|\|\|\|\|\|\|`, `\|\|\|\|\|\|\|\|\|` | 1, 3, 5, 7, all |
+| strawhat | `\|`, `;\|;`, `,;\|;,` or `.;\|;.`, `.,;\|;,.` or `,,;\|;,,` | 1, 3, 5, 7 |
+| strawhat | 7+ plain bars on a beneficial effect | all |
+
+Nine-or-more-bar tallies map to `"all"` on either side: party-wide
+beneficial effects (descriptions saying "party's", "whole party", "entire
+party") AND all-enemy effects (Break). Sources are inconsistent about drawing
+7, 8, 9, or 10 bars for these — descriptions take precedence over bar count.
+Offensive *damage* psynergy caps at 7 targets; only non-damaging
+all-enemy effects use `"all"` with `target: "enemy"`.
+
+### Category Enum
+
+```
+category = "attack"   — deals damage (incl. elemental physical attacks and
+                        damage+status moves like Annihilation, Helm Splitter)
+           "healing"  — restores HP or revives (Cure/Ply/Wish lines, Revive)
+           "buff"     — raises allies' stats (Impact, Guard, Ward, Demon
+                        Spear, Magic Shell lines)
+           "debuff"   — lowers enemy stats or removes bonuses (Impair,
+                        Weaken, Dull lines, Break)
+           "status"   — inflicts or cures status conditions without damage
+                        (Delude, Sleep, Bind, Mist, Haunt, Curse, Condemn,
+                        Cure Poison, Restore)
+           "drain"    — absorbs HP/PP (Drain, Psy Drain)
+           "utility"  — field/non-combat (Move, Retreat, Mind Read, Reveal,
+                        Catch, Force, Lift, Carry, Halt, Cloak, Avoid)
+```
+
+### Example Entry: Ragnarok
+
+```json
+{
+  "id": "ragnarok",
+  "name": "Ragnarok",
+  "game": "gs1",
+  "element": "earth",
+  "category": "attack",
+  "pp_cost": 7,
+  "range": 1,
+  "target": "enemy",
+  "battle_usable": true,
+  "level_learned": 13,
+  "series": null,
+  "tier": null,
+  "description": "Strike with a massive sword.",
+  "effect_notes": "One of the most powerful attacks available early in the game (strawhat).",
+  "available_to": ["Isaac"],
+  "acquired_via_item": null,
+  "sources": ["jiggyhunter", "tetzcatlipoca", "strawhat", "plz2bstfu-class"]
+}
+```
+
+### Example Entry: Wish (party heal)
+
+```json
+{
+  "id": "wish",
+  "name": "Wish",
+  "game": "gs1",
+  "element": "water",
+  "category": "healing",
+  "pp_cost": 9,
+  "range": "all",
+  "target": "ally",
+  "battle_usable": true,
+  "level_learned": 5,
+  "level_learned_variants": "5 (Isaac water classes) / 8 (Garet, Mia most classes) / 12 (Ivan, Mia wind classes)",
+  "series": "wish",
+  "tier": 1,
+  "description": "Restore 80 HP to the whole party.",
+  "effect_notes": null,
+  "available_to": ["Isaac", "Garet", "Ivan", "Mia"],
+  "acquired_via_item": null,
+  "sources": ["jiggyhunter", "tetzcatlipoca", "strawhat", "plz2bstfu-class"]
+}
+```
+
+### Example Entry: Force (item-granted utility)
+
+```json
+{
+  "id": "force",
+  "name": "Force",
+  "game": "gs1",
+  "element": null,
+  "category": "utility",
+  "pp_cost": 2,
+  "range": null,
+  "target": "none",
+  "battle_usable": false,
+  "level_learned": null,
+  "series": null,
+  "tier": null,
+  "description": "Strike a distant object.",
+  "effect_notes": "Not needed to complete the game (tetzcatlipoca).",
+  "available_to": ["Isaac", "Garet", "Ivan", "Mia"],
+  "acquired_via_item": {
+    "item": "Orb of Force",
+    "location": "Complete the puzzles in Fuchin Falls Cave.",
+    "source": "tetzcatlipoca"
+  },
+  "sources": ["tetzcatlipoca", "strawhat"],
+  "conflicts": [
+    {
+      "field": "acquired_via_item.item",
+      "values": {
+        "tetzcatlipoca": "Orb of Force",
+        "strawhat": "Force Gem"
+      },
+      "note": null
+    }
+  ]
+}
+```
+
+### Notes for CC (Extraction Instructions)
+
+When extracting psynergy data from raw source files:
+
+1. **One entry per distinct ability.** The two "Blast" abilities (Nova series
+   7pp Mars vs. Mad Blast series 5pp Mars) are separate entries (`blast-nova`,
+   `blast-mad`). Series upgrades are separate entries linked via
+   `series`/`tier`.
+2. **Series membership** is established by shared in-game description text
+   and escalating PP within a source's grouping (e.g. all three Growth tiers
+   read "Attack with ... plants"), and by aku-chi's explicit "the X series"
+   references. Do not group on name similarity alone.
+3. **strawhat transcription errors** — do not import these as separate
+   abilities; map to the real ability and flag in `conflicts`/`effect_notes`
+   when values differ:
+   - second "Thunderbolt" (lv 50) = Thunderstorm
+   - second "Clay Spire" (22pp, lv 42) = Stone Spire
+   - second "Storm Ray" (21pp, lv 36) = Destruct Ray
+   - second "Rockslide" (30pp, lv 54) / "Avanlanche" = Avalanche
+   - the 13-PP Mars "Haunt" with description "Attack with a massive
+     explosion" is a corrupted duplicate; the real Haunt is 5pp Venus
+   - Sleep and Bind carry the description "Boost Resistance" (copy-paste);
+     use jiggyhunter/tetzcatlipoca descriptions instead
+   - "Ice Missle", "High Impace", "Sonich Slash", "Asceti" etc. are typos
+4. **PP and range conflicts**: where sources disagree (Curse 6 vs 5, Bind 4
+   vs 7, Wild Growth 19 vs 15, Grand Gaia 32 vs 17, Ply 4 vs 3, Thorn 6 vs 4,
+   Spire range 1 vs 3, Stone Spire range 5 vs 3, Typhoon range 5 vs 3, Fire
+   Bomb range 3 vs 5, Hurricane range 7 vs 5, Dull element wind vs water...)
+   set the field to the MAJORITY value when 2+ sources agree, otherwise the
+   tetzcatlipoca value, and always record the disagreement in `conflicts`.
+5. **level_learned comes from strawhat only.** Other sources don't track it.
+   Lowest value into `level_learned`, the rest into `level_learned_variants`.
+6. **Item-granted psynergy** (Catch, Force, Lift, Carry, Halt, Cloak +
+   Douse/Frost which are also class psynergy): populate `acquired_via_item`
+   from tetzcatlipoca's "Everyone" section (richer location prose), flag
+   item-name disagreements with strawhat (Orb of Force vs Force Gem, Carry
+   Stone vs Carry Gem).
+7. **available_to**: union of the characters under whose section the
+   psynergy appears in tetzcatlipoca/strawhat, plus all four for item-granted
+   psynergy, plus Jenna for her Flame User moves. The djinn-trade bracket
+   codes ([M], [J(4)]...) in tetzcatlipoca encode class requirements already
+   captured in classes.json — do not model them here.
+8. **Healing amounts** ("Restore 70 HP") stay in `description`; source
+   caveats ("restores AROUND 300 HP") go to `effect_notes`.
+9. **Do not invent data.** Jiggyhunter's "Description Needed" entries
+   contribute PP/range only. If no source states a value, use null.

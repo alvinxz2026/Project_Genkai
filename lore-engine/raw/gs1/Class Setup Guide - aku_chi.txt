@@ -1,0 +1,827 @@
+GOLDEN SUN CLASS SETUP GUIDE v1.50 
+============================ =====
+
+By Christopher Goss, aku chi (forum name)
+
+Golden Sun is copyright 2001 - 2003 Nintendo of America, Co. Ltd. 
+
+This document may be not be reproduced under any circumstances except for
+personal, private use. It may not be placed on any web site or otherwise
+distributed publicly without advance written permission. Most of the class
+statistics and psynergy data I provide were found on Terence Fergusson's 
+"Battle Mechanics" Guide at
+http://db.gamefaqs.com/portable/gbadvance/file/golden_sun_2_mech.txt. All
+trademarks and copyrights contained in this document are owned by their
+respective trademark and copyright holders.
+ 
+You may e-mail me asking questions about Golden Sun that directly relate to
+class structure at Chreebeast@aol.com. I don't check my mail very often, and 
+you may find your answers quicker by looking at other Golden Sun websites. 
+
+
+===================== 
+== VERSION HISTORY == 
+===================== 
+
+v1.0  : 7/5/03  : Original Release 
+v1.01 : 7/7/03  : Fixed format problem
+v1.11 : 7/10/03 : Added class stats to the link battle sections and fixed other
+                  small errors
+v1.50 : 4/03/05 : Rewrote most of the guide to reflect my changed opinions
+                  Split the guide in two: GS and TLA
+
+
+============== 
+== FOREWORD == 
+============== 
+
+I've owned Golden Sun and Golden Sun: The Lost Age for a long time now, and I 
+have, for the most part, done everything that I want to do with these games.  
+I’ve found the class system to be the most intriguing part of the Golden Sun 
+games.  I've been experimenting and studying the class system of Golden Sun 
+and Golden Sun: The Lost Age for many years, and I may finally have become the
+MASTA CLASSA!  I have since decided to document some of my findings in this 
+guide.
+
+This guide is not meant to teach the basics of class architecture or to give a
+list of all the classes in the game.  If you want that information, I suggest
+that you read one of the many other guides at GameFAQs.com that reveals that 
+knowledge.  This guide is meant to help you choose a class setup that is both 
+unique and powerful.  
+
+These abbreviations will be used throughout the guide:
+
+HP: Hit Points
+PP: Psynergy Points
+Att: Attack
+Def: Defense
+Agi: Agility
+Luc: Luck
+ACR: Aku chi’s Combat efficiency Rank (out of ten)
+
+
+======================= 
+== TABLE OF CONTENTS == 
+======================= 
+
+I   The Class System
+II  General Strategy
+     A. Single elemental classes
+     B. Triple elemental classes
+     C. Double double
+     D. Triple double
+     E. Triple triple
+     F. Double triple
+     G. Double elemental classes
+     H. Comparative psynergy board
+     I. Final Comments
+III Link Battle Strategy
+     A. Warrior classes
+     B. Intermediary classes
+     C. Spell casting classes
+     D. Together now
+IV  Important Battles
+     A. Tret
+     B. Saturous
+     C. Killer Ape
+     D. Manticore
+     E. Kraken
+     F. Toadonpa
+     G. Storm Lizard
+     H. Deadbeard
+     I. Saturous and Menardi and the Fusion Dragon
+
+                                                                            
+====================== 
+== THE CLASS SYSTEM == 
+====================== 
+
+The class system in Golden Sun follows a few simple rules that can produce 
+many unique class setups.  Changing a character’s class will completely change 
+that character's stats as well as the psynergy techniques that are available 
+to him/her.  Classes also affect the elemental levels of each character.  The 
+number of set djinn can determine elemental levels.  Each character starts out 
+with 5 elemental levels of one particular element:
+
+Isaac: Earth
+Garet: Fire
+Jenna: Fire
+Ivan: Wind
+Mia: Water
+
+Each djinn you set adds 1 level of that particular type.  What do elemental
+levels do, you might ask?  Each level adds 5 elemental power and 5 elemental
+resistance of that type.  Elemental levels make an adept’s psynergy attacks 
+stronger and help that adept resist others’ psynergy attacks.  Let me explain 
+the relationships between the elements in detail here.  I stole this concept 
+from TFergussen because it makes my class descriptions much simpler.  All 
+elements have an affinity, an opposite, and a neutral element.  Here's a handy 
+list to explain:
+ ______________________________________________
+|__Base__|__Affinity__|__Opposite__|__Neutral__|
+|__Earth_|    Fire         Wind        Water      
+|__Fire__|    Earth        Water       Wind     
+|__Wind__|    Water        Earth       Fire     
+|__Water_|    Wind         Fire        Earth    
+
+Let's look at how classes affect character stats.  Each character has a set of
+base stats, which are adjusted each time he/she gains a level. You may also 
+equip stat changing items such as weapons to add to that character’s stats.  
+Furthermore, each djinn gives him/her a set amount of stat bonuses that 
+differs between each djinn.  The class he/she’s in then further adjusts all of 
+these stats together. The stats you actually see are worked out like this: 
+
+(Base Stats + Djinn Bonuses + Equip Bonuses) * Class Bonuses 
+
+The Class Bonuses are multiplied to all the other Bonuses combined, which is 
+why you will rarely see a weapon that says Attack +128 actually giving an 
+adept 128 attack points. Knowing this, you should try to equip the highest 
+offensive weapons to your characters with the highest class attack bonuses, 
+and likewise with defensive armor.  I suggest that you choose your adepts’ 
+classes before assigning equipment to make the most use out the particular 
+classes’ strengths.  Djinn can also be manipulated to give the best results.  
+It makes more sense to give a djinni with an attack bonus to an adept in a 
+warrior class like Samurai.  You should be able to find djinn stat bonuses in 
+most Golden Sun websites, so I won't bother to mention them here. 
+
+Now let's look at how classes affect a character's psynergy.  Every adept can
+control one, two, or three elements.  For every element that an adept 
+controls, he/she will learn psynergy of that element.  The particular psynergy 
+that is available for a character is determined solely by the class he/she is 
+in.  Classes can be arranged into sets that share the same base psynergy.  As 
+more elemental levels are added to an adept, that adept can advance up through 
+different tiers of a class set.  In addition to gaining elemental levels, this 
+adept will gain stat increases and may learn additional psynergy.  At this 
+time, I’m going to explain what types of top tier classes are available to you 
+with a maximum of seven djinn per character.  I’m going to group these classes 
+according to how many elements they can control.
+
+Single Elemental Classes:  Adepts with six set djinn of their base type will 
+                           be in a single elemental class.  An example of this 
+                           is Isaac as a Lord (6 earth).  The single elemental 
+                           classes generally have low stats.  They also tend 
+                           to have a low variety of powerful psynergy.
+Double Elemental Classes:  Adepts with six set djinn of a non-base type and 
+                           one djinn set of their base type will be in a 
+                           double elemental class.  An example of this is 
+                           Isaac as a Conjurer (1 earth, 6 wind).  The double 
+                           elemental classes generally have high stats.  They 
+                           tend to have a nice balance of available psynergy.
+Triple Elemental Classes:  Adepts with three set djinn of their affinity type 
+                           and three set djinn of either their neutral or 
+                           weakness type will be in a triple elemental class.  
+                           Also, if the said neutral or weakness djinn are 
+                           earth or wind, an additional affinity djinn will 
+                           change the class into another triple elemental 
+                           class.  An example is Isaac as a Ninja (3 fire, 3 
+                           wind).  Triple elemental classes have varied stat 
+                           bonuses.  They also tend to have a great variety of 
+                           weaker psynergy.
+
+
+======================
+== GENERAL STRATEGY ==
+======================
+
+The most important decision regarding your class setup is determining how many 
+elements each adept should control.  The more elements an adept controls, the 
+weaker that adept's psynergy will be.  The fewer elements an adept controls, 
+the less psynergy that adept will have available to him/her.  Additionally, 
+several of the top tier classes in Golden Sun have significantly higher stat 
+bonuses and are therefore preferable.  You must balance both power and 
+versatility, and psynergy techniques and stat benefits to truly have a great 
+class setup.
+
+This section is arranged as a class setup countdown.  The ranks are entirely 
+my opinion.  First, I will discuss the class setup as a whole.  Then, I will 
+provide sample classes and discuss their pros and cons.  Note that these 
+classes work best at level 54.  After each class, I will list its stat 
+bonuses.  At the end of the class stats, I will provide an additional rank 
+(out of ten) that reflects my general opinion of how well that particular 
+character and that particular class perform in combat.  I will provide the 
+average rank for the sample class setup as a whole when each class setup is 
+introduced.  At the end of the end of the class setup countdown, there is a 
+table that compares the available psynergy of all the sample class setups.  
+
+==(#7)SINGLE ELEMENTAL CLASSES(ACR: 7.8)==
+
+In this class setup, all the djinn of each character's base type is set to 
+That character.  This causes each character to focus on one element.  The 
+obvious advantage is the absurdly high elemental power and resistance in each 
+character's element.  Each adept will have +60 in both elemental power and 
+resistance, yielding the strongest elemental psynergy attacks in the game.  
+Another advantage is the specialization of stat bonuses.  All of the class 
+bonuses will lead up to their character's strengths.  The greatest advantage 
+is the ability to place djinn on standby for summoning without much of an 
+elongated stat drop.  However, there are several profound cons of being in 
+this setup.  Each character is restricted to only one element.  This means 
+that there will be only two healers on the team. It also means that each 
+character has a relatively low number of psynergy techniques available to 
+him/her.  Additionally, the stats are the lowest you can achieve using top 
+tier classes.
+
+                           | HP | PP | Att| Def| Agi| Lck| ACR|
+Ivan  - Magister (6 wind)   130% 170% 110% 120% 160% 110%  8.5
+Garet - Champion (6 fire)   170% 110% 130% 140% 100% 100%   7
+Isaac - Lord     (6 earth)  170% 110% 140% 130% 140% 100%   9
+Mia   - Paragon  (6 water)  140% 160% 120% 130% 110% 130%  6.5
+
+There is only one set of classes that can be created by using all single 
+elemental classes (shown above).  This setup has one spell caster, Ivan, who 
+has the powerful Spark Plasma and some stat and status altering psynergy.  
+Ivan is weak, but massively powerful when alive.  Garet is the party’s 
+attacker with Heat Wave but suffers from some sub-par stats.  He could make 
+use of the stat altering psynergy at his disposal, but using Pyroclasm is 
+costly and rather ineffective.  Mia is a great healer with great luck, but she 
+doesn’t have any effective attack psynergy and is rather weak.  In fact, Isaac 
+is the only character with any versatility.  He has decent stats along with 
+the two powerful psynergy attacks Ragnarok and Grand Gaia.  Furthermore, Isaac 
+can heal with Revive and Potent Cure.  His biggest downside is his shortage of 
+psynergy points, which hinder him from using his great psynergy every turn.  
+All in all, this setup lacks versatility and is rather fragile, but it has 
+powerful attack and healing psynergy.
+
+==(#6)TRIPLE ELEMENTAL CLASSES(ACR: 8.5)==
+
+The next five class setups are all good and are worth giving a try.  In this 
+class setup, all four characters are in the triple elemental classes.  The 
+obvious pro in this category is versatility.  Every character can wield three 
+different elements.  Summons cannot be used effectively without very careful 
+planning.  The stats are pretty evenly spread and are good.  The cons of these 
+class setups include a weak djinn spread and a lack of great classes.  Nobody 
+will have higher than elemental level 5 in any element.  This results in less 
+of a focus to be put on ranged elemental attack psynergy and more of a focus 
+to be put on elemental physical attacks.  Because of the djinn requirements of 
+the triple elemental classes, only one Samurai/Ninja and one White Mage will 
+be able to be in a particular class setup at the same time.
+                                     | HP | PP | Att| Def| Agi| Lck| ACR|
+Mia   - White Mage (4 wind, 3 earth)  150% 180% 130% 130% 150% 130%   9
+Isaac - Dragoon    (3 fire, 3 water)  160% 130% 140% 140% 110% 130%  7.5
+Garet - Samurai    (4 earth, 3 wind)  190% 130% 150% 140% 140%  90%  9.5
+Ivan  - Ranger     (3 water, 3 fire)  130% 160% 120% 120% 160% 120%   8
+
+It is widely accepted that the White Mage, Samurai, and Ninja classes are the 
+best triple elemental classes in the game.  However, in this setup, it isn’t 
+possible to have both a Samurai and a Ninja (it actually isn’t possible in any 
+top tier class setup).  The remaining two classes must be a Dragoon and a 
+Ranger.  Isaac as a Dragoon is the weakest link of the group.  He has mediocre 
+stats and relies upon Cutting Edge for all his damage dealing.  His healing 
+spells are nice but he doesn’t get Revive.  Ivan as a Ranger is a good spell 
+caster with Pyroclasm and some stat and status altering psynergy but poor 
+stats.  White Mage is a great healing and spell casting class with good stats, 
+Freeze Prism, Pure Wish, and Revive. Garet as a Samurai is the best warrior in 
+the game with the beloved Quick Strike psynergy technique.  Additionally, 
+Garet has great durability and some stat boosters to boot.  All together, this 
+is a pretty well balanced group of fighters.  It excels at stat boosting but 
+it’s lacking really powerful ranged elemental attack psynergy.
+
+==(#5)DOUBLE DOUBLE(ACR: 8.8)==
+
+A setup that is not often used, the Double Double places two characters in 
+double elemental classes and 2 characters in single elemental classes.  This 
+class setup has the potential for very strong psynergy attacks.  Additionally, 
+most of the double elemental classes have great stats, yielding a decently 
+durable team.  Summons can be used in the two single elemental classes 
+effectively enough.  The asymmetrical layout of the djinn can produce 
+interesting psynergy overlap.  It’s possible, for instance, to have three 
+healers in one party.  The asymmetrical layout is also a downside because the 
+stats might not fit with each character’s strengths.  Additionally, there just 
+isn’t any way to get four great classes this way.
+                                   | HP | PP | Att| Def| Agi| Lck| ACR|
+Ivan  – Sage     (1 wind, 6 water)  150% 180% 120% 130% 170% 120%  10
+Garet - Champion (6 fire)           170% 110% 130% 140% 100% 100%   7
+Isaac - Lord     (6 earth)          170% 110% 140% 130% 140% 100%   9
+Mia   – Sage     (1 water, 6 wind)  150% 180% 120% 130% 170% 120%   9
+
+Sage is, arguably, the best spell casting class in the game.  It has a good 
+elemental distribution, Pure Wish, Freeze Prism, and Spark Plasma.  It also 
+has the Impact series, Bind, and Break.  Ivan’s stat distribution perfectly 
+aligns with this class and he is, in my opinion, the best adept in the game as 
+a Sage.  Mia can’t quite make use of the psynergy points and agility bonuses 
+like Ivan, but she is still a skilled healer and spell caster.  Lord Isaac is 
+a welcome addition to this party with the powerful Ragnarok and Grand Gaia 
+psynergy, in addition to possessing Potent Cure and Revive.  Garet as a 
+Champion is the weak link because he doesn’t quite have the stats to be an 
+effective warrior.  In conclusion, this setup has three great adepts with 
+fantastic ranged elemental attack psynergy and healing capabilities but it 
+lacks some durability and can’t deal targeted damage well.  Additionally, this 
+party doesn’t have Cure Poison or Restore, so beware of status inflictions.
+
+==(#4)TRIPLE DOUBLE(ACR: 8.8)==
+
+This setup is very similar to the Double Double.  It has three characters in 
+double elemental classes and one character in a single elemental class.  This 
+is one step closer to all adepts being in double elemental classes; therefore, 
+the stats are great.  Summons can only be easily used in the single elemental 
+class.  Again, this setup is asymmetrical and it can therefore yield three 
+healers in one party.  However, the asymmetrical layout is also a downside 
+because the stats might not fit with each character’s strengths, but there’s 
+more versatility in this setup than the double double.
+                                      | HP | PP | Att| Def| Agi| Lck| ACR|
+Ivan  - Magister   (6 wind)            130% 170% 110% 120% 160% 110%  8.5
+Garet – Berserker  (1 fire, 6 earth)   180% 110% 160% 130% 150%  70%   9
+Isaac - Guardian   (1 earth, 6 water)  170% 130% 140% 140% 130% 120%   8
+Mia   - Water Monk (1 water, 6 fire)   150% 160% 130% 140% 160% 120%  9.5
+
+I chose Ivan to be in the single elemental class because he has an 
+unbelievably powerful Spark Plasma among other useful psynergy.  
+Unfortunately, he is rather frail.  Garet is a great warrior in the Berserker 
+class.  He isn’t quite as durable as the Samurai, but his attack is even 
+higher and he has Revive.  He has dangerously low luck so always be ready to 
+restore him to normal status.  Isaac as a Guardian doesn’t have any good 
+ranged elemental attack psynergy but he does have both healing psynergy and 
+the elemental physical attack Cutting Edge.  His stats are below average and 
+he is the weakest character.  Water Monk is, arguably, Mia’s greatest class.  
+In addition to having great durability, Mia also has great psynergy including 
+Pure Wish and Freeze Prism.  This team is well rounded and has great healing 
+capabilities, but it has poor stat altering psynergy and few ranged elemental 
+attack psynergy.
+
+==(#3)TRIPLE TRIPLE(ACR: 8.9)==
+
+It’s time to address the Ninja, Samurai, White Mage problem.  It’s impossible 
+to have all three of the previously mentioned classes in any top tier class 
+setup.  Therefore, if you want all three, the final adept will have to suffer 
+in a lower tier class.  So, this class setup places three characters in triple 
+elemental classes and one character in a lower tier double elemental class.  
+The greatest pro of this setup is that three characters will be in classes 
+with very good stats.  Another pro is that there will always be a few djinn 
+for leftover summoning.  With Ninjas and Samurais running about, there should 
+be plenty of psynergy versatility.  The con is an obvious one; the leftover 
+character has a class that is far inferior, particularly its durability.  
+You'll have to either spend all your time protecting and healing the lower 
+tier character, or you can just let him/her die.  As is common with triple 
+elemental classes, the elemental levels are spread so thin that using ranged 
+elemental attack psynergy effectively is nearly impossible.
+                                      | HP | PP | Att| Def| Agi| Lck| ACR|
+Ivan  - White Mage (4 water, 3 earth)  150% 180% 130% 130% 150% 130%  9.5
+Isaac - Ninja      (3 fire, 3 wind)    160% 140% 150% 120% 170%  80%  9.5
+Garet - Samurai    (4 earth, 3 wind)   190% 130% 150% 140% 140%  90%  9.5
+Mia   - Ascetic    (4 fire)            120% 140% 110% 120% 140% 120%   7
+
+This is a very popular class setup.  Isaac, Garet, and Ivan are all in great 
+classes that play up to their strengths.  Ivan has great healing psynergy and 
+some ranged elemental attack psynergy and stat altering psynergy.  Ninja Isaac 
+is an unusual and powerful adept with good stats but low luck.  He has the 
+powerful ranged elemental attack psynergy Thunderstorm and three great 
+elemental physical attacks.  Samurai Garet is, arguably, the best warrior in 
+the game with great durability, stat upping psynergy, and the beloved Quick 
+Strike.  Mia as an Ascetic is amazingly fragile, but she has fantastic 
+psynergy if she is kept alive long enough to cast it.  She has Freeze Prism, 
+Pyroclasm, the Wish series, the Restore series, and Break.  There are two main 
+ways to play this class setup.  You can either let Mia die and fight with 
+three adepts, or focus on keeping Mia alive.  When Mia is alive, this is a 
+very well-rounded, capable team.  When Mia is downed, the party loses most of 
+its ranged elemental psynergy and must rely on Isaac’s and Garet’s elemental 
+physical attacks.
+
+==(#2)DOUBLE TRIPLE(ACR: 9)==
+
+This class setup has two adepts in double elemental classes and two adepts in 
+triple elemental classes.  Unfortunately, due to djinn arrangement, the triple 
+elemental classes cannot be White Mages or Samurais.  The most pleasing aspect 
+about this setup is that you can have two great double elemental classes and 
+also have an exotic Ninja.  This setup allows for some of the best classes to 
+come into play.  It also has great versatility while maintaining some
+good elemental power.  This setup makes handling summons very difficult, if 
+not impossible.  Also, this setup forces either a Ranger or a Medium into 
+play, something which is better avoided.
+                                    | HP | PP | Att| Def| Agi| Lck| ACR|
+Ivan  – Sage      (1 wind, 6 water)  150% 180% 120% 130% 170% 120%  10
+Isaac - Ninja     (3 fire, 3 wind)   160% 140% 150% 120% 170%  80%  9.5
+Garet – Berserker (1 fire, 6 earth)  180% 110% 160% 130% 150%  70%   9
+Mia   - Ranger    (3 wind, 3 fire)   130% 160% 120% 120% 160% 120%  7.5
+
+These sample classes share a strong similarity with the sample classes for the 
+triple triple.  Ivan gets an upgrade into the beloved Sage class with great 
+healing and ranged elemental attack psynergy.  Isaac is still the quick and 
+powerful Ninja with great attack psynergy.  Garet takes a small step down into 
+the powerful Berserker class with the decent Planet Dive elemental physical 
+attack and status inflicting psynergy.  Mia is the weakest link of the party 
+by far.  She is a little low on durability and she doesn’t have amazingly 
+useful psynergy either.  She can only use Pyroclasm, Bind, Break, and the Ward 
+series.  This group is dangerously low on both healing and status altering 
+psynergy to couple its slightly low durability and luck.  It does, however, 
+have fantastic status inflicting psynergy and good damage dealing potential.
+
+==(#1)DOUBLE ELEMENTAL CLASSES(ACR: 9.5)==
+
+Here we are; this is what Golden Sun class strategy all comes down to.  The 
+double elemental classes are elite in Golden Sun.  Not only do they have the 
+best stats, but they also have the perfect balance between psynergy 
+versatility and power.  Therefore, the best class setup has all four adepts in 
+double elemental classes.  There are a tremendous number of class setups that 
+have all four characters in double elemental classes but however you choose 
+your classes, you’ll usually end up with two healers and several very powerful 
+ranged elemental attack psynergy.  The only downside that accompanies this 
+class setup is the difficulty involved in using summons. 
+                                     | HP | PP | Att| Def| Agi| Lck| ACR|
+Mia   - Water Monk (1 water, 6 fire)  150% 160% 130% 140% 160% 120%  9.5
+Isaac - Conjurer   (1 earth, 6 wind)  170% 160% 140% 130% 160%  90%  9.5
+Garet - Berserker  (1 fire, 6 earth)  180% 110% 160% 130% 150%  70%   9
+Ivan  - Sage       (1 wind, 6 water)  150% 180% 120% 130% 170% 120%  10
+
+I am of the opinion that this particular class setup places three characters 
+in their best classes.  Mia is in the durable, versatile Water Monk class with
+Freeze Prism and some healing psynergy.  Conjurer Isaac is a fantastic spell
+caster and attacker.  He has great stats along with Grand Gaia, Astral Blast,
+and a slew of status inflicting psynergy.  Ivan is in the best spell casting
+class with Spark Plasma and Freeze Prism, and some healing psynergy.  Garet is
+the only character who isn’t in his best class but the Berserker class is most
+definitely good.  In addition to Planet Diver, he has Revive, the Impair
+series, and the Haunt series.  His stats are great except for his low luck.
+All in all, this setup is fantastic all around but especially talented at
+inflicting negative statuses.  It’s a solid setup without weaknesses and I
+can’t see any other ultimate class setup.
+
+==COMPARATIVE PSYNERGY BOARD==
+
+1Hl – Single adept healing psynergy (series)
+AHl – Whole party healing psynergy (series)
+Rst – Restore (and Cure Poison)
+Rvv - Revive
+Brk - Break
+St^ - Statistic boosting psynergy (series)
+Stv - Statistic dropping psynergy (series)
+Inf - Status inflicting psynergy (1/2 point if psynergy is also an EPA)
+EPA - Elemental Physical Attacks (1/2 point if psynergy is also an Inf)
+180 – Powerful Ranged Elemental Attack Psynergy (one point per adept) #
+200 – Very powerful Ranged Elemental Attack Psynergy (one point per adept) #
+
+# (base damage)*((elemental level – 3)/40 + 1)*(range (max 2.33)/2) - PP
+If # is greater than 180 it’s a 180, if # is greater than 200 it’s also a 200
+                           ___________________________________________
+ _________________________|1Hl|AHl|Rst|Rvv|Brk|St^|Stv|Inf|EPA|180|200|
+|Single elemental classes | 2 | 1 | 1 | 1 | 1 | 3 | 1 | 2 | 2 | 3 | 3 |
+|Triple elemental classes | 1 | 2 | 2 | 1 | 1 | 5 | 1 |2.5|2.5| 2 | 0 |
+|Double double            | 1 | 2 | 0 | 1 | 2 | 3 | 1 | 2 | 2 | 4 | 4 |
+|Triple double            | 1 | 2 | 2 | 2 | 2 | 2 | 1 | 5 | 2 | 2 | 2 |
+|Triple triple            | 0 | 2 | 2 | 1 | 1 | 4 | 1 |3.5|3.5| 3 | 0 |
+|Double triple            | 0 | 1 | 0 | 1 | 2 | 2 | 1 | 7 | 3 | 3 | 1 |
+|Double element classes   | 0 | 2 | 1 | 1 | 2 | 3 | 2 | 8 | 2 | 3 | 3 |
+
+==FINAL COMMENTS==
+
+It is very important to arrange the characters in your party properly.  Avoid 
+putting your least durable characters in the middle of your party or next to 
+each other.  Make it as hard as possible for your two most fragile characters 
+to be downed at one time.  Place your weakest character on the outside next to 
+your most durable character.  Have your second most durable character in the 
+other middle position next to your second most fragile character on the 
+outside.
+
+Don’t have your characters try to do too many things or do things that they 
+can’t execute effectively.  Don’t have an adept try to heal, stat alter, 
+inflict negative statuses, attack, and use ranged elemental attack psynergy.  
+Let each adept focus on one or two of these things and have their equipment 
+compliment their purpose.  Additionally, don’t try to make Samurai Garet use 
+ranged elemental attack psynergy or have Sage Ivan attack.  Let each character 
+stick to their strengths.  Garet is naturally a better warrior than Ivan, and 
+Ivan is likewise a better spell caster.  Let them do what they do best.
+
+Finally, class setups aren’t all you need to perform well in combat.  You need 
+good equipment choices and you need a battle strategy.  Furthermore, you need 
+to combine classes, equipment, and strategy to perform optimally.
+
+
+==========================
+== LINK BATTLE STRATEGY ==
+==========================
+
+This whole section is approached from the viewpoint of playing with all 
+characters at or near level 54.  If you are playing with characters at lower 
+levels, some of the mentioned psynergy won’t be currently accessible.  If you 
+are playing at higher levels, certain psynergy won’t be as effective as others 
+and combat strategy will differ.  Additionally, I prefer playing link battles 
+without using djinn or summons so I won’t mention in detail how to either use 
+djinn and summons or defend against the using of djinn and summons.  Suffice 
+it to say, allowing the use of either Flash without summons, or summons 
+without Flash, will result in surprisingly long or short battles respectively.  
+Furthermore, I tend to prohibit the use of items in my link battles because 
+they needlessly elongate the game and they devalue healing, reviving, and 
+restoring psynergy.
+
+All of the classes in Golden Sun can be divided into three categories 
+determined by the type of attack psynergy the adept in that class can 
+optimally perform.  Warrior classes are those that deal damage using elemental 
+physical attacks.  Spell casting classes are those that deal damage using 
+ranged elemental attack psynergy.  Intermediary classes have the ability to 
+use both of these attacks effectively.  I have compiled the best classes in 
+the game and categorized them below.  Combinations of these classes form the 
+best link battle teams. 
+
+==WARRIOR CLASSES==
+
+The warrior classes are categorized by high durability and high attack.  Their 
+psynergy points needn’t be high as elemental physical attacks don’t use too 
+many psynergy points.  Because of Garet’s natural durability and decent 
+attack, he is the best warrior.  There are two exceptional warrior classes 
+with their pros and cons.
+
+                                    | HP | PP | Att| Def| Agi| Lck| ACR|
+Garet - Samurai   (4 earth, 3 wind)  190% 130% 150% 140% 140%  90%  9.5
+Samurai Garet is great at soaking up damage.  He also has a high attack bonus 
+and acceptable luck.  His psynergy Demon Night and Helm Splitter can inflict
+foes with negative statuses.  Furthermore, he has psynergy to increase the 
+party’s attack, defense, and resistance.  Samurai Garet has the most powerful 
+EPA in Golden Sun: Quick Strike.  Quick Strike costs quite a lot of psynergy 
+points but Samurai Garet has a decent amount of them.  
+
+                                    | HP | PP | Att| Def| Agi| Lck| ACR|
+Garet – Berserker (1 fire, 6 earth)  180% 110% 160% 130% 150%  70%   9
+Berserker Garet has great stat bonuses in all the appropriate areas.  He has 
+the highest attack in the game, and can withstand serious damage.  He also has 
+an unusually high agility rating, which is always good.  He has the Impair and 
+Haunt series to help weaken enemies.  Berserker Garet’s greatest asset is the 
+Revive psynergy.  He is hands down the most durable Reviver.  His EPA Planet 
+Diver deals decent fire damage.  He does have very low luck so you may have to 
+restore him often.
+
+==INTERMEDIARY CLASSES==
+
+The intermediary classes should have a great variety of psynergy and well 
+balanced stats to go with it.  An adept in an intermediary class should be 
+able to deliver strong ranged elemental attack psynergy and elemental physical 
+attacks.  The intermediary classes should be flexible and able to adapt to 
+change.  Isaac is perfect for the two great intermediary classes.
+
+                                   | HP | PP | Att| Def| Agi| Lck| ACR|
+Isaac - Ninja    (3 fire, 3 wind)   160% 140% 150% 120% 170%  80%  9.5
+Ninja Isaac is exotic and powerful.  He has well-rounded attack, durability, 
+and psynergy points.  He has low luck but exceptional agility.  Ninja Isaac 
+has both a powerful ranged elemental attack psynergy (Thunderstorm) and two 
+great EPAs (Annihilation and Death Plunge).  In addition to dealing great 
+damage, these EPAs have a special infliction they can produce.  Ninja Isaac 
+also has an elemental psynergy attack known as Shuriken that can hit all three 
+adepts.  He also has the psynergy Mist that can wrap the whole enemy's party 
+in delusion.
+
+                                   | HP | PP | Att| Def| Agi| Lck| ACR|
+Isaac - Conjurer (1 earth, 6 wind)  170% 160% 140% 130% 160%  90%  9.5
+Conjurer Isaac has fantastic stats.  He has greater durability than Ninja 
+Isaac and many more psynergy points.  He is a little low on attack but he has 
+good agility and decent luck.  He possesses the powerful Grand Gaia along with 
+the EPA Astral Blast.  He also has the Impact and Ward series to increase 
+attack and resistance.  He can use the Weaken series to lower the opponents’ 
+resistance.  He can also inflict negative statuses with Delude, Sleep, Haunt, 
+and Curse.
+
+==SPELL CASTING CLASSES==
+
+The spell casting classes must have loads of psynergy points to enable them to 
+use ranged elemental attack psynergy as much as possible.  Good spell casting 
+classes also have a lot of the healing psynergy.  Therefore, high agility is 
+useful because you’ll be able to heal your party at the start of each turn.  
+Ideally, good durability is preferred but the attack stat is unused.  Ivan’s 
+stat distribution makes him naturally a better spell caster than Mia, but Mia 
+has one great spell casting class that Ivan doesn’t get.
+
+                                     | HP | PP | Att| Def| Agi| Lck| ACR|
+Ivan - Sage       (1 wind, 6 water)   150% 180% 120% 130% 170% 120%  10
+Sage Ivan is the perfect spell caster with great psynergy points and agility.  
+He has high elemental power and great ranged elemental attack psynergy (Spark 
+Plasma and Freeze Prism).  He also has the Impact series, Break, and Bind.  He 
+functions as a healer with the Pure Wish psynergy.  Unfortunately, he doesn’t 
+have Cure Poison and Restore.  Sage Ivan is an offensive powerhouse and a 
+capable healer, with enough durability to get the job done.
+
+                                     | HP | PP | Att| Def| Agi| Lck| ACR|
+Ivan - White Mage (4 water, 3 earth)  150% 180% 130% 130% 150% 130%  9.5
+White Mage Ivan is very similar to Sage Ivan.  His stats are almost as good, 
+trading agility for a little more luck.  He has the same two ranged elemental 
+attack psynergy as Sage Ivan but his elemental levels aren’t quite as high.  
+On the upside, White Mage Ivan functions as a complete healer with Pure Wish, 
+Revive, Cure Poison, and Restore.  Additionally, he has both a stat upping and 
+a stat dropping psynergy series.
+
+                                     | HP | PP | Att| Def| Agi| Lck| ACR|
+Mia  - Water Monk (1 water, 6 fire)   150% 160% 130% 140% 160% 120%  9.5
+Water Monk Mia has great stats where it counts.  She is the most durable spell 
+caster with decent hit points, and great defense and luck.  Her ranged 
+elemental attack psynergy is great (Pyroclasm and Freeze Prism) and she also 
+has Break.  She functions as a healer with Pure Wish, Restore and Cure Poison.  
+Water Monk Mia also has good elemental power.  She’s the perfect adept to 
+bring your party back to being fighting fit.
+
+==TOGETHER NOW==
+
+In link battles it is also very important to arrange the characters in your 
+party properly.  The same logic applies in link battles; place your weakest 
+characters on the flanks.  In most link battle setups this simply means 
+putting your warrior in the middle.
+
+If you are playing without items, it is absolutely essential that you have an 
+adept with Revive and an adept with Pure Wish.  Luckily, all of the good spell 
+casting classes have Pure Wish.  Therefore, you must always have a spell 
+caster in your party.  Only White Mage Ivan and Berserker Garet have Revive, 
+so one of them must always be in your party.  With those restrictions, there 
+are seven class setups you can make.
+
+                                    | HP | PP | Att| Def| Agi| Lck| ACR|
+Isaac - Ninja     (3 fire, 3 wind)   160% 140% 150% 120% 170%  80%  9.5
+Garet – Berserker (1 fire, 6 earth)  180% 110% 160% 130% 150%  70%   9
+Ivan  - Sage      (1 wind, 6 water)  150% 180% 120% 130% 170% 120%  10
+
+This party specializes in damage dealing and status infliction and is very 
+speedy.  Unfortunately, this party is very susceptible to status infliction 
+with low luck and no Cure Poison or Restore.
+                                     | HP | PP | Att| Def| Agi| Lck| ACR|
+Isaac - Conjurer   (1 earth, 6 wind)  170% 160% 140% 130% 160%  90%  9.5
+Garet – Berserker  (1 fire, 6 earth)  180% 110% 160% 130% 150%  70%   9
+Mia   - Water Monk (1 water, 6 fire)  150% 160% 130% 140% 160% 120%  9.5
+
+This party is very durable and can deal pretty good damage to multiple 
+enemies.  It is, however, a little low in stat upping psynergy and powerful 
+EPAs.
+                                    | HP | PP | Att| Def| Agi| Lck| ACR|
+Isaac - Conjurer  (1 earth, 6 wind)  170% 160% 140% 130% 160%  90%  9.5
+Garet – Berserker (1 fire, 6 earth)  180% 110% 160% 130% 150%  70%   9
+Ivan  - Sage      (1 wind, 6 water)  150% 180% 120% 130% 170% 120%  10
+
+This party has pretty well-rounded stats except it’s a little low in the EPA 
+department.  This party doesn’t have Restore or Cure Poison either.
+                                     | HP | PP | Att| Def| Agi| Lck| ACR|
+Mia   - Water Monk (1 water, 6 fire)  150% 160% 130% 140% 160% 120%  9.5
+Garet – Berserker  (1 fire, 6 earth)  180% 110% 160% 130% 150%  70%   9
+Ivan  - Sage       (1 wind, 6 water)  150% 180% 120% 130% 170% 120%  10
+
+This party is very strong in healing and ranged elemental physical attacks but 
+it doesn’t have good EPAs or many stat upping psynergy.
+                                      | HP | PP | Att| Def| Agi| Lck| ACR|
+Isaac - Ninja      (3 fire, 3 wind)    160% 140% 150% 120% 170%  80%  9.5
+Garet - Samurai    (4 earth, 3 wind)   190% 130% 150% 140% 140%  90%  9.5
+Ivan  - White Mage (4 water, 3 earth)  150% 180% 130% 130% 150% 130%  9.5
+
+This is a great setup with powerful EPAs and good stat boosting and status 
+inflicting.  Unfortunately, it doesn’t have Break or many strong ranged 
+elemental attack psynergy.
+                                      | HP | PP | Att| Def| Agi| Lck| ACR|
+Mia   - Water Monk (1 water, 6 fire)   150% 160% 130% 140% 160% 120%  9.5
+Garet - Samurai    (4 earth, 3 wind)   190% 130% 150% 140% 140%  90%  9.5
+Ivan  - White Mage (4 water, 3 earth)  150% 180% 130% 130% 150% 130%  9.5
+
+This party has a nice blend of attack styles and plenty of healing.  This 
+party has very low agility but exceptional luck.
+                                      | HP | PP | Att| Def| Agi| Lck| ACR|
+Mia   - Water Monk (1 water, 6 fire)   150% 160% 130% 140% 160% 120%  9.5
+Isaac - Conjurer   (1 earth, 6 wind)   170% 160% 140% 130% 160%  90%  9.5
+Ivan  - White Mage (4 water, 3 earth)  150% 180% 130% 130% 150% 130%  9.5
+
+This group isn’t too durable but it has the healing capabilities to make up 
+for that.  Additionally, this party has very high luck.  This party is all 
+about ranged elemental physical attacks.
+
+As you can see, there are plenty of viable options to choose from when you’re 
+playing in link battles.  So pick the setup that’s best for you and start 
+playing.
+
+
+=======================
+== IMPORTANT BATTLES ==
+=======================
+
+Classes aren't only good for maxing out your stats and psynergy at the end of 
+the game.  Changing your classes earlier in the game can prove beneficial if 
+you know what you’re doing.  There are a few difficult battles where you might 
+want to rearrange your classes to help you win.  If a boss battle isn’t 
+mentioned this means that using base classes will probably be the best way to 
+defeat that particular boss.  I understand that the people who need the most 
+help with boss battles may not have all the djinn or be at very high levels.  
+Therefore, I list the required levels lower than what an average player would 
+be at, and I don’t require all the possible djinn at that particular point.
+
+==TRET==
+
+*Requirements:
+1 earth and wind djinn.
+All characters at level 6.
+*Classes:
+Isaac: Apprentice (1 wind)
+Strategy: Use Gaia.
+Garet: Guard
+Strategy: Use Flare Wall.
+Ivan: Seer (1 earth)
+Strategy: Use Flash Bolt and heal with Cure.
+
+==SATUROUS (atop Mercury Lighthouse)==
+
+*Requirements:
+1 fire, earth, and wind djinn.  2 water djinn.
+Ivan and Mia at level 10, Isaac and Garet at level 11.
+*Classes:
+Ivan: Seer (1 earth)
+Strategy: Heal with Cure Well and use Flash Bolt.
+Garet: Page (1 wind)
+Strategy: Use Astral Blast, Ward and Weaken.
+Isaac: Defender (2 water)
+Strategy: Use Cutting Edge and heal with Ply if needed.
+Mia: Pilgrim (1 fire)
+Strategy: Use Prism. 
+
+==KILLER APE==
+
+*Requirements:
+2 of each djinn.
+Garet, Ivan, and Mia at level 12.  Isaac at level 13.
+*Classes:
+Mia: Elder (2 wind)
+Strategy: Use Impact on Isaac then use Plasma. 
+Isaac: Illusionist (2 fire)
+Strategy: Use Planet Diver.
+Garet: Defender (2 water)
+Strategy: Use Mad Blast and Guard and heal with Ply.
+Ivan: Diviner (2 earth)
+Strategy: Heal with Cure Well and use Mad Growth.
+
+==MANTICORE==
+
+*Requirements:
+2 of each djinn.
+All characters at level 16.
+*Classes:
+Mia: Diviner (2 earth)
+Strategy: Heal with Cure Well or use Froth Sphere. 
+Isaac: Defender (2 water)
+Strategy: Use Cutting Edge or heal with Ply Well.
+Garet: Illusionist (2 wind)
+Strategy: Use Ward, Weaken, and Astral Blast.
+Ivan: Wanderer (2 fire)
+Strategy: Use Wind Slash.
+
+==KRAKEN==
+
+*Requirements:
+2 fire djinn.  4 earth, wind and water djinn.
+Isaac, Garet, and Mia at level 17.  Ivan at level 18.
+*Classes:
+Mia: Cleric (4 water)
+Strategy: Heal with Wish every turn. 
+Isaac: Ruffian (2 fire)
+Strategy: Use Planet Diver.
+Garet: Savage (4 earth)
+Strategy: Use Impair and Planet Diver.
+Ivan: Mage (4 wind)
+Strategy: Use Impact on Isaac and Garet (alternate) until they're maxed.  Then 
+use Bind, Ward, and Tornado.
+
+==TOADONPA==
+
+*Requirements:
+4 of each djinn.
+All characters at level 22.
+*Classes:
+Ivan: Shaman (4 earth)
+Strategy: Use Blue Bolt and Revive when necessary.
+Isaac: Savage (4 fire)
+Strategy: Use Planet Diver and Revive when necessary.
+Garet: Cavalier (4 water)
+Strategy: Use Protect and attack and heal with Ply Well or Wish.
+Mia: Scholar (4 wind)
+Strategy: Heal with Wish and use High Impact and Bind. 
+
+==STORM LIZARD==
+
+*Requirements:
+6 of each djinn.
+Isaac, Garet, and Mia at level 25.  Ivan at level 26.
+*Classes:
+Mia: Ranger (3 wind, 3 fire)
+Strategy: Use Resist, Bind, and Eruption.
+Isaac: Dragoon (3 fire, 3 water)
+Strategy: Use Cutting Edge. Use Ply Well and Wish Well when needed.
+Garet: Ninja (3 earth, 3 wind)
+Strategy: Just attack.
+Ivan: Medium (3 water, 3 earth)
+Strategy: Heal with Potent Cure and Revive. Otherwise, use Curse.
+
+==DEADBEARD==
+
+*Requirements:
+All the djinn.
+Garet and Mia at level 28, and Isaac and Ivan at level 29.
+*Classes:
+Isaac: Berserker (1 earth, 6 fire)
+Strategy: Use Wild Growth, Impair and Revive (when needed).
+Garet: Luminier (1 fire, 6 water)
+Strategy: Use Fiery Blast and heal with Wish Well and Ply Well.
+Ivan: Druid (1 wind, 6 earth)
+Strategy: Use Bind and Wild Growth and heal with Revive and Potent Cure.
+Mia: Sage (1 water, 6 wind)
+Strategy: Heal with Wish Well and use Bind and Shine Plasma.
+
+==SATUROUS AND MENARDI AND THE FUSION DRAGON (atop Venus Lighthouse)==
+
+*Requirements:
+6 earth and wind djinn.  7 fire and water djinn.
+Isaac, Garet, and Mia at level 29. Ivan at level 30.
+*Classes:
+Isaac: Dragoon (3 fire, 3 water)
+Strategy: Use Cutting Edge or heal with Ply Well or Wish Well.
+Garet: Berserker (1 fire, 6 earth)
+Strategy: Use Wild Growth, Impair, attack or Revive.
+Ivan: Ranger (3 water, 3 fire)
+Strategy: Use Resist or Deluge.
+Mia: Sage (1 wind, 6 water)
+Strategy: Heal with Wish Well or use High Impact or Hail Prism.
+Restore Page
+
