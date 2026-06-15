@@ -1,0 +1,9547 @@
+==============
+VI. Item List
+==============
+
+In this section, I will list all of the items in the game, along with a
+description about them and such.
+
+
+----------------
+Consumable Items
+----------------
+
+
+-------------------------------------------------------------------------------
+
+Antidote
+Buy Price: 20 Coins
+Sells For: 15 Coins
+Description: Cures poison.
+
+-------------------------------------------------------------------------------
+
+Corn
+Buy Price: N/A
+Sells For: 9 Coins
+Description: Replenishes 100 HP.
+
+-------------------------------------------------------------------------------
+
+Crystal Powder
+Buy Price: N/A
+Sells For: N/A
+Description: Deals ice-based damage to enemies.
+
+-------------------------------------------------------------------------------
+
+Elixir
+Buy Price: 30 Coins
+Sells For: 22 Coins
+Description: Cures Delusion, Stun, & Sleep.
+
+-------------------------------------------------------------------------------
+
+Game Ticket
+Buy Price: N/A
+Sells For: 37 Coins
+Description: A special ticket used in Tolbi.
+
+-------------------------------------------------------------------------------
+
+Herb
+Buy Price: 10 Coins
+Sells For: 7 Coins
+Description: Replenishes 50 HP.
+
+-------------------------------------------------------------------------------
+
+Lucky Medal
+Buy Price: N/A
+Sells For: 75 Coins
+Description: A rare medal used in Tolbi.
+
+-------------------------------------------------------------------------------
+
+Nut
+Buy Price: N/A
+Sells For: 150 Coins
+Description: Replenishes 200 HP.
+
+-------------------------------------------------------------------------------
+
+Potion
+Buy Price: N/A
+Sells For: 750 Coins
+Description: Replenishes all HP.
+
+-------------------------------------------------------------------------------
+
+Psy Crystal
+Buy Price: N/A
+Sells For: 1125 Coins
+Description: Replenishes all PP.
+
+-------------------------------------------------------------------------------
+
+Sacred Feather
+Buy Price: 70 Coins
+Sells For: 52 Coins
+Description: Reduces the chance of a random encounter for a short time.
+
+-------------------------------------------------------------------------------
+
+Sleep Bomb
+Buy Price: N/A
+Sells For: 45 Coins
+Description: Makes an enemy fall asleep.
+
+-------------------------------------------------------------------------------
+
+Smoke Bomb
+Buy Price: N/A
+Sells For: 22 Coins
+Description: Puts Delusion on an enemy.
+
+-------------------------------------------------------------------------------
+
+Vial
+Buy Price: N/A
+Sells For: 375 Coins
+Description: Replenishes 375 HP.
+
+-------------------------------------------------------------------------------
+
+Water of Life
+Buy Price: N/A
+Sells For: 2250 Coins
+Description: Revives a fallen party member.
+
+-------------------------------------------------------------------------------
+
+Weasel's Claw
+Buy Price: N/A
+Sells For: 30 Coins
+Description: Damages enemies with a claw attack.
+
+-------------------------------------------------------------------------------
+
+
+---------------------
+Stat-Increasing Items
+---------------------
+
+
+-------------------------------------------------------------------------------
+
+Apple
+Buy Price: N/A
+Sells For: 375 Coins
+Description: Permenately boosts a party member's Attack.
+
+-------------------------------------------------------------------------------
+
+Cookie
+Buy Price: N/A
+Sells For: 375 Coins
+Description: Permenately boosts a party member's maximum PP.
+
+-------------------------------------------------------------------------------
+
+Hard Nut
+Buy Price: N/A
+Sells For: 375 Coins
+Description: Permenately boosts a party member's Defense.
+
+-------------------------------------------------------------------------------
+
+Lucky Pepper
+Buy Price: N/A
+Sells For: 375 Coins
+Description: Permenately boosts a party member's Luck.
+
+-------------------------------------------------------------------------------
+
+Mint
+Buy Price: N/A
+Sells For: 375 Coins
+Description: Permenately boosts a party member's Agility.
+
+-------------------------------------------------------------------------------
+
+Power Bread
+Buy Price: N/A
+Sells For: 375 Coins
+Description: Permenately boosts a party member's maximum HP.
+
+-------------------------------------------------------------------------------
+
+
+---------
+Key Items
+---------
+
+
+-------------------------------------------------------------------------------
+
+Black Orb
+Buy Price: N/A
+Sells For: N/A
+Description: A mysterious orb that gets Babi's ship sailing.
+
+-------------------------------------------------------------------------------
+
+Dragon's Eye
+Buy Price: N/A
+Sells For: N/A
+Description: An eye of a dragon that can be placed in a statue.
+
+-------------------------------------------------------------------------------
+
+Empty Bottle
+Buy Price: N/A
+Sells For: 750 Coins
+Description: This normal bottle is used to keep Hermes' Water.
+
+-------------------------------------------------------------------------------
+
+Hermes' Water
+Buy Price: N/A
+Sells For: N/A
+Description: Used to restore Tret.
+
+-------------------------------------------------------------------------------
+
+Mars Star
+Buy Price: N/A
+Sells For: N/A
+Description: A powerful star with the Mars Element fused into it.
+
+-------------------------------------------------------------------------------
+
+
+=============
+VII. Weapons
+=============
+
+In this section, I will list all of the weapons in the game, along with info
+about who can equip them and such.
+
+
+------------
+Heavy Blades
+------------
+
+Used By: Isaac, Garet
+
+
+-------------------------------------------------------------------------------
+
+Arctic Blade
+Found: Fuchin Falls Cave
+Buy Price: 2600 Coins
+Stats: +55 Attack
+Effect: Randomly casts "Blizzard".
+
+-------------------------------------------------------------------------------
+
+Bandit's Sword
+Found: Vault
+Buy Price: 700 Coins
+Stats: +12 Attack
+Effect: Randomly casts "Rapid Smash".
+
+-------------------------------------------------------------------------------
+
+Battle Axe
+Found: Vault
+Buy Price: 280 Coins
+Stats: +24 Attack
+Effect: N/A
+
+-------------------------------------------------------------------------------
+
+Broad Axe
+Found: Xian
+Buy Price: 1400 Coins
+Stats: +50 Attack
+Effect: N/A
+
+-------------------------------------------------------------------------------
+
+Broad Sword
+Found: Bilibin
+Buy Price: 1000 Coins
+Stats: +40 Attack
+Effect: N/A
+
+-------------------------------------------------------------------------------
+
+Burning Axe
+Found: Tolbi
+Buy Price: N/A
+Stats: +84 Attack
+Effect: Randomly casts "Broil".
+
+-------------------------------------------------------------------------------
+
+Claymore
+Found: Altin
+Buy Price: 4000 Coins
+Stats: +70 Attack
+Effect: N/A
+
+-------------------------------------------------------------------------------
+
+Demon Axe
+Found: Crossbone Isle
+Buy Price: N/A
+Stats: +132 Attack
+Effect: Randomly casts "Poison Cloud". Cursed weapon.
+
+-------------------------------------------------------------------------------
+
+Dragon Axe
+Found: Lunpa
+Buy Price: 10300 Coins
+Stats: +100 Attack
+Effect: Randomly casts "Heat Mirage".
+
+-------------------------------------------------------------------------------
+
+Gaia Blade
+Found: Venus Lighthouse
+Buy Price: N/A
+Stats: +135 Attack
+       +20 Earth
+       +20 Earth Resistance
+Effect: Randomly casts "Titan Blade".
+
+-------------------------------------------------------------------------------
+
+Giant Axe
+Found: Earth Golem (rare drop)
+Buy Price: N/A
+Stats: +114 Attack
+Effect: Randomly casts "Meltdown".
+
+-------------------------------------------------------------------------------
+
+Great Axe
+Found: Kalay
+Buy Price: 5200 Coins
+Stats: +80 Attack
+Effect: N/A
+
+-------------------------------------------------------------------------------
+
+Great Sword
+Found: Tolbi
+Buy Price: 7000 Coins
+Stats: +90 Attack
+Effect: N/A
+
+-------------------------------------------------------------------------------
+
+Long Sword
+Found: Vault
+Buy Price: 200 Coins
+Stats: +14 Attack
+Effect: N/A
+
+-------------------------------------------------------------------------------
+
+Muramasa
+Found: Crossbone Isle
+Buy Price: N/A
+Stats: +126 Attack
+Effect: Randomly casts "Demon Fire". Cursed weapon.
+
+-------------------------------------------------------------------------------
+
+Shamshir
+Found: Lunpa
+Buy Price: 10000 Coins
+Stats: +99 Attack
+Effect: Randomly casts "Acid Bath".
+
+-------------------------------------------------------------------------------
+
+Silver Blade
+Found: Lalivero
+Buy Price: 12000 Coins
+Stats: +108 Attack
+Effect: Randomly casts "Aqua Sock".
+
+-------------------------------------------------------------------------------
+
+Vulcan Axe
+Found: Lamakan Desert
+Buy Price: N/A
+Stats: +76 Attack
+Effect: Randomly casts "Barrage".
+
+-------------------------------------------------------------------------------
+
+
+------------
+Light Swords
+------------
+
+Used By: Isaac, Garet, Ivan
+
+
+-------------------------------------------------------------------------------
+
+Assassin Blade
+Found: Tolbi
+Buy Price: N/A
+Stats: +90 Attack
+Effect: Randomly casts "Mortal Danger".
+
+-------------------------------------------------------------------------------
+
+Battle Rapier
+Found: Xian
+Buy Price: 2900 Coins
+Stats: +58 Attack
+Effect: N/A
+
+-------------------------------------------------------------------------------
+
+Elven Rapier
+Found: Bilibin Cave
+Buy Price: 2200 Coins
+Stats: +44 Attack
+Effect: Randomly casts "Vorpal Smash".
+
+-------------------------------------------------------------------------------
+
+Hunter's Sword
+Found: Bilibin
+Buy Price: N/A
+Stats: +28 Attack
+Effect: N/A
+
+-------------------------------------------------------------------------------
+
+Kikuichimonji
+Found: Fenrir (rare drop)
+Buy Price: N/A
+Stats: +128 Attack
+Effect: Randomly casts "Asura".
+
+-------------------------------------------------------------------------------
+
+Master Rapier
+Found: Tolbi
+Buy Price: 6800 Coins
+Stats: +86 Attack
+Effect: N/A
+
+-------------------------------------------------------------------------------
+
+Mystery Blade
+Found: Crossbone Isle
+Buy Price: N/A
+Stats: +84 Attack
+Effect: Randomly casts "Life Nourish".
+
+-------------------------------------------------------------------------------
+
+Ninja Blade
+Found: Lunpa
+Buy Price: 8800 Coins
+Stats: +94 Attack
+Effect: Randomly casts "Cyclone Attack".
+
+-------------------------------------------------------------------------------
+
+Short Sword
+Found: Vale
+Buy Price: 120 Coins
+Stats: +8 Attack
+Effect: N/A
+
+-------------------------------------------------------------------------------
+
+Swift Sword
+Found: Lalivero
+Buy Price: 9400 Coins
+Stats: +104 Attack
+       +10 Wind
+Effect: Randomly casts "Sonic Smash".
+
+-------------------------------------------------------------------------------
+
+
+-----
+Maces
+-----
+
+Used By: Isaac, Garet, Mia
+
+
+-------------------------------------------------------------------------------
+
+Battle Mace
+Found: Xian
+Buy Price: 2600 Coins
+Stats: +56 Attack
+Effect: N/A
+
+-------------------------------------------------------------------------------
+
+Grievous Mace
+Found: N/A
+Buy Price: N/A
+Stats: +101 Attack
+Effect: Randomly casts "Terra Strike".
+
+-------------------------------------------------------------------------------
+
+Heavy Mace
+Found: Bilibin
+Buy Price: N/A
+Stats: +26 Attack
+Effect: N/A
+
+-------------------------------------------------------------------------------
+
+Mace
+Found: Vault
+Buy Price: 80 Coins
+Stats: +6 Attack
+Effect: N/A
+
+-------------------------------------------------------------------------------
+
+Righteous Mace
+Found: Xian
+Buy Price: 8400 Coins
+Stats: +112 Attack
+       +3 HP Recovery
+Effect: Randomly casts "Blinding Smog".
+
+-------------------------------------------------------------------------------
+
+War Mace
+Found: Tolbi
+Buy Price: 6200 Coins
+Stats: +84 Attack
+Effect: N/A
+
+-------------------------------------------------------------------------------
+
+
+------
+Staves
+------
+
+Used By: Ivan (Shaman's Rod only), Mia, Jenna
+
+-------------------------------------------------------------------------------
+
+Angelic Ankh
+Found: Tolbi
+Buy Price: 6400 Coins
+Stats: +83 Attack
+Effect: Randomly casts "Life Leech".
+
+-------------------------------------------------------------------------------
+
+Blessed Ankh
+Found: Imil
+Buy Price: 1600 Coins
+Stats: +46 Attack
+Effect: Randomly casts "Psyphon Seal".
+
+-------------------------------------------------------------------------------
+
+Crystal Rod
+Found: Lalivero
+Buy Price: 13400 Coins
+Stats: +106 Attack
+Effect: Randomly casts "Drown".
+
+-------------------------------------------------------------------------------
+
+Demonic Staff
+Found: Lunpa
+Buy Price: 10000 Coins
+Stats: +92 Attack
+Effect: Randomly casts "Bad Omen".
+
+-------------------------------------------------------------------------------
+
+Frost Wand
+Found: N/A
+Buy Price: 5400 Coins
+Stats: N/A
+Effect: Randomly casts "Frost Bite".
+
+-------------------------------------------------------------------------------
+
+Magic Rod
+Found: Vault
+Buy Price: 380 Coins
+Stats: +16 Attack
+Effect: Randomly casts "Murk".
+
+-------------------------------------------------------------------------------
+
+Shaman's Rod
+Found: Vault
+Buy Price: N/A
+Stats: +10 Attack
+Effect: N/A
+
+-------------------------------------------------------------------------------
+
+Psynergy Rod
+Found: N/A
+Buy Price: 3800 Coins
+Stats: +64 Attack
+Effect: Randomly casts "Psynergy Leech".
+
+-------------------------------------------------------------------------------
+
+Witch's Wand
+Found: Bilibin
+Buy Price: 860 Coins
+Stats: +32 Attack
+Effect: Randomly casts "Stun Voltage".
+
+-------------------------------------------------------------------------------
+
+Wooden Stick
+Found: Vale
+Buy Price: 40 Coins
+Stats: +4 Attack
+Effect: N/A
+
+-------------------------------------------------------------------------------
+
+Zodiac Wand
+Found: Grand Golem (rare drop)
+Buy Price: N/A
+Stats: +102 Attack
+Effect: Randomly casts "Drown".
+
+-------------------------------------------------------------------------------
+
+
+============
+VIII. Armor
+============
+
+In this section, I will list all of the armor in the game, along with info
+about who can equip them and such.
+
+
+----
+Body
+----
+
+Used By: Isaac, Garet
+
+
+-------------------------------------------------------------------------------
+
+Armored Shell
+Found: Tolbi
+Buy Price: 3600 Coins
+Stats: +30 Defense
+Effect: N/A
+
+-------------------------------------------------------------------------------
+
+Asura's Armor
+Found: Tunnel Ruins (right side)
+Buy Price: N/A
+Stats: +42 Defense
+       +5 Attack
+Effect: Heals 8 HP every turn.
+
+-------------------------------------------------------------------------------
+
+Chain Mail
+Found: Altin
+Buy Price: 2000 Coins
+Stats: +25 Defense
+Effect: N/A
+
+-------------------------------------------------------------------------------
+
+Demon Mail
+Found: Crossbone Isle
+Buy Price: N/A
+Stats: -10 Wind Resistance
+Effect: Cursed armor.
+
+-------------------------------------------------------------------------------
+
+Dragon Scales
+Found: Venus Lighthouse
+Buy Price: N/A
+Stats: +44 Defense
+       +30 Fire Resistance
+       +30 Wind Resistance
+Effect: N/A
+
+-------------------------------------------------------------------------------
+
+Leather Armor
+Found: Bilibin
+Buy Price: 240 Coins
+Stats: +12 Defense
+Effect: N/A
+
+-------------------------------------------------------------------------------
+
+Plate Mail
+Found: Lunpa
+Buy Price: 4400 Coins
+Stats: +33 Defense
+Effect: N/A
+
+-------------------------------------------------------------------------------
+
+Psynergy Armor
+Found: Mercury Lighthouse
+Buy Price: N/A
+Stats: +21 Defense
+       +20 Maximum PP
+Effect: N/A
+
+-------------------------------------------------------------------------------
+
+Spiked Armor
+Found: Chimera Mage (rare drop)
+Buy Price: N/A
+Stats: +34 Defense
+       +10 Attack
+Effect: Increases critical hit rate.
+
+-------------------------------------------------------------------------------
+
+Spirit Armor
+Found: Tolbi
+Buy Price: N/A
+Stats: +32 Defense
+       +15 Resistance (all)
+Effect: N/A
+
+-------------------------------------------------------------------------------
+
+Steel Armor
+Found: Lalivero
+Buy Price: 4900 Coins
+Stats: +36 Defense
+Effect: N/A
+
+-------------------------------------------------------------------------------
+
+
+------
+Shirts
+------
+
+Used By: Various Characters (only Mia can wear the Silk Shirt)
+
+
+-------------------------------------------------------------------------------
+
+Mythril Shirt
+Found: Tolbi
+Buy Price: N/A
+Stats: +10 Defense
+       +5 Maximum HP
+Effect: N/A
+
+-------------------------------------------------------------------------------
+
+Running Shirt
+Found: Tolbi
+Buy Price: N/A
+Stats: +1 Defense
+       +15 Agility
+Effect: N/A
+
+-------------------------------------------------------------------------------
+
+Silk Shirt
+Found: Tolbi
+Buy Price: N/A
+Stats: +6 Defense
+       +1 Luck
+Effect: N/A
+
+-------------------------------------------------------------------------------
+
+
+-------
+Shields
+-------
+
+Used By: Isaac, Garet
+
+
+-------------------------------------------------------------------------------
+
+Bronze Shield
+Found: Bilibin
+Buy Price: 500 Coins
+Stats: +14 Defense
+Effect: N/A
+
+-------------------------------------------------------------------------------
+
+Dragon Shield
+Found: Altin Peak
+Buy Price: N/A
+Stats: +26 Defense
+       +30 Fire Resistance
+Effect: N/A
+
+-------------------------------------------------------------------------------
+
+Earth Shield
+Found: Tolbi
+Buy Price: N/A
+Stats: +31 Defense
+       +20 Earth Resistance
+Effect: Has a possibility of breaking. Heals 150 HP if used as an item.
+
+-------------------------------------------------------------------------------
+
+Iron Shield
+Found: Xian
+Buy Price: 1200 Coins
+Stats: +20 Defense
+Effect: N/A
+
+-------------------------------------------------------------------------------
+
+Knight's Shield
+Found: Tolbi
+Buy Price: 3000 Coins
+Stats: +28 Defense
+Effect: N/A
+
+-------------------------------------------------------------------------------
+
+Mirrored Shield
+Found: Lalivero
+Buy Price: 5200 Coins
+Stats: +39 Defense
+Effect: Has a possibility of breaking. Wraps an enemy in a delusion if used as
+        an item.
+
+-------------------------------------------------------------------------------
+
+Wooden Shield
+Found: Vale
+Buy Price: 40 Coins
+Stats: +6 Defense
+Effect: N/A
+
+-------------------------------------------------------------------------------
+
+
+-------
+Clothes
+-------
+
+Used By: Everyone
+
+
+-------------------------------------------------------------------------------
+
+Adept's Clothes
+Found: Imil
+Buy Price: 850 Coins
+Stats: +18 Defense
+       +8 Maximum PP
+Effect: N/A
+
+-------------------------------------------------------------------------------
+
+Cotton Shirt
+Found: Vale
+Buy Price: 20 Coins
+Stats: +3 Defense
+Effect: N/A
+
+-------------------------------------------------------------------------------
+
+Elven Shirt
+Found: Mogall Forest
+Buy Price: 1700 Coins
+Stats: +22 Defense
+       Agility X 1.5
+Effect: N/A
+
+-------------------------------------------------------------------------------
+
+Fur Coat
+Found: Kolima Forest
+Buy Price: N/A
+Stats: +16 Defense
+Effect: N/A
+
+-------------------------------------------------------------------------------
+
+Kimono
+Found: Tolbi
+Buy Price: N/A
+Stats: +25 Defense
+       +10 Agility
+       +10 Fire Resistance
+Effect: N/A
+
+-------------------------------------------------------------------------------
+
+Ninja Garb
+Found: Crossbone Isle
+Buy Price: N/A
+Stats: +36 Defense
+       +30 Agility
+       +10 Wind Resistance
+Effect: N/A
+
+-------------------------------------------------------------------------------
+
+Silver Vest
+Found: Tolbi
+Buy Price: 3200 Coins
+Stats: +28 Defense
+Effect: N/A
+
+-------------------------------------------------------------------------------
+
+Storm Gear
+Found: Crossbone Isle
+Buy Price: N/A
+Stats: +36 Defense
+       +30 Fire Resistance
+       +30 Water Resistance
+       +30 Wind Resistance
+Effect: N/A
+
+-------------------------------------------------------------------------------
+
+Travel Vest
+Found: Vale
+Buy Price: 50 Coins
+Stats: +7 Defense
+Effect: N/A
+
+-------------------------------------------------------------------------------
+
+
+-----
+Helms
+-----
+
+Used By: Isaac, Garet
+
+
+-------------------------------------------------------------------------------
+
+Adept's Helm
+Found: Tolbi
+Buy Price: 3700 Coins
+Stats: +29 Defense
+       Maximum PP X 1.2
+Effect: N/A
+
+-------------------------------------------------------------------------------
+
+Bronze Helm
+Found: Kolima
+Buy Price: 600 Coins
+Stats: +14 Defense
+Effect: N/A
+
+-------------------------------------------------------------------------------
+
+Iron Helm
+Found: Altin
+Buy Price: 1600 Coins
+Stats: +20 Defense
+Effect: N/A
+
+-------------------------------------------------------------------------------
+
+Knight's Helm
+Found: Lalivero
+Buy Price: 4600 Coins
+Stats: +33 Defense
+Effect: N/A
+
+-------------------------------------------------------------------------------
+
+Silver Helm
+Found: Lunpa
+Buy Price: 3900 Coins
+Stats: +30 Defense
+Effect: N/A
+
+-------------------------------------------------------------------------------
+
+Steel Helm
+Found: Tolbi
+Buy Price: 3100 Coins
+Stats: +27 Defense
+Effect: N/A
+
+-------------------------------------------------------------------------------
+
+
+--------
+Circlets
+--------
+
+Used By: Ivan, Mia
+
+
+-------------------------------------------------------------------------------
+
+Circlet
+Found: Vault
+Buy Price: 120 Coins
+Stats: +6 Defense
+Effect: N/A
+
+-------------------------------------------------------------------------------
+
+Glittering Tiara
+Found: Tolbi
+Buy Price: 3600 Coins
+Stats: +27 Defense
+Effect: Has the possibility of breaking. Prevents the Delusion status when used
+        as an item.
+
+-------------------------------------------------------------------------------
+
+Guardian Circlet
+Found: Tolbi
+Buy Price: 3400 Coins
+Stats: +25 Defense
+Effect: N/A
+
+-------------------------------------------------------------------------------
+
+Mythril Circlet
+Found: Lunpa Fortress
+Buy Price: N/A
+Stats: +34 Defense
+Effect: Restores 3 PP after every turn.
+
+-------------------------------------------------------------------------------
+
+Plantinum Circlet
+Found: Lalivero
+Buy Price: 4200 Coins
+Stats: +29 Defense
+Effect: N/A
+
+-------------------------------------------------------------------------------
+
+Silver Circlet
+Found: Xian
+Buy Price: 1300 Coins
+Stats: +16 Defense
+Effect: N/A
+
+-------------------------------------------------------------------------------
+
+
+-------
+Dresses
+-------
+
+Used By: Mia
+
+
+-------------------------------------------------------------------------------
+
+China Dress
+Found: Xian
+Buy Price: 1600 Coins
+Stats: +19 Defense
+Effect: Has the possibility of breaking. Lowers a foe's Attack when used as an
+        item.
+
+-------------------------------------------------------------------------------
+
+Cocktail Dress
+Found: Tolbi
+Buy Price: 4000 Coins
+Stats: +29 Defense
+       +15 Maximum PP
+Effect: N/A
+
+-------------------------------------------------------------------------------
+
+One-Piece Dress
+Found: Vale
+Buy Price: 25 Coins
+Stats: +4 Defense
+Effect: N/A
+
+-------------------------------------------------------------------------------
+
+Oracle's Robes
+Found: Tunnel Ruins
+Buy Price: N/A
+Stats: +43 Defense
+       +40 Water Resistance
+Effect: Restores 10 HP every turn.
+
+-------------------------------------------------------------------------------
+
+
+-----
+Robes
+-----
+
+Used By: Ivan, Mia
+
+
+-------------------------------------------------------------------------------
+
+Blessed Robe
+Found: Lunpa
+Buy Price: 7000 Coins
+Stats: +36 Defense
+Effect: Restores 5 HP every turn.
+
+-------------------------------------------------------------------------------
+
+Feathered Robe
+Found: Wild Gryphon (rare drop)
+Buy Price: N/A
+Stats: +45 Defense
+       +20 Wind Power
+       +20 Wind Resistance
+       +30 Agility
+Effect: N/A
+
+-------------------------------------------------------------------------------
+
+Jerkin
+Found: Kalay
+Buy Price: 2400 Coins
+Stats: +26 Defense
+Effect: N/A
+
+-------------------------------------------------------------------------------
+
+Magical Cassock
+Found: Lalivero
+Buy Price: 9000 Coins
+Stats: +39 Defense
+Effect: Restores 2 PP every turn.
+
+-------------------------------------------------------------------------------
+
+Silk Robe
+Found: Xian
+Buy Price: 1400 Coins
+Stats: +20 Defense
+Effect: N/A
+
+-------------------------------------------------------------------------------
+
+Travel Robe
+Found: Bilibin
+Buy Price: 200 Coins
+Stats: +10 Defense
+Effect: N/A
+
+-------------------------------------------------------------------------------
+
+
+------
+Gloves
+------
+
+Used By: Everyone
+
+
+-------------------------------------------------------------------------------
+
+Aura Gloves
+Found: Magicore (rare drop)
+Buy Price: N/A
+Stats: +36 Defense
+Effect: Has the possibility of breaking. Increases your Resistance for all
+        elements when used as an item.
+
+-------------------------------------------------------------------------------
+
+Battle Gloves
+Found: Tolbi
+Buy Price: N/A
+Stats: +26 Defense
+       +8 Attack
+Effect: N/A
+
+-------------------------------------------------------------------------------
+
+Gauntlets
+Found: Altin
+Buy Price: 1600 Coins
+Stats: +23 Defense
+Effect: N/A
+
+-------------------------------------------------------------------------------
+
+Leather Gloves
+Found: Bilibin
+Buy Price: 220 Coins
+Stats: +10 Defense
+Effect: N/A
+
+-------------------------------------------------------------------------------
+
+Padded Gloves
+Found: Vale
+Buy Price: 10 Coins
+Stats: +2 Defense
+Effect: N/A
+
+-------------------------------------------------------------------------------
+
+Spirit Gloves
+Found: Kalay
+Buy Price: 5200 Coins
+Stats: +34 Defense
+       +5 Resistance (all)
+Effect: N/A
+
+-------------------------------------------------------------------------------
+
+Vambrace
+Found: Vault Cave
+Buy Price: N/A
+Stats: +27 Defense
+       +5 Attack
+Effect: N/A
+
+-------------------------------------------------------------------------------
+
+War Gloves
+Found: Lunpa
+Buy Price: 4000 Coins
+Stats: +32 Defense
+       +10 Attack
+Effect: N/A
+
+-------------------------------------------------------------------------------
+
+
+--------------
+Other Headgear
+--------------
+
+Used By: Everyone
+
+
+-------------------------------------------------------------------------------
+
+Jeweled Crown
+Found: Lalivero
+Buy Price: 4000 Coins
+Stats: +35 Defense
+       +5 Luck
+Effect: N/A
+
+-------------------------------------------------------------------------------
+
+Leather Cap
+Found: Vale
+Buy Price: 30 Coins
+Stats: +3 Defense
+Effect: N/A
+
+-------------------------------------------------------------------------------
+
+Lucky Cap
+Found: Venus Lighthouse
+Buy Price: N/A
+Stats: +33 Defense
+Effect: Increases critical hit rate. Restores 2 PP every turn.
+
+-------------------------------------------------------------------------------
+
+Lure Cap
+Found: Tolbi
+Buy Price: 3000 Coins
+Stats: +20 Defense
+Effect: Increases random encounters.
+
+-------------------------------------------------------------------------------
+
+Mail Cap
+Found: Kalay
+Buy Price: 2000 Coins
+Stats: +23 Defense
+Effect: N/A
+
+-------------------------------------------------------------------------------
+
+Ninja Hood
+Found: Tolbi
+Buy Price: N/A
+Stats: +28 Defense
+       +20 Agility
+Effect: N/A
+
+-------------------------------------------------------------------------------
+
+Prophet's Hat
+Found: Dread Hound (rare drop)
+Buy Price: N/A
+Stats: +30 Defense
+Effect: Has the possibility of breaking. Has a chance of instantly killing an
+        enemy when used as an item.
+
+-------------------------------------------------------------------------------
+
+Thunder Crown
+Found: Venus Lighthouse
+Buy Price: N/A
+Stats: +40 Defense
+Effect: Restores 4 PP every turn. Cursed crown.
+
+-------------------------------------------------------------------------------
+
+Wooden Cap
+Found: Bilibin
+Buy Price: 400 Coins
+Stats: +10 Defense
+Effect: N/A
+
+-------------------------------------------------------------------------------
+
+
+-----
+Boots
+-----
+
+Used By: Everyone
+
+
+-------------------------------------------------------------------------------
+
+Fur Boots
+Found: Tolbi
+Buy Price: N/A
+Stats: +2 Defense
+       +15 Water Resistance
+Effect: N/A
+
+-------------------------------------------------------------------------------
+
+Hyper Boots
+Found: Tolbi
+Buy Price: N/A
+Stats: +4 Defense
+Effect: Increases critical hit rate.
+
+-------------------------------------------------------------------------------
+
+Quick Boots
+Found: Tolbi
+Buy Price: N/A
+Stats: +3 Defense
+       +20 Agility
+Effect: N/A
+
+-------------------------------------------------------------------------------
+
+Turtle Boots
+Found: World Map (near Kolima)
+Buy Price: N/A
+Stats: +3 Defense
+       Agility X 0.5
+Effect: N/A
+
+-------------------------------------------------------------------------------
+
+
+================
+IX. Accessories
+================
+
+In this section, I will list all of the accessories in the game, along with
+information about what they do and such.
+
+
+-----
+Rings
+-----
+
+Used By: Everyone
+
+
+-------------------------------------------------------------------------------
+
+Adept Ring
+Found: Tolbi
+Buy Price: N/A
+Stats: N/A
+Effect: Heals 7 PP when used as an item.
+
+-------------------------------------------------------------------------------
+
+Cleric's Ring
+Found: Crossbone Isle
+Buy Price: N/A
+Stats: N/A
+Effect: Removes the Curse effects of a weapon.
+
+-------------------------------------------------------------------------------
+
+Fairy Ring
+Found: Crossbone Isle
+Buy Price: N/A
+Stats: N/A
+Effect: Heals all status ailments when used as an item.
+
+-------------------------------------------------------------------------------
+
+Healing Ring
+Found: Tret Tree
+Buy Price: N/A
+Stats: N/A
+Effect: Restores HP when used as an item.
+
+-------------------------------------------------------------------------------
+
+Sleep Ring
+Found: Tolbi
+Buy Price: N/A
+Stats: N/A
+Effect: Has a chance of putting an enemy to sleep when used as an item.
+
+-------------------------------------------------------------------------------
+
+Unicorn Ring
+Found: Fuchin Falls Cave
+Buy Price: N/A
+Stats: N/A
+Effect: Removes poison from a party member when used as an item.
+
+-------------------------------------------------------------------------------
+
+War Ring
+Found: Tolbi
+Buy Price: N/A
+Stats: N/A
+Effect: Boosts a party member's Attack when used as an item.
+
+-------------------------------------------------------------------------------
+
+
+-----
+Misc.
+-----
+
+Used By: Everyone
+
+
+-------------------------------------------------------------------------------
+
+Carry Stone
+Found: Venus Lighthouse
+Buy Price: N/A
+Stats: N/A
+Effect: Equip this to learn the "Carry" spell.
+
+-------------------------------------------------------------------------------
+
+Catch Beads
+Found: Vale
+Buy Price: N/A
+Stats: N/A
+Effect: Equip this to learn the "Catch" spell.
+
+-------------------------------------------------------------------------------
+
+Cloak Ball
+Found: Tolbi
+Buy Price: N/A
+Stats: N/A
+Effect: Equip this to learn the "Cloak" spell.
+
+-------------------------------------------------------------------------------
+
+Douse Drop
+Found: Killer Ape (always)
+Buy Price: N/A
+Stats: N/A
+Effect: Equip this to learn the "Douse" spell.
+
+-------------------------------------------------------------------------------
+
+Frost Jewel
+Found: Living Statue (always, but from first one only)
+Buy Price: N/A
+Stats: N/A
+Effect: Equip this to learn the "Frost" spell.
+
+-------------------------------------------------------------------------------
+
+Halt Gem
+Found: Vale Cave
+Buy Price: N/A
+Stats: N/A
+Effect: Equip this to learn the "Halt" spell.
+
+-------------------------------------------------------------------------------
+
+Lifting Gem
+Found: Altin Peak
+Buy Price: N/A
+Stats: N/A
+Effect: Equip this to learn the "Lift" spell.
+
+-------------------------------------------------------------------------------
+
+Orb of Force
+Found: Fuchin Falls Cave
+Buy Price: N/A
+Stats: N/A
+Effect: Equip this to learn the "Force" spell.
+
+-------------------------------------------------------------------------------
+
+
+=========
+X. Djinn
+=========
+
+In this game, you learn more Psynergy by equipping strange creatures called
+Djinn (Djinni is singular, Djinn is plural). There are four types: Venus, Mars,
+Jupiter, and Mercury. Venus is Earth-based, Mars is Fire-based, Jupiter is
+Wind-based, and Mercury is Water-based. Djinn are scattered everywhere
+throughout the game, and finding them is one of the most fun things to do in
+Golden Sun. Also, take note that Venus Djinn are best set on Isaac, Mars ones
+are the best for Garet, Jupiter is the best for Ivan, and Mercury for Mia.
+Once you use a Djinni, it goes into Standby mode, which means you can use a
+summon of the type of Djinni that you used. Use more than one Djinni and you
+will be able to summon all kinds of things; have four or more on Standby for
+one or more types, and you'll be able to do really good ones!
+
+Once you use the summons, the Djinn all go into the Set mode. In battle, you'll
+have to wait a set amount of turns before the Djinn get set back onto you. When
+you use a Djinni, your stats lower (the stats that the Djinni you used gave to
+you go away until it's set back), so the disadvantage to summoning is the fact
+that you'll be pretty weak if you have a lot on Standby mode. Some Djinn will
+join you without a fight, while others will want to fight you before joining.
+Whenever you have to fight one, it might try and run away. Just like for your
+party, it doesn't always succeed in doing so. If it does, however, it will have
+disappeared from the area you found it in, so simply exit the area and reenter
+it to make it respawn. If one runs away on the world map, just walk around and
+you'll find it again.
+
+You can also switch around your Djinn on the Djinn screen (press A to bring up
+the menu, then select "Djinn"). You can give/trade Djinn to other characters,
+and can even put them on standby or reset them by pressing R. If a Djinni is on
+Set mode, just run around a bit and you'll hear a noise, indicating that a
+Djinni has been reset. Just keep doing that.
+
+
+-----
+Venus
+-----
+
+
+-------------------------------------------------------------------------------
+
+Flint
+Found: World Map
+Effect: Strikes an enemy with a strong blow.
+
+How To Find: You will find this one immediately after leaving Vale. It's
+             impossible to miss.
+
+-------------------------------------------------------------------------------
+
+Granite
+Found: Kolima
+Effect: Puts a protective aura around the entire party for a single turn.
+
+How To Find: At the southwestern side of the village is a house. Right next to
+             the house is a Djinni which is fenced in. To reach it, enter the
+             house from the back and take the stairs down into the basement. Go
+             around this cave-like area to another ladder, which you should
+             climb up to reach the Djinni.
+
+-------------------------------------------------------------------------------
+
+Quartz
+Found: Mogall Forest
+Effect: Revives a fallen party member.
+
+How To Find: In one of the areas in the forest, you will see a Djinni stuck by
+             some logs. Go up to the first log and you'll find a rock. Use Move
+             on it and move it into the indention, then push the log down. Go
+             to the horizontal log ahead and push it down, then push the
+             vertical log into the river to the left. You can now access it,
+             but it won't join without a fight.
+
+-------------------------------------------------------------------------------
+
+Ground
+Found: Kalay Docks
+Effect: Stops an enemy from moving.
+
+How To Find: When you first reach the Kalay Docks, you'll probably notice a
+             Venus Djinni behind a rockslide. You can't reach it until you take
+             the boat to Tolbi. From where Tolbi is, go north and cross the
+             bridge, then head all the way to the right to reach the back of
+             the Kalay Docks. Enter from there and you can get it.
+
+-------------------------------------------------------------------------------
+
+Sap
+Found: Vault Cave
+Effect: Strikes an enemy to deal damage and absorb its HP.
+
+How To Find: You can't get this one until Ivan learns Reveal. At Vault, go to
+             the northwestern corner of the village and head up the stairs. Go
+             around and you'll come to some gravestones with a dog next to
+             them. Continue heading around to the right and then up, then jump
+             across to a bell tower. Press A in front of it to ring it, then
+             you'll scare a Venus Djinni out of a tree and it'll retreat. Go
+             back to the gravestones and go to the northern end of them. Cast
+             Reveal to find a ladder. Climb it down to a secret cave. Read the
+             Walkthrough to see how to reach the Djinni.
+
+-------------------------------------------------------------------------------
+
+Vine
+Found: World Map
+Effect: Lowers a foe's speed.
+
+How To Find: From the exit of the Lamakan Desert, go due north and cross the
+             bridge there. A Djinni lurks on this continent; just get random
+             encounters here until it appears.
+
+-------------------------------------------------------------------------------
+
+Bane
+Found: Crossbone Isle
+Effect: Attack enemies to damage and poison them.
+
+How To Find: Found on the sixth floor.
+
+-------------------------------------------------------------------------------
+
+
+----
+Mars
+----
+
+
+-------------------------------------------------------------------------------
+
+Forge
+Found: Goma Cave
+Effect: Increases Attack power for the whole party.
+
+How To Find: You'll find this one as you go through the game normally. Just use
+             Move on the log next to the platform it is on and move it left
+             once. Head up to the platform by the log and hop across to the
+             Djinni, who will want to fight you.
+
+-------------------------------------------------------------------------------
+
+Fever
+Found: Imil
+Effect: Wraps a foe in a delusion.
+
+How To Find: When you enter the village, head due north and walk up to a
+             snowman which is blocked off. Use Move on it and move it off of
+             the platform, then go to the southwestern end of the village.
+             Slide onto the sheet of ice from there and then slide up, left,
+             up, left, up, right, up, left, up, right, and up. You will slide
+             into a cave where Fever awaits.
+
+-------------------------------------------------------------------------------
+
+Corona
+Found: World Map
+Effect: Increases the Defense for the whole party.
+
+How To Find: Head due north from Xian to a bridge. Cross it, then walk around
+             on that continent to find it eventually.
+
+-------------------------------------------------------------------------------
+
+Scorch
+Found: Kalay
+Effect: Stuns a foe.
+
+How To Find: Go to the northeastern end of the village and climb up to the
+             second floor of the house there. Jump to the right and follow the
+             path to a statue. Move it aside to reveal the entrance to a cave,
+             where you'll find the Djinni inside (check the Walkthrough).
+
+-------------------------------------------------------------------------------
+
+Ember
+Found: Tolbi
+Effect: Restores some PP to the entire party.
+
+How To Find: Enter Tolbi, then immediately hug the right wall and go around it.
+             Use Growth on the sprout at the end, then climb the vine. You will
+             come to a puddle. Freeze it using Frost, then go back around the
+             walls of the town and make your way to the icy pillar. Hop across
+             it and you'll find this one.
+
+-------------------------------------------------------------------------------
+
+Flash
+Found: Suhalla Desert
+Effect: Puts a strong protective aura around the party for a single turn.
+
+How To Find: Right before the Storm Lizard, you'll be on a platform. Head to
+             the southwestern side of this platform and cast Reveal to find
+             some footsteps and a hidden log. Hop across and follow the steps
+             to a cave. By the cave, you'll find Flash.
+
+-------------------------------------------------------------------------------
+
+Torch
+Found: Lalivero
+Effect: Pierces through an enemy's Defense, causing lots of damage.
+
+How To Find: Head the Weapon Shop and head upstairs, then hop across to the
+             walls. Follow the path around and eventually you'll come to a
+             building. Jump onto it from the right and you can get the Djinni.
+
+-------------------------------------------------------------------------------
+
+
+-------
+Jupiter
+-------
+
+
+-------------------------------------------------------------------------------
+
+Gust
+Found: Bilibin
+Effect: Strikes a foe to deal some damage.
+
+How To Find: You'll probably notice a statue in the middle of town. If you push
+             it aside and climb the ladder down, you'll find a statue blocking
+             the way to a Jupiter Djinni. Since you can't reach it from here,
+             go to the eastern side of the village and head around the town's
+             perimeter. You will come to a wall of ivy. Use Whirlwind on it and
+             enter the cave, then climb down the ladder to the statue. Use Move
+             on it and move it aside, then jump across to the Djinni.
+
+-------------------------------------------------------------------------------
+
+Breeze
+Found: Tret Tree
+Effect: Boosts the party's Resistance.
+
+How To Find: When you're outside on one of the tree's branches, climb them up
+             until you get to the end of the area. Near there is a path on the
+             branch going up, which leads to a Jupiter Djinni.
+
+-------------------------------------------------------------------------------
+
+Zephyr
+Found: Fuchin Falls Cave
+Effect: Boosts the party's Agility.
+
+How To Find: You will find this one while going through the cave normally, most
+             likely. See the Walkthrough; it's not too hard to come across.
+
+-------------------------------------------------------------------------------
+
+Smog
+Found: Lamakan Desert
+Effect: Decreases a foe's accuracy.
+
+How To Find: In the second area of the desert, use Reveal by all of the circle
+             of rocks. It's hard to explain which one, but in the middle of one
+             of them, you should find it.
+
+-------------------------------------------------------------------------------
+
+Squall
+Found: Altmiller Cave
+Effect: Paralyzes a foe.
+
+How To Find: In one of the rooms of the cave, you'll have to solve a puzzle of
+             rolling logs. See the Walkthrough if you need help reaching the
+             Jupiter Djinni in there.
+
+-------------------------------------------------------------------------------
+
+Kite
+Found: Vale Cave
+Effect: Attack twice in a row on the next turn.
+
+How To Find: Once you get the Lift Gem, equip it on somebody and you'll learn
+             Lift. Return to the first village in the game, Vale. Go left of
+             Kraden's house to find a boulder, then use Lift on it and follow
+             the path to the next screen, where you'll find the Vale Cave.
+             Make your way through the cave (see the Walkthrough) and use Halt
+             on the Djinni you find once you've cornered it. Walk up to it and
+             press A to make it join you.
+
+-------------------------------------------------------------------------------
+
+Luff
+Found: Babi Lighthouse Entrance
+
+How To Find: When you get to the Babi Lighthouse Entrance, head north and to
+             the next area. There, go left and climb down the ladder. In that
+             area, move the only stone slab you can reach to the left once,
+             then exit the area and head to the right. Push the statue aside
+             and climb down the ladder, then use Move on the other stone slab
+             and move it to the left. You can now jump across to the northern
+             platform. Do so and follow the path to find Luff.
+
+-------------------------------------------------------------------------------
+
+
+-------
+Mercury
+-------
+
+
+-------------------------------------------------------------------------------
+
+Fizz
+Found: N/A
+Effect: Restores HP with a soothing mist.
+
+How To Find: Mia has this automatically when she joins you.
+
+-------------------------------------------------------------------------------
+
+Sleet
+Found: Mercury Lighthouse
+Effect: Damages an enemy with small ice crystals, lowering its Attack.
+
+How To Find: In one of the rooms of the lighthouse are six waterfalls. You can
+             enter the one in the very middle. Do so, and you'll find Sleet
+             inside that small room.
+
+-------------------------------------------------------------------------------
+
+Mist
+Found: Xian
+Effect: Puts an enemy to sleep.
+
+How To Find: Near the entrance of the town, you'll see a girl. She will walk
+             back and forth by the two doors on the wall and to the bed of
+             water. She will fill a vase with water, then walk back over to the
+             doors. Talk to her when she's in between the two doors and she'll
+             drop the vase and spill the water, leaving behind a puddle. Freeze
+             it using Frost, then head up the stairs and jump across the icy
+             pillar to a platform with a Mercury Djinni.
+
+-------------------------------------------------------------------------------
+
+Spritz
+Found: Altin Peak
+Effect: Restores HP to the whole party.
+
+How To Find: Once you drain the water to its lowest point in Altin, enter the
+             mines from there. You will eventually come to a big room with a
+             cart; there's also a Djinni in here. See the Walkthrough for
+             information on how to reach it.
+
+-------------------------------------------------------------------------------
+
+Hail
+Found: World Map
+Effect: Decreases the Defense of a foe.
+
+How To Find: From where Tolbi is, go north of it and cross the bridge, then
+             head all the way west until the path ends. On this continent, you
+             will run into a Mercury Djinni sooner or later.
+
+-------------------------------------------------------------------------------
+
+Dew
+Found: Suhalla Gate
+Effect: Revives a fallen party member.
+
+How To Find: Make your way through the gate until you get to the third area,
+             where you'll find lots of spots on the wall that you can slide
+             down from. Slide down the third one from the entrance of the area,
+             and you'll land right next to a Mercury Djinni.
+
+-------------------------------------------------------------------------------
+
+Tonic
+Found: Lunpa Fortress
+Effect: Removes all status ailments from the entire party.
+
+How To Find: After you defeat Toadonpa and complete the side quest entirely,
+             return to the fortress and sneak your way in using Cloak again.
+             Head to Donpa's room, then speak with his wife and she'll let you
+             into the room she was guarding. Inside is the last Djinni.
+
+-------------------------------------------------------------------------------
+
+
+======================
+XI. Character Classes
+======================
+
+Ever notice how as you level up or if you change your Djinn around, your class
+for that character changes? This affects your stats, along with the spells you
+will learn. By switching around some of your Djinn, you'll get a different
+class and learn other spells, but more often than not your character will suck
+even worse if you do that. There are so many character classes in the game,
+which will be listed below, along with the Psynergy each character will get.
+You'll need to put on a certain amount of Djinn to get a specific class. Take
+note that they need to be active, and I will list the Psynergy that the
+characters will learn altogether.
+
+
+-------------------------------------------------------------------------------
+
+
++++++++
++Isaac+
++++++++
+
+
+---------------
+Squire & Knight
+---------------
+
+Djinn Required: 1-3 Venus
+
+
+==============
+Spells Learned
+==============
+
+Ragnarok
+Quake
+Earthquake
+Quake Sphere
+Spire
+Clay Spire
+Stone Spire
+Cure
+Cure Well
+Potent Cure
+
+
+-----------------------
+Gallant, Lord, & Slayer
+-----------------------
+
+Djinn Required: 4-8 Venus
+
+
+==============
+Spells Learned
+==============
+
+Ragnarok
+Quake
+Earthquake
+Quake Sphere
+Spire
+Clay Spire
+Stone Spire
+Cure
+Cure Well
+Potent Cure
+Gaia
+Mother Gaia
+Grand Gaia
+
+
+-----
+Brute
+-----
+
+Djinn Required: 3 Venus, 3 Mars
+
+
+==============
+Spells Learned
+==============
+
+Planet Diver
+Growth
+Mad Growth
+Wild Growth
+Blast
+Nova
+Supernova
+Curse
+Condemn
+
+
+------------------------
+Apprentice & Illusionist
+------------------------
+
+Djinn Required: 4 Venus, 3 Jupiter
+
+
+==============
+Spells Learned
+==============
+
+Astral Blast
+Gaia
+Mother Gaia
+Grand Gaia
+Weaken
+Enfeeble
+Delude
+Sleep
+Haunt
+Curse
+Drain
+Psy Drain
+
+
+--------------------------------
+Enchanter, Conjurer, & War Adept
+--------------------------------
+
+Djinn Required: 1 Venus, 6 Jupiter
+
+
+==============
+Spells Learned
+==============
+
+Astral Blast
+Gaia
+Mother Gaia
+Grand Gaia
+Weaken
+Enfeeble
+Delude
+Sleep
+Haunt
+Curse
+Drain
+Psy Drain
+Impact
+High Impact
+Resist
+Ward
+
+
+-----
+Ninja
+-----
+
+Djinn Required: 3 Mars, 4 Jupiter
+
+
+==============
+Spells Learned
+==============
+
+Death Plunge
+Shuriken
+Annihilation
+Punji
+Punji Strike
+Punji Trap
+Fire Bomb
+Cluster Bomb
+Carpet Bomb
+Gale
+Typhoon
+Hurricane
+Thunderclap
+Thunderbolt
+Thunderstorm
+Mist
+
+
+-------
+Samurai
+-------
+
+Djinn Required: 4 Mars, 3 Jupiter
+
+
+==============
+Spells Learned
+==============
+
+Dragon Cloud
+Demon Night
+Helm Splitter
+Quick Strike
+Rockfall
+Rockslide
+Avalanche
+Lava Shower
+Molten Bath
+Magma Storm
+Demon Spear
+Angel Spear
+Guardian
+Protector
+Magic Shell
+Magic Shield
+
+
+------------------------------------------
+Barbarian, Berserker, Chaos Lord, & Savage
+------------------------------------------
+
+Djinn Required: 8 Mars
+
+
+==============
+Spells Learned
+==============
+
+Planet Diver
+Spire
+Clay Spire
+Stone Spire
+Growth
+Mad Growth
+Wild Growth
+Blast
+Nova
+Supernova
+Revive
+Impair
+Debilitate
+Haunt
+Curse
+Condemn
+
+
+---------
+Swordsman
+---------
+
+Djinn Required: 6 Venus, 1 Mercury
+
+
+==============
+Spells Learned
+==============
+
+Cutting Edge
+Thorn
+Briar
+Nettle
+Revive
+Cure Poison
+Break
+Restore
+
+
+--------
+Defender
+--------
+
+Djinn Required: 4 Venus, 3 Mercury
+
+
+==============
+Spells Learned
+==============
+
+Cutting Edge
+Thorn
+Briar
+Nettle
+Revive
+Cure Poison
+Break
+Restore
+Ply
+Ply Well
+Pure Ply
+Avoid
+
+
+-------------------
+Cavalier & Guardian
+-------------------
+
+Djinn Required: 2 Venus, 5 Mercury
+
+
+==============
+Spells Learned
+==============
+
+Cutting Edge
+Thorn
+Briar
+Nettle
+Revive
+Cure Poison
+Break
+Restore
+Ply
+Ply Well
+Pure Ply
+Avoid
+Wish
+Wish Well
+Pure Wish
+
+
+-------------------
+Shaman (Water Type)
+-------------------
+
+Djinn Required: 7 Mercury
+
+
+==============
+Spells Learned
+==============
+
+Froth
+Froth Sphere
+Froth Spiral
+Growth
+Mad Growth
+Wild Growth
+Cure
+Cure Well
+Potent Cure
+Revive
+Wish
+Wish Well
+Pure Wish
+Cure Poison
+Restore
+Break
+
+
+------------------
+Shaman (Wind Type)
+------------------
+
+Djinn Required: 7 Jupiter
+
+
+==============
+Spells Learned
+==============
+
+Bolt
+Flash Bolt
+Blue Bolt
+Growth
+Mad Growth
+Wild Growth
+Cure
+Cure Well
+Potent Cure
+Revive
+Ward
+Resist
+Bind
+Drain
+Psy Drain
+
+
+-------
+Dragoon
+-------
+
+Djinn Required: 3 Mars, 4 Mercury
+
+
+==============
+Spells Learned
+==============
+
+Cutting Edge
+Thorn
+Briar
+Nettle
+Blast
+Mad Blast
+Fiery Blast
+Ply
+Ply Well
+Pure Ply
+Wish
+Wish Well
+Pure Wish
+Cure Poison
+Restore
+Avoid
+
+
+-------------------------------------------------------------------------------
+
+
++++++++
++Garet+
++++++++
+
+
+---------------
+Guard & Soldier
+---------------
+
+Djinn Required: 1-3 Mars
+
+
+==============
+Spells Learned
+==============
+
+Flare
+Fire
+Flare Wall
+Volcano
+Heat Wave
+Fireball
+Flare Storm
+Eruption
+Inferno
+Pyroclasm
+
+
+------------------
+Warrior & Champion
+------------------
+
+Djinn Required: 4-8 Mars
+
+
+==============
+Spells Learned
+==============
+
+Flare
+Fire
+Flare Wall
+Volcano
+Heat Wave
+Fireball
+Flare Storm
+Eruption
+Inferno
+Pyroclasm
+Guard
+Impair
+Protect
+Debilitate
+
+
+---------------
+Brute & Ruffian
+---------------
+
+Djinn Required: 1 Venus, 6 Mars
+
+
+==============
+Spells Learned
+==============
+
+Planet Diver
+Growth
+Mad Growth
+Wild Growth
+Blast
+Nova
+Supernova
+Curse
+Condemn
+
+
+------------------------------
+Barbarian, Berserker, & Savage
+------------------------------
+
+Djinn Required: 4 Venus, 3 Mars
+
+
+==============
+Spells Learned
+==============
+
+Planet Diver
+Growth
+Mad Growth
+Wild Growth
+Blast
+Nova
+Supernova
+Curse
+Condemn
+Spire
+Impair
+Revive
+Clay Spire
+Debilitate
+Stone Spire
+
+
+---------
+Swordsman
+---------
+
+Djinn Required: 6 Mars, 1 Mercury
+
+
+==============
+Spells Learned
+==============
+
+Blast
+Guard
+Cure Poison
+Mad Blast
+Cutting Edge
+Restore
+Protect
+Fiery Blast
+Break
+
+
+--------
+Defender
+--------
+
+Djinn Required: 5 Mars, 2 Mercury
+
+
+==============
+Spells Learned
+==============
+
+Blast
+Guard
+Cure Poison
+Mad Blast
+Cutting Edge
+Restore
+Protect
+Fiery Blast
+Break
+Ply
+Ply Well
+Pure Ply
+Avoid
+
+
+-------------------
+Cavalier & Luminier
+-------------------
+
+Djinn Required: 3 Mars, 4 Mercury
+
+
+==============
+Spells Learned
+==============
+
+Blast
+Guard
+Cure Poison
+Mad Blast
+Cutting Edge
+Restore
+Protect
+Fiery Blast
+Break
+Ply
+Ply Well
+Pure Ply
+Avoid
+Wish
+Wish Well
+Pure Wish
+
+
+-------------------
+Ascetic (Wind Type)
+-------------------
+
+Djinn Required: 7 Jupiter
+
+
+==============
+Spells Learned
+==============
+
+Slash
+Ward
+Volcano
+Plasma
+Wind Slash
+Bind
+Eruption
+Resist
+Shine Plasma
+Sonic Slash
+Drain
+Psy Drain
+Pyroclasm
+Spark Plasma
+
+
+--------------------
+Ascetic (Water Type)
+--------------------
+
+Djinn Required: 8 Mercury
+
+
+==============
+Spells Learned
+==============
+
+Douse
+Cure Poison
+Prism
+Volcano
+Wish
+Drench
+Restore
+Hail Prism
+Eruption
+Wish Well
+Deluge
+Break
+Pure Wish
+Pyroclasm
+Freeze Prism
+
+
+------------------
+Page & Illusionist
+------------------
+
+Djinn Required: 6 Mars, 1 Jupiter
+
+
+==============
+Spells Learned
+==============
+
+Delude
+Ward
+Volcano
+Weaken
+Astral Blast
+Eruption
+Resist
+Enfeeble
+Drain
+Psy Drain
+Pyroclasm
+
+
+--------------------
+Enchanter & Conjurer
+--------------------
+
+Djinn Required: 1 Mars, 6 Jupiter
+
+
+==============
+Spells Learned
+==============
+
+Delude
+Ward
+Volcano
+Weaken
+Astral Blast
+Eruption
+Resist
+Enfeeble
+Drain
+Psy Drain
+Pyroclasm
+Impact
+High Impact
+Guard
+Protect
+
+
+-----
+Ninja
+-----
+
+Djinn Required: 3 Venus, 4 Jupiter
+
+
+==============
+Spells Learned
+==============
+
+Death Plunge
+Shuriken
+Annihilation
+Punji
+Punji Strike
+Punji Trap
+Fire Bomb
+Cluster Bomb
+Carpet Bomb
+Gale
+Typhoon
+Hurricane
+Thunderclap
+Thunderbolt
+Thunderstorm
+Mist
+
+
+-------
+Samurai
+-------
+
+Djinn Required: 4 Venus, 3 Jupiter
+
+
+==============
+Spells Learned
+==============
+
+Dragon Cloud
+Demon Night
+Helm Splitter
+Quick Strike
+Rockfall
+Rockslide
+Avalanche
+Lava Shower
+Molten Bath
+Magma Storm
+Demon Spear
+Angel Spear
+Guardian
+Protector
+Magic Shell
+Magic Shield
+
+
+-------
+Dragoon
+-------
+
+Djinn Required: 3 Venus, 4 Mercury
+
+
+==============
+Spells Learned
+==============
+
+Cutting Edge
+Thorn
+Briar
+Nettle
+Blast
+Mad Blast
+Fiery Blast
+Ply
+Ply Well
+Pure Ply
+Wish
+Wish Well
+Pure Wish
+Cure Poison
+Restore
+Avoid
+
+
+-------------------------------------------------------------------------------
+
+
+++++++
++Ivan+
+++++++
+
+
+---------
+Wind Seer
+---------
+
+Djinn Required: 1 Jupiter
+
+
+==============
+Spells Learned
+==============
+
+Ray
+Storm Ray
+Destruct Ray
+Whirlwind
+Tornado
+Tempest
+Plasma
+Shine Plasma
+Spark Plasma
+Sleep
+Bind
+
+
+--------
+Magician
+--------
+
+Djinn Required: 2 Jupiter
+
+
+==============
+Spells Learned
+==============
+
+Ray
+Storm Ray
+Destruct Ray
+Whirlwind
+Tornado
+Tempest
+Plasma
+Shine Plasma
+Spark Plasma
+Sleep
+Bind
+Impact
+High Impact
+
+
+---------------
+Mage & Magister
+---------------
+
+Djinn Required: 7 Jupiter
+
+
+==============
+Spells Learned
+==============
+
+Ray
+Storm Ray
+Destruct Ray
+Whirlwind
+Tornado
+Tempest
+Plasma
+Shine Plasma
+Spark Plasma
+Sleep
+Bind
+Impact
+High Impact
+Ward
+Resist
+
+
+--------------
+Hermit & Elder
+--------------
+
+Djinn Required: 5 Jupiter, 2 Mercury
+
+
+==============
+Spells Learned
+==============
+
+Prism
+Hail Prism
+Freeze Prism
+Plasma
+Shine Plasma
+Spark Plasma
+Impact
+High Impact
+Bind
+Drain
+Psy Drain
+Break
+
+
+-----------------------
+Scholar, Savant, & Sage
+-----------------------
+
+Djinn Required: 1 Jupiter, 6 Mercury
+
+
+==============
+Spells Learned
+==============
+
+Prism
+Hail Prism
+Freeze Prism
+Plasma
+Shine Plasma
+Spark Plasma
+Impact
+High Impact
+Bind
+Drain
+Psy Drain
+Break
+Wish
+Wish Well
+Pure Wish
+
+
+--------------
+Seer & Diviner
+--------------
+
+Djinn Required: 2 Venus, 5 Jupiter
+
+
+==============
+Spells Learned
+==============
+
+Bolt
+Flash Bolt
+Blue Bolt
+Growth
+Mad Growth
+Wild Growth
+Cure
+Cure Well
+Potent Cure
+Bind
+Drain
+Psy Drain
+
+
+--------------
+Shaman & Druid
+--------------
+
+Djinn Required: 6 Venus, 1 Jupiter
+
+
+==============
+Spells Learned
+==============
+
+Bolt
+Flash Bolt
+Blue Bolt
+Growth
+Mad Growth
+Wild Growth
+Cure
+Cure Well
+Potent Cure
+Bind
+Drain
+Psy Drain
+Revive
+Ward
+Resist
+
+
+-------------------
+Shaman (Earth Type)
+-------------------
+
+Djinn Required: 7 Venus
+
+
+==============
+Spells Learned
+==============
+
+Astral Blast
+Gaia
+Mother Gaia
+Grand Gaia
+Impact
+High Impact
+Ward
+Resist
+Weaken
+Enfeeble
+Delude
+Sleep
+Haunt
+Curse
+Drain
+Psy Drain
+
+
+------------------
+Pilgrim & Wanderer
+------------------
+
+Djinn Required: 1 Mars, 6 Jupiter
+
+
+==============
+Spells Learned
+==============
+
+Slash
+Wind Slash
+Sonic Slash
+Plasma
+Shine Plasma
+Spark Plasma
+Bind
+Drain
+Psy Drain
+
+
+-------------------
+Ascetic & Fire Monk
+-------------------
+
+Djinn Required: 4 Mars, 3 Jupiter
+
+
+==============
+Spells Learned
+==============
+
+Slash
+Wind Slash
+Sonic Slash
+Plasma
+Shine Plasma
+Spark Plasma
+Bind
+Drain
+Psy Drain
+Volcano
+Eruption
+Pyroclasm
+Ward
+Resist
+
+
+---------------------
+Enchanter (Fire Type)
+---------------------
+
+Djinn Required: 7 Mars
+
+
+==============
+Spells Learned
+==============
+
+Astral Blast
+Volcano
+Eruption
+Pyroclasm
+Impact
+High Impact
+Guard
+Protect
+Ward
+Resist
+Weaken
+Enfeeble
+Delude
+Sleep
+Drain
+Psy Drain
+
+
+------
+Ranger
+------
+
+Djinn Required: 4 Mars, 3 Mercury
+
+
+==============
+Spells Learned
+==============
+
+Slash
+Wind Slash
+Sonic Slash
+Douse
+Drench
+Deluge
+Volcano
+Eruption
+Pyroclasm
+Ward
+Resist
+Bind
+Drain
+Psy Drain
+Break
+
+
+------
+Medium
+------
+
+Djinn Required: 4 Venus, 3 Mercury
+
+
+==============
+Spells Learned
+==============
+
+Haunt
+Curse
+Condemn
+Bolt
+Flash Bolt
+Blue Bolt
+Froth
+Froth Sphere
+Froth Spiral
+Cure
+Cure Well
+Potent Cure
+Revive
+Drain
+Psy Drain
+
+
+----------
+White Mage
+----------
+
+Djinn Required: 3 Venus, 4 Mercury
+
+
+==============
+Spells Learned
+==============
+
+Prism
+Hail Prism
+Freeze Prism
+Plasma
+Shine Plasma
+Spark Plasma
+Wish
+Wish Well
+Pure Wish
+Revive
+Cure Poison
+Restore
+Dull
+Blunt
+Ward
+Resist
+
+
+-------------------------------------------------------------------------------
+
+
++++++
++Mia+
++++++
+
+
+-------------------
+Water Seer & Scribe
+-------------------
+
+Djinn Required: 2 Mercury
+
+
+==============
+Spells Learned
+==============
+
+Ply
+Ply Well
+Pure Ply
+Cure Poison
+Restore
+Frost
+Tundra
+Glacier
+Ice
+Ice Horn
+Ice Missle
+Break
+
+
+----------------
+Cleric & Paragon
+----------------
+
+Djinn Required: 7 Mercury
+
+
+==============
+Spells Learned
+==============
+
+Ply
+Ply Well
+Pure Ply
+Cure Poison
+Restore
+Frost
+Tundra
+Glacier
+Ice
+Ice Horn
+Ice Missle
+Break
+Wish
+Wish Well
+Pure Wish
+
+
+--------------
+Hermit & Elder
+--------------
+
+Djinn Required: 2 Jupiter, 5 Mercury
+
+
+==============
+Spells Learned
+==============
+
+Prism
+Hail Prism
+Freeze Prism
+Plasma
+Shine Plasma
+Spark Plasma
+Impact
+High Impact
+Bind
+Drain
+Psy Drain
+Break
+
+
+-----------------------
+Scholar, Savant, & Sage
+-----------------------
+
+Djinn Required: 6 Jupiter, 1 Mercury
+
+
+==============
+Spells Learned
+==============
+
+Prism
+Hail Prism
+Freeze Prism
+Plasma
+Shine Plasma
+Spark Plasma
+Impact
+High Impact
+Bind
+Drain
+Psy Drain
+Break
+Wish
+Wish Well
+Pure Wish
+
+
+--------------
+Seer & Diviner
+--------------
+
+Djinn Required: 2 Venus, 5 Mercury
+
+
+==============
+Spells Learned
+==============
+
+Froth
+Froth Sphere
+Froth Spiral
+Growth
+Mad Growth
+Wild Growth
+Cure
+Cure Well
+Potent Cure
+Cure Poison
+Restore
+Break
+
+
+--------------
+Shaman & Druid
+--------------
+
+Djinn Required: 5 Venus, 2 Mercury
+
+
+==============
+Spells Learned
+==============
+
+Froth
+Froth Sphere
+Froth Spiral
+Growth
+Mad Growth
+Wild Growth
+Cure
+Cure Well
+Potent Cure
+Cure Poison
+Restore
+Break
+Revive
+Wish
+Wish Well
+Pure Wish
+
+
+---------------------
+Cavalier (Earth Type)
+---------------------
+
+Djinn Required: 7 Venus
+
+
+==============
+Spells Learned
+==============
+
+Cutting Edge
+Thorn
+Briar
+Nettle
+Ply
+Ply Well
+Pure Ply
+Wish
+Wish Well
+Pure Wish
+Revive
+Cure Poison
+Restore
+Break
+Avoid
+
+
+--------------------
+Cavalier (Fire Type)
+--------------------
+
+Djinn Required: 7 Mars
+
+
+==============
+Spells Learned
+==============
+
+Cutting Edge
+Blast
+Mad Blast
+Fiery Blast
+Ply
+Ply Well
+Pure Ply
+Wish
+Wish Well
+Pure Wish
+Cure Poison
+Restore
+Guard
+Protect
+Break
+Avoid
+
+
+------------------
+Pilgrim & Wanderer
+------------------
+
+Djinn Required: 1 Mars, 6 Mercury
+
+
+==============
+Spells Learned
+==============
+
+Douse
+Drench
+Deluge
+Prism
+Hail Prism
+Freeze Prism
+Cure Poison
+Restore
+Break
+
+
+--------------------
+Ascetic & Water Monk
+--------------------
+
+Djinn Required: 4 Mars, 3 Mercury
+
+
+==============
+Spells Learned
+==============
+
+Douse
+Drench
+Deluge
+Prism
+Hail Prism
+Freeze Prism
+Cure Poison
+Restore
+Break
+Volcano
+Eruption
+Pyroclasm
+Wish
+Wish Well
+Pure Wish
+
+
+------
+Ranger
+------
+
+Djinn Required: 4 Mars, 3 Jupiter
+
+
+==============
+Spells Learned
+==============
+
+Slash
+Wind Slash
+Sonic Slash
+Douse
+Drench
+Deluge
+Volcano
+Eruption
+Pyroclasm
+Ward
+Resist
+Bind
+Drain
+Psy Drain
+Break
+
+
+------
+Medium
+------
+
+Djinn Required: 4 Venus, 3 Mercury
+
+
+==============
+Spells Learned
+==============
+
+Haunt
+Curse
+Condemn
+Bolt
+Flash Bolt
+Blue Bolt
+Froth
+Froth Sphere
+Froth Spiral
+Cure
+Cure Well
+Potent Cure
+Revive
+Drain
+Psy Drain
+
+
+----------
+White Mage
+----------
+
+Djinn Required: 3 Venus, 4 Mercury
+
+
+==============
+Spells Learned
+==============
+
+Prism
+Hail Prism
+Freeze Prism
+Plasma
+Shine Plasma
+Spark Plasma
+Wish
+Wish Well
+Pure Wish
+Revive
+Cure Poison
+Restore
+Dull
+Blunt
+Ward
+Resist
+
+
+-------------------------------------------------------------------------------
+
+
+==============
+XII. Psynergy
+==============
+
+In this section, I will list all of the Psynergy in the game, along with info
+about what they do and such. Psynergy is basically your magic in Golden Sun,
+and with each spell you use, your PP is drained (known as Psynergy Points).
+Psynergy can be learned by having certain Djinn equipped on a character, and
+you'll learn different types depending on your class. It's pretty useful in
+this game, and you'll be using it quite often. I will list the Psynergy for all
+of the characters, and list the spells of their natural elements.
+
+
++++++++
++Isaac+
++++++++
+
+
+-------------------------------------------------------------------------------
+
+Move
+PP Cost: 2
+Range: N/A
+Description: Move an object on the ground.
+
+-------------------------------------------------------------------------------
+
+Retreat
+PP Cost: 6
+Range: N/A
+Description: Return to the dungeon's entrance.
+
+-------------------------------------------------------------------------------
+
+Cure
+PP Cost: 3
+Range: One Ally
+Description: Restore 70 HP.
+
+-------------------------------------------------------------------------------
+
+Cure Well
+PP Cost: 7
+Range: One Ally
+Description: Restore 150 HP.
+
+-------------------------------------------------------------------------------
+
+Potent Cure
+PP Cost: 10
+Range: One Ally
+Description: Restore 300 HP.
+
+-------------------------------------------------------------------------------
+
+Revive
+PP Cost: 15
+Range: One Ally
+Description: Revive a downed ally.
+
+-------------------------------------------------------------------------------
+
+Growth
+PP Cost: 4
+Range: One Enemy
+Description: Attack with wild plants.
+
+-------------------------------------------------------------------------------
+
+Mad Growth
+PP Cost: 10
+Range: Three Enemies
+Description: Attach with ferocious plants.
+
+-------------------------------------------------------------------------------
+
+Wild Growth
+PP Cost: 19
+Range: Five Enemies
+Description: Attack with giant plants.
+
+-------------------------------------------------------------------------------
+
+Planet Diver
+PP Cost: 7
+Range: One Enemy
+Description: Leap skyward and lunge onto a foe.
+
+-------------------------------------------------------------------------------
+
+Blast
+PP Cost: 7
+Range: Three Enemies
+Description: Attack with a massive explosion.
+
+-------------------------------------------------------------------------------
+
+Nova
+PP Cost: 13
+Range: Five Enemies
+Description: Attack with a massive explosion.
+
+-------------------------------------------------------------------------------
+
+Supernova
+PP Cost: 31
+Range: Seven Enemies
+Description: Attack with a massive explosion.
+
+-------------------------------------------------------------------------------
+
+Haunt
+PP Cost: 5
+Range: Three Enemies
+Description: Haunt a foe with an evil spirit.
+
+-------------------------------------------------------------------------------
+
+Curse
+PP Cost: 6
+Range: One Enemy
+Description: Draw the spirit of death to a foe.
+
+-------------------------------------------------------------------------------
+
+Condemn
+PP Cost: 8
+Range: One Enemy
+Description: Disable your enemy with evil power.
+
+-------------------------------------------------------------------------------
+
+Ragnarok
+PP Cost: 7
+Range: One Enemy
+Description: Strike with a massive sword.
+
+-------------------------------------------------------------------------------
+
+Quake
+PP Cost: 4
+Range: Three Enemies
+Description: Attack with a powerful quake.
+
+-------------------------------------------------------------------------------
+
+Earthquake
+PP Cost: 7
+Range: Five Enemies
+Description: Attack with a mighty tremor.
+
+-------------------------------------------------------------------------------
+
+Quake Sphere
+PP Cost: 15
+Range: Seven Enemies
+Description: Attack with a massive quake.
+
+-------------------------------------------------------------------------------
+
+Spire
+PP Cost: 5
+Range: One Enemy
+Description: Attack with earthen spire.
+
+-------------------------------------------------------------------------------
+
+Clay Spire
+PP Cost: 13
+Range: Three Enemies
+Description: Attack with earthen spire.
+
+-------------------------------------------------------------------------------
+
+Stone Spire
+PP Cost: 22
+Range: Three Enemies
+Description: Attack with earthern spire.
+
+-------------------------------------------------------------------------------
+
+Gaia
+PP Cost: 7
+Range: Three Enemies
+Description: Attack with the earth's might.
+
+-------------------------------------------------------------------------------
+
+Mother Gaia
+PP Cost: 17
+Range: Five Enemies
+Description: Attack with the earth's might.
+
+-------------------------------------------------------------------------------
+
+Grand Gaia
+PP Cost: 32
+Range: Five Enemies
+Description: Attack with the earth's might.
+
+-------------------------------------------------------------------------------
+
+Astral Blast
+PP Cost: 5
+Range: One Enemy
+Description: Attack with celestial force.
+
+-------------------------------------------------------------------------------
+
+Weaken
+PP Cost: 4
+Range: One Enemy
+Description: Drop enemy's Resistance.
+
+-------------------------------------------------------------------------------
+
+Enfeeble
+PP Cost: 6
+Range: Three Enemies
+Description: Drop enemy party's Resistance.
+
+-------------------------------------------------------------------------------
+
+Delude
+PP Cost: 4
+Range: Three Enemies
+Description: Wrap multiple foes in delusion.
+
+-------------------------------------------------------------------------------
+
+Sleep
+PP Cost: 5
+Range: Three Enemies
+Description: Lull multiple enemies to sleep.
+
+-------------------------------------------------------------------------------
+
+Drain
+PP Cost: 3
+Range: One Enemy
+Description: Absorb an enemy's HP.
+
+-------------------------------------------------------------------------------
+
+Psy Drain
+PP Cost: 0
+Range: One Enemy
+Description: Absorb an enemy's PP.
+
+-------------------------------------------------------------------------------
+
+Cutting Edge
+PP Cost: 5
+Range: One Enemy
+Description: Inflict damage with a shockwave.
+
+-------------------------------------------------------------------------------
+
+Thorn
+PP Cost: 6
+Range: Three Enemies
+Description: Attack with stabbing thorns.
+
+-------------------------------------------------------------------------------
+
+Briar
+PP Cost: 11
+Range: Three Enemies
+Description: Attack with sharpened briars.
+
+-------------------------------------------------------------------------------
+
+Nettle
+PP Cost: 23
+Range: Five Enemies
+Description: Attack with stinging needles.
+
+-------------------------------------------------------------------------------
+
+Cure Poison
+PP Cost: 2
+Range: One Ally
+Description: Cleanse the body of poison.
+
+-------------------------------------------------------------------------------
+
+Restore
+PP Cost: 3
+Range: One Ally
+Description: Removes Sleep, Stun, & Delusion.
+
+-------------------------------------------------------------------------------
+
+Break
+PP Cost: 5
+Range: Nine Enemies
+Description: Eliminate an enemy's bonuses.
+
+-------------------------------------------------------------------------------
+
+Wish
+PP Cost: 9
+Range: All Allies
+Description: Restore 80 HP to the whole party.
+
+-------------------------------------------------------------------------------
+
+Wish Well
+PP Cost: 13
+Range: All Allies
+Description: Restore 160 HP to the whole party.
+
+-------------------------------------------------------------------------------
+
+Pure Wish
+PP Cost: 20
+Range: All Allies
+Description: Restore 400 HP to the whole party.
+
+-------------------------------------------------------------------------------
+
+Gale
+PP Cost: 3
+Range: Three Enemies
+Description: Attack with the wind's might.
+
+-------------------------------------------------------------------------------
+
+Typhoon
+PP Cost: 12
+Range: Five Enemies
+Description: Attack with the wind's might.
+
+-------------------------------------------------------------------------------
+
+Hurricane
+PP Cost: 25
+Range: Seven Enemies
+Description: Attack with the wind's might.
+
+-------------------------------------------------------------------------------
+
+Death Plunge
+PP Cost: 14
+Range: One Enemy
+Description: Plunge your weapon into a foe.
+
+-------------------------------------------------------------------------------
+
+Shuriken
+PP Cost: 8
+Range: Three Enemies
+Description: Attack with a throwing knife.
+
+-------------------------------------------------------------------------------
+
+Annihalation
+PP Cost: 18
+Range: One Enemy
+Description: Attempt to annihalate a foe.
+
+-------------------------------------------------------------------------------
+
+Punji
+PP Cost: 7
+Range: Three Enemies
+Description: Attack with a bamboo weapon.
+
+-------------------------------------------------------------------------------
+
+Punji Trap
+PP Cost: 13
+Range: Three Enemies
+Description: Attack with a bamboo weapon.
+
+-------------------------------------------------------------------------------
+
+Punji Strike
+PP Cost: 24
+Range: Five Enemies
+Description: Attack with a bamboo weapon.
+
+-------------------------------------------------------------------------------
+
+Fire Bomb
+PP Cost: 5
+Range: Three Enemies
+Description: Attack with a bomb blast.
+
+-------------------------------------------------------------------------------
+
+Cluster Bomb
+PP Cost: 11
+Range: Five Enemies
+Description: Attack with a bomb blast.
+
+-------------------------------------------------------------------------------
+
+Carpet Bomb
+PP Cost: 29
+Range: Seven Enemies
+Description: Attack with a bomb blast.
+
+-------------------------------------------------------------------------------
+
+Thunderclap
+PP Cost: 9
+Range: Three Enemies
+Description: Attack with the storm's fury.
+
+-------------------------------------------------------------------------------
+
+Thunderbolt
+PP Cost: 19
+Range: Five Enemies
+Description: Attack with the storm's fury.
+
+-------------------------------------------------------------------------------
+
+Thunderstorm
+PP Cost: 39
+Range: Seven Enemies
+Description: Attack with the storm's fury.
+
+-------------------------------------------------------------------------------
+
+Mist
+PP Cost: 4
+Range: Three Enemies
+Description: Wrap a foe in a cloud of delusion.
+
+-------------------------------------------------------------------------------
+
+Dragon Cloud
+PP Cost: 6
+Range: One Enemy
+Description: Strike with a Dragon Cloud.
+
+-------------------------------------------------------------------------------
+
+Demon Night
+PP Cost: 12
+Range: Three Enemies
+Description: Unleash a myriad of monsters.
+
+-------------------------------------------------------------------------------
+
+Helm Splitter
+PP Cost: 8
+Range: One Enemy
+Description: Paralyze a foe with a mighty blow.
+
+-------------------------------------------------------------------------------
+
+Quick Strike
+PP Cost: 12
+Range: One Enemy
+Description: Blind an enemy with a rapid strike.
+
+-------------------------------------------------------------------------------
+
+Rockfall
+PP Cost: 5
+Range: Three Enemies
+Description: Attack with a blast of rocks.
+
+-------------------------------------------------------------------------------
+
+Rockslide
+PP Cost: 15
+Range: Five Enemies
+Description: Attack with a blast of rocks.
+
+-------------------------------------------------------------------------------
+
+Avalanche
+PP Cost: 30
+Range: Five Enemies
+Description: Attack with a blast of rocks.
+
+-------------------------------------------------------------------------------
+
+Lava Shower
+PP Cost: 4
+Range: One Enemy
+Description: Attack with a volcano's might.
+
+-------------------------------------------------------------------------------
+
+Molten Bath
+PP Cost: 12
+Range: Three Enemies
+Description: Attack with a volcano's might.
+
+-------------------------------------------------------------------------------
+
+Magma Storm
+PP Cost: 27
+Range: Five Enemies
+Description: Attack with a volcano's might.
+
+-------------------------------------------------------------------------------
+
+Demon Spear
+PP Cost: 7
+Range: One Ally
+Description: Boost Attack with a demonic blade.
+
+-------------------------------------------------------------------------------
+
+Angel Spear
+PP Cost: 12
+Range: All Allies
+Description: Boost Attack with a heavenly blade.
+
+-------------------------------------------------------------------------------
+
+Guardian
+PP Cost: 3
+Range: One Ally
+Description: Boost Defense with divine might.
+
+-------------------------------------------------------------------------------
+
+Protector
+PP Cost: 5
+Range: All Allies
+Description: Boost Defense with divine might.
+
+-------------------------------------------------------------------------------
+
+Magic Shell
+PP Cost: 3
+Range: One Ally
+Description: Boost elemental Resistance.
+
+-------------------------------------------------------------------------------
+
+Magic Shield
+PP Cost: 5
+Range: All Allies
+Description: Boost elemental Resistance.
+
+-------------------------------------------------------------------------------
+
+
++++++++
++Garet+
++++++++
+
+
+-------------------------------------------------------------------------------
+
+Move
+PP Cost: 2
+Range: N/A
+Description: Move an object on the ground.
+
+-------------------------------------------------------------------------------
+
+Heat Wave
+PP Cost: 6
+Range: One Enemy
+Description: Attack with fiery bolts.
+
+-------------------------------------------------------------------------------
+
+Flare
+PP Cost: 4
+Range: Three Enemies
+Description: Attack with flaring flames.
+
+-------------------------------------------------------------------------------
+
+Flare Wall
+PP Cost: 7
+Range: Three Enemies
+Description: Attack with searing flames.
+
+-------------------------------------------------------------------------------
+
+Flare Storm
+PP Cost: 12
+Range: Three Enemies
+Description: Attack with incinerating flames.
+
+-------------------------------------------------------------------------------
+
+Fire
+PP Cost: 6
+Range: Three Enemies
+Description: Attack with a scorching fireball.
+
+-------------------------------------------------------------------------------
+
+Fireball
+PP Cost: 12
+Range: Five Enemies
+Description: Attack with a scorching fireball.
+
+-------------------------------------------------------------------------------
+
+Inferno
+PP Cost: 23
+Range: Five Enemies
+Description: Attack with a scorching fireball.
+
+-------------------------------------------------------------------------------
+
+Volcano
+PP Cost: 6
+Range: One Enemy
+Description: Attack with volcanic might.
+
+-------------------------------------------------------------------------------
+
+Eruption
+PP Cost: 14
+Range: Three Enemies
+Description: Attack with volcanic might.
+
+-------------------------------------------------------------------------------
+
+Pyroclasm
+PP Cost: 29
+Range: Five Enemies
+Description: Attack with volcanic might.
+
+-------------------------------------------------------------------------------
+
+Guard
+PP Cost: 3
+Range: One Ally
+Description: Boost an ally's Defense.
+
+-------------------------------------------------------------------------------
+
+Protect
+PP Cost: 5
+Range: All Allies
+Description: Boost party's Defense.
+
+-------------------------------------------------------------------------------
+
+Impair
+PP Cost: 4
+Range: One Enemy
+Description: Drop enemy's Defense.
+
+-------------------------------------------------------------------------------
+
+Debilitate
+PP Cost: 6
+Range: Three Enemies
+Description: Drop enemy party's Defense.
+
+-------------------------------------------------------------------------------
+
+Astral Blast
+PP Cost: 5
+Range: One Enemy
+Description: Attack with celestial force.
+
+-------------------------------------------------------------------------------
+
+Weaken
+PP Cost: 4
+Range: One Enemy
+Description: Drop enemy's Resistance.
+
+-------------------------------------------------------------------------------
+
+Enfeeble
+PP Cost: 6
+Range: Three Enemies
+Description: Drop enemy party's Resistance.
+
+-------------------------------------------------------------------------------
+
+Delude
+PP Cost: 4
+Range: Three Enemies
+Description: Wrap multiple foes in delusion.
+
+-------------------------------------------------------------------------------
+
+Sleep
+PP Cost: 5
+Range: Three Enemies
+Description: Lull enemies to sleep.
+
+-------------------------------------------------------------------------------
+
+Drain
+PP Cost: 3
+Range: One Enemy
+Description: Absorb an enemy's HP.
+
+-------------------------------------------------------------------------------
+
+Psy Drain
+PP Cost: 0
+Range: One Enemy
+Description: Absorb an enemy's PP.
+
+-------------------------------------------------------------------------------
+
+Cutting Edge
+PP Cost: 5
+Range: One Enemy
+Description: Inflict damage with a shockwave.
+
+-------------------------------------------------------------------------------
+
+Blast
+PP Cost: 5
+Range: Three Enemies
+Description: Attack with an explosive blast.
+
+-------------------------------------------------------------------------------
+
+Mad Blast
+PP Cost: 9
+Range: Three Enemies
+Description: Attack with an explosive blast.
+
+-------------------------------------------------------------------------------
+
+Fiery Blast
+PP Cost: 19
+Range: Five Enemies
+Description: Attack with an explosive blast.
+
+-------------------------------------------------------------------------------
+
+Guard
+PP Cost: 3
+Range: One Ally
+Description: Boost an ally's Defense.
+
+-------------------------------------------------------------------------------
+
+Protect
+PP Cost: 5
+Range: All Allies
+Description: Boost party's Defense.
+
+-------------------------------------------------------------------------------
+
+Break
+PP Cost: 5
+Range: Nine Enemies
+Description: Eliminate an enemy's bonuses.
+
+-------------------------------------------------------------------------------
+
+Restore
+PP Cost: 3
+Range: One Ally
+Description: Removes Sleep, Stun, & Delusion.
+
+-------------------------------------------------------------------------------
+
+Wish
+PP Cost: 9
+Range: All Allies
+Description: Restore 80 HP to the whole party.
+
+-------------------------------------------------------------------------------
+
+Wish Well
+PP Cost: 13
+Range: All Allies
+Description: Restore 160 HP to the whole party.
+
+-------------------------------------------------------------------------------
+
+Pure Wish
+PP Cost: 20
+Range: All Allies
+Description: Restore 400 HP to the whole party.
+
+-------------------------------------------------------------------------------
+
+Douse
+PP Cost: 5
+Range: Three Enemies
+Description: Attack with a surge of water.
+
+-------------------------------------------------------------------------------
+
+Spire
+PP Cost: 5
+Range: One Enemy
+Description: Attack with earthen spire.
+
+-------------------------------------------------------------------------------
+
+Clay Spire
+PP Cost: 13
+Range: Three Enemies
+Description: Attack with earthen spire.
+
+-------------------------------------------------------------------------------
+
+Stone Spire
+PP Cost: 22
+Range: Three Enemies
+Description: Attack with earthen spire.
+
+-------------------------------------------------------------------------------
+
+Revive
+PP Cost: 15
+Range: One Ally
+Description: Revive a downed ally.
+
+-------------------------------------------------------------------------------
+
+Gale
+PP Cost: 3
+Range: Three Enemies
+Description: Attack with the wind's might.
+
+-------------------------------------------------------------------------------
+
+Typhoon
+PP Cost: 12
+Range: Five Enemies
+Description: Attack with the wind's might.
+
+-------------------------------------------------------------------------------
+
+Hurricane
+PP Cost: 25
+Range: Seven Enemies
+Description: Attack with the wind's might.
+
+-------------------------------------------------------------------------------
+
+Death Plunge
+PP Cost: 14
+Range: One Enemy
+Description: Plunge your weapon into a foe.
+
+-------------------------------------------------------------------------------
+
+Shuriken
+PP Cost: 8
+Range: Three Enemies
+Description: Attack with a throwing knife.
+
+-------------------------------------------------------------------------------
+
+Annihalation
+PP Cost: 18
+Range: One Enemy
+Description: Attempt to annihalate a foe.
+
+-------------------------------------------------------------------------------
+
+Punji
+PP Cost: 7
+Range: Three Enemies
+Description: Attack with a bamboo weapon.
+
+-------------------------------------------------------------------------------
+
+Punji Trap
+PP Cost: 13
+Range: Three Enemies
+Description: Attack with a bamboo weapon.
+
+-------------------------------------------------------------------------------
+
+Punji Strike
+PP Cost: 24
+Range: Five Enemies
+Description: Attack with a bamboo weapon.
+
+-------------------------------------------------------------------------------
+
+Fire Bomb
+PP Cost: 5
+Range: Three Enemies
+Description: Attack with a bomb blast.
+
+-------------------------------------------------------------------------------
+
+Cluster Bomb
+PP Cost: 11
+Range: Five Enemies
+Description: Attack with a bomb blast.
+
+-------------------------------------------------------------------------------
+
+Carpet Bomb
+PP Cost: 29
+Range: Seven Enemies
+Description: Attack with a bomb blast.
+
+-------------------------------------------------------------------------------
+
+Thunderclap
+PP Cost: 9
+Range: Three Enemies
+Description: Attack with the storm's fury.
+
+-------------------------------------------------------------------------------
+
+Thunderbolt
+PP Cost: 19
+Range: Five Enemies
+Description: Attack with the storm's fury.
+
+-------------------------------------------------------------------------------
+
+Thunderstorm
+PP Cost: 39
+Range: Seven Enemies
+Description: Attack with the storm's fury.
+
+-------------------------------------------------------------------------------
+
+Mist
+PP Cost: 4
+Range: Three Enemies
+Description: Wrap a foe in a cloud of delusion.
+
+-------------------------------------------------------------------------------
+
+Dragon Cloud
+PP Cost: 6
+Range: One Enemy
+Description: Strike with a Dragon Cloud.
+
+-------------------------------------------------------------------------------
+
+Demon Night
+PP Cost: 12
+Range: Three Enemies
+Description: Unleash a myriad of monsters.
+
+-------------------------------------------------------------------------------
+
+Helm Splitter
+PP Cost: 8
+Range: One Enemy
+Description: Paralyze a foe with a mighty blow.
+
+-------------------------------------------------------------------------------
+
+Quick Strike
+PP Cost: 12
+Range: One Enemy
+Description: Blind an enemy with a rapid strike.
+
+-------------------------------------------------------------------------------
+
+Rockfall
+PP Cost: 5
+Range: Three Enemies
+Description: Attack with a blast of rocks.
+
+-------------------------------------------------------------------------------
+
+Rockslide
+PP Cost: 15
+Range: Five Enemies
+Description: Attack with a blast of rocks.
+
+-------------------------------------------------------------------------------
+
+Avalanche
+PP Cost: 30
+Range: Five Enemies
+Description: Attack with a blast of rocks.
+
+-------------------------------------------------------------------------------
+
+Lava Shower
+PP Cost: 4
+Range: One Enemy
+Description: Attack with a volcano's might.
+
+-------------------------------------------------------------------------------
+
+Molten Bath
+PP Cost: 12
+Range: Three Enemies
+Description: Attack with a volcano's might.
+
+-------------------------------------------------------------------------------
+
+Magma Storm
+PP Cost: 27
+Range: Five Enemies
+Description: Attack with a volcano's might.
+
+-------------------------------------------------------------------------------
+
+Demon Spear
+PP Cost: 7
+Range: One Ally
+Description: Boost Attack with a demonic blade.
+
+-------------------------------------------------------------------------------
+
+Angel Spear
+PP Cost: 12
+Range: All Allies
+Description: Boost Attack with a heavenly blade.
+
+-------------------------------------------------------------------------------
+
+Guardian
+PP Cost: 3
+Range: One Ally
+Description: Boost Defense with divine might.
+
+-------------------------------------------------------------------------------
+
+Protector
+PP Cost: 5
+Range: All Allies
+Description: Boost Defense with divine might.
+
+-------------------------------------------------------------------------------
+
+Magic Shell
+PP Cost: 3
+Range: One Ally
+Description: Boost elemental Resistance.
+
+-------------------------------------------------------------------------------
+
+Magic Shield
+PP Cost: 5
+Range: All Allies
+Description: Boost elemental Resistance.
+
+-------------------------------------------------------------------------------
+
+
+++++++
++Ivan+
+++++++
+
+
+-------------------------------------------------------------------------------
+
+Whirlwind
+PP Cost: 5
+Range: Three Enemies
+Description: Attack with a swirling tornado.
+
+-------------------------------------------------------------------------------
+
+Tornado
+PP Cost: 14
+Range: Five Enemies
+Description: Attack with a mighty tornado.
+
+-------------------------------------------------------------------------------
+
+Tempest
+PP Cost: 27
+Range: Five Enemies
+Description: Attack with a fearsome windstorm.
+
+-------------------------------------------------------------------------------
+
+Mind Read
+PP Cost: 1
+Range: N/A
+Description: Read someone's mind.
+
+-------------------------------------------------------------------------------
+
+Reveal
+PP Cost: 1
+Range: N/A
+Description: Perceive hidden truths.
+
+-------------------------------------------------------------------------------
+
+Ray
+PP Cost: 6
+Range: Three Enemies
+Description: Attack with a magnetic storm.
+
+-------------------------------------------------------------------------------
+
+Storm Ray
+PP Cost: 10
+Range: Three Enemies
+Description: Attack with a magnetic storm.
+
+-------------------------------------------------------------------------------
+
+Destruct Ray
+PP Cost: 21
+Range: Three Enemies
+Description: Attack with a magnetic storm.
+
+-------------------------------------------------------------------------------
+
+Plasma
+PP Cost: 8
+Range: Three Enemies
+Description: Attack with a barrage of bolts.
+
+-------------------------------------------------------------------------------
+
+Shine Plasma
+PP Cost: 18
+Range: Five Enemies
+Description: Attack with a barrage of bolts.
+
+-------------------------------------------------------------------------------
+
+Spark Plasma
+PP Cost: 37
+Range: Seven Enemies
+Description: Attack with a barrage of bolts.
+
+-------------------------------------------------------------------------------
+
+Impact
+PP Cost: 7
+Range: One Ally
+Description: Boost an ally's Attack.
+
+-------------------------------------------------------------------------------
+
+High Impact
+PP Cost: 12
+Range: All Allies
+Description: Boost party's Attack.
+
+-------------------------------------------------------------------------------
+
+Sleep
+PP Cost: 5
+Range: Three Enemies
+Description: Lull multiple foes to sleep.
+
+-------------------------------------------------------------------------------
+
+Bind
+PP Cost: 4
+Range: One Enemy
+Description: Block a foe's Psynergy.
+
+-------------------------------------------------------------------------------
+
+Bolt
+PP Cost: 4
+Range: One Enemy
+Description: Attack with a lightning bolt.
+
+-------------------------------------------------------------------------------
+
+Flash Bolt
+PP Cost: 7
+Range: Three Enemies
+Description: Attack with a lightning bolt.
+
+-------------------------------------------------------------------------------
+
+Blue Bolt
+PP Cost: 14
+Range: Three Enemies
+Description: Attack with a lightning bolt.
+
+-------------------------------------------------------------------------------
+
+Drain
+PP Cost: 3
+Range: One Enemy
+Description: Absorb an enemy's HP.
+
+-------------------------------------------------------------------------------
+
+Psy Drain
+PP Cost: 0
+Range: One Enemy
+Description: Absorb an enemy's PP.
+
+-------------------------------------------------------------------------------
+
+Cure
+PP Cost: 3
+Range: One Ally
+Description: Restore 70 HP.
+
+-------------------------------------------------------------------------------
+
+Cure Well
+PP Cost: 7
+Range: One Ally
+Description: Restore 150 HP.
+
+-------------------------------------------------------------------------------
+
+Potent Cure
+PP Cost: 10
+Range: One Ally
+Description: Restore 300 HP.
+
+-------------------------------------------------------------------------------
+
+Growth
+PP Cost: 4
+Range: One Enemy
+Description: Attack with wild plants.
+
+-------------------------------------------------------------------------------
+
+Mad Growth
+PP Cost: 10
+Range: Three Enemies
+Description: Attack with ferocious plants.
+
+-------------------------------------------------------------------------------
+
+Wild Growth
+PP Cost: 19
+Range: Five Enemies
+Description: Attack with giant plants.
+
+-------------------------------------------------------------------------------
+
+Slash
+PP Cost: 4
+Range: One Enemy
+Description: Attack with a blade of focused air.
+
+-------------------------------------------------------------------------------
+
+Wind Slash
+PP Cost: 9
+Range: Three Enemies
+Description: Attack with a blade of focused air.
+
+-------------------------------------------------------------------------------
+
+Sonic Slash
+PP Cost: 20
+Range: Five Enemies
+Description: Attack with a blade of focused air.
+
+-------------------------------------------------------------------------------
+
+Ward
+PP Cost: 3
+Range: One Ally
+Description: Boost an ally's Resistance.
+
+-------------------------------------------------------------------------------
+
+Resist
+PP Cost: 5
+Range: All Allies
+Description: Boost party's Resistance.
+
+-------------------------------------------------------------------------------
+
+Wish
+PP Cost: 9
+Range: All Allies
+Description: Restore 80 HP to the whole party.
+
+-------------------------------------------------------------------------------
+
+Wish Well
+PP Cost: 13
+Range: All Allies
+Description: Restore 160 HP to the whole party.
+
+-------------------------------------------------------------------------------
+
+Pure Wish
+PP Cost: 20
+Range: All Allies
+Description: Restore 400 HP to the whole party.
+
+-------------------------------------------------------------------------------
+
+Prism
+PP Cost: 7
+Range: Three Enemies
+Description: Attack with ice crystals.
+
+-------------------------------------------------------------------------------
+
+Hail Prism
+PP Cost: 16
+Range: Five Enemies
+Description: Attack with ice crystals.
+
+-------------------------------------------------------------------------------
+
+Freeze Prism
+PP Cost: 31
+Range: Five Enemies
+Description: Attack with ice crystals.
+
+-------------------------------------------------------------------------------
+
+
++++++
++Mia+
++++++
+
+
+-------------------------------------------------------------------------------
+
+Ply
+PP Cost: 4
+Range: One Ally
+Description: Restore 100 HP with faith's power.
+
+-------------------------------------------------------------------------------
+
+Ply Well
+PP Cost: 8
+Range: One Ally
+Description: Restore 200 HP with faith's power.
+
+-------------------------------------------------------------------------------
+
+Pure Ply
+PP Cost: 12
+Range: One Ally
+Description: Restore 1000 HP with faith's power.
+
+-------------------------------------------------------------------------------
+
+Wish
+PP Cost: 9
+Range: All Allies
+Description: Restore 80 HP to the whole party.
+
+-------------------------------------------------------------------------------
+
+Wish Well
+PP Cost: 13
+Range: All Allies
+Description: Restore 160 HP to the whole party.
+
+-------------------------------------------------------------------------------
+
+Pure Wish
+PP Cost: 20
+Range: All Allies
+Description: Restore 400 HP to the whole party.
+
+-------------------------------------------------------------------------------
+
+Cure Poison
+PP Cost: 2
+Range: One Ally
+Description: Cleanse the body of poison.
+
+-------------------------------------------------------------------------------
+
+Restore
+PP Cost: 3
+Range: One Ally
+Description: Remove Sleep, Stun, & Delusion.
+
+-------------------------------------------------------------------------------
+
+Frost
+PP Cost: 5
+Range: Three Enemies
+Description: Attack with frigid blasts.
+
+-------------------------------------------------------------------------------
+
+Tundra
+PP Cost: 8
+Range: Three Enemies
+Description: Attack with frigid blasts.
+
+-------------------------------------------------------------------------------
+
+Glacier
+PP Cost: 15
+Range: Three Enemies
+Description: Attack with frigid blasts.
+
+-------------------------------------------------------------------------------
+
+Ice
+PP Cost: 5
+Range: One Enemy
+Description: Attack with spikes of ice.
+
+-------------------------------------------------------------------------------
+
+Ice Horn
+PP Cost: 11
+Range: Three Enemies
+Description: Attack with spikes of ice.
+
+-------------------------------------------------------------------------------
+
+Ice Missile
+PP Cost: 23
+Range: Three Enemies
+Description: Attack with spikes of ice.
+
+-------------------------------------------------------------------------------
+
+Break
+PP Cost: 5
+Range: Nine Enemies
+Description: Eliminate an enemy's bonuses.
+
+-------------------------------------------------------------------------------
+
+Prism
+PP Cost: 7
+Range: Three Enemies
+Description: Attack with ice crystals.
+
+-------------------------------------------------------------------------------
+
+Hail Prism
+PP Cost: 16
+Range: Five Enemies
+Description: Attack with ice crystals.
+
+-------------------------------------------------------------------------------
+
+Freeze Prism
+PP Cost: 31
+Range: Five Enemies
+Description: Attack with ice crystals.
+-------------------------------------------------------------------------------
+
+Plasma
+PP Cost: 8
+Range: Three Enemies
+Description: Attack with a barrage of bolts.
+
+-------------------------------------------------------------------------------
+
+Shine Plasma
+PP Cost: 18
+Range: Five Enemies
+Description: Attack with a barrage of bolts.
+
+-------------------------------------------------------------------------------
+
+Spark Plasma
+PP Cost: 37
+Range: Seven Enemies
+Description: Attack with a barrage of bolts.
+
+-------------------------------------------------------------------------------
+
+Impact
+PP Cost: 7
+Range: One Ally
+Description: Boost an ally's Attack.
+
+-------------------------------------------------------------------------------
+
+High Impact
+PP Cost: 12
+Range: All Allies
+Description: Boost party's Attack.
+
+-------------------------------------------------------------------------------
+
+Bind
+PP Cost: 4
+Range: One Enemy
+Description: Block a foe's Psynergy.
+
+-------------------------------------------------------------------------------
+
+Drain
+PP Cost: 3
+Range: One Enemy
+Description: Absorb an enemy's HP.
+
+-------------------------------------------------------------------------------
+
+Psy Drain
+PP Cost: 0
+Range: One Enemy
+Description: Absorb an enemy's PP.
+
+-------------------------------------------------------------------------------
+
+Froth
+PP Cost: 5
+Range: Three Enemies
+Description: Attack with frothing bubbles.
+
+-------------------------------------------------------------------------------
+
+Froth Sphere
+PP Cost: 12
+Range: Five Enemies
+Description: Attack with frenzied bubbles.
+
+-------------------------------------------------------------------------------
+
+Froth Spiral
+PP Cost: 31
+Range: Seven Enemies
+Description: Attack with a bubble vortex.
+
+-------------------------------------------------------------------------------
+
+Douse
+PP Cost: 5
+Range: Three Enemies
+Description: Attack with a surge of water.
+
+-------------------------------------------------------------------------------
+
+Drench
+PP Cost: 10
+Range: Three Enemies
+Description: Attack with a torrent of water.
+
+-------------------------------------------------------------------------------
+
+Deluge
+PP Cost: 20
+Range: Five Enemies
+Description: Attack with a deadly flood.
+
+-------------------------------------------------------------------------------
+
+Avoid
+PP Cost: 5
+Range: N/A
+Description: Encounter fewer monsters.
+
+-------------------------------------------------------------------------------
+
+Cure
+PP Cost: 3
+Range: One Ally
+Description: Restore 70 HP.
+
+-------------------------------------------------------------------------------
+
+Cure Well
+PP Cost: 7
+Range: One Ally
+Description: Restore 150 HP.
+
+-------------------------------------------------------------------------------
+
+Potent Cure
+PP Cost: 10
+Range: One Ally
+Description: Restore 300 HP.
+
+-------------------------------------------------------------------------------
+
+Growth
+PP Cost: 4
+Range: One Enemy
+Description: Attack with wild plants.
+
+-------------------------------------------------------------------------------
+
+Mad Growth
+PP Cost: 10
+Range: Three Enemies
+Description: Attack with ferocious plants.
+
+-------------------------------------------------------------------------------
+
+Wild Growth
+PP Cost: 19
+Range: Five Enemies
+Description: Attack with giant plants.
+
+-------------------------------------------------------------------------------
+
+
+++++++++++++++++
++Other Psynergy+
+++++++++++++++++
+
+
+-------------------------------------------------------------------------------
+
+Catch
+Item Required: Catch Beads
+PP Cost: 1
+Range: N/A
+Description: Grab light objects from afar.
+
+-------------------------------------------------------------------------------
+
+Force
+Item Required: Orb of Force
+PP Cost: 2
+Range: N/A
+Description: Strike a distant object.
+
+-------------------------------------------------------------------------------
+
+Lift
+Item Required: Lifting Gem
+PP Cost: 2
+Range: N/A
+Description: Lift an object vertically.
+
+-------------------------------------------------------------------------------
+
+Carry
+Item Required: Carry Stone
+PP Cost: 2
+Range: N/A
+Description: Lift and move light objects.
+
+-------------------------------------------------------------------------------
+
+Douse
+Item Required: Douse Drop
+PP Cost: 5
+Range: Three Enemies
+Description: Attack with a surge of water.
+
+-------------------------------------------------------------------------------
+
+Halt
+Item Required: Halt Gem
+PP Cost: 2
+Range: N/A
+Description: Stop a moving object.
+
+-------------------------------------------------------------------------------
+
+Cloak
+Item Required: Cloak Ball
+PP Cost: 1
+Range: N/A
+Description: Hide away in shadows.
+
+-------------------------------------------------------------------------------
+
+Frost
+Item Required: Frost Jewel
+PP Cost: 5
+Range: Three Enemies
+Description: Attack with frigid blasts.
+
+-------------------------------------------------------------------------------
+
+
+==============
+XIII. Enemies
+==============
+
+In this section, I will list all of the enemies in the game, along with info
+about them and such.
+
+
+-------------------------------------------------------------------------------
+
+001. Vermin (1)
+Found: Vale, Sol Sanctum
+
+HP: 20
+PP: 0
+Attack: 23
+Defense: 7
+Agility: 7
+Luck: 2
+Turns: 1
+
+Power (Venus): 100
+Power (Mars): 70
+Power (Jupiter): 80
+Power (Mercury): 80
+
+Resist (Venus): 48
+Resist (Mars): 25
+Resist (Jupiter): 72
+Resist (Mercury): 48
+
+Items Obtained: 2 Coins, Herb
+EXP Gained: 2
+
+-------------------------------------------------------------------------------
+
+002. Bat (1)
+Found: Vale, Sol Sanctum
+
+HP: 17
+PP: 0
+Attack: 21
+Defense: 6
+Agility: 13
+Luck: 3
+Turns: 1
+
+Power (Venus): 95
+Power (Mars): 95
+Power (Jupiter): 110
+Power (Mercury): 95
+
+Resist (Venus): 127
+Resist (Mars): 48
+Resist (Jupiter): 7
+Resist (Mercury): 72
+
+Items Obtained: 1 Coin, Herb
+EXP Gained: 1
+
+-------------------------------------------------------------------------------
+
+003. Wild Mushroom (1)
+Found: Vale, Sol Sanctum
+
+HP: 18
+PP: 0
+Attack: 22
+Defense: 5
+Agility: 10
+Luck: 1
+Turns: 1
+
+Power (Venus): 105
+Power (Mars): 80
+Power (Jupiter): 70
+Power (Mercury): 100
+
+Resist (Venus): 48
+Resist (Mars): 7
+Resist (Jupiter): 72
+Resist (Mercury): 100
+
+Items Obtained: 2 Coins, Smoke Bomb
+EXP Gained: 1
+
+-------------------------------------------------------------------------------
+
+004. Mystery Woman
+Found: Vale
+
+HP: 2600
+PP: 300
+Attack: 50
+Defense: 20
+Agility: 13
+Luck: 40
+Turns: 1
+
+Power (Venus): 100
+Power (Mars): 105
+Power (Jupiter): 100
+Power (Mercury): 95
+
+Resist (Venus): 127
+Resist (Mars): 175
+Resist (Jupiter): 100
+Resist (Mercury): 92
+
+Items Obtained: N/A
+EXP Gained: 0
+
+-------------------------------------------------------------------------------
+
+005. Mystery Man
+Found: Vale
+
+HP: 3000
+PP: 260
+Attack: 63
+Defense: 22
+Agility: 9
+Luck: 40
+Turns: 1
+
+Power (Venus): 100
+Power (Mars): 110
+Power (Jupiter): 100
+Power (Mercury): 90
+
+Resist (Venus): 100
+Resist (Mars): 175
+Resist (Jupiter): 127
+Resist (Mercury): 72
+
+Items Obtained: N/A
+EXP Gained: 0
+
+-------------------------------------------------------------------------------
+
+006. Slime (1)
+Found: Sol Sanctum
+
+HP: 22
+PP: 0
+Attack: 22
+Defense: 6
+Agility: 8
+Luck: 1
+Turns: 1
+
+Power (Venus): 95
+Power (Mars): 75
+Power (Jupiter): 95
+Power (Mercury): 125
+
+Resist (Venus): 48
+Resist (Mars): 7
+Resist (Jupiter): 48
+Resist (Mercury): 127
+
+Items Obtained: 2 Coins, Herb
+EXP Gained: 2
+
+-------------------------------------------------------------------------------
+
+007. Amaze (1)
+Found: Sol Sanctum
+
+HP: 28
+PP: 0
+Attack: 25
+Defense: 8
+Agility: 12
+Luck: 2
+Turns: 1
+
+Power (Venus): 100
+Power (Mars): 95
+Power (Jupiter): 95
+Power (Mercury): 95
+
+Resist (Venus): 48
+Resist (Mars): 72
+Resist (Jupiter): 7
+Resist (Mercury): 100
+
+Items Obtained: 3 Coins, Oil Drop
+EXP Gained: 3
+
+-------------------------------------------------------------------------------
+
+008. Zombie (1)
+Found: World Map
+
+HP: 55
+PP: 0
+Attack: 41
+Defense: 9
+Agility: 1
+Luck: 1
+Turns: 1
+
+Power (Venus): 100
+Power (Mars): 80
+Power (Jupiter): 80
+Power (Mercury): 95
+
+Resist (Venus): 25
+Resist (Mars): 7
+Resist (Jupiter): 48
+Resist (Mercury): 72
+
+Items Obtained: N/A
+EXP Gained: 0
+
+-------------------------------------------------------------------------------
+
+009. Zombie (2)
+Found: World Map, Goma Cave
+
+HP: 55
+PP: 0
+Attack: 41
+Defense: 9
+Agility: 5
+Luck: 1
+Turns: 1
+
+Power (Venus): 100
+Power (Mars): 80
+Power (Jupiter): 80
+Power (Mercury): 95
+
+Resist (Venus): 48
+Resist (Mars): 7
+Resist (Jupiter): 48
+Resist (Mercury): 72
+
+Items Obtained: 8 Coins, Herb
+EXP Gained: 7
+
+-------------------------------------------------------------------------------
+
+010. Amaze
+Found: World Map
+
+HP: 39
+PP: 0
+Attack: 36
+Defense: 10
+Agility: 18
+Luck: 2
+Turns: 1
+
+Power (Venus): 100
+Power (Mars): 95
+Power (Jupiter): 95
+Power (Mercury): 95
+
+Resist (Venus): 48
+Resist (Mars): 72
+Resist (Jupiter): 7
+Resist (Mercury): 100
+
+Items Obtained: 6 Coins, Oil Drop
+EXP Gained: 5
+
+-------------------------------------------------------------------------------
+
+011. Slime (2)
+Found: World Map
+
+HP: 32
+PP: 0
+Attack: 34
+Defense: 6
+Agility: 10
+Luck: 1
+Turns: 1
+
+Power (Venus): 95
+Power (Mars): 75
+Power (Jupiter): 95
+Power (Mercury): 125
+
+Resist (Venus): 48
+Resist (Mars): 7
+Resist (Jupiter): 48
+Resist (Mercury): 127
+
+Items Obtained: 4 Coins, Herb
+EXP Gained: 4
+
+-------------------------------------------------------------------------------
+
+012. Vermin (2)
+Found: World Map
+
+HP: 36
+PP: 0
+Attack: 32
+Defense: 7
+Agility: 9
+Luck: 2
+Turns: 1
+
+Power (Venus): 100
+Power (Mars): 70
+Power (Jupiter): 80
+Power (Mercury): 80
+
+Resist (Venus): 48
+Resist (Mars): 25
+Resist (Jupiter): 72
+Resist (Mercury): 48
+
+Items Obtained: 4 Coins, Herb
+EXP Gained: 4
+
+-------------------------------------------------------------------------------
+
+013. Wild Mushroom (2)
+Found: World Map
+
+HP: 34
+PP: 0
+Attack: 31
+Defense: 5
+Agility: 15
+Luck: 1
+Turns: 1
+
+Power (Venus): 105
+Power (Mars): 80
+Power (Jupiter): 70
+Power (Mercury): 100
+
+Resist (Venus): 48
+Resist (Mars): 7
+Resist (Jupiter): 72
+Resist (Mercury): 100
+
+Items Obtained: 3 Coins, Smoke Bomb
+EXP Gained: 3
+
+-------------------------------------------------------------------------------
+
+014. Bat (2)
+Found: World Map, Goma Cave
+
+HP: 30
+PP: 0
+Attack: 30
+Defense: 4
+Agility: 20
+Luck: 3
+Turns: 1
+
+Power (Venus): 95
+Power (Mars): 95
+Power (Jupiter): 110
+Power (Mercury): 95
+
+Resist (Venus): 127
+Resist (Mars): 48
+Resist (Jupiter): 7
+Resist (Mercury): 72
+
+Items Obtained: 3 Coins, Herb
+EXP Gained: 2
+
+-------------------------------------------------------------------------------
+
+015. Bandit
+Found: Vault
+
+HP: 244
+PP: 0
+Attack: 46
+Defense: 8
+Agility: 20
+Luck: 3
+Turns: 1
+
+Power (Venus): 80
+Power (Mars): 80
+Power (Jupiter): 80
+Power (Mercury): 80
+
+Resist (Venus): 72
+Resist (Mars): 72
+Resist (Jupiter): 72
+Resist (Mercury): 72
+
+Items Obtained: 46 Coins, Bandit's Sword
+EXP Gained: 36
+
+-------------------------------------------------------------------------------
+
+016. Thief
+Found: Vault
+
+HP: 110
+PP: 0
+Attack: 42
+Defense: 5
+Agility: 9
+Luck: 1
+Turns: 1
+
+Power (Venus): 80
+Power (Mars): 80
+Power (Jupiter): 80
+Power (Mercury): 80
+
+Resist (Venus): 72
+Resist (Mars): 72
+Resist (Jupiter): 72
+Resist (Mercury): 72
+
+Items Obtained: 32 Coins
+EXP Gained: 15
+
+-------------------------------------------------------------------------------
+
+017. Skeleton
+Found: World Map, Goma Cave, Kolima Forest
+
+HP: 60
+PP: 0
+Attack: 46
+Defense: 14
+Agility: 18
+Luck: 1
+Turns: 1
+
+Power (Venus): 100
+Power (Mars): 80
+Power (Jupiter): 80
+Power (Mercury): 95
+
+Resist (Venus): 25
+Resist (Mars): 72
+Resist (Jupiter): 48
+Resist (Mercury): 127
+
+Items Obtained: 11 Coins, Herb
+EXP Gained: 10
+
+-------------------------------------------------------------------------------
+
+018. Ghost
+Found: World Map, Goma Cave
+
+HP: 56
+PP: 0
+Attack: 38
+Defense: 12
+Agility: 12
+Luck: 2
+Turns: 1
+
+Power (Venus): 100
+Power (Mars): 95
+Power (Jupiter): 95
+Power (Mercury): 95
+
+Resist (Venus): 48
+Resist (Mars): 72
+Resist (Jupiter): 7
+Resist (Mercury): 100
+
+Items Obtained: 9 Coins, Oil Drop
+EXP Gained: 9
+
+-------------------------------------------------------------------------------
+
+019. Will Head
+Found: Goma Cave, Kolima Forest
+
+HP: 54
+PP: 0
+Attack: 42
+Defense: 10
+Agility: 10
+Luck: 1
+Turns: 1
+
+Power (Venus): 100
+Power (Mars): 80
+Power (Jupiter): 80
+Power (Mercury): 95
+
+Resist (Venus): 25
+Resist (Mars): 72
+Resist (Jupiter): 48
+Resist (Mercury): 127
+
+Items Obtained: 10 Coins, Smoke Bomb
+EXP Gained: 9
+
+-------------------------------------------------------------------------------
+
+020. Mars Djinni (Forge)
+Found: Goma Cave
+
+HP: 172
+PP: 14
+Attack: 45
+Defense: 9
+Agility: 22
+Luck: 6
+Turns: 1
+
+Power (Venus): 95
+Power (Mars): 125
+Power (Jupiter): 95
+Power (Mercury): 75
+
+Resist (Venus): 100
+Resist (Mars): 193
+Resist (Jupiter): 100
+Resist (Mercury): 25
+
+Items Obtained: 85 Coins
+EXP Gained: 28
+
+-------------------------------------------------------------------------------
+
+021. Rat
+Found: World Map, Kolima Forest, Tret Tree
+
+HP: 49
+PP: 0
+Attack: 52
+Defense: 27
+Agility: 15
+Luck: 1
+Turns: 1
+
+Power (Venus): 100
+Power (Mars): 70
+Power (Jupiter): 80
+Power (Mercury): 80
+
+Resist (Venus): 48
+Resist (Mars): 25
+Resist (Jupiter): 72
+Resist (Mercury): 48
+
+Items Obtained: 17 Coins, Herb
+EXP Gained: 14
+
+-------------------------------------------------------------------------------
+
+022. Rat Soldier
+Found: World Map, Kolima Forest, Tret Tree
+
+HP: 69
+PP: 0
+Attack: 56
+Defense: 13
+Agility: 19
+Luck: 2
+Turns: 1
+
+Power (Venus): 85
+Power (Mars): 85
+Power (Jupiter): 85
+Power (Mercury): 100
+
+Resist (Venus): 72
+Resist (Mars): 48
+Resist (Jupiter): 72
+Resist (Mercury): 100
+
+Items Obtained: 19 Coins, Smoke Bomb
+EXP Gained: 17
+
+-------------------------------------------------------------------------------
+
+023. Drone Bee
+Found: World Map, Kolima Forest, Tret Tree
+
+HP: 63
+PP: 0
+Attack: 68
+Defense: 19
+Agility: 36
+Luck: 2
+Turns: 1
+
+Power (Venus): 90
+Power (Mars): 95
+Power (Jupiter): 105
+Power (Mercury): 90
+
+Resist (Venus): 100
+Resist (Mars): 48
+Resist (Jupiter): 7
+Resist (Mercury): 48
+
+Items Obtained: 28 Coins, Elixir
+EXP Gained: 19
+
+-------------------------------------------------------------------------------
+
+024. Troll
+Found: World Map, Kolima Forest, Tret Tree
+
+HP: 101
+PP: 0
+Attack: 73
+Defense: 16
+Agility: 14
+Luck: 1
+Turns: 1
+
+Power (Venus): 100
+Power (Mars): 70
+Power (Jupiter): 80
+Power (Mercury): 80
+
+Resist (Venus): 48
+Resist (Mars): 25
+Resist (Jupiter): 72
+Resist (Mercury): 48
+
+Items Obtained: 34 Coins, Nut
+EXP Gained: 30
+
+-------------------------------------------------------------------------------
+
+025. Spider
+Found: Tret Tree
+
+HP: 69
+PP: 0
+Attack: 75
+Defense: 22
+Agility: 22
+Luck: 1
+Turns: 1
+
+Power (Venus): 95
+Power (Mars): 80
+Power (Jupiter): 85
+Power (Mercury): 85
+
+Resist (Venus): 48
+Resist (Mars): 25
+Resist (Jupiter): 48
+Resist (Mercury): 48
+
+Items Obtained: 32 Coins, Antidote
+EXP Gained: 25
+
+-------------------------------------------------------------------------------
+
+026. Creeper
+Found: Tret Tree
+
+HP: 89
+PP: 6
+Attack: 79
+Defense: 19
+Agility: 29
+Luck: 2
+Turns: 1
+
+Power (Venus): 100
+Power (Mars): 95
+Power (Jupiter): 95
+Power (Mercury): 95
+
+Resist (Venus): 48
+Resist (Mars): 72
+Resist (Jupiter): 7
+Resist (Mercury): 100
+
+Items Obtained: 38 Coins, Weasel's Claw
+EXP Gained: 32
+
+-------------------------------------------------------------------------------
+
+027. Gnome
+Found: World Map, Tret Tree, Mercury Lighthouse
+
+HP: 85
+PP: 5
+Attack: 73
+Defense: 15
+Agility: 38
+Luck: 3
+Turns: 1
+
+Power (Venus): 85
+Power (Mars): 100
+Power (Jupiter): 85
+Power (Mercury): 85
+
+Resist (Venus): 72
+Resist (Mars): 100
+Resist (Jupiter): 72
+Resist (Mercury): 48
+
+Items Obtained: 40 Coins, Oil Drop
+EXP Gained: 29
+
+-------------------------------------------------------------------------------
+
+028. Jupiter Djinni (Breeze)
+Found: Tret Tree
+
+HP: 243
+PP: 22
+Attack: 79
+Defense: 20
+Agility: 42
+Luck: 7
+Turns: 1
+
+Power (Venus): 80
+Power (Mars): 95
+Power (Jupiter): 120
+Power (Mercury): 100
+
+Resist (Venus): 25
+Resist (Mars): 100
+Resist (Jupiter): 193
+Resist (Mercury): 100
+
+Items Obtained: 100 Coins
+EXP Gained: 88
+
+-------------------------------------------------------------------------------
+
+029. Tret
+Found: Tret Tree
+
+HP: 710
+PP: 36
+Attack: 89
+Defense: 27
+Agility: 30
+Luck: 28
+Turns: 1
+
+Power (Venus): 105
+Power (Mars): 80
+Power (Jupiter): 70
+Power (Mercury): 175
+
+Resist (Venus): 72
+Resist (Mars): 25
+Resist (Jupiter): 100
+Resist (Mercury): 175
+
+Items Obtained: 700 Coins, Potion
+EXP Gained: 226
+
+-------------------------------------------------------------------------------
+
+030. Ghoul
+Found: Bilibin Cave
+
+HP: 99
+PP: 0
+Attack: 93
+Defense: 20
+Agility: 16
+Luck: 1
+Turns: 1
+
+Power (Venus): 100
+Power (Mars): 80
+Power (Jupiter): 80
+Power (Mercury): 95
+
+Resist (Venus): 25
+Resist (Mars): 7
+Resist (Jupiter): 48
+Resist (Mercury): 72
+
+Items Obtained: 42 Coins, Antidote
+EXP Gained: 34
+
+-------------------------------------------------------------------------------
+
+031. Ooze
+Found: World Map, Bilibin Cave, Mercury Lighthouse, Fuchin Falls Cave
+
+HP: 72
+PP: 0
+Attack: 72
+Defense: 19
+Agility: 30
+Luck: 1
+Turns: 1
+
+Power (Venus): 95
+Power (Mars): 75
+Power (Jupiter): 95
+Power (Mercury): 125
+
+Resist (Venus): 48
+Resist (Mars): 7
+Resist (Jupiter): 48
+Resist (Mercury): 127
+
+Items Obtained: 40 Coins, Herb
+EXP Gained: 26
+
+-------------------------------------------------------------------------------
+
+032. Mauler
+Found: World Map, Mercury Lighthouse, Fuchin Falls Cave
+
+HP: 109
+PP: 0
+Attack: 99
+Defense: 27
+Agility: 24
+Luck: 1
+Turns: 1
+
+Power (Venus): 100
+Power (Mars): 70
+Power (Jupiter): 80
+Power (Mercury): 80
+
+Resist (Venus): 48
+Resist (Mars): 25
+Resist (Jupiter): 72
+Resist (Mercury): 48
+
+Items Obtained: 45 Coins, Nut
+EXP Gained: 37
+
+-------------------------------------------------------------------------------
+
+033. Lizard Man
+Found: World Map, Mercury Lighthouse
+
+HP: 129
+PP: 0
+Attack: 106
+Defense: 31
+Agility: 30
+Luck: 2
+Turns: 1
+
+Power (Venus): 85
+Power (Mars): 85
+Power (Jupiter): 85
+Power (Mercury): 100
+
+Resist (Venus): 100
+Resist (Mars): 72
+Resist (Jupiter): 100
+Resist (Mercury): 127
+
+Items Obtained: 52 Coins, Nut
+EXP Gained: 42
+
+-------------------------------------------------------------------------------
+
+034. Cuttle
+Found: Mercury Lighthouse
+
+HP: 80
+PP: 0
+Attack: 96
+Defense: 22
+Agility: 36
+Luck: 1
+Turns: 1
+
+Power (Venus): 95
+Power (Mars): 75
+Power (Jupiter): 95
+Power (Mercury): 125
+
+Resist (Venus): 48
+Resist (Mars): 7
+Resist (Jupiter): 48
+Resist (Mercury): 127
+
+Items Obtained: 49 Coins, Sleep Bomb
+EXP Gained: 27
+
+-------------------------------------------------------------------------------
+
+035. Mimic (1)
+Found: Mercury Lighthouse
+
+HP: 468
+PP: 24
+Attack: 120
+Defense: 33
+Agility: 51
+Luck: 8
+Turns: 1
+
+Power (Venus): 95
+Power (Mars): 75
+Power (Jupiter): 105
+Power (Mercury): 100
+
+Resist (Venus): 100
+Resist (Mars): 25
+Resist (Jupiter): 152
+Resist (Mercury): 127
+
+Items Obtained: 178 Coins, Water of Life
+EXP Gained: 164
+
+-------------------------------------------------------------------------------
+
+036. Siren
+Found: Mercury Lighthouse
+
+HP: 116
+PP: 12
+Attack: 107
+Defense: 27
+Agility: 54
+Luck: 9
+Turns: 1
+
+Power (Venus): 85
+Power (Mars): 85
+Power (Jupiter): 85
+Power (Mercury): 100
+
+Resist (Venus): 100
+Resist (Mars): 72
+Resist (Jupiter): 100
+Resist (Mercury): 127
+
+Items Obtained: 45 Coins, Crystal Powder
+EXP Gained: 45
+
+-------------------------------------------------------------------------------
+
+037. Harpy
+Found: Mercury Lighthouse
+
+HP: 105
+PP: 0
+Attack: 104
+Defense: 25
+Agility: 46
+Luck: 4
+Turns: 1
+
+Power (Venus): 95
+Power (Mars): 95
+Power (Jupiter): 110
+Power (Mercury): 95
+
+Resist (Venus): 127
+Resist (Mars): 48
+Resist (Jupiter): 7
+Resist (Mercury): 72
+
+Items Obtained: 53 Coins, Elixir
+EXP Gained: 38
+
+-------------------------------------------------------------------------------
+
+038. Mercury Djinni (Sleet)
+Found: Mercury Lighthouse
+
+HP: 290
+PP: 20
+Attack: 107
+Defense: 24
+Agility: 58
+Luck: 9
+Turns: 1
+
+Power (Venus): 95
+Power (Mars): 75
+Power (Jupiter): 95
+Power (Mercury): 125
+
+Resist (Venus): 100
+Resist (Mars): 25
+Resist (Jupiter): 100
+Resist (Mercury): 193
+
+Items Obtained: 151 Coins
+EXP Gained: 130
+
+-------------------------------------------------------------------------------
+
+039. Saturos
+Found: Mercury Lighthouse
+
+HP: 1200
+PP: 160
+Attack: 113
+Defense: 35
+Agility: 51
+Luck: 40
+Turns: 1
+
+Power (Venus): 100
+Power (Mars): 110
+Power (Jupiter): 100
+Power (Mercury): 90
+
+Resist (Venus): 100
+Resist (Mars): 175
+Resist (Jupiter): 127
+Resist (Mercury): 72
+
+Items Obtained: 800 Coins, Psy Crystal
+EXP Gained: 331
+
+-------------------------------------------------------------------------------
+
+040. Mole
+Found: World Map, Fuchin Falls Cave
+
+HP: 96
+PP: 0
+Attack: 119
+Defense: 22
+Agility: 36
+Luck: 1
+Turns: 1
+
+Power (Venus): 100
+Power (Mars): 70
+Power (Jupiter): 80
+Power (Mercury): 80
+
+Resist (Venus): 48
+Resist (Mars): 25
+Resist (Jupiter): 72
+Resist (Mercury): 48
+
+Items Obtained: 60 Coins, Bramble Seed
+EXP Gained: 39
+
+-------------------------------------------------------------------------------
+
+041. Mimic (2)
+Found: Fuchin Falls Cave
+
+HP: 506
+PP: 26
+Attack: 133
+Defense: 36
+Agility: 57
+Luck: 10
+Turns: 1
+
+Power (Venus): 95
+Power (Mars): 75
+Power (Jupiter): 105
+Power (Mercury): 100
+
+Resist (Venus): 100
+Resist (Mars): 25
+Resist (Jupiter): 152
+Resist (Mercury): 127
+
+Items Obtained: 207 Coins, Game Ticket
+EXP Gained: 190
+
+-------------------------------------------------------------------------------
+
+042. Bone Fighter
+Found: World Map, Fuchin Falls Cave, Mogall Forest, Altin Peak
+
+HP: 122
+PP: 0
+Attack: 131
+Defense: 35
+Agility: 52
+Luck: 3
+Turns: 1
+
+Power (Venus): 100
+Power (Mars): 80
+Power (Jupiter): 80
+Power (Mercury): 95
+
+Resist (Venus): 25
+Resist (Mars): 72
+Resist (Jupiter): 48
+Resist (Mercury): 127
+
+Items Obtained: 63 Coins, Sleep Bomb
+EXP Gained: 51
+
+-------------------------------------------------------------------------------
+
+043. Dirge
+Found: World Map, Mogall Forest, Fuchin Falls Cave, Altin Peak
+
+HP: 91
+PP: 0
+Attack: 122
+Defense: 32
+Agility: 60
+Luck: 2
+Turns: 1
+
+Power (Venus): 95
+Power (Mars): 95
+Power (Jupiter): 110
+Power (Mercury): 95
+
+Resist (Venus): 127
+Resist (Mars): 48
+Resist (Jupiter): 7
+Resist (Mercury): 72
+
+Items Obtained: 61 Coins, Nut
+EXP Gained: 47
+
+-------------------------------------------------------------------------------
+
+044. Spirit
+Found: World Map, Mogall Forest, Fuchin Falls Cave
+
+HP: 116
+PP: 11
+Attack: 114
+Defense: 30
+Agility: 48
+Luck: 6
+Turns: 1
+
+Power (Venus): 100
+Power (Mars): 95
+Power (Jupiter): 95
+Power (Mercury): 95
+
+Resist (Venus): 48
+Resist (Mars): 72
+Resist (Jupiter): 7
+Resist (Mercury): 100
+
+Items Obtained: 67 Coins, Crystal Powder
+EXP Gained: 49
+
+-------------------------------------------------------------------------------
+
+045. Jupiter Djinni (Zephyr)
+Found: Fuchin Falls Cave
+
+HP: 314
+PP: 25
+Attack: 115
+Defense: 26
+Agility: 68
+Luck: 9
+Turns: 1
+
+Power (Venus): 80
+Power (Mars): 95
+Power (Jupiter): 120
+Power (Mercury): 95
+
+Resist (Venus): 25
+Resist (Mars): 100
+Resist (Jupiter): 193
+Resist (Mercury): 100
+
+Items Obtained: 176 Coins
+EXP Gained: 150
+
+-------------------------------------------------------------------------------
+
+046. Ape
+Found: World Map, Mogall Forest, Altin Peak
+
+HP: 290
+PP: 0
+Attack: 128
+Defense: 29
+Agility: 49
+Luck: 2
+Turns: 1
+
+Power (Venus): 100
+Power (Mars): 70
+Power (Jupiter): 80
+Power (Mercury): 80
+
+Resist (Venus): 48
+Resist (Mars): 25
+Resist (Jupiter): 72
+Resist (Mercury): 48
+
+Items Obtained: 160 Coins, Vial
+EXP Gained: 96
+
+-------------------------------------------------------------------------------
+
+047. Death Head
+Found: World Map, Mogall Forest
+
+HP: 128
+PP: 15
+Attack: 130
+Defense: 31
+Agility: 47
+Luck: 3
+Turns: 1
+
+Power (Venus): 100
+Power (Mars): 80
+Power (Jupiter): 80
+Power (Mercury): 95
+
+Resist (Venus): 25
+Resist (Mars): 72
+Resist (Jupiter): 48
+Resist (Mercury): 127
+
+Items Obtained: 73 Coins, Nut
+EXP Gained: 55
+
+-------------------------------------------------------------------------------
+
+048. Venus Djinni (Quartz)
+Found: Mogall Forest
+
+HP: 349
+PP: 25
+Attack: 127
+Defense: 28
+Agility: 76
+Luck: 9
+Turns: 1
+
+Power (Venus): 120
+Power (Mars): 95
+Power (Jupiter): 80
+Power (Mercury): 95
+
+Resist (Venus): 193
+Resist (Mars): 100
+Resist (Jupiter): 25
+Resist (Mercury): 100
+
+Items Obtained: 201 Coins
+EXP Gained: 172
+
+-------------------------------------------------------------------------------
+
+049. Killer Ape
+Found: Mogall Forest
+
+HP: 1000
+PP: 45
+Attack: 156
+Defense: 49
+Agility: 94
+Luck: 26
+Turns: 1
+
+Power (Venus): 100
+Power (Mars): 70
+Power (Jupiter): 80
+Power (Mercury): 80
+
+Resist (Venus): 72
+Resist (Mars): 25
+Resist (Jupiter): 127
+Resist (Mercury): 72
+
+Items Obtained: 1500 Coins, Douse Drop
+EXP Gained: 460
+
+-------------------------------------------------------------------------------
+
+050. Mars Djinni (Corona)
+Found: World Map
+
+HP: 355
+PP: 24
+Attack: 144
+Defense: 41
+Agility: 76
+Luck: 8
+Turns: 1
+
+Power (Venus): 95
+Power (Mars): 125
+Power (Jupiter): 95
+Power (Mercury): 75
+
+Resist (Venus): 100
+Resist (Mars): 193
+Resist (Jupiter): 100
+Resist (Mercury): 25
+
+Items Obtained: 210 Coins
+EXP Gained: 173
+
+-------------------------------------------------------------------------------
+
+051. Living Statue
+Found: Altin Peak
+
+HP: 540
+PP: 34
+Attack: 149
+Defense: 44
+Agility: 56
+Luck: 20
+Turns: 1
+
+Power (Venus): 95
+Power (Mars): 75
+Power (Jupiter): 95
+Power (Mercury): 125
+
+Resist (Venus): 100
+Resist (Mars): 25
+Resist (Jupiter): 100
+Resist (Mercury): 193
+
+Items Obtained: 900 Coins, Vial
+EXP Gained: 377
+
+-------------------------------------------------------------------------------
+
+052. Slime Beast
+Found: Altin Peak
+
+HP: 99
+PP: 0
+Attack: 134
+Defense: 27
+Agility: 54
+Luck: 2
+Turns: 1
+
+Power (Venus): 95
+Power (Mars): 75
+Power (Jupiter): 95
+Power (Mercury): 125
+
+Resist (Venus): 48
+Resist (Mars): 7
+Resist (Jupiter): 48
+Resist (Mercury): 127
+
+Items Obtained: 77 Coins, Herb
+EXP Gained: 51
+
+-------------------------------------------------------------------------------
+
+053. Tarantula
+Found: Altin Peak
+
+HP: 108
+PP: 0
+Attack: 144
+Defense: 30
+Agility: 52
+Luck: 5
+Turns: 1
+
+Power (Venus): 95
+Power (Mars): 90
+Power (Jupiter): 85
+Power (Mercury): 85
+
+Resist (Venus): 48
+Resist (Mars): 25
+Resist (Jupiter): 48
+Resist (Mercury): 48
+
+Items Obtained: 81 Coins, Antidote
+EXP Gained: 58
+
+-------------------------------------------------------------------------------
+
+054. Calamar
+Found: Altin Peak
+
+HP: 104
+PP: 0
+Attack: 130
+Defense: 34
+Agility: 46
+Luck: 1
+Turns: 1
+
+Power (Venus): 95
+Power (Mars): 75
+Power (Jupiter): 95
+Power (Mercury): 125
+
+Resist (Venus): 48
+Resist (Mars): 7
+Resist (Jupiter): 48
+Resist (Mercury): 127
+
+Items Obtained: 79 Coins, Elixir
+EXP Gained: 59
+
+-------------------------------------------------------------------------------
+
+055. Rat Fighter
+Found: Altin Peak, Lamakan Desert
+
+HP: 143
+PP: 0
+Attack: 146
+Defense: 39
+Agility: 58
+Luck: 3
+Turns: 1
+
+Power (Venus): 85
+Power (Mars): 85
+Power (Jupiter): 85
+Power (Mercury): 100
+
+Resist (Venus): 72
+Resist (Mars): 48
+Resist (Jupiter): 72
+Resist (Mercury): 100
+
+Items Obtained: 83 Coins, Smoke Bomb
+EXP Gained: 63
+
+-------------------------------------------------------------------------------
+
+056. Mimic (3)
+Found: Altin Peak
+
+HP: 579
+PP: 32
+Attack: 160
+Defense: 44
+Agility: 70
+Luck: 12
+Turns: 1
+
+Power (Venus): 95
+Power (Mars): 75
+Power (Jupiter): 105
+Power (Mercury): 100
+
+Resist (Venus): 100
+Resist (Mars): 25
+Resist (Jupiter): 152
+Resist (Mercury): 127
+
+Items Obtained: 267 Coins, Game Ticket
+EXP Gained: 241
+
+-------------------------------------------------------------------------------
+
+057. Mercury Djinni (Spritz)
+Found: Altin Peak
+
+HP: 361
+PP: 27
+Attack: 140
+Defense: 32
+Agility: 84
+Luck: 10
+Turns: 1
+
+Power (Venus): 95
+Power (Mars): 75
+Power (Jupiter): 95
+Power (Mercury): 125
+
+Resist (Venus): 100
+Resist (Mars): 25
+Resist (Jupiter): 100
+Resist (Mercury): 193
+
+Items Obtained: 226 Coins
+EXP Gained: 190
+
+-------------------------------------------------------------------------------
+
+058. Hydros Statue
+Found: Altin Peak
+
+HP: 1300
+PP: 80
+Attack: 156
+Defense: 53
+Agility: 62
+Luck: 30
+Turns: 1
+
+Power (Venus): 95
+Power (Mars): 75
+Power (Jupiter): 95
+Power (Mercury): 125
+
+Resist (Venus): 100
+Resist (Mars): 25
+Resist (Jupiter): 100
+Resist (Mercury): 193
+
+Items Obtained: 2400 Coins, Lucky Medal
+EXP Gained: 496
+
+-------------------------------------------------------------------------------
+
+059. Grub
+Found: Lamakan Desert
+
+HP: 102
+PP: 0
+Attack: 154
+Defense: 32
+Agility: 52
+Luck: 1
+Turns: 1
+
+Power (Venus): 95
+Power (Mars): 80
+Power (Jupiter): 85
+Power (Mercury): 85
+
+Resist (Venus): 48
+Resist (Mars): 25
+Resist (Jupiter): 48
+Resist (Mercury): 48
+
+Items Obtained: 88 Coins, Antidote
+EXP Gained: 62
+
+-------------------------------------------------------------------------------
+
+060. Salamander
+Found: Lamakan Desert
+
+HP: 212
+PP: 18
+Attack: 158
+Defense: 49
+Agility: 50
+Luck: 6
+Turns: 1
+
+Power (Venus): 95
+Power (Mars): 125
+Power (Jupiter): 95
+Power (Mercury): 75
+
+Resist (Venus): 100
+Resist (Mars): 193
+Resist (Jupiter): 100
+Resist (Mercury): 25
+
+Items Obtained: 190 Coins, Oil Drop
+EXP Gained: 84
+
+-------------------------------------------------------------------------------
+
+061. Ant Lion
+Found: Lamakan Desert
+
+HP: 400
+PP: 32
+Attack: 160
+Defense: 45
+Agility: 58
+Luck: 19
+Turns: 1
+
+Power (Venus): 95
+Power (Mars): 115
+Power (Jupiter): 95
+Power (Mercury): 85
+
+Resist (Venus): 100
+Resist (Mars): 175
+Resist (Jupiter): 100
+Resist (Mercury): 25
+
+Items Obtained: 320 Coins, Vial
+EXP Gained: 168
+
+-------------------------------------------------------------------------------
+
+063. Orc
+Found: Lamakan Desert
+
+HP: 148
+PP: 0
+Attack: 156
+Defense: 41
+Agility: 54
+Luck: 3
+Turns: 1
+
+Power (Venus): 100
+Power (Mars): 85
+Power (Jupiter): 85
+Power (Mercury): 85
+
+Resist (Venus): 100
+Resist (Mars): 72
+Resist (Jupiter): 48
+Resist (Mercury): 72
+
+Items Obtained: 68 Coins, Nut
+EXP Gained: 113
+
+-------------------------------------------------------------------------------
+
+064. Manticore
+Found: Lamakan Desert
+
+HP: 1700
+PP: 83
+Attack: 168
+Defense: 48
+Agility: 61
+Luck: 36
+Turns: 2
+
+Power (Venus): 95
+Power (Mars): 115
+Power (Jupiter): 95
+Power (Mercury): 85
+
+Resist (Venus): 100
+Resist (Mars): 175
+Resist (Jupiter): 100
+Resist (Mercury): 25
+
+Items Obtained: 3400 Coins, Psy Crystal
+EXP Gained: 590
+
+-------------------------------------------------------------------------------
+
+065. Fighter Bee
+Found: World Map, Lamakan Desert, Vale Cave, Vault Cave
+
+HP: 116
+PP: 0
+Attack: 155
+Defense: 38
+Agility: 74
+Luck: 2
+Turns: 1
+
+Power (Venus): 90
+Power (Mars): 95
+Power (Jupiter): 105
+Power (Mercury): 90
+
+Resist (Venus): 100
+Resist (Mars): 48
+Resist (Jupiter): 7
+Resist (Mercury): 48
+
+Items Obtained: 90 Coins, Elixir
+EXP Gained: 67
+
+-------------------------------------------------------------------------------
+
+066. Ravager
+Found: Vale Cave, Vault Cave
+
+HP: 189
+PP: 0
+Attack: 185
+Defense: 47
+Agility: 60
+Luck: 2
+Turns: 1
+
+Power (Venus): 100
+Power (Mars): 70
+Power (Jupiter): 80
+Power (Mercury): 80
+
+Resist (Venus): 48
+Resist (Mars): 25
+Resist (Jupiter): 72
+Resist (Mercury): 48
+
+Items Obtained: 95 Coins, Elixir
+EXP Gained: 90
+
+-------------------------------------------------------------------------------
+
+067. Gargoyle
+Found: Vault Cave
+
+HP: 176
+PP: 21
+Attack: 181
+Defense: 81
+Agility: 59
+Luck: 7
+Turns: 1
+
+Power (Venus): 100
+Power (Mars): 100
+Power (Jupiter): 95
+Power (Mercury): 100
+
+Resist (Venus): 48
+Resist (Mars): 100
+Resist (Jupiter): 127
+Resist (Mercury): 100
+
+Items Obtained: 119 Coins, Sleep Bomb
+EXP Gained: 84
+
+-------------------------------------------------------------------------------
+
+068. Ghost Mage
+Found: Vale Cave, Vault Cave
+
+HP: 161
+PP: 19
+Attack: 168
+Defense: 43
+Agility: 86
+Luck: 9
+Turns: 1
+
+Power (Venus): 100
+Power (Mars): 95
+Power (Jupiter): 95
+Power (Mercury): 95
+
+Resist (Venus): 48
+Resist (Mars): 72
+Resist (Jupiter): 7
+Resist (Mercury): 100
+
+Items Obtained: 110 Coins, Bramble Seed
+EXP Gained: 80
+
+-------------------------------------------------------------------------------
+
+069. Cave Troll
+Found: Vault Cave
+
+HP: 212
+PP: 20
+Attack: 199
+Defense: 45
+Agility: 44
+Luck: 3
+Turns: 1
+
+Power (Venus): 100
+Power (Mars): 70
+Power (Jupiter): 80
+Power (Mercury): 80
+
+Resist (Venus): 48
+Resist (Mars): 25
+Resist (Jupiter): 72
+Resist (Mercury): 48
+
+Items Obtained: 134 Coins, Nut
+EXP Gained: 106
+
+-------------------------------------------------------------------------------
+
+070. Mimic (4)
+Found: Vault Cave
+
+HP: 690
+PP: 42
+Attack: 201
+Defense: 56
+Agility: 89
+Luck: 13
+Turns: 1
+
+Power (Venus): 95
+Power (Mars): 75
+Power (Jupiter): 105
+Power (Mercury): 100
+
+Resist (Venus): 100
+Resist (Mars): 25
+Resist (Jupiter): 152
+Resist (Mercury): 127
+
+Items Obtained: 356 Coins, Vial
+EXP Gained: 321
+
+-------------------------------------------------------------------------------
+
+071. Death Cap
+Found: World Map, Vale Cave, Vault Cave
+
+HP: 117
+PP: 0
+Attack: 159
+Defense: 19
+Agility: 90
+Luck: 5
+Turns: 1
+
+Power (Venus): 105
+Power (Mars): 80
+Power (Jupiter): 70
+Power (Mercury): 100
+
+Resist (Venus): 48
+Resist (Mars): 7
+Resist (Jupiter): 72
+Resist (Mercury): 100
+
+Items Obtained: 56 Coins, Sleep Bomb
+EXP Gained: 48
+
+-------------------------------------------------------------------------------
+
+072. Mad Vermin
+Found: World Map, Vale Cave
+
+HP: 131
+PP: 0
+Attack: 164
+Defense: 22
+Agility: 67
+Luck: 2
+Turns: 1
+
+Power (Venus): 100
+Power (Mars): 70
+Power (Jupiter): 80
+Power (Mercury): 80
+
+Resist (Venus): 48
+Resist (Mars): 25
+Resist (Jupiter): 72
+Resist (Mercury): 48
+
+Items Obtained: 80 Coins, Herb
+EXP Gained: 55
+
+-------------------------------------------------------------------------------
+
+073. Undead
+Found: World Map, Vale Cave
+
+HP: 165
+PP: 0
+Attack: 180
+Defense: 27
+Agility: 58
+Luck: 1
+Turns: 1
+
+Power (Venus): 100
+Power (Mars): 80
+Power (Jupiter): 80
+Power (Mercury): 95
+
+Resist (Venus): 25
+Resist (Mars): 7
+Resist (Jupiter): 48
+Resist (Mercury): 72
+
+Items Obtained: 90 Coins, Antidote
+EXP Gained: 74
+
+-------------------------------------------------------------------------------
+
+074. Venus Djinni (Vine)
+Found: World Map
+
+HP: 421
+PP: 30
+Attack: 175
+Defense: 45
+Agility: 91
+Luck: 10
+Turns: 1
+
+Power (Venus): 120
+Power (Mars): 95
+Power (Jupiter): 80
+Power (Mercury): 95
+
+Resist (Venus): 193
+Resist (Mars): 100
+Resist (Jupiter): 25
+Resist (Mercury): 100
+
+Items Obtained: 277 Coins, Herb
+EXP Gained: 230
+
+-------------------------------------------------------------------------------
+
+075. Man o' War
+Found: Tolbi-bound Boat
+
+HP: 137
+PP: 0
+Attack: 193
+Defense: 42
+Agility: 70
+Luck: 1
+Turns: 1
+
+Power (Venus): 95
+Power (Mars): 75
+Power (Jupiter): 95
+Power (Mercury): 125
+
+Resist (Venus): 48
+Resist (Mars): 7
+Resist (Jupiter): 48
+Resist (Mercury): 127
+
+Items Obtained: 87 Coins, Antidote
+EXP Gained: 55
+
+-------------------------------------------------------------------------------
+
+076. Lizard Fighter
+Found: Tolbi-bound Boat
+
+HP: 212
+PP: 0
+Attack: 204
+Defense: 61
+Agility: 60
+Luck: 2
+Turns: 1
+
+Power (Venus): 85
+Power (Mars): 85
+Power (Jupiter): 85
+Power (Mercury): 100
+
+Resist (Venus): 100
+Resist (Mars): 72
+Resist (Jupiter): 100
+Resist (Mercury): 127
+
+Items Obtained: 124 Coins, Nut
+EXP Gained: 89
+
+-------------------------------------------------------------------------------
+
+077. Rabid Bat
+Found: World Map, Tolbi-bound Boat
+
+HP: 125
+PP: 0
+Attack: 190
+Defense: 34
+Agility: 84
+Luck: 2
+Turns: 1
+
+Power (Venus): 95
+Power (Mars): 95
+Power (Jupiter): 110
+Power (Mercury): 95
+
+Resist (Venus): 127
+Resist (Mars): 48
+Resist (Jupiter): 7
+Resist (Mercury): 72
+
+Items Obtained: 61 Coins, Sleep Bomb
+EXP Gained: 82
+
+-------------------------------------------------------------------------------
+
+078. Virago
+Found: Tolbi-bound Boat, Crossbone Isle
+
+HP: 185
+PP: 0
+Attack: 199
+Defense: 47
+Agility: 89
+Luck: 4
+Turns: 1
+
+Power (Venus): 95
+Power (Mars): 95
+Power (Jupiter): 110
+Power (Mercury): 95
+
+Resist (Venus): 127
+Resist (Mars): 48
+Resist (Jupiter): 7
+Resist (Mercury): 72
+
+Items Obtained: 120 Coins, Elixir
+EXP Gained: 87
+
+-------------------------------------------------------------------------------
+
+079. Kraken
+Found: Tolbi-bound Boat
+
+HP: 2400
+PP: 46
+Attack: 206
+Defense: 60
+Agility: 80
+Luck: 21
+Turns: 1
+
+Power (Venus): 95
+Power (Mars): 85
+Power (Jupiter): 95
+Power (Mercury): 115
+
+Resist (Venus): 100
+Resist (Mars): 25
+Resist (Jupiter): 100
+Resist (Mercury): 175
+
+Items Obtained: 5200 Coins, Water of Life
+EXP Gained: 711
+
+-------------------------------------------------------------------------------
+
+080. Armored Rat
+Found: World Map, Altmiller Cave
+
+HP: 147
+PP: 0
+Attack: 193
+Defense: 79
+Agility: 60
+Luck: 1
+Turns: 1
+
+Power (Venus): 100
+Power (Mars): 70
+Power (Jupiter): 80
+Power (Mercury): 80
+
+Resist (Venus): 48
+Resist (Mars): 25
+Resist (Jupiter): 72
+Resist (Mercury): 48
+
+Items Obtained: 100 Coins, Herb
+EXP Gained: 77
+
+-------------------------------------------------------------------------------
+
+081. Mad Mole
+Found: World Map, Altmiller Cave
+
+HP: 156
+PP: 0
+Attack: 197
+Defense: 23
+Agility: 62
+Luck: 1
+Turns: 1
+
+Power (Venus): 100
+Power (Mars): 70
+Power (Jupiter): 80
+Power (Mercury): 80
+
+Resist (Venus): 48
+Resist (Mars): 25
+Resist (Jupiter): 72
+Resist (Mercury): 48
+
+Items Obtained: 2 Coins, Herb
+EXP Gained: 2
+
+-------------------------------------------------------------------------------
+
+082. Foul Dirge
+Found: World Map, Altmiller Cave
+
+HP: 149
+PP: 0
+Attack: 177
+Defense: 46
+Agility: 120
+Luck: 2
+Turns: 1
+
+Power (Venus): 95
+Power (Mars): 95
+Power (Jupiter): 110
+Power (Mercury): 95
+
+Resist (Venus): 127
+Resist (Mars): 48
+Resist (Jupiter): 7
+Resist (Mercury): 72
+
+Items Obtained: 100 Coins, Smoke Bomb
+EXP Gained: 82
+
+-------------------------------------------------------------------------------
+
+083. Gnome Mage
+Found: World Map, Altmiller Cave
+
+HP: 162
+PP: 24
+Attack: 179
+Defense: 50
+Agility: 108
+Luck: 8
+Turns: 1
+
+Power (Venus): 85
+Power (Mars): 85
+Power (Jupiter): 85
+Power (Mercury): 100
+
+Resist (Venus): 48
+Resist (Mars): 72
+Resist (Jupiter): 100
+Resist (Mercury): 72
+
+Items Obtained: 126 Coins, Crystal Powder
+EXP Gained: 86
+
+-------------------------------------------------------------------------------
+
+084. Mercury Djinni (Hail)
+Found: World Map
+
+HP: 466
+PP: 46
+Attack: 207
+Defense: 48
+Agility: 116
+Luck: 16
+Turns: 1
+
+Power (Venus): 95
+Power (Mars): 75
+Power (Jupiter): 95
+Power (Mercury): 125
+
+Resist (Venus): 100
+Resist (Mars): 25
+Resist (Jupiter): 100
+Resist (Mercury): 193
+
+Items Obtained: 340 Coins
+EXP Gained: 279
+
+-------------------------------------------------------------------------------
+
+085. Dread Hound
+Found: Altmiller Cave
+
+HP: 252
+PP: 0
+Attack: 211
+Defense: 56
+Agility: 90
+Luck: 13
+Turns: 1
+
+Power (Venus): 95
+Power (Mars): 115
+Power (Jupiter): 95
+Power (Mercury): 85
+
+Resist (Venus): 100
+Resist (Mars): 175
+Resist (Jupiter): 100
+Resist (Mercury): 25
+
+Items Obtained: 176 Coins, Prophet's Hat
+EXP Gained: 116
+
+-------------------------------------------------------------------------------
+
+086. Worm
+Found: Altmiller Cave
+
+HP: 132
+PP: 0
+Attack: 196
+Defense: 51
+Agility: 79
+Luck: 2
+Turns: 1
+
+Power (Venus): 95
+Power (Mars): 90
+Power (Jupiter): 85
+Power (Mercury): 85
+
+Resist (Venus): 48
+Resist (Mars): 25
+Resist (Jupiter): 48
+Resist (Mercury): 48
+
+Items Obtained: 94 Coins, Herb
+EXP Gained: 60
+
+-------------------------------------------------------------------------------
+
+087. Clay Gargoyle
+Found: Altmiller Cave
+
+HP: 209
+PP: 24
+Attack: 210
+Defense: 90
+Agility: 84
+Luck: 7
+Turns: 1
+
+Power (Venus): 100
+Power (Mars): 100
+Power (Jupiter): 95
+Power (Mercury): 100
+
+Resist (Venus): 48
+Resist (Mars): 100
+Resist (Jupiter): 127
+Resist (Mercury): 100
+
+Items Obtained: 147 Coins, Nut
+EXP Gained: 100
+
+-------------------------------------------------------------------------------
+
+088. Wight
+Found: Altmiller Cave
+
+HP: 192
+PP: 0
+Attack: 205
+Defense: 55
+Agility: 54
+Luck: 2
+Turns: 1
+
+Power (Venus): 100
+Power (Mars): 80
+Power (Jupiter): 80
+Power (Mercury): 95
+
+Resist (Venus): 25
+Resist (Mars): 7
+Resist (Jupiter): 48
+Resist (Mercury): 72
+
+Items Obtained: 115 Coins, Elixir
+EXP Gained: 92
+
+-------------------------------------------------------------------------------
+
+089. Golem
+Found: Altmiller Cave
+
+HP: 266
+PP: 0
+Attack: 217
+Defense: 57
+Agility: 40
+Luck: 2
+Turns: 1
+
+Power (Venus): 120
+Power (Mars): 95
+Power (Jupiter): 80
+Power (Mercury): 95
+
+Resist (Venus): 193
+Resist (Mars): 100
+Resist (Jupiter): 25
+Resist (Mercury): 100
+
+Items Obtained: 161 Coins, Vial
+EXP Gained: 105
+
+-------------------------------------------------------------------------------
+
+090. Mimic (6)
+Found: Altmiller Cave
+
+HP: 767
+PP: 48
+Attack: 227
+Defense: 63
+Agility: 104
+Luck: 15
+Turns: 1
+
+Power (Venus): 95
+Power (Mars): 75
+Power (Jupiter): 105
+Power (Mercury): 100
+
+Resist (Venus): 100
+Resist (Mars): 25
+Resist (Jupiter): 152
+Resist (Mercury): 127
+
+Items Obtained: 415 Coins, Water of Life
+EXP Gained: 374
+
+-------------------------------------------------------------------------------
+
+091. Jupiter Djinni (Squall)
+Found: Altmiller Cave
+
+HP: 481
+PP: 40
+Attack: 205
+Defense: 45
+Agility: 120
+Luck: 14
+Turns: 1
+
+Power (Venus): 80
+Power (Mars): 95
+Power (Jupiter): 120
+Power (Mercury): 95
+
+Resist (Venus): 25
+Resist (Mars): 100
+Resist (Jupiter): 193
+Resist (Mercury): 100
+
+Items Obtained: 352 Coins
+EXP Gained: 295
+
+-------------------------------------------------------------------------------
+
+092. Azart
+Found: Colosso
+
+HP: 450
+PP: 0
+Attack: 206
+Defense: 2 (if race is won), 20 (if race is lost)
+Agility: 62
+Luck: 9
+Turns: 1
+
+Power (Venus): 80
+Power (Mars): 80
+Power (Jupiter): 80
+Power (Mercury): 80
+
+Resist (Venus): 90
+Resist (Mars): 90
+Resist (Jupiter): 90
+Resist (Mercury): 90
+
+Items Obtained: N/A
+EXP Gained: N/A
+
+-------------------------------------------------------------------------------
+
+093. Satrage
+Found: Colosso
+
+HP: 570
+PP: 0
+Attack: 228
+Defense: 6 (if race is won), 28 (if race is lost)
+Agility: 73
+Luck: 12
+Turns: 1
+
+Power (Venus): 80
+Power (Mars): 80
+Power (Jupiter): 80
+Power (Mercury): 80
+
+Resist (Venus): 90
+Resist (Mars): 90
+Resist (Jupiter): 90
+Resist (Mercury): 90
+
+Items Obtained: N/A
+EXP Gained: N/A
+
+-------------------------------------------------------------------------------
+
+094. Navampa
+Found: Colosso
+
+HP: 820
+PP: 0
+Attack: 232 (if race is won), 274 (if race is lost)
+Defense: 54
+Agility: 84
+Luck: 16
+Turns: 1
+
+Power (Venus): 80
+Power (Mars): 80
+Power (Jupiter): 80
+Power (Mercury): 80
+
+Resist (Venus): 90
+Resist (Mars): 90
+Resist (Jupiter): 90
+Resist (Mercury): 90
+
+Items Obtained: N/A
+EXP Gained: N/A
+
+-------------------------------------------------------------------------------
+
+095. Warrior Bee
+Found: World Map, Gondowan Cave
+
+HP: 164
+PP: 0
+Attack: 221
+Defense: 65
+Agility: 102
+Luck: 5
+Turns: 1
+
+Power (Venus): 90
+Power (Mars): 95
+Power (Jupiter): 105
+Power (Mercury): 90
+
+Resist (Venus): 100
+Resist (Mars): 48
+Resist (Jupiter): 7
+Resist (Mercury): 48
+
+Items Obtained: 104 Coins, Elixir
+EXP Gained: 65
+
+-------------------------------------------------------------------------------
+
+096. Dirty Ape
+Found: World Map, Gondowan Cave
+
+HP: 230
+PP: 0
+Attack: 236
+Defense: 57
+Agility: 132
+Luck: 2
+Turns: 1
+
+Power (Venus): 100
+Power (Mars): 70
+Power (Jupiter): 80
+Power (Mercury): 80
+
+Resist (Venus): 72
+Resist (Mars): 25
+Resist (Jupiter): 127
+Resist (Mercury): 25
+
+Items Obtained: 149 Coins, Herb
+EXP Gained: 114
+
+-------------------------------------------------------------------------------
+
+097. Kobold
+Found: World Map, Lunpa Fortress, Gondowan Cave, Suhalla Desert
+
+HP: 220
+PP: 0
+Attack: 230
+Defense: 62
+Agility: 75
+Luck: 4
+Turns: 1
+
+Power (Venus): 100
+Power (Mars): 85
+Power (Jupiter): 85
+Power (Mercury): 85
+
+Resist (Venus): 100
+Resist (Mars): 72
+Resist (Jupiter): 48
+Resist (Mercury): 72
+
+Items Obtained: 154 Coins, Sleep Bomb
+EXP Gained: 107
+
+-------------------------------------------------------------------------------
+
+098. Rat Warrior
+Found: World Map, Lunpa Fortress, Gondowan Cave
+
+HP: 208
+PP: 0
+Attack: 226
+Defense: 49
+Agility: 121
+Luck: 3
+Turns: 1
+
+Power (Venus): 85
+Power (Mars): 85
+Power (Jupiter): 85
+Power (Mercury): 100
+
+Resist (Venus): 72
+Resist (Mars): 48
+Resist (Jupiter): 72
+Resist (Mercury): 100
+
+Items Obtained: 160 Coins, Bramble Seed
+EXP Gained: 100
+
+-------------------------------------------------------------------------------
+
+099. Brigand
+Found: Lunpa Fortress
+
+HP: 421
+PP: 0
+Attack: 251
+Defense: 69
+Agility: 104
+Luck: 5
+Turns: 1
+
+Power (Venus): 80
+Power (Mars): 80
+Power (Jupiter): 80
+Power (Mercury): 80
+
+Resist (Venus): 72
+Resist (Mars): 72
+Resist (Jupiter): 72
+Resist (Mercury): 72
+
+Items Obtained: 190 Coins, Crystal Powder
+EXP Gained: 162
+
+-------------------------------------------------------------------------------
+
+100. Vile Dirge
+Found: World Map, Lunpa Fortress, Suhalla Desert
+
+HP: 173
+PP: 0
+Attack: 228
+Defense: 56
+Agility: 120
+Luck: 2
+Turns: 1
+
+Power (Venus): 95
+Power (Mars): 95
+Power (Jupiter): 110
+Power (Mercury): 95
+
+Resist (Venus): 127
+Resist (Mars): 48
+Resist (Jupiter): 7
+Resist (Mercury): 72
+
+Items Obtained: 98 Coins, Weasel's Claw
+EXP Gained: 75
+
+-------------------------------------------------------------------------------
+
+101. Toadonpa
+Found: Lunpa Fortress
+
+HP: 2800
+PP: 80
+Attack: 266
+Defense: 52
+Agility: 82
+Luck: 18
+Turns: 1
+
+Power (Venus): 95
+Power (Mars): 85
+Power (Jupiter): 95
+Power (Mercury): 115
+
+Resist (Venus): 100
+Resist (Mars): 25
+Resist (Jupiter): 100
+Resist (Mercury): 175
+
+Items Obtained: 3200 Coins, Psy Crystal
+EXP Gained: 999
+
+-------------------------------------------------------------------------------
+
+102. Orc Captain
+Found: World Map, Suhalla Desert
+
+HP: 231
+PP: 0
+Attack: 248
+Defense: 69
+Agility: 90
+Luck: 4
+Turns: 1
+
+Power (Venus): 100
+Power (Mars): 85
+Power (Jupiter): 85
+Power (Mercury): 85
+
+Resist (Venus): 100
+Resist (Mars): 72
+Resist (Jupiter): 48
+Resist (Mercury): 72
+
+Items Obtained: 142 Coins, Smoke Bomb
+EXP Gained: 125
+
+-------------------------------------------------------------------------------
+
+103. Stone Soldier
+Found: Suhalla Desert, Crossbone Isle
+
+HP: 179
+PP: 6
+Attack: 241
+Defense: 105
+Agility: 104
+Luck: 5
+Turns: 1
+
+Power (Venus): 95
+Power (Mars): 125
+Power (Jupiter): 95
+Power (Mercury): 75
+
+Resist (Venus): 48
+Resist (Mars): 127
+Resist (Jupiter): 48
+Resist (Mercury): 7
+
+Items Obtained: 98 Coins, Elixir
+EXP Gained: 98
+
+-------------------------------------------------------------------------------
+
+104. Roach
+Found: Suhalla Desert
+
+HP: 211
+PP: 27
+Attack: 252
+Defense: 72
+Agility: 92
+Luck: 4
+Turns: 1
+
+Power (Venus): 95
+Power (Mars): 115
+Power (Jupiter): 95
+Power (Mercury): 85
+
+Resist (Venus): 100
+Resist (Mars): 175
+Resist (Jupiter): 100
+Resist (Mercury): 25
+
+Items Obtained: 120 Coins, Bramble Seed
+EXP Gained: 144
+
+-------------------------------------------------------------------------------
+
+105. Harridan
+Found: Suhalla Desert, Crossbone Isle
+
+HP: 231
+PP: 29
+Attack: 261
+Defense: 66
+Agility: 118
+Luck: 8
+Turns: 1
+
+Power (Venus): 95
+Power (Mars): 95
+Power (Jupiter): 110
+Power (Mercury): 95
+
+Resist (Venus): 175
+Resist (Mars): 72
+Resist (Jupiter): 25
+Resist (Mercury): 100
+
+Items Obtained: 164 Coins, Nut
+EXP Gained: 150
+
+-------------------------------------------------------------------------------
+
+106. Acid Maggot
+Found: Suhalla Desert
+
+HP: 160
+PP: 0
+Attack: 255
+Defense: 60
+Agility: 78
+Luck: 2
+Turns: 1
+
+Power (Venus): 95
+Power (Mars): 90
+Power (Jupiter): 85
+Power (Mercury): 85
+
+Resist (Venus): 48
+Resist (Mars): 25
+Resist (Jupiter): 48
+Resist (Mercury): 48
+
+Items Obtained: 102 Coins, Sleep Bomb
+EXP Gained: 86
+
+-------------------------------------------------------------------------------
+
+107. Magicore
+Found: Suhalla Desert
+
+HP: 321
+PP: 34
+Attack: 253
+Defense: 74
+Agility: 109
+Luck: 11
+Turns: 1
+
+Power (Venus): 95
+Power (Mars): 115
+Power (Jupiter): 95
+Power (Mercury): 85
+
+Resist (Venus): 100
+Resist (Mars): 175
+Resist (Jupiter): 100
+Resist (Mercury): 25
+
+Items Obtained: 208 Coins, Aura Gloves
+EXP Gained: 169
+
+-------------------------------------------------------------------------------
+
+108. Brutal Troll
+Found: World Map, Suhalla Desert
+
+HP: 291
+PP: 0
+Attack: 273
+Defense: 63
+Agility: 76
+Luck: 6
+Turns: 1
+
+Power (Venus): 100
+Power (Mars): 70
+Power (Jupiter): 80
+Power (Mercury): 80
+
+Resist (Venus): 48
+Resist (Mars): 25
+Resist (Jupiter): 72
+Resist (Mercury): 48
+
+Items Obtained: 190 Coins, Nut
+EXP Gained: 150
+-------------------------------------------------------------------------------
+
+109. Mimic (7)
+Found: Suhalla Desert
+
+HP: 997
+PP: 60
+Attack: 303
+Defense: 94
+Agility: 139
+Luck: 17
+Turns: 1
+
+Power (Venus): 95
+Power (Mars): 75
+Power (Jupiter): 105
+Power (Mercury): 100
+
+Resist (Venus): 100
+Resist (Mars): 25
+Resist (Jupiter): 152
+Resist (Mercury): 127
+
+Items Obtained: 547 Coins, Water of Life
+EXP Gained: 669
+
+-------------------------------------------------------------------------------
+
+110. Mars Djinni (Flash)
+Found: Suhalla Desert
+
+HP: 592
+PP: 52
+Attack: 253
+Defense: 65
+Agility: 151
+Luck: 17
+Turns: 1
+
+Power (Venus): 95
+Power (Mars): 125
+Power (Jupiter): 95
+Power (Mercury): 75
+
+Resist (Venus): 100
+Resist (Mars): 193
+Resist (Jupiter): 100
+Resist (Mercury): 25
+
+Items Obtained: 445 Coins
+EXP Gained: 460
+
+-------------------------------------------------------------------------------
+
+111. Tornado Lizard
+Found: Suhalla Desert
+
+HP: 530
+PP: 37
+Attack: 267
+Defense: 74
+Agility: 104
+Luck: 18
+Turns: 1
+
+Power (Venus): 90
+Power (Mars): 95
+Power (Jupiter): 110
+Power (Mercury): 95
+
+Resist (Venus): 48
+Resist (Mars): 100
+Resist (Jupiter): 152
+Resist (Mercury): 100
+
+Items Obtained: 477 Coins, Weasel's Claw
+EXP Gained: 620
+
+-------------------------------------------------------------------------------
+
+112. Storm Lizard
+Found: Suhalla Desert
+
+HP: 2900
+PP: 42
+Attack: 291
+Defense: 86
+Agility: 112
+Luck: 22
+Turns: 2
+
+Power (Venus): 90
+Power (Mars): 95
+Power (Jupiter): 110
+Power (Mercury): 95
+
+Resist (Venus): 48
+Resist (Mars): 100
+Resist (Jupiter): 152
+Resist (Mercury): 100
+
+Items Obtained: 6100 Coins, Psy Crystal
+EXP Gained: 1300
+
+-------------------------------------------------------------------------------
+
+113. Tempest Lizard
+Found: Suhalla Desert
+
+HP: 3000
+PP: 45
+Attack: 295
+Defense: 94
+Agility: 114
+Luck: 26
+Turns: 2
+
+Power (Venus): 90
+Power (Mars): 95
+Power (Jupiter): 110
+Power (Mercury): 95
+
+Resist (Venus): 48
+Resist (Mars): 100
+Resist (Jupiter): 152
+Resist (Mercury): 100
+
+Items Obtained: 6400 Coins, Potion
+EXP Gained: 1360
+
+-------------------------------------------------------------------------------
+
+114. Earth Golem
+Found: Suhalla Gate, Venus Lighthouse
+
+HP: 298
+PP: 0
+Attack: 299
+Defense: 114
+Agility: 70
+Luck: 5
+Turns: 1
+
+Power (Venus): 120
+Power (Mars): 95
+Power (Jupiter): 80
+Power (Mercury): 95
+
+Resist (Venus): 193
+Resist (Mars): 100
+Resist (Jupiter): 25
+Resist (Mercury): 100
+
+Items Obtained: 183 Coins, Giant Axe
+EXP Gained: 218
+
+-------------------------------------------------------------------------------
+
+115. Goblin
+Found: Suhalla Gate
+
+HP: 268
+PP: 0
+Attack: 289
+Defense: 91
+Agility: 83
+Luck: 3
+Turns: 1
+
+Power (Venus): 100
+Power (Mars): 85
+Power (Jupiter): 85
+Power (Mercury): 85
+
+Resist (Venus): 100
+Resist (Mars): 72
+Resist (Jupiter): 72
+Resist (Mercury): 48
+
+Items Obtained: 170 Coins, Vial
+EXP Gained: 221
+
+-------------------------------------------------------------------------------
+
+116. Cannibal Ghoul
+Found: Suhalla Gate
+
+HP: 249
+PP: 0
+Attack: 274
+Defense: 82
+Agility: 80
+Luck: 4
+Turns: 1
+
+Power (Venus): 100
+Power (Mars): 80
+Power (Jupiter): 80
+Power (Mercury): 95
+
+Resist (Venus): 25
+Resist (Mars): 7
+Resist (Jupiter): 48
+Resist (Mercury): 72
+
+Items Obtained: 160 Coins, Antidote
+EXP Gained: 194
+
+-------------------------------------------------------------------------------
+
+117. Nightmare
+Found: Suhalla Gate, Road to Babi Lighthouse, Venus Lighthouse
+
+HP: 258
+PP: 28
+Attack: 287
+Defense: 89
+Agility: 138
+Luck: 13
+Turns: 1
+
+Power (Venus): 85
+Power (Mars): 85
+Power (Jupiter): 100
+Power (Mercury): 85
+
+Resist (Venus): 72
+Resist (Mars): 100
+Resist (Jupiter): 127
+Resist (Mercury): 100
+
+Items Obtained: 198 Coins, Healing Ring
+EXP Gained: 241
+
+-------------------------------------------------------------------------------
+
+118. Horned Ghost
+Found: Suhalla Gate, Venus Lighthouse
+
+HP: 236
+PP: 32
+Attack: 268
+Defense: 78
+Agility: 116
+Luck: 5
+Turns: 1
+
+Power (Venus): 100
+Power (Mars): 95
+Power (Jupiter): 95
+Power (Mercury): 95
+
+Resist (Venus): 48
+Resist (Mars): 72
+Resist (Jupiter): 7
+Resist (Mercury): 100
+
+Items Obtained: 166 Coins, Elixir
+EXP Gained: 199
+
+-------------------------------------------------------------------------------
+
+119. Gnome Wizard
+Found: Road to Babi Lighthouse, Suhalla Gate, Venus Lighthouse
+
+HP: 215
+PP: 32
+Attack: 257
+Defense: 74
+Agility: 122
+Luck: 8
+Turns: 1
+
+Power (Venus): 100
+Power (Mars): 85
+Power (Jupiter): 85
+Power (Mercury): 85
+
+Resist (Venus): 100
+Resist (Mars): 72
+Resist (Jupiter): 48
+Resist (Mercury): 72
+
+Items Obtained: 176 Coins, Crystal Powder
+EXP Gained: 219
+
+-------------------------------------------------------------------------------
+
+120. Mole Mage
+Found: Suhalla Gate
+
+HP: 199
+PP: 14
+Attack: 265
+Defense: 47
+Agility: 74
+Luck: 4
+Turns: 1
+
+Power (Venus): 100
+Power (Mars): 70
+Power (Jupiter): 80
+Power (Mercury): 80
+
+Resist (Venus): 48
+Resist (Mars): 25
+Resist (Jupiter): 72
+Resist (Mercury): 48
+
+Items Obtained: 132 Coins, Antidote
+EXP Gained: 191
+
+-------------------------------------------------------------------------------
+
+121. Mercury Djinni (Dew)
+Found: Suhalla Gate
+
+HP: 654
+PP: 59
+Attack: 281
+Defense: 77
+Agility: 122
+Luck: 19
+Turns: 1
+
+Power (Venus): 95
+Power (Mars): 75
+Power (Jupiter): 95
+Power (Mercury): 125
+
+Resist (Venus): 100
+Resist (Mars): 25
+Resist (Jupiter): 100
+Resist (Mercury): 193
+
+Items Obtained: 484 Coins
+EXP Gained: 606
+
+-------------------------------------------------------------------------------
+
+122. Wild Gryphon
+Found: Road to Babi Lighthouse, Tunnel Ruins, Venus Lighthouse
+
+HP: 370
+PP: 8
+Attack: 332
+Defense: 112
+Agility: 170
+Luck: 10
+Turns: 1
+
+Power (Venus): 90
+Power (Mars): 95
+Power (Jupiter): 110
+Power (Mercury): 95
+
+Resist (Venus): 152
+Resist (Mars): 72
+Resist (Jupiter): 48
+Resist (Mercury): 110
+
+Items Obtained: 290 Coins, Feathered Robe
+EXP Gained: 322
+
+-------------------------------------------------------------------------------
+
+123. Manticore King
+Found: Road to Babi Lighthouse, Tunnel Ruins, Venus Lighthouse
+
+HP: 348
+PP: 33
+Attack: 317
+Defense: 106
+Agility: 134
+Luck: 12
+Turns: 1
+
+Power (Venus): 95
+Power (Mars): 115
+Power (Jupiter): 95
+Power (Mercury): 85
+
+Resist (Venus): 100
+Resist (Mars): 175
+Resist (Jupiter): 100
+Resist (Mercury): 25
+
+Items Obtained: 240 Coins, Psy Crystal
+EXP Gained: 342
+
+-------------------------------------------------------------------------------
+
+124. Willowisp
+Found: Road to Babi Lighthouse, Tunnel Ruins, Venus Lighthouse
+
+HP: 209
+PP: 12
+Attack: 279
+Defense: 87
+Agility: 121
+Luck: 6
+Turns: 1
+
+Power (Venus): 100
+Power (Mars): 80
+Power (Jupiter): 100
+Power (Mercury): 95
+
+Resist (Venus): 25
+Resist (Mars): 72
+Resist (Jupiter): 48
+Resist (Mercury): 127
+
+Items Obtained: 160 Coins, Nut
+EXP Gained: 227
+
+-------------------------------------------------------------------------------
+
+125. Plated Rat
+Found: Road to Babi Lighthouse, Tunnel Ruins
+
+HP: 203
+PP: 0
+Attack: 262
+Defense: 130
+Agility: 61
+Luck: 2
+Turns: 1
+
+Power (Venus): 100
+Power (Mars): 70
+Power (Jupiter): 80
+Power (Mercury): 80
+
+Resist (Venus): 48
+Resist (Mars): 25
+Resist (Jupiter): 72
+Resist (Mercury): 48
+
+Items Obtained: 135 Coins, Elixir
+EXP Gained: 208
+
+-------------------------------------------------------------------------------
+
+126. Chimera Mage
+Found: Road to Babi Lighthouse, Tunnel Ruins, Venus Lighthouse
+
+HP: 413
+PP: 28
+Attack: 326
+Defense: 119
+Agility: 145
+Luck: 16
+Turns: 1
+
+Power (Venus): 95
+Power (Mars): 115
+Power (Jupiter): 95
+Power (Mercury): 85
+
+Resist (Venus): 100
+Resist (Mars): 175
+Resist (Jupiter): 100
+Resist (Mercury): 25
+
+Items Obtained: 300 Coins, Spiked Armor
+EXP Gained: 362
+
+-------------------------------------------------------------------------------
+
+127. Ice Gargoyle
+Found: Road to Babi Lighthouse, Tunnel Ruins, Venus Lighthouse
+
+HP: 304
+PP: 21
+Attack: 319
+Defense: 150
+Agility: 100
+Luck: 7
+Turns: 1
+
+Power (Venus): 100
+Power (Mars): 100
+Power (Jupiter): 95
+Power (Mercury): 100
+
+Resist (Venus): 48
+Resist (Mars): 100
+Resist (Jupiter): 127
+Resist (Mercury): 100
+
+Items Obtained: 170 Coins, Potion
+EXP Gained: 307
+
+-------------------------------------------------------------------------------
+
+128. Skull Warrior
+Found: Road to Babi Lighthouse, Tunnel Ruins, Venus Lighthouse
+
+HP: 283
+PP: 16
+Attack: 322
+Defense: 112
+Agility: 130
+Luck: 5
+Turns: 1
+
+Power (Venus): 100
+Power (Mars): 80
+Power (Jupiter): 80
+Power (Mercury): 95
+
+Resist (Venus): 25
+Resist (Mars): 72
+Resist (Jupiter): 48
+Resist (Mercury): 127
+
+Items Obtained: 188 Coins, Vial
+EXP Gained: 301
+
+-------------------------------------------------------------------------------
+
+129. Orc Lord
+Found: Road to Babi Lighthouse, Tunnel Ruins
+
+HP: 278
+PP: 18
+Attack: 302
+Defense: 98
+Agility: 70
+Luck: 3
+Turns: 1
+
+Power (Venus): 100
+Power (Mars): 85
+Power (Jupiter): 85
+Power (Mercury): 85
+
+Resist (Venus): 127
+Resist (Mars): 100
+Resist (Jupiter): 72
+Resist (Mercury): 100
+
+Items Obtained: 198 Coins, Lucky Medal
+EXP Gained: 260
+
+-------------------------------------------------------------------------------
+
+130. Jupiter Djinni (Luff)
+Found: Babi Lighthouse
+
+HP: 688
+PP: 62
+Attack: 302
+Defense: 85
+Agility: 177
+Luck: 21
+Turns: 1
+
+Power (Venus): 80
+Power (Mars): 95
+Power (Jupiter): 120
+Power (Mercury): 95
+
+Resist (Venus): 25
+Resist (Mars): 100
+Resist (Jupiter): 193
+Resist (Mercury): 100
+
+Items Obtained: 506 Coins
+EXP Gained: 677
+
+-------------------------------------------------------------------------------
+
+131. Grand Golem
+Found: Venus Lighthouse
+
+HP: 476
+PP: 0
+Attack: 367
+Defense: 149
+Agility: 80
+Luck: 5
+Turns: 1
+
+Power (Venus): 120
+Power (Mars): 95
+Power (Jupiter): 80
+Power (Mercury): 95
+
+Resist (Venus): 193
+Resist (Mars): 100
+Resist (Jupiter): 25
+Resist (Mercury): 100
+
+Items Obtained: 208 Coins, Zodiac Wand
+EXP Gained: 412
+
+-------------------------------------------------------------------------------
+
+132. Recluse
+Found: Venus Lighthouse
+
+HP: 221
+PP: 0
+Attack: 323
+Defense: 122
+Agility: 109
+Luck: 4
+Turns: 1
+
+Power (Venus): 95
+Power (Mars): 90
+Power (Jupiter): 85
+Power (Mercury): 85
+
+Resist (Venus): 48
+Resist (Mars): 25
+Resist (Jupiter): 48
+Resist (Mercury): 48
+
+Items Obtained: 153 Coins, Unicorn Ring
+EXP Gained: 243
+
+-------------------------------------------------------------------------------
+
+133. Boulder Beast
+Found: Venus Lighthouse
+
+HP: 211
+PP: 14
+Attack: 327
+Defense: 127
+Agility: 140
+Luck: 6
+Turns: 1
+
+Power (Venus): 95
+Power (Mars): 125
+Power (Jupiter): 95
+Power (Mercury): 75
+
+Resist (Venus): 100
+Resist (Mars): 193
+Resist (Jupiter): 100
+Resist (Mercury): 25
+
+Items Obtained: 164 Coins, Water of Life
+EXP Gained: 278
+
+-------------------------------------------------------------------------------
+
+134. Thunder Lizard
+Found: Venus Lighthouse, Crossbone Isle
+
+HP: 456
+PP: 0
+Attack: 347
+Defense: 133
+Agility: 134
+Luck: 10
+Turns: 1
+
+Power (Venus): 80
+Power (Mars): 95
+Power (Jupiter): 120
+Power (Mercury): 95
+
+Resist (Venus): 25
+Resist (Mars): 100
+Resist (Jupiter): 193
+Resist (Mercury): 100
+
+Items Obtained: 221 Coins, Blessed Mace
+EXP Gained: 422
+
+-------------------------------------------------------------------------------
+
+135. Fenrir
+Found: Venus Lighthouse
+
+HP: 406
+PP: 0
+Attack: 357
+Defense: 125
+Agility: 141
+Luck: 9
+Turns: 1
+
+Power (Venus): 95
+Power (Mars): 85
+Power (Jupiter): 95
+Power (Mercury): 115
+
+Resist (Venus): 100
+Resist (Mars): 25
+Resist (Jupiter): 100
+Resist (Mercury): 175
+
+Items Obtained: 212 Coins, Kikuichimonji
+EXP Gained: 402
+
+-------------------------------------------------------------------------------
+
+136. Saturos
+Found: Venus Lighthouse
+
+HP: 3000
+PP: 260
+Attack: 409
+Defense: 140
+Agility: 160
+Luck: 50
+Turns: 1
+
+Power (Venus): 100
+Power (Mars): 110
+Power (Jupiter): 100
+Power (Mercury): 90
+
+Resist (Venus): 100
+Resist (Mars): 175
+Resist (Jupiter): 127
+Resist (Mercury): 72
+
+Items Obtained: 3600 Coins
+EXP Gained: 3000
+
+-------------------------------------------------------------------------------
+
+137. Menardi
+Found: Venus Lighthouse
+
+HP: 2600
+PP: 300
+Attack: 389
+Defense: 134
+Agility: 220
+Luck: 50
+Turns: 1
+
+Power (Venus): 100
+Power (Mars): 105
+Power (Jupiter): 100
+Power (Mercury): 95
+
+Resist (Venus): 127
+Resist (Mars): 175
+Resist (Jupiter): 100
+Resist (Mercury): 72
+
+Items Obtained: 4200 Coins
+EXP Gained: 3000
+
+-------------------------------------------------------------------------------
+
+138. Fusion Dragon
+Found: Venus Lighthouse
+
+HP: 5000
+PP: 500
+Attack: 439
+Defense: 150
+Agility: 190
+Luck: 50
+Turns: 2
+
+Power (Venus): 100
+Power (Mars): 110
+Power (Jupiter): 100
+Power (Mercury): 95
+
+Resist (Venus): 127
+Resist (Mars): 175
+Resist (Jupiter): 127
+Resist (Mercury): 72
+
+Items Obtained: N/A
+EXP Gained: N/A
+
+-------------------------------------------------------------------------------
+
+139. Hobgoblin
+Found: Crossbone Isle
+
+HP: 650
+PP: 0
+Attack: 203
+Defense: 54
+Agility: 65
+Luck: 9
+Turns: 1
+
+Power (Venus): 100
+Power (Mars): 85
+Power (Jupiter): 85
+Power (Mercury): 85
+
+Resist (Venus): 127
+Resist (Mars): 100
+Resist (Jupiter): 72
+Resist (Mercury): 100
+
+Items Obtained: 800 Coins, Lucky Medal
+EXP Gained: 223
+
+-------------------------------------------------------------------------------
+
+140. Mimic (8)
+Found: Crossbone Isle
+
+HP: 729
+PP: 44
+Attack: 214
+Defense: 59
+Agility: 97
+Luck: 14
+Turns: 1
+
+Power (Venus): 95
+Power (Mars): 75
+Power (Jupiter): 105
+Power (Mercury): 100
+
+Resist (Venus): 100
+Resist (Mars): 25
+Resist (Jupiter): 152
+Resist (Mercury): 127
+
+Items Obtained: 386 Coins, Potion
+EXP Gained: 347
+
+-------------------------------------------------------------------------------
+
+141. Grisly
+Found: Crossbone Isle
+
+HP: 800
+PP: 0
+Attack: 208
+Defense: 63
+Agility: 78
+Luck: 13
+Turns: 1
+
+Power (Venus): 100
+Power (Mars): 70
+Power (Jupiter): 80
+Power (Mercury): 80
+
+Resist (Venus): 72
+Resist (Mars): 25
+Resist (Jupiter): 127
+Resist (Mercury): 72
+
+Items Obtained: 700 Coins, Potion
+EXP Gained: 243
+
+-------------------------------------------------------------------------------
+
+142. Succubus
+Found: Crossbone Isle
+
+HP: 529
+PP: 56
+Attack: 195
+Defense: 49
+Agility: 101
+Luck: 12
+Turns: 1
+
+Power (Venus): 85
+Power (Mars): 85
+Power (Jupiter): 85
+Power (Mercury): 100
+
+Resist (Venus): 100
+Resist (Mars): 72
+Resist (Jupiter): 100
+Resist (Mercury): 127
+
+Items Obtained: 143 Coins, Crystal Powder
+EXP Gained: 101
+
+-------------------------------------------------------------------------------
+
+143. Lich
+Found: Crossbone Isle
+
+HP: 900
+PP: 52
+Attack: 192
+Defense: 48
+Agility: 106
+Luck: 15
+Turns: 1
+
+Power (Venus): 100
+Power (Mars): 95
+Power (Jupiter): 95
+Power (Mercury): 95
+
+Resist (Venus): 72
+Resist (Mars): 100
+Resist (Jupiter): 25
+Resist (Mercury): 152
+
+Items Obtained: 1200 Coins, Psy Crystal
+EXP Gained: 263
+
+-------------------------------------------------------------------------------
+
+144. Fiendish Ghoul
+Found: Crossbone Isle
+
+HP: 609
+PP: 0
+Attack: 199
+Defense: 45
+Agility: 69
+Luck: 3
+Turns: 1
+
+Power (Venus): 100
+Power (Mars): 80
+Power (Jupiter): 80
+Power (Mercury): 95
+
+Resist (Venus): 25
+Resist (Mars): 7
+Resist (Jupiter): 48
+Resist (Mercury): 72
+
+Items Obtained: 109 Coins, Antidote
+EXP Gained: 87
+
+-------------------------------------------------------------------------------
+
+145. Gryphon
+Found: Crossbone Isle
+
+HP: 1100
+PP: 36
+Attack: 213
+Defense: 56
+Agility: 98
+Luck: 19
+Turns: 1
+
+Power (Venus): 90
+Power (Mars): 90
+Power (Jupiter): 110
+Power (Mercury): 95
+
+Resist (Venus): 152
+Resist (Mars): 72
+Resist (Jupiter): 48
+Resist (Mercury): 110
+
+Items Obtained: 1900 Coins, Potion
+EXP Gained: 303
+
+-------------------------------------------------------------------------------
+
+146. Lizard King
+Found: Crossbone Isle
+
+HP: 2000
+PP: 52
+Attack: 285
+Defense: 93
+Agility: 92
+Luck: 13
+Turns: 1
+
+Power (Venus): 85
+Power (Mars): 85
+Power (Jupiter): 85
+Power (Mercury): 100
+
+Resist (Venus): 100
+Resist (Mars): 72
+Resist (Jupiter): 100
+Resist (Mercury): 127
+
+Items Obtained: 1200 Coins, Psy Crystal
+EXP Gained: 535
+
+-------------------------------------------------------------------------------
+
+147. Chimera
+Found: Crossbone Isle
+
+HP: 1350
+PP: 48
+Attack: 294
+Defense: 90
+Agility: 121
+Luck: 18
+Turns: 1
+
+Power (Venus): 95
+Power (Mars): 115
+Power (Jupiter): 95
+Power (Mercury): 85
+
+Resist (Venus): 100
+Resist (Mars): 175
+Resist (Jupiter): 100
+Resist (Mercury): 25
+
+Items Obtained: 800 Coins, Potion
+EXP Gained: 465
+
+-------------------------------------------------------------------------------
+
+148. Earth Lizard
+Found: Crossbone Isle
+
+HP: 1550
+PP: 48
+Attack: 278
+Defense: 97
+Agility: 102
+Luck: 17
+Turns: 1
+
+Power (Venus): 120
+Power (Mars): 95
+Power (Jupiter): 80
+Power (Mercury): 95
+
+Resist (Venus): 193
+Resist (Mars): 100
+Resist (Jupiter): 25
+Resist (Mercury): 100
+
+Items Obtained: 920 Coins, Water of Life
+EXP Gained: 545
+
+-------------------------------------------------------------------------------
+
+149. Poison Toad
+Found: Crossbone Isle
+
+HP: 2250
+PP: 0
+Attack: 363
+Defense: 97
+Agility: 93
+Luck: 20
+Turns: 1
+
+Power (Venus): 95
+Power (Mars): 85
+Power (Jupiter): 95
+Power (Mercury): 115
+
+Resist (Venus): 100
+Resist (Mars): 25
+Resist (Jupiter): 100
+Resist (Mercury): 175
+
+Items Obtained: 2200 Coins, Water of Life
+EXP Gained: 1732
+
+-------------------------------------------------------------------------------
+
+150. Cerebus
+Found: Crossbone Isle
+
+HP: 2200
+PP: 42
+Attack: 369
+Defense: 130
+Agility: 151
+Luck: 22
+Turns: 1
+
+Power (Venus): 95
+Power (Mars): 85
+Power (Jupiter): 95
+Power (Mercury): 115
+
+Resist (Venus): 100
+Resist (Mars): 25
+Resist (Jupiter): 100
+Resist (Mercury): 175
+
+Items Obtained: 3200 Coins, Psy Crystal
+EXP Gained: 1863
+
+-------------------------------------------------------------------------------
+
+151. Mimic (9)
+Found: Crossbone Isle
+
+HP: 1206
+PP: 68
+Attack: 367
+Defense: 126
+Agility: 167
+Luck: 18
+Turns: 1
+
+Power (Venus): 95
+Power (Mars): 75
+Power (Jupiter): 105
+Power (Mercury): 100
+
+Resist (Venus): 100
+Resist (Mars): 25
+Resist (Jupiter): 152
+Resist (Mercury): 127
+
+Items Obtained: 643 Coins, Potion
+EXP Gained: 1009
+
+-------------------------------------------------------------------------------
+
+152. Deadbeard
+Found: Crossbone Isle
+
+HP: 6000
+PP: 600
+Attack: 468
+Defense: 178
+Agility: 180
+Luck: 60
+Turns: 2
+
+Power (Venus): 100
+Power (Mars): 120
+Power (Jupiter): 110
+Power (Mercury): 130
+
+Resist (Venus): 72
+Resist (Mars): 127
+Resist (Jupiter): 152
+Resist (Mercury): 193
+
+Items Obtained: 9000 Coins, Water of Life
+EXP Gained: 8000
+
+-------------------------------------------------------------------------------
+
+153. Venus Djinni (???)
+Found: N/A
+
+HP: 623
+PP: 51
+Attack: 271
+Defense: 71
+Agility: 160
+Luck: 18
+Turns: 1
+
+Power (Venus): 120
+Power (Mars): 95
+Power (Jupiter): 80
+Power (Mercury): 95
+
+Resist (Venus): 193
+Resist (Mars): 100
+Resist (Jupiter): 25
+Resist (Mercury): 100
+
+Items Obtained: 464 Coins
+EXP Gained: 534
+
+-------------------------------------------------------------------------------
+
+
+===========
+XIV. Shops
+===========
+
+In this section, I will list all of the shops in the game, along with info
+about them and such.
+
+
+----
+Vale
+----
+
+
+------------------------------------------------
+
+
+Weapon Shop:
+
+Long Sword - 200 Coins
+Short Sword - 120 Coins
+Mace - 80 Coins
+Wooden Stick - 40 Coins
+
+
+------------------------------------------------
+
+
+Armor Shop:
+
+Travel Vest - 50 Coins
+Wooden Shield - 40 Coins
+Leather Cap - 30 Coins
+One-Piece Dress - 25 Coins
+Cotton Shirt - 20 Coins
+Padded Gloves - 10 Coins
+
+
+------------------------------------------------
+
+
+Item Shop:
+
+Herb - 10 Coins
+Antidote - 20 Coins
+
+
+------------------------------------------------
+
+
+-----
+Vault
+-----
+
+
+------------------------------------------------
+
+
+Weapon Shop:
+
+Battle Axe - 280 Coins
+Long Sword - 200 Coins
+Short Sword - 120 Coins
+Mace - 80 Coins
+
+
+------------------------------------------------
+
+
+Armor Shop:
+
+Leather Armlet - 180 Coins
+Circlet - 120 Coins
+Travel Vest - 50 Coins
+Wooden Shield - 40 Coins
+Leather Cap - 30 Coins
+Padded Gloves - 10 Coins
+
+
+------------------------------------------------
+
+
+Item Shop:
+
+Herb - 10 Coins
+Antidote - 20 Coins
+
+
+------------------------------------------------
+
+
+-------
+Bilibin
+-------
+
+
+------------------------------------------------
+
+
+Weapon Shop:
+
+Broad Sword - 1000 Coins
+Hunter's Sword - 520 Coins
+Heavy Mace - 500 Coins
+Battle Axe - 280 Coins
+Long Sword - 200 Coins
+
+
+------------------------------------------------
+
+
+Armor Shop:
+
+Bronze Shield - 500 Coins
+Leather Armor - 240 Coins
+Leather Gloves - 220 Coins
+Travel Robe - 200 Coins
+Open Helm - 180 Coins
+Leather Armlet - 180 Coins
+Travel Vest - 50 Coins
+
+
+------------------------------------------------
+
+
+Item Shop:
+
+Herb - 10 Coins
+Antidote - 20 Coins
+Elixir - 30 Coins
+Sacred Feather - 70 Coins
+
+
+------------------------------------------------
+
+
+----
+Imil
+----
+
+
+------------------------------------------------
+
+
+Weapon Shop:
+
+Hunter's Sword - 520 Coins
+Broad Sword - 1000 Coins
+Heavy Mace - 500 Coins
+Battle Axe - 280 Coins
+
+
+------------------------------------------------
+
+
+Armor Shop:
+
+Adept's Clothes - 850 Coins
+Bronze Shield - 500 Coins
+Leather Armor - 240 Coins
+Wooden Cap - 400 Coins
+Leather Gloves - 220 Coins
+Open Helm - 180 Coins
+Leather Armlet - 180 Coins
+Circlet - 120 Coins
+
+
+------------------------------------------------
+
+
+Item Shop:
+
+Herb - 10 Coins
+Antidote - 20 Coins
+Elixir - 30 Coins
+Sacred Feather - 70 Coins
+
+
+------------------------------------------------
+
+
+------
+Kolima
+------
+
+
+------------------------------------------------
+
+
+Weapon Shop:
+
+Broad Axe - 1400 Coins
+Broad Sword - 1000 Coins
+Hunter's Sword - 520 Coins
+Heavy Mace - 500 Coins
+
+
+------------------------------------------------
+
+
+Armor Shop:
+
+Adept's Clothes - 850 Coins
+Armlet - 900 Coins
+Bronze Helm - 600 Coins
+Bronze Shield - 500 Coins
+Leather Armor - 240 Coins
+Wooden Cap - 400 Coins
+Leather Gloves - 220 Coins
+
+
+------------------------------------------------
+
+
+Item Shop:
+
+Herb - 10 Coins
+Antidote - 20 Coins
+Elixir - 30 Coins
+Sacred Feather - 70 Coins
+
+
+------------------------------------------------
+
+
+----
+Xian
+----
+
+
+------------------------------------------------
+
+
+Weapon Shop:
+
+Battle Rapier - 2900 Coins
+Battle Mace - 2600 Coins
+Broad Axe - 1400 Coins
+Broad Sword - 1000 Coins
+
+
+------------------------------------------------
+
+
+Armor Shop:
+
+Silk Robe - 1400 Coins
+Iron Shield - 1200 Coins
+Adept's Clothes - 850 Coins
+Armlet - 900 Coins
+Silver Circlet - 1300 Coins
+Bronze Helm - 600 Coins
+Wooden Cap - 400 Coins
+
+
+------------------------------------------------
+
+
+Item Shop:
+
+Herb - 10 Coins
+Antidote - 20 Coins
+Elixir - 30 Coins
+Sacred Feather - 70 Coins
+
+
+------------------------------------------------
+
+
+-----
+Altin
+-----
+
+
+------------------------------------------------
+
+
+Weapon Shop:
+
+Claymore - 4000 Coins
+Battle Rapier - 2900 Coins
+Battle Mace - 2600 Coins
+Broad Axe - 1400 Coins
+
+
+------------------------------------------------
+
+
+Armor Shop:
+
+Gauntlets - 1600 Coins
+Silk Robe - 1400 Coins
+Iron Shield - 1200 Coins
+Adept's Clothes - 850 Coins
+Armlet - 900 Coins
+Silver Circlet - 1300 Coins
+Bronze Helm - 600 Coins
+
+
+------------------------------------------------
+
+
+Item Shop:
+
+Herb - 10 Coins
+Antidote - 20 Coins
+Elixir - 30 Coins
+Sacred Feather - 70 Coins
+Nut - 200 Coins
+
+
+------------------------------------------------
+
+
+-----
+Kalay
+-----
+
+
+------------------------------------------------
+
+
+Weapon Shop:
+
+Great Axe - 5200 Coins
+Claymore - 4000 Coins
+Battle Rapier - 2900 Coins
+Battle Mace - 2600 Coins
+
+
+------------------------------------------------
+
+
+Armor Shop:
+
+Jerkin - 2400 Coins
+Chain Mail - 2000 Coins
+Heavy Armlet - 2000 Coins
+Mail Cap - 2000 Coins
+Gauntlets - 1600 Coins
+Iron Shield - 1200 Coins
+
+
+------------------------------------------------
+
+
+Item Shop:
+
+Herb - 10 Coins
+Antidote - 20 Coins
+Elixir - 30 Coins
+Sacred Feather - 70 Coins
+Nut - 200 Coins
+
+
+------------------------------------------------
+
+
+-----
+Tolbi
+-----
+
+
+------------------------------------------------
+
+
+Weapon Shop:
+
+Great Sword - 7000 Coins
+Master Rapier - 6800 Coins
+Great Axe - 5200 Coins
+War Mace - 6200 Coins
+
+
+------------------------------------------------
+
+
+Armor Shop:
+
+Armored Shell - 3600 Coins
+Silver Vest - 3200 Coins
+Jerkin - 2400 Coins
+Guardian Circlet - 3400 Coins
+Heavy Armlet - 2000 Coins
+Gauntlets - 1600 Coins
+Mail Cap - 2000 Coins
+
+
+------------------------------------------------
+
+
+Item Shop:
+
+Herb - 10 Coins
+Antidote - 20 Coins
+Elixir - 30 Coins
+Sacred Feather - 70 Coins
+Nut - 200 Coins
+
+
+------------------------------------------------
+
+
+-----
+Lunpa
+-----
+
+
+------------------------------------------------
+
+
+Weapon Shop:
+
+Great Sword - 7000 Coins
+Master Rapier - 6800 Coins
+Great Axe - 5200 Coins
+War Mace - 6200 Coins
+
+
+------------------------------------------------
+
+
+Armor Shop:
+
+Plate Mail - 4400 Coins
+Silver Armlet - 4000 Coins
+Silver Helm - 3900 Coins
+Plantinum Circlet - 4200 Coins
+
+
+------------------------------------------------
+
+
+Item Shop:
+
+Herb - 10 Coins
+Antidote - 20 Coins
+Elixir - 30 Coins
+Sacred Feather - 70 Coins
+
+
+------------------------------------------------
+
+
+-------
+Suhalla
+-------
+
+
+------------------------------------------------
+
+
+Item Shop:
+
+Herb - 10 Coins
+Antidote - 20 Coins
+Elixir - 30 Coins
+Sacred Feather - 70 Coins
+
+
+------------------------------------------------
+
+
+--------
+Lalivero
+--------
+
+
+------------------------------------------------
+
+
+Weapon Shop:
+
+Great Sword - 7000 Coins
+Master Rapier - 6800 Coins
+Great Axe - 5200 Coins
+War Mace - 6200 Coins
+
+
+------------------------------------------------
+
+
+Armor Shop:
+
+Steel Armor - 4900 Coins
+Knight's Helm - 4600 Coins
+Plantinum Circlet - 4200 Coins
+
+
+------------------------------------------------
+
+
+Item Shop:
+
+Herb - 10 Coins
+Antidote - 20 Coins
+Elixir - 30 Coins
+Sacred Feather - 70 Coins
+
+
+------------------------------------------------

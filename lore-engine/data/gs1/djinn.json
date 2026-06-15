@@ -4,263 +4,640 @@
     "name": "Flint",
     "element": "earth",
     "game": "gs1",
-    "stat_bonus": { "hp": 8, "pp": 4, "atk": 3, "def": 0, "agi": 0, "lck": 0 },
-    "battle_effect": { "damage": "m160%", "range": 1, "special": null },
+    "stat_bonus": {
+      "hp": 8,
+      "pp": 4,
+      "atk": 3,
+      "def": 0,
+      "agi": 0,
+      "lck": 0
+    },
+    "battle_effect": {
+      "damage": "m160%",
+      "range": 1,
+      "special": null
+    },
     "location": {
       "area": "World Map (near Vale)",
       "description": "This Djinni you meet right after you leave Vale, he's the only one who's visible on the world map.",
       "notes": null,
       "source": "fandom-wiki"
     },
-    "sources": ["plz2bstfu", "terence", "fandom-wiki"]
+    "must_fight": false,
+    "sources": [
+      "plz2bstfu",
+      "terence",
+      "fandom-wiki",
+      "telago",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash",
+      "bfgamer"
+    ]
   },
   {
     "id": "granite",
     "name": "Granite",
     "element": "earth",
     "game": "gs1",
-    "stat_bonus": { "hp": 9, "pp": 0, "atk": 0, "def": 2, "agi": 2, "lck": 1 },
-    "battle_effect": { "damage": null, "range": "all", "special": "Divide Damage taken by 2 (Ignores Curative)" },
+    "stat_bonus": {
+      "hp": 9,
+      "pp": 0,
+      "atk": 0,
+      "def": 2,
+      "agi": 2,
+      "lck": 1
+    },
+    "battle_effect": {
+      "damage": null,
+      "range": "all",
+      "special": "Divide Damage taken by 2 (Ignores Curative)"
+    },
     "location": {
       "area": "Kolima",
       "description": "In Kolima, there is a fenced in area with a Djinni.  Go behind the tree house that the fence that surrounds the Djinni connects to.  There will be a secret tunnel leading to it.",
       "notes": null,
       "source": "fandom-wiki"
     },
-    "sources": ["plz2bstfu", "terence", "fandom-wiki"]
+    "must_fight": false,
+    "sources": [
+      "plz2bstfu",
+      "terence",
+      "fandom-wiki",
+      "telago",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash",
+      "bfgamer"
+    ]
   },
   {
     "id": "quartz",
     "name": "Quartz",
     "element": "earth",
     "game": "gs1",
-    "stat_bonus": { "hp": 10, "pp": 3, "atk": 0, "def": 0, "agi": 3, "lck": 0 },
-    "battle_effect": { "damage": null, "range": 1, "special": "Remove 'Downed' : Heal 50% Max HP if 'Downed'" },
+    "stat_bonus": {
+      "hp": 10,
+      "pp": 3,
+      "atk": 0,
+      "def": 0,
+      "agi": 3,
+      "lck": 0
+    },
+    "battle_effect": {
+      "damage": null,
+      "range": 1,
+      "special": "Remove 'Downed' : Heal 50% Max HP if 'Downed'"
+    },
     "location": {
       "area": "Mogall Forest",
       "description": "As you progress through the Mogall Forest, this Djinni will eventually catch your eye.  Solve a simple puzzle to reach it.",
       "notes": null,
       "source": "fandom-wiki"
     },
-    "sources": ["plz2bstfu", "terence", "fandom-wiki"]
+    "must_fight": true,
+    "sources": [
+      "plz2bstfu",
+      "terence",
+      "fandom-wiki",
+      "telago",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash",
+      "torrent-load"
+    ]
   },
   {
     "id": "vine",
     "name": "Vine",
     "element": "earth",
     "game": "gs1",
-    "stat_bonus": { "hp": 12, "pp": 4, "atk": 0, "def": 3, "agi": 0, "lck": 1 },
-    "battle_effect": { "damage": null, "range": "all", "special": "-50% Agility : 50% Max" },
+    "stat_bonus": {
+      "hp": 12,
+      "pp": 4,
+      "atk": 0,
+      "def": 3,
+      "agi": 0,
+      "lck": 1
+    },
+    "battle_effect": {
+      "damage": null,
+      "range": "all",
+      "special": "-50% Agility : 50% Max"
+    },
     "location": {
       "area": "World Map (island past Lamakan Desert)",
       "description": "After you exit the Lamakan Desert, go to the north-western bridge and to the little island in the middle of the circular land formations.  After a few fights, you'll run into a Djinni.  Be prepared.",
       "notes": "Alternatively, the random encounter can happen north of the exit on a brown stripe of land near the end of a path between the river and the mountains.",
       "source": "fandom-wiki"
     },
-    "sources": ["plz2bstfu", "terence", "fandom-wiki"]
+    "must_fight": true,
+    "sources": [
+      "plz2bstfu",
+      "terence",
+      "fandom-wiki",
+      "telago",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash",
+      "torrent-load"
+    ]
   },
   {
     "id": "sap",
     "name": "Sap",
     "element": "earth",
     "game": "gs1",
-    "stat_bonus": { "hp": 10, "pp": 0, "atk": 3, "def": 0, "agi": 0, "lck": 1 },
-    "battle_effect": { "damage": "a50", "range": 1, "special": "Heal [Damage/2] HP" },
+    "stat_bonus": {
+      "hp": 10,
+      "pp": 0,
+      "atk": 3,
+      "def": 0,
+      "agi": 0,
+      "lck": 1
+    },
+    "battle_effect": {
+      "damage": "a50",
+      "range": 1,
+      "special": "Heal [Damage/2] HP"
+    },
     "location": {
       "area": "Vault",
       "description": "In Vault revisited, when you have 'Reveal'(get this in Lama Temple), find the tower in town and ring the bell.  This moves the Djinni to the desired spot.  Now go to the west side of town and climb the steps to the upper part of town, and follow it around to a dog and a circle of stones.  Use 'Reveal', go down the hole, solve the cave, and come out and get the Djinni.  Make sure you rang the bell.",
       "notes": null,
       "source": "fandom-wiki"
     },
-    "sources": ["plz2bstfu", "terence", "fandom-wiki"]
+    "must_fight": false,
+    "sources": [
+      "plz2bstfu",
+      "terence",
+      "fandom-wiki",
+      "telago",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash"
+    ]
   },
   {
     "id": "ground",
     "name": "Ground",
     "element": "earth",
     "game": "gs1",
-    "stat_bonus": { "hp": 9, "pp": 3, "atk": 0, "def": 0, "agi": 3, "lck": 0 },
-    "battle_effect": { "damage": null, "range": 1, "special": "Inflict 'Paralyse'" },
+    "stat_bonus": {
+      "hp": 9,
+      "pp": 3,
+      "atk": 0,
+      "def": 0,
+      "agi": 3,
+      "lck": 0
+    },
+    "battle_effect": {
+      "damage": null,
+      "range": 1,
+      "special": "Inflict 'Paralyse'"
+    },
     "location": {
       "area": "Kalay Docks",
       "description": "You first see this in Kalay Dock.  You'll have to take the boat to Tolbi, then exit Tolbi and travel, keeping the coast on your hero's RIGHT side, and you'll reach the other side of this dock, and you can pick up the covetted Djinni.",
       "notes": null,
       "source": "fandom-wiki"
     },
-    "sources": ["plz2bstfu", "terence", "fandom-wiki"]
+    "must_fight": false,
+    "sources": [
+      "plz2bstfu",
+      "terence",
+      "fandom-wiki",
+      "telago",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash"
+    ]
   },
   {
     "id": "bane",
     "name": "Bane",
     "element": "earth",
     "game": "gs1",
-    "stat_bonus": { "hp": 12, "pp": 0, "atk": 4, "def": 0, "agi": 0, "lck": 0 },
-    "battle_effect": { "damage": "a60", "range": 1, "special": "Inflict 'Deadly Poison'" },
+    "stat_bonus": {
+      "hp": 12,
+      "pp": 0,
+      "atk": 4,
+      "def": 0,
+      "agi": 0,
+      "lck": 0
+    },
+    "battle_effect": {
+      "damage": "a60",
+      "range": 1,
+      "special": "Inflict 'Deadly Poison'"
+    },
     "location": {
       "area": "Crossbones Isle",
       "description": "In Suhalla Desert, where you get the Mars Djinni, go through the cave, and come out and get swept up by the pink tornado.  It takes you to an island.  Go to the center of the isle, and enter a place called Crossbones Isle.  You'll enter a cave, and on the 6th floor I think it is, this Djinni will beg to be chased around the room.  Chase him until he just starts going around 3 stones in circles, like the last Djinni did that you had to use 'Halt' to get, and do the same thing as you did last time.",
       "notes": null,
       "source": "fandom-wiki"
     },
-    "sources": ["plz2bstfu", "terence", "fandom-wiki"]
+    "must_fight": false,
+    "sources": [
+      "plz2bstfu",
+      "terence",
+      "fandom-wiki",
+      "telago",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash"
+    ]
   },
   {
     "id": "forge",
     "name": "Forge",
     "element": "fire",
     "game": "gs1",
-    "stat_bonus": { "hp": 10, "pp": 0, "atk": 2, "def": 0, "agi": 2, "lck": 2 },
-    "battle_effect": { "damage": null, "range": "all", "special": "+25% Attack : 50% Max" },
+    "stat_bonus": {
+      "hp": 10,
+      "pp": 0,
+      "atk": 2,
+      "def": 0,
+      "agi": 2,
+      "lck": 2
+    },
+    "battle_effect": {
+      "damage": null,
+      "range": "all",
+      "special": "+25% Attack : 50% Max"
+    },
     "location": {
       "area": "Goma Cave",
       "description": "You find this Djinni in Goma Cave, on a ledge above a man.  You'll have to 'Move' a pillar over from the bottom area, so you can reach the Djinni later on the top area.",
       "notes": null,
       "source": "fandom-wiki"
     },
-    "sources": ["plz2bstfu", "terence", "fandom-wiki"]
+    "must_fight": true,
+    "sources": [
+      "plz2bstfu",
+      "terence",
+      "fandom-wiki",
+      "telago",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash",
+      "bfgamer",
+      "torrent-load"
+    ]
   },
   {
     "id": "fever",
     "name": "Fever",
     "element": "fire",
     "game": "gs1",
-    "stat_bonus": { "hp": 8, "pp": 0, "atk": 3, "def": 0, "agi": 2, "lck": 0 },
-    "battle_effect": { "damage": "a30", "range": 1, "special": "Inflict 'Delusion'" },
+    "stat_bonus": {
+      "hp": 8,
+      "pp": 0,
+      "atk": 3,
+      "def": 0,
+      "agi": 2,
+      "lck": 0
+    },
+    "battle_effect": {
+      "damage": "a30",
+      "range": 1,
+      "special": "Inflict 'Delusion'"
+    },
     "location": {
       "area": "Imil",
       "description": "In Imil, you'll find a snowman.  'Move' him to the left, then make your way down on the ice.  Slip and slide around until you reach the frozen cave, to get this one.",
       "notes": null,
       "source": "fandom-wiki"
     },
-    "sources": ["plz2bstfu", "terence", "fandom-wiki"]
+    "must_fight": false,
+    "sources": [
+      "plz2bstfu",
+      "terence",
+      "fandom-wiki",
+      "telago",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash"
+    ],
+    "conflicts": [
+      {
+        "field": "stat_bonus.hp",
+        "values": {
+          "terence": 8,
+          "telago": 12
+        },
+        "resolution": "authority",
+        "note": "terence authoritative; Telago lists hp 12."
+      },
+      {
+        "field": "stat_bonus.agi",
+        "values": {
+          "terence": 2,
+          "telago": 1
+        },
+        "resolution": "authority",
+        "note": "terence authoritative; Telago lists agi 1."
+      }
+    ]
   },
   {
     "id": "corona",
     "name": "Corona",
     "element": "fire",
     "game": "gs1",
-    "stat_bonus": { "hp": 12, "pp": 3, "atk": 0, "def": 3, "agi": 0, "lck": 1 },
-    "battle_effect": { "damage": null, "range": "all", "special": "+25% Defense : 50% Max" },
+    "stat_bonus": {
+      "hp": 12,
+      "pp": 3,
+      "atk": 0,
+      "def": 3,
+      "agi": 0,
+      "lck": 1
+    },
+    "battle_effect": {
+      "damage": null,
+      "range": "all",
+      "special": "+25% Defense : 50% Max"
+    },
     "location": {
       "area": "World Map (island north of Xian)",
       "description": "Go north of Xian, until you go past a bridge.  On the island you will fight this Djinni.",
       "notes": null,
       "source": "fandom-wiki"
     },
-    "sources": ["plz2bstfu", "terence", "fandom-wiki"]
+    "must_fight": true,
+    "sources": [
+      "plz2bstfu",
+      "terence",
+      "fandom-wiki",
+      "telago",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash",
+      "torrent-load"
+    ]
   },
   {
     "id": "scorch",
     "name": "Scorch",
     "element": "fire",
     "game": "gs1",
-    "stat_bonus": { "hp": 8, "pp": 0, "atk": 3, "def": 0, "agi": 0, "lck": 0 },
-    "battle_effect": { "damage": "a50", "range": 1, "special": "Inflict 'Stun'" },
+    "stat_bonus": {
+      "hp": 8,
+      "pp": 0,
+      "atk": 3,
+      "def": 0,
+      "agi": 0,
+      "lck": 0
+    },
+    "battle_effect": {
+      "damage": "a50",
+      "range": 1,
+      "special": "Inflict 'Stun'"
+    },
     "location": {
       "area": "Kalay",
       "description": "In Kalay, go to the north-eastern part of town, and get on top of the 2 story house.  Jump across the gap to the grass, and go north.  Use 'Move' to reveal a passage.  In the first room, push the statue in front of the drain pipe to stop the flow of water and get the Djinni.",
       "notes": null,
       "source": "fandom-wiki"
     },
-    "sources": ["plz2bstfu", "terence", "fandom-wiki"]
+    "must_fight": false,
+    "sources": [
+      "plz2bstfu",
+      "terence",
+      "fandom-wiki",
+      "telago",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash"
+    ]
   },
   {
     "id": "ember",
     "name": "Ember",
     "element": "fire",
     "game": "gs1",
-    "stat_bonus": { "hp": 9, "pp": 4, "atk": 0, "def": 2, "agi": 2, "lck": 0 },
-    "battle_effect": { "damage": null, "range": "all", "special": "Restore (Target's Max PP * .07) PP" },
+    "stat_bonus": {
+      "hp": 9,
+      "pp": 4,
+      "atk": 0,
+      "def": 2,
+      "agi": 2,
+      "lck": 0
+    },
+    "battle_effect": {
+      "damage": null,
+      "range": "all",
+      "special": "Restore (Target's Max PP * .07) PP"
+    },
     "location": {
       "area": "Tolbi",
       "description": "In Tolbi, go to the southern part of town and go east on the outskirts.  'Grow' the vine, and 'Freeze' the puddle, then run to the inn, and jump around the corner to get this Djinni.",
       "notes": null,
       "source": "fandom-wiki"
     },
-    "sources": ["plz2bstfu", "terence", "fandom-wiki"]
+    "must_fight": false,
+    "sources": [
+      "plz2bstfu",
+      "terence",
+      "fandom-wiki",
+      "telago",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash"
+    ]
   },
   {
     "id": "flash",
     "name": "Flash",
     "element": "fire",
     "game": "gs1",
-    "stat_bonus": { "hp": 14, "pp": 3, "atk": 0, "def": 2, "agi": 0, "lck": 0 },
-    "battle_effect": { "damage": null, "range": "all", "special": "Divide Damage taken by 10 (Ignores Curative)" },
+    "stat_bonus": {
+      "hp": 14,
+      "pp": 3,
+      "atk": 0,
+      "def": 2,
+      "agi": 0,
+      "lck": 0
+    },
+    "battle_effect": {
+      "damage": null,
+      "range": "all",
+      "special": "Divide Damage taken by 10 (Ignores Curative)"
+    },
     "location": {
       "area": "Suhalla Desert",
       "description": "In Suhalla Desert, as you're travelling through it, eventually you will come to a ledge to your left.  Use 'Reveal' and jump across to grab this Djinni.",
       "notes": null,
       "source": "fandom-wiki"
     },
-    "sources": ["plz2bstfu", "terence", "fandom-wiki"]
+    "must_fight": true,
+    "sources": [
+      "plz2bstfu",
+      "terence",
+      "fandom-wiki",
+      "telago",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash",
+      "torrent-load"
+    ]
   },
   {
     "id": "torch",
     "name": "Torch",
     "element": "fire",
     "game": "gs1",
-    "stat_bonus": { "hp": 9, "pp": 0, "atk": 3, "def": 0, "agi": 0, "lck": 1 },
-    "battle_effect": { "damage": "a30", "range": 1, "special": "Pierces 50% Defense" },
+    "stat_bonus": {
+      "hp": 9,
+      "pp": 0,
+      "atk": 3,
+      "def": 0,
+      "agi": 0,
+      "lck": 1
+    },
+    "battle_effect": {
+      "damage": "a30",
+      "range": 1,
+      "special": "Pierces 50% Defense"
+    },
     "location": {
       "area": "Lalivero",
       "description": "In Lalivero, go to the east side of town and enter the house with the ladder to the roof.  Get on the roof, and walk around on the wall to the building that holds Babi's treasure that the guard won't let you enter.  Get on that building, jump across to the next roof, climb the vine, and grab the Djinni.",
       "notes": null,
       "source": "fandom-wiki"
     },
-    "sources": ["plz2bstfu", "terence", "fandom-wiki"]
+    "must_fight": false,
+    "sources": [
+      "plz2bstfu",
+      "terence",
+      "fandom-wiki",
+      "telago",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash"
+    ]
   },
   {
     "id": "gust",
     "name": "Gust",
     "element": "wind",
     "game": "gs1",
-    "stat_bonus": { "hp": 9, "pp": 0, "atk": 2, "def": 0, "agi": 2, "lck": 0 },
-    "battle_effect": { "damage": "a10", "range": 1, "special": "Sometimes hits for 2x damage" },
+    "stat_bonus": {
+      "hp": 9,
+      "pp": 0,
+      "atk": 2,
+      "def": 0,
+      "agi": 2,
+      "lck": 0
+    },
+    "battle_effect": {
+      "damage": "a10",
+      "range": 1,
+      "special": "Sometimes hits for 2x damage"
+    },
     "location": {
       "area": "Bilibin",
       "description": "In Bilibin, go to the east side of town, and climb the stairs.  Next, head south to walk on the fence.  Use 'Whirlwind' to clear the vines, and enter the cave.  'Move' the statue out of your way, clearing your path to the Djinni.",
       "notes": null,
       "source": "fandom-wiki"
     },
-    "sources": ["plz2bstfu", "terence", "fandom-wiki"]
+    "must_fight": false,
+    "sources": [
+      "plz2bstfu",
+      "terence",
+      "fandom-wiki",
+      "telago",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash",
+      "bfgamer"
+    ]
   },
   {
     "id": "breeze",
     "name": "Breeze",
     "element": "wind",
     "game": "gs1",
-    "stat_bonus": { "hp": 12, "pp": 5, "atk": 0, "def": 2, "agi": 0, "lck": 1 },
-    "battle_effect": { "damage": null, "range": "all", "special": "+40 Resistance : 80 Max" },
+    "stat_bonus": {
+      "hp": 12,
+      "pp": 5,
+      "atk": 0,
+      "def": 2,
+      "agi": 0,
+      "lck": 1
+    },
+    "battle_effect": {
+      "damage": null,
+      "range": "all",
+      "special": "+40 Resistance : 80 Max"
+    },
     "location": {
       "area": "Tret",
       "description": "In Tret, you'll find this Djinni on a top branch whilst walking in the areas outside of the trunk.",
       "notes": null,
       "source": "fandom-wiki"
     },
-    "sources": ["plz2bstfu", "terence", "fandom-wiki"]
+    "must_fight": true,
+    "sources": [
+      "plz2bstfu",
+      "terence",
+      "fandom-wiki",
+      "telago",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash",
+      "bfgamer",
+      "torrent-load"
+    ]
   },
   {
     "id": "zephyr",
     "name": "Zephyr",
     "element": "wind",
     "game": "gs1",
-    "stat_bonus": { "hp": 11, "pp": 3, "atk": 0, "def": 0, "agi": 2, "lck": 1 },
-    "battle_effect": { "damage": null, "range": "all", "special": "+100% Agility : 100% Max" },
+    "stat_bonus": {
+      "hp": 11,
+      "pp": 3,
+      "atk": 0,
+      "def": 0,
+      "agi": 2,
+      "lck": 1
+    },
+    "battle_effect": {
+      "damage": null,
+      "range": "all",
+      "special": "+100% Agility : 100% Max"
+    },
     "location": {
-      "area": "Fuchin Temple",
+      "area": "Fuchin Falls Cave",
       "description": "You'll have to solve a puzzle in Fuchin Temple to get this, it's a fairly easy puzzle.",
       "notes": null,
       "source": "fandom-wiki"
     },
-    "sources": ["plz2bstfu", "terence", "fandom-wiki"],
+    "must_fight": true,
+    "sources": [
+      "plz2bstfu",
+      "terence",
+      "fandom-wiki",
+      "telago",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash",
+      "torrent-load"
+    ],
     "conflicts": [
       {
         "field": "location.area",
         "values": {
           "plz2bstfu": "Fuchin Temple",
-          "fandom-wiki": "Fuchin Falls Cave"
+          "telago": "Fuchin Temple",
+          "fandom-wiki": "Fuchin Falls Cave",
+          "shotgunnova": "Fuchin Falls Cave",
+          "electrospecter": "Fuchin Falls Cave",
+          "super-slash": "Fuchin Falls Cave"
         },
-        "note": "plz2bstfu names the location 'Fuchin Temple'; the wiki specifies 'Fuchin Falls Cave'. Same general area, different name."
+        "resolution": "majority",
+        "note": "4 of 6 sources (incl. fandom-wiki) say 'Fuchin Falls Cave'; 'Fuchin Temple' is the broader area name."
       }
     ]
   },
@@ -269,68 +646,166 @@
     "name": "Smog",
     "element": "wind",
     "game": "gs1",
-    "stat_bonus": { "hp": 9, "pp": 0, "atk": 3, "def": 0, "agi": 0, "lck": 0 },
-    "battle_effect": { "damage": "a60", "range": 1, "special": "Inflict 'Delusion'" },
+    "stat_bonus": {
+      "hp": 9,
+      "pp": 0,
+      "atk": 3,
+      "def": 0,
+      "agi": 0,
+      "lck": 0
+    },
+    "battle_effect": {
+      "damage": "a60",
+      "range": 1,
+      "special": "Inflict 'Delusion'"
+    },
     "location": {
       "area": "Lamakan Desert",
       "description": "In the Lamakan Desert, go to the northern part of the second screen and use 'Reveal' on the stones that form a circle pattern until you find the right spot, there will be a Djinni there.",
       "notes": null,
       "source": "fandom-wiki"
     },
-    "sources": ["plz2bstfu", "terence", "fandom-wiki"]
+    "must_fight": false,
+    "sources": [
+      "plz2bstfu",
+      "terence",
+      "fandom-wiki",
+      "telago",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash"
+    ]
   },
   {
     "id": "kite",
     "name": "Kite",
     "element": "wind",
     "game": "gs1",
-    "stat_bonus": { "hp": 8, "pp": 4, "atk": 0, "def": 0, "agi": 3, "lck": 0 },
-    "battle_effect": { "damage": null, "range": 1, "special": "Attacks Per Round Set to 2 for Next Round" },
+    "stat_bonus": {
+      "hp": 8,
+      "pp": 4,
+      "atk": 0,
+      "def": 0,
+      "agi": 3,
+      "lck": 0
+    },
+    "battle_effect": {
+      "damage": null,
+      "range": 1,
+      "special": "Attacks Per Round Set to 2 for Next Round"
+    },
     "location": {
       "area": "Vale",
       "description": "Revisit Vale later in the game and use 'Lift' to lift the boulder by Kraden's house. Go in the small cave, seek out the Djinni and use 'Halt'(which you get in a treasure chest right before you meet the Djinni) on the Djinni when he tries to hide behind the rocks that you can chase him around.",
       "notes": null,
       "source": "fandom-wiki"
     },
-    "sources": ["plz2bstfu", "terence", "fandom-wiki"]
+    "must_fight": false,
+    "sources": [
+      "plz2bstfu",
+      "terence",
+      "fandom-wiki",
+      "telago",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash"
+    ],
+    "conflicts": [
+      {
+        "field": "stat_bonus.pp",
+        "values": {
+          "terence": 4,
+          "telago": 3
+        },
+        "resolution": "authority",
+        "note": "terence authoritative; Telago lists pp 3."
+      }
+    ]
   },
   {
     "id": "squall",
     "name": "Squall",
     "element": "wind",
     "game": "gs1",
-    "stat_bonus": { "hp": 10, "pp": 0, "atk": 5, "def": 0, "agi": 0, "lck": 0 },
-    "battle_effect": { "damage": "m140%", "range": 1, "special": "Inflict 'Stun'" },
+    "stat_bonus": {
+      "hp": 10,
+      "pp": 0,
+      "atk": 5,
+      "def": 0,
+      "agi": 0,
+      "lck": 0
+    },
+    "battle_effect": {
+      "damage": "m140%",
+      "range": 1,
+      "special": "Inflict 'Stun'"
+    },
     "location": {
       "area": "Altmiller Cave",
       "description": "In Altmiller Cave, follow the path until you get past the invisible man, then head into the doorway.  See the door on the right?  Find your way to it, and in this room, push the first pillar on the left all the way to the right, then push the bottom pillar all the way up.  'Freeze' the puddle, then push the pillar on the right over to the frozen puddle.  Push the 2nd pillar from the top(you'll have to get behind this pillar by stepping behind the standing pillar to it's left)down to the frozen puddle too.  Walk around the room to the top pillar, push it down, and viola! Djinn city!",
       "notes": null,
       "source": "fandom-wiki"
     },
-    "sources": ["plz2bstfu", "terence", "fandom-wiki"]
+    "must_fight": true,
+    "sources": [
+      "plz2bstfu",
+      "terence",
+      "fandom-wiki",
+      "telago",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash",
+      "torrent-load"
+    ]
   },
   {
     "id": "luff",
     "name": "Luff",
     "element": "wind",
     "game": "gs1",
-    "stat_bonus": { "hp": 11, "pp": 5, "atk": 0, "def": 2, "agi": 0, "lck": 1 },
-    "battle_effect": { "damage": null, "range": 1, "special": "Inflict 'Psynergy Seal'" },
+    "stat_bonus": {
+      "hp": 11,
+      "pp": 5,
+      "atk": 0,
+      "def": 2,
+      "agi": 0,
+      "lck": 1
+    },
+    "battle_effect": {
+      "damage": null,
+      "range": 1,
+      "special": "Inflict 'Psynergy Seal'"
+    },
     "location": {
-      "area": "Babi Tower",
+      "area": "Babi Lighthouse",
       "description": "In Babi Tower, there's 2 ladders at the entrance that go underground.  Take the one on the west, 'Move' the pillar 1 step to the west, then go on the other side and 'Move' the other pillar out of your way.  Jump over the gap, go outside, and 'Grow' the vine.  Head in the doorway and jump down the slide to get this one.",
       "notes": null,
       "source": "fandom-wiki"
     },
-    "sources": ["plz2bstfu", "terence", "fandom-wiki"],
+    "must_fight": true,
+    "sources": [
+      "plz2bstfu",
+      "terence",
+      "fandom-wiki",
+      "telago",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash",
+      "torrent-load"
+    ],
     "conflicts": [
       {
         "field": "location.area",
         "values": {
           "plz2bstfu": "Babi Tower",
-          "fandom-wiki": "Babi Lighthouse"
+          "telago": "Babi's Tower",
+          "fandom-wiki": "Babi Lighthouse",
+          "shotgunnova": "Babi Lighthouse",
+          "electrospecter": "Babi Lighthouse",
+          "super-slash": "Babi Lighthouse Entrance"
         },
-        "note": "Same structure named differently by each source: plz2bstfu uses 'Babi Tower', the wiki uses 'Babi Lighthouse'."
+        "resolution": "majority",
+        "note": "4 of 6 sources (incl. fandom-wiki) say 'Babi Lighthouse'; plz2bstfu/Telago call the same structure 'Babi('s) Tower'."
       }
     ]
   },
@@ -339,83 +814,191 @@
     "name": "Fizz",
     "element": "water",
     "game": "gs1",
-    "stat_bonus": { "hp": 9, "pp": 4, "atk": 0, "def": 3, "agi": 0, "lck": 0 },
-    "battle_effect": { "damage": null, "range": 1, "special": "Restore (Target's Max HP * .60) HP" },
+    "stat_bonus": {
+      "hp": 9,
+      "pp": 4,
+      "atk": 0,
+      "def": 3,
+      "agi": 0,
+      "lck": 0
+    },
+    "battle_effect": {
+      "damage": null,
+      "range": 1,
+      "special": "Restore (Target's Max HP * .60) HP"
+    },
     "location": {
       "area": "Mercury Lighthouse",
       "description": "When Mia joins your party in the Mercury Lighthouse, this is what she brings with her.",
       "notes": null,
       "source": "fandom-wiki"
     },
-    "sources": ["plz2bstfu", "terence", "fandom-wiki"]
+    "must_fight": false,
+    "sources": [
+      "plz2bstfu",
+      "terence",
+      "fandom-wiki",
+      "telago",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash"
+    ]
   },
   {
     "id": "sleet",
     "name": "Sleet",
     "element": "water",
     "game": "gs1",
-    "stat_bonus": { "hp": 12, "pp": 0, "atk": 3, "def": 0, "agi": 0, "lck": 1 },
-    "battle_effect": { "damage": "a30", "range": 1, "special": "-25% Attack : 50% Max" },
+    "stat_bonus": {
+      "hp": 12,
+      "pp": 0,
+      "atk": 3,
+      "def": 0,
+      "agi": 0,
+      "lck": 1
+    },
+    "battle_effect": {
+      "damage": "a30",
+      "range": 1,
+      "special": "-25% Attack : 50% Max"
+    },
     "location": {
       "area": "Mercury Lighthouse",
       "description": "In the Mercury Lighthouse, search behind the waterfalls as you progress through the lighthouse.  Eventually, you'll be able to walk through some, and in the room with 6 waterfalls, pick the right one, and you'll find this Djinni.",
       "notes": null,
       "source": "fandom-wiki"
     },
-    "sources": ["plz2bstfu", "terence", "fandom-wiki"]
+    "must_fight": true,
+    "sources": [
+      "plz2bstfu",
+      "terence",
+      "fandom-wiki",
+      "telago",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash",
+      "torrent-load"
+    ]
   },
   {
     "id": "mist",
     "name": "Mist",
     "element": "water",
     "game": "gs1",
-    "stat_bonus": { "hp": 11, "pp": 0, "atk": 4, "def": 0, "agi": 0, "lck": 0 },
-    "battle_effect": { "damage": "m130%", "range": 1, "special": "Inflict 'Sleep'" },
+    "stat_bonus": {
+      "hp": 11,
+      "pp": 0,
+      "atk": 4,
+      "def": 0,
+      "agi": 0,
+      "lck": 0
+    },
+    "battle_effect": {
+      "damage": "m130%",
+      "range": 1,
+      "special": "Inflict 'Sleep'"
+    },
     "location": {
       "area": "Xian",
       "description": "In Xian, there is a girl on a dock that is carrying water.  Wait for her to bring the water to the 2nd door on the right, 1 step south of it.  Talk to her, she'll drop the water.  'Freeze' the water, and head to the ledge above and jump to the next Djinni.",
       "notes": null,
       "source": "fandom-wiki"
     },
-    "sources": ["plz2bstfu", "terence", "fandom-wiki"]
+    "must_fight": false,
+    "sources": [
+      "plz2bstfu",
+      "terence",
+      "fandom-wiki",
+      "telago",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash"
+    ]
   },
   {
     "id": "spritz",
     "name": "Spritz",
     "element": "water",
     "game": "gs1",
-    "stat_bonus": { "hp": 8, "pp": 4, "atk": 0, "def": 0, "agi": 3, "lck": 0 },
-    "battle_effect": { "damage": null, "range": "all", "special": "Restore (Target's Max HP * .30) HP" },
+    "stat_bonus": {
+      "hp": 8,
+      "pp": 4,
+      "atk": 0,
+      "def": 0,
+      "agi": 3,
+      "lck": 0
+    },
+    "battle_effect": {
+      "damage": null,
+      "range": "all",
+      "special": "Restore (Target's Max HP * .30) HP"
+    },
     "location": {
       "area": "Altin",
       "description": "In Altin, defeat the 3 water spitting beasts to make the flood go away, then enter the bottom mine.  Follow the path on the right, and solve a simple puzzle to get this Djinni.",
       "notes": null,
       "source": "fandom-wiki"
     },
-    "sources": ["plz2bstfu", "terence", "fandom-wiki"]
+    "must_fight": true,
+    "sources": [
+      "plz2bstfu",
+      "terence",
+      "fandom-wiki",
+      "telago",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash",
+      "torrent-load"
+    ]
   },
   {
     "id": "hail",
     "name": "Hail",
     "element": "water",
     "game": "gs1",
-    "stat_bonus": { "hp": 9, "pp": 0, "atk": 4, "def": 0, "agi": 0, "lck": 1 },
-    "battle_effect": { "damage": "a40", "range": 1, "special": "-25% Defense : 50% Max" },
+    "stat_bonus": {
+      "hp": 9,
+      "pp": 0,
+      "atk": 4,
+      "def": 0,
+      "agi": 0,
+      "lck": 1
+    },
+    "battle_effect": {
+      "damage": "a40",
+      "range": 1,
+      "special": "-25% Defense : 50% Max"
+    },
     "location": {
       "area": "World Map (west/northwest of Tolbi)",
       "description": "This Djinni is found west/northwest of Tolbi.  Head west to a bridge facing north, trek on over it, then head north-westish over the other bridge.  Run around in this area and you'll eventually encounter and fight this Djinni.",
       "notes": null,
       "source": "fandom-wiki"
     },
-    "sources": ["plz2bstfu", "terence", "fandom-wiki"],
+    "must_fight": true,
+    "sources": [
+      "plz2bstfu",
+      "terence",
+      "fandom-wiki",
+      "telago",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash",
+      "torrent-load"
+    ],
     "conflicts": [
       {
         "field": "location.area",
         "values": {
           "plz2bstfu": "World Map (west/northwest of Tolbi)",
-          "fandom-wiki": "Gondowan (forested area southwest of Altmiller Cave, separated by a river)"
+          "telago": "World Map (west of Tolbi)",
+          "shotgunnova": "World Map (NW of Tolbi, by bridge)",
+          "electrospecter": "World Map (NW of Tolbi, across two bridges)",
+          "super-slash": "World Map",
+          "fandom-wiki": "Gondowan (forested area SW of Altmiller Cave)"
         },
-        "note": "Sources disagree on the overworld region: plz2bstfu places the encounter west/northwest of Tolbi; the wiki places it in Gondowan southwest of Altmiller Cave. Verify in-game."
+        "resolution": "majority",
+        "note": "5 sources place it on the world map NW/W of Tolbi; fandom-wiki frames the same spot as Gondowan SW of Altmiller Cave (different reference point)."
       }
     ]
   },
@@ -424,23 +1007,57 @@
     "name": "Tonic",
     "element": "water",
     "game": "gs1",
-    "stat_bonus": { "hp": 8, "pp": 3, "atk": 0, "def": 2, "agi": 0, "lck": 2 },
-    "battle_effect": { "damage": null, "range": "all", "special": "Remove all Status Ailments except 'Downed'" },
+    "stat_bonus": {
+      "hp": 8,
+      "pp": 3,
+      "atk": 0,
+      "def": 2,
+      "agi": 0,
+      "lck": 2
+    },
+    "battle_effect": {
+      "damage": null,
+      "range": "all",
+      "special": "Remove all Status Ailments except 'Downed'"
+    },
     "location": {
-      "area": "Dononpa's Fortress",
+      "area": "Lunpa Fortress",
       "description": "After you beat Toadonpa, in Dononpa's Fortress, revisit it after the scene in the ice cave near Lunpa, and go to Dononpa's quarters.  Talk to him and he'll reveal a path for you to grab the Djinni.",
       "notes": null,
       "source": "fandom-wiki"
     },
-    "sources": ["plz2bstfu", "terence", "fandom-wiki"],
+    "must_fight": false,
+    "sources": [
+      "plz2bstfu",
+      "terence",
+      "fandom-wiki",
+      "telago",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash"
+    ],
     "conflicts": [
       {
         "field": "location.area",
         "values": {
           "plz2bstfu": "Dononpa's Fortress",
-          "fandom-wiki": "Lunpa Fortress"
+          "fandom-wiki": "Lunpa Fortress",
+          "telago": "Lunpa Fortress",
+          "shotgunnova": "Lunpa Fortress",
+          "electrospecter": "Lunpa Fortress",
+          "super-slash": "Lunpa Fortress"
         },
-        "note": "Same fortress named differently by each source: plz2bstfu uses 'Dononpa's Fortress', the wiki uses 'Lunpa Fortress'."
+        "resolution": "majority",
+        "note": "5 of 6 sources say 'Lunpa Fortress' (standard name); plz2bstfu uses 'Dononpa's Fortress' (after the boss)."
+      },
+      {
+        "field": "stat_bonus.hp",
+        "values": {
+          "terence": 8,
+          "telago": 10
+        },
+        "resolution": "authority",
+        "note": "terence (data-mined mechanics FAQ) authoritative for stats; Telago lists hp 10."
       }
     ]
   },
@@ -449,14 +1066,35 @@
     "name": "Dew",
     "element": "water",
     "game": "gs1",
-    "stat_bonus": { "hp": 13, "pp": 4, "atk": 0, "def": 0, "agi": 4, "lck": 0 },
-    "battle_effect": { "damage": null, "range": 1, "special": "Remove 'Downed' : Heal 80% Max HP if 'Downed'" },
+    "stat_bonus": {
+      "hp": 13,
+      "pp": 4,
+      "atk": 0,
+      "def": 0,
+      "agi": 4,
+      "lck": 0
+    },
+    "battle_effect": {
+      "damage": null,
+      "range": 1,
+      "special": "Remove 'Downed' : Heal 80% Max HP if 'Downed'"
+    },
     "location": {
       "area": "Suhalla Gate",
       "description": "In Suhalla Gate, in the 3rd screen, there will be slides you can take down to the lower level.  Go down the 3rd slide, and get the Djinni.",
       "notes": null,
       "source": "fandom-wiki"
     },
-    "sources": ["plz2bstfu", "terence", "fandom-wiki"]
+    "must_fight": true,
+    "sources": [
+      "plz2bstfu",
+      "terence",
+      "fandom-wiki",
+      "telago",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash",
+      "torrent-load"
+    ]
   }
 ]

@@ -1,0 +1,21 @@
+[
+  { "id": "venus",    "name": "Venus",    "element": "earth", "game": "gs1", "djinn_required": 1, "damage_power": null, "effect": null, "sources": ["telago", "bfgamer"] },
+  { "id": "ramses",   "name": "Ramses",   "element": "earth", "game": "gs1", "djinn_required": 2, "damage_power": null, "effect": null, "sources": ["telago", "bfgamer"] },
+  { "id": "cybele",   "name": "Cybele",   "element": "earth", "game": "gs1", "djinn_required": 3, "damage_power": null, "effect": null, "sources": ["telago", "bfgamer"] },
+  { "id": "judgment", "name": "Judgment", "element": "earth", "game": "gs1", "djinn_required": 4, "damage_power": null, "effect": null, "sources": ["telago", "bfgamer"] },
+
+  { "id": "mars",     "name": "Mars",     "element": "fire",  "game": "gs1", "djinn_required": 1, "damage_power": null, "effect": null, "sources": ["telago", "bfgamer"] },
+  { "id": "kirin",    "name": "Kirin",    "element": "fire",  "game": "gs1", "djinn_required": 2, "damage_power": null, "effect": null, "sources": ["telago", "bfgamer"] },
+  { "id": "tiamat",   "name": "Tiamat",   "element": "fire",  "game": "gs1", "djinn_required": 3, "damage_power": null, "effect": null, "sources": ["telago", "bfgamer"] },
+  { "id": "meteor",   "name": "Meteor",   "element": "fire",  "game": "gs1", "djinn_required": 4, "damage_power": null, "effect": null, "sources": ["telago", "bfgamer"] },
+
+  { "id": "jupiter",  "name": "Jupiter",  "element": "wind",  "game": "gs1", "djinn_required": 1, "damage_power": null, "effect": null, "sources": ["telago", "bfgamer"] },
+  { "id": "atalanta", "name": "Atalanta", "element": "wind",  "game": "gs1", "djinn_required": 2, "damage_power": null, "effect": null, "sources": ["telago", "bfgamer"] },
+  { "id": "procne",   "name": "Procne",   "element": "wind",  "game": "gs1", "djinn_required": 3, "damage_power": null, "effect": null, "sources": ["telago", "bfgamer"] },
+  { "id": "thor",     "name": "Thor",     "element": "wind",  "game": "gs1", "djinn_required": 4, "damage_power": null, "effect": null, "sources": ["telago", "bfgamer"] },
+
+  { "id": "mercury",  "name": "Mercury",  "element": "water", "game": "gs1", "djinn_required": 1, "damage_power": null, "effect": null, "sources": ["telago", "bfgamer"] },
+  { "id": "nereid",   "name": "Nereid",   "element": "water", "game": "gs1", "djinn_required": 2, "damage_power": null, "effect": null, "sources": ["telago", "bfgamer"] },
+  { "id": "neptune",  "name": "Neptune",  "element": "water", "game": "gs1", "djinn_required": 3, "damage_power": null, "effect": null, "sources": ["telago", "bfgamer"] },
+  { "id": "boreas",   "name": "Boreas",   "element": "water", "game": "gs1", "djinn_required": 4, "damage_power": null, "effect": null, "sources": ["telago", "bfgamer"] }
+]

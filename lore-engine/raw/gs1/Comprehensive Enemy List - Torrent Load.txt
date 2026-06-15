@@ -1,0 +1,7292 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~ Golden Sun - Comprehensive Enemy List      ~~~
+~~~ Written By - Torrent Lord                  ~~~
+~~~ Current Version - 1.52                     ~~~
+~~~ Email - torrentlord@gmail.com              ~~~
+~~~ Last Updated - May 2nd, 2005               ~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~  Table of Contents  ~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~ I) Important        ~~~
+~~~                     ~~~
+~~~ II) Updates         ~~~
+~~~                     ~~~
+~~~ III) Introduction   ~~~
+~~~                     ~~~
+~~~ IV) The Enemy List  ~~~
+~~~  IV/1 Complete List ~~~
+~~~  IV/2 Sort by HP    ~~~
+~~~  IV/3 Sort by PP    ~~~
+~~~  IV/4 Sort by Att   ~~~
+~~~  IV/5 Sort by Def   ~~~
+~~~  IV/6 Sort by Agil  ~~~
+~~~  IV/7 Sort by Luck  ~~~
+~~~  IV/8 Extra Turns   ~~~
+~~~  IV/9 Sort by Gold  ~~~
+~~~  IV/10 Sort by EXP  ~~~
+~~~  IV/11 Item Drops   ~~~
+~~~  IV/12 Stat Avgs    ~~~
+~~~  IV/13 Elm. Groups  ~~~
+~~~                     ~~~
+~~~ V) Last Notes       ~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+This line is 79 characters long. For proper viewing, lines should be this long.
+
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     ~~ Section I -- Important ~~
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Ugh. I would normally only want this posted on GameFAQs, but there's no use
+trying to stop people from taking this guide. So I only have one thing to say:
+if this guide is not on GameFAQs, and credit is not given to me, please give
+me credit. If you're viewing this, and someone claims it as their own, please
+at least let me know. Please? My email is torrentlord@gmail.com
+
+I reaaalllyyy don't check my email often, though.
+If you're going to email me, let it be something important, or I'll ignore it.
+
+DON'T ASK ME...
+-How stats are affected in the battle arena. If you KNOW, please tell me.
+-If I can make an enemy list for any other game. It took me a long time to
+ figure out how to list enemies in this game, and this is the only game that
+ I'm pretty much an expert in. If you want a list, do it yourself, I guess.
+
+Lastly, there's a Venus Djinni at the end of the enemy list.
+It has stats in the game, but I'm pretty sure you can't find it.
+If you can, please let me know. (Preferrably on GameFAQs)
+If you can't...well, I'm leaving it in there, I like it. :P
+
+This guide has done what no other guides for this game have yet to do:
+Make a complete list of all the stats you'll ever need for this game.
+
+So have fun.
+
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     ~~~ Section II - Updates ~~~
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Version 1.52 [5/02/05]
+
+--- Forgot that Azart, Satrage, and Navampa have 2 sets of stats.
+    One if you win the race to the item, and one if you lose. Fixed. =)
+
+Version 1.50 [4/16/05]
+
+--- Fixed some mistakes, like spacing errors and multiple entries.
+
+--- Added almost every list I can think of. ^_^
+
+Version 1.00 [4/13/05]
+--- The list is finally completed. I could only do it in school, because
+    I have a Mac at home, and I can't...er...obtain...the enemies with the...
+    um...'resources'...that a Mac allows. Needless to say, I played Golden Sun
+    during my Study Hall at the Library for at least 20 classes. >_>
+
+--- Eventually, I'll add all the other features the TLA guide has.
+    (List by stats, maybe even elemental groupings, items, etc)
+
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     ~~  Section III -- Intro  ~~
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+To skip to a subsection you saw in the Table of Contents,
+just search for "IV/x", where x is the number of the subsection.
+
+Now, for location. If I found an enemy in the location, I labeled it.
+If the enemy is rare, and I missed it, then it might not have the right
+locations listed. HOWEVER; every non-dummy enemy is on that list.
+The locations are the only thing that may be wrong.
+Everything else should be correct.
+
+One thing to note, there are 'duplicates' of some enemies...but they aren't.
+Enemies like Vermin and Amaze show up twice:
+Once in the Sol Sanctum, and again later (Except for Zombie).
+They have different stats, and they're together only in the groupings.
+
+Azart/Satrage/Navampa have 2 different sets of stats, but...
+Their only difference is either defense or attack, depending on the item.
+If you win the race at Colosso, they are weaker. The opposite is also true.
+For the sake of my sanity, they are only seperate in the different stat,
+and also Stat Averages, because they are affected too.
+
+Now, you're thinking, "What the heck does he mean by World Map 4?"
+Well, here are all the World Map locations.
+
+World Map 1 - From Vale to Goma Cave
+World Map 2 - From Goma Cave to Kolima Bridge
+World Map 3 - From Bilibin Cave to Mercury Lighthouse
+World Map 4 - From Kolima Bridge to Mogall Forest
+World Map 5 - From Mogall Forest to Lamakan Desert
+World Map 6 - From Lamakan Desert to Ship
+World Map 7 - From Ship to Gondowan Passage
+World Map 8 - From Gondowan Passage to Venus Lighthouse
+World Map 9 - From Venus Lighthouse A to Lalivero
+
+Everything else should be clear.
+
+And now...
+
+                ...my enemy list.
+
+
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     ~~~ Section IV - Enemies ~~~
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~~~ IV/1 - Complete List ~~~
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~~~~~~~~~~~
+~~~ Vermin ~~~
+~~~~~~~~~~~~~~
+::Stats::
+          HP         20
+            Regen     0
+          PP          0
+            Regen     0
+
+          Attack    23
+          Defense   7
+          Agility   7
+          Luck      2
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power     100  80  70  80
+Resist     48  48  25  72
+
+::Abilities::
+        * Attack
+        * Defend
+
+::Drops::
+          2 EXP
+          2 Gold
+          Herb (ICC 5)
+
+::Location::
+          Vale
+          Sol Sanctum
+
+
+~~~~~~~~~~~
+~~~ Bat ~~~
+~~~~~~~~~~~
+::Stats::
+          HP         17
+            Regen     0
+          PP          0
+            Regen     0
+
+          Attack    21
+          Defense   6
+          Agility   13
+          Luck      3
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power      95  95  95 110
+Resist    127  72  48   7
+
+::Abilities::
+        * Attack
+
+::Drops::
+          1 EXP
+          1 Gold
+          Herb (ICC 6)
+
+::Location::
+          Vale
+          Sol Sanctum
+
+
+~~~~~~~~~~~~~~~~~~~~~
+~~~ Wild Mushroom ~~~
+~~~~~~~~~~~~~~~~~~~~~
+::Stats::
+          HP         18
+            Regen     0
+          PP          0
+            Regen     0
+
+          Attack    22
+          Defense   5
+          Agility   10
+          Luck      1
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power     105 100  80  70
+Resist     48 100   7  72
+
+::Abilities::
+        * Attack
+        * Contain
+
+::Drops::
+          1 EXP
+          2 Gold
+          Smoke Bomb (ICC 6)
+
+::Location::
+          Vale
+          Sol Sanctum
+
+
+~~~~~~~~~~~~~~~~~~~~~
+~~~ Mystery Woman ~~~
+~~~~~~~~~~~~~~~~~~~~~
+::Stats::
+          HP       2600
+            Regen     0
+          PP        300
+            Regen     0
+
+          Attack    50
+          Defense   20
+          Agility   13
+          Luck      40
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power     100  95 105 100
+Resist    127  72 175 100
+
+::Abilities::
+        * Attack
+        * Flare Wall
+        * Mad Blast
+        * Nova
+        * Death Size
+
+::Drops::
+          0 EXP
+          0 Gold
+
+::Location::
+          Vale
+
+
+~~~~~~~~~~~~~~~~~~~
+~~~ Mystery Man ~~~
+~~~~~~~~~~~~~~~~~~~
+::Stats::
+          HP       3000
+            Regen     0
+          PP        260
+            Regen     0
+
+          Attack    63
+          Defense   22
+          Agility   9
+          Luck      40
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power     100  90 110 100
+Resist    100  72 175 127
+
+::Abilities::
+        * Attack
+        * Fireball
+        * Eruption
+        * Heat Flash
+
+::Drops::
+          0 EXP
+          0 Gold
+
+::Location::
+          Vale
+
+
+~~~~~~~~~~~~~
+~~~ Slime ~~~
+~~~~~~~~~~~~~
+::Stats::
+          HP         22
+            Regen     0
+          PP          0
+            Regen     0
+
+          Attack    22
+          Defense   6
+          Agility   8
+          Luck      1
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power      95 125  75  95
+Resist     48 127   7  48
+
+::Abilities::
+        * Attack
+        * Flee
+
+::Drops::
+          2 EXP
+          2 Gold
+          Herb (ICC 6)
+
+::Location::
+          Sol Sanctum
+
+
+~~~~~~~~~~~~~
+~~~ Amaze ~~~
+~~~~~~~~~~~~~
+::Stats::
+          HP         28
+            Regen     0
+          PP          0
+            Regen     0
+
+          Attack    25
+          Defense   8
+          Agility   12
+          Luck      2
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power     100  95  95  95
+Resist     48 100  72   7
+
+::Abilities::
+        * Attack
+        * Rumble
+
+::Drops::
+          3 EXP
+          3 Gold
+          Oil Drop (ICC 5)
+
+::Location::
+          Later Sol Sanctum
+
+
+~~~~~~~~~~~~~~
+~~~ Zombie ~~~
+~~~~~~~~~~~~~~
+::Stats::
+          HP         55
+            Regen     0
+          PP          0
+            Regen     0
+
+          Attack    41
+          Defense   9
+          Agility   1
+          Luck      1
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power     100  95  80  80
+Resist     25  72   7  48
+
+::Abilities::
+        * Attack
+
+::Drops::
+          0 EXP
+          0 Gold
+
+::Location::
+          Flint's Demo
+
+
+
+~~~~~~~~~~~~~~
+~~~ Zombie ~~~
+~~~~~~~~~~~~~~
+::Stats::
+          HP         55
+            Regen     0
+          PP          0
+            Regen     0
+
+          Attack    41
+          Defense   9
+          Agility   5
+          Luck      1
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power     100  95  80  80
+Resist     25  72   7  48
+
+::Abilities::
+        * Attack
+
+::Drops::
+          7 EXP
+          8 Gold
+          Herb (ICC 5)
+
+::Location::
+          World Map 1
+          Goma Cave
+          World Map 2
+
+
+~~~~~~~~~~~~~
+~~~ Amaze ~~~
+~~~~~~~~~~~~~
+::Stats::
+          HP         39
+            Regen     0
+          PP          0
+            Regen     0
+
+          Attack    36
+          Defense   10
+          Agility   18
+          Luck      2
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power     100  95  95  95
+Resist     48 100  72   7
+
+::Abilities::
+        * Attack
+        * Rumble
+
+::Drops::
+          5 EXP
+          6 Gold
+          Oil Drop (ICC 5)
+
+::Location::
+          World Map 1
+
+
+~~~~~~~~~~~~~
+~~~ Slime ~~~
+~~~~~~~~~~~~~
+::Stats::
+          HP         32
+            Regen     0
+          PP          0
+            Regen     0
+
+          Attack    34
+          Defense   6
+          Agility   10
+          Luck      1
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power      95 125  75  95
+Resist     48 127   7  48
+
+::Abilities::
+        * Attack
+        * Bone Chiller
+
+::Drops::
+          4 EXP
+          4 Gold
+          Herb (ICC 5)
+
+::Location::
+          World Map 1
+
+
+~~~~~~~~~~~~~~
+~~~ Vermin ~~~
+~~~~~~~~~~~~~~
+::Stats::
+          HP         36
+            Regen     0
+          PP          0
+            Regen     0
+
+          Attack    32
+          Defense   7
+          Agility   9
+          Luck      2
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power     100  80  70  80
+Resist     48  48  25  72
+
+::Abilities::
+        * Attack
+        * Defend
+        * Flee
+
+::Drops::
+          4 EXP
+          4 Gold
+          Herb (ICC 5)
+
+::Location::
+          World Map 1
+
+
+~~~~~~~~~~~~~~~~~~~~~
+~~~ Wild Mushroom ~~~
+~~~~~~~~~~~~~~~~~~~~~
+::Stats::
+          HP         34
+            Regen     0
+          PP          0
+            Regen     0
+
+          Attack    31
+          Defense   5
+          Agility   15
+          Luck      1
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power     105 100  80  70
+Resist     48 100   7  72
+
+::Abilities::
+        * Attack
+        * Soothing Star
+
+::Drops::
+          3 EXP
+          3 Gold
+          Smoke Bomb (ICC 6)
+
+::Location::
+          World Map 1
+
+
+~~~~~~~~~~~
+~~~ Bat ~~~
+~~~~~~~~~~~
+::Stats::
+          HP         30
+            Regen     0
+          PP          0
+            Regen     0
+
+          Attack    30
+          Defense   4
+          Agility   20
+          Luck      3
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power      95  95  95 110
+Resist    127  72  48   7
+
+::Abilities::
+        * Attack
+        * Sonic Wave
+
+::Drops::
+          2 EXP
+          3 Gold
+          Herb (ICC 5)
+
+::Location::
+          World Map 1
+          Goma Cave
+          World Map 2
+
+
+~~~~~~~~~~~~~~
+~~~ Bandit ~~~
+~~~~~~~~~~~~~~
+::Stats::
+          HP        244
+            Regen     0
+          PP          0
+            Regen     0
+
+          Attack    46
+          Defense   8
+          Agility   20
+          Luck      3
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power      80  80  80  80
+Resist     72  72  72  72
+
+::Abilities::
+        * Attack
+        * Slice
+        * Threaten
+
+::Drops::
+          36 EXP
+          46 Gold
+          Bandit's Sword (ICC 1)
+
+::Location::
+          Vault
+
+
+~~~~~~~~~~~~~
+~~~ Thief ~~~
+~~~~~~~~~~~~~
+::Stats::
+          HP        110
+            Regen     0
+          PP          0
+            Regen     0
+
+          Attack    42
+          Defense   5
+          Agility   9
+          Luck      1
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power      80  80  80  80
+Resist     72  72  72  72
+
+::Abilities::
+        * Attack
+        * Threaten
+        * Tremble
+        * Stand Ready
+
+::Drops::
+          15 EXP
+          32 Gold
+
+::Location::
+          Vault
+
+
+~~~~~~~~~~~~~~~~
+~~~ Skeleton ~~~
+~~~~~~~~~~~~~~~~
+::Stats::
+          HP         60
+            Regen     0
+          PP          0
+            Regen     0
+
+          Attack    46
+          Defense   14
+          Agility   18
+          Luck      1
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power     100  95  80  80
+Resist     25 127  72  48
+
+::Abilities::
+        * Attack
+        * Bone Charge
+
+::Drops::
+          10 EXP
+          11 Gold
+          Herb (ICC 5)
+
+::Location::
+          Goma Cave
+          World Map 2
+          Kolima Forest
+
+
+~~~~~~~~~~~~~
+~~~ Ghost ~~~
+~~~~~~~~~~~~~
+::Stats::
+          HP         56
+            Regen     0
+          PP          6
+            Regen     0
+
+          Attack    38
+          Defense   12
+          Agility   12
+          Luck      2
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power     100  95  95  95
+Resist     48 100  72   7
+
+::Abilities::
+        * Attack
+        * Impair
+        * Rumble
+
+::Drops::
+          9 EXP
+          9 Gold
+          Oil Drop (ICC 5)
+
+::Location::
+          Goma Cave
+          World Map 2
+
+
+~~~~~~~~~~~~~~~~~
+~~~ Will Head ~~~
+~~~~~~~~~~~~~~~~~
+::Stats::
+          HP         54
+            Regen     0
+          PP          0
+            Regen     0
+
+          Attack    42
+          Defense   10
+          Agility   10
+          Luck      1
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power     100  95  80  80
+Resist     25 127  72  48
+
+::Abilities::
+        * Attack
+        * Mystic Flame
+
+::Drops::
+          9 EXP
+          10 Gold
+          Smoke Bomb (ICC 6)
+
+::Location::
+          Goma Cave
+          Kolima Forest
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~ Mars Djinni Forge ~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~
+::Stats::
+          HP        172
+            Regen     0
+          PP         14
+            Regen     0
+
+          Attack    45
+          Defense   9
+          Agility   22
+          Luck      6
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power      95  75 125  95
+Resist    100  25 193 100
+
+::Abilities::
+        * Attack
+        * Flare
+        * Blast
+        * Flee
+
+::Drops::
+          28 EXP
+          85 Gold
+
+::Location::
+          Goma Cave
+
+
+~~~~~~~~~~~
+~~~ Rat ~~~
+~~~~~~~~~~~
+::Stats::
+          HP         49
+            Regen     0
+          PP          0
+            Regen     0
+
+          Attack    52
+          Defense   27
+          Agility   15
+          Luck      1
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power     100  80  70  80
+Resist     48  48  25  72
+
+::Abilities::
+        * Attack
+        * Fortify
+
+::Drops::
+          14 EXP
+          17 Gold
+          Herb (ICC 6)
+
+::Location::
+          World Map 2
+          Kolima Forest
+          Tret Tree
+
+
+~~~~~~~~~~~~~~~~~~~
+~~~ Rat Soldier ~~~
+~~~~~~~~~~~~~~~~~~~
+::Stats::
+          HP         69
+            Regen     0
+          PP          0
+            Regen     0
+
+          Attack    56
+          Defense   13
+          Agility   19
+          Luck      2
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power      85 100  85  85
+Resist     72 100  48  72
+
+::Abilities::
+        * Attack
+        * Flee
+
+::Drops::
+          17 EXP
+          19 Gold
+          Smoke Bomb (ICC 5)
+
+::Location::
+          World Map 2
+          Kolima Forest
+          Tret Tree
+          World Map 3
+
+
+~~~~~~~~~~~~~~~~~
+~~~ Drone Bee ~~~
+~~~~~~~~~~~~~~~~~
+::Stats::
+          HP         63
+            Regen     0
+          PP          0
+            Regen     0
+
+          Attack    68
+          Defense   19
+          Agility   36
+          Luck      2
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power      90  90  95 105
+Resist    100  48  48   7
+
+::Abilities::
+        * Attack
+        * Numbing Sting
+
+::Drops::
+          19 EXP
+          28 Gold
+          Elixir (ICC 5)
+
+::Location::
+          Kolima Forest
+          Tret Tree
+          World Map 3
+
+
+~~~~~~~~~~~~~
+~~~ Troll ~~~
+~~~~~~~~~~~~~
+::Stats::
+          HP        101
+            Regen    10
+          PP          0
+            Regen     0
+
+          Attack    73
+          Defense   16
+          Agility   14
+          Luck      1
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power     100  80  70  80
+Resist     48  48  25  72
+
+::Abilities::
+        * Attack
+        * Brute Force
+
+::Drops::
+          30 EXP
+          34 Gold
+          Nut (ICC 6)
+
+::Location::
+          Kolima Forest
+          Tret Tree
+          World Map 3
+
+
+~~~~~~~~~~~~~~
+~~~ Spider ~~~
+~~~~~~~~~~~~~~
+::Stats::
+          HP         69
+            Regen     0
+          PP          0
+            Regen     0
+
+          Attack    75
+          Defense   22
+          Agility   22
+          Luck      1
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power      95  85  90  85
+Resist     48  48  25  48
+
+::Abilities::
+        * Attack
+        * Spider Web
+
+::Drops::
+          25 EXP
+          32 Gold
+          Antidote (ICC 5)
+
+::Location::
+          Tret Tree
+
+
+~~~~~~~~~~~~~~~
+~~~ Creeper ~~~
+~~~~~~~~~~~~~~~
+::Stats::
+          HP         89
+            Regen     0
+          PP          6
+            Regen     0
+
+          Attack    79
+          Defense   19
+          Agility   29
+          Luck      2
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power     100  95  95  95
+Resist     48 100  72   7
+
+::Abilities::
+        * Attack
+        * Frost
+        * Douse
+
+::Drops::
+          32 EXP
+          38 Gold
+          Weasel's Claw (ICC 6)
+
+::Location::
+          Tret Tree
+
+
+~~~~~~~~~~~~~
+~~~ Gnome ~~~
+~~~~~~~~~~~~~
+::Stats::
+          HP         85
+            Regen     0
+          PP          5
+            Regen     0
+
+          Attack    73
+          Defense   15
+          Agility   38
+          Luck      3
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power      85  85 100  85
+Resist     72  48 100  72
+
+::Abilities::
+        * Attack
+        * Flare
+        * Bolt
+        * Guard
+        * Flee
+
+::Drops::
+          29 EXP
+          40 Gold
+          Oil Drop (ICC 6)
+
+::Location::
+          Tret Tree
+          World Map 3
+          Mercury Lighthouse
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~ Jupiter Djinni Breeze ~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+::Stats::
+          HP        243
+            Regen     0
+          PP         22
+            Regen     0
+
+          Attack    79
+          Defense   20
+          Agility   42
+          Luck      7
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power      80  95  95 120
+Resist     25 100 100 193
+
+::Abilities::
+        * Attack
+        * Flash Bolt
+        * Ray
+        * Plasma
+        * Wind Slash
+        * Whirlwind
+        * Flee
+
+::Drops::
+          88 EXP
+          100 Gold
+
+::Location::
+          Tret Tree
+
+
+~~~~~~~~~~~~
+~~~ Tret ~~~
+~~~~~~~~~~~~
+::Stats::
+          HP        710
+            Regen     0
+          PP         36
+            Regen     0
+
+          Attack    89
+          Defense   27
+          Agility   30
+          Luck      28
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power     105 100  80  70
+Resist     72 175  25 100
+
+::Abilities::
+        * Attack
+        * Quake
+        * Growth
+        * Thorn
+        * Sleep Star
+
+::Drops::
+          226 EXP
+          700 Gold
+          Potion (ICC 1)
+
+::Location::
+          Tret Tree
+
+
+~~~~~~~~~~~~~
+~~~ Ghoul ~~~
+~~~~~~~~~~~~~
+::Stats::
+          HP         99
+            Regen     0
+          PP          0
+            Regen     0
+
+          Attack    93
+          Defense   20
+          Agility   16
+          Luck      1
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power     100  95  80  80
+Resist     25  72   7  48
+
+::Abilities::
+        * Attack
+        * Cannibal Fang
+
+::Drops::
+          34 EXP
+          42 Gold
+          Antidote (ICC 5)
+
+::Location::
+          Bibilin Cave
+
+
+~~~~~~~~~~~~
+~~~ Ooze ~~~
+~~~~~~~~~~~~
+::Stats::
+          HP         72
+            Regen     0
+          PP          0
+            Regen     0
+
+          Attack    72
+          Defense   19
+          Agility   30
+          Luck      1
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power      95 125  75  95
+Resist     48 127   7  48
+
+::Abilities::
+        * Attack
+        * Sticky Goo
+        * Speed Surge
+
+::Drops::
+          26 EXP
+          40 Gold
+          Herb (ICC 5)
+
+::Location::
+          Bibilin Cave
+          World Map 3
+          Mercury Lighthouse
+          World Map 4
+          Fuchin Falls Cave
+
+
+~~~~~~~~~~~~~~
+~~~ Mauler ~~~
+~~~~~~~~~~~~~~
+::Stats::
+          HP        109
+            Regen     0
+          PP          0
+            Regen     0
+
+          Attack    99
+          Defense   27
+          Agility   24
+          Luck      1
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power     100  80  70  80
+Resist     48  48  25  72
+
+::Abilities::
+        * Attack
+        * Bear Claw
+
+::Drops::
+          37 EXP
+          45 Gold
+          Nut (ICC 6)
+
+::Location::
+          World Map 3
+          Mercury Lighthouse
+          World Map 4
+          Fuchin Falls Cave
+
+
+~~~~~~~~~~~~~~~~~~
+~~~ Lizard Man ~~~
+~~~~~~~~~~~~~~~~~~
+::Stats::
+          HP        129
+            Regen     0
+          PP          0
+            Regen     0
+
+          Attack    106
+          Defense   31
+          Agility   30
+          Luck      2
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power      85 100  85  85
+Resist    100 127  72 100
+
+::Abilities::
+        * Attack
+        * Water Blessing
+
+::Drops::
+          42 EXP
+          52 Gold
+          Nut (ICC 6)
+
+::Location::
+          Mercury Lighthouse
+          World Map 4
+
+
+~~~~~~~~~~~~~~
+~~~ Cuttle ~~~
+~~~~~~~~~~~~~~
+::Stats::
+          HP         80
+            Regen     0
+          PP          0
+            Regen     0
+
+          Attack    96
+          Defense   22
+          Agility   36
+          Luck      1
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power      95 125  75  95
+Resist     48 127   7  48
+
+::Abilities::
+        * Attack
+        * Poisonous Bite
+
+::Drops::
+          27 EXP
+          49 Gold
+          Sleep Bomb (ICC 6)
+
+::Location::
+          Mercury Lighthouse
+
+
+~~~~~~~~~~~~~~~~
+~~~ Mimic #1 ~~~
+~~~~~~~~~~~~~~~~
+::Stats::
+          HP        468
+            Regen     0
+          PP         24
+            Regen     0
+
+          Attack    120
+          Defense   33
+          Agility   51
+          Luck      8
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power      95 100  75 105
+Resist    100 127  25 152
+
+::Abilities::
+        * Attack
+        * Wind Slash
+        * Debilitate
+        * Sleep
+        * Psy Drain
+
+::Drops::
+          164 EXP
+          178 Gold
+          Water of Life (ICC 1)
+
+::Location::
+          Mercury Lighthouse
+
+
+~~~~~~~~~~~~~
+~~~ Siren ~~~
+~~~~~~~~~~~~~
+::Stats::
+          HP        116
+            Regen     0
+          PP         12
+            Regen     0
+
+          Attack    107
+          Defense   27
+          Agility   54
+          Luck      9
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power      85 100  85  85
+Resist    100 127  72 100
+
+::Abilities::
+        * Attack
+        * Froth
+        * Sleep
+        * Heartrender
+
+::Drops::
+          45 EXP
+          56 Gold
+          Crystal Powder (ICC 5)
+
+::Location::
+          Mercury Lighthouse
+
+
+~~~~~~~~~~~~~
+~~~ Harpy ~~~
+~~~~~~~~~~~~~
+::Stats::
+          HP        105
+            Regen     0
+          PP          0
+            Regen     0
+
+          Attack    104
+          Defense   25
+          Agility   46
+          Luck      4
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power      95  95  95 110
+Resist    127  72  48   7
+
+::Abilities::
+        * Attack
+        * Shriek
+
+::Drops::
+          38 EXP
+          53 Gold
+          Elixir (ICC 5)
+
+::Location::
+          Mercury Lighthouse
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~ Mercury Djinni Sleet ~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+::Stats::
+          HP        290
+            Regen     0
+          PP         20
+            Regen     0
+
+          Attack    107
+          Defense   24
+          Agility   58
+          Luck      9
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power      95 125  75  95
+Resist    100 193  25 100
+
+::Abilities::
+        * Attack
+        * Tundra
+        * Prism
+        * Drench
+        * Froth Sphere
+        * Flee
+
+::Drops::
+          130 EXP
+          151 Gold
+
+::Location::
+          Mercury Lighthouse
+
+
+~~~~~~~~~~~~~~~
+~~~ Saturos ~~~
+~~~~~~~~~~~~~~~
+::Stats::
+          HP       1200
+            Regen     0
+          PP        160
+            Regen     0
+
+          Attack    113
+          Defense   35
+          Agility   51
+          Luck      40
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power     100  90 110 100
+Resist    100  72 175 127
+
+::Abilities::
+        * Attack
+        * Fireball
+        * Eruption
+        * Heat Flash
+
+::Drops::
+          331 EXP
+          800 Gold
+          Psy Crystal (ICC 1)
+
+::Location::
+          Mercury Lighthouse Aerie
+
+
+~~~~~~~~~~~~
+~~~ Mole ~~~
+~~~~~~~~~~~~
+::Stats::
+          HP         96
+            Regen     0
+          PP          0
+            Regen     0
+
+          Attack    119
+          Defense   22
+          Agility   36
+          Luck      1
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power     100  80  70  80
+Resist     48  48  25  72
+
+::Abilities::
+        * Attack
+        * Mad Spatter
+
+::Drops::
+          39 EXP
+          60 Gold
+          Bramble Seed (ICC 5)
+
+::Location::
+          World Map 4
+          Fuchin Falls Cave
+          World Map 5
+
+
+~~~~~~~~~~~~~~~~
+~~~ Mimic #2 ~~~
+~~~~~~~~~~~~~~~~
+::Stats::
+          HP        506
+            Regen     0
+          PP         26
+            Regen     0
+
+          Attack    133
+          Defense   36
+          Agility   57
+          Luck      10
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power      95 100  75 105
+Resist    100 127  25 152
+
+::Abilities::
+        * Attack
+        * Briar
+        * Debilitate
+        * Sleep
+        * Psy Drain
+
+::Drops::
+          190 EXP
+          207 Gold
+          Game Ticket (ICC 1)
+
+::Location::
+          Fuchin Falls Cave
+
+
+~~~~~~~~~~~~~~~~~~~~
+~~~ Bone Fighter ~~~
+~~~~~~~~~~~~~~~~~~~~
+::Stats::
+          HP        122
+            Regen     0
+          PP          0
+            Regen     0
+
+          Attack    131
+          Defense   35
+          Agility   52
+          Luck      3
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power     100  95  80  80
+Resist     25 127  72  48
+
+::Abilities::
+        * Attack
+        * Undead Sword
+
+::Drops::
+          51 EXP
+          63 Gold
+          Sleep Bomb (ICC 6)
+
+::Location::
+          Fuchin Falls Cave
+          Mogall Forest
+          World Map 5
+          Altin Peak B2
+          B3
+
+
+~~~~~~~~~~~~~
+~~~ Dirge ~~~
+~~~~~~~~~~~~~
+::Stats::
+          HP         91
+            Regen     0
+          PP          0
+            Regen     0
+
+          Attack    122
+          Defense   32
+          Agility   60
+          Luck      2
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power      95  95  95 110
+Resist    127  72  48   7
+
+::Abilities::
+        * Attack
+        * Flying Attack
+
+::Drops::
+          47 EXP
+          61 Gold
+          Nut (ICC 5)
+
+::Location::
+          Fuchin Falls Cave
+          Mogall Forest
+          World Map 5
+          Altin Peak B2
+          B3
+
+
+~~~~~~~~~~~~~~
+~~~ Spirit ~~~
+~~~~~~~~~~~~~~
+::Stats::
+          HP        116
+            Regen     0
+          PP         11
+            Regen     0
+
+          Attack    114
+          Defense   30
+          Agility   48
+          Luck      6
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power     100  95  95  95
+Resist     48 100  72   7
+
+::Abilities::
+        * Attack
+        * Ice
+        * Douse
+
+::Drops::
+          49 EXP
+          67 Gold
+          Crystal Powder (ICC 6)
+
+::Location::
+          Fuchin Falls Cave
+          Mogall Forest
+          World Map 5
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~ Jupiter Djinni Zephyr ~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+::Stats::
+          HP        314
+            Regen     0
+          PP         25
+            Regen     0
+
+          Attack    115
+          Defense   26
+          Agility   68
+          Luck      9
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power      80  95  95 120
+Resist     25 100 100 193
+
+::Abilities::
+        * Attack
+        * Flash Bolt
+        * Storm Ray
+        * Plasma
+        * Wind Slash
+        * Whirlwind
+        * Flee
+
+::Drops::
+          150 EXP
+          176 Gold
+
+::Location::
+          Fuchin Falls Cave
+
+
+~~~~~~~~~~~
+~~~ Ape ~~~
+~~~~~~~~~~~
+::Stats::
+          HP        290
+            Regen     0
+          PP          0
+            Regen     0
+
+          Attack    128
+          Defense   29
+          Agility   49
+          Luck      2
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power     100  80  70  80
+Resist     48  48  25  72
+
+::Abilities::
+        * Attack
+        * Ransack
+
+::Drops::
+          96 EXP
+          160 Gold
+          Vial (ICC 3)
+
+::Location::
+          Mogall Forest
+          World Map 5
+          Altin Peak B2
+          B3
+
+
+~~~~~~~~~~~~~~~~~~
+~~~ Death Head ~~~
+~~~~~~~~~~~~~~~~~~
+::Stats::
+          HP        128
+            Regen     0
+          PP         15
+            Regen     0
+
+          Attack    130
+          Defense   31
+          Agility   47
+          Luck      3
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power     100  95  80  80
+Resist     25 127  72  48
+
+::Abilities::
+        * Attack
+        * Slash
+        * Impair
+
+::Drops::
+          55 EXP
+          73 Gold
+          Nut (ICC 5)
+
+::Location::
+          Mogall Forest
+          World Map 5
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~ Venus Djinni Quartz ~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+::Stats::
+          HP        349
+            Regen     0
+          PP         25
+            Regen     0
+
+          Attack    127
+          Defense   28
+          Agility   76
+          Luck      9
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power     120  95  95  80
+Resist    193 100 100  25
+
+::Abilities::
+        * Attack
+        * Earthquake
+        * Spire
+        * Gaia
+        * Mad Growth
+        * Briar
+        * Flee
+
+::Drops::
+          172 EXP
+          201 Gold
+
+::Location::
+          Mogall Forest
+
+
+~~~~~~~~~~~~~~~~~~
+~~~ Killer Ape ~~~
+~~~~~~~~~~~~~~~~~~
+::Stats::
+          HP       1000
+            Regen     0
+          PP         45
+            Regen     0
+
+          Attack    156
+          Defense   49
+          Agility   94
+          Luck      26
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power     100  80  70  80
+Resist     72  72  25 127
+
+::Abilities::
+        * Attack
+        * Douse
+        * Debilitate
+        * Bind
+        * War Cry
+        * Ransack
+
+::Drops::
+          460 EXP
+          1500 Gold
+          Douse Drop (ICC 1)
+
+::Location::
+          Mogall Forest
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~ Mars Djinni Corona ~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+::Stats::
+          HP        355
+            Regen     0
+          PP         24
+            Regen     0
+
+          Attack    144
+          Defense   41
+          Agility   76
+          Luck      8
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power      95  75 125  95
+Resist    100  25 193 100
+
+::Abilities::
+        * Attack
+        * Flare Wall
+        * Fireball
+        * Volcano
+        * Mad Blast
+        * Nova
+        * Flee
+
+::Drops::
+          173 EXP
+          210 Gold
+
+::Location::
+          World Map 5
+
+
+~~~~~~~~~~~~~~~~~~~~~
+~~~ Living Statue ~~~
+~~~~~~~~~~~~~~~~~~~~~
+::Stats::
+          HP        540
+            Regen     0
+          PP         34
+            Regen     0
+
+          Attack    149
+          Defense   44
+          Agility   56
+          Luck      20
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power      95 125  75  95
+Resist    100 193  25 100
+
+::Abilities::
+        * Attack
+        * Tundra
+        * Water Blessing
+
+::Drops::
+          377 EXP
+          900 Gold
+          Vial (ICC 1)
+
+::Location::
+          Altin Peak B1
+          B2
+
+
+~~~~~~~~~~~~~~~~~~~
+~~~ Slime Beast ~~~
+~~~~~~~~~~~~~~~~~~~
+::Stats::
+          HP         99
+            Regen     0
+          PP          0
+            Regen     0
+
+          Attack    134
+          Defense   27
+          Agility   54
+          Luck      2
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power      95 125  75  95
+Resist     48 127   7  48
+
+::Abilities::
+        * Attack
+        * Sticky Poison
+        * Speed Surge
+
+::Drops::
+          51 EXP
+          77 Gold
+          Herb (ICC 5)
+
+::Location::
+          Altin Peak B2
+          B3
+
+
+~~~~~~~~~~~~~~~~~
+~~~ Tarantula ~~~
+~~~~~~~~~~~~~~~~~
+::Stats::
+          HP        108
+            Regen     0
+          PP          0
+            Regen     0
+
+          Attack    144
+          Defense   30
+          Agility   52
+          Luck      5
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power      95  85  90  85
+Resist     48  48  25  48
+
+::Abilities::
+        * Attack
+        * Poison Fang
+        * Spider Web
+
+::Drops::
+          58 EXP
+          81 Gold
+          Antidote (ICC 5)
+
+::Location::
+          Altin Peak B2
+          B3
+
+
+~~~~~~~~~~~~~~~
+~~~ Calamar ~~~
+~~~~~~~~~~~~~~~
+::Stats::
+          HP        104
+            Regen     0
+          PP          0
+            Regen     0
+
+          Attack    130
+          Defense   34
+          Agility   46
+          Luck      1
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power      95 125  75  95
+Resist     48 127   7  48
+
+::Abilities::
+        * Attack
+        * Electric Bite
+        * Ally Search
+
+::Drops::
+          59 EXP
+          79 Gold
+          Elixir (ICC 5)
+
+::Location::
+          Altin Peak B2
+          B3
+
+
+~~~~~~~~~~~~~~~~~~~
+~~~ Rat Fighter ~~~
+~~~~~~~~~~~~~~~~~~~
+::Stats::
+          HP        143
+            Regen     0
+          PP          0
+            Regen     0
+
+          Attack    146
+          Defense   39
+          Agility   58
+          Luck      3
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power      85 100  85  85
+Resist     72 100  48  72
+
+::Abilities::
+        * Attack
+        * Slice
+        * Flee
+
+::Drops::
+          63 EXP
+          83 Gold
+          Smoke Bomb (ICC 6)
+
+::Location::
+          Altin Peak B2
+          B3
+          Lamakan Desert
+
+
+~~~~~~~~~~~~~~~~
+~~~ Mimic #3 ~~~
+~~~~~~~~~~~~~~~~
+::Stats::
+          HP        579
+            Regen     0
+          PP         32
+            Regen     0
+
+          Attack    160
+          Defense   44
+          Agility   70
+          Luck      12
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power      95 100  75 105
+Resist    100 127  25 152
+
+::Abilities::
+        * Attack
+        * Shine Plasma
+        * Debilitate
+        * Sleep
+        * Psy Drain
+
+::Drops::
+          241 EXP
+          267 Gold
+          Game Ticket (ICC 1)
+
+::Location::
+          Altin Peak B2
+          B3
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~ Mercury Djinni Spritz ~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+::Stats::
+          HP        361
+            Regen     0
+          PP         27
+            Regen     0
+
+          Attack    140
+          Defense   32
+          Agility   84
+          Luck      10
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power      95 125  75  95
+Resist    100 193  25 100
+
+::Abilities::
+        * Attack
+        * Tundra
+        * Ice Horn
+        * Hail Prism
+        * Drench
+        * Froth Sphere
+        * Flee
+
+::Drops::
+          190 EXP
+          226 Gold
+
+::Location::
+          Altin Peak B3
+
+
+~~~~~~~~~~~~~~~~~~~~~
+~~~ Hydros Statue ~~~
+~~~~~~~~~~~~~~~~~~~~~
+::Stats::
+          HP       1300
+            Regen     0
+          PP         80
+            Regen     0
+
+          Attack    156
+          Defense   53
+          Agility   62
+          Luck      30
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power      95 125  75  95
+Resist    100 193  25 100
+
+::Abilities::
+        * Attack
+        * Tundra
+        * Ice Horn
+        * Drench
+        * Froth Sphere
+        * Restore
+        * Water Blessing
+
+::Drops::
+          496 EXP
+          2400 Gold
+          Lucky Medal (ICC 1)
+
+::Location::
+          Altin Peak B4
+
+
+~~~~~~~~~~~~
+~~~ Grub ~~~
+~~~~~~~~~~~~
+::Stats::
+          HP        102
+            Regen     0
+          PP          0
+            Regen     0
+
+          Attack    154
+          Defense   32
+          Agility   52
+          Luck      1
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power      95  85  90  85
+Resist     48  48  25  48
+
+::Abilities::
+        * Attack
+        * Flee
+
+::Drops::
+          62 EXP
+          88 Gold
+          Antidote (ICC 5)
+
+::Location::
+          Lamakan Desert
+
+
+~~~~~~~~~~~~~~~~~~
+~~~ Salamander ~~~
+~~~~~~~~~~~~~~~~~~
+::Stats::
+          HP        212
+            Regen     0
+          PP         18
+            Regen     0
+
+          Attack    158
+          Defense   49
+          Agility   50
+          Luck      6
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power      95  75 125  95
+Resist    100  25 193 100
+
+::Abilities::
+        * Attack
+        * Fireball
+        * Blast
+        * Guard
+        * Fire Blessing
+
+::Drops::
+          84 EXP
+          190 Gold
+          Oil Drop (ICC 5)
+
+::Location::
+          Lamakan Desert
+
+
+~~~~~~~~~~~~~~~~
+~~~ Ant Lion ~~~
+~~~~~~~~~~~~~~~~
+::Stats::
+          HP        400
+            Regen     0
+          PP         32
+            Regen     0
+
+          Attack    160
+          Defense   45
+          Agility   58
+          Luck      19
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power      95  85 115  95
+Resist    100  25 175 100
+
+::Abilities::
+        * Attack
+        * Earthquake
+        * Flare Wall
+        * Sonic Wave
+
+::Drops::
+          168 EXP
+          320 Gold
+          Vial (ICC 4)
+
+::Location::
+          Lamakan Desert
+
+
+~~~~~~~~~~~
+~~~ Orc ~~~
+~~~~~~~~~~~
+::Stats::
+          HP        148
+            Regen     0
+          PP          0
+            Regen     0
+
+          Attack    156
+          Defense   41
+          Agility   54
+          Luck      3
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power     100  85  85  85
+Resist    100  72  72  48
+
+::Abilities::
+        * Attack
+        * Spasm
+
+::Drops::
+          68 EXP
+          113 Gold
+          Nut (ICC 6)
+
+::Location::
+          Lamakan Desert
+
+
+~~~~~~~~~~~~~~~~~
+~~~ Manticore ~~~
+~~~~~~~~~~~~~~~~~
+::Stats::
+          HP       1700
+            Regen     0
+          PP         83
+            Regen     0
+
+          Attack    168
+          Defense   48
+          Agility   61
+          Luck      36
+          Turns     2
+
+          Ven Mrc Mar Jup
+Power      95  85 115  95
+Resist    100  25 175 100
+
+::Abilities::
+        * Attack
+        * Mad Blast
+        * Nova
+        * Impair
+        * Delude
+        * Curse
+        * Poison Tail
+
+::Drops::
+          590 EXP
+          3400 Gold
+          Psy Crystal (ICC 1)
+
+::Location::
+          Lamakan Desert
+
+
+~~~~~~~~~~~~~~~~~~~
+~~~ Fighter Bee ~~~
+~~~~~~~~~~~~~~~~~~~
+::Stats::
+          HP        116
+            Regen     0
+          PP          0
+            Regen     0
+
+          Attack    155
+          Defense   38
+          Agility   74
+          Luck      2
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power      90  90  95 105
+Resist    100  48  48   7
+
+::Abilities::
+        * Attack
+        * Numbing Sting
+        * Ally Search
+
+::Drops::
+          67 EXP
+          90 Gold
+          Elixir (ICC 6)
+
+::Location::
+          Lamakan Desert
+          World Map 6
+          Vault Cave
+          Vale Cave
+
+
+~~~~~~~~~~~~~~~
+~~~ Ravager ~~~
+~~~~~~~~~~~~~~~
+::Stats::
+          HP        189
+            Regen     0
+          PP          0
+            Regen     0
+
+          Attack    185
+          Defense   47
+          Agility   60
+          Luck      2
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power     100  80  70  80
+Resist     48  48  25  72
+
+::Abilities::
+        * Attack
+        * Bear Claw
+
+::Drops::
+          90 EXP
+          95 Gold
+          Elixir (ICC 6)
+
+::Location::
+          Vault Cave
+          Vale Cave
+
+
+~~~~~~~~~~~~~~~~
+~~~ Gargoyle ~~~
+~~~~~~~~~~~~~~~~
+::Stats::
+          HP        176
+            Regen     0
+          PP         21
+            Regen     0
+
+          Attack    181
+          Defense   81
+          Agility   59
+          Luck      7
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power     100 100 100  95
+Resist     48 100 100 127
+
+::Abilities::
+        * Attack
+        * Quake Sphere
+        * Guard
+        * Ice Blessing
+
+::Drops::
+          84 EXP
+          119 Gold
+          Sleep Bomb (ICC 6)
+
+::Location::
+          Vault Cave
+
+
+~~~~~~~~~~~~~~~~~~
+~~~ Ghost Mage ~~~
+~~~~~~~~~~~~~~~~~~
+::Stats::
+          HP        161
+            Regen     0
+          PP         19
+            Regen     0
+
+          Attack    168
+          Defense   43
+          Agility   86
+          Luck      9
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power     100  95  95  95
+Resist     48 100  72   7
+
+::Abilities::
+        * Attack
+        * Spire
+        * Whirlwind
+        * Haunting
+
+::Drops::
+          80 EXP
+          110 Gold
+          Bramble Seed (ICC 5)
+
+::Location::
+          Vault Cave
+          Vale Cave
+
+
+~~~~~~~~~~~~~~~~~~
+~~~ Cave Troll ~~~
+~~~~~~~~~~~~~~~~~~
+::Stats::
+          HP        212
+            Regen    20
+          PP          0
+            Regen     0
+
+          Attack    199
+          Defense   45
+          Agility   44
+          Luck      3
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power     100  80  70  80
+Resist     48  48  25  72
+
+::Abilities::
+        * Attack
+        * Brute Force
+
+::Drops::
+          106 EXP
+          134 Gold
+          Nut (ICC 5)
+
+::Location::
+          Vault Cave
+
+
+~~~~~~~~~~~~~~~~
+~~~ Mimic #4 ~~~
+~~~~~~~~~~~~~~~~
+::Stats::
+          HP        690
+            Regen     0
+          PP         42
+            Regen     0
+
+          Attack    201
+          Defense   56
+          Agility   89
+          Luck      13
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power      95 100  75 105
+Resist    100 127  25 152
+
+::Abilities::
+        * Attack
+        * Sonic Slash
+        * Debilitate
+        * Sleep
+        * Psy Drain
+
+::Drops::
+          321 EXP
+          356 Gold
+          Vial (ICC 1)
+
+::Location::
+          Vault Cave
+
+
+~~~~~~~~~~~~~~~~~
+~~~ Death Cap ~~~
+~~~~~~~~~~~~~~~~~
+::Stats::
+          HP        117
+            Regen     0
+          PP          0
+            Regen     0
+
+          Attack    159
+          Defense   19
+          Agility   90
+          Luck      5
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power     105 100  80  70
+Resist     48 100   7  72
+
+::Abilities::
+        * Attack
+        * Sleep Star
+
+::Drops::
+          48 EXP
+          56 Gold
+          Sleep Bomb (ICC 6)
+
+::Location::
+          World Map 6
+          Vault Cave
+          Vale Cave
+
+
+~~~~~~~~~~~~~~~~~~
+~~~ Mad Vermin ~~~
+~~~~~~~~~~~~~~~~~~
+::Stats::
+          HP        131
+            Regen     0
+          PP          0
+            Regen     0
+
+          Attack    164
+          Defense   22
+          Agility   67
+          Luck      2
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power     100  80  70  80
+Resist     48  48  25  72
+
+::Abilities::
+        * Attack
+        * Onslaught
+
+::Drops::
+          55 EXP
+          80 Gold
+          Herb (ICC 6)
+
+::Location::
+          World Map 6
+          Vale Cave
+
+
+~~~~~~~~~~~~~~
+~~~ Undead ~~~
+~~~~~~~~~~~~~~
+::Stats::
+          HP        165
+            Regen     0
+          PP          0
+            Regen     0
+
+          Attack    180
+          Defense   27
+          Agility   58
+          Luck      1
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power     100  95  80  80
+Resist     25  72   7  48
+
+::Abilities::
+        * Attack
+        * Decompose
+        * Ally Search
+
+::Drops::
+          74 EXP
+          90 Gold
+          Antidote (ICC 5)
+
+::Location::
+          World Map 6
+          Vale Cave
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~ Venus Djinni Vine ~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~
+::Stats::
+          HP        421
+            Regen     0
+          PP         30
+            Regen     0
+
+          Attack    175
+          Defense   45
+          Agility   91
+          Luck      10
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power     120  95  95  80
+Resist    193 100 100  25
+
+::Abilities::
+        * Attack
+        * Quake Sphere
+        * Clay Spire
+        * Gaia
+        * Mad Growth
+        * Briar
+        * Flee
+
+::Drops::
+          230 EXP
+          277 Gold
+
+::Location::
+          World Map 6
+
+
+~~~~~~~~~~~~~~~~~~
+~~~ Man o' War ~~~
+~~~~~~~~~~~~~~~~~~
+::Stats::
+          HP        137
+            Regen     0
+          PP          0
+            Regen     0
+
+          Attack    193
+          Defense   42
+          Agility   70
+          Luck      1
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power      95 125  75  95
+Resist     48 127   7  48
+
+::Abilities::
+        * Attack
+        * Poison Ink
+
+::Drops::
+          55 EXP
+          87 Gold
+          Antidote (ICC 6)
+
+::Location::
+          Ship
+
+
+~~~~~~~~~~~~~~~~~~~~~~
+~~~ Lizard Fighter ~~~
+~~~~~~~~~~~~~~~~~~~~~~
+::Stats::
+          HP        212
+            Regen     0
+          PP          0
+            Regen     0
+
+          Attack    204
+          Defense   61
+          Agility   60
+          Luck      2
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power      85 100  85  85
+Resist    100 127  72 100
+
+::Abilities::
+        * Attack
+        * Water Blessing
+
+::Drops::
+          89 EXP
+          124 Gold
+          Nut (ICC 5)
+
+::Location::
+          Ship
+
+
+~~~~~~~~~~~~~~~~~
+~~~ Rabid Bat ~~~
+~~~~~~~~~~~~~~~~~
+::Stats::
+          HP        125
+            Regen     0
+          PP          0
+            Regen     0
+
+          Attack    190
+          Defense   34
+          Agility   84
+          Luck      2
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power      95  95  95 110
+Resist    127  72  48   7
+
+::Abilities::
+        * Attack
+        * Sonic Wave
+        * Vampiric Fang
+
+::Drops::
+          61 EXP
+          82 Gold
+          Sleep Bomb (ICC 5)
+
+::Location::
+          Ship
+          World Map 7
+
+
+~~~~~~~~~~~~~~
+~~~ Virago ~~~
+~~~~~~~~~~~~~~
+::Stats::
+          HP        185
+            Regen     0
+          PP          0
+            Regen     0
+
+          Attack    199
+          Defense   47
+          Agility   89
+          Luck      4
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power      95  95  95 110
+Resist    127  72  48   7
+
+::Abilities::
+        * Attack
+        * Banshee Howl
+
+::Drops::
+          87 EXP
+          120 Gold
+          Elixir (ICC 5)
+
+::Location::
+          Ship
+          Crossbone Isle #1
+
+
+~~~~~~~~~~~~~~
+~~~ Kraken ~~~
+~~~~~~~~~~~~~~
+::Stats::
+          HP       2400
+            Regen     0
+          PP         46
+            Regen     0
+
+          Attack    216
+          Defense   60
+          Agility   80
+          Luck      21
+          Turns     2
+
+          Ven Mrc Mar Jup
+Power      95 115  85  95
+Resist    100 175  25 100
+
+::Abilities::
+        * Attack
+        * Drench
+        * Froth Sphere
+        * Ply
+        * Water Blessing
+        * Dark Blessing
+        * Poison Beat
+        * Spinning Beat
+
+::Drops::
+          711 EXP
+          5200 Gold
+          Water of Life (ICC 1)
+
+::Location::
+          Ship
+
+
+~~~~~~~~~~~~~~~~~~~
+~~~ Armored Rat ~~~
+~~~~~~~~~~~~~~~~~~~
+::Stats::
+          HP        147
+            Regen     0
+          PP          0
+            Regen     0
+
+          Attack    193
+          Defense   79
+          Agility   60
+          Luck      1
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power     100  80  70  80
+Resist     48  48  25  72
+
+::Abilities::
+        * Attack
+        * Fortify
+        * Total Defense
+
+
+::Drops::
+          77 EXP
+          100 Gold
+          Herb (ICC 6)
+
+::Location::
+          World Map 7
+          Atmiller Cave
+
+
+~~~~~~~~~~~~~~~~
+~~~ Mad Mole ~~~
+~~~~~~~~~~~~~~~~
+::Stats::
+          HP        156
+            Regen     0
+          PP          0
+            Regen     0
+
+          Attack    197
+          Defense   23
+          Agility   62
+          Luck      1
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power     100  80  70  80
+Resist     48  48  25  72
+
+::Abilities::
+        * Attack
+        * Mad Spatter
+        * Worms
+
+::Drops::
+          71 EXP
+          88 Gold
+          Bramble Seed (ICC 6)
+
+::Location::
+          World Map 7
+          Atmiller Cave
+
+
+~~~~~~~~~~~~~~~~~~
+~~~ Foul Dirge ~~~
+~~~~~~~~~~~~~~~~~~
+::Stats::
+          HP        149
+            Regen     0
+          PP          0
+            Regen     0
+
+          Attack    177
+          Defense   46
+          Agility   120
+          Luck      2
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power      95  95  95 110
+Resist    127  72  48   7
+
+::Abilities::
+        * Attack
+        * Swift Strike
+
+::Drops::
+          82 EXP
+          100 Gold
+          Smoke Bomb (ICC 6)
+
+::Location::
+          World Map 7
+          Atmiller Cave
+
+
+~~~~~~~~~~~~~~~~~~
+~~~ Gnome Mage ~~~
+~~~~~~~~~~~~~~~~~~
+::Stats::
+          HP        162
+            Regen     0
+
+          PP         24
+            Regen     0
+
+          Attack    179
+          Defense   50
+          Agility   108
+          Luck      8
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power      85  85  85 100
+Resist     48  72  72 100
+
+::Abilities::
+        * Attack
+        * Fireball
+        * Flash Bolt
+        * Delude
+
+::Drops::
+          86 EXP
+          126 Gold
+          Crystal Powder (ICC 5)
+
+::Location::
+          World Map 7
+          Atmiller Cave
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~ Mercury Djinni Hail ~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+::Stats::
+          HP        466
+            Regen     0
+          PP         46
+            Regen     0
+
+          Attack    207
+          Defense   48
+          Agility   116
+          Luck      16
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power      95 125  75  95
+Resist    100 193  25 100
+
+::Abilities::
+        * Attack
+        * Tundra
+        * Ice Horn
+        * Hail Prism
+        * Drench
+        * Froth Sphere
+        * Flee
+
+::Drops::
+          279 EXP
+          340 Gold
+
+::Location::
+          World Map 7
+
+
+~~~~~~~~~~~~~~~~~~~
+~~~ Dread Hound ~~~
+~~~~~~~~~~~~~~~~~~~
+::Stats::
+          HP        252
+            Regen     0
+          PP          0
+            Regen     0
+
+          Attack    211
+          Defense   56
+          Agility   90
+          Luck      13
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power      95  85 115  95
+Resist    100  25 175 100
+
+::Abilities::
+        * Attack
+        * Fire Blessing
+        * Wicked Howl
+        * Double Fang
+
+::Drops::
+          116 EXP
+          176 Gold
+          Prophet's Hat (ICC 7)
+
+::Location::
+          Atmiller Cave
+
+
+~~~~~~~~~~~~
+~~~ Worm ~~~
+~~~~~~~~~~~~
+::Stats::
+          HP        132
+            Regen     0
+          PP          0
+            Regen     0
+
+          Attack    196
+          Defense   51
+          Agility   79
+          Luck      2
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power      95  85  90  85
+Resist     48  48  25  48
+
+::Abilities::
+        * Attack
+        * Search for Help
+
+::Drops::
+          60 EXP
+          94 Gold
+          Herb (ICC 6)
+
+::Location::
+          Atmiller Cave
+
+
+~~~~~~~~~~~~~~~~~~~~~
+~~~ Clay Gargoyle ~~~
+~~~~~~~~~~~~~~~~~~~~~
+::Stats::
+          HP        209
+            Regen     0
+          PP         24
+            Regen     0
+
+          Attack    210
+          Defense   90
+          Agility   84
+          Luck      7
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power     100 100 100  95
+Resist     48 100 100 127
+
+::Abilities::
+        * Attack
+        * Spire
+        * Guard
+        * Sonic Wave
+
+::Drops::
+          100 EXP
+          147 Gold
+          Nut (ICC 6)
+
+::Location::
+          Atmiller Cave
+
+
+~~~~~~~~~~~~~
+~~~ Wight ~~~
+~~~~~~~~~~~~~
+::Stats::
+          HP        192
+            Regen     0
+          PP          0
+            Regen     0
+
+          Attack    205
+          Defense   55
+          Agility   54
+          Luck      2
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power     100  95  80  80
+Resist     25  72   7  48
+
+::Abilities::
+        * Attack
+        * Rotten Blood
+        * Decompose
+
+::Drops::
+          92 EXP
+          115 Gold
+          Elixir (ICC 5)
+
+::Location::
+          Atmiller Cave
+
+
+~~~~~~~~~~~~~
+~~~ Golem ~~~
+~~~~~~~~~~~~~
+::Stats::
+          HP        266
+            Regen     0
+          PP          0
+            Regen     0
+
+          Attack    217
+          Defense   57
+          Agility   40
+          Luck      2
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power     120  95  95  80
+Resist    193 100 100  25
+
+::Abilities::
+        * Attack
+        * Forcible Arm
+
+::Drops::
+          105 EXP
+          161 Gold
+          Vial (ICC 7)
+
+::Location::
+          Atmiller Cave
+
+
+~~~~~~~~~~~~~~~~
+~~~ Mimic #6 ~~~
+~~~~~~~~~~~~~~~~
+::Stats::
+          HP        767
+            Regen     0
+          PP         48
+            Regen     0
+
+          Attack    227
+          Defense   63
+          Agility   104
+          Luck      15
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power      95 100  75 105
+Resist    100 127  25 152
+
+::Abilities::
+        * Attack
+        * Nettle
+        * Debilitate
+        * Sleep
+        * Curse
+        * Psy Drain
+
+::Drops::
+          374 EXP
+          415 Gold
+          Water of Life (ICC 1)
+
+::Location::
+          Atmiller Cave
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~ Jupiter Djinni Squall ~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+::Stats::
+          HP        481
+            Regen     0
+          PP         40
+            Regen     0
+
+          Attack    205
+          Defense   45
+          Agility   120
+          Luck      14
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power      80  95  95 120
+Resist     25 100 100 193
+
+::Abilities::
+        * Attack
+        * Blue Bolt
+        * Storm Ray
+        * Plasma
+        * Wind Slash
+        * Tornado
+        * Flee
+
+::Drops::
+          295 EXP
+          352 Gold
+
+::Location::
+          Atmiller Cave
+
+
+~~~~~~~~~~~~~
+~~~ Azart ~~~
+~~~~~~~~~~~~~
+[IF YOU LOSE THIS RACE: Defense 20]
+ [IF YOU WIN THIS RACE: Defense  2]
+::Stats::
+          HP        450
+            Regen     0
+          PP          0
+            Regen     0
+
+          Attack    206
+          Defense   20 / 2
+          Agility   62
+          Luck      9
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power      80  80  80  80
+Resist     90  90  90  90
+
+::Abilities::
+        * Attack
+        * Defend
+
+::Drops::
+          0 EXP
+          0 Gold
+
+::Location::
+          Colosso
+
+
+~~~~~~~~~~~~~~~
+~~~ Satrage ~~~
+~~~~~~~~~~~~~~~
+[IF YOU LOSE THIS RACE: Defense 28]
+ [IF YOU WIN THIS RACE: Defense  6]
+::Stats::
+          HP        570
+            Regen     0
+          PP          0
+            Regen     0
+
+          Attack    228
+          Defense   28 / 6
+          Agility   73
+          Luck      12
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power      80  80  80  80
+Resist     90  90  90  90
+
+::Abilities::
+        * Attack
+        * Defend
+
+::Drops::
+          0 EXP
+          0 Gold
+
+::Location::
+          Colosso
+
+
+~~~~~~~~~~~~~~~
+~~~ Navampa ~~~
+~~~~~~~~~~~~~~~
+[IF YOU LOSE THIS RACE: Attack 274]
+ [IF YOU WIN THIS RACE: Attack 232]
+::Stats::
+          HP        820
+            Regen     0
+          PP          0
+            Regen     0
+
+          Attack    274 / 232
+          Defense   54
+          Agility   84
+          Luck      16
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power      80  80  80  80
+Resist     90  90  90  90
+
+::Abilities::
+        * Attack
+        * Defend
+
+::Drops::
+          0 EXP
+          0 Gold
+
+::Location::
+          Colosso
+
+
+~~~~~~~~~~~~~~~~~~~
+~~~ Warrior Bee ~~~
+~~~~~~~~~~~~~~~~~~~
+::Stats::
+          HP        164
+            Regen     0
+          PP          0
+            Regen     0
+
+          Attack    221
+          Defense   65
+          Agility   102
+          Luck      5
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power      90  90  95 105
+Resist    100  48  48   7
+
+::Abilities::
+        * Attack
+        * Numbing Sting
+        * Mortal Blow
+        * Ally Search
+
+::Drops::
+          65 EXP
+          104 Gold
+          Elixir (ICC 5)
+
+::Location::
+          Gondowan Cave
+          World Map 8
+          World Map 9
+
+
+~~~~~~~~~~~~~~~~~
+~~~ Dirty Ape ~~~
+~~~~~~~~~~~~~~~~~
+::Stats::
+          HP        230
+            Regen     0
+          PP          0
+            Regen     0
+
+          Attack    236
+          Defense   57
+          Agility   132
+          Luck      2
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power     100  80  70  80
+Resist     72  72  25 127
+
+::Abilities::
+        * Attack
+        * War Cry
+        * Freebite Rush
+
+::Drops::
+          114 EXP
+          149 Gold
+          Antidote (ICC 5)
+
+::Location::
+          Gondowan Cave
+          World Map 8
+          World Map 9
+
+
+~~~~~~~~~~~~~~
+~~~ Kobold ~~~
+~~~~~~~~~~~~~~
+::Stats::
+          HP        220
+            Regen     0
+          PP          0
+            Regen     0
+
+          Attack    230
+          Defense   62
+          Agility   75
+          Luck      4
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power     100  85  85  85
+Resist    100  72  72  48
+
+::Abilities::
+        * Attack
+
+::Drops::
+          107 EXP
+          154 Gold
+          Sleep Bomb (ICC 5)
+
+::Location::
+          Gondowan Cave
+          Inner Lunpa Fortress
+          World Map 8
+          Suhalla Desert
+
+
+~~~~~~~~~~~~~~~~~~~
+~~~ Rat Warrior ~~~
+~~~~~~~~~~~~~~~~~~~
+::Stats::
+          HP        208
+            Regen     0
+          PP          0
+            Regen     0
+
+          Attack    226
+          Defense   49
+          Agility   121
+          Luck      3
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power      85 100  85  85
+Resist     72 100  48  72
+
+::Abilities::
+        * Attack
+        * Slice
+        * Flee
+
+::Drops::
+          100 EXP
+          160 Gold
+          Bramble Seed (ICC 6)
+
+::Location::
+          Gondowan Cave
+          Inner Lunpa Fortress
+          World Map 8
+          World Map 9
+
+
+~~~~~~~~~~~~~~~
+~~~ Brigand ~~~
+~~~~~~~~~~~~~~~
+::Stats::
+          HP        421
+            Regen     0
+          PP          0
+            Regen     0
+
+          Attack    251
+          Defense   69
+          Agility   104
+          Luck      5
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power      80  80  80  80
+Resist     72  72  72  72
+
+::Abilities::
+        * Attack
+        * Slice
+
+::Drops::
+          162 EXP
+          190 Gold
+          Crystal Powder (ICC 6)
+
+::Location::
+          Lunpa Fortress
+
+
+~~~~~~~~~~~~~~~~~~
+~~~ Vile Dirge ~~~
+~~~~~~~~~~~~~~~~~~
+::Stats::
+          HP        173
+            Regen     0
+          PP          0
+            Regen     0
+
+          Attack    228
+          Defense   56
+          Agility   120
+          Luck      2
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power      95  95  95 110
+Resist    127  72  48   7
+
+::Abilities::
+        * Attack
+        * Wing Beat
+        * Flying Attack
+
+::Drops::
+          75 EXP
+          98 Gold
+          Weasel's Claw (ICC 5)
+
+::Location::
+          Inner Lunpa Fortress
+          World Map 8
+          Suhalla Desert
+
+
+~~~~~~~~~~~~~~~~
+~~~ Toadonpa ~~~
+~~~~~~~~~~~~~~~~
+::Stats::
+          HP       2800
+            Regen    80
+          PP          0
+            Regen     0
+
+          Attack    266
+          Defense   52
+          Agility   82
+          Luck      18
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power      95 115  85  95
+Resist    100 175  25 100
+
+::Abilities::
+        * Attack
+        * Dark Blessing
+        * Sticky Poison
+        * Rotten Blood
+        * Thrash
+::Drops::
+          999 EXP
+          3200 Gold
+          Psy Crystal (ICC 1)
+
+::Location::
+          Inner Lunpa Fortress
+
+
+~~~~~~~~~~~~~~~~~~~
+~~~ Orc Captain ~~~
+~~~~~~~~~~~~~~~~~~~
+::Stats::
+          HP        231
+            Regen     0
+          PP          0
+            Regen     0
+
+          Attack    248
+          Defense   69
+          Agility   90
+          Luck      4
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power     100  85  85  85
+Resist    100  72  72  48
+
+::Abilities::
+        * Attack
+        * Spasm
+        * Stand Ready
+
+::Drops::
+          125 EXP
+          142 Gold
+          Smoke Bomb (ICC 5)
+
+::Location::
+          World Map 8
+          Suhalla Desert
+          World Map 9
+
+
+~~~~~~~~~~~~~~~~~~~~~
+~~~ Stone Soldier ~~~
+~~~~~~~~~~~~~~~~~~~~~
+::Stats::
+          HP        179
+            Regen     0
+          PP          6
+            Regen     0
+
+          Attack    241
+          Defense   105
+          Agility   104
+          Luck      5
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power      95  75 125  95
+Resist     48   7 127  48
+
+::Abilities::
+        * Attack
+        * Blast
+        * Mad Blast
+        * Dynamite
+        * Headbutt
+
+::Drops::
+          98 EXP
+          98 Gold
+          Elixir (ICC 6)
+
+::Location::
+          Suhalla Desert
+          Crossbone Isle #5
+
+
+~~~~~~~~~~~~~
+~~~ Roach ~~~
+~~~~~~~~~~~~~
+::Stats::
+          HP        211
+            Regen     0
+          PP         27
+            Regen     0
+
+          Attack    252
+          Defense   72
+          Agility   92
+          Luck      4
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power      95  85 115  95
+Resist    100  25 175 100
+
+::Abilities::
+        * Attack
+        * Quake Sphere
+        * Flare Wall
+        * Sonic Wave
+
+::Drops::
+          144 EXP
+          120 Gold
+          Bramble Seed (ICC 6)
+
+::Location::
+          Suhalla Desert
+
+
+~~~~~~~~~~~~~~~~
+~~~ Harridan ~~~
+~~~~~~~~~~~~~~~~
+::Stats::
+          HP        231
+            Regen     0
+          PP         29
+            Regen     0
+
+          Attack    261
+          Defense   66
+          Agility   118
+          Luck      8
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power      95  95  95 110
+Resist    175 100  72  25
+
+::Abilities::
+        * Attack
+        * Wind Slash
+        * Banshee Howl
+        * Crazy Voice
+
+::Drops::
+          150 EXP
+          164 Gold
+          Nut (ICC 6)
+
+::Location::
+          Suhalla Desert
+          Crossbone Isle #5
+
+
+~~~~~~~~~~~~~~~~~~~
+~~~ Acid Maggot ~~~
+~~~~~~~~~~~~~~~~~~~
+::Stats::
+          HP        160
+            Regen     0
+          PP          0
+            Regen     0
+
+          Attack    255
+          Defense   60
+          Agility   78
+          Luck      2
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power      95  85  90  85
+Resist     48  48  25  48
+
+::Abilities::
+        * Attack
+        * Acid Bite
+        * Flee
+
+::Drops::
+          86 EXP
+          102 Gold
+          Sleep Bomb (ICC 6)
+
+::Location::
+          Suhalla Desert
+
+
+~~~~~~~~~~~~~~~~
+~~~ Magicore ~~~
+~~~~~~~~~~~~~~~~
+::Stats::
+          HP        321
+            Regen     0
+          PP         34
+            Regen     0
+
+          Attack    253
+          Defense   74
+          Agility   109
+          Luck      11
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power      95  85 115  95
+Resist    100  25 175 100
+
+::Abilities::
+        * Attack
+        * Nova
+        * Sleep
+        * Bind
+        * Poison Tail
+
+::Drops::
+          169 EXP
+          208 Gold
+          Aura Gloves (ICC 8)
+
+::Location::
+          Suhalla Desert
+
+
+~~~~~~~~~~~~~~~~~~~~
+~~~ Brutal Troll ~~~
+~~~~~~~~~~~~~~~~~~~~
+::Stats::
+          HP        291
+            Regen    30
+          PP          0
+            Regen     0
+
+          Attack    273
+          Defense   63
+          Agility   76
+          Luck      6
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power     100  80  70  80
+Resist     48  48  25  72
+
+::Abilities::
+        * Attack
+        * Brute Force
+        * Berserk
+
+::Drops::
+          150 EXP
+          190 Gold
+          Nut (ICC 5)
+
+::Location::
+          Suhalla Desert
+          World Map 9
+
+
+~~~~~~~~~~~~~~~~
+~~~ Mimic #7 ~~~
+~~~~~~~~~~~~~~~~
+::Stats::
+          HP        997
+            Regen     0
+          PP         60
+            Regen     0
+
+          Attack    303
+          Defense   94
+          Agility   139
+          Luck      17
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power      95 100  75 105
+Resist    100 127  25 152
+
+::Abilities::
+        * Attack
+        * Ice Missile
+        * Debilitate
+        * Sleep
+        * Curse
+        * Condemn
+        * Psy Drain
+
+::Drops::
+          669 EXP
+          547 Gold
+          Water of Life (ICC 1)
+
+::Location::
+          Suhalla Desert
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~ Mars Djinni Flash ~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~
+::Stats::
+          HP        592
+            Regen     0
+          PP         52
+            Regen     0
+
+          Attack    253
+          Defense   65
+          Agility   151
+          Luck      17
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power      95  75 125  95
+Resist    100  25 193 100
+
+::Abilities::
+        * Attack
+        * Flare Storm
+        * Fireball
+        * Eruption
+        * Fiery Blast
+        * Nova
+        * Flee
+
+::Drops::
+          460 EXP
+          445 Gold
+
+::Location::
+          Suhalla Desert
+
+
+~~~~~~~~~~~~~~~~~~~~~~
+~~~ Tornado Lizard ~~~
+~~~~~~~~~~~~~~~~~~~~~~
+::Stats::
+          HP        530
+            Regen     0
+          PP         37
+            Regen     0
+
+          Attack    267
+          Defense   74
+          Agility   104
+          Luck      18
+          Turns     2
+
+          Ven Mrc Mar Jup
+Power      90  95  95 110
+Resist     48 100 100 152
+
+::Abilities::
+        * Attack
+        * Storm Ray
+        * Wind Slash
+        * Tornado
+        * Impact
+        * Ward
+        * Wing Flutter
+
+::Drops::
+          620 EXP
+          477 Gold
+          Weasel's Claw (ICC 4)
+
+::Location::
+          Suhalla Desert
+
+
+~~~~~~~~~~~~~~~~~~~~
+~~~ Storm Lizard ~~~
+~~~~~~~~~~~~~~~~~~~~
+::Stats::
+          HP       2900
+            Regen     0
+          PP         42
+            Regen     0
+
+          Attack    291
+          Defense   86
+          Agility   112
+          Luck      22
+          Turns     2
+
+          Ven Mrc Mar Jup
+Power      90  95  95 110
+Resist     48 100 100 152
+
+::Abilities::
+        * Attack
+        * Storm Ray
+        * Sonic Slash
+        * Tempest
+        * Impact
+        * Ward
+        * Wing Stroke
+
+::Drops::
+          1300 EXP
+          6100 Gold
+          Psy Crystal (ICC 1)
+
+::Location::
+          Suhalla Desert
+
+
+~~~~~~~~~~~~~~~~~~~~~~
+~~~ Tempest Lizard ~~~
+~~~~~~~~~~~~~~~~~~~~~~
+::Stats::
+          HP       3000
+            Regen     0
+          PP         45
+            Regen     0
+
+          Attack    295
+          Defense   94
+          Agility   114
+          Luck      26
+          Turns     2
+
+          Ven Mrc Mar Jup
+Power      90  95  95 110
+Resist     48 100 100 152
+
+::Abilities::
+        * Attack
+        * Storm Ray
+        * Sonic Slash
+        * Tempest
+        * Impact
+        * Ward
+        * Wing Stroke
+
+::Drops::
+          1360 EXP
+          6400 Gold
+          Potion (ICC 1)
+
+::Location::
+          Suhalla Desert
+
+
+~~~~~~~~~~~~~~~~~~~
+~~~ Earth Golem ~~~
+~~~~~~~~~~~~~~~~~~~
+::Stats::
+          HP        298
+            Regen     0
+          PP          0
+            Regen     0
+
+          Attack    299
+          Defense   114
+          Agility   70
+          Luck      5
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power     120  95  95  80
+Resist    193 100 100  25
+
+::Abilities::
+        * Attack
+        * Truncheon Fist
+
+::Drops::
+          218 EXP
+          183 Gold
+          Giant Axe (ICC 8)
+
+::Location::
+          Suhalla Gate
+          Venus Lighthouse A
+
+
+~~~~~~~~~~~~~~
+~~~ Goblin ~~~
+~~~~~~~~~~~~~~
+::Stats::
+          HP        268
+            Regen     0
+          PP          0
+            Regen     0
+
+          Attack    289
+          Defense   91
+          Agility   83
+          Luck      3
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power     100  85  85  85
+Resist    100  72  72  48
+
+::Abilities::
+        * Attack
+
+::Drops::
+          221 EXP
+          170 Gold
+          Vial (ICC 6)
+
+::Location::
+          Suhalla Gate
+
+
+~~~~~~~~~~~~~~~~~~~~~~
+~~~ Cannibal Ghoul ~~~
+~~~~~~~~~~~~~~~~~~~~~~
+::Stats::
+          HP        249
+            Regen     0
+          PP          0
+            Regen     0
+
+          Attack    274
+          Defense   82
+          Agility   80
+          Luck      4
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power     100  95  80  80
+Resist     25  72   7  48
+
+::Abilities::
+        * Attack
+        * Cannibal Fang
+        * Decompose
+        * Ally Search
+
+::Drops::
+          194 EXP
+          160 Gold
+          Antidote (ICC 6)
+
+::Location::
+          Suhalla Gate
+
+
+~~~~~~~~~~~~~~~~~
+~~~ Nightmare ~~~
+~~~~~~~~~~~~~~~~~
+::Stats::
+          HP        258
+            Regen     0
+          PP         28
+            Regen     0
+
+          Attack    287
+          Defense   89
+          Agility   138
+          Luck      13
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power      85  85  85 100
+Resist     72 100 100 127
+
+::Abilities::
+        * Attack
+        * Fireball
+        * Shine Plasma
+        * Bind
+        * Heartrender
+
+::Drops::
+          241 EXP
+          198 Gold
+          Healing Ring (ICC 7)
+
+::Location::
+          Suhalla Gate
+          Venus Lighthouse A
+          Road to Babi Lighthouse
+
+
+~~~~~~~~~~~~~~~~~~~~
+~~~ Horned Ghost ~~~
+~~~~~~~~~~~~~~~~~~~~
+::Stats::
+          HP        236
+            Regen     0
+          PP         32
+            Regen     0
+
+          Attack    268
+          Defense   78
+          Agility   116
+          Luck      5
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power     100  95  95  95
+Resist     48 100  72   7
+
+::Abilities::
+        * Attack
+        * Ice Horn
+        * Hail Prism
+        * Haunting
+
+::Drops::
+          199 EXP
+          166 Gold
+          Elixir (ICC 6)
+
+::Location::
+          Suhalla Gate
+          Venus Lighthouse A
+
+
+~~~~~~~~~~~~~~~~~~~~
+~~~ Gnome Wizard ~~~
+~~~~~~~~~~~~~~~~~~~~
+::Stats::
+          HP        215
+            Regen     0
+          PP         32
+            Regen     0
+
+          Attack    257
+          Defense   74
+          Agility   122
+          Luck      8
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power     100  85  85  85
+Resist    100  72  72  48
+
+::Abilities::
+        * Attack
+        * Mother Gaia
+        * Impact
+        * Sleep
+
+::Drops::
+          219 EXP
+          176 Gold
+          Crystal Powder (ICC 6)
+
+::Location::
+          Suhalla Gate
+          Venus Lighthouse A
+          Road to Babi Lighthouse
+
+
+~~~~~~~~~~~~~~~~~
+~~~ Mole Mage ~~~
+~~~~~~~~~~~~~~~~~
+::Stats::
+          HP        199
+            Regen     0
+          PP         14
+            Regen     0
+
+          Attack    265
+          Defense   47
+          Agility   74
+          Luck      4
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power     100  80  70  80
+Resist     48  48  25  72
+
+::Abilities::
+        * Attack
+        * Mad Growth
+        * Mad Spatter
+        * Worms
+
+::Drops::
+          191 EXP
+          132 Gold
+          Antidote (ICC 6)
+
+::Location::
+          Suhalla Gate
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~ Mercury Djinni Dew ~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+::Stats::
+          HP        654
+            Regen     0
+          PP         59
+            Regen     0
+
+          Attack    281
+          Defense   77
+          Agility   172
+          Luck      19
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power      95 125  75  95
+Resist    100 193  25 100
+
+::Abilities::
+        * Attack
+        * Glacier
+        * Ice Horn
+        * Hail Prism
+        * Deluge
+        * Froth Sphere
+        * Flee
+
+::Drops::
+          606 EXP
+          484 Gold
+
+::Location::
+          Suhalla Gate
+
+
+~~~~~~~~~~~~~~~~~~~~
+~~~ Wild Gryphon ~~~
+~~~~~~~~~~~~~~~~~~~~
+::Stats::
+          HP        370
+            Regen     0
+          PP          8
+            Regen     0
+
+          Attack    332
+          Defense   112
+          Agility   170
+          Luck      10
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power      90  95  95 110
+Resist    152 110  72  48
+
+::Abilities::
+        * Attack
+        * Bind
+        * Wing Stroke
+        * Twin Beaks
+
+::Drops::
+          322 EXP
+          290 Gold
+          Feathered Robe (ICC 8)
+
+::Location::
+          Road to Babi Lighthouse
+          Tunnel Ruins
+          Venus Lighthouse B
+
+
+~~~~~~~~~~~~~~~~~~~~~~
+~~~ Manticore King ~~~
+~~~~~~~~~~~~~~~~~~~~~~
+::Stats::
+          HP        348
+            Regen     0
+          PP         33
+            Regen     0
+
+          Attack    317
+          Defense   106
+          Agility   134
+          Luck      12
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power      95  85 115  95
+Resist    100  25 175 100
+
+::Abilities::
+        * Attack
+        * Eruption
+        * Bind
+        * Poison Tail
+        * Lucid Prophecy
+
+::Drops::
+          342 EXP
+          240 Gold
+          Psy Crystal (ICC 7)
+
+::Location::
+          Road to Babi Lighthouse
+          Tunnel Ruins
+          Venus Lighthouse B
+
+
+~~~~~~~~~~~~~~~~~
+~~~ Willowisp ~~~
+~~~~~~~~~~~~~~~~~
+::Stats::
+          HP        209
+            Regen     0
+          PP         12
+            Regen     0
+
+          Attack    279
+          Defense   87
+          Agility   121
+          Luck      6
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power     100  95  80  80
+Resist     25 127  72  48
+
+::Abilities::
+        * Attack
+        * Tundra
+        * Blue Bolt
+        * Drain
+        * Haunting
+
+::Drops::
+          227 EXP
+          160 Gold
+          Nut (ICC 6)
+
+::Location::
+          Road to Babi Lighthouse
+          Tunnel Ruins
+          Venus Lighthouse B
+
+
+~~~~~~~~~~~~~~~~~~
+~~~ Plated Rat ~~~
+~~~~~~~~~~~~~~~~~~
+::Stats::
+          HP        203
+            Regen     0
+          PP          0
+            Regen     0
+
+          Attack    262
+          Defense   130
+          Agility   61
+          Luck      2
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power     100  80  70  80
+Resist     48  48  25  72
+
+::Abilities::
+        * Attack
+        * Counterstrike
+        * Total Defense
+
+::Drops::
+          208 EXP
+          135 Gold
+          Elixir (ICC 6)
+
+::Location::
+          Road to Babi Lighthouse
+          Tunnel Ruins
+
+
+~~~~~~~~~~~~~~~~~~~~
+~~~ Chimera Mage ~~~
+~~~~~~~~~~~~~~~~~~~~
+::Stats::
+          HP        413
+            Regen     0
+          PP         28
+            Regen     0
+
+          Attack    326
+          Defense   119
+          Agility   145
+          Luck      16
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power      95  85 115  95
+Resist    100  25 175 100
+
+::Abilities::
+        * Attack
+        * Eruption
+        * Fire Blessing
+        * Rabid Fang
+        * Mad Dash
+        * Recovery
+
+::Drops::
+          362 EXP
+          300 Gold
+          Spiked Armor (ICC 7)
+
+::Location::
+          Road to Babi Lighthouse
+          Tunnel Ruins
+          Venus Lighthouse B
+
+
+~~~~~~~~~~~~~~~~~~~~
+~~~ Ice Gargoyle ~~~
+~~~~~~~~~~~~~~~~~~~~
+::Stats::
+          HP        304
+            Regen     0
+          PP         21
+            Regen     0
+
+          Attack    319
+          Defense   150
+          Agility   100
+          Luck      7
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power     100 100 100  95
+Resist     48 100 100 127
+
+::Abilities::
+        * Attack
+        * Mother Gaia
+        * Guard
+        * Ice Blessing
+
+::Drops::
+          307 EXP
+          170 Gold
+          Potion (ICC 7)
+
+::Location::
+          Road to Babi Lighthouse
+          Tunnel Ruins
+          Venus Lighthouse B
+
+
+~~~~~~~~~~~~~~~~~~~~~
+~~~ Skull Warrior ~~~
+~~~~~~~~~~~~~~~~~~~~~
+::Stats::
+          HP        283
+            Regen     0
+          PP         16
+            Regen     0
+
+          Attack    322
+          Defense   112
+          Agility   130
+          Luck      5
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power     100  95  80  80
+Resist     25 127  72  48
+
+::Abilities::
+        * Attack
+        * Dull
+        * Bone Charge
+
+::Drops::
+          301 EXP
+          188 Gold
+          Vial (ICC 6)
+
+::Location::
+          Road to Babi Lighthouse
+          Tunnel Ruins
+          Venus Lighthouse B
+
+
+~~~~~~~~~~~~~~~~
+~~~ Orc Lord ~~~
+~~~~~~~~~~~~~~~~
+::Stats::
+          HP        278
+            Regen     0
+          PP         18
+            Regen     0
+
+          Attack    302
+          Defense   98
+          Agility   70
+          Luck      3
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power     100  85  85  85
+Resist    127 100 100  72
+
+::Abilities::
+        * Attack
+        * Sleep
+        * Spasm
+
+::Drops::
+          260 EXP
+          198 Gold
+          Lucky Medal (ICC 8)
+
+::Location::
+          Road to Babi Lighthouse
+          Tunnel Ruins
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~ Jupiter Djinni Luff ~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+::Stats::
+          HP        688
+            Regen     0
+          PP         62
+            Regen     0
+
+          Attack    302
+          Defense   85
+          Agility   177
+          Luck      21
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power      80  95  95 120
+Resist     25 100 100 193
+
+::Abilities::
+        * Attack
+        * Blue Bolt
+        * Destruct Ray
+        * Shine Plasma
+        * Wind Slash
+        * Tornado
+        * Flee
+
+::Drops::
+          677 EXP
+          506 Gold
+
+::Location::
+          Road to Babi Lighthouse
+
+
+~~~~~~~~~~~~~~~~~~~
+~~~ Grand Golem ~~~
+~~~~~~~~~~~~~~~~~~~
+::Stats::
+          HP        476
+            Regen     0
+          PP          0
+            Regen     0
+
+          Attack    367
+          Defense   149
+          Agility   80
+          Luck      5
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power     120  95  95  80
+Resist    193 100 100  25
+
+::Abilities::
+        * Attack
+        * Truncheon Fist
+
+::Drops::
+          412 EXP
+          208 Gold
+          Zodiac Wand (ICC 8)
+
+::Location::
+          Venus Lighthouse B
+
+
+~~~~~~~~~~~~~~~
+~~~ Recluse ~~~
+~~~~~~~~~~~~~~~
+::Stats::
+          HP        221
+            Regen     0
+          PP          0
+            Regen     0
+
+          Attack    323
+          Defense   122
+          Agility   109
+          Luck      4
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power      95  85  90  85
+Resist     48  48  25  48
+
+::Abilities::
+        * Attack
+        * Rabid Fang
+        * Spider Web
+
+::Drops::
+          243 EXP
+          153 Gold
+          Unicorn Ring (ICC 7)
+
+::Location::
+          Venus Lighthouse B
+
+
+~~~~~~~~~~~~~~~~~~~~~
+~~~ Boulder Beast ~~~
+~~~~~~~~~~~~~~~~~~~~~
+::Stats::
+          HP        211
+            Regen     0
+          PP         14
+            Regen     0
+
+          Attack    327
+          Defense   137
+          Agility   140
+          Luck      6
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power      95  75 125  95
+Resist    100  25 193 100
+
+::Abilities::
+        * Attack
+        * Mad Blast
+        * Dynamite
+        * Headbutt
+
+::Drops::
+          278 EXP
+          164 Gold
+          Water of Life (ICC 8)
+
+::Location::
+          Venus Lighthouse B
+
+
+~~~~~~~~~~~~~~~~~~~~~~
+~~~ Thunder Lizard ~~~
+~~~~~~~~~~~~~~~~~~~~~~
+::Stats::
+          HP        456
+            Regen     0
+          PP          0
+            Regen     0
+
+          Attack    347
+          Defense   133
+          Agility   134
+          Luck      10
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power      80  95  95 120
+Resist     25 100 100 193
+
+::Abilities::
+        * Attack
+        * Storm Blessing
+
+::Drops::
+          422 EXP
+          221 Gold
+          Blessed Mace (ICC 8)
+
+::Location::
+          Venus Lighthouse B
+          Crossbone Isle #8
+
+
+~~~~~~~~~~~~~~
+~~~ Fenrir ~~~
+~~~~~~~~~~~~~~
+::Stats::
+          HP        406
+            Regen     0
+          PP          0
+            Regen     0
+
+          Attack    357
+          Defense   125
+          Agility   141
+          Luck      9
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power      95 115  85  95
+Resist    100 175  25 100
+
+::Abilities::
+        * Attack
+        * Ice Blessing
+        * Wicked Howl
+        * Double Fang
+
+::Drops::
+          402 EXP
+          212 Gold
+          Kikuichimonji (ICC 9)
+
+::Location::
+          Venus Lighthouse B
+
+
+~~~~~~~~~~~~~~~
+~~~ Menardi ~~~
+~~~~~~~~~~~~~~~
+::Stats::
+          HP       2600
+            Regen     0
+          PP        300
+            Regen     0
+
+          Attack    389
+          Defense   134
+          Agility   220
+          Luck      50
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power     100  95 105 100
+Resist    127  72 175 100
+
+::Abilities::
+        * Attack
+        * Flare Storm
+        * Fiery Blast
+        * Supernova
+        * Wish
+        * Impact
+        * Resist
+        * Death Size
+
+::Drops::
+          3000 EXP
+          4200 Gold
+
+::Location::
+          Venus Lighthouse Aerie
+
+
+~~~~~~~~~~~~~~~
+~~~ Saturos ~~~
+~~~~~~~~~~~~~~~
+::Stats::
+          HP       3000
+            Regen     0
+          PP        260
+            Regen     0
+
+          Attack    409
+          Defense   140
+          Agility   160
+          Luck      50
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power     100  90 110 100
+Resist    100  72 175 127
+
+::Abilities::
+        * Attack
+        * Inferno
+        * Pyroclasm
+        * Potent Cure
+        * Protect
+        * Haunt
+        * Break
+        * Heat Flash
+
+::Drops::
+          3000 EXP
+          3600 Gold
+
+::Location::
+          Venus Lighthouse Aerie
+
+
+~~~~~~~~~~~~~~~~~~~~~
+~~~ Fusion Dragon ~~~
+~~~~~~~~~~~~~~~~~~~~~
+::Stats::
+          HP       5000
+            Regen     0
+          PP        500
+            Regen     0
+
+          Attack    439
+          Defense   150
+          Agility   190
+          Luck      50
+          Turns     2
+
+          Ven Mrc Mar Jup
+Power     100  95 110 100
+Resist    127  72 175 127
+
+::Abilities::
+        * Attack
+        * Break
+        * Evil Blessing
+        * Deadly Gas
+        * Outer Space
+        * Dragon Driver
+        * Drain Fang
+        * Severe Blow
+
+::Drops::
+          0 EXP
+          0 Gold
+
+::Location::
+          Venus Lighthouse Aerie
+
+
+~~~~~~~~~~~~~~~~~
+~~~ Hobgoblin ~~~
+~~~~~~~~~~~~~~~~~
+::Stats::
+          HP        650
+            Regen     0
+          PP          0
+            Regen     0
+
+          Attack    203
+          Defense   54
+          Agility   65
+          Luck      9
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power     100  85  85  85
+Resist    127 100 100  72
+
+::Abilities::
+        * Attack
+
+::Drops::
+          223 EXP
+          800 Gold
+          Lucky Medal (ICC 1)
+
+::Carries::
+          (1)  Crystal Powder
+          (1)  Smoke Bomb
+          (1)  Nut
+          (1)  Sleep Bomb
+
+::Location::
+          Crossbone Isle #1
+
+
+~~~~~~~~~~~~~~~~
+~~~ Mimic #5 ~~~
+~~~~~~~~~~~~~~~~
+::Stats::
+          HP        729
+            Regen     0
+          PP         44
+            Regen     0
+
+          Attack    214
+          Defense   59
+          Agility   97
+          Luck      14
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power      95 100  75 105
+Resist    100 127  25 152
+
+::Abilities::
+        * Attack
+        * Sonic Slash
+        * Debilitate
+        * Sleep
+        * Curse
+        * Psy Drain
+
+::Drops::
+          347 EXP
+          386 Gold
+          Potion (ICC 1)
+
+::Location::
+          Crossbone Isle #1
+
+
+~~~~~~~~~~~~~~
+~~~ Grisly ~~~
+~~~~~~~~~~~~~~
+::Stats::
+          HP        800
+            Regen     0
+          PP          0
+            Regen     0
+
+          Attack    208
+          Defense   63
+          Agility   78
+          Luck      13
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power     100  80  70  80
+Resist     72  72  25 127
+
+::Abilities::
+        * Attack
+        * Bear Claw
+        * Berserk
+
+::Drops::
+          243 EXP
+          700 Gold
+          Potion (ICC 1)
+
+::Location::
+          Crossbone Isle #2
+
+
+~~~~~~~~~~~~~~~~
+~~~ Succubus ~~~
+~~~~~~~~~~~~~~~~
+::Stats::
+          HP        529
+            Regen     0
+          PP         56
+            Regen     0
+
+          Attack    195
+          Defense   49
+          Agility   101
+          Luck      12
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power      85 100  85  85
+Resist    100 127  72 100
+
+::Abilities::
+        * Attack
+        * Hail Prism
+        * Wind Slash
+        * Heartrender
+
+::Drops::
+          101 EXP
+          143 Gold
+          Crystal Powder (ICC 5)
+
+::Location::
+          Crossbone Isle #2
+
+
+~~~~~~~~~~~~
+~~~ Lich ~~~
+~~~~~~~~~~~~
+::Stats::
+          HP        900
+            Regen     0
+          PP         52
+            Regen     0
+
+          Attack    192
+          Defense   48
+          Agility   106
+          Luck      15
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power     100  95  95  95
+Resist     72 152 100  25
+
+::Abilities::
+        * Attack
+        * Glacier
+        * Revive
+        * Debilitate
+        * Enfeeble
+        * Bind
+        * Haunt
+        * Curse
+
+::Drops::
+          263 EXP
+          1200 Gold
+          Psy Crystal (ICC 1)
+
+::Location::
+          Crossbone Isle #3
+
+
+~~~~~~~~~~~~~~~~~~~~~~
+~~~ Fiendish Ghoul ~~~
+~~~~~~~~~~~~~~~~~~~~~~
+::Stats::
+          HP        609
+            Regen     0
+          PP          0
+            Regen     0
+
+          Attack    199
+          Defense   45
+          Agility   69
+          Luck      3
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power     100  95  80  80
+Resist     25  72   7  48
+
+::Abilities::
+        * Attack
+        * Cannibal Fang
+        * Bacteria Rush
+
+::Drops::
+          87 EXP
+          109 Gold
+          Antidote (ICC 5)
+
+::Location::
+          Crossbone Isle #3
+
+
+~~~~~~~~~~~~~~~
+~~~ Gryphon ~~~
+~~~~~~~~~~~~~~~
+::Stats::
+          HP       1100
+            Regen     0
+          PP         36
+            Regen     0
+
+          Attack    213
+          Defense   56
+          Agility   98
+          Luck      19
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power      90  95  95 110
+Resist    152 110  72  48
+
+::Abilities::
+        * Attack
+        * Sonic Slash
+        * Tornado
+        * Impact
+        * Ward
+        * Bind
+        * Wing Flutter
+        * Twin Beaks
+
+::Drops::
+          303 EXP
+          1900 Gold
+          Potion (ICC 1)
+
+::Location::
+          Crossbone Isle #4
+
+
+~~~~~~~~~~~~~~~~~~~
+~~~ Lizard King ~~~
+~~~~~~~~~~~~~~~~~~~
+::Stats::
+          HP       2000
+            Regen     0
+          PP         52
+            Regen     0
+
+          Attack    285
+          Defense   93
+          Agility   92
+          Luck      13
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power      85 100  85  85
+Resist    100 127  72 100
+
+::Abilities::
+        * Attack
+        * Hail Prism
+        * High Impact
+        * Blunt
+        * Debilitate
+        * Bind
+        * Ice Blessing
+
+::Drops::
+          535 EXP
+          1200 Gold
+          Psy Crystal (ICC 1)
+
+::Location::
+          Crossbone Isle #5
+
+
+~~~~~~~~~~~~~~~
+~~~ Chimera ~~~
+~~~~~~~~~~~~~~~
+::Stats::
+          HP       1350
+            Regen     0
+          PP         48
+            Regen     0
+
+          Attack    294
+          Defense   90
+          Agility   121
+          Luck      18
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power      95  85 115  95
+Resist    100  25 175 100
+
+::Abilities::
+        * Attack
+        * Flare Storm
+        * Guard
+        * Impair
+        * Bind
+        * Fire Blessing
+        * Rabid Fang
+        * Mad Dash
+
+::Drops::
+          465 EXP
+          800 Gold
+          Potion (ICC 1)
+
+::Location::
+          Crossbone Isle #6
+
+
+~~~~~~~~~~~~~~~~~~~~
+~~~ Earth Lizard ~~~
+~~~~~~~~~~~~~~~~~~~~
+::Stats::
+          HP       1550
+            Regen     0
+          PP         48
+            Regen     0
+
+          Attack    278
+          Defense   97
+          Agility   102
+          Luck      17
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power     120  95  95  80
+Resist    193 100 100  25
+
+::Abilities::
+        * Attack
+        * Quake Sphere
+        * Clay Spire
+        * Mother Gaia
+        * Cure Well
+        * Acid Blessing
+
+::Drops::
+          545 EXP
+          920 Gold
+          Water of Life (ICC 1)
+
+::Location::
+          Crossbone Isle #7
+
+
+~~~~~~~~~~~~~~~~~~~
+~~~ Poison Toad ~~~
+~~~~~~~~~~~~~~~~~~~
+::Stats::
+          HP       2250
+            Regen     0
+          PP          0
+            Regen     0
+
+          Attack    363
+          Defense   97
+          Agility   93
+          Luck      20
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power      95 115  85  95
+Resist    100 175  25 100
+
+::Abilities::
+        * Attack
+        * Acid Blessing
+        * Rotten Blood
+        * Rabid Fang
+
+::Drops::
+          1732 EXP
+          2200 Gold
+          Water of Life (ICC 1)
+
+::Location::
+          Crossbone Isle #8
+
+
+~~~~~~~~~~~~~~~
+~~~ Cerebus ~~~
+~~~~~~~~~~~~~~~
+::Stats::
+          HP       2200
+            Regen     0
+          PP         42
+            Regen     0
+
+          Attack    369
+          Defense   130
+          Agility   151
+          Luck      22
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power      95 115  85  95
+Resist    100 175  25 100
+
+::Abilities::
+        * Attack
+        * Ice Missile
+        * Restore
+        * Ice Blessing
+        * Wicked Howl
+        * Double Fang
+
+::Drops::
+          1863 EXP
+          3200 Gold
+          Psy Crystal (ICC 1)
+
+::Location::
+          Crossbone Isle #9
+
+
+~~~~~~~~~~~~~~~~
+~~~ Mimic #8 ~~~
+~~~~~~~~~~~~~~~~
+::Stats::
+          HP       1206
+            Regen     0
+          PP         68
+            Regen     0
+
+          Attack    367
+          Defense   126
+          Agility   167
+          Luck      18
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power      95 100  75 105
+Resist    100 127  25 152
+
+::Abilities::
+        * Attack
+        * Spark Plasma
+        * Debilitate
+        * Sleep
+        * Curse
+        * Condemn
+        * Psy Drain
+
+::Drops::
+          1009 EXP
+          643 Gold
+          Potion (ICC 1)
+
+::Location::
+          Crossbone Isle #10
+
+
+~~~~~~~~~~~~~~~~~
+~~~ Deadbeard ~~~
+~~~~~~~~~~~~~~~~~
+::Stats::
+          HP       6000
+            Regen     0
+          PP        600
+            Regen     0
+
+          Attack    468
+          Defense   178
+          Agility   180
+          Luck      60
+          Turns     2
+
+          Ven Mrc Mar Jup
+Power     100 130 120 110
+Resist     72 193 127 152
+
+::Abilities::
+        * Attack
+        * Freeze Prism
+        * Inferno
+        * Spark Plasma
+        * Impact
+        * Guard
+        * Ward
+        * Break
+
+::Drops::
+          8000 EXP
+          9000 Gold
+          Water of Life (ICC 1)
+
+::Location::
+          Crossbone Isle #10
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~ Unknown Venus Djinni ~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+::Stats::
+          HP        623
+            Regen     0
+          PP         51
+            Regen     0
+
+          Attack    271
+          Defense   71
+          Agility   160
+          Luck      18
+          Turns     1
+
+          Ven Mrc Mar Jup
+Power     120  95  95  80
+Resist    193 100 100  25
+
+::Abilities::
+        * Attack
+        * Quake Sphere
+        * Clay Spire
+        * Mother Gaia
+        * Wild Growth
+        * Briar
+        * Flee
+
+::Drops::
+          534 EXP
+          464 Gold
+
+::Location::
+          [Not In Game]
+
+
+
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~~~~ IV/2 -- Sort By HP ~~~~
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+#) Enemy Name                          Max HP (HP Regen, if > 0)
+
+
+1) Deadbeard                           6000
+2) Fusion Dragon                       5000
+3) Tempest Lizard                      3000
+4) Saturos                             3000
+5) Mystery Man                         3000
+6) Storm Lizard                        2900
+7) Toadonpa                            2800 (Regen 80)
+8) Mystery Woman                       2600
+9) Menardi                             2600
+10) Kraken                             2400
+11) Poison Toad                        2250
+12) Cerebus                            2200
+13) Lizard King                        2000
+14) Manticore                          1700
+15) Earth Lizard                       1550
+16) Chimera                            1350
+17) Hydros Statue                      1300
+18) Mimic #8                           1206
+19) Saturos (Mercury Lighthouse)       1200
+20) Gryphon                            1100
+21) Killer Ape                         1000
+22) Mimic #7                           997
+23) Lich                               900
+24) Navampa                            820
+25) Grisly                             800
+26) Mimic #6                           767
+27) Mimic #5                           729
+28) Tret                               710
+29) Mimic #4                           690
+30) Jupiter Djinni Luff                688
+31) Mercury Djinni Dew                 654
+32) Hobgoblin                          650
+33) Unknown Venus Djinni               623
+34) Fiendish Ghoul                     609
+35) Mars Djinni Flash                  592
+36) Mimic #3                           579
+37) Satrage                            570
+38) Living Statue                      540
+39) Tornado Lizard                     530
+40) Succubus                           529
+41) Mimic #2                           506
+42) Jupiter Djinni Squall              481
+43) Grand Golem                        476
+44) Mimic #1                           468
+45) Mercury Djinni Hail                466
+46) Thunder Lizard                     456
+47) Azart                              450
+48) Brigand                            421
+49) Venus Djinni Vine                  421
+50) Chimera Mage                       413
+51) Fenrir                             406
+52) Ant Lion                           400
+53) Wild Gryphon                       370
+54) Mercury Djinni Spritz              361
+55) Mars Djinni Corona                 355
+56) Venus Djinni Quartz                349
+57) Manticore King                     348
+58) Magicore                           321
+59) Jupiter Djinni Zephyr              314
+60) Ice Gargoyle                       304
+61) Earth Golem                        298
+62) Brutal Troll                       291 (Regen 30)
+63) Ape                                290
+64) Mercury Djinni Sleet               290
+65) Skull Warrior                      283
+66) Orc Lord                           278
+67) Goblin                             268
+68) Golem                              266
+69) Nightmare                          258
+70) Dread Hound                        252
+71) Cannibal Ghoul                     249
+72) Bandit                             244
+73) Jupiter Djinni Breeze              243
+74) Horned Ghost                       236
+75) Orc Captain                        231
+76) Harridan                           231
+77) Dirty Ape                          230
+78) Recluse                            221
+79) Kobold                             220
+80) Gnome Wizard                       215
+81) Lizard Fighter                     212
+82) Salamander                         212
+83) Cave Troll                         212 (Regen 20)
+84) Boulder Beast                      211
+85) Roach                              211
+86) Clay Gargoyle                      209
+87) Willowisp                          209
+88) Rat Warrior                        208
+89) Plated Rat                         203
+90) Mole Mage                          199
+91) Wight                              192
+92) Ravager                            189
+93) Virago                             185
+94) Stone Soldier                      179
+95) Gargoyle                           176
+96) Vile Dirge                         173
+97) Mars Djinni Forge                  172
+98) Undead                             165
+99) Warrior Bee                        164
+100) Gnome Mage                        162
+101) Ghost Mage                        161
+102) Acid Maggot                       160
+103) Mad Mole                          156
+104) Foul Dirge                        149
+105) Orc                               148
+106) Armored Rat                       147
+107) Rat Fighter                       143
+108) Man o' War                        137
+109) Worm                              132
+110) Mad Vermin                        131
+111) Lizard Man                        129
+112) Death Head                        128
+113) Rabid Bat                         125
+114) Bone Fighter                      122
+115) Death Cap                         117
+116) Siren                             116
+117) Fighter Bee                       116
+118) Spirit                            116
+119) Thief                             110
+120) Mauler                            109
+121) Tarantula                         108
+122) Harpy                             105
+123) Calamar                           104
+124) Grub                              102
+125) Troll                             101 (Regen 10)
+126) Ghoul                             99
+127) Slime Beast                       99
+128) Mole                              96
+129) Dirge                             91
+130) Creeper                           89
+131) Gnome                             85
+132) Cuttle                            80
+133) Ooze                              72
+134) Rat Soldier                       69
+135) Spider                            69
+136) Drone Bee                         63
+137) Skeleton                          60
+138) Ghost                             56
+139) Zombie                            55
+140) Zombie                            55
+141) Will Head                         54
+142) Rat                               49
+143) Amaze                             39
+144) Vermin                            36
+145) Wild Mushroom                     34
+146) Slime                             32
+147) Bat                               30
+148) Amaze                             28
+149) Slime                             22
+150) Vermin                            20
+151) Wild Mushroom                     18
+152) Bat                               17
+
+
+
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~~~~ IV/3 -- Sort By PP ~~~~
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+#) Enemy Name                          Max PP (No enemies have PP Regen)
+
+1) Deadbeard                           600
+2) Fusion Dragon                       500
+3) Mystery Woman                       300
+4) Menardi                             300
+5) Saturos                             260
+6) Mystery Man                         260
+7) Saturos (Mercury Lighthouse)        160
+8) Manticore                           83
+9) Hydros Statue                       80
+10) Mimic #8                           68
+11) Jupiter Djinni Luff                62
+12) Mimic #7                           60
+13) Mercury Djinni Dew                 59
+14) Succubus                           56
+15) Lich                               52
+16) Mars Djinni Flash                  52
+17) Lizard King                        52
+18) Unknown Venus Djinni               51
+19) Chimera                            48
+20) Earth Lizard                       48
+21) Mimic #6                           48
+22) Kraken                             46
+23) Mercury Djinni Hail                46
+24) Killer Ape                         45
+25) Tempest Lizard                     45
+26) Mimic #5                           44
+27) Storm Lizard                       42
+28) Mimic #4                           42
+29) Cerebus                            42
+30) Jupiter Djinni Squall              40
+31) Tornado Lizard                     37
+32) Gryphon                            36
+33) Tret                               36
+34) Living Statue                      34
+35) Magicore                           34
+36) Manticore King                     33
+37) Horned Ghost                       32
+38) Gnome Wizard                       32
+39) Ant Lion                           32
+40) Mimic #3                           32
+41) Venus Djinni Vine                  30
+42) Harridan                           29
+43) Chimera Mage                       28
+44) Nightmare                          28
+45) Roach                              27
+46) Mercury Djinni Spritz              27
+47) Mimic #2                           26
+48) Venus Djinni Quartz                25
+49) Jupiter Djinni Zephyr              25
+50) Mimic #1                           24
+51) Clay Gargoyle                      24
+52) Mars Djinni Corona                 24
+53) Gnome Mage                         24
+54) Jupiter Djinni Breeze              22
+55) Gargoyle                           21
+56) Ice Gargoyle                       21
+57) Mercury Djinni Sleet               20
+58) Ghost Mage                         19
+59) Orc Lord                           18
+60) Salamander                         18
+61) Skull Warrior                      16
+62) Death Head                         15
+63) Mars Djinni Forge                  14
+64) Mole Mage                          14
+65) Boulder Beast                      14
+66) Siren                              12
+67) Willowisp                          12
+68) Spirit                             11
+69) Wild Gryphon                       8
+70) Stone Soldier                      6
+71) Ghost                              6
+72) Creeper                            6
+73) Gnome                              5
+    --- All other enemies have 0 PP ---
+
+
+
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~~ IV/4 -- Sort By Attack ~~
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+#) Enemy Name                          Attack Stat
+
+1) Deadbeard                           468
+2) Fusion Dragon                       439
+3) Saturos                             409
+4) Menardi                             389
+5) Cerebus                             369
+6) Grand Golem                         367
+7) Mimic #8                            367
+8) Poison Toad                         363
+9) Fenrir                              357
+10) Thunder Lizard                     347
+11) Wild Gryphon                       332
+12) Boulder Beast                      327
+13) Chimera Mage                       326
+14) Recluse                            323
+15) Skull Warrior                      322
+16) Ice Gargoyle                       319
+17) Manticore King                     317
+18) Mimic #7                           303
+19) Jupiter Djinni Luff                302
+20) Orc Lord                           302
+21) Earth Golem                        299
+22) Tempest Lizard                     295
+23) Chimera                            294
+24) Storm Lizard                       291
+25) Goblin                             289
+26) Nightmare                          287
+27) Lizard King                        285
+28) Mercury Djinni Dew                 281
+29) Willowisp                          279
+30) Earth Lizard                       278
+31) Cannibal Ghoul                     274
+32) Navampa (Good EQ)                  274
+33) Brutal Troll                       273
+34) Unknown Venus Djinni               271
+35) Horned Ghost                       268
+36) Tornado Lizard                     267
+37) Toadonpa                           266
+38) Mole Mage                          265
+39) Plated Rat                         262
+40) Harridan                           261
+41) Gnome Wizard                       257
+42) Acid Maggot                        255
+43) Magicore                           253
+44) Mars Djinni Flash                  253
+45) Roach                              252
+46) Brigand                            251
+47) Orc Captain                        248
+48) Stone Soldier                      241
+49) Dirty Ape                          236
+50) Navampa (Bad EQ)                   232
+51) Kobold                             230
+52) Satrage                            228
+53) Vile Dirge                         228
+54) Mimic #6                           227
+55) Rat Warrior                        226
+56) Warrior Bee                        221
+57) Golem                              217
+58) Kraken                             216
+59) Mimic #5                           214
+60) Gryphon                            213
+61) Dread Hound                        211
+62) Clay Gargoyle                      210
+63) Grisly                             208
+64) Mercury Djinni Hail                207
+65) Azart                              206
+66) Jupiter Djinni Squall              205
+67) Wight                              205
+68) Lizard Fighter                     204
+69) Hobgoblin                          203
+70) Mimic #4                           201
+71) Fiendish Ghoul                     199
+72) Virago                             199
+73) Cave Troll                         199
+74) Mad Mole                           197
+75) Worm                               196
+76) Succubus                           195
+77) Armored Rat                        193
+78) Man o' War                         193
+79) Lich                               192
+80) Rabid Bat                          190
+81) Ravager                            185
+82) Gargoyle                           181
+83) Undead                             180
+84) Gnome Mage                         179
+85) Foul Dirge                         177
+86) Venus Djinni Vine                  175
+87) Ghost Mage                         168
+88) Manticore                          168
+89) Mad Vermin                         164
+90) Mimic #3                           160
+91) Ant Lion                           160
+92) Death Cap                          159
+93) Salamander                         158
+94) Killer Ape                         156
+95) Hydros Statue                      156
+96) Orc                                156
+97) Fighter Bee                        155
+98) Grub                               154
+99) Living Statue                      149
+100) Rat Fighter                       146
+101) Tarantula                         144
+102) Mars Djinni Corona                144
+103) Mercury Djinni Spritz             140
+104) Slime Beast                       134
+105) Mimic #2                          133
+106) Bone Fighter                      131
+107) Death Head                        130
+108) Calamar                           130
+109) Ape                               128
+110) Venus Djinni Quartz               127
+111) Dirge                             122
+112) Mimic #1                          120
+113) Mole                              119
+114) Jupiter Djinni Zephyr             115
+115) Spirit                            114
+116) Saturos (Mercury Lighthouse)      113
+117) Siren                             107
+118) Mercury Djinni Sleet              107
+119) Lizard Man                        106
+120) Harpy                             104
+121) Mauler                            99
+122) Cuttle                            96
+123) Ghoul                             93
+124) Tret                              89
+125) Creeper                           79
+126) Jupiter Djinni Breeze             79
+127) Spider                            75
+128) Gnome                             73
+129) Troll                             73
+130) Ooze                              72
+131) Drone Bee                         68
+132) Mystery Man                       63
+133) Rat Soldier                       56
+134) Rat                               52
+135) Mystery Woman                     50
+136) Bandit                            46
+137) Skeleton                          46
+138) Mars Djinni Forge                 45
+139) Thief                             42
+140) Will Head                         42
+141) Zombie                            41
+142) Zombie                            41
+143) Ghost                             38
+144) Amaze                             36
+145) Slime                             34
+146) Vermin                            32
+147) Wild Mushroom                     31
+148) Bat                               30
+149) Amaze                             25
+150) Vermin                            23
+151) Slime                             22
+152) Wild Mushroom                     22
+153) Bat                               21
+
+
+
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~~ IV/5 - Sort By Defense ~~
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+#) Enemy Name                          Defense Stat
+
+1) Deadbeard                           178
+2) Ice Gargoyle                        150
+3) Fusion Dragon                       150
+4) Grand Golem                         149
+5) Saturos                             140
+6) Boulder Beast                       137
+7) Menardi                             134
+8) Thunder Lizard                      133
+9) Plated Rat                          130
+10) Cerebus                            130
+11) Mimic #8                           126
+12) Fenrir                             125
+13) Recluse                            122
+14) Chimera Mage                       119
+15) Earth Golem                        114
+16) Skull Warrior                      112
+17) Wild Gryphon                       112
+18) Manticore King                     106
+19) Stone Soldier                      105
+20) Orc Lord                           98
+21) Earth Lizard                       97
+22) Poison Toad                        97
+23) Mimic #7                           94
+24) Tempest Lizard                     94
+25) Lizard King                        93
+26) Goblin                             91
+27) Chimera                            90
+28) Clay Gargoyle                      90
+29) Nightmare                          89
+30) Willowisp                          87
+31) Storm Lizard                       86
+32) Jupiter Djinni Luff                85
+33) Cannibal Ghoul                     82
+34) Gargoyle                           81
+35) Armored Rat                        79
+36) Horned Ghost                       78
+37) Mercury Djinni Dew                 77
+38) Tornado Lizard                     74
+39) Magicore                           74
+40) Gnome Wizard                       74
+41) Roach                              72
+42) Unknown Venus Djinni               71
+43) Orc Captain                        69
+44) Brigand                            69
+45) Harridan                           66
+46) Warrior Bee                        65
+47) Mars Djinni Flash                  65
+48) Mimic #6                           63
+49) Brutal Troll                       63
+50) Grisly                             63
+51) Kobold                             62
+52) Lizard Fighter                     61
+53) Acid Maggot                        60
+54) Kraken                             60
+55) Mimic #5                           59
+56) Golem                              57
+57) Dirty Ape                          57
+58) Mimic #4                           56
+59) Dread Hound                        56
+60) Vile Dirge                         56
+61) Gryphon                            56
+62) Wight                              55
+63) Navampa                            54
+64) Hobgoblin                          54
+65) Hydros Statue                      53
+66) Toadonpa                           52
+67) Worm                               51
+68) Gnome Mage                         50
+69) Salamander                         49
+70) Succubus                           49
+71) Killer Ape                         49
+72) Rat Warrior                        49
+73) Lich                               48
+74) Mercury Djinni Hail                48
+75) Manticore                          48
+76) Mole Mage                          47
+77) Virago                             47
+78) Ravager                            47
+79) Foul Dirge                         46
+80) Jupiter Djinni Squall              45
+81) Venus Djinni Vine                  45
+82) Ant Lion                           45
+83) Cave Troll                         45
+84) Fiendish Ghoul                     45
+85) Mimic #3                           44
+86) Living Statue                      44
+87) Ghost Mage                         43
+88) Man o' War                         42
+89) Orc                                41
+90) Mars Djinni Corona                 41
+91) Rat Fighter                        39
+92) Fighter Bee                        38
+93) Mimic #2                           36
+94) Bone Fighter                       35
+95) Saturos (Mercury Lighthouse)       35
+96) Calamar                            34
+97) Rabid Bat                          34
+98) Mimic #1                           33
+99) Dirge                              32
+100) Mercury Djinni Spritz             32
+101) Grub                              32
+102) Lizard Man                        31
+103) Death Head                        31
+104) Spirit                            30
+105) Tarantula                         30
+106) Ape                               29
+107) Venus Djinni Quartz               28
+108) Satrage (Good EQ)                 28
+109) Undead                            27
+110) Siren                             27
+111) Mauler                            27
+112) Tret                              27
+113) Slime Beast                       27
+114) Rat                               27
+115) Jupiter Djinni Zephyr             26
+116) Harpy                             25
+117) Mercury Djinni Sleet              24
+118) Mad Mole                          23
+119) Spider                            22
+120) Mystery Man                       22
+121) Mad Vermin                        22
+122) Mole                              22
+123) Cuttle                            22
+124) Jupiter Djinni Breeze             20
+125) Mystery Woman                     20
+126) Ghoul                             20
+127) Azart (Good EQ)                   20
+128) Death Cap                         19
+129) Ooze                              19
+130) Creeper                           19
+131) Drone Bee                         19
+132) Troll                             16
+133) Gnome                             15
+134) Skeleton                          14
+135) Rat Soldier                       13
+136) Ghost                             12
+137) Will Head                         10
+138) Amaze                             10
+139) Zombie                            9
+140) Mars Djinni Forge                 9
+141) Zombie                            9
+142) Amaze                             8
+143) Bandit                            8
+144) Vermin                            7
+145) Vermin                            7
+146) Satrage (Bad EQ)                  6
+147) Slime                             6
+148) Bat                               6
+149) Slime                             6
+150) Wild Mushroom                     5
+151) Thief                             5
+152) Wild Mushroom                     5
+153) Bat                               4
+154) Azart (Bad EQ)                    2
+
+
+
+
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~~ IV/6 - Sort By Agility ~~
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+#) Enemy Name                          Agility Stat
+
+1) Menardi                             220
+2) Fusion Dragon                       190
+3) Deadbeard                           180
+4) Jupiter Djinni Luff                 177
+5) Mercury Djinni Dew                  172
+6) Wild Gryphon                        170
+7) Mimic #8                            167
+8) Saturos                             160
+9) Unknown Venus Djinni                160
+10) Mars Djinni Flash                  151
+11) Cerebus                            151
+12) Chimera Mage                       145
+13) Fenrir                             141
+14) Boulder Beast                      140
+15) Mimic #7                           139
+16) Nightmare                          138
+17) Thunder Lizard                     134
+18) Manticore King                     134
+19) Dirty Ape                          132
+20) Skull Warrior                      130
+21) Gnome Wizard                       122
+22) Rat Warrior                        121
+23) Chimera                            121
+24) Willowisp                          121
+25) Foul Dirge                         120
+26) Vile Dirge                         120
+27) Jupiter Djinni Squall              120
+28) Harridan                           118
+29) Mercury Djinni Hail                116
+30) Horned Ghost                       116
+31) Tempest Lizard                     114
+32) Storm Lizard                       112
+33) Recluse                            109
+34) Magicore                           109
+35) Gnome Mage                         108
+36) Lich                               106
+37) Stone Soldier                      104
+38) Brigand                            104
+39) Tornado Lizard                     104
+40) Mimic #6                           104
+41) Earth Lizard                       102
+42) Warrior Bee                        102
+43) Succubus                           101
+44) Ice Gargoyle                       100
+45) Gryphon                            98
+46) Mimic #5                           97
+47) Killer Ape                         94
+48) Poison Toad                        93
+49) Lizard King                        92
+50) Roach                              92
+51) Venus Djinni Vine                  91
+52) Death Cap                          90
+53) Dread Hound                        90
+54) Orc Captain                        90
+55) Mimic #4                           89
+56) Virago                             89
+57) Ghost Mage                         86
+58) Clay Gargoyle                      84
+59) Navampa                            84
+60) Rabid Bat                          84
+61) Mercury Djinni Spritz              84
+62) Goblin                             83
+63) Toadonpa                           82
+64) Grand Golem                        80
+65) Cannibal Ghoul                     80
+66) Kraken                             80
+67) Worm                               79
+68) Grisly                             78
+69) Acid Maggot                        78
+70) Mars Djinni Corona                 76
+71) Venus Djinni Quartz                76
+72) Brutal Troll                       76
+73) Kobold                             75
+74) Mole Mage                          74
+75) Fighter Bee                        74
+76) Satrage                            73
+77) Earth Golem                        70
+78) Orc Lord                           70
+79) Mimic #3                           70
+80) Man o' War                         70
+81) Fiendish Ghoul                     69
+82) Jupiter Djinni Zephyr              68
+83) Mad Vermin                         67
+84) Hobgoblin                          65
+85) Azart                              62
+86) Hydros Statue                      62
+87) Mad Mole                           62
+88) Manticore                          61
+89) Plated Rat                         61
+90) Lizard Fighter                     60
+91) Dirge                              60
+92) Ravager                            60
+93) Armored Rat                        60
+94) Gargoyle                           59
+95) Mercury Djinni Sleet               58
+96) Rat Fighter                        58
+97) Undead                             58
+98) Ant Lion                           58
+99) Mimic #2                           57
+100) Living Statue                     56
+101) Siren                             54
+102) Wight                             54
+103) Orc                               54
+104) Slime Beast                       54
+105) Grub                              52
+106) Bone Fighter                      52
+107) Tarantula                         52
+108) Mimic #1                          51
+109) Saturos (Mercury Lighthouse)      51
+110) Salamander                        50
+111) Ape                               49
+112) Spirit                            48
+113) Death Head                        47
+114) Harpy                             46
+115) Calamar                           46
+116) Cave Troll                        44
+117) Jupiter Djinni Breeze             42
+118) Golem                             40
+119) Gnome                             38
+120) Drone Bee                         36
+121) Cuttle                            36
+122) Mole                              36
+123) Lizard Man                        30
+124) Ooze                              30
+125) Tret                              30
+126) Creeper                           29
+127) Mauler                            24
+128) Mars Djinni Forge                 22
+129) Spider                            22
+130) Bandit                            20
+131) Bat                               20
+132) Rat Soldier                       19
+133) Skeleton                          18
+134) Amaze                             18
+135) Ghoul                             16
+136) Wild Mushroom                     15
+137) Rat                               15
+138) Troll                             14
+139) Bat                               13
+140) Mystery Woman                     13
+141) Amaze                             12
+142) Ghost                             12
+143) Slime                             10
+144) Will Head                         10
+145) Wild Mushroom                     10
+146) Mystery Man                       9
+147) Vermin                            9
+148) Thief                             9
+149) Slime                             8
+150) Vermin                            7
+151) Zombie                            5
+152) Zombie (Flint's Demo)             1
+
+
+
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~~~ IV/7 -- Sort By Luck ~~~
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+#) Enemy Name                          Luck Stat
+
+1) Deadbeard                           60
+2) Fusion Dragon                       50
+3) Menardi                             50
+4) Saturos                             50
+5) Saturos (Mercury Lighthouse)        40
+6) Mystery Woman                       40
+7) Mystery Man                         40
+8) Manticore                           36
+9) Hydros Statue                       30
+10) Tret                               28
+11) Tempest Lizard                     26
+12) Killer Ape                         26
+13) Storm Lizard                       22
+14) Cerebus                            22
+15) Jupiter Djinni Luff                21
+16) Kraken                             21
+17) Poison Toad                        20
+18) Living Statue                      20
+19) Ant Lion                           19
+20) Gryphon                            19
+21) Mercury Djinni Dew                 19
+22) Tornado Lizard                     18
+23) Unknown Venus Djinni               18
+24) Chimera                            18
+25) Mimic #8                           18
+26) Toadonpa                           18
+27) Earth Lizard                       17
+28) Mars Djinni Flash                  17
+29) Mimic #7                           17
+30) Chimera Mage                       16
+31) Mercury Djinni Hail                16
+32) Navampa                            16
+33) Lich                               15
+34) Mimic #6                           15
+35) Jupiter Djinni Squall              14
+36) Mimic #5                           14
+37) Nightmare                          13
+38) Grisly                             13
+39) Mimic #4                           13
+40) Dread Hound                        13
+41) Lizard King                        13
+42) Mimic #3                           12
+43) Manticore King                     12
+44) Satrage                            12
+45) Succubus                           12
+46) Magicore                           11
+47) Venus Djinni Vine                  10
+48) Thunder Lizard                     10
+49) Mimic #2                           10
+50) Wild Gryphon                       10
+51) Mercury Djinni Spritz              10
+52) Jupiter Djinni Zephyr              9
+53) Venus Djinni Quartz                9
+54) Ghost Mage                         9
+55) Fenrir                             9
+56) Hobgoblin                          9
+57) Azart                              9
+58) Siren                              9
+59) Mercury Djinni Sleet               9
+60) Mars Djinni Corona                 8
+61) Mimic #1                           8
+62) Gnome Mage                         8
+63) Harridan                           8
+64) Gnome Wizard                       8
+65) Clay Gargoyle                      7
+66) Gargoyle                           7
+67) Jupiter Djinni Breeze              7
+68) Ice Gargoyle                       7
+69) Mars Djinni Forge                  6
+70) Salamander                         6
+71) Willowisp                          6
+72) Brutal Troll                       6
+73) Boulder Beast                      6
+74) Spirit                             6
+75) Stone Soldier                      5
+76) Brigand                            5
+77) Earth Golem                        5
+78) Warrior Bee                        5
+79) Tarantula                          5
+80) Skull Warrior                      5
+81) Death Cap                          5
+82) Horned Ghost                       5
+83) Grand Golem                        5
+84) Orc Captain                        4
+85) Kobold                             4
+86) Recluse                            4
+87) Harpy                              4
+88) Roach                              4
+89) Mole Mage                          4
+90) Virago                             4
+91) Cannibal Ghoul                     4
+92) Gnome                              3
+93) Fiendish Ghoul                     3
+94) Bat                                3
+95) Bat                                3
+96) Bandit                             3
+97) Bone Fighter                       3
+98) Orc                                3
+99) Cave Troll                         3
+100) Rat Fighter                       3
+101) Death Head                        3
+102) Orc Lord                          3
+103) Goblin                            3
+104) Rat Warrior                       3
+105) Plated Rat                        2
+106) Rabid Bat                         2
+107) Ape                               2
+108) Dirge                             2
+109) Slime Beast                       2
+110) Amaze                             2
+111) Ravager                           2
+112) Acid Maggot                       2
+113) Lizard Man                        2
+114) Drone Bee                         2
+115) Rat Soldier                       2
+116) Ghost                             2
+117) Creeper                           2
+118) Vermin                            2
+119) Mad Vermin                        2
+120) Fighter Bee                       2
+121) Wight                             2
+122) Foul Dirge                        2
+123) Worm                              2
+124) Golem                             2
+125) Vermin                            2
+126) Amaze                             2
+127) Vile Dirge                        2
+128) Lizard Fighter                    2
+129) Dirty Ape                         2
+130) Skeleton                          1
+131) Thief                             1
+132) Wild Mushroom                     1
+133) Zombie                            1
+134) Will Head                         1
+135) Slime                             1
+136) Slime                             1
+137) Zombie                            1
+138) Wild Mushroom                     1
+139) Cuttle                            1
+140) Undead                            1
+141) Grub                              1
+142) Man o' War                        1
+143) Armored Rat                       1
+144) Mad Mole                          1
+145) Calamar                           1
+146) Mole                              1
+147) Spider                            1
+148) Troll                             1
+149) Ghoul                             1
+150) Ooze                              1
+151) Mauler                            1
+152) Rat                               1
+
+
+
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~~~~ IV/8 - Extra Turns ~~~~
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+x) Enemy Name                          Turns
+
+x) Manticore                           2
+x) Fusion Dragon                       2
+x) Tornado Lizard                      2
+x) Storm Lizard                        2
+x) Tempest Lizard                      2
+x) Kraken                              2
+x) Deadbeard                           2
+   --- All other enemies have one turn ---
+
+
+
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~~~ IV/9 -- Sort by Gold ~~~
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+#) Enemy Name                          Gold Dropped
+
+1) Deadbeard                           9000
+2) Tempest Lizard                      6400
+3) Storm Lizard                        6100
+4) Kraken                              5200
+5) Menardi                             4200
+6) Saturos                             3600
+7) Manticore                           3400
+8) Toadonpa                            3200
+9) Cerebus                             3200
+10) Hydros Statue                      2400
+11) Poison Toad                        2200
+12) Gryphon                            1900
+13) Killer Ape                         1500
+14) Lizard King                        1200
+15) Lich                               1200
+16) Earth Lizard                       920
+17) Living Statue                      900
+18) Saturos (Mercury Lighthouse)       800
+19) Hobgoblin                          800
+20) Chimera                            800
+21) Tret                               700
+22) Grisly                             700
+23) Mimic #8                           643
+24) Mimic #7                           547
+25) Jupiter Djinni Luff                506
+26) Mercury Djinni Dew                 484
+27) Tornado Lizard                     477
+28) Unknown Venus Djinni               464
+29) Mars Djinni Flash                  445
+30) Mimic #6                           415
+31) Mimic #5                           386
+32) Mimic #4                           356
+33) Jupiter Djinni Squall              352
+34) Mercury Djinni Hail                340
+35) Ant Lion                           320
+36) Chimera Mage                       300
+37) Wild Gryphon                       290
+38) Venus Djinni Vine                  277
+39) Mimic #3                           267
+40) Manticore King                     240
+41) Mercury Djinni Spritz              226
+42) Thunder Lizard                     221
+43) Fenrir                             212
+44) Mars Djinni Corona                 210
+45) Magicore                           208
+46) Grand Golem                        208
+47) Mimic #2                           207
+48) Venus Djinni Quartz                201
+49) Nightmare                          198
+50) Orc Lord                           198
+51) Brutal Troll                       190
+52) Brigand                            190
+53) Salamander                         190
+54) Skull Warrior                      188
+55) Earth Golem                        183
+56) Mimic #1                           178
+57) Jupiter Djinni Zephyr              176
+58) Dread Hound                        176
+59) Gnome Wizard                       176
+60) Goblin                             170
+61) Ice Gargoyle                       170
+62) Horned Ghost                       166
+63) Harridan                           164
+64) Boulder Beast                      164
+65) Golem                              161
+66) Willowisp                          160
+67) Ape                                160
+68) Cannibal Ghoul                     160
+69) Rat Warrior                        160
+70) Kobold                             154
+71) Recluse                            153
+72) Mercury Djinni Sleet               151
+73) Dirty Ape                          149
+74) Clay Gargoyle                      147
+75) Succubus                           143
+76) Orc Captain                        142
+77) Plated Rat                         135
+78) Cave Troll                         134
+79) Mole Mage                          132
+80) Gnome Mage                         126
+81) Lizard Fighter                     124
+82) Roach                              120
+83) Virago                             120
+84) Gargoyle                           119
+85) Wight                              115
+86) Orc                                113
+87) Ghost Mage                         110
+88) Fiendish Ghoul                     109
+89) Warrior Bee                        104
+90) Acid Maggot                        102
+91) Armored Rat                        100
+92) Foul Dirge                         100
+93) Jupiter Djinni Breeze              100
+94) Stone Soldier                      98
+95) Vile Dirge                         98
+96) Ravager                            95
+97) Worm                               94
+98) Undead                             90
+99) Fighter Bee                        90
+100) Grub                              88
+101) Mad Mole                          88
+102) Man o' War                        87
+103) Mars Djinni Forge                 85
+104) Rat Fighter                       83
+105) Rabid Bat                         82
+106) Tarantula                         81
+107) Mad Vermin                        80
+108) Calamar                           79
+109) Slime Beast                       77
+110) Death Head                        73
+111) Spirit                            67
+112) Bone Fighter                      63
+113) Dirge                             61
+114) Mole                              60
+115) Death Cap                         56
+116) Siren                             56
+117) Harpy                             53
+118) Lizard Man                        52
+119) Cuttle                            49
+120) Bandit                            46
+121) Mauler                            45
+122) Ghoul                             42
+123) Ooze                              40
+124) Gnome                             40
+125) Creeper                           38
+126) Troll                             34
+127) Thief                             32
+128) Spider                            32
+129) Drone Bee                         28
+130) Rat Soldier                       19
+131) Rat                               17
+132) Skeleton                          11
+133) Will Head                         10
+134) Ghost                             9
+135) Zombie                            8
+136) Amaze                             6
+137) Vermin                            4
+138) Slime                             4
+139) Amaze                             3
+140) Wild Mushroom                     3
+141) Bat                               3
+142) Wild Mushroom                     2
+143) Slime                             2
+144) Vermin                            2
+145) Bat                               1
+146) Mystery Woman                     0
+147) Satrage                           0
+148) Mystery Man                       0
+149) Azart                             0
+150) Zombie                            0
+151) Navampa                           0
+152) Fusion Dragon                     0
+
+
+
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~~~ IV/10 -- Sort by EXP ~~~
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+#) Enemy Name                          EXP Gained
+
+1) Deadbeard                           8000
+2) Saturos                             3000
+3) Menardi                             3000
+4) Cerebus                             1863
+5) Poison Toad                         1732
+6) Tempest Lizard                      1360
+7) Storm Lizard                        1300
+8) Mimic #8                            1009
+9) Toadonpa                            999
+10) Kraken                             711
+11) Jupiter Djinni Luff                677
+12) Mimic #7                           669
+13) Tornado Lizard                     620
+14) Mercury Djinni Dew                 606
+15) Manticore                          590
+16) Earth Lizard                       545
+17) Lizard King                        535
+18) Unknown Venus Djinni               534
+19) Hydros Statue                      496
+20) Chimera                            465
+21) Killer Ape                         460
+22) Mars Djinni Flash                  460
+23) Thunder Lizard                     422
+24) Grand Golem                        412
+25) Fenrir                             402
+26) Living Statue                      377
+27) Mimic #6                           374
+28) Chimera Mage                       362
+29) Mimic #5                           347
+30) Manticore King                     342
+31) Saturos (Mercury Lighthouse)       331
+32) Wild Gryphon                       322
+33) Mimic #4                           321
+34) Ice Gargoyle                       307
+35) Gryphon                            303
+36) Skull Warrior                      301
+37) Jupiter Djinni Squall              295
+38) Mercury Djinni Hail                279
+39) Boulder Beast                      278
+40) Lich                               263
+41) Orc Lord                           260
+42) Recluse                            243
+43) Grisly                             243
+44) Mimic #3                           241
+45) Nightmare                          241
+46) Venus Djinni Vine                  230
+47) Willowisp                          227
+48) Tret                               226
+49) Hobgoblin                          223
+50) Goblin                             221
+51) Gnome Wizard                       219
+52) Earth Golem                        218
+53) Plated Rat                         208
+54) Horned Ghost                       199
+55) Cannibal Ghoul                     194
+56) Mole Mage                          191
+57) Mimic #2                           190
+58) Mercury Djinni Spritz              190
+59) Mars Djinni Corona                 173
+60) Venus Djinni Quartz                172
+61) Magicore                           169
+62) Ant Lion                           168
+63) Mimic #1                           164
+64) Brigand                            162
+65) Jupiter Djinni Zephyr              150
+66) Harridan                           150
+67) Brutal Troll                       150
+68) Roach                              144
+69) Mercury Djinni Sleet               130
+70) Orc Captain                        125
+71) Dread Hound                        116
+72) Dirty Ape                          114
+73) Kobold                             107
+74) Cave Troll                         106
+75) Golem                              105
+76) Succubus                           101
+77) Clay Gargoyle                      100
+78) Rat Warrior                        100
+79) Stone Soldier                      98
+80) Ape                                96
+81) Wight                              92
+82) Ravager                            90
+83) Lizard Fighter                     89
+84) Jupiter Djinni Breeze              88
+85) Virago                             87
+86) Fiendish Ghoul                     87
+87) Acid Maggot                        86
+88) Gnome Mage                         86
+89) Gargoyle                           84
+90) Salamander                         84
+91) Foul Dirge                         82
+92) Ghost Mage                         80
+93) Armored Rat                        77
+94) Vile Dirge                         75
+95) Undead                             74
+96) Mad Mole                           71
+97) Orc                                68
+98) Fighter Bee                        67
+99) Warrior Bee                        65
+100) Rat Fighter                       63
+101) Grub                              62
+102) Rabid Bat                         61
+103) Worm                              60
+104) Calamar                           59
+105) Tarantula                         58
+106) Man o' War                        55
+107) Death Head                        55
+108) Mad Vermin                        55
+109) Bone Fighter                      51
+110) Slime Beast                       51
+111) Spirit                            49
+112) Death Cap                         48
+113) Dirge                             47
+114) Siren                             45
+115) Lizard Man                        42
+116) Mole                              39
+117) Harpy                             38
+118) Mauler                            37
+119) Bandit                            36
+120) Ghoul                             34
+121) Creeper                           32
+122) Troll                             30
+123) Gnome                             29
+124) Mars Djinni Forge                 28
+125) Cuttle                            27
+126) Ooze                              26
+127) Spider                            25
+128) Drone Bee                         19
+129) Rat Soldier                       17
+130) Thief                             15
+131) Rat                               14
+132) Skeleton                          10
+133) Ghost                             9
+134) Will Head                         9
+135) Zombie                            7
+136) Amaze                             5
+137) Slime                             4
+138) Vermin                            4
+139) Amaze                             3
+140) Wild Mushroom                     3
+141) Slime                             2
+142) Vermin                            2
+143) Bat                               2
+144) Wild Mushroom                     1
+145) Bat                               1
+146) Mystery Woman                     0
+147) Mystery Man                       0
+148) Fusion Dragon                     0
+149) Azart                             0
+150) Navampa                           0
+151) Satrage                           0
+152) Zombie                            0
+
+
+
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~~~~ IV/11 - Item Drops ~~~~
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+#) Enemy Name                          Item Drop        ICC/Rarity
+
+1) Fenrir                              Kikuichimonji    (ICC 9)
+2) Magicore                            Aura Gloves      (ICC 8)
+3) Thunder Lizard                      Blessed Mace     (ICC 8)
+4) Wild Gryphon                        Feathered Robe   (ICC 8)
+5) Earth Golem                         Giant Axe        (ICC 8)
+6) Orc Lord                            Lucky Medal      (ICC 8)
+7) Boulder Beast                       Water of Life    (ICC 8)
+8) Grand Golem                         Zodiac Wand      (ICC 8)
+9) Nightmare                           Healing Ring     (ICC 7)
+10) Ice Gargoyle                       Potion           (ICC 7)
+11) Dread Hound                        Prophet's Hat    (ICC 7)
+12) Manticore King                     Psy Crystal      (ICC 7)
+13) Chimera Mage                       Spiked Armor     (ICC 7)
+14) Recluse                            Unicorn Ring     (ICC 7)
+15) Golem                              Vial             (ICC 7)
+16) Man o' War                         Antidote         (ICC 6)
+17) Mole Mage                          Antidote         (ICC 6)
+18) Cannibal Ghoul                     Antidote         (ICC 6)
+19) Mad Mole                           Bramble Seed     (ICC 6)
+20) Roach                              Bramble Seed     (ICC 6)
+21) Rat Warrior                        Bramble Seed     (ICC 6)
+22) Brigand                            Crystal Powder   (ICC 6)
+23) Spirit                             Crystal Powder   (ICC 6)
+24) Gnome Wizard                       Crystal Powder   (ICC 6)
+25) Fighter Bee                        Elixir           (ICC 6)
+26) Plated Rat                         Elixir           (ICC 6)
+27) Stone Soldier                      Elixir           (ICC 6)
+28) Horned Ghost                       Elixir           (ICC 6)
+29) Ravager                            Elixir           (ICC 6)
+30) Armored Rat                        Herb             (ICC 6)
+31) Slime                              Herb             (ICC 6)
+32) Mad Vermin                         Herb             (ICC 6)
+33) Rat                                Herb             (ICC 6)
+34) Worm                               Herb             (ICC 6)
+35) Bat                                Herb             (ICC 6)
+36) Clay Gargoyle                      Nut              (ICC 6)
+37) Willowisp                          Nut              (ICC 6)
+38) Troll                              Nut              (ICC 6)
+39) Mauler                             Nut              (ICC 6)
+40) Orc                                Nut              (ICC 6)
+41) Harridan                           Nut              (ICC 6)
+42) Lizard Man                         Nut              (ICC 6)
+43) Gnome                              Oil Drop         (ICC 6)
+44) Gargoyle                           Sleep Bomb       (ICC 6)
+45) Acid Maggot                        Sleep Bomb       (ICC 6)
+46) Bone Fighter                       Sleep Bomb       (ICC 6)
+47) Death Cap                          Sleep Bomb       (ICC 6)
+48) Cuttle                             Sleep Bomb       (ICC 6)
+49) Wild Mushroom                      Smoke Bomb       (ICC 6)
+50) Rat Fighter                        Smoke Bomb       (ICC 6)
+51) Wild Mushroom                      Smoke Bomb       (ICC 6)
+52) Will Head                          Smoke Bomb       (ICC 6)
+53) Foul Dirge                         Smoke Bomb       (ICC 6)
+54) Skull Warrior                      Vial             (ICC 6)
+55) Goblin                             Vial             (ICC 6)
+56) Creeper                            Weasel's Claw    (ICC 6)
+57) Dirty Ape                          Antidote         (ICC 5)
+58) Ghoul                              Antidote         (ICC 5)
+59) Grub                               Antidote         (ICC 5)
+60) Undead                             Antidote         (ICC 5)
+61) Fiendish Ghoul                     Antidote         (ICC 5)
+62) Tarantula                          Antidote         (ICC 5)
+63) Spider                             Antidote         (ICC 5)
+64) Mole                               Bramble Seed     (ICC 5)
+65) Ghost Mage                         Bramble Seed     (ICC 5)
+66) Gnome Mage                         Crystal Powder   (ICC 5)
+67) Siren                              Crystal Powder   (ICC 5)
+68) Succubus                           Crystal Powder   (ICC 5)
+69) Calamar                            Elixir           (ICC 5)
+70) Drone Bee                          Elixir           (ICC 5)
+71) Harpy                              Elixir           (ICC 5)
+72) Warrior Bee                        Elixir           (ICC 5)
+73) Virago                             Elixir           (ICC 5)
+74) Wight                              Elixir           (ICC 5)
+75) Vermin                             Herb             (ICC 5)
+76) Ooze                               Herb             (ICC 5)
+77) Slime Beast                        Herb             (ICC 5)
+78) Bat                                Herb             (ICC 5)
+79) Slime                              Herb             (ICC 5)
+80) Vermin                             Herb             (ICC 5)
+81) Zombie                             Herb             (ICC 5)
+82) Skeleton                           Herb             (ICC 5)
+83) Cave Troll                         Nut              (ICC 5)
+84) Brutal Troll                       Nut              (ICC 5)
+85) Death Head                         Nut              (ICC 5)
+86) Lizard Fighter                     Nut              (ICC 5)
+87) Dirge                              Nut              (ICC 5)
+88) Salamander                         Oil Drop         (ICC 5)
+89) Amaze                              Oil Drop         (ICC 5)
+90) Ghost                              Oil Drop         (ICC 5)
+91) Amaze                              Oil Drop         (ICC 5)
+92) Kobold                             Sleep Bomb       (ICC 5)
+93) Rabid Bat                          Sleep Bomb       (ICC 5)
+94) Orc Captain                        Smoke Bomb       (ICC 5)
+95) Rat Soldier                        Smoke Bomb       (ICC 5)
+96) Vile Dirge                         Weasel's Claw    (ICC 5)
+97) Ant Lion                           Vial             (ICC 4)
+98) Tornado Lizard                     Weasel's Claw    (ICC 4)
+99) Ape                                Vial             (ICC 3)
+100) Bandit                            Bandit's Sword   (ICC 1)
+101) Killer Ape                        Douse Drop       (ICC 1)
+102) Mimic #2                          Game Ticket      (ICC 1)
+103) Mimic #3                          Game Ticket      (ICC 1)
+104) Hydros Statue                     Lucky Medal      (ICC 1)
+105) Hobgoblin                         Lucky Medal      (ICC 1)
+106) Mimic #5                          Potion           (ICC 1)
+107) Tret                              Potion           (ICC 1)
+108) Gryphon                           Potion           (ICC 1)
+109) Tempest Lizard                    Potion           (ICC 1)
+110) Chimera                           Potion           (ICC 1)
+111) Mimic #8                          Potion           (ICC 1)
+112) Grisly                            Potion           (ICC 1)
+113) Lizard King                       Psy Crystal      (ICC 1)
+114) Storm Lizard                      Psy Crystal      (ICC 1)
+115) Cerebus                           Psy Crystal      (ICC 1)
+116) Lich                              Psy Crystal      (ICC 1)
+117) Saturos (Mercury Lighthouse)      Psy Crystal      (ICC 1)
+118) Manticore                         Psy Crystal      (ICC 1)
+119) Toadonpa                          Psy Crystal      (ICC 1)
+120) Living Statue                     Vial             (ICC 1)
+121) Mimic #4                          Vial             (ICC 1)
+122) Mimic #7                          Water of Life    (ICC 1)
+123) Kraken                            Water of Life    (ICC 1)
+124) Mimic #6                          Water of Life    (ICC 1)
+125) Earth Lizard                      Water of Life    (ICC 1)
+126) Deadbeard                         Water of Life    (ICC 1)
+127) Mimic #1                          Water of Life    (ICC 1)
+128) Poison Toad                       Water of Life    (ICC 1)
+            --- All other enemies drop no items ---
+
+
+
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~~ IV/12 -- Stat Averages ~~
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+#) Enemy Name                          Average (HP, PP, At, De, Ag, Lc)
+
+1) Deadbeard                           1247.7
+2) Fusion Dragon                       1054.8
+3) Saturos                             669.8
+4) Menardi                             615.5
+5) Tempest Lizard                      595.7
+6) Storm Lizard                        575.5
+7) Mystery Man                         565.7
+8) Toadonpa                            536.3
+9) Mystery Woman                       503.8
+10) Cerebus                            485.7
+11) Poison Toad                        470.5
+12) Kraken                             470.5
+13) Lizard King                        422.5
+14) Manticore                          349.3
+15) Earth Lizard                       348.7
+16) Mimic #8                           325.3
+17) Chimera                            320.2
+18) Hydros Statue                      280.2
+19) Mimic #7                           268.3
+20) Saturos (Mercury Lighthouse)       266.5
+21) Gryphon                            253.7
+22) Killer Ape                         228.3
+23) Jupiter Djinni Luff                222.5
+24) Lich                               218.8
+25) Mercury Djinni Dew                 210.3
+26) Navampa (Good EQ)                  208
+27) Mimic #6                           204
+28) Navampa (Bad EQ)                   201
+29) Unknown Venus Djinni               199
+30) Grisly                             193.7
+31) Mimic #5                           192.8
+32) Mars Djinni Flash                  188.3
+33) Mimic #4                           181.8
+34) Thunder Lizard                     180
+35) Grand Golem                        179.5
+36) Chimera Mage                       174.5
+37) Fenrir                             173
+38) Tornado Lizard                     171.7
+39) Wild Gryphon                       167
+40) Hobgoblin                          163.5
+41) Manticore King                     158.3
+42) Succubus                           157
+43) Fiendish Ghoul                     154.2
+44) Tret                               153.3
+45) Satrage (Good EQ)                  151.8
+46) Jupiter Djinni Squall              150.8
+47) Ice Gargoyle                       150.2
+48) Mercury Djinni Hail                149.8
+49) Mimic #3                           149.5
+50) Satrage (Bad EQ)                   148.2
+51) Skull Warrior                      144.7
+52) Brigand                            141.7
+53) Living Statue                      140.5
+54) Boulder Beast                      139.2
+55) Nightmare                          135.5
+56) Magicore                           133.7
+57) Earth Golem                        131
+58) Recluse                            129.8
+59) Venus Djinni Vine                  128.7
+60) Orc Lord                           128.2
+61) Mimic #2                           128
+62) Azart (Good EQ)                    124.5
+63) Horned Ghost                       122.5
+64) Goblin                             122.3
+65) Azart (Bad EQ)                     121.5
+66) Willowisp                          119
+67) Ant Lion                           119
+68) Harridan                           118.8
+69) Brutal Troll                       118.2
+70) Gnome Wizard                       118
+71) Mimic #1                           117.3
+72) Cannibal Ghoul                     114.8
+73) Plated Rat                         109.7
+74) Roach                              109.7
+75) Dirty Ape                          109.5
+76) Mercury Djinni Spritz              109
+77) Mars Djinni Corona                 108
+78) Orc Captain                        107
+79) Stone Soldier                      106.7
+80) Clay Gargoyle                      104
+81) Dread Hound                        103.7
+82) Venus Djinni Quartz                102.3
+83) Rat Warrior                        101.2
+84) Mole Mage                          100.5
+85) Kobold                             98.5
+86) Golem                              97
+87) Vile Dirge                         96.5
+88) Jupiter Djinni Zephyr              92.8
+89) Warrior Bee                        92.8
+90) Acid Maggot                        92.5
+91) Lizard Fighter                     89.8
+92) Gnome Mage                         88.5
+93) Gargoyle                           87.5
+94) Virago                             87.3
+95) Mercury Djinni Sleet               84.7
+96) Wight                              84.7
+97) Cave Troll                         83.8
+98) Ape                                83
+99) Foul Dirge                         82.3
+100) Salamander                        82.2
+101) Ghost Mage                        81
+102) Ravager                           80.5
+103) Armored Rat                       80
+104) Worm                              76.7
+105) Man o' War                        73.8
+106) Mad Mole                          73.2
+107) Rabid Bat                         72.5
+108) Undead                            71.8
+109) Jupiter Djinni Breeze             68.8
+110) Orc                               67
+111) Death Cap                         65
+112) Rat Fighter                       64.8
+113) Mad Vermin                        64.3
+114) Fighter Bee                       64.2
+115) Death Head                        59
+116) Bone Fighter                      57.2
+117) Grub                              56.8
+118) Tarantula                         56.5
+119) Siren                             54.2
+120) Spirit                            54.2
+121) Bandit                            53.5
+122) Slime Beast                       52.7
+123) Calamar                           52.5
+124) Dirge                             51.2
+125) Lizard Man                        49.7
+126) Harpy                             47.3
+127) Mole                              45.7
+128) Mars Djinni Forge                 44.7
+129) Mauler                            43.3
+130) Cuttle                            39.2
+131) Ghoul                             38.2
+132) Creeper                           37.3
+133) Gnome                             36.5
+134) Troll                             34.2
+135) Ooze                              32.3
+136) Spider                            31.5
+137) Drone Bee                         31.3
+138) Thief                             27.8
+139) Rat Soldier                       26.5
+140) Rat                               24
+141) Skeleton                          23.2
+142) Ghost                             21
+143) Will Head                         19.5
+144) Zombie                            18.5
+145) Zombie                            17.8
+146) Amaze                             17.5
+147) Bat                               14.5
+148) Wild Mushroom                     14.3
+149) Vermin                            14.3
+150) Slime                             13.8
+151) Amaze                             12.5
+152) Bat                               10
+153) Slime                             9.8
+154) Vermin                            9.8
+155) Wild Mushroom                     9.3
+
+
+
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~ IV/13 -- Elemental Group ~
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+(Elemental Group 1)           Weakness:     All
+            Ven Mrc Mar Jup
+  Power      80  80  80  80
+  Resist     72  72  72  72
+    * Bandit
+    * Brigand
+    * Thief
+
+(Elemental Group 2)           Weakness:     All
+            Ven Mrc Mar Jup
+  Power      80  80  80  80
+  Resist     90  90  90  90
+    * Azart
+    * Navampa
+    * Satrage
+
+(Elemental Group 3)           Weakness:    Mars
+            Ven Mrc Mar Jup
+  Power     100  80  70  80
+  Resist     48  48  25  72
+    * Ape
+    * Armored Rat
+    * Brutal Troll
+    * Cave Troll
+    * Mad Mole
+    * Mad Vermin
+    * Mauler
+    * Mole Mage
+    * Mole
+    * Plated Rat
+    * Rat
+    * Ravager
+    * Troll
+    * Vermin
+    * Vermin
+
+(Elemental Group 4)           Weakness:    Mars
+            Ven Mrc Mar Jup
+  Power     100  80  70  80
+  Resist     72  72  25 127
+    * Dirty Ape
+    * Grisly
+    * Killer Ape
+
+(Elemental Group 5)           Weakness:    Mars
+            Ven Mrc Mar Jup
+  Power      95  85  90  85
+  Resist     48  48  25  48
+    * Acid Maggot
+    * Grub
+    * Recluse
+    * Spider
+    * Tarantula
+    * Worm
+
+(Elemental Group 7)           Weakness:    Mars
+            Ven Mrc Mar Jup
+  Power     105 100  80  70
+  Resist     48 100   7  72
+    * Death Cap
+    * Wild Mushroom
+    * Wild Mushroom
+
+(Elemental Group 8)           Weakness:    Mars
+            Ven Mrc Mar Jup
+  Power     105 100  80  70
+  Resist     72 175  25 100
+    * Tret
+
+(Elemental Group 9)           Weakness: Jupiter
+            Ven Mrc Mar Jup
+  Power      90  90  95 105
+  Resist    100  48  48   7
+    * Drone Bee
+    * Fighter Bee
+    * Warrior Bee
+
+(Elemental Group 11)          Weakness: Jupiter
+            Ven Mrc Mar Jup
+  Power      95  95  95 110
+  Resist    127  72  48   7
+    * Bat
+    * Bat
+    * Dirge
+    * Foul Dirge
+    * Harpy
+    * Rabid Bat
+    * Vile Dirge
+    * Virago
+
+(Elemental Group 12)          Weakness: Jupiter
+            Ven Mrc Mar Jup
+  Power      95  95  95 110
+  Resist    175 100  72  25
+    * Harridan
+
+(Elemental Group 13)          Weakness:    Mars
+            Ven Mrc Mar Jup
+  Power     100  95  80  80
+  Resist     25  72   7  48
+    * Cannibal Ghoul
+    * Fiendish Ghoul
+    * Ghoul
+    * Undead
+    * Wight
+    * Zombie
+    * Zombie
+
+(Elemental Group 14)          Weakness:   Venus
+            Ven Mrc Mar Jup
+  Power     100  95  80  80
+  Resist     25 127  72  48
+    * Bone Fighter
+    * Death Head
+    * Skeleton
+    * Skull Warrior
+    * Will Head
+    * Willowisp
+
+(Elemental Group 15)          Weakness: Jupiter
+            Ven Mrc Mar Jup
+  Power     100  95  95  95
+  Resist     48 100  72   7
+    * Amaze
+    * Amaze
+    * Creeper
+    * Ghost Mage
+    * Ghost
+    * Horned Ghost
+    * Spirit
+
+(Elemental Group 16)          Weakness: Jupiter
+            Ven Mrc Mar Jup
+  Power     100  95  95  95
+  Resist     72 152 100  25
+    * Lich
+
+(Elemental Group 17)          Weakness:   Venus
+            Ven Mrc Mar Jup
+  Power     100 100 100  95
+  Resist     48 100 100 127
+    * Clay Gargoyle
+    * Gargoyle
+    * Ice Gargoyle
+
+(Elemental Group 19)          Weakness:    Mars
+            Ven Mrc Mar Jup
+  Power      95 115  85  95
+  Resist    100 175  25 100
+    * Cerebus
+    * Fenrir
+    * Kraken
+    * Poison Toad
+    * Toadonpa
+
+(Elemental Group 20)          Weakness: Mercury
+            Ven Mrc Mar Jup
+  Power      95  85 115  95
+  Resist    100  25 175 100
+    * Ant Lion
+    * Chimera Mage
+    * Chimera
+    * Dread Hound
+    * Magicore
+    * Manticore King
+    * Manticore
+    * Roach
+
+(Elemental Group 21)          Weakness:   Venus
+            Ven Mrc Mar Jup
+  Power      90  95  95 110
+  Resist     48 100 100 152
+    * Storm Lizard
+    * Tempest Lizard
+    * Tornado Lizard
+
+(Elemental Group 23)          Weakness: Jupiter
+            Ven Mrc Mar Jup
+  Power     120  95  95  80
+  Resist    193 100 100  25
+    * Earth Golem
+    * Earth Lizard
+    * Golem
+    * Grand Golem
+    * Unknown Venus Djinni
+    * Venus Djinni Quartz
+    * Venus Djinni Vine
+
+(Elemental Group 24)          Weakness:    Mars
+            Ven Mrc Mar Jup
+  Power      95 125  75  95
+  Resist     48 127   7  48
+    * Calamar
+    * Cuttle
+    * Man o' War
+    * Ooze
+    * Slime Beast
+    * Slime
+    * Slime
+
+(Elemental Group 25)          Weakness:    Mars
+            Ven Mrc Mar Jup
+  Power      95 125  75  95
+  Resist    100 193  25 100
+    * Hydros Statue
+    * Living Statue
+    * Mercury Djinni Dew
+    * Mercury Djinni Hail
+    * Mercury Djinni Sleet
+    * Mercury Djinni Spritz
+
+(Elemental Group 26)          Weakness: Mercury
+            Ven Mrc Mar Jup
+  Power      95  75 125  95
+  Resist     48   7 127  48
+    * Stone Soldier
+
+(Elemental Group 27)          Weakness: Mercury
+            Ven Mrc Mar Jup
+  Power      95  75 125  95
+  Resist    100  25 193 100
+    * Boulder Beast
+    * Mars Djinni Corona
+    * Mars Djinni Flash
+    * Mars Djinni Forge
+    * Salamander
+
+(Elemental Group 29)          Weakness:   Venus
+            Ven Mrc Mar Jup
+  Power      80  95  95 120
+  Resist     25 100 100 193
+    * Jupiter Djinni Breeze
+    * Jupiter Djinni Luff
+    * Jupiter Djinni Squall
+    * Jupiter Djinni Zephyr
+    * Thunder Lizard
+
+(Elemental Group 30)          Weakness: Jupiter
+            Ven Mrc Mar Jup
+  Power     100  85  85  85
+  Resist    100  72  72  48
+    * Gnome Wizard
+    * Goblin
+    * Kobold
+    * Orc Captain
+    * Orc
+
+(Elemental Group 31)          Weakness: Jupiter
+            Ven Mrc Mar Jup
+  Power     100  85  85  85
+  Resist    127 100 100  72
+    * Hobgoblin
+    * Orc Lord
+
+(Elemental Group 32)          Weakness:    Mars
+            Ven Mrc Mar Jup
+  Power      85 100  85  85
+  Resist     72 100  48  72
+    * Rat Fighter
+    * Rat Soldier
+    * Rat Warrior
+
+(Elemental Group 33)          Weakness:    Mars
+            Ven Mrc Mar Jup
+  Power      85 100  85  85
+  Resist    100 127  72 100
+    * Lizard Fighter
+    * Lizard King
+    * Lizard Man
+    * Siren
+    * Succubus
+
+(Elemental Group 34)          Weakness: Mercury
+            Ven Mrc Mar Jup
+  Power      85  85 100  85
+  Resist     72  48 100  72
+    * Gnome
+
+(Elemental Group 36)          Weakness:   Venus
+            Ven Mrc Mar Jup
+  Power      85  85  85 100
+  Resist     48  72  72 100
+    * Gnome Mage
+
+(Elemental Group 37)          Weakness:   Venus
+            Ven Mrc Mar Jup
+  Power      85  85  85 100
+  Resist     72 100 100 127
+    * Nightmare
+
+(Elemental Group 38)          Weakness:    Mars
+            Ven Mrc Mar Jup
+  Power      95 100  75 105
+  Resist    100 127  25 152
+    * Mimic #1
+    * Mimic #2
+    * Mimic #3
+    * Mimic #4
+    * Mimic #5
+    * Mimic #6
+    * Mimic #7
+    * Mimic #8
+
+(Elemental Group 39)          Weakness: Mercury
+            Ven Mrc Mar Jup
+  Power     100  90 110 100
+  Resist    100  72 175 127
+    * Mystery Man
+    * Saturos (Mercury Lighthouse)
+    * Saturos
+
+(Elemental Group 40)          Weakness: Mercury
+            Ven Mrc Mar Jup
+  Power     100  95 105 100
+  Resist    127  72 175 100
+    * Menardi
+    * Mystery Woman
+
+(Elemental Group 41)          Weakness: Mercury
+            Ven Mrc Mar Jup
+  Power     100  95 110 100
+  Resist    127  72 175 127
+    * Fusion Dragon
+
+(Elemental Group 42)          Weakness:   Venus
+            Ven Mrc Mar Jup
+  Power     100 130 120 110
+  Resist     72 193 127 152
+    * Deadbeard
+
+(Elemental Group 43)          Weakness: Jupiter
+            Ven Mrc Mar Jup
+  Power      90  95  95 110
+  Resist    152 110  72  48
+    * Gryphon
+    * Wild Gryphon
+
+
+
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     ~~ Section V - Last Notes ~~
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+I'll give credit to...
+
+Torrent Lord/Myself - I kinda did just about everything needed for
+                      compiling this list. Every list I used: attacks,
+                      enemies, items...I listed all myself, without ANY
+                      help. =P
+
+Nintendo/Camelot - For making one of my favorite GBA games.
+
+You - For reading this guide, which most people may find pointless.
+
+GameFAQs - For accepting this guide.
+
+...and that's it. Thanks for reading this/skipping to the credits.
+
+This Enemy List is Copyright 2005 J. Adams
+Restore Page
+

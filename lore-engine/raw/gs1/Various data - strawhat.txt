@@ -1,0 +1,564 @@
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+                             {6.0} Psynergy List
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+This is a list of all the Psynergy in the game. It is listed in alphabetical
+order.
+
+Remember, the Psynergy that you can use depends on the character, class, and
+level. Naturally, you're going to get stronger Psynergy at higher levels. To
+change one's class, you must set, standby, or switch your Djinn around.
+Although in my opinion, I find the default ones the best, you can change them
+to whatever you want. I'm not going to list which Psynergy is for which
+classes though because frankly, there's a lot. Check out the good links
+section to find out.
+
+Note: There are two different attack that are labeled Nova.
+
++----------------------------------------------------------------------------+
+| Name             | PP Used | Range | Element | Effect(if any)              |
+|----------------------------------------------------------------------------|
+| Angel Spear      |    7    |   1   | Jupiter | Damage                      |
+| Annihilation     |    18   |   1   |  Venus  | Damage                      |
+| Astral Blast     |    5    |   1   | Jupiter | Damage                      |
+| Avalanche        |    15   |   5   |  Venus  | Damage                      |
+| Avoid            |    5    |  None |  None   | Lowers enemy encounters.    |
+| Bind             |    4    |   1   | Jupiter | Blocks a foe's Psynergy.    |
+| Blast(Nova)      |    7    |   3   |  Mars   | Damage                      |
+| Blast            |    5    |   3   |  Mars   | Damage                      |
+| Blue Bolt        |    14   |   3   | Jupiter | Damage                      |
+| Bolt             |    4    |   1   | Jupiter | Damage                      |
+| Break            |    5    |  All  | Mercury | Removes enemy's stat bonuses|
+| Briar            |    11   |   3   |  Venus  | Damage                      |
+| Carpet Bomb      |    29   |   7   |  Mars   | Damage                      |
+| Catch            |    1    |  None |  None   | Catches light objects.      |
+| Carry            |    2    |  None |  None   | Lift and move objects.      |
+| Clay Spire       |    13   |   3   |  Venus  | Damage                      |
+| Cloak            |    1    |  None |  None   | Hides in shadows.           |
+| Cluster Bomb     |    11   |   5   |  Mars   | Damage                      |
+| Condemn          |    8    |   1   |  Venus  | Disables enemies.           |
+| Cutting Edge     |    5    |   1   | Jupiter | Damage                      |
+| Cure             |    3    |   1   |  Venus  | Restore 70 HP.              |
+| Cure Poison      |    2    |   1   | Mercury | Cures poison.               |
+| Cure Well        |    7    |   1   |  Venus  | Restore 160 HP.             |
+| Curse            |    6    |   1   |  Venus  | Foe dies in a few turns.    |
+| Death Plunge     |    14   |   1   | Jupiter | Damage                      |
+| Delude           |    4    |   3   | Jupiter | Inflicts delusion.          |
+| Deluge           |    20   |   5   | Mercury | Damage                      |
+| Demon Night      |    12   |   3   |  Venus  | Damage                      |
+| Demon Spear      |    7    |   1   | Jupiter | Raises attack.              |
+| Destruct Ray     |    21   |   3   | Jupiter | Damage                      |
+| Douse            |    5    |   3   | Mercury | Damage                      |
+| Dragon Cloud     |    6    |   1   |  Mars   | Damage                      |
+| Drain            |    3    |   1   | Jupiter | Absorbs HP.                 |
+| Drench           |    10   |   3   | Mercury | Damage                      |
+| Earthquake       |    7    |   5   |  Venus  | Damage                      |
+| Enfeeble         |    4    |   1   | Jupiter | Drop foe's party's defense. |
+| Eruption         |    14   |   3   |  Mars   | Damage                      |
+| Fiery Blast      |    19   |   5   |  Mars   | Damage                      |
+| Fire             |    6    |   3   |  Mars   | Damage                      |
+| Fire Bomb        |    5    |   3   |  Mars   | Damage                      |
+| Fireball         |    12   |   5   |  Mars   | Damage                      |
+| Flare            |    4    |   3   |  Mars   | Damage                      |
+| Flare Storm      |    12   |   3   |  Mars   | Damage                      |
+| Flare Wall       |    7    |   3   |  Mars   | Damage                      |
+| Flash Bolt       |    7    |   3   | Jupiter | Damage                      |
+| Force            |    2    |  None |  None   | Knocks down distant objects.|
+| Frost            |    5    |   3   | Mercury | Damage                      |
+| Freeze Prism     |    31   |   5   | Mercury | Damage                      |
+| Froth            |    5    |   3   | Mercury | Damage                      |
+| Froth Sphere     |    12   |   5   | Mercury | Damage                      |
+| Froth Spiral     |    31   |   7   | Mercury | Damage                      |
+| Gaia             |    7    |   3   |  Venus  | Damage                      |
+| Gale             |    3    |   3   | Jupiter | Damage                      |
+| Glacier          |    15   |   3   | Mercury | Damage                      |
+| Grand Gaia       |    32   |   5   |  Venus  | Damage                      |
+| Growth           |    4    |   1   |  Venus  | Damage                      |
+| Guard            |    3    |   1   |  Mars   | Boosts ally's defense.      |
+| Guardian         |    3    |   1   |  Mars   | Boosts Defense.             |
+| Hail Prism       |    16   |   5   | Mercury | Damage                      |
+| Halt             |    2    |  None |  None   | Stops moving objects.       |
+| Haunt            |    5    |   3   |  Venus  | Inflicts "Haunt"            |
+| Heat Wave        |    6    |   1   |  Mars   | Damage                      |
+| Helm Splitter    |    8    |   1   |  Venus  | Damage                      |
+| High Impact      |    12   |  All  | Jupiter | Raises party's attack.      |
+| Ice              |    5    |   1   | Mercury | Damage                      |
+| Ice Horn         |    11   |   3   | Mercury | Damage                      |
+| Ice Missle       |    23   |   3   | Mercury | Damage                      |
+| Impact           |    7    |   1   | Jupiter | Raises attack.              |
+| Inferno          |    23   |   5   |  Mars   | Damage                      |
+| Lava Shower      |    4    |   1   |  Mars   | Damage                      |
+| Lift             |    2    |  None |  None   | Lifts heavy objects up.     |
+| Mad Blast        |    9    |   3   |  Mars   | Damage                      |
+| Mad Growth       |    10   |   3   |  Venus  | Damage                      |
+| Magic Shell      |    3    |   1   | Jupiter | Boost elemental resistance. |
+| Magic Shield     |    5    |  All  | Jupiter | Boost elemental resistance. |
+| Magma Storm      |    27   |   5   |  Mars   | Damage                      |
+| Mind Read        |    1    |  None |  None   | Reads peoples' minds.       |
+| Molten Bath      |    12   |   3   |  Mars   | Damage                      |
+| Mother Gaia      |    17   |   5   |  Venus  | Damage                      |
+| Move             |    2    |  None |  None   | Moves obstacles.            |
+| Mist             |    4    |   3   | Jupiter | Damage                      |
+| Nettle           |    23   |   5   |  Venus  | Damage                      |
+| Nova             |    13   |   5   |  Mars   | Damage                      |
+| Plasma           |    8    |   3   | Jupiter | Damage                      |
+| Ply              |    3    |   1   | Mercury | Restores 100 HP.            |
+| Ply Well         |    8    |   1   | Mercury | Restores 200 HP.            |
+| Prism            |    7    |   3   | Mercury | Damage                      |
+| Potent Cure      |    10   |   1   |  Venus  | Restore 300 HP.             |
+| Protect          |    5    |  All  |  Mars   | Boosts party's defense.     |
+| Protector        |    5    |  All  |  Mars   | Boosts defemse/             |
+| Psy Drain        |    3    |   1   | Jupiter | Absorbs PP.                 |
+| Punji            |    7    |   3   |  Venus  | Damage                      |
+| Punji Trap       |    13   |   3   |  Venus  | Damage                      |
+| Pure Wish        |    20   |  All  | Mercury | Restores 400 HP to party.   |
+| Pure Ply         |    12   |   1   | Mercury | Restores 1000 HP to party.  |
+| Pyroclasm        |    29   |   5   |  Mars   | Damage                      |
+| Quake            |    4    |   3   |  Venus  | Damage                      |
+| Quake Sphere     |    15   |   7   |  Venus  | Damage                      |
+| Quick Strike     |    12   |   1   | Jupiter | Damage                      |
+| Ragnarok         |    7    |   1   |  Venus  | A really powerful move. :)  |
+| Ray              |    6    |   3   | Jupiter | Damage                      |
+| Retreat          |    2    |   0   |   None  | Teleports to the beginning  |
+|                  |         |       |         | of a dungeon.               |
+| Resist           |    5    |  All  | Jupiter | Raises party's defense.     |
+| Restore          |    3    |   1   | Mercury | Removes sleep, stun, and    |
+|                  |         |       |         | delusion.                   |
+| Reveal           |    1    |  None |  None   | Reveals hidden objects.     |
+| Revive           |    15   |   1   |  Venus  | Revives a downed ally.      |
+| Rockfall         |    5    |   3   |  Venus  | Damage                      |
+| Rockslide        |    15   |   5   |  Venus  | Damage                      |
+| Shine Plasma     |    18   |   5   | Jupiter | Damage                      |
+| Shuriken         |    8    |   3   | Jupiter | Damage                      |
+| Slash            |    4    |   1   | Jupiter | Damage                      |
+| Sleep            |    5    |   3   | Jupiter | Lulls foes to sleep.        |
+| Sonic Slash      |    20   |   5   | Jupiter | Damage                      |
+| Spark Plasma     |    37   |   7   | Jupiter | Damage                      |
+| Spire            |    5    |   1   |  Venus  | Damage                      |
+| Stone Spire      |    22   |   3   |  Venus  | Damage                      |
+| Storm Ray        |    10   |   3   | Jupiter | Damage                      |
+| Supernova        |    31   |   7   |  Mars   | Damage                      |
+| Tempest          |    27   |   5   | Jupiter | Damage                      |
+| Thorn            |    6    |   3   |  Venus  | Damage                      |
+| Thunderclap      |    9    |   3   | Jupiter | Damage                      |
+| Thunderbolt      |    19   |   5   | Jupiter | Damage                      |
+| Thunderstorm     |    39   |   7   | Jupiter | Damage                      |
+| Tornado          |    14   |   5   | Jupiter | Damage                      |
+| Tundra           |    8    |   3   | Mercury | Damage                      |
+| Typhoon          |    12   |   5   | Jupiter | Damage                      |
+| Volcano          |    6    |   1   |  Mars   | Damage                      |
+| Ward             |    3    |   1   | Jupiter | Boosts ally's resistance.   |
+| Weaken           |    4    |   1   | Jupiter | Drops enemy's Resistance.   |
+| Whirlwind        |    5    |   3   | Jupiter | Damage                      |
+| Wild Growth      |    19   |   5   |  Venus  | Damage                      |
+| Wind Slash       |    9    |   1   | Jupiter | Damage                      |
+| Wish             |    9    |  All  | Mercury | Restores 80 HP to party.    |
+| Wish Well        |    13   |  All  | Mercury | Restores 160 HP to party.   |
++----------------------------------------------------------------------------+
+
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+                                {7.0} Classes
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+As you should know, changing the Djinn around will change your class and
+possibly altering your stats and abilities. I will only list one way to get
+each class. Here's a list of how to get each class for each character based on
+having have every Djinn in the game. Well, for most classes anyway; some
+crappy classes require few Djinn.
+
+Note: Each character will have two classes that have the same name, but
+different abilities. These will have some parentheses() next to the class.
+
+
+Issac:
+------
+Squire: 1 Venus
+Knight: 3 Venus
+Gallant: 5 Venus
+Lord: 7 Venus
+
+Brute: 6 Venus, 1 Mars
+Ruffian: 5 Venus, 2 Mars
+Savage: 4 Venus, 3 Mars
+Barbarian: 2 Venus, 5 Mars
+Berserker: 1 Venus, 6 Mars
+
+Apprentice: 6 Venus, 1 Jupiter
+Illusionist: 5 Venus, 2 Jupiter
+Enchanter: 4 Venus, 3 Jupiter
+Conjurer: 1 Venus, 6 Jupiter
+Shaman(Wind): 7 Jupiter
+
+Swordsman: 6 Venus, 1 Mercury
+Defender: 5 Venus, 2 Mercury
+Cavalier: 4 Venus, 3 Mercury
+Guardian: 1 Venus, 6 Mercury
+Shaman(Water): 7 Mercury
+
+Dragoon: 3 Mars, 4 Mercury
+Ninja: 3 Mars, 4 Jupiter
+Samurai: 4 Mars, 3 Jupiter
+
+
+Garet:
+------
+Guard: 1 Mars
+Soldier: 3 Mars
+Warrior: 4 Mars
+Champion: 7 Mars
+
+Brute: 6 Mars, 1 Venus
+Ruffian: 5 Mars, 2 Venus
+Savage: 2 Mars, 5 Venus
+Berserker: 1 Mars, 6 Venus
+Barbarian: 5 Venus
+
+Swordsman: 6 Mars, 1 Mercury
+Defender: 5 Mars, 2 Mercury
+Cavalier: 4 Mars, 4 Mercury
+Luminier: 1 Mars, 6 Mercury
+(Water) Ascetic: 7 Mercury
+
+Page: 6 Mars, 1 Jupiter
+Illusionist: 5 Mars, 2 Jupiter
+Enchanter: 4 Mars, 3 Jupiter
+Conjurer: 1 Mars, 6 Jupiter
+(Wind) Ascetic: 7 Jupiter
+
+Dragoon: 3 Venus, 4 Mercury
+Ninja: 3 Venus, 4 Jupiter
+Samurai: 4 Venus, 3 Jupiter
+
+
+Ivan:
+-----
+Wind Seer: 1 Jupiter
+Magician: 3 Jupiter
+Mage: 5 Jupiter
+Magister: 7 Jupiter
+
+Hermit: 6 Jupiter, 1 Mercury
+Elder: 5 Jupiter, 2 Mercury
+Scholar: 3 Jupiter, 4 Mercury
+Savant: 1 Mars, 6 Mercury
+Sage: 6 Mercury, 1 Jupiter
+
+Seer: 6 Jupiter, 1 Venus
+Diviner: 5 Jupiter, 2 Venus
+Shaman: 3 Jupiter, 4 Venus
+Druid: 1 Jupiter, 6 Venus
+(Earth) Enchanter: 7 Venus
+
+Pilgrim: 6 Jupiter, 1 Mars
+Wanderer: 5 Jupiter, 2 Mars
+Ascetic: 3 Jupiter, 4 Mars
+Fire Monk: 1 Jupiter, 6 Mars
+(Fire) Enchanter: 7 Mars
+
+Ranger: 4 Mars, 3 Mercury
+Medium: 4 Venus, 3 Mercury
+White Mage: 3 Venus, 4 Mercury
+
+
+Mia:
+----
+Water Seer: 1 Mercury
+Scribe: 3 Mercury
+Cleric: 5 Mercury
+Paragon: 7 Mercury
+
+Hermit: 6 Mercury, 1 Jupiter
+Elder: 5 Mercury, 2 Jupiter
+Scholar: 3 Mercury, 4 Jupiter
+
+Savant: 1 Mars, 6 Mercury
+Sage: 6 Jupiter, 1 Mercury
+Pilgrim: 6 Mercury, 1 Mars
+Wanderer: 5 Mercury, 2 Mars
+Ascetic: 3 Mercury, 4 Mars
+Fire Monk: 1 Mercury, 6 Mars
+(Fire) Cavalier: 7 Mars
+
+Seer: 6 Mercury, 1 Venus
+Diviner: 5 Mercury, 2 Venus
+Shaman: 3 Mercury, 4 Venus
+Druid: 1 Mercury, 6 Venus
+(Earth) Cavalier: 7 Venus
+
+Ranger: 4 Mars, 3 Jupiter
+Medium: 4 Venus, 3 Jupiter
+White Mage: 3 Jupiter, 4 Venus
+
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+                                 {8.0} Items
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+Most of these items are found in some kind of shop or as an enemy drop.
+Nothing here is really that rare.
+
+
+Normal Items:
++----------------------------------------------------------------------------+
+| Item Name          | Effect                                                |
+|----------------------------------------------------------------------------|
+| Antidote           | Cures poison.                                         |
+| Apple              | Permanently strengthens attack.                       |
+| Bramble Seed       | Damages enemies.                                      |
+| Cookie             | Boosts PP.                                            |
+| Corn               | Restores 100 HP.                                      |
+| Crystal Powder     | Damages enemies.                                      |
+| Elixir             | Cures stun, sleep, and delusion.                      |
+| Empty Bottle       | Can carry liquids*coughHermes'Watercough*.            |
+| Game Ticket        | Plat the slot machine in Tolbi.                       |
+| Hard Nut           | Permanently boosts defense.                           |
+| Herb               | Restores 10 HP.                                       |
+| Hermes' Water      | Restores all HP.                                      |
+| Lucky Medal        | Chuck it at Tolbi Springs for special prizes.         |
+| Lucky Pepper       | Permanently boosts luck.                              |
+| Mint               | Permanently boosts agility.                           |
+| Nut                | Restores 200 HP.                                      |
+| Oil Drop           | Deals fire damage to enemies.                         |
+| Potion             | Restores all HP.                                      |
+| Power Bread        | Permanently boosts HP.                                |
+| Psy Crystal        | Restores all PP.                                      |
+| Sacred Feather     | Reduces enemy encounters.                             |
+| Sleep Bomb         | Chance of enemy falling asleep.                       |
+| Smoke Bomb         | Chance of causing delusion to enemies.                |
+| Vial               | Restores 500 HP.                                      |
+| Water of Life      | Revives downed ally.                                  |
+| Weasel's Claw      | Damages enemy.                                        |
++----------------------------------------------------------------------------+
+
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+                                {9.0} Weapons
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+Actually, this section is more a list of equippable items rather than just
+weapons only. :)
+
+Note: Some weapons can be found in multiple locations. I will only name ONE
+location for each weapon.
+
+Note: Artifacts, when sold, can be rebought.
+
+Note: Enemy drops are really, really, rare.
+
+Note: Some weapons are not obtainable, but programmed into the game. These
+will NOT be included in this list.
+
+Note(yes, yet another one): The Machete is a weapon that you use way, way at
+the beginning of the game. You can't use it again after that. It's not going
+to be listed here as it's not a "real" weapon.
+
+
+==============================================================================
+                                [9.1] Weapons
+==============================================================================
+
+Long Sword: Equippable by Isaac and Garet
++----------------------------------------------------------------------------+
+| Name:               | Effect:                   | Location/Price           |
+|-------------------------------------------------|--------------------------|
+| Arctic Blade        | Unleashes Blizzard        | Fuchin Falls Cave/2600   |
+| Broad Sword         | None                      | Bilibin/1000             |
+| Claymore            | None                      | Altin/4000               |
+| Gaia Blade          | Unleashes Titan Blade     | Venus Lighthouse/17000   |
+| Great Sword         | None                      | Tolbi/7000               |
+| Long Sword          | None                      | Vale/200                 |
+| Muramasa(cursed)    | Unleashes Demon Fire      | 9th level, Crossbone     |
+|                     |                           | Island/13600             |
+| Shamshir            | Unleashes Acid Bath       | Lunpa/10000              |
+| Silver Blade        | Aqua Shock                | Lavilero/12000           |
++----------------------------------------------------------------------------+
+
+
+Axe: Equippable by Isaac and Garet
++----------------------------------------------------------------------------+
+| Name:               | Effect:                   | Location/Price           |
+|-------------------------------------------------|--------------------------|
+| Battle Axe          | Damage                    | Vault/280                |
+| Broad Axe           | Damage                    | Kolima/1300              |
+| Burning Axe         | Unleashes Broil           | Tolbi Springs/7500       |
+| Demon Axe           | Unleashes Poison Cloud    | 6th level of Crossbone   |
+|                     |                           | Isle/1600                |
+| Dragon Axe          | Unleashes Heat Mirage     | Lunpa/10300              |
+| Giant Axe           | Unleashes Meltdown        | Earth Golem drop/14000   |
+| Great Axe           | Damage                    | Kalay/5200               |
+| Vulcan Axe          | Unleashes Barrage         | Lamakan Desert/4600      |
++----------------------------------------------------------------------------+
+
+
+Light Blade: Equippable by Isaac, Ivan, and Garet
++----------------------------------------------------------------------------+
+| Name:               | Effect:                   | Location/Price           |
+|-------------------------------------------------|--------------------------|
+| Assassin Blade      | Unleashes Mortal Danger   | Tolbi Springs/7800       |
+| Battle Rapier       | Damage                    | Xian/2900                |
+| Bandit's Sword      | Unleashes Rapid Smash     | Dropped by bandits in    |
+|                     |                           | Vault/700                |
+| Elven Rapier        | Unleashes Vorpal Smash    | Outside Bilibin Cave/2200|
+| Hunter's Sword      | Damage                    | Bilibin/520              |
+| Kikuichimonji       | Unleashes Asura           | Fenrir Drop              |
+| Master Rapier       | Damage                    | Tolbi/6800               |
+| Mystery Blade       | Unleashes Life Nourish    | Crossbone Isle, 2nd      |
+|                     |                           | level/6400               |
+| Ninja Blade         | Unleashes Cyclone Attack  | Lunpa/8800               |
+| Short Sword         | Damage                    | Vale/120                 |
+| Swift Sword         | Unleashes Sonic Smash     | Lavilero/9400            |
++----------------------------------------------------------------------------+
+
+
+Mace: Equippable by Isaac, Mia, and Garet
++----------------------------------------------------------------------------+
+| Name:               | Effect:                   | Location/Price           |
+|-------------------------------------------------|--------------------------|
+| Battle Mace         | Damage                    | Kalay/2600               |
+| Blessed Mace        | Unleashes Shining Star,   | Thunder Lizard drop/14500|
+|                     | retores 200 HP and can    |                          |
+|                     | break.                    |                          |
+| Grievous Mace       | Unleashes Terra Strike    | Tolbi Springs/7000       |
+| Heavy Mace          | Damage                    | Bilibin/500              |
+| Mace                | Damage                    | Vale/80                  |
+| Righteous Mace      | Unleashes Binding Smog    | Lavilero/8400            |
+| Wicked Mace(cursed) | Unleashes Poison Death    | 7th level of Crossbone   |
+|                     |                           | Isle/13800               |
+| War Mace            | Damage                    | Tolbi/6200               |
++----------------------------------------------------------------------------+
+
+
+Staves: Equippable by Mia and Ivan
++----------------------------------------------------------------------------+
+| Name:               | Effect:                   | Location/Price           |
+|-------------------------------------------------|--------------------------|
+| Angelic Ankh        | Unleashes Life Leech      | Tolbi/6400               |
+| Blessed Ankh        | Unleashes Psyphon Seal    | Imil/1600                |
+| Crystal Rod         | Unleashed Drown           | Lavilero/13400           |
+| Demonic Staff(curse)| Unleashed Bad Omen        | Lunpa/10000              |
+| Frost Wand          | Unleashes Frost Bite      | Kalay/5400               |
+| Magic Rod           | Unleashes Murk            | Vault/380                |
+| Psynergy Rod        | Unleashes Psynergy Leech  | Altin/3800               |
+| Shaman's Rod        | Damage                    | Mandatory/Can't be sold  |
+| Witch's Wand        | Unleashges Stun Voltage   | Imil/860                 |
+| Wooden Stick        | Damage                    | Vale/40                  |
+| Zodiac Wand         | Unleashed Shining Star    | Grand Golem drop/11400   |
++----------------------------------------------------------------------------+
+
+
+==============================================================================
+                                 [9.2] Armor
+==============================================================================
+
+Although the armor in the game has "classes", sometimes they can be equipped
+by some party members and not others, or all of them in the same class. So,
+I'm not going to list who can equip what. Most should be pretty obvious
+though, like only Garet and Isaac being able to wear armor.
+
+
+Normal Armor:
++----------------------------------------------------------------------------+
+| Name:               | Effect:                   | Location/Price           |
+|-------------------------------------------------|--------------------------|
+| Armored Shell       | Defense                   | Tolbi/3600               |
+| Bronze Shield       | Defense                   | Bilibin/500              |
+| Circlet             | Defense                   | Vault/120                |
+| Chain Mail          | Defense                   | Altin/2000               |
+| Cotton Shirt        | Defense                   | Vale/20                  |
+| Guardian Circlet    | Defense                   | Tolbi/3400               |
+| Guantlets           | Defense                   | Tolbi/1600               |
+| Heavy Armlet        | Defense                   | Tolbi/2000               |
+| Iron Helmet         | Defense                   | Altin/1600               |
+| Iron Shield         | Defense                   | Altin/1200               |
+| Jerkin              | Defense                   | Kalay/2400               |
+| Knight's Helmet     | Defense                   | Lavilero/4600            |
+| Knight's Shield     | Defense                   | Tolbi/3000               |
+| Leather Armlet      | Defense                   | Vault/180                |
+| Leather Armor       | Defense                   | Bilibin/240              |
+| Leather Cap         | Defense                   | Vale/30                  |
+| Leather Gloves      | Defense                   | Bilibin/220              |
+| Mail Cap            | Defense                   | Kalay/2000               |
+| Padded Gloves       | Defense                   | Vale/10                  |
+| Plate Mail          | Defense                   | Lunpa/4400               |
+| Platinum Circlet    | Defense                   | Lavilero/4200            |
+| One Piece Dress     | Defense                   | Vale/25                  |
+| Open Helmet         | Defense                   | Bilibin/180              |
+| Silver Armlet       | Defense                   | Lunpa/4000               |
+| Silver Circlet      | Defense                   | Kalay/1300               |
+| Silver Helmet       | Defense                   | Lunpa/3900               |
+| Silver Vest         | Defense                   | Tolbi/3200               |
+| Steel Armor         | Defense                   | Lavilero/4900            |
+| Steel Helm          | Defense                   | Tolbi/3100               |
+| Travel Robe         | Defense                   | Bilibin/200              |
+| Travel Vest         | Defense                   | Vale/50                  |
+| Wooden Cap          | Defense                   | Bilibin/400              |
+| Wooden Shield       | Defense                   | Vale/40                  |
++----------------------------------------------------------------------------+
+
+
+Artifacts:
++----------------------------------------------------------------------------+
+| Name:               | Effect:                   | Location/Price           |
+|-------------------------------------------------|--------------------------|
+| Adept's Helmet      | Max PP x1.2               | Tolbi Springs/3700       |
+| Asura's Armor       | Recover 8 HP per turn     | Tunnel Ruins/15000       |
+| Aura Gloves         | All elements resist       | Dropped by Magicores/2100|
+| Battle Gloves       | +8 attack                 | Tolbi Springs/2150       |
+| Blesed Robe         | Recover 5 HP per turn     | Lunpa/7000               |
+| China Dress         | Drop enemy's attack       | Xian/1600                |
+| Cocktail Dress      | Max PP +15                | Tolbi Springs/4000       |
+| Demon Mail(cursed)  | -10 Wind Resist           | 10th level of Crossbone  |
+|                     |                           | Isle/17000               |
+| Dragon Scales       | Fire/Wind Resist +30      | Venus Lighthouse/17000   |
+| Dragon Shield       | Fire Resist +30           | Altin Peak/2400          |
+| Earth Shield        | Earth Resist +20          | Tolbi Springs/4100       |
+|                     | Restoresd 150 HP(breaks)  |                          |
+| Elven Shirt         | Agility x1.5              | Mogall Forest/1700       |
+| Feathered Robe      | Agility, Water Resist +30 | Venus Lighthouse         |
+|                     | Wind Resist +20           |                          |
+| Fur Coat            | Water Resist +20          | Kolima Forest/400        |
+| Fur Boots           | Water Resist +15          | Tolbi Slots/1050         |
+| Glittering Tiara    | Prevents delusions(breaks)| Tolbi Springs/3500       |
+| Guardian Armlet     | Defense(breaks)           | Tolbi Springs/2500       |
+| Hyper Boots         | Increase critical hits    | Tolbi Slots/2400         |
+| Jeweled Crown       | Luck +5                   | Lavilero/4000            |
+| Kimono              | Fire Resist & agility +10 | Tolbi Springs/2800       |
+| Lucky Cap           | Critical hits increase,   | Venus Lighthouse/5215    |
+|                     | Recover 2 PP per turn     |                          |
+| Lure Cap            | Increase enemy encounters | Win Colosso/3000         |
+| Magical Cossack     | PP +2 per turn            | Lavilero/9000            |
+| Mirrored Shield     | Deludes enemies(breakable)| Lavilero/5215            |
+| Mythril Circlet     | PP +3 per turn            | Lunpa Fortress/7000      |
+| Mythril Shirt       | HP +5 per turn            | Tolbi Slots/2900         |
+| Ninja Garb          | Agility +30, Wind Resist  | 5th level of Crossbone   |
+|                     | +10                       | Isle/6900                |
+| Ninja Hood          | Agility +20               | Tolbi Springs/2800       |
+| Oracle's Robe       | Water Resist +40, HP +10  | Tunnel Ruins/10000       |
+|                     | per turn.                 |                          |
+| Prophet's Hat       | Luck +5, predicts being   | Dread Hounds drop/4500   |
+|                     | downed when cursed(breaks)|                          |
+| Psynergy Armor      | Max PP +20                | Mercury Lighthouse/1000  |
+| Quick Boots         | Agility +20               | Tolbi Slots/2150         |
+| Running Shirt       | Agility +15               | Tolbi Slots/400          |
+| Silk Shirt          | Luck +1                   | Tolbi Slots/2150         |
+| Spiked Armor        | Attack +10, Critical Hits | Dropped by Chimera Mages |
+|                     | increase                  | and Boulder Beasts/2150  |
+| Spirit Armlet       | Earth/Fire Resist +10,    | Lavilero/9000            |
+|                     | prevents ailments.        |                          |
+| Spirit Armor        | Resist all elements +15   | Tolbi Springs/4000       |
+| Spirit Gloves       | All elements power +5     | Kalay Cave/5015          |
+| Storm Gear          | Fire/Wind/Water resist +30| 4th level of Crossbone   |
+|                     |                           | Isle/9800                |
+| Thunder Crown(curse)| PP +4 per turn            | Venus Lighthouse/5000    |
+| Turtle Boots        | Agility halved            | Forest west of Kolima/500|
+| Vambrace            | Attack +5                 | Vault Cave/2150          |
+| Virtuous Armlet     | Fire/Wind power +10,      | Suhalla Desert/7000      |
+|                     | restores 100 HP(breakable)|                          |
+| Water Jacket        | Fire resistance +20, Water| Hammet's Place/3000      |
+|                     | resistance +30            |                          |
+| War Gloves          | Attack +10                | Lunpa/4000               |
+| Warrior's Helmet    | Earth power +10, critical | Lavilero/10000           |
+|                     | hits increase             |                          |
++----------------------------------------------------------------------------+
+

@@ -1,0 +1,7774 @@
+[
+  {
+    "id": "vermin-1",
+    "name": "Vermin",
+    "game": "gs1",
+    "variant": 1,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Vale",
+      "Sol Sanctum"
+    ],
+    "stats": {
+      "hp": 20,
+      "pp": 0,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 23,
+      "def": 7,
+      "agi": 7,
+      "lck": 2,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 100,
+      "fire": 70,
+      "wind": 80,
+      "water": 80
+    },
+    "elemental_resistance": {
+      "earth": 48,
+      "fire": 25,
+      "wind": 72,
+      "water": 48
+    },
+    "abilities": [
+      "Attack",
+      "Defend"
+    ],
+    "drops": {
+      "exp": 2,
+      "coins": 2,
+      "items": [
+        {
+          "name": "Herb",
+          "icc": 5
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "bat-1",
+    "name": "Bat",
+    "game": "gs1",
+    "variant": 1,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Vale",
+      "Sol Sanctum"
+    ],
+    "stats": {
+      "hp": 17,
+      "pp": 0,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 21,
+      "def": 6,
+      "agi": 13,
+      "lck": 3,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 95,
+      "fire": 95,
+      "wind": 110,
+      "water": 95
+    },
+    "elemental_resistance": {
+      "earth": 127,
+      "fire": 48,
+      "wind": 7,
+      "water": 72
+    },
+    "abilities": [
+      "Attack"
+    ],
+    "drops": {
+      "exp": 1,
+      "coins": 1,
+      "items": [
+        {
+          "name": "Herb",
+          "icc": 6
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "wild-mushroom-1",
+    "name": "Wild Mushroom",
+    "game": "gs1",
+    "variant": 1,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Vale",
+      "Sol Sanctum"
+    ],
+    "stats": {
+      "hp": 18,
+      "pp": 0,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 22,
+      "def": 5,
+      "agi": 10,
+      "lck": 1,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 105,
+      "fire": 80,
+      "wind": 70,
+      "water": 100
+    },
+    "elemental_resistance": {
+      "earth": 48,
+      "fire": 7,
+      "wind": 72,
+      "water": 100
+    },
+    "abilities": [
+      "Attack",
+      "Contain"
+    ],
+    "drops": {
+      "exp": 1,
+      "coins": 2,
+      "items": [
+        {
+          "name": "Smoke Bomb",
+          "icc": 6
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "slime-1",
+    "name": "Slime",
+    "game": "gs1",
+    "variant": 1,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Sol Sanctum"
+    ],
+    "stats": {
+      "hp": 22,
+      "pp": 0,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 22,
+      "def": 6,
+      "agi": 8,
+      "lck": 1,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 95,
+      "fire": 75,
+      "wind": 95,
+      "water": 125
+    },
+    "elemental_resistance": {
+      "earth": 48,
+      "fire": 7,
+      "wind": 48,
+      "water": 127
+    },
+    "abilities": [
+      "Attack",
+      "Flee"
+    ],
+    "drops": {
+      "exp": 2,
+      "coins": 2,
+      "items": [
+        {
+          "name": "Herb",
+          "icc": 6
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "amaze-1",
+    "name": "Amaze",
+    "game": "gs1",
+    "variant": 1,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Sol Sanctum",
+      "Later Sol Sanctum"
+    ],
+    "stats": {
+      "hp": 28,
+      "pp": 0,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 25,
+      "def": 8,
+      "agi": 12,
+      "lck": 2,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 100,
+      "fire": 95,
+      "wind": 95,
+      "water": 95
+    },
+    "elemental_resistance": {
+      "earth": 48,
+      "fire": 72,
+      "wind": 7,
+      "water": 100
+    },
+    "abilities": [
+      "Attack",
+      "Rumble"
+    ],
+    "drops": {
+      "exp": 3,
+      "coins": 3,
+      "items": [
+        {
+          "name": "Oil Drop",
+          "icc": 5
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "zombie-1",
+    "name": "Zombie",
+    "game": "gs1",
+    "variant": 1,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "World Map",
+      "Flint's Demo"
+    ],
+    "stats": {
+      "hp": 55,
+      "pp": 0,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 41,
+      "def": 9,
+      "agi": 1,
+      "lck": 1,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 100,
+      "fire": 80,
+      "wind": 80,
+      "water": 95
+    },
+    "elemental_resistance": {
+      "earth": 25,
+      "fire": 7,
+      "wind": 48,
+      "water": 72
+    },
+    "abilities": [
+      "Attack"
+    ],
+    "drops": {
+      "exp": 0,
+      "coins": 0,
+      "items": []
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "zombie-2",
+    "name": "Zombie",
+    "game": "gs1",
+    "variant": 2,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "World Map",
+      "Goma Cave",
+      "World Map 1",
+      "World Map 2"
+    ],
+    "stats": {
+      "hp": 55,
+      "pp": 0,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 41,
+      "def": 9,
+      "agi": 5,
+      "lck": 1,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 100,
+      "fire": 80,
+      "wind": 80,
+      "water": 95
+    },
+    "elemental_resistance": {
+      "earth": 48,
+      "fire": 7,
+      "wind": 48,
+      "water": 72
+    },
+    "abilities": [
+      "Attack"
+    ],
+    "drops": {
+      "exp": 7,
+      "coins": 8,
+      "items": [
+        {
+          "name": "Herb",
+          "icc": 5
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ],
+    "conflicts": [
+      {
+        "field": "elemental_resistance.earth",
+        "values": {
+          "super-slash": 48,
+          "torrent-load": 25
+        },
+        "note": null
+      }
+    ]
+  },
+  {
+    "id": "amaze",
+    "name": "Amaze",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "World Map",
+      "World Map 1"
+    ],
+    "stats": {
+      "hp": 39,
+      "pp": 0,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 36,
+      "def": 10,
+      "agi": 18,
+      "lck": 2,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 100,
+      "fire": 95,
+      "wind": 95,
+      "water": 95
+    },
+    "elemental_resistance": {
+      "earth": 48,
+      "fire": 72,
+      "wind": 7,
+      "water": 100
+    },
+    "abilities": [
+      "Attack",
+      "Rumble"
+    ],
+    "drops": {
+      "exp": 5,
+      "coins": 6,
+      "items": [
+        {
+          "name": "Oil Drop",
+          "icc": 5
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "slime-2",
+    "name": "Slime",
+    "game": "gs1",
+    "variant": 2,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "World Map",
+      "World Map 1"
+    ],
+    "stats": {
+      "hp": 32,
+      "pp": 0,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 34,
+      "def": 6,
+      "agi": 10,
+      "lck": 1,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 95,
+      "fire": 75,
+      "wind": 95,
+      "water": 125
+    },
+    "elemental_resistance": {
+      "earth": 48,
+      "fire": 7,
+      "wind": 48,
+      "water": 127
+    },
+    "abilities": [
+      "Attack",
+      "Bone Chiller"
+    ],
+    "drops": {
+      "exp": 4,
+      "coins": 4,
+      "items": [
+        {
+          "name": "Herb",
+          "icc": 5
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "vermin-2",
+    "name": "Vermin",
+    "game": "gs1",
+    "variant": 2,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "World Map",
+      "World Map 1"
+    ],
+    "stats": {
+      "hp": 36,
+      "pp": 0,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 32,
+      "def": 7,
+      "agi": 9,
+      "lck": 2,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 100,
+      "fire": 70,
+      "wind": 80,
+      "water": 80
+    },
+    "elemental_resistance": {
+      "earth": 48,
+      "fire": 25,
+      "wind": 72,
+      "water": 48
+    },
+    "abilities": [
+      "Attack",
+      "Defend",
+      "Flee"
+    ],
+    "drops": {
+      "exp": 4,
+      "coins": 4,
+      "items": [
+        {
+          "name": "Herb",
+          "icc": 5
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "wild-mushroom-2",
+    "name": "Wild Mushroom",
+    "game": "gs1",
+    "variant": 2,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "World Map",
+      "World Map 1"
+    ],
+    "stats": {
+      "hp": 34,
+      "pp": 0,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 31,
+      "def": 5,
+      "agi": 15,
+      "lck": 1,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 105,
+      "fire": 80,
+      "wind": 70,
+      "water": 100
+    },
+    "elemental_resistance": {
+      "earth": 48,
+      "fire": 7,
+      "wind": 72,
+      "water": 100
+    },
+    "abilities": [
+      "Attack",
+      "Soothing Star"
+    ],
+    "drops": {
+      "exp": 3,
+      "coins": 3,
+      "items": [
+        {
+          "name": "Smoke Bomb",
+          "icc": 6
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "bat-2",
+    "name": "Bat",
+    "game": "gs1",
+    "variant": 2,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "World Map",
+      "Goma Cave",
+      "World Map 1",
+      "World Map 2"
+    ],
+    "stats": {
+      "hp": 30,
+      "pp": 0,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 30,
+      "def": 4,
+      "agi": 20,
+      "lck": 3,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 95,
+      "fire": 95,
+      "wind": 110,
+      "water": 95
+    },
+    "elemental_resistance": {
+      "earth": 127,
+      "fire": 48,
+      "wind": 7,
+      "water": 72
+    },
+    "abilities": [
+      "Attack",
+      "Sonic Wave"
+    ],
+    "drops": {
+      "exp": 2,
+      "coins": 3,
+      "items": [
+        {
+          "name": "Herb",
+          "icc": 5
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "bandit",
+    "name": "Bandit",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Vault"
+    ],
+    "stats": {
+      "hp": 244,
+      "pp": 0,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 46,
+      "def": 8,
+      "agi": 20,
+      "lck": 3,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 80,
+      "fire": 80,
+      "wind": 80,
+      "water": 80
+    },
+    "elemental_resistance": {
+      "earth": 72,
+      "fire": 72,
+      "wind": 72,
+      "water": 72
+    },
+    "abilities": [
+      "Attack",
+      "Slice",
+      "Threaten"
+    ],
+    "drops": {
+      "exp": 36,
+      "coins": 46,
+      "items": [
+        {
+          "name": "Bandit's Sword",
+          "icc": 1
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "thief",
+    "name": "Thief",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Vault"
+    ],
+    "stats": {
+      "hp": 110,
+      "pp": 0,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 42,
+      "def": 5,
+      "agi": 9,
+      "lck": 1,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 80,
+      "fire": 80,
+      "wind": 80,
+      "water": 80
+    },
+    "elemental_resistance": {
+      "earth": 72,
+      "fire": 72,
+      "wind": 72,
+      "water": 72
+    },
+    "abilities": [
+      "Attack",
+      "Threaten",
+      "Tremble",
+      "Stand Ready"
+    ],
+    "drops": {
+      "exp": 15,
+      "coins": 32,
+      "items": []
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "skeleton",
+    "name": "Skeleton",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "World Map",
+      "Goma Cave",
+      "Kolima Forest",
+      "World Map 2"
+    ],
+    "stats": {
+      "hp": 60,
+      "pp": 0,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 46,
+      "def": 14,
+      "agi": 18,
+      "lck": 1,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 100,
+      "fire": 80,
+      "wind": 80,
+      "water": 95
+    },
+    "elemental_resistance": {
+      "earth": 25,
+      "fire": 72,
+      "wind": 48,
+      "water": 127
+    },
+    "abilities": [
+      "Attack",
+      "Bone Charge"
+    ],
+    "drops": {
+      "exp": 10,
+      "coins": 11,
+      "items": [
+        {
+          "name": "Herb",
+          "icc": 5
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "ghost",
+    "name": "Ghost",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "World Map",
+      "Goma Cave",
+      "World Map 2"
+    ],
+    "stats": {
+      "hp": 56,
+      "pp": 0,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 38,
+      "def": 12,
+      "agi": 12,
+      "lck": 2,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 100,
+      "fire": 95,
+      "wind": 95,
+      "water": 95
+    },
+    "elemental_resistance": {
+      "earth": 48,
+      "fire": 72,
+      "wind": 7,
+      "water": 100
+    },
+    "abilities": [
+      "Attack",
+      "Impair",
+      "Rumble"
+    ],
+    "drops": {
+      "exp": 9,
+      "coins": 9,
+      "items": [
+        {
+          "name": "Oil Drop",
+          "icc": 5
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ],
+    "conflicts": [
+      {
+        "field": "stats.pp",
+        "values": {
+          "super-slash": 0,
+          "torrent-load": 6
+        },
+        "note": null
+      }
+    ]
+  },
+  {
+    "id": "will-head",
+    "name": "Will Head",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Goma Cave",
+      "Kolima Forest"
+    ],
+    "stats": {
+      "hp": 54,
+      "pp": 0,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 42,
+      "def": 10,
+      "agi": 10,
+      "lck": 1,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 100,
+      "fire": 80,
+      "wind": 80,
+      "water": 95
+    },
+    "elemental_resistance": {
+      "earth": 25,
+      "fire": 72,
+      "wind": 48,
+      "water": 127
+    },
+    "abilities": [
+      "Attack",
+      "Mystic Flame"
+    ],
+    "drops": {
+      "exp": 9,
+      "coins": 10,
+      "items": [
+        {
+          "name": "Smoke Bomb",
+          "icc": 6
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "mars-djinni-forge",
+    "name": "Mars Djinni (Forge)",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": true,
+    "djinn_id": "forge",
+    "found": [
+      "Goma Cave"
+    ],
+    "stats": {
+      "hp": 172,
+      "pp": 14,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 45,
+      "def": 9,
+      "agi": 22,
+      "lck": 6,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 95,
+      "fire": 125,
+      "wind": 95,
+      "water": 75
+    },
+    "elemental_resistance": {
+      "earth": 100,
+      "fire": 193,
+      "wind": 100,
+      "water": 25
+    },
+    "abilities": [
+      "Attack",
+      "Flare",
+      "Blast",
+      "Flee"
+    ],
+    "drops": {
+      "exp": 28,
+      "coins": 85,
+      "items": []
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "rat",
+    "name": "Rat",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "World Map",
+      "Kolima Forest",
+      "Tret Tree",
+      "World Map 2"
+    ],
+    "stats": {
+      "hp": 49,
+      "pp": 0,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 52,
+      "def": 27,
+      "agi": 15,
+      "lck": 1,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 100,
+      "fire": 70,
+      "wind": 80,
+      "water": 80
+    },
+    "elemental_resistance": {
+      "earth": 48,
+      "fire": 25,
+      "wind": 72,
+      "water": 48
+    },
+    "abilities": [
+      "Attack",
+      "Fortify"
+    ],
+    "drops": {
+      "exp": 14,
+      "coins": 17,
+      "items": [
+        {
+          "name": "Herb",
+          "icc": 6
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "rat-soldier",
+    "name": "Rat Soldier",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "World Map",
+      "Kolima Forest",
+      "Tret Tree",
+      "World Map 2",
+      "World Map 3"
+    ],
+    "stats": {
+      "hp": 69,
+      "pp": 0,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 56,
+      "def": 13,
+      "agi": 19,
+      "lck": 2,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 85,
+      "fire": 85,
+      "wind": 85,
+      "water": 100
+    },
+    "elemental_resistance": {
+      "earth": 72,
+      "fire": 48,
+      "wind": 72,
+      "water": 100
+    },
+    "abilities": [
+      "Attack",
+      "Flee"
+    ],
+    "drops": {
+      "exp": 17,
+      "coins": 19,
+      "items": [
+        {
+          "name": "Smoke Bomb",
+          "icc": 5
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "drone-bee",
+    "name": "Drone Bee",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "World Map",
+      "Kolima Forest",
+      "Tret Tree",
+      "World Map 3"
+    ],
+    "stats": {
+      "hp": 63,
+      "pp": 0,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 68,
+      "def": 19,
+      "agi": 36,
+      "lck": 2,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 90,
+      "fire": 95,
+      "wind": 105,
+      "water": 90
+    },
+    "elemental_resistance": {
+      "earth": 100,
+      "fire": 48,
+      "wind": 7,
+      "water": 48
+    },
+    "abilities": [
+      "Attack",
+      "Numbing Sting"
+    ],
+    "drops": {
+      "exp": 19,
+      "coins": 28,
+      "items": [
+        {
+          "name": "Elixir",
+          "icc": 5
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "troll",
+    "name": "Troll",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "World Map",
+      "Kolima Forest",
+      "Tret Tree",
+      "World Map 3"
+    ],
+    "stats": {
+      "hp": 101,
+      "pp": 0,
+      "hp_regen": 10,
+      "pp_regen": 0,
+      "atk": 73,
+      "def": 16,
+      "agi": 14,
+      "lck": 1,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 100,
+      "fire": 70,
+      "wind": 80,
+      "water": 80
+    },
+    "elemental_resistance": {
+      "earth": 48,
+      "fire": 25,
+      "wind": 72,
+      "water": 48
+    },
+    "abilities": [
+      "Attack",
+      "Brute Force"
+    ],
+    "drops": {
+      "exp": 30,
+      "coins": 34,
+      "items": [
+        {
+          "name": "Nut",
+          "icc": 6
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "spider",
+    "name": "Spider",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Tret Tree"
+    ],
+    "stats": {
+      "hp": 69,
+      "pp": 0,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 75,
+      "def": 22,
+      "agi": 22,
+      "lck": 1,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 95,
+      "fire": 80,
+      "wind": 85,
+      "water": 85
+    },
+    "elemental_resistance": {
+      "earth": 48,
+      "fire": 25,
+      "wind": 48,
+      "water": 48
+    },
+    "abilities": [
+      "Attack",
+      "Spider Web"
+    ],
+    "drops": {
+      "exp": 25,
+      "coins": 32,
+      "items": [
+        {
+          "name": "Antidote",
+          "icc": 5
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ],
+    "conflicts": [
+      {
+        "field": "elemental_power.fire",
+        "values": {
+          "super-slash": 80,
+          "torrent-load": 90
+        },
+        "note": null
+      }
+    ]
+  },
+  {
+    "id": "creeper",
+    "name": "Creeper",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Tret Tree"
+    ],
+    "stats": {
+      "hp": 89,
+      "pp": 6,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 79,
+      "def": 19,
+      "agi": 29,
+      "lck": 2,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 100,
+      "fire": 95,
+      "wind": 95,
+      "water": 95
+    },
+    "elemental_resistance": {
+      "earth": 48,
+      "fire": 72,
+      "wind": 7,
+      "water": 100
+    },
+    "abilities": [
+      "Attack",
+      "Frost",
+      "Douse"
+    ],
+    "drops": {
+      "exp": 32,
+      "coins": 38,
+      "items": [
+        {
+          "name": "Weasel's Claw",
+          "icc": 6
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "gnome",
+    "name": "Gnome",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "World Map",
+      "Tret Tree",
+      "Mercury Lighthouse",
+      "World Map 3"
+    ],
+    "stats": {
+      "hp": 85,
+      "pp": 5,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 73,
+      "def": 15,
+      "agi": 38,
+      "lck": 3,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 85,
+      "fire": 100,
+      "wind": 85,
+      "water": 85
+    },
+    "elemental_resistance": {
+      "earth": 72,
+      "fire": 100,
+      "wind": 72,
+      "water": 48
+    },
+    "abilities": [
+      "Attack",
+      "Flare",
+      "Bolt",
+      "Guard",
+      "Flee"
+    ],
+    "drops": {
+      "exp": 29,
+      "coins": 40,
+      "items": [
+        {
+          "name": "Oil Drop",
+          "icc": 6
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "jupiter-djinni-breeze",
+    "name": "Jupiter Djinni (Breeze)",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": true,
+    "djinn_id": "breeze",
+    "found": [
+      "Tret Tree"
+    ],
+    "stats": {
+      "hp": 243,
+      "pp": 22,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 79,
+      "def": 20,
+      "agi": 42,
+      "lck": 7,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 80,
+      "fire": 95,
+      "wind": 120,
+      "water": 100
+    },
+    "elemental_resistance": {
+      "earth": 25,
+      "fire": 100,
+      "wind": 193,
+      "water": 100
+    },
+    "abilities": [
+      "Attack",
+      "Flash Bolt",
+      "Ray",
+      "Plasma",
+      "Wind Slash",
+      "Whirlwind",
+      "Flee"
+    ],
+    "drops": {
+      "exp": 88,
+      "coins": 100,
+      "items": []
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ],
+    "conflicts": [
+      {
+        "field": "elemental_power.water",
+        "values": {
+          "super-slash": 100,
+          "torrent-load": 95
+        },
+        "note": null
+      }
+    ]
+  },
+  {
+    "id": "ghoul",
+    "name": "Ghoul",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Bilibin Cave",
+      "Bibilin Cave"
+    ],
+    "stats": {
+      "hp": 99,
+      "pp": 0,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 93,
+      "def": 20,
+      "agi": 16,
+      "lck": 1,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 100,
+      "fire": 80,
+      "wind": 80,
+      "water": 95
+    },
+    "elemental_resistance": {
+      "earth": 25,
+      "fire": 7,
+      "wind": 48,
+      "water": 72
+    },
+    "abilities": [
+      "Attack",
+      "Cannibal Fang"
+    ],
+    "drops": {
+      "exp": 34,
+      "coins": 42,
+      "items": [
+        {
+          "name": "Antidote",
+          "icc": 5
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "ooze",
+    "name": "Ooze",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "World Map",
+      "Bilibin Cave",
+      "Mercury Lighthouse",
+      "Fuchin Falls Cave",
+      "Bibilin Cave",
+      "World Map 3",
+      "World Map 4"
+    ],
+    "stats": {
+      "hp": 72,
+      "pp": 0,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 72,
+      "def": 19,
+      "agi": 30,
+      "lck": 1,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 95,
+      "fire": 75,
+      "wind": 95,
+      "water": 125
+    },
+    "elemental_resistance": {
+      "earth": 48,
+      "fire": 7,
+      "wind": 48,
+      "water": 127
+    },
+    "abilities": [
+      "Attack",
+      "Sticky Goo",
+      "Speed Surge"
+    ],
+    "drops": {
+      "exp": 26,
+      "coins": 40,
+      "items": [
+        {
+          "name": "Herb",
+          "icc": 5
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "mauler",
+    "name": "Mauler",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "World Map",
+      "Mercury Lighthouse",
+      "Fuchin Falls Cave",
+      "World Map 3",
+      "World Map 4"
+    ],
+    "stats": {
+      "hp": 109,
+      "pp": 0,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 99,
+      "def": 27,
+      "agi": 24,
+      "lck": 1,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 100,
+      "fire": 70,
+      "wind": 80,
+      "water": 80
+    },
+    "elemental_resistance": {
+      "earth": 48,
+      "fire": 25,
+      "wind": 72,
+      "water": 48
+    },
+    "abilities": [
+      "Attack",
+      "Bear Claw"
+    ],
+    "drops": {
+      "exp": 37,
+      "coins": 45,
+      "items": [
+        {
+          "name": "Nut",
+          "icc": 6
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "lizard-man",
+    "name": "Lizard Man",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "World Map",
+      "Mercury Lighthouse",
+      "World Map 4"
+    ],
+    "stats": {
+      "hp": 129,
+      "pp": 0,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 106,
+      "def": 31,
+      "agi": 30,
+      "lck": 2,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 85,
+      "fire": 85,
+      "wind": 85,
+      "water": 100
+    },
+    "elemental_resistance": {
+      "earth": 100,
+      "fire": 72,
+      "wind": 100,
+      "water": 127
+    },
+    "abilities": [
+      "Attack",
+      "Water Blessing"
+    ],
+    "drops": {
+      "exp": 42,
+      "coins": 52,
+      "items": [
+        {
+          "name": "Nut",
+          "icc": 6
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "cuttle",
+    "name": "Cuttle",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Mercury Lighthouse"
+    ],
+    "stats": {
+      "hp": 80,
+      "pp": 0,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 96,
+      "def": 22,
+      "agi": 36,
+      "lck": 1,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 95,
+      "fire": 75,
+      "wind": 95,
+      "water": 125
+    },
+    "elemental_resistance": {
+      "earth": 48,
+      "fire": 7,
+      "wind": 48,
+      "water": 127
+    },
+    "abilities": [
+      "Attack",
+      "Poisonous Bite"
+    ],
+    "drops": {
+      "exp": 27,
+      "coins": 49,
+      "items": [
+        {
+          "name": "Sleep Bomb",
+          "icc": 6
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "mimic-1",
+    "name": "Mimic",
+    "game": "gs1",
+    "variant": 1,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Mercury Lighthouse"
+    ],
+    "stats": {
+      "hp": 468,
+      "pp": 24,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 120,
+      "def": 33,
+      "agi": 51,
+      "lck": 8,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 95,
+      "fire": 75,
+      "wind": 105,
+      "water": 100
+    },
+    "elemental_resistance": {
+      "earth": 100,
+      "fire": 25,
+      "wind": 152,
+      "water": 127
+    },
+    "abilities": [
+      "Attack",
+      "Wind Slash",
+      "Debilitate",
+      "Sleep",
+      "Psy Drain"
+    ],
+    "drops": {
+      "exp": 164,
+      "coins": 178,
+      "items": [
+        {
+          "name": "Water of Life",
+          "icc": 1
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "siren",
+    "name": "Siren",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Mercury Lighthouse"
+    ],
+    "stats": {
+      "hp": 116,
+      "pp": 12,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 107,
+      "def": 27,
+      "agi": 54,
+      "lck": 9,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 85,
+      "fire": 85,
+      "wind": 85,
+      "water": 100
+    },
+    "elemental_resistance": {
+      "earth": 100,
+      "fire": 72,
+      "wind": 100,
+      "water": 127
+    },
+    "abilities": [
+      "Attack",
+      "Froth",
+      "Sleep",
+      "Heartrender"
+    ],
+    "drops": {
+      "exp": 45,
+      "coins": 45,
+      "items": [
+        {
+          "name": "Crystal Powder",
+          "icc": 5
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ],
+    "conflicts": [
+      {
+        "field": "drops.coins",
+        "values": {
+          "super-slash": 45,
+          "torrent-load": 56
+        },
+        "note": null
+      }
+    ]
+  },
+  {
+    "id": "harpy",
+    "name": "Harpy",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Mercury Lighthouse"
+    ],
+    "stats": {
+      "hp": 105,
+      "pp": 0,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 104,
+      "def": 25,
+      "agi": 46,
+      "lck": 4,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 95,
+      "fire": 95,
+      "wind": 110,
+      "water": 95
+    },
+    "elemental_resistance": {
+      "earth": 127,
+      "fire": 48,
+      "wind": 7,
+      "water": 72
+    },
+    "abilities": [
+      "Attack",
+      "Shriek"
+    ],
+    "drops": {
+      "exp": 38,
+      "coins": 53,
+      "items": [
+        {
+          "name": "Elixir",
+          "icc": 5
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "mercury-djinni-sleet",
+    "name": "Mercury Djinni (Sleet)",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": true,
+    "djinn_id": "sleet",
+    "found": [
+      "Mercury Lighthouse"
+    ],
+    "stats": {
+      "hp": 290,
+      "pp": 20,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 107,
+      "def": 24,
+      "agi": 58,
+      "lck": 9,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 95,
+      "fire": 75,
+      "wind": 95,
+      "water": 125
+    },
+    "elemental_resistance": {
+      "earth": 100,
+      "fire": 25,
+      "wind": 100,
+      "water": 193
+    },
+    "abilities": [
+      "Attack",
+      "Tundra",
+      "Prism",
+      "Drench",
+      "Froth Sphere",
+      "Flee"
+    ],
+    "drops": {
+      "exp": 130,
+      "coins": 151,
+      "items": []
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "mole",
+    "name": "Mole",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "World Map",
+      "Fuchin Falls Cave",
+      "World Map 4",
+      "World Map 5"
+    ],
+    "stats": {
+      "hp": 96,
+      "pp": 0,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 119,
+      "def": 22,
+      "agi": 36,
+      "lck": 1,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 100,
+      "fire": 70,
+      "wind": 80,
+      "water": 80
+    },
+    "elemental_resistance": {
+      "earth": 48,
+      "fire": 25,
+      "wind": 72,
+      "water": 48
+    },
+    "abilities": [
+      "Attack",
+      "Mad Spatter"
+    ],
+    "drops": {
+      "exp": 39,
+      "coins": 60,
+      "items": [
+        {
+          "name": "Bramble Seed",
+          "icc": 5
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "mimic-2",
+    "name": "Mimic",
+    "game": "gs1",
+    "variant": 2,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Fuchin Falls Cave"
+    ],
+    "stats": {
+      "hp": 506,
+      "pp": 26,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 133,
+      "def": 36,
+      "agi": 57,
+      "lck": 10,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 95,
+      "fire": 75,
+      "wind": 105,
+      "water": 100
+    },
+    "elemental_resistance": {
+      "earth": 100,
+      "fire": 25,
+      "wind": 152,
+      "water": 127
+    },
+    "abilities": [
+      "Attack",
+      "Briar",
+      "Debilitate",
+      "Sleep",
+      "Psy Drain"
+    ],
+    "drops": {
+      "exp": 190,
+      "coins": 207,
+      "items": [
+        {
+          "name": "Game Ticket",
+          "icc": 1
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "bone-fighter",
+    "name": "Bone Fighter",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "World Map",
+      "Fuchin Falls Cave",
+      "Mogall Forest",
+      "Altin Peak",
+      "World Map 5",
+      "Altin Peak B2",
+      "B3"
+    ],
+    "stats": {
+      "hp": 122,
+      "pp": 0,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 131,
+      "def": 35,
+      "agi": 52,
+      "lck": 3,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 100,
+      "fire": 80,
+      "wind": 80,
+      "water": 95
+    },
+    "elemental_resistance": {
+      "earth": 25,
+      "fire": 72,
+      "wind": 48,
+      "water": 127
+    },
+    "abilities": [
+      "Attack",
+      "Undead Sword"
+    ],
+    "drops": {
+      "exp": 51,
+      "coins": 63,
+      "items": [
+        {
+          "name": "Sleep Bomb",
+          "icc": 6
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "dirge",
+    "name": "Dirge",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "World Map",
+      "Mogall Forest",
+      "Fuchin Falls Cave",
+      "Altin Peak",
+      "World Map 5",
+      "Altin Peak B2",
+      "B3"
+    ],
+    "stats": {
+      "hp": 91,
+      "pp": 0,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 122,
+      "def": 32,
+      "agi": 60,
+      "lck": 2,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 95,
+      "fire": 95,
+      "wind": 110,
+      "water": 95
+    },
+    "elemental_resistance": {
+      "earth": 127,
+      "fire": 48,
+      "wind": 7,
+      "water": 72
+    },
+    "abilities": [
+      "Attack",
+      "Flying Attack"
+    ],
+    "drops": {
+      "exp": 47,
+      "coins": 61,
+      "items": [
+        {
+          "name": "Nut",
+          "icc": 5
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "spirit",
+    "name": "Spirit",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "World Map",
+      "Mogall Forest",
+      "Fuchin Falls Cave",
+      "World Map 5"
+    ],
+    "stats": {
+      "hp": 116,
+      "pp": 11,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 114,
+      "def": 30,
+      "agi": 48,
+      "lck": 6,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 100,
+      "fire": 95,
+      "wind": 95,
+      "water": 95
+    },
+    "elemental_resistance": {
+      "earth": 48,
+      "fire": 72,
+      "wind": 7,
+      "water": 100
+    },
+    "abilities": [
+      "Attack",
+      "Ice",
+      "Douse"
+    ],
+    "drops": {
+      "exp": 49,
+      "coins": 67,
+      "items": [
+        {
+          "name": "Crystal Powder",
+          "icc": 6
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "jupiter-djinni-zephyr",
+    "name": "Jupiter Djinni (Zephyr)",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": true,
+    "djinn_id": "zephyr",
+    "found": [
+      "Fuchin Falls Cave"
+    ],
+    "stats": {
+      "hp": 314,
+      "pp": 25,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 115,
+      "def": 26,
+      "agi": 68,
+      "lck": 9,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 80,
+      "fire": 95,
+      "wind": 120,
+      "water": 95
+    },
+    "elemental_resistance": {
+      "earth": 25,
+      "fire": 100,
+      "wind": 193,
+      "water": 100
+    },
+    "abilities": [
+      "Attack",
+      "Flash Bolt",
+      "Storm Ray",
+      "Plasma",
+      "Wind Slash",
+      "Whirlwind",
+      "Flee"
+    ],
+    "drops": {
+      "exp": 150,
+      "coins": 176,
+      "items": []
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "ape",
+    "name": "Ape",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "World Map",
+      "Mogall Forest",
+      "Altin Peak",
+      "World Map 5",
+      "Altin Peak B2",
+      "B3"
+    ],
+    "stats": {
+      "hp": 290,
+      "pp": 0,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 128,
+      "def": 29,
+      "agi": 49,
+      "lck": 2,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 100,
+      "fire": 70,
+      "wind": 80,
+      "water": 80
+    },
+    "elemental_resistance": {
+      "earth": 48,
+      "fire": 25,
+      "wind": 72,
+      "water": 48
+    },
+    "abilities": [
+      "Attack",
+      "Ransack"
+    ],
+    "drops": {
+      "exp": 96,
+      "coins": 160,
+      "items": [
+        {
+          "name": "Vial",
+          "icc": 3
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "death-head",
+    "name": "Death Head",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "World Map",
+      "Mogall Forest",
+      "World Map 5"
+    ],
+    "stats": {
+      "hp": 128,
+      "pp": 15,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 130,
+      "def": 31,
+      "agi": 47,
+      "lck": 3,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 100,
+      "fire": 80,
+      "wind": 80,
+      "water": 95
+    },
+    "elemental_resistance": {
+      "earth": 25,
+      "fire": 72,
+      "wind": 48,
+      "water": 127
+    },
+    "abilities": [
+      "Attack",
+      "Slash",
+      "Impair"
+    ],
+    "drops": {
+      "exp": 55,
+      "coins": 73,
+      "items": [
+        {
+          "name": "Nut",
+          "icc": 5
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "venus-djinni-quartz",
+    "name": "Venus Djinni (Quartz)",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": true,
+    "djinn_id": "quartz",
+    "found": [
+      "Mogall Forest"
+    ],
+    "stats": {
+      "hp": 349,
+      "pp": 25,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 127,
+      "def": 28,
+      "agi": 76,
+      "lck": 9,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 120,
+      "fire": 95,
+      "wind": 80,
+      "water": 95
+    },
+    "elemental_resistance": {
+      "earth": 193,
+      "fire": 100,
+      "wind": 25,
+      "water": 100
+    },
+    "abilities": [
+      "Attack",
+      "Earthquake",
+      "Spire",
+      "Gaia",
+      "Mad Growth",
+      "Briar",
+      "Flee"
+    ],
+    "drops": {
+      "exp": 172,
+      "coins": 201,
+      "items": []
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "mars-djinni-corona",
+    "name": "Mars Djinni (Corona)",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": true,
+    "djinn_id": "corona",
+    "found": [
+      "World Map",
+      "World Map 5"
+    ],
+    "stats": {
+      "hp": 355,
+      "pp": 24,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 144,
+      "def": 41,
+      "agi": 76,
+      "lck": 8,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 95,
+      "fire": 125,
+      "wind": 95,
+      "water": 75
+    },
+    "elemental_resistance": {
+      "earth": 100,
+      "fire": 193,
+      "wind": 100,
+      "water": 25
+    },
+    "abilities": [
+      "Attack",
+      "Flare Wall",
+      "Fireball",
+      "Volcano",
+      "Mad Blast",
+      "Nova",
+      "Flee"
+    ],
+    "drops": {
+      "exp": 173,
+      "coins": 210,
+      "items": []
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "living-statue",
+    "name": "Living Statue",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Altin Peak",
+      "Altin Peak B1",
+      "B2"
+    ],
+    "stats": {
+      "hp": 540,
+      "pp": 34,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 149,
+      "def": 44,
+      "agi": 56,
+      "lck": 20,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 95,
+      "fire": 75,
+      "wind": 95,
+      "water": 125
+    },
+    "elemental_resistance": {
+      "earth": 100,
+      "fire": 25,
+      "wind": 100,
+      "water": 193
+    },
+    "abilities": [
+      "Attack",
+      "Tundra",
+      "Water Blessing"
+    ],
+    "drops": {
+      "exp": 377,
+      "coins": 900,
+      "items": [
+        {
+          "name": "Vial",
+          "icc": 1
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "slime-beast",
+    "name": "Slime Beast",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Altin Peak",
+      "Altin Peak B2",
+      "B3"
+    ],
+    "stats": {
+      "hp": 99,
+      "pp": 0,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 134,
+      "def": 27,
+      "agi": 54,
+      "lck": 2,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 95,
+      "fire": 75,
+      "wind": 95,
+      "water": 125
+    },
+    "elemental_resistance": {
+      "earth": 48,
+      "fire": 7,
+      "wind": 48,
+      "water": 127
+    },
+    "abilities": [
+      "Attack",
+      "Sticky Poison",
+      "Speed Surge"
+    ],
+    "drops": {
+      "exp": 51,
+      "coins": 77,
+      "items": [
+        {
+          "name": "Herb",
+          "icc": 5
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "tarantula",
+    "name": "Tarantula",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Altin Peak",
+      "Altin Peak B2",
+      "B3"
+    ],
+    "stats": {
+      "hp": 108,
+      "pp": 0,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 144,
+      "def": 30,
+      "agi": 52,
+      "lck": 5,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 95,
+      "fire": 90,
+      "wind": 85,
+      "water": 85
+    },
+    "elemental_resistance": {
+      "earth": 48,
+      "fire": 25,
+      "wind": 48,
+      "water": 48
+    },
+    "abilities": [
+      "Attack",
+      "Poison Fang",
+      "Spider Web"
+    ],
+    "drops": {
+      "exp": 58,
+      "coins": 81,
+      "items": [
+        {
+          "name": "Antidote",
+          "icc": 5
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "calamar",
+    "name": "Calamar",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Altin Peak",
+      "Altin Peak B2",
+      "B3"
+    ],
+    "stats": {
+      "hp": 104,
+      "pp": 0,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 130,
+      "def": 34,
+      "agi": 46,
+      "lck": 1,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 95,
+      "fire": 75,
+      "wind": 95,
+      "water": 125
+    },
+    "elemental_resistance": {
+      "earth": 48,
+      "fire": 7,
+      "wind": 48,
+      "water": 127
+    },
+    "abilities": [
+      "Attack",
+      "Electric Bite",
+      "Ally Search"
+    ],
+    "drops": {
+      "exp": 59,
+      "coins": 79,
+      "items": [
+        {
+          "name": "Elixir",
+          "icc": 5
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "rat-fighter",
+    "name": "Rat Fighter",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Altin Peak",
+      "Lamakan Desert",
+      "Altin Peak B2",
+      "B3"
+    ],
+    "stats": {
+      "hp": 143,
+      "pp": 0,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 146,
+      "def": 39,
+      "agi": 58,
+      "lck": 3,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 85,
+      "fire": 85,
+      "wind": 85,
+      "water": 100
+    },
+    "elemental_resistance": {
+      "earth": 72,
+      "fire": 48,
+      "wind": 72,
+      "water": 100
+    },
+    "abilities": [
+      "Attack",
+      "Slice",
+      "Flee"
+    ],
+    "drops": {
+      "exp": 63,
+      "coins": 83,
+      "items": [
+        {
+          "name": "Smoke Bomb",
+          "icc": 6
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "mimic-3",
+    "name": "Mimic",
+    "game": "gs1",
+    "variant": 3,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Altin Peak",
+      "Altin Peak B2",
+      "B3"
+    ],
+    "stats": {
+      "hp": 579,
+      "pp": 32,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 160,
+      "def": 44,
+      "agi": 70,
+      "lck": 12,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 95,
+      "fire": 75,
+      "wind": 105,
+      "water": 100
+    },
+    "elemental_resistance": {
+      "earth": 100,
+      "fire": 25,
+      "wind": 152,
+      "water": 127
+    },
+    "abilities": [
+      "Attack",
+      "Shine Plasma",
+      "Debilitate",
+      "Sleep",
+      "Psy Drain"
+    ],
+    "drops": {
+      "exp": 241,
+      "coins": 267,
+      "items": [
+        {
+          "name": "Game Ticket",
+          "icc": 1
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "mercury-djinni-spritz",
+    "name": "Mercury Djinni (Spritz)",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": true,
+    "djinn_id": "spritz",
+    "found": [
+      "Altin Peak",
+      "Altin Peak B3"
+    ],
+    "stats": {
+      "hp": 361,
+      "pp": 27,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 140,
+      "def": 32,
+      "agi": 84,
+      "lck": 10,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 95,
+      "fire": 75,
+      "wind": 95,
+      "water": 125
+    },
+    "elemental_resistance": {
+      "earth": 100,
+      "fire": 25,
+      "wind": 100,
+      "water": 193
+    },
+    "abilities": [
+      "Attack",
+      "Tundra",
+      "Ice Horn",
+      "Hail Prism",
+      "Drench",
+      "Froth Sphere",
+      "Flee"
+    ],
+    "drops": {
+      "exp": 190,
+      "coins": 226,
+      "items": []
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "grub",
+    "name": "Grub",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Lamakan Desert"
+    ],
+    "stats": {
+      "hp": 102,
+      "pp": 0,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 154,
+      "def": 32,
+      "agi": 52,
+      "lck": 1,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 95,
+      "fire": 80,
+      "wind": 85,
+      "water": 85
+    },
+    "elemental_resistance": {
+      "earth": 48,
+      "fire": 25,
+      "wind": 48,
+      "water": 48
+    },
+    "abilities": [
+      "Attack",
+      "Flee"
+    ],
+    "drops": {
+      "exp": 62,
+      "coins": 88,
+      "items": [
+        {
+          "name": "Antidote",
+          "icc": 5
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ],
+    "conflicts": [
+      {
+        "field": "elemental_power.fire",
+        "values": {
+          "super-slash": 80,
+          "torrent-load": 90
+        },
+        "note": null
+      }
+    ]
+  },
+  {
+    "id": "salamander",
+    "name": "Salamander",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Lamakan Desert"
+    ],
+    "stats": {
+      "hp": 212,
+      "pp": 18,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 158,
+      "def": 49,
+      "agi": 50,
+      "lck": 6,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 95,
+      "fire": 125,
+      "wind": 95,
+      "water": 75
+    },
+    "elemental_resistance": {
+      "earth": 100,
+      "fire": 193,
+      "wind": 100,
+      "water": 25
+    },
+    "abilities": [
+      "Attack",
+      "Fireball",
+      "Blast",
+      "Guard",
+      "Fire Blessing"
+    ],
+    "drops": {
+      "exp": 84,
+      "coins": 190,
+      "items": [
+        {
+          "name": "Oil Drop",
+          "icc": 5
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "ant-lion",
+    "name": "Ant Lion",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Lamakan Desert"
+    ],
+    "stats": {
+      "hp": 400,
+      "pp": 32,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 160,
+      "def": 45,
+      "agi": 58,
+      "lck": 19,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 95,
+      "fire": 115,
+      "wind": 95,
+      "water": 85
+    },
+    "elemental_resistance": {
+      "earth": 100,
+      "fire": 175,
+      "wind": 100,
+      "water": 25
+    },
+    "abilities": [
+      "Attack",
+      "Earthquake",
+      "Flare Wall",
+      "Sonic Wave"
+    ],
+    "drops": {
+      "exp": 168,
+      "coins": 320,
+      "items": [
+        {
+          "name": "Vial",
+          "icc": 4
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "orc",
+    "name": "Orc",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Lamakan Desert"
+    ],
+    "stats": {
+      "hp": 148,
+      "pp": 0,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 156,
+      "def": 41,
+      "agi": 54,
+      "lck": 3,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 100,
+      "fire": 85,
+      "wind": 85,
+      "water": 85
+    },
+    "elemental_resistance": {
+      "earth": 100,
+      "fire": 72,
+      "wind": 48,
+      "water": 72
+    },
+    "abilities": [
+      "Attack",
+      "Spasm"
+    ],
+    "drops": {
+      "exp": 113,
+      "coins": 68,
+      "items": [
+        {
+          "name": "Nut",
+          "icc": 6
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ],
+    "conflicts": [
+      {
+        "field": "drops.exp",
+        "values": {
+          "super-slash": 113,
+          "torrent-load": 68
+        },
+        "note": null
+      },
+      {
+        "field": "drops.coins",
+        "values": {
+          "super-slash": 68,
+          "torrent-load": 113
+        },
+        "note": null
+      }
+    ]
+  },
+  {
+    "id": "fighter-bee",
+    "name": "Fighter Bee",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "World Map",
+      "Lamakan Desert",
+      "Vale Cave",
+      "Vault Cave",
+      "World Map 6"
+    ],
+    "stats": {
+      "hp": 116,
+      "pp": 0,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 155,
+      "def": 38,
+      "agi": 74,
+      "lck": 2,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 90,
+      "fire": 95,
+      "wind": 105,
+      "water": 90
+    },
+    "elemental_resistance": {
+      "earth": 100,
+      "fire": 48,
+      "wind": 7,
+      "water": 48
+    },
+    "abilities": [
+      "Attack",
+      "Numbing Sting",
+      "Ally Search"
+    ],
+    "drops": {
+      "exp": 67,
+      "coins": 90,
+      "items": [
+        {
+          "name": "Elixir",
+          "icc": 6
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "ravager",
+    "name": "Ravager",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Vale Cave",
+      "Vault Cave"
+    ],
+    "stats": {
+      "hp": 189,
+      "pp": 0,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 185,
+      "def": 47,
+      "agi": 60,
+      "lck": 2,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 100,
+      "fire": 70,
+      "wind": 80,
+      "water": 80
+    },
+    "elemental_resistance": {
+      "earth": 48,
+      "fire": 25,
+      "wind": 72,
+      "water": 48
+    },
+    "abilities": [
+      "Attack",
+      "Bear Claw"
+    ],
+    "drops": {
+      "exp": 90,
+      "coins": 95,
+      "items": [
+        {
+          "name": "Elixir",
+          "icc": 6
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "gargoyle",
+    "name": "Gargoyle",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Vault Cave"
+    ],
+    "stats": {
+      "hp": 176,
+      "pp": 21,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 181,
+      "def": 81,
+      "agi": 59,
+      "lck": 7,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 100,
+      "fire": 100,
+      "wind": 95,
+      "water": 100
+    },
+    "elemental_resistance": {
+      "earth": 48,
+      "fire": 100,
+      "wind": 127,
+      "water": 100
+    },
+    "abilities": [
+      "Attack",
+      "Quake Sphere",
+      "Guard",
+      "Ice Blessing"
+    ],
+    "drops": {
+      "exp": 84,
+      "coins": 119,
+      "items": [
+        {
+          "name": "Sleep Bomb",
+          "icc": 6
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "ghost-mage",
+    "name": "Ghost Mage",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Vale Cave",
+      "Vault Cave"
+    ],
+    "stats": {
+      "hp": 161,
+      "pp": 19,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 168,
+      "def": 43,
+      "agi": 86,
+      "lck": 9,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 100,
+      "fire": 95,
+      "wind": 95,
+      "water": 95
+    },
+    "elemental_resistance": {
+      "earth": 48,
+      "fire": 72,
+      "wind": 7,
+      "water": 100
+    },
+    "abilities": [
+      "Attack",
+      "Spire",
+      "Whirlwind",
+      "Haunting"
+    ],
+    "drops": {
+      "exp": 80,
+      "coins": 110,
+      "items": [
+        {
+          "name": "Bramble Seed",
+          "icc": 5
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "cave-troll",
+    "name": "Cave Troll",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Vault Cave"
+    ],
+    "stats": {
+      "hp": 212,
+      "pp": 20,
+      "hp_regen": 20,
+      "pp_regen": 0,
+      "atk": 199,
+      "def": 45,
+      "agi": 44,
+      "lck": 3,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 100,
+      "fire": 70,
+      "wind": 80,
+      "water": 80
+    },
+    "elemental_resistance": {
+      "earth": 48,
+      "fire": 25,
+      "wind": 72,
+      "water": 48
+    },
+    "abilities": [
+      "Attack",
+      "Brute Force"
+    ],
+    "drops": {
+      "exp": 106,
+      "coins": 134,
+      "items": [
+        {
+          "name": "Nut",
+          "icc": 5
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ],
+    "conflicts": [
+      {
+        "field": "stats.pp",
+        "values": {
+          "super-slash": 20,
+          "torrent-load": 0
+        },
+        "note": null
+      }
+    ]
+  },
+  {
+    "id": "mimic-4",
+    "name": "Mimic",
+    "game": "gs1",
+    "variant": 4,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Vault Cave"
+    ],
+    "stats": {
+      "hp": 690,
+      "pp": 42,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 201,
+      "def": 56,
+      "agi": 89,
+      "lck": 13,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 95,
+      "fire": 75,
+      "wind": 105,
+      "water": 100
+    },
+    "elemental_resistance": {
+      "earth": 100,
+      "fire": 25,
+      "wind": 152,
+      "water": 127
+    },
+    "abilities": [
+      "Attack",
+      "Sonic Slash",
+      "Debilitate",
+      "Sleep",
+      "Psy Drain"
+    ],
+    "drops": {
+      "exp": 321,
+      "coins": 356,
+      "items": [
+        {
+          "name": "Vial",
+          "icc": 1
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "death-cap",
+    "name": "Death Cap",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "World Map",
+      "Vale Cave",
+      "Vault Cave",
+      "World Map 6"
+    ],
+    "stats": {
+      "hp": 117,
+      "pp": 0,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 159,
+      "def": 19,
+      "agi": 90,
+      "lck": 5,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 105,
+      "fire": 80,
+      "wind": 70,
+      "water": 100
+    },
+    "elemental_resistance": {
+      "earth": 48,
+      "fire": 7,
+      "wind": 72,
+      "water": 100
+    },
+    "abilities": [
+      "Attack",
+      "Sleep Star"
+    ],
+    "drops": {
+      "exp": 48,
+      "coins": 56,
+      "items": [
+        {
+          "name": "Sleep Bomb",
+          "icc": 6
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "mad-vermin",
+    "name": "Mad Vermin",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "World Map",
+      "Vale Cave",
+      "World Map 6"
+    ],
+    "stats": {
+      "hp": 131,
+      "pp": 0,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 164,
+      "def": 22,
+      "agi": 67,
+      "lck": 2,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 100,
+      "fire": 70,
+      "wind": 80,
+      "water": 80
+    },
+    "elemental_resistance": {
+      "earth": 48,
+      "fire": 25,
+      "wind": 72,
+      "water": 48
+    },
+    "abilities": [
+      "Attack",
+      "Onslaught"
+    ],
+    "drops": {
+      "exp": 55,
+      "coins": 80,
+      "items": [
+        {
+          "name": "Herb",
+          "icc": 6
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "undead",
+    "name": "Undead",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "World Map",
+      "Vale Cave",
+      "World Map 6"
+    ],
+    "stats": {
+      "hp": 165,
+      "pp": 0,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 180,
+      "def": 27,
+      "agi": 58,
+      "lck": 1,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 100,
+      "fire": 80,
+      "wind": 80,
+      "water": 95
+    },
+    "elemental_resistance": {
+      "earth": 25,
+      "fire": 7,
+      "wind": 48,
+      "water": 72
+    },
+    "abilities": [
+      "Attack",
+      "Decompose",
+      "Ally Search"
+    ],
+    "drops": {
+      "exp": 74,
+      "coins": 90,
+      "items": [
+        {
+          "name": "Antidote",
+          "icc": 5
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "venus-djinni-vine",
+    "name": "Venus Djinni (Vine)",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": true,
+    "djinn_id": "vine",
+    "found": [
+      "World Map",
+      "World Map 6"
+    ],
+    "stats": {
+      "hp": 421,
+      "pp": 30,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 175,
+      "def": 45,
+      "agi": 91,
+      "lck": 10,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 120,
+      "fire": 95,
+      "wind": 80,
+      "water": 95
+    },
+    "elemental_resistance": {
+      "earth": 193,
+      "fire": 100,
+      "wind": 25,
+      "water": 100
+    },
+    "abilities": [
+      "Attack",
+      "Quake Sphere",
+      "Clay Spire",
+      "Gaia",
+      "Mad Growth",
+      "Briar",
+      "Flee"
+    ],
+    "drops": {
+      "exp": 230,
+      "coins": 277,
+      "items": [
+        {
+          "name": "Herb",
+          "icc": null
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ],
+    "conflicts": [
+      {
+        "field": "drops.items",
+        "values": {
+          "super-slash": [
+            "herb"
+          ],
+          "torrent-load": []
+        },
+        "note": null
+      }
+    ]
+  },
+  {
+    "id": "man-o-war",
+    "name": "Man o' War",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Tolbi-bound Boat",
+      "Ship"
+    ],
+    "stats": {
+      "hp": 137,
+      "pp": 0,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 193,
+      "def": 42,
+      "agi": 70,
+      "lck": 1,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 95,
+      "fire": 75,
+      "wind": 95,
+      "water": 125
+    },
+    "elemental_resistance": {
+      "earth": 48,
+      "fire": 7,
+      "wind": 48,
+      "water": 127
+    },
+    "abilities": [
+      "Attack",
+      "Poison Ink"
+    ],
+    "drops": {
+      "exp": 55,
+      "coins": 87,
+      "items": [
+        {
+          "name": "Antidote",
+          "icc": 6
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "lizard-fighter",
+    "name": "Lizard Fighter",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Tolbi-bound Boat",
+      "Ship"
+    ],
+    "stats": {
+      "hp": 212,
+      "pp": 0,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 204,
+      "def": 61,
+      "agi": 60,
+      "lck": 2,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 85,
+      "fire": 85,
+      "wind": 85,
+      "water": 100
+    },
+    "elemental_resistance": {
+      "earth": 100,
+      "fire": 72,
+      "wind": 100,
+      "water": 127
+    },
+    "abilities": [
+      "Attack",
+      "Water Blessing"
+    ],
+    "drops": {
+      "exp": 89,
+      "coins": 124,
+      "items": [
+        {
+          "name": "Nut",
+          "icc": 5
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "rabid-bat",
+    "name": "Rabid Bat",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "World Map",
+      "Tolbi-bound Boat",
+      "Ship",
+      "World Map 7"
+    ],
+    "stats": {
+      "hp": 125,
+      "pp": 0,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 190,
+      "def": 34,
+      "agi": 84,
+      "lck": 2,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 95,
+      "fire": 95,
+      "wind": 110,
+      "water": 95
+    },
+    "elemental_resistance": {
+      "earth": 127,
+      "fire": 48,
+      "wind": 7,
+      "water": 72
+    },
+    "abilities": [
+      "Attack",
+      "Sonic Wave",
+      "Vampiric Fang"
+    ],
+    "drops": {
+      "exp": 82,
+      "coins": 61,
+      "items": [
+        {
+          "name": "Sleep Bomb",
+          "icc": 5
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ],
+    "conflicts": [
+      {
+        "field": "drops.exp",
+        "values": {
+          "super-slash": 82,
+          "torrent-load": 61
+        },
+        "note": null
+      },
+      {
+        "field": "drops.coins",
+        "values": {
+          "super-slash": 61,
+          "torrent-load": 82
+        },
+        "note": null
+      }
+    ]
+  },
+  {
+    "id": "virago",
+    "name": "Virago",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Tolbi-bound Boat",
+      "Crossbone Isle",
+      "Ship",
+      "Crossbone Isle #1"
+    ],
+    "stats": {
+      "hp": 185,
+      "pp": 0,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 199,
+      "def": 47,
+      "agi": 89,
+      "lck": 4,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 95,
+      "fire": 95,
+      "wind": 110,
+      "water": 95
+    },
+    "elemental_resistance": {
+      "earth": 127,
+      "fire": 48,
+      "wind": 7,
+      "water": 72
+    },
+    "abilities": [
+      "Attack",
+      "Banshee Howl"
+    ],
+    "drops": {
+      "exp": 87,
+      "coins": 120,
+      "items": [
+        {
+          "name": "Elixir",
+          "icc": 5
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "armored-rat",
+    "name": "Armored Rat",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "World Map",
+      "Altmiller Cave",
+      "World Map 7",
+      "Atmiller Cave"
+    ],
+    "stats": {
+      "hp": 147,
+      "pp": 0,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 193,
+      "def": 79,
+      "agi": 60,
+      "lck": 1,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 100,
+      "fire": 70,
+      "wind": 80,
+      "water": 80
+    },
+    "elemental_resistance": {
+      "earth": 48,
+      "fire": 25,
+      "wind": 72,
+      "water": 48
+    },
+    "abilities": [
+      "Attack",
+      "Fortify",
+      "Total Defense"
+    ],
+    "drops": {
+      "exp": 77,
+      "coins": 100,
+      "items": [
+        {
+          "name": "Herb",
+          "icc": 6
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "mad-mole",
+    "name": "Mad Mole",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "World Map",
+      "Altmiller Cave",
+      "World Map 7",
+      "Atmiller Cave"
+    ],
+    "stats": {
+      "hp": 156,
+      "pp": 0,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 197,
+      "def": 23,
+      "agi": 62,
+      "lck": 1,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 100,
+      "fire": 70,
+      "wind": 80,
+      "water": 80
+    },
+    "elemental_resistance": {
+      "earth": 48,
+      "fire": 25,
+      "wind": 72,
+      "water": 48
+    },
+    "abilities": [
+      "Attack",
+      "Mad Spatter",
+      "Worms"
+    ],
+    "drops": {
+      "exp": 2,
+      "coins": 2,
+      "items": [
+        {
+          "name": "Bramble Seed",
+          "icc": 6
+        },
+        {
+          "name": "Herb",
+          "icc": null
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ],
+    "conflicts": [
+      {
+        "field": "drops.exp",
+        "values": {
+          "super-slash": 2,
+          "torrent-load": 71
+        },
+        "note": null
+      },
+      {
+        "field": "drops.coins",
+        "values": {
+          "super-slash": 2,
+          "torrent-load": 88
+        },
+        "note": null
+      },
+      {
+        "field": "drops.items",
+        "values": {
+          "super-slash": [
+            "herb"
+          ],
+          "torrent-load": [
+            "bramble seed"
+          ]
+        },
+        "note": null
+      }
+    ]
+  },
+  {
+    "id": "foul-dirge",
+    "name": "Foul Dirge",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "World Map",
+      "Altmiller Cave",
+      "World Map 7",
+      "Atmiller Cave"
+    ],
+    "stats": {
+      "hp": 149,
+      "pp": 0,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 177,
+      "def": 46,
+      "agi": 120,
+      "lck": 2,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 95,
+      "fire": 95,
+      "wind": 110,
+      "water": 95
+    },
+    "elemental_resistance": {
+      "earth": 127,
+      "fire": 48,
+      "wind": 7,
+      "water": 72
+    },
+    "abilities": [
+      "Attack",
+      "Swift Strike"
+    ],
+    "drops": {
+      "exp": 82,
+      "coins": 100,
+      "items": [
+        {
+          "name": "Smoke Bomb",
+          "icc": 6
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "gnome-mage",
+    "name": "Gnome Mage",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "World Map",
+      "Altmiller Cave",
+      "World Map 7",
+      "Atmiller Cave"
+    ],
+    "stats": {
+      "hp": 162,
+      "pp": 24,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 179,
+      "def": 50,
+      "agi": 108,
+      "lck": 8,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 85,
+      "fire": 85,
+      "wind": 85,
+      "water": 100
+    },
+    "elemental_resistance": {
+      "earth": 48,
+      "fire": 72,
+      "wind": 100,
+      "water": 72
+    },
+    "abilities": [
+      "Attack",
+      "Fireball",
+      "Flash Bolt",
+      "Delude"
+    ],
+    "drops": {
+      "exp": 86,
+      "coins": 126,
+      "items": [
+        {
+          "name": "Crystal Powder",
+          "icc": 5
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ],
+    "conflicts": [
+      {
+        "field": "elemental_power.wind",
+        "values": {
+          "super-slash": 85,
+          "torrent-load": 100
+        },
+        "note": null
+      },
+      {
+        "field": "elemental_power.water",
+        "values": {
+          "super-slash": 100,
+          "torrent-load": 85
+        },
+        "note": null
+      }
+    ]
+  },
+  {
+    "id": "mercury-djinni-hail",
+    "name": "Mercury Djinni (Hail)",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": true,
+    "djinn_id": "hail",
+    "found": [
+      "World Map",
+      "World Map 7"
+    ],
+    "stats": {
+      "hp": 466,
+      "pp": 46,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 207,
+      "def": 48,
+      "agi": 116,
+      "lck": 16,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 95,
+      "fire": 75,
+      "wind": 95,
+      "water": 125
+    },
+    "elemental_resistance": {
+      "earth": 100,
+      "fire": 25,
+      "wind": 100,
+      "water": 193
+    },
+    "abilities": [
+      "Attack",
+      "Tundra",
+      "Ice Horn",
+      "Hail Prism",
+      "Drench",
+      "Froth Sphere",
+      "Flee"
+    ],
+    "drops": {
+      "exp": 279,
+      "coins": 340,
+      "items": []
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "dread-hound",
+    "name": "Dread Hound",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Altmiller Cave",
+      "Atmiller Cave"
+    ],
+    "stats": {
+      "hp": 252,
+      "pp": 0,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 211,
+      "def": 56,
+      "agi": 90,
+      "lck": 13,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 95,
+      "fire": 115,
+      "wind": 95,
+      "water": 85
+    },
+    "elemental_resistance": {
+      "earth": 100,
+      "fire": 175,
+      "wind": 100,
+      "water": 25
+    },
+    "abilities": [
+      "Attack",
+      "Fire Blessing",
+      "Wicked Howl",
+      "Double Fang"
+    ],
+    "drops": {
+      "exp": 116,
+      "coins": 176,
+      "items": [
+        {
+          "name": "Prophet's Hat",
+          "icc": 7
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "worm",
+    "name": "Worm",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Altmiller Cave",
+      "Atmiller Cave"
+    ],
+    "stats": {
+      "hp": 132,
+      "pp": 0,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 196,
+      "def": 51,
+      "agi": 79,
+      "lck": 2,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 95,
+      "fire": 90,
+      "wind": 85,
+      "water": 85
+    },
+    "elemental_resistance": {
+      "earth": 48,
+      "fire": 25,
+      "wind": 48,
+      "water": 48
+    },
+    "abilities": [
+      "Attack",
+      "Search for Help"
+    ],
+    "drops": {
+      "exp": 60,
+      "coins": 94,
+      "items": [
+        {
+          "name": "Herb",
+          "icc": 6
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "clay-gargoyle",
+    "name": "Clay Gargoyle",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Altmiller Cave",
+      "Atmiller Cave"
+    ],
+    "stats": {
+      "hp": 209,
+      "pp": 24,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 210,
+      "def": 90,
+      "agi": 84,
+      "lck": 7,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 100,
+      "fire": 100,
+      "wind": 95,
+      "water": 100
+    },
+    "elemental_resistance": {
+      "earth": 48,
+      "fire": 100,
+      "wind": 127,
+      "water": 100
+    },
+    "abilities": [
+      "Attack",
+      "Spire",
+      "Guard",
+      "Sonic Wave"
+    ],
+    "drops": {
+      "exp": 100,
+      "coins": 147,
+      "items": [
+        {
+          "name": "Nut",
+          "icc": 6
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "wight",
+    "name": "Wight",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Altmiller Cave",
+      "Atmiller Cave"
+    ],
+    "stats": {
+      "hp": 192,
+      "pp": 0,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 205,
+      "def": 55,
+      "agi": 54,
+      "lck": 2,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 100,
+      "fire": 80,
+      "wind": 80,
+      "water": 95
+    },
+    "elemental_resistance": {
+      "earth": 25,
+      "fire": 7,
+      "wind": 48,
+      "water": 72
+    },
+    "abilities": [
+      "Attack",
+      "Rotten Blood",
+      "Decompose"
+    ],
+    "drops": {
+      "exp": 92,
+      "coins": 115,
+      "items": [
+        {
+          "name": "Elixir",
+          "icc": 5
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "golem",
+    "name": "Golem",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Altmiller Cave",
+      "Atmiller Cave"
+    ],
+    "stats": {
+      "hp": 266,
+      "pp": 0,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 217,
+      "def": 57,
+      "agi": 40,
+      "lck": 2,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 120,
+      "fire": 95,
+      "wind": 80,
+      "water": 95
+    },
+    "elemental_resistance": {
+      "earth": 193,
+      "fire": 100,
+      "wind": 25,
+      "water": 100
+    },
+    "abilities": [
+      "Attack",
+      "Forcible Arm"
+    ],
+    "drops": {
+      "exp": 105,
+      "coins": 161,
+      "items": [
+        {
+          "name": "Vial",
+          "icc": 7
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "mimic-6",
+    "name": "Mimic",
+    "game": "gs1",
+    "variant": 6,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Altmiller Cave",
+      "Atmiller Cave"
+    ],
+    "stats": {
+      "hp": 767,
+      "pp": 48,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 227,
+      "def": 63,
+      "agi": 104,
+      "lck": 15,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 95,
+      "fire": 75,
+      "wind": 105,
+      "water": 100
+    },
+    "elemental_resistance": {
+      "earth": 100,
+      "fire": 25,
+      "wind": 152,
+      "water": 127
+    },
+    "abilities": [
+      "Attack",
+      "Nettle",
+      "Debilitate",
+      "Sleep",
+      "Curse",
+      "Psy Drain"
+    ],
+    "drops": {
+      "exp": 374,
+      "coins": 415,
+      "items": [
+        {
+          "name": "Water of Life",
+          "icc": 1
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "jupiter-djinni-squall",
+    "name": "Jupiter Djinni (Squall)",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": true,
+    "djinn_id": "squall",
+    "found": [
+      "Altmiller Cave",
+      "Atmiller Cave"
+    ],
+    "stats": {
+      "hp": 481,
+      "pp": 40,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 205,
+      "def": 45,
+      "agi": 120,
+      "lck": 14,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 80,
+      "fire": 95,
+      "wind": 120,
+      "water": 95
+    },
+    "elemental_resistance": {
+      "earth": 25,
+      "fire": 100,
+      "wind": 193,
+      "water": 100
+    },
+    "abilities": [
+      "Attack",
+      "Blue Bolt",
+      "Storm Ray",
+      "Plasma",
+      "Wind Slash",
+      "Tornado",
+      "Flee"
+    ],
+    "drops": {
+      "exp": 295,
+      "coins": 352,
+      "items": []
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "azart",
+    "name": "Azart",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Colosso"
+    ],
+    "stats": {
+      "hp": 450,
+      "pp": 0,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 206,
+      "def": 2,
+      "agi": 62,
+      "lck": 9,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 80,
+      "fire": 80,
+      "wind": 80,
+      "water": 80
+    },
+    "elemental_resistance": {
+      "earth": 90,
+      "fire": 90,
+      "wind": 90,
+      "water": 90
+    },
+    "abilities": [
+      "Attack",
+      "Defend"
+    ],
+    "drops": {
+      "exp": 0,
+      "coins": 0,
+      "items": []
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "satrage",
+    "name": "Satrage",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Colosso"
+    ],
+    "stats": {
+      "hp": 570,
+      "pp": 0,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 228,
+      "def": 6,
+      "agi": 73,
+      "lck": 12,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 80,
+      "fire": 80,
+      "wind": 80,
+      "water": 80
+    },
+    "elemental_resistance": {
+      "earth": 90,
+      "fire": 90,
+      "wind": 90,
+      "water": 90
+    },
+    "abilities": [
+      "Attack",
+      "Defend"
+    ],
+    "drops": {
+      "exp": 0,
+      "coins": 0,
+      "items": []
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "navampa",
+    "name": "Navampa",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Colosso"
+    ],
+    "stats": {
+      "hp": 820,
+      "pp": 0,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 232,
+      "def": 54,
+      "agi": 84,
+      "lck": 16,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 80,
+      "fire": 80,
+      "wind": 80,
+      "water": 80
+    },
+    "elemental_resistance": {
+      "earth": 90,
+      "fire": 90,
+      "wind": 90,
+      "water": 90
+    },
+    "abilities": [
+      "Attack",
+      "Defend"
+    ],
+    "drops": {
+      "exp": 0,
+      "coins": 0,
+      "items": []
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "warrior-bee",
+    "name": "Warrior Bee",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "World Map",
+      "Gondowan Cave",
+      "World Map 8",
+      "World Map 9"
+    ],
+    "stats": {
+      "hp": 164,
+      "pp": 0,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 221,
+      "def": 65,
+      "agi": 102,
+      "lck": 5,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 90,
+      "fire": 95,
+      "wind": 105,
+      "water": 90
+    },
+    "elemental_resistance": {
+      "earth": 100,
+      "fire": 48,
+      "wind": 7,
+      "water": 48
+    },
+    "abilities": [
+      "Attack",
+      "Numbing Sting",
+      "Mortal Blow",
+      "Ally Search"
+    ],
+    "drops": {
+      "exp": 65,
+      "coins": 104,
+      "items": [
+        {
+          "name": "Elixir",
+          "icc": 5
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "dirty-ape",
+    "name": "Dirty Ape",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "World Map",
+      "Gondowan Cave",
+      "World Map 8",
+      "World Map 9"
+    ],
+    "stats": {
+      "hp": 230,
+      "pp": 0,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 236,
+      "def": 57,
+      "agi": 132,
+      "lck": 2,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 100,
+      "fire": 70,
+      "wind": 80,
+      "water": 80
+    },
+    "elemental_resistance": {
+      "earth": 72,
+      "fire": 25,
+      "wind": 127,
+      "water": 25
+    },
+    "abilities": [
+      "Attack",
+      "War Cry",
+      "Freebite Rush"
+    ],
+    "drops": {
+      "exp": 114,
+      "coins": 149,
+      "items": [
+        {
+          "name": "Antidote",
+          "icc": 5
+        },
+        {
+          "name": "Herb",
+          "icc": null
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ],
+    "conflicts": [
+      {
+        "field": "elemental_resistance.water",
+        "values": {
+          "super-slash": 25,
+          "torrent-load": 72
+        },
+        "note": null
+      },
+      {
+        "field": "drops.items",
+        "values": {
+          "super-slash": [
+            "herb"
+          ],
+          "torrent-load": [
+            "antidote"
+          ]
+        },
+        "note": null
+      }
+    ]
+  },
+  {
+    "id": "kobold",
+    "name": "Kobold",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "World Map",
+      "Lunpa Fortress",
+      "Gondowan Cave",
+      "Suhalla Desert",
+      "Inner Lunpa Fortress",
+      "World Map 8"
+    ],
+    "stats": {
+      "hp": 220,
+      "pp": 0,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 230,
+      "def": 62,
+      "agi": 75,
+      "lck": 4,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 100,
+      "fire": 85,
+      "wind": 85,
+      "water": 85
+    },
+    "elemental_resistance": {
+      "earth": 100,
+      "fire": 72,
+      "wind": 48,
+      "water": 72
+    },
+    "abilities": [
+      "Attack"
+    ],
+    "drops": {
+      "exp": 107,
+      "coins": 154,
+      "items": [
+        {
+          "name": "Sleep Bomb",
+          "icc": 5
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "rat-warrior",
+    "name": "Rat Warrior",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "World Map",
+      "Lunpa Fortress",
+      "Gondowan Cave",
+      "Inner Lunpa Fortress",
+      "World Map 8",
+      "World Map 9"
+    ],
+    "stats": {
+      "hp": 208,
+      "pp": 0,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 226,
+      "def": 49,
+      "agi": 121,
+      "lck": 3,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 85,
+      "fire": 85,
+      "wind": 85,
+      "water": 100
+    },
+    "elemental_resistance": {
+      "earth": 72,
+      "fire": 48,
+      "wind": 72,
+      "water": 100
+    },
+    "abilities": [
+      "Attack",
+      "Slice",
+      "Flee"
+    ],
+    "drops": {
+      "exp": 100,
+      "coins": 160,
+      "items": [
+        {
+          "name": "Bramble Seed",
+          "icc": 6
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "brigand",
+    "name": "Brigand",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Lunpa Fortress"
+    ],
+    "stats": {
+      "hp": 421,
+      "pp": 0,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 251,
+      "def": 69,
+      "agi": 104,
+      "lck": 5,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 80,
+      "fire": 80,
+      "wind": 80,
+      "water": 80
+    },
+    "elemental_resistance": {
+      "earth": 72,
+      "fire": 72,
+      "wind": 72,
+      "water": 72
+    },
+    "abilities": [
+      "Attack",
+      "Slice"
+    ],
+    "drops": {
+      "exp": 162,
+      "coins": 190,
+      "items": [
+        {
+          "name": "Crystal Powder",
+          "icc": 6
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "vile-dirge",
+    "name": "Vile Dirge",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "World Map",
+      "Lunpa Fortress",
+      "Suhalla Desert",
+      "Inner Lunpa Fortress",
+      "World Map 8"
+    ],
+    "stats": {
+      "hp": 173,
+      "pp": 0,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 228,
+      "def": 56,
+      "agi": 120,
+      "lck": 2,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 95,
+      "fire": 95,
+      "wind": 110,
+      "water": 95
+    },
+    "elemental_resistance": {
+      "earth": 127,
+      "fire": 48,
+      "wind": 7,
+      "water": 72
+    },
+    "abilities": [
+      "Attack",
+      "Wing Beat",
+      "Flying Attack"
+    ],
+    "drops": {
+      "exp": 75,
+      "coins": 98,
+      "items": [
+        {
+          "name": "Weasel's Claw",
+          "icc": 5
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "orc-captain",
+    "name": "Orc Captain",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "World Map",
+      "Suhalla Desert",
+      "World Map 8",
+      "World Map 9"
+    ],
+    "stats": {
+      "hp": 231,
+      "pp": 0,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 248,
+      "def": 69,
+      "agi": 90,
+      "lck": 4,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 100,
+      "fire": 85,
+      "wind": 85,
+      "water": 85
+    },
+    "elemental_resistance": {
+      "earth": 100,
+      "fire": 72,
+      "wind": 48,
+      "water": 72
+    },
+    "abilities": [
+      "Attack",
+      "Spasm",
+      "Stand Ready"
+    ],
+    "drops": {
+      "exp": 125,
+      "coins": 142,
+      "items": [
+        {
+          "name": "Smoke Bomb",
+          "icc": 5
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "stone-soldier",
+    "name": "Stone Soldier",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Suhalla Desert",
+      "Crossbone Isle",
+      "Crossbone Isle #5"
+    ],
+    "stats": {
+      "hp": 179,
+      "pp": 6,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 241,
+      "def": 105,
+      "agi": 104,
+      "lck": 5,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 95,
+      "fire": 125,
+      "wind": 95,
+      "water": 75
+    },
+    "elemental_resistance": {
+      "earth": 48,
+      "fire": 127,
+      "wind": 48,
+      "water": 7
+    },
+    "abilities": [
+      "Attack",
+      "Blast",
+      "Mad Blast",
+      "Dynamite",
+      "Headbutt"
+    ],
+    "drops": {
+      "exp": 98,
+      "coins": 98,
+      "items": [
+        {
+          "name": "Elixir",
+          "icc": 6
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "roach",
+    "name": "Roach",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Suhalla Desert"
+    ],
+    "stats": {
+      "hp": 211,
+      "pp": 27,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 252,
+      "def": 72,
+      "agi": 92,
+      "lck": 4,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 95,
+      "fire": 115,
+      "wind": 95,
+      "water": 85
+    },
+    "elemental_resistance": {
+      "earth": 100,
+      "fire": 175,
+      "wind": 100,
+      "water": 25
+    },
+    "abilities": [
+      "Attack",
+      "Quake Sphere",
+      "Flare Wall",
+      "Sonic Wave"
+    ],
+    "drops": {
+      "exp": 144,
+      "coins": 120,
+      "items": [
+        {
+          "name": "Bramble Seed",
+          "icc": 6
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "harridan",
+    "name": "Harridan",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Suhalla Desert",
+      "Crossbone Isle",
+      "Crossbone Isle #5"
+    ],
+    "stats": {
+      "hp": 231,
+      "pp": 29,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 261,
+      "def": 66,
+      "agi": 118,
+      "lck": 8,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 95,
+      "fire": 95,
+      "wind": 110,
+      "water": 95
+    },
+    "elemental_resistance": {
+      "earth": 175,
+      "fire": 72,
+      "wind": 25,
+      "water": 100
+    },
+    "abilities": [
+      "Attack",
+      "Wind Slash",
+      "Banshee Howl",
+      "Crazy Voice"
+    ],
+    "drops": {
+      "exp": 150,
+      "coins": 164,
+      "items": [
+        {
+          "name": "Nut",
+          "icc": 6
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "acid-maggot",
+    "name": "Acid Maggot",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Suhalla Desert"
+    ],
+    "stats": {
+      "hp": 160,
+      "pp": 0,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 255,
+      "def": 60,
+      "agi": 78,
+      "lck": 2,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 95,
+      "fire": 90,
+      "wind": 85,
+      "water": 85
+    },
+    "elemental_resistance": {
+      "earth": 48,
+      "fire": 25,
+      "wind": 48,
+      "water": 48
+    },
+    "abilities": [
+      "Attack",
+      "Acid Bite",
+      "Flee"
+    ],
+    "drops": {
+      "exp": 86,
+      "coins": 102,
+      "items": [
+        {
+          "name": "Sleep Bomb",
+          "icc": 6
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "magicore",
+    "name": "Magicore",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Suhalla Desert"
+    ],
+    "stats": {
+      "hp": 321,
+      "pp": 34,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 253,
+      "def": 74,
+      "agi": 109,
+      "lck": 11,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 95,
+      "fire": 115,
+      "wind": 95,
+      "water": 85
+    },
+    "elemental_resistance": {
+      "earth": 100,
+      "fire": 175,
+      "wind": 100,
+      "water": 25
+    },
+    "abilities": [
+      "Attack",
+      "Nova",
+      "Sleep",
+      "Bind",
+      "Poison Tail"
+    ],
+    "drops": {
+      "exp": 169,
+      "coins": 208,
+      "items": [
+        {
+          "name": "Aura Gloves",
+          "icc": 8
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "brutal-troll",
+    "name": "Brutal Troll",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "World Map",
+      "Suhalla Desert",
+      "World Map 9"
+    ],
+    "stats": {
+      "hp": 291,
+      "pp": 0,
+      "hp_regen": 30,
+      "pp_regen": 0,
+      "atk": 273,
+      "def": 63,
+      "agi": 76,
+      "lck": 6,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 100,
+      "fire": 70,
+      "wind": 80,
+      "water": 80
+    },
+    "elemental_resistance": {
+      "earth": 48,
+      "fire": 25,
+      "wind": 72,
+      "water": 48
+    },
+    "abilities": [
+      "Attack",
+      "Brute Force",
+      "Berserk"
+    ],
+    "drops": {
+      "exp": 150,
+      "coins": 190,
+      "items": [
+        {
+          "name": "Nut",
+          "icc": 5
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "mimic-7",
+    "name": "Mimic",
+    "game": "gs1",
+    "variant": 7,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Suhalla Desert"
+    ],
+    "stats": {
+      "hp": 997,
+      "pp": 60,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 303,
+      "def": 94,
+      "agi": 139,
+      "lck": 17,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 95,
+      "fire": 75,
+      "wind": 105,
+      "water": 100
+    },
+    "elemental_resistance": {
+      "earth": 100,
+      "fire": 25,
+      "wind": 152,
+      "water": 127
+    },
+    "abilities": [
+      "Attack",
+      "Ice Missile",
+      "Debilitate",
+      "Sleep",
+      "Curse",
+      "Condemn",
+      "Psy Drain"
+    ],
+    "drops": {
+      "exp": 669,
+      "coins": 547,
+      "items": [
+        {
+          "name": "Water of Life",
+          "icc": 1
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "mars-djinni-flash",
+    "name": "Mars Djinni (Flash)",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": true,
+    "djinn_id": "flash",
+    "found": [
+      "Suhalla Desert"
+    ],
+    "stats": {
+      "hp": 592,
+      "pp": 52,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 253,
+      "def": 65,
+      "agi": 151,
+      "lck": 17,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 95,
+      "fire": 125,
+      "wind": 95,
+      "water": 75
+    },
+    "elemental_resistance": {
+      "earth": 100,
+      "fire": 193,
+      "wind": 100,
+      "water": 25
+    },
+    "abilities": [
+      "Attack",
+      "Flare Storm",
+      "Fireball",
+      "Eruption",
+      "Fiery Blast",
+      "Nova",
+      "Flee"
+    ],
+    "drops": {
+      "exp": 460,
+      "coins": 445,
+      "items": []
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "tornado-lizard",
+    "name": "Tornado Lizard",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Suhalla Desert"
+    ],
+    "stats": {
+      "hp": 530,
+      "pp": 37,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 267,
+      "def": 74,
+      "agi": 104,
+      "lck": 18,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 90,
+      "fire": 95,
+      "wind": 110,
+      "water": 95
+    },
+    "elemental_resistance": {
+      "earth": 48,
+      "fire": 100,
+      "wind": 152,
+      "water": 100
+    },
+    "abilities": [
+      "Attack",
+      "Storm Ray",
+      "Wind Slash",
+      "Tornado",
+      "Impact",
+      "Ward",
+      "Wing Flutter"
+    ],
+    "drops": {
+      "exp": 620,
+      "coins": 477,
+      "items": [
+        {
+          "name": "Weasel's Claw",
+          "icc": 4
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ],
+    "conflicts": [
+      {
+        "field": "stats.turns",
+        "values": {
+          "super-slash": 1,
+          "torrent-load": 2
+        },
+        "note": null
+      }
+    ]
+  },
+  {
+    "id": "earth-golem",
+    "name": "Earth Golem",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Suhalla Gate",
+      "Venus Lighthouse",
+      "Venus Lighthouse A"
+    ],
+    "stats": {
+      "hp": 298,
+      "pp": 0,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 299,
+      "def": 114,
+      "agi": 70,
+      "lck": 5,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 120,
+      "fire": 95,
+      "wind": 80,
+      "water": 95
+    },
+    "elemental_resistance": {
+      "earth": 193,
+      "fire": 100,
+      "wind": 25,
+      "water": 100
+    },
+    "abilities": [
+      "Attack",
+      "Truncheon Fist"
+    ],
+    "drops": {
+      "exp": 218,
+      "coins": 183,
+      "items": [
+        {
+          "name": "Giant Axe",
+          "icc": 8
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "goblin",
+    "name": "Goblin",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Suhalla Gate"
+    ],
+    "stats": {
+      "hp": 268,
+      "pp": 0,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 289,
+      "def": 91,
+      "agi": 83,
+      "lck": 3,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 100,
+      "fire": 85,
+      "wind": 85,
+      "water": 85
+    },
+    "elemental_resistance": {
+      "earth": 100,
+      "fire": 72,
+      "wind": 72,
+      "water": 48
+    },
+    "abilities": [
+      "Attack"
+    ],
+    "drops": {
+      "exp": 221,
+      "coins": 170,
+      "items": [
+        {
+          "name": "Vial",
+          "icc": 6
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ],
+    "conflicts": [
+      {
+        "field": "elemental_resistance.wind",
+        "values": {
+          "super-slash": 72,
+          "torrent-load": 48
+        },
+        "note": null
+      },
+      {
+        "field": "elemental_resistance.water",
+        "values": {
+          "super-slash": 48,
+          "torrent-load": 72
+        },
+        "note": null
+      }
+    ]
+  },
+  {
+    "id": "cannibal-ghoul",
+    "name": "Cannibal Ghoul",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Suhalla Gate"
+    ],
+    "stats": {
+      "hp": 249,
+      "pp": 0,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 274,
+      "def": 82,
+      "agi": 80,
+      "lck": 4,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 100,
+      "fire": 80,
+      "wind": 80,
+      "water": 95
+    },
+    "elemental_resistance": {
+      "earth": 25,
+      "fire": 7,
+      "wind": 48,
+      "water": 72
+    },
+    "abilities": [
+      "Attack",
+      "Cannibal Fang",
+      "Decompose",
+      "Ally Search"
+    ],
+    "drops": {
+      "exp": 194,
+      "coins": 160,
+      "items": [
+        {
+          "name": "Antidote",
+          "icc": 6
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "nightmare",
+    "name": "Nightmare",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Suhalla Gate",
+      "Road to Babi Lighthouse",
+      "Venus Lighthouse",
+      "Venus Lighthouse A"
+    ],
+    "stats": {
+      "hp": 258,
+      "pp": 28,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 287,
+      "def": 89,
+      "agi": 138,
+      "lck": 13,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 85,
+      "fire": 85,
+      "wind": 100,
+      "water": 85
+    },
+    "elemental_resistance": {
+      "earth": 72,
+      "fire": 100,
+      "wind": 127,
+      "water": 100
+    },
+    "abilities": [
+      "Attack",
+      "Fireball",
+      "Shine Plasma",
+      "Bind",
+      "Heartrender"
+    ],
+    "drops": {
+      "exp": 241,
+      "coins": 198,
+      "items": [
+        {
+          "name": "Healing Ring",
+          "icc": 7
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "horned-ghost",
+    "name": "Horned Ghost",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Suhalla Gate",
+      "Venus Lighthouse",
+      "Venus Lighthouse A"
+    ],
+    "stats": {
+      "hp": 236,
+      "pp": 32,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 268,
+      "def": 78,
+      "agi": 116,
+      "lck": 5,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 100,
+      "fire": 95,
+      "wind": 95,
+      "water": 95
+    },
+    "elemental_resistance": {
+      "earth": 48,
+      "fire": 72,
+      "wind": 7,
+      "water": 100
+    },
+    "abilities": [
+      "Attack",
+      "Ice Horn",
+      "Hail Prism",
+      "Haunting"
+    ],
+    "drops": {
+      "exp": 199,
+      "coins": 166,
+      "items": [
+        {
+          "name": "Elixir",
+          "icc": 6
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "gnome-wizard",
+    "name": "Gnome Wizard",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Road to Babi Lighthouse",
+      "Suhalla Gate",
+      "Venus Lighthouse",
+      "Venus Lighthouse A"
+    ],
+    "stats": {
+      "hp": 215,
+      "pp": 32,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 257,
+      "def": 74,
+      "agi": 122,
+      "lck": 8,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 100,
+      "fire": 85,
+      "wind": 85,
+      "water": 85
+    },
+    "elemental_resistance": {
+      "earth": 100,
+      "fire": 72,
+      "wind": 48,
+      "water": 72
+    },
+    "abilities": [
+      "Attack",
+      "Mother Gaia",
+      "Impact",
+      "Sleep"
+    ],
+    "drops": {
+      "exp": 219,
+      "coins": 176,
+      "items": [
+        {
+          "name": "Crystal Powder",
+          "icc": 6
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "mole-mage",
+    "name": "Mole Mage",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Suhalla Gate"
+    ],
+    "stats": {
+      "hp": 199,
+      "pp": 14,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 265,
+      "def": 47,
+      "agi": 74,
+      "lck": 4,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 100,
+      "fire": 70,
+      "wind": 80,
+      "water": 80
+    },
+    "elemental_resistance": {
+      "earth": 48,
+      "fire": 25,
+      "wind": 72,
+      "water": 48
+    },
+    "abilities": [
+      "Attack",
+      "Mad Growth",
+      "Mad Spatter",
+      "Worms"
+    ],
+    "drops": {
+      "exp": 191,
+      "coins": 132,
+      "items": [
+        {
+          "name": "Antidote",
+          "icc": 6
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "mercury-djinni-dew",
+    "name": "Mercury Djinni (Dew)",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": true,
+    "djinn_id": "dew",
+    "found": [
+      "Suhalla Gate"
+    ],
+    "stats": {
+      "hp": 654,
+      "pp": 59,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 281,
+      "def": 77,
+      "agi": 122,
+      "lck": 19,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 95,
+      "fire": 75,
+      "wind": 95,
+      "water": 125
+    },
+    "elemental_resistance": {
+      "earth": 100,
+      "fire": 25,
+      "wind": 100,
+      "water": 193
+    },
+    "abilities": [
+      "Attack",
+      "Glacier",
+      "Ice Horn",
+      "Hail Prism",
+      "Deluge",
+      "Froth Sphere",
+      "Flee"
+    ],
+    "drops": {
+      "exp": 606,
+      "coins": 484,
+      "items": []
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ],
+    "conflicts": [
+      {
+        "field": "stats.agi",
+        "values": {
+          "super-slash": 122,
+          "torrent-load": 172
+        },
+        "note": null
+      }
+    ]
+  },
+  {
+    "id": "wild-gryphon",
+    "name": "Wild Gryphon",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Road to Babi Lighthouse",
+      "Tunnel Ruins",
+      "Venus Lighthouse",
+      "Venus Lighthouse B"
+    ],
+    "stats": {
+      "hp": 370,
+      "pp": 8,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 332,
+      "def": 112,
+      "agi": 170,
+      "lck": 10,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 90,
+      "fire": 95,
+      "wind": 110,
+      "water": 95
+    },
+    "elemental_resistance": {
+      "earth": 152,
+      "fire": 72,
+      "wind": 48,
+      "water": 110
+    },
+    "abilities": [
+      "Attack",
+      "Bind",
+      "Wing Stroke",
+      "Twin Beaks"
+    ],
+    "drops": {
+      "exp": 322,
+      "coins": 290,
+      "items": [
+        {
+          "name": "Feathered Robe",
+          "icc": 8
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "manticore-king",
+    "name": "Manticore King",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Road to Babi Lighthouse",
+      "Tunnel Ruins",
+      "Venus Lighthouse",
+      "Venus Lighthouse B"
+    ],
+    "stats": {
+      "hp": 348,
+      "pp": 33,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 317,
+      "def": 106,
+      "agi": 134,
+      "lck": 12,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 95,
+      "fire": 115,
+      "wind": 95,
+      "water": 85
+    },
+    "elemental_resistance": {
+      "earth": 100,
+      "fire": 175,
+      "wind": 100,
+      "water": 25
+    },
+    "abilities": [
+      "Attack",
+      "Eruption",
+      "Bind",
+      "Poison Tail",
+      "Lucid Prophecy"
+    ],
+    "drops": {
+      "exp": 342,
+      "coins": 240,
+      "items": [
+        {
+          "name": "Psy Crystal",
+          "icc": 7
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "willowisp",
+    "name": "Willowisp",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Road to Babi Lighthouse",
+      "Tunnel Ruins",
+      "Venus Lighthouse",
+      "Venus Lighthouse B"
+    ],
+    "stats": {
+      "hp": 209,
+      "pp": 12,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 279,
+      "def": 87,
+      "agi": 121,
+      "lck": 6,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 100,
+      "fire": 80,
+      "wind": 100,
+      "water": 95
+    },
+    "elemental_resistance": {
+      "earth": 25,
+      "fire": 72,
+      "wind": 48,
+      "water": 127
+    },
+    "abilities": [
+      "Attack",
+      "Tundra",
+      "Blue Bolt",
+      "Drain",
+      "Haunting"
+    ],
+    "drops": {
+      "exp": 227,
+      "coins": 160,
+      "items": [
+        {
+          "name": "Nut",
+          "icc": 6
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ],
+    "conflicts": [
+      {
+        "field": "elemental_power.wind",
+        "values": {
+          "super-slash": 100,
+          "torrent-load": 80
+        },
+        "note": null
+      }
+    ]
+  },
+  {
+    "id": "plated-rat",
+    "name": "Plated Rat",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Road to Babi Lighthouse",
+      "Tunnel Ruins"
+    ],
+    "stats": {
+      "hp": 203,
+      "pp": 0,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 262,
+      "def": 130,
+      "agi": 61,
+      "lck": 2,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 100,
+      "fire": 70,
+      "wind": 80,
+      "water": 80
+    },
+    "elemental_resistance": {
+      "earth": 48,
+      "fire": 25,
+      "wind": 72,
+      "water": 48
+    },
+    "abilities": [
+      "Attack",
+      "Counterstrike",
+      "Total Defense"
+    ],
+    "drops": {
+      "exp": 208,
+      "coins": 135,
+      "items": [
+        {
+          "name": "Elixir",
+          "icc": 6
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "chimera-mage",
+    "name": "Chimera Mage",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Road to Babi Lighthouse",
+      "Tunnel Ruins",
+      "Venus Lighthouse",
+      "Venus Lighthouse B"
+    ],
+    "stats": {
+      "hp": 413,
+      "pp": 28,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 326,
+      "def": 119,
+      "agi": 145,
+      "lck": 16,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 95,
+      "fire": 115,
+      "wind": 95,
+      "water": 85
+    },
+    "elemental_resistance": {
+      "earth": 100,
+      "fire": 175,
+      "wind": 100,
+      "water": 25
+    },
+    "abilities": [
+      "Attack",
+      "Eruption",
+      "Fire Blessing",
+      "Rabid Fang",
+      "Mad Dash",
+      "Recovery"
+    ],
+    "drops": {
+      "exp": 362,
+      "coins": 300,
+      "items": [
+        {
+          "name": "Spiked Armor",
+          "icc": 7
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "ice-gargoyle",
+    "name": "Ice Gargoyle",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Road to Babi Lighthouse",
+      "Tunnel Ruins",
+      "Venus Lighthouse",
+      "Venus Lighthouse B"
+    ],
+    "stats": {
+      "hp": 304,
+      "pp": 21,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 319,
+      "def": 150,
+      "agi": 100,
+      "lck": 7,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 100,
+      "fire": 100,
+      "wind": 95,
+      "water": 100
+    },
+    "elemental_resistance": {
+      "earth": 48,
+      "fire": 100,
+      "wind": 127,
+      "water": 100
+    },
+    "abilities": [
+      "Attack",
+      "Mother Gaia",
+      "Guard",
+      "Ice Blessing"
+    ],
+    "drops": {
+      "exp": 307,
+      "coins": 170,
+      "items": [
+        {
+          "name": "Potion",
+          "icc": 7
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "skull-warrior",
+    "name": "Skull Warrior",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Road to Babi Lighthouse",
+      "Tunnel Ruins",
+      "Venus Lighthouse",
+      "Venus Lighthouse B"
+    ],
+    "stats": {
+      "hp": 283,
+      "pp": 16,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 322,
+      "def": 112,
+      "agi": 130,
+      "lck": 5,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 100,
+      "fire": 80,
+      "wind": 80,
+      "water": 95
+    },
+    "elemental_resistance": {
+      "earth": 25,
+      "fire": 72,
+      "wind": 48,
+      "water": 127
+    },
+    "abilities": [
+      "Attack",
+      "Dull",
+      "Bone Charge"
+    ],
+    "drops": {
+      "exp": 301,
+      "coins": 188,
+      "items": [
+        {
+          "name": "Vial",
+          "icc": 6
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "orc-lord",
+    "name": "Orc Lord",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Road to Babi Lighthouse",
+      "Tunnel Ruins"
+    ],
+    "stats": {
+      "hp": 278,
+      "pp": 18,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 302,
+      "def": 98,
+      "agi": 70,
+      "lck": 3,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 100,
+      "fire": 85,
+      "wind": 85,
+      "water": 85
+    },
+    "elemental_resistance": {
+      "earth": 127,
+      "fire": 100,
+      "wind": 72,
+      "water": 100
+    },
+    "abilities": [
+      "Attack",
+      "Sleep",
+      "Spasm"
+    ],
+    "drops": {
+      "exp": 260,
+      "coins": 198,
+      "items": [
+        {
+          "name": "Lucky Medal",
+          "icc": 8
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "jupiter-djinni-luff",
+    "name": "Jupiter Djinni (Luff)",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": true,
+    "djinn_id": "luff",
+    "found": [
+      "Babi Lighthouse",
+      "Road to Babi Lighthouse"
+    ],
+    "stats": {
+      "hp": 688,
+      "pp": 62,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 302,
+      "def": 85,
+      "agi": 177,
+      "lck": 21,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 80,
+      "fire": 95,
+      "wind": 120,
+      "water": 95
+    },
+    "elemental_resistance": {
+      "earth": 25,
+      "fire": 100,
+      "wind": 193,
+      "water": 100
+    },
+    "abilities": [
+      "Attack",
+      "Blue Bolt",
+      "Destruct Ray",
+      "Shine Plasma",
+      "Wind Slash",
+      "Tornado",
+      "Flee"
+    ],
+    "drops": {
+      "exp": 677,
+      "coins": 506,
+      "items": []
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "grand-golem",
+    "name": "Grand Golem",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Venus Lighthouse",
+      "Venus Lighthouse B"
+    ],
+    "stats": {
+      "hp": 476,
+      "pp": 0,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 367,
+      "def": 149,
+      "agi": 80,
+      "lck": 5,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 120,
+      "fire": 95,
+      "wind": 80,
+      "water": 95
+    },
+    "elemental_resistance": {
+      "earth": 193,
+      "fire": 100,
+      "wind": 25,
+      "water": 100
+    },
+    "abilities": [
+      "Attack",
+      "Truncheon Fist"
+    ],
+    "drops": {
+      "exp": 412,
+      "coins": 208,
+      "items": [
+        {
+          "name": "Zodiac Wand",
+          "icc": 8
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "recluse",
+    "name": "Recluse",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Venus Lighthouse",
+      "Venus Lighthouse B"
+    ],
+    "stats": {
+      "hp": 221,
+      "pp": 0,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 323,
+      "def": 122,
+      "agi": 109,
+      "lck": 4,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 95,
+      "fire": 90,
+      "wind": 85,
+      "water": 85
+    },
+    "elemental_resistance": {
+      "earth": 48,
+      "fire": 25,
+      "wind": 48,
+      "water": 48
+    },
+    "abilities": [
+      "Attack",
+      "Rabid Fang",
+      "Spider Web"
+    ],
+    "drops": {
+      "exp": 243,
+      "coins": 153,
+      "items": [
+        {
+          "name": "Unicorn Ring",
+          "icc": 7
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "boulder-beast",
+    "name": "Boulder Beast",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Venus Lighthouse",
+      "Venus Lighthouse B"
+    ],
+    "stats": {
+      "hp": 211,
+      "pp": 14,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 327,
+      "def": 127,
+      "agi": 140,
+      "lck": 6,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 95,
+      "fire": 125,
+      "wind": 95,
+      "water": 75
+    },
+    "elemental_resistance": {
+      "earth": 100,
+      "fire": 193,
+      "wind": 100,
+      "water": 25
+    },
+    "abilities": [
+      "Attack",
+      "Mad Blast",
+      "Dynamite",
+      "Headbutt"
+    ],
+    "drops": {
+      "exp": 278,
+      "coins": 164,
+      "items": [
+        {
+          "name": "Water of Life",
+          "icc": 8
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ],
+    "conflicts": [
+      {
+        "field": "stats.def",
+        "values": {
+          "super-slash": 127,
+          "torrent-load": 137
+        },
+        "note": null
+      }
+    ]
+  },
+  {
+    "id": "thunder-lizard",
+    "name": "Thunder Lizard",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Venus Lighthouse",
+      "Crossbone Isle",
+      "Venus Lighthouse B",
+      "Crossbone Isle #8"
+    ],
+    "stats": {
+      "hp": 456,
+      "pp": 0,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 347,
+      "def": 133,
+      "agi": 134,
+      "lck": 10,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 80,
+      "fire": 95,
+      "wind": 120,
+      "water": 95
+    },
+    "elemental_resistance": {
+      "earth": 25,
+      "fire": 100,
+      "wind": 193,
+      "water": 100
+    },
+    "abilities": [
+      "Attack",
+      "Storm Blessing"
+    ],
+    "drops": {
+      "exp": 422,
+      "coins": 221,
+      "items": [
+        {
+          "name": "Blessed Mace",
+          "icc": 8
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "fenrir",
+    "name": "Fenrir",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Venus Lighthouse",
+      "Venus Lighthouse B"
+    ],
+    "stats": {
+      "hp": 406,
+      "pp": 0,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 357,
+      "def": 125,
+      "agi": 141,
+      "lck": 9,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 95,
+      "fire": 85,
+      "wind": 95,
+      "water": 115
+    },
+    "elemental_resistance": {
+      "earth": 100,
+      "fire": 25,
+      "wind": 100,
+      "water": 175
+    },
+    "abilities": [
+      "Attack",
+      "Ice Blessing",
+      "Wicked Howl",
+      "Double Fang"
+    ],
+    "drops": {
+      "exp": 402,
+      "coins": 212,
+      "items": [
+        {
+          "name": "Kikuichimonji",
+          "icc": 9
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "hobgoblin",
+    "name": "Hobgoblin",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Crossbone Isle",
+      "Crossbone Isle #1"
+    ],
+    "stats": {
+      "hp": 650,
+      "pp": 0,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 203,
+      "def": 54,
+      "agi": 65,
+      "lck": 9,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 100,
+      "fire": 85,
+      "wind": 85,
+      "water": 85
+    },
+    "elemental_resistance": {
+      "earth": 127,
+      "fire": 100,
+      "wind": 72,
+      "water": 100
+    },
+    "abilities": [
+      "Attack"
+    ],
+    "drops": {
+      "exp": 223,
+      "coins": 800,
+      "items": [
+        {
+          "name": "Lucky Medal",
+          "icc": 1
+        },
+        {
+          "name": "::Carries::",
+          "icc": null
+        },
+        {
+          "name": "(1)  Crystal Powder",
+          "icc": null
+        },
+        {
+          "name": "(1)  Smoke Bomb",
+          "icc": null
+        },
+        {
+          "name": "(1)  Nut",
+          "icc": null
+        },
+        {
+          "name": "(1)  Sleep Bomb",
+          "icc": null
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ],
+    "conflicts": [
+      {
+        "field": "drops.items",
+        "values": {
+          "super-slash": [
+            "lucky medal"
+          ],
+          "torrent-load": [
+            "(1)  crystal powder",
+            "(1)  nut",
+            "(1)  sleep bomb",
+            "(1)  smoke bomb",
+            "::carries::",
+            "lucky medal"
+          ]
+        },
+        "note": null
+      }
+    ]
+  },
+  {
+    "id": "mimic-8",
+    "name": "Mimic",
+    "game": "gs1",
+    "variant": 8,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Crossbone Isle",
+      "Crossbone Isle #1"
+    ],
+    "stats": {
+      "hp": 729,
+      "pp": 44,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 214,
+      "def": 59,
+      "agi": 97,
+      "lck": 14,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 95,
+      "fire": 75,
+      "wind": 105,
+      "water": 100
+    },
+    "elemental_resistance": {
+      "earth": 100,
+      "fire": 25,
+      "wind": 152,
+      "water": 127
+    },
+    "abilities": [
+      "Attack",
+      "Sonic Slash",
+      "Debilitate",
+      "Sleep",
+      "Curse",
+      "Psy Drain"
+    ],
+    "drops": {
+      "exp": 347,
+      "coins": 386,
+      "items": [
+        {
+          "name": "Potion",
+          "icc": 1
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "grisly",
+    "name": "Grisly",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Crossbone Isle",
+      "Crossbone Isle #2"
+    ],
+    "stats": {
+      "hp": 800,
+      "pp": 0,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 208,
+      "def": 63,
+      "agi": 78,
+      "lck": 13,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 100,
+      "fire": 70,
+      "wind": 80,
+      "water": 80
+    },
+    "elemental_resistance": {
+      "earth": 72,
+      "fire": 25,
+      "wind": 127,
+      "water": 72
+    },
+    "abilities": [
+      "Attack",
+      "Bear Claw",
+      "Berserk"
+    ],
+    "drops": {
+      "exp": 243,
+      "coins": 700,
+      "items": [
+        {
+          "name": "Potion",
+          "icc": 1
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "succubus",
+    "name": "Succubus",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Crossbone Isle",
+      "Crossbone Isle #2"
+    ],
+    "stats": {
+      "hp": 529,
+      "pp": 56,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 195,
+      "def": 49,
+      "agi": 101,
+      "lck": 12,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 85,
+      "fire": 85,
+      "wind": 85,
+      "water": 100
+    },
+    "elemental_resistance": {
+      "earth": 100,
+      "fire": 72,
+      "wind": 100,
+      "water": 127
+    },
+    "abilities": [
+      "Attack",
+      "Hail Prism",
+      "Wind Slash",
+      "Heartrender"
+    ],
+    "drops": {
+      "exp": 101,
+      "coins": 143,
+      "items": [
+        {
+          "name": "Crystal Powder",
+          "icc": 5
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "lich",
+    "name": "Lich",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Crossbone Isle",
+      "Crossbone Isle #3"
+    ],
+    "stats": {
+      "hp": 900,
+      "pp": 52,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 192,
+      "def": 48,
+      "agi": 106,
+      "lck": 15,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 100,
+      "fire": 95,
+      "wind": 95,
+      "water": 95
+    },
+    "elemental_resistance": {
+      "earth": 72,
+      "fire": 100,
+      "wind": 25,
+      "water": 152
+    },
+    "abilities": [
+      "Attack",
+      "Glacier",
+      "Revive",
+      "Debilitate",
+      "Enfeeble",
+      "Bind",
+      "Haunt",
+      "Curse"
+    ],
+    "drops": {
+      "exp": 263,
+      "coins": 1200,
+      "items": [
+        {
+          "name": "Psy Crystal",
+          "icc": 1
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "fiendish-ghoul",
+    "name": "Fiendish Ghoul",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Crossbone Isle",
+      "Crossbone Isle #3"
+    ],
+    "stats": {
+      "hp": 609,
+      "pp": 0,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 199,
+      "def": 45,
+      "agi": 69,
+      "lck": 3,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 100,
+      "fire": 80,
+      "wind": 80,
+      "water": 95
+    },
+    "elemental_resistance": {
+      "earth": 25,
+      "fire": 7,
+      "wind": 48,
+      "water": 72
+    },
+    "abilities": [
+      "Attack",
+      "Cannibal Fang",
+      "Bacteria Rush"
+    ],
+    "drops": {
+      "exp": 87,
+      "coins": 109,
+      "items": [
+        {
+          "name": "Antidote",
+          "icc": 5
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "gryphon",
+    "name": "Gryphon",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Crossbone Isle",
+      "Crossbone Isle #4"
+    ],
+    "stats": {
+      "hp": 1100,
+      "pp": 36,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 213,
+      "def": 56,
+      "agi": 98,
+      "lck": 19,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 90,
+      "fire": 90,
+      "wind": 110,
+      "water": 95
+    },
+    "elemental_resistance": {
+      "earth": 152,
+      "fire": 72,
+      "wind": 48,
+      "water": 110
+    },
+    "abilities": [
+      "Attack",
+      "Sonic Slash",
+      "Tornado",
+      "Impact",
+      "Ward",
+      "Bind",
+      "Wing Flutter",
+      "Twin Beaks"
+    ],
+    "drops": {
+      "exp": 303,
+      "coins": 1900,
+      "items": [
+        {
+          "name": "Potion",
+          "icc": 1
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ],
+    "conflicts": [
+      {
+        "field": "elemental_power.fire",
+        "values": {
+          "super-slash": 90,
+          "torrent-load": 95
+        },
+        "note": null
+      }
+    ]
+  },
+  {
+    "id": "lizard-king",
+    "name": "Lizard King",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Crossbone Isle",
+      "Crossbone Isle #5"
+    ],
+    "stats": {
+      "hp": 2000,
+      "pp": 52,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 285,
+      "def": 93,
+      "agi": 92,
+      "lck": 13,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 85,
+      "fire": 85,
+      "wind": 85,
+      "water": 100
+    },
+    "elemental_resistance": {
+      "earth": 100,
+      "fire": 72,
+      "wind": 100,
+      "water": 127
+    },
+    "abilities": [
+      "Attack",
+      "Hail Prism",
+      "High Impact",
+      "Blunt",
+      "Debilitate",
+      "Bind",
+      "Ice Blessing"
+    ],
+    "drops": {
+      "exp": 535,
+      "coins": 1200,
+      "items": [
+        {
+          "name": "Psy Crystal",
+          "icc": 1
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "chimera",
+    "name": "Chimera",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Crossbone Isle",
+      "Crossbone Isle #6"
+    ],
+    "stats": {
+      "hp": 1350,
+      "pp": 48,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 294,
+      "def": 90,
+      "agi": 121,
+      "lck": 18,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 95,
+      "fire": 115,
+      "wind": 95,
+      "water": 85
+    },
+    "elemental_resistance": {
+      "earth": 100,
+      "fire": 175,
+      "wind": 100,
+      "water": 25
+    },
+    "abilities": [
+      "Attack",
+      "Flare Storm",
+      "Guard",
+      "Impair",
+      "Bind",
+      "Fire Blessing",
+      "Rabid Fang",
+      "Mad Dash"
+    ],
+    "drops": {
+      "exp": 465,
+      "coins": 800,
+      "items": [
+        {
+          "name": "Potion",
+          "icc": 1
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "earth-lizard",
+    "name": "Earth Lizard",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Crossbone Isle",
+      "Crossbone Isle #7"
+    ],
+    "stats": {
+      "hp": 1550,
+      "pp": 48,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 278,
+      "def": 97,
+      "agi": 102,
+      "lck": 17,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 120,
+      "fire": 95,
+      "wind": 80,
+      "water": 95
+    },
+    "elemental_resistance": {
+      "earth": 193,
+      "fire": 100,
+      "wind": 25,
+      "water": 100
+    },
+    "abilities": [
+      "Attack",
+      "Quake Sphere",
+      "Clay Spire",
+      "Mother Gaia",
+      "Cure Well",
+      "Acid Blessing"
+    ],
+    "drops": {
+      "exp": 545,
+      "coins": 920,
+      "items": [
+        {
+          "name": "Water of Life",
+          "icc": 1
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "poison-toad",
+    "name": "Poison Toad",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Crossbone Isle",
+      "Crossbone Isle #8"
+    ],
+    "stats": {
+      "hp": 2250,
+      "pp": 0,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 363,
+      "def": 97,
+      "agi": 93,
+      "lck": 20,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 95,
+      "fire": 85,
+      "wind": 95,
+      "water": 115
+    },
+    "elemental_resistance": {
+      "earth": 100,
+      "fire": 25,
+      "wind": 100,
+      "water": 175
+    },
+    "abilities": [
+      "Attack",
+      "Acid Blessing",
+      "Rotten Blood",
+      "Rabid Fang"
+    ],
+    "drops": {
+      "exp": 1732,
+      "coins": 2200,
+      "items": [
+        {
+          "name": "Water of Life",
+          "icc": 1
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "cerebus",
+    "name": "Cerebus",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Crossbone Isle",
+      "Crossbone Isle #9"
+    ],
+    "stats": {
+      "hp": 2200,
+      "pp": 42,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 369,
+      "def": 130,
+      "agi": 151,
+      "lck": 22,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 95,
+      "fire": 85,
+      "wind": 95,
+      "water": 115
+    },
+    "elemental_resistance": {
+      "earth": 100,
+      "fire": 25,
+      "wind": 100,
+      "water": 175
+    },
+    "abilities": [
+      "Attack",
+      "Ice Missile",
+      "Restore",
+      "Ice Blessing",
+      "Wicked Howl",
+      "Double Fang"
+    ],
+    "drops": {
+      "exp": 1863,
+      "coins": 3200,
+      "items": [
+        {
+          "name": "Psy Crystal",
+          "icc": 1
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "mimic-9",
+    "name": "Mimic",
+    "game": "gs1",
+    "variant": 9,
+    "is_djinn_enemy": false,
+    "djinn_id": null,
+    "found": [
+      "Crossbone Isle",
+      "Crossbone Isle #10"
+    ],
+    "stats": {
+      "hp": 1206,
+      "pp": 68,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 367,
+      "def": 126,
+      "agi": 167,
+      "lck": 18,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 95,
+      "fire": 75,
+      "wind": 105,
+      "water": 100
+    },
+    "elemental_resistance": {
+      "earth": 100,
+      "fire": 25,
+      "wind": 152,
+      "water": 127
+    },
+    "abilities": [
+      "Attack",
+      "Spark Plasma",
+      "Debilitate",
+      "Sleep",
+      "Curse",
+      "Condemn",
+      "Psy Drain"
+    ],
+    "drops": {
+      "exp": 1009,
+      "coins": 643,
+      "items": [
+        {
+          "name": "Potion",
+          "icc": 1
+        }
+      ]
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  },
+  {
+    "id": "venus-djinni",
+    "name": "Venus Djinni (???)",
+    "game": "gs1",
+    "variant": null,
+    "is_djinn_enemy": true,
+    "djinn_id": null,
+    "found": [
+      "[Not In Game]"
+    ],
+    "stats": {
+      "hp": 623,
+      "pp": 51,
+      "hp_regen": 0,
+      "pp_regen": 0,
+      "atk": 271,
+      "def": 71,
+      "agi": 160,
+      "lck": 18,
+      "turns": 1
+    },
+    "elemental_power": {
+      "earth": 120,
+      "fire": 95,
+      "wind": 80,
+      "water": 95
+    },
+    "elemental_resistance": {
+      "earth": 193,
+      "fire": 100,
+      "wind": 25,
+      "water": 100
+    },
+    "abilities": [
+      "Attack",
+      "Quake Sphere",
+      "Clay Spire",
+      "Mother Gaia",
+      "Wild Growth",
+      "Briar",
+      "Flee"
+    ],
+    "drops": {
+      "exp": 534,
+      "coins": 464,
+      "items": []
+    },
+    "sources": [
+      "super-slash",
+      "torrent-load"
+    ]
+  }
+]

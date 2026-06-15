@@ -2,8 +2,8 @@
 
 File: `gs1_schema.md`
 Lore-Engine | `schema/gs1/`
-Last updated: 2026-06-11
-Status: v1.1
+Last updated: 2026-06-15
+Status: v1.3
 
 ---
 
@@ -40,6 +40,21 @@ Status: v1.1
   - [Example Entry: Wish (party heal)](#example-entry-wish-party-heal)
   - [Example Entry: Force (item-granted utility)](#example-entry-force-item-granted-utility)
   - [Notes for CC (Extraction Instructions)](#notes-for-cc-extraction-instructions-4)
+- [Schema: `items`](#schema-items)
+  - [Item Type Enum](#item-type-enum)
+  - [Example Entry: Herb (consumable)](#example-entry-herb-consumable)
+  - [Example Entry: Apple (stat boost)](#example-entry-apple-stat-boost)
+  - [Example Entry: Black Orb (key item)](#example-entry-black-orb-key-item)
+  - [Notes for CC (Extraction Instructions)](#notes-for-cc-extraction-instructions-5)
+- [Schema: `summons`](#schema-summons)
+  - [Example Entry: Judgment](#example-entry-judgment)
+  - [Notes for CC (Extraction Instructions)](#notes-for-cc-extraction-instructions-6)
+- [Schema: `shops`](#schema-shops)
+  - [Example Entry: Vale](#example-entry-vale)
+  - [Notes for CC (Extraction Instructions)](#notes-for-cc-extraction-instructions-7)
+- [Schema: `monsters`](#schema-monsters)
+  - [Example Entry: Vermin](#example-entry-vermin)
+  - [Notes for CC (Extraction Instructions)](#notes-for-cc-extraction-instructions-8)
 
 ---
 
@@ -49,7 +64,45 @@ Status: v1.1
 - String values use `lowercase` unless the value is a proper noun (e.g. `"Flint"`, `"Vale"`).
 - Use `0` when a stat bonus is confirmed to be zero. Use `null` only when data is missing or unconfirmed from all sources.
 - `sources` lists every FAQ or reference that contributed data to this entry. Add a source whenever a new document is ingested.
-- When two sources conflict on the same field, do NOT silently pick a winner. Flag it using `conflicts` (see field definition below).
+
+### Conflict Resolution Policy
+
+When sources disagree on a field, do NOT silently drop the disagreement. Resolve
+to the single best value when the evidence allows, and keep an audit trail in
+`conflicts`. Precedence:
+
+1. **Majority** — if more sources agree on one value than any other, take the
+   majority value (an outlier is almost always a transcription error).
+2. **Authority** — when there is no clear majority (or a tie), defer to the most
+   authoritative source for that field's domain (see Source Authority Ranking).
+3. **Unresolved** — if neither majority nor authority can decide (e.g. the same
+   thing named two ways, or a genuine ambiguity), keep the best available value
+   and mark the conflict `unresolved` with a reason.
+
+The field always holds the **resolved value**; `conflicts[]` records who said
+what and how it was resolved. The conflict object shape (used by every schema):
+
+```
+conflicts[].field       string   Dot-notation path. e.g. "location.area", "stat_bonus.hp"
+conflicts[].values      object   Map of source_id → that source's value.
+conflicts[].resolution  string   "majority" | "authority" | "unresolved"  (optional;
+                                 omit on legacy 2-source flags that predate this policy)
+conflicts[].note        string   Rationale. e.g. "4/6 incl. fandom-wiki", "terence authoritative".
+```
+
+### Source Authority Ranking
+
+Used for the **authority** tiebreak above. Authority is per-domain:
+
+| Field domain | Most authoritative | Then |
+|---|---|---|
+| numeric stats / battle mechanics | `terence` (data-mined mechanics FAQ) | `fandom-wiki` / `golden-sun-wiki` |
+| locations | `plz2bstfu` (dedicated location list), `fandom-wiki` / `golden-sun-wiki` | others |
+| boss attacks / encounters | dedicated fandom single-boss pages (`fandom-tret`, …), `linkt` | others |
+
+All other compilation sources (`telago`, `bfgamer`, `shotgunnova`,
+`electrospecter`, `super-slash`, `torrent-load`) rank below the above; they are
+strong for **corroboration / majority** but lose authority tiebreaks.
 
 ### Master Source IDs
 
@@ -73,6 +126,12 @@ This table lists every source ID used across all schemas in this file.
 | `tetzcatlipoca` | Psynergy Guide v3.11 by Tetzcatlipoca (GameFAQs, 2004; raw file named "Psynergy Guide - nintendos_own.txt") |
 | `jiggyhunter` | Psynergy List v1.1 by Jiggyhunter (GameFAQs, 2002) |
 | `strawhat` | Psynergy/Class Guide v1.01 by strawhat (GameFAQs, 2005) |
+| `super-slash` | Various data FAQ by Super Slash (GameFAQs; item/weapon/armor/djinn/class/psynergy/enemy/shop lists) |
+| `telago` | Djinn/Class/Items/Psynergy appendix by Telago (GameFAQs; "Djinn Class Items Phynergy") |
+| `bfgamer` | Djinn/Items/Psynergy guide by BFGamer (GameFAQs) |
+| `shotgunnova` | Various data FAQ by Shotgunnova (GameFAQs; psynergy/class/djinn/shop/equipment lists) |
+| `torrent-load` | Comprehensive Enemy List v1.52 by Torrent Lord (GameFAQs, 2005; full bestiary with regen, abilities, drop rates) |
+| `electrospecter` | Classes/Djinn/Weapons/Armor/Equipment guide by ElectroSpecter (GameFAQs) |
 
 Add new rows here when new sources are ingested.
 
@@ -116,14 +175,21 @@ location            object            YES        Where to find this Djinni in GS
                                                  caveats. null if none.
   .source           string            YES        Which source this location description came from.
 
+must_fight          boolean           YES        true if you must battle the Djinni to obtain it.
+                                                 Derived from the §XIII bestiary: a Djinni that
+                                                 appears as an "X Djinni" enemy must be fought.
+                                                 false for Djinn that join automatically or via a
+                                                 puzzle with no battle.
+
 sources             array of string   YES        All FAQs/references that contributed data.
                                                  Use short identifiers (see Source IDs below).
 
-conflicts           array of object   NO         Only present if two sources disagree on a field.
-                                                 Omit this field entirely if no conflicts exist.
+conflicts           array of object   NO         Resolved disagreements (see Conflict Resolution
+                                                 Policy). Omit entirely if no conflicts exist.
   [].field          string            YES        Which field the conflict is on. e.g. "location.area"
-  [].values         object            YES        Map of source_id → conflicting value.
-  [].note           string | null     NO         Optional human note explaining the discrepancy.
+  [].values         object            YES        Map of source_id → that source's value.
+  [].resolution     string            NO         "majority" | "authority" | "unresolved".
+  [].note           string | null     NO         Rationale for the resolution.
 ```
 
 ### Damage Format
@@ -169,7 +235,8 @@ See Master Source IDs table above.
     "notes": null,
     "source": "golden-sun-wiki"
   },
-  "sources": ["plz2bstfu", "terence", "golden-sun-wiki"]
+  "must_fight": false,
+  "sources": ["plz2bstfu", "terence", "golden-sun-wiki", "telago", "bfgamer", "shotgunnova", "electrospecter", "super-slash"]
 }
 ```
 
@@ -221,9 +288,15 @@ When extracting Djinn data from raw source files:
 1. **One JSON object per Djinni.** All 28 GS1 Djinn should produce 28 entries.
 2. **Use `0` for confirmed-zero stat bonuses**, not `null`. Terence's table uses `--` to mean 0 — translate these to `0`.
 3. **Preserve original location prose** in `location.description`. Do not paraphrase or summarise — keep it close to the source wording.
-4. **Flag conflicts explicitly** using the `conflicts` field. Do not silently pick one source over another.
+4. **Resolve conflicts** per the Conflict Resolution Policy (majority → authority
+   → unresolved) and record them in `conflicts` with `resolution` + `note`.
+   For stat disagreements `terence` is authoritative; for location names use
+   majority across the location sources.
 5. **Add the source ID** to `sources` for every field you populate from that document.
-6. **Do not invent data.** If a field cannot be determined from available sources, use `null` and do not guess.
+6. **`must_fight`**: derive from the §XIII bestiary (`monsters.json`) — a Djinni
+   listed as an "X Djinni" enemy must be fought. BFGamer's "Fight: Y/N" column
+   corroborates (but only covers the first few Djinn).
+7. **Do not invent data.** If a field cannot be determined from available sources, use `null` and do not guess.
 
 ---
 
@@ -1611,3 +1684,399 @@ When extracting psynergy data from raw source files:
    caveats ("restores AROUND 300 HP") go to `effect_notes`.
 9. **Do not invent data.** Jiggyhunter's "Description Needed" entries
    contribute PP/range only. If no source states a value, use null.
+
+---
+
+## Schema: `items`
+
+One entry per non-equippable item: consumables, stat-boost items, and key items.
+Equippable gear (weapons, armor, rings/accessories) lives in `equipment.json`, NOT here.
+
+File: `data/gs1/items.json`
+
+```
+Field               Type              Required   Notes
+---------------------------------------------------------------------------
+id                  string            YES        Lowercase, hyphens only. e.g. "herb",
+                                                 "water-of-life", "black-orb"
+name                string            YES        Display name as it appears in-game.
+game                string            YES        Always "gs1" for this file.
+item_type           string            YES        One of: "consumable" | "stat_boost" | "key"
+                                                 See Item Type Enum below.
+
+effect              object            YES        What the item does.
+  .description      string            YES        Plain English. Preserve source wording.
+  .target          string | null     YES        Who/what it affects when used.
+                                                 One of: "ally" | "party" | "enemy" | "self" | null
+                                                 null for key items with no battle/menu use.
+  .stat_boosted    string | null     YES        For stat_boost items only: which stat is
+                                                 permanently raised. One of:
+                                                 "atk" | "def" | "hp" | "pp" | "agi" | "lck".
+                                                 null for non-stat_boost items.
+
+usable_in_battle    boolean           YES        true if the item can be selected/thrown in
+                                                 battle (heals, revives, status, thrown damage).
+                                                 false for field-only and key items.
+
+buy_price           integer | null    YES        Shop purchase price in coins.
+                                                 null if not sold in shops ("N/A" in source).
+sell_price          integer | null    YES        Sell value in coins. null if unsellable/unknown.
+
+acquisition         object | null     NO         Where/how to obtain, beyond ordinary shops.
+                                                 null when the item is only shop-bought or its
+                                                 source gives no acquisition detail.
+  .method           string            YES        "shop" | "chest" | "lucky_wheels" | "drop" |
+                                                 "event" | "field" | "unobtainable"
+  .location         string | null     YES        Town/dungeon/monster source. null if unknown.
+  .notes            string | null     NO         Extra conditions or caveats.
+
+sources             array of string   YES        All source IDs that contributed data.
+conflicts           array of object   NO         Only present if sources disagree on a field.
+                                                 Same shape as in other schemas.
+  [].field          string            YES        Dot-notation path. e.g. "sell_price"
+  [].values         object            YES        Map of source_id → conflicting value.
+  [].note           string | null     NO         Optional human note.
+```
+
+### Item Type Enum
+
+Derived from Super Slash's "Item List" sub-headings:
+
+| item_type | Meaning | Examples |
+|---|---|---|
+| `consumable` | Used up on use: heals, status cures, thrown battle items, special tokens | Herb, Potion, Antidote, Smoke Bomb, Game Ticket |
+| `stat_boost` | Permanently raises one stat of a party member | Apple, Cookie, Power Bread |
+| `key` | Story/progression items; no HP/PP/battle effect | Black Orb, Mars Star, Cell Key |
+
+Thrown battle items (Crystal Powder, Sleep Bomb, Smoke Bomb, Weasel's Claw) are
+`consumable` with `usable_in_battle: true` and `effect.target: "enemy"`.
+
+### Example Entry: Herb (consumable)
+
+```json
+{
+  "id": "herb",
+  "name": "Herb",
+  "game": "gs1",
+  "item_type": "consumable",
+  "effect": {
+    "description": "Replenishes 50 HP.",
+    "target": "ally",
+    "stat_boosted": null
+  },
+  "usable_in_battle": true,
+  "buy_price": 10,
+  "sell_price": 7,
+  "acquisition": null,
+  "sources": ["super-slash"]
+}
+```
+
+### Example Entry: Apple (stat boost)
+
+```json
+{
+  "id": "apple",
+  "name": "Apple",
+  "game": "gs1",
+  "item_type": "stat_boost",
+  "effect": {
+    "description": "Permanently boosts a party member's Attack.",
+    "target": "ally",
+    "stat_boosted": "atk"
+  },
+  "usable_in_battle": false,
+  "buy_price": null,
+  "sell_price": 375,
+  "acquisition": null,
+  "sources": ["super-slash"]
+}
+```
+
+### Example Entry: Black Orb (key item)
+
+```json
+{
+  "id": "black-orb",
+  "name": "Black Orb",
+  "game": "gs1",
+  "item_type": "key",
+  "effect": {
+    "description": "A mysterious orb that gets Babi's ship sailing.",
+    "target": null,
+    "stat_boosted": null
+  },
+  "usable_in_battle": false,
+  "buy_price": null,
+  "sell_price": null,
+  "acquisition": null,
+  "sources": ["super-slash"]
+}
+```
+
+### Notes for CC (Extraction Instructions)
+
+When extracting item data:
+
+1. **Scope**: consumables, stat-boost items, key items ONLY. Do NOT include
+   weapons, armor, or rings/accessories — those stay in `equipment.json`.
+2. **Primary source**: Super Slash §VI "Item List" (full list with Buy/Sell
+   prices and descriptions, grouped into Consumable / Stat-Increasing / Key).
+   Map each sub-heading to `item_type`.
+3. **buy_price / sell_price**: from Super Slash "Buy Price" / "Sells For".
+   Translate "N/A" to `null`. Do NOT invent a buy price for items Super Slash
+   marks N/A, even if another source lists a nominal value — note that in
+   `acquisition.notes` or `conflicts` instead.
+4. **acquisition**: populate from rockettrekkie (Artifacts Guide) for the items
+   it covers (Potion, Psy Crystal, Water of Life, Hermes' Water, Empty Bottle,
+   Game Ticket, Lucky Medal, Cell Key). null when no source gives detail.
+5. **Migrated entries**: Potion, Psy Crystal, Water of Life, Hermes' Water,
+   Empty Bottle, Game Ticket, Lucky Medal, Cell Key were previously misfiled in
+   `equipment.json` (category "item"). They now live here; their rockettrekkie
+   acquisition/use data is preserved. The 6 rings stay in `equipment.json`.
+6. **usable_in_battle**: true for HP/PP restore, revive, status cure, and thrown
+   damage/status items. false for stat_boost, field-only (Sacred Feather), and
+   key items.
+7. **Do not invent data.** Use `null` for any field no source confirms.
+
+---
+
+## Schema: `summons`
+
+One entry per summon spirit. GS1 has 16 summons: 4 per element, unlocked by
+having that many Djinn of the element on Standby in battle.
+
+File: `data/gs1/summons.json`
+
+```
+Field               Type              Required   Notes
+---------------------------------------------------------------------------
+id                  string            YES        Lowercase, hyphens only. e.g. "judgment",
+                                                 "ramses". Base elemental summons share their
+                                                 element's name: "venus", "mars", "jupiter",
+                                                 "mercury".
+name                string            YES        Display name. Use in-game GS1 spelling
+                                                 (e.g. "Judgment", not "Judgement").
+element             string            YES        One of: "earth" | "fire" | "wind" | "water"
+game                string            YES        Always "gs1" for this file.
+djinn_required      integer           YES        Number of Standby Djinn of `element` needed to
+                                                 summon (1-4). Also functions as the summon's
+                                                 tier within its element (1 = weakest).
+damage_power        integer | null    YES        Base summon power. null when no ingested source
+                                                 provides a number (current sources do not).
+effect              string | null     YES        Special/secondary effect text. null if none/unknown.
+sources             array of string   YES        All source IDs that contributed data.
+conflicts           array of object   NO         Only if sources disagree. Same shape as elsewhere.
+```
+
+### Example Entry: Judgment
+
+```json
+{
+  "id": "judgment",
+  "name": "Judgment",
+  "element": "earth",
+  "game": "gs1",
+  "djinn_required": 4,
+  "damage_power": null,
+  "effect": null,
+  "sources": ["telago", "bfgamer"]
+}
+```
+
+### Notes for CC (Extraction Instructions)
+
+When extracting summon data:
+
+1. **16 entries total**: 4 per element × 4 elements. Map the Djinn-count →
+   spirit name from Telago §2 "Summons Table" and BFGamer §6.2.
+2. **element ↔ Djinn type**: Venus = earth, Mars = fire, Jupiter = wind,
+   Mercury = water.
+3. **djinn_required** = the standby-Djinn count beside the spirit name (1-4).
+4. **Spelling**: prefer in-game GS1 spelling. "Judgment" (Telago), not
+   "Judgement" (BFGamer) — a spelling variant, not a data conflict.
+5. **damage_power / effect**: current ingested sources (Telago, BFGamer,
+   Super Slash) only list names; leave these `null`. Populate later if a
+   source with summon power numbers is ingested.
+6. **Do not invent data.**
+
+---
+
+## Schema: `shops`
+
+One entry per town that has shops. Each entry lists the town's combined stock
+(weapons, armor, items) with buy price. Stock names reference `equipment.json`
+and `items.json` entries by display name.
+
+File: `data/gs1/shops.json`
+
+```
+Field               Type              Required   Notes
+---------------------------------------------------------------------------
+id                  string            YES        Town slug. e.g. "vale", "lalivero"
+name                string            YES        Town display name. e.g. "Vale"
+game                string            YES        Always "gs1" for this file.
+availability_notes  string | null     YES        Conditions on when the shop opens, if any.
+                                                 e.g. "Shops are closed until Tret's curse is
+                                                 lifted." null when unconditional.
+
+stock               array of object   YES        Everything the town sells.
+  [].name           string            YES        Display name (matches equipment.json/items.json).
+  [].category       string            YES        One of: "weapon" | "armor" | "item"
+  [].price          integer           YES        Buy price in coins.
+  [].is_artifact    boolean           YES        true if sold as an artifact (Shotgunnova marks
+                                                 these with "*"; they appear in shops only after
+                                                 being sold once, or are stocked specially).
+
+sources             array of string   YES        All source IDs that contributed data.
+conflicts           array of object   NO         Only if sources disagree. Same shape as elsewhere.
+  [].field          string            YES        e.g. "stock[Wooden Stick].price"
+  [].values         object            YES        Map of source_id → conflicting value.
+  [].note           string | null     NO
+```
+
+### Example Entry: Vale
+
+```json
+{
+  "id": "vale",
+  "name": "Vale",
+  "game": "gs1",
+  "availability_notes": null,
+  "stock": [
+    { "name": "Herb", "category": "item", "price": 10, "is_artifact": false },
+    { "name": "Short Sword", "category": "weapon", "price": 120, "is_artifact": false },
+    { "name": "Travel Vest", "category": "armor", "price": 50, "is_artifact": false }
+  ],
+  "sources": ["shotgunnova", "super-slash"],
+  "conflicts": [
+    {
+      "field": "stock[Wooden Stick].price",
+      "values": { "shotgunnova": 60, "super-slash": 40 },
+      "note": null
+    }
+  ]
+}
+```
+
+### Notes for CC (Extraction Instructions)
+
+When extracting shop data:
+
+1. **One entry per town.** GS1 has 12 shop towns: Vale, Vault, Bilibin, Imil,
+   Kolima, Xian, Altin, Kalay, Tolbi, Lunpa, Suhalla, Lalivero.
+2. **Primary source**: Shotgunnova [SHPL] — one combined table per town with a
+   COST column and "*" artifact markers. Derive `category` from which stat
+   column is filled: DEF → armor (incl. gloves like War Gloves), else ATK →
+   weapon, else (consumable) → item.
+3. **is_artifact**: true when the Shotgunnova row begins with "*".
+4. **Cross-check** against Super Slash §XIV (which splits Weapon/Armor/Item
+   shops per town but OMITS artifacts). Flag price disagreements in `conflicts`
+   (e.g. Wooden Stick 60 vs 40, Circlet 130 vs 120, Battle Rapier 2800 vs 2900).
+   Super Slash's omission of artifacts is NOT a conflict.
+5. **availability_notes**: capture Shotgunnova's bracketed notes (Imil, Kolima,
+   Lunpa).
+6. **Do not invent data.**
+
+---
+
+## Schema: `monsters`
+
+One entry per enemy stat-line in the GS1 bestiary. Covers regular enemies,
+fightable Djinn, and boss stat-entries. Bosses also have a richer entry in
+`bosses.json` (attacks, encounters, strategy); here they appear as a flat
+stat-line cross-linked via `boss_id`. Use `is_boss` to filter them out.
+
+File: `data/gs1/monsters.json`
+
+```
+Field                 Type              Required   Notes
+---------------------------------------------------------------------------
+id                    string            YES        Lowercase, hyphens. Includes variant suffix.
+                                                   e.g. "vermin-1", "mimic-3", "mars-djinni-forge"
+name                  string            YES        Base display name without variant number.
+                                                   e.g. "Vermin", "Mimic", "Saturos"
+game                  string            YES        Always "gs1".
+variant               integer | null    YES        Variant number from Super Slash "(n)" suffix.
+                                                   null when the enemy has no variant.
+is_boss               boolean           YES        true if this stat-line is a boss (links bosses.json).
+boss_id               string | null     YES        bosses.json id when is_boss, else null.
+is_djinn_enemy        boolean           YES        true for fightable Djinn ("X Djinni (Name)").
+djinn_id              string | null     YES        djinn.json id when is_djinn_enemy, else null.
+                                                   null for the secret/unknown Venus Djinni.
+
+found                 array of string   YES        Locations where encountered. Union of sources.
+stats                 object            YES
+  .hp                 integer | null    YES
+  .pp                 integer | null    YES
+  .hp_regen           integer | null    YES        HP regen/turn (Torrent only; null if unknown).
+  .pp_regen           integer | null    YES        PP regen/turn (Torrent only).
+  .atk                integer | null    YES
+  .def                integer | null    YES
+  .agi                integer | null    YES
+  .lck                integer | null    YES
+  .turns              integer | null    YES        Actions per turn.
+
+elemental_power       object            YES        Attack power per element. Map by element NAME,
+                                                   not column order (sources differ).
+  .earth/.fire/.wind/.water  integer    YES        Venus=earth, Mars=fire, Jupiter=wind, Mercury=water.
+elemental_resistance  object            YES        Same shape as elemental_power.
+
+abilities             array of string   YES        Move names (Torrent ::Abilities::). May include
+                                                   "Attack"/"Defend". [] if none listed.
+drops                 object            YES
+  .exp                integer | null    YES
+  .coins              integer | null    YES
+  .items              array of object   YES        [] if no item drop.
+    [].name           string            YES        Item name (matches items.json/equipment.json).
+    [].icc            integer | null    YES        Torrent "Item Class Chance" (drop-rate class).
+                                                   null if only Super Slash lists the item.
+
+sources               array of string   YES
+conflicts             array of object   NO         Cross-source stat disagreements. Same shape as elsewhere.
+```
+
+### Example Entry: Vermin
+
+```json
+{
+  "id": "vermin-1",
+  "name": "Vermin",
+  "game": "gs1",
+  "variant": 1,
+  "is_boss": false,
+  "boss_id": null,
+  "is_djinn_enemy": false,
+  "djinn_id": null,
+  "found": ["Vale", "Sol Sanctum"],
+  "stats": { "hp": 20, "pp": 0, "hp_regen": 0, "pp_regen": 0, "atk": 23, "def": 7, "agi": 7, "lck": 2, "turns": 1 },
+  "elemental_power": { "earth": 100, "fire": 70, "wind": 80, "water": 80 },
+  "elemental_resistance": { "earth": 48, "fire": 25, "wind": 72, "water": 48 },
+  "abilities": ["Attack", "Defend"],
+  "drops": { "exp": 2, "coins": 2, "items": [ { "name": "Herb", "icc": 5 } ] },
+  "sources": ["super-slash", "torrent-load"]
+}
+```
+
+### Notes for CC (Extraction Instructions)
+
+When extracting monster data (preferably via `scripts/monsters_extract.py`):
+
+1. **Two aligned sources**: Super Slash §XIII and Torrent Load complete list
+   each contain the SAME 152 enemies in the SAME order — match by index.
+2. **Element mapping is by NAME, not column**: Super Slash lists Venus/Mars/
+   Jupiter/Mercury; Torrent lists Ven/Mrc/Mar/Jup. Map Venus=earth, Mars=fire,
+   Jupiter=wind, Mercury=water in both.
+3. **regen + abilities + drop ICC**: Torrent only. Super Slash has no regen,
+   no ability list, and no drop rates.
+4. **variant**: from Super Slash "(n)" suffix (Vermin (1) → variant 1). The
+   parenthetical in "Mars Djinni (Forge)" is the Djinn name, not a variant.
+5. **is_boss / boss_id**: map boss stat-lines to `bosses.json`. Mystery Woman →
+   menardi, Mystery Man → saturos (prologue forms). Saturos/Menardi appear more
+   than once (different encounters) — all link to the same boss_id.
+6. **is_djinn_enemy / djinn_id**: "X Djinni (Name)" → link djinn.json by the
+   inner name. The secret "Venus Djinni (???)" / "Unknown Venus Djinni" has
+   djinn_id null.
+7. **conflicts**: flag any stat/elemental/drop disagreement between the two
+   sources. Do not silently pick a winner (Super Slash is the default value).
+8. **Do not invent data.**

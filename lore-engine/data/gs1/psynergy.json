@@ -25,7 +25,10 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -53,7 +56,10 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -81,7 +87,10 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -111,7 +120,10 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -137,7 +149,10 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -163,7 +178,26 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
+    ],
+    "conflicts": [
+      {
+        "field": "pp_cost",
+        "values": {
+          "jiggyhunter": 4,
+          "tetzcatlipoca": 4,
+          "strawhat": 4,
+          "plz2bstfu-class": 4,
+          "super-slash": 4,
+          "shotgunnova": 2,
+          "bfgamer": 4
+        },
+        "resolution": "majority",
+        "note": "majority: 4×6/2×1"
+      }
     ]
   },
   {
@@ -189,7 +223,26 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
+    ],
+    "conflicts": [
+      {
+        "field": "pp_cost",
+        "values": {
+          "jiggyhunter": 7,
+          "tetzcatlipoca": 7,
+          "strawhat": 7,
+          "plz2bstfu-class": 7,
+          "super-slash": 7,
+          "shotgunnova": 4,
+          "bfgamer": 7
+        },
+        "resolution": "majority",
+        "note": "majority: 7×6/4×1"
+      }
     ]
   },
   {
@@ -215,7 +268,26 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
+    ],
+    "conflicts": [
+      {
+        "field": "pp_cost",
+        "values": {
+          "jiggyhunter": 15,
+          "tetzcatlipoca": 15,
+          "strawhat": 15,
+          "plz2bstfu-class": 15,
+          "super-slash": 15,
+          "shotgunnova": 14,
+          "bfgamer": 15
+        },
+        "resolution": "majority",
+        "note": "majority: 15×6/14×1"
+      }
     ]
   },
   {
@@ -242,7 +314,10 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ],
     "conflicts": [
       {
@@ -250,9 +325,12 @@
         "values": {
           "jiggyhunter": 1,
           "tetzcatlipoca": 1,
-          "strawhat": 3
+          "strawhat": 3,
+          "super-slash": 1,
+          "shotgunnova": 1
         },
-        "note": "Majority value (1) used."
+        "resolution": "majority",
+        "note": "majority: 1×4/3×1"
       }
     ]
   },
@@ -280,7 +358,10 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -306,7 +387,10 @@
     "sources": [
       "jiggyhunter",
       "tetzcatlipoca",
-      "strawhat"
+      "strawhat",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ],
     "conflicts": [
       {
@@ -314,9 +398,12 @@
         "values": {
           "jiggyhunter": 5,
           "tetzcatlipoca": 3,
-          "strawhat": 3
+          "strawhat": 3,
+          "super-slash": 3,
+          "shotgunnova": 3
         },
-        "note": "Majority value (3) used."
+        "resolution": "majority",
+        "note": "majority: 3×4/5×1"
       }
     ]
   },
@@ -345,7 +432,10 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -372,7 +462,10 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -398,16 +491,23 @@
     "sources": [
       "jiggyhunter",
       "tetzcatlipoca",
-      "strawhat"
+      "strawhat",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ],
     "conflicts": [
       {
         "field": "pp_cost",
         "values": {
           "tetzcatlipoca": 32,
-          "strawhat": 17
+          "strawhat": 17,
+          "super-slash": 32,
+          "shotgunnova": 32,
+          "bfgamer": 32
         },
-        "note": "strawhat's 17 PP appears copied from its Mother Gaia entry. tetzcatlipoca value used. jiggyhunter lists the ability without PP ('Description Needed')."
+        "resolution": "majority",
+        "note": "majority: 32×4/17×1"
       }
     ]
   },
@@ -438,7 +538,10 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -467,7 +570,10 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -496,7 +602,10 @@
     "sources": [
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ],
     "conflicts": [
       {
@@ -504,9 +613,13 @@
         "values": {
           "tetzcatlipoca": 19,
           "strawhat": 15,
-          "plz2bstfu-class": 19
+          "plz2bstfu-class": 19,
+          "super-slash": 19,
+          "shotgunnova": 19,
+          "bfgamer": 19
         },
-        "note": "Majority value (19) used."
+        "resolution": "majority",
+        "note": "majority: 19×5/15×1"
       }
     ]
   },
@@ -534,7 +647,10 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -561,7 +677,10 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -586,7 +705,9 @@
     "acquired_via_item": null,
     "sources": [
       "tetzcatlipoca",
-      "strawhat"
+      "strawhat",
+      "super-slash",
+      "shotgunnova"
     ]
   },
   {
@@ -614,7 +735,10 @@
       "tetzcatlipoca",
       "strawhat",
       "plz2bstfu-class",
-      "aku-chi"
+      "aku-chi",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -641,7 +765,10 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -668,7 +795,10 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -693,7 +823,10 @@
     "acquired_via_item": null,
     "sources": [
       "tetzcatlipoca",
-      "strawhat"
+      "strawhat",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -722,7 +855,9 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "bfgamer"
     ]
   },
   {
@@ -752,7 +887,9 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "bfgamer"
     ],
     "conflicts": [
       {
@@ -761,9 +898,12 @@
           "jiggyhunter": 6,
           "tetzcatlipoca": 6,
           "strawhat": 5,
-          "plz2bstfu-class": 6
+          "plz2bstfu-class": 6,
+          "super-slash": 6,
+          "bfgamer": 6
         },
-        "note": "Majority value (6) used."
+        "resolution": "majority",
+        "note": "majority: 6×5/5×1"
       }
     ]
   },
@@ -792,7 +932,9 @@
     "sources": [
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "bfgamer"
     ]
   },
   {
@@ -820,7 +962,10 @@
     "sources": [
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ],
     "conflicts": [
       {
@@ -828,9 +973,13 @@
         "values": {
           "tetzcatlipoca": 6,
           "strawhat": 4,
-          "plz2bstfu-class": 6
+          "plz2bstfu-class": 6,
+          "super-slash": 6,
+          "shotgunnova": 6,
+          "bfgamer": 6
         },
-        "note": "Majority value (6) used."
+        "resolution": "majority",
+        "note": "majority: 6×5/4×1"
       }
     ]
   },
@@ -859,7 +1008,10 @@
     "sources": [
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -886,7 +1038,10 @@
     "acquired_via_item": null,
     "sources": [
       "tetzcatlipoca",
-      "strawhat"
+      "strawhat",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -911,7 +1066,8 @@
     "acquired_via_item": null,
     "sources": [
       "tetzcatlipoca",
-      "strawhat"
+      "strawhat",
+      "super-slash"
     ]
   },
   {
@@ -937,7 +1093,9 @@
     "sources": [
       "tetzcatlipoca",
       "strawhat",
-      "aku-chi"
+      "aku-chi",
+      "super-slash",
+      "shotgunnova"
     ]
   },
   {
@@ -963,7 +1121,10 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -990,7 +1151,10 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -1017,7 +1181,10 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -1044,7 +1211,10 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -1070,7 +1240,10 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -1096,7 +1269,10 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -1121,7 +1297,10 @@
     "sources": [
       "jiggyhunter",
       "tetzcatlipoca",
-      "strawhat"
+      "strawhat",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -1149,7 +1328,10 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -1177,7 +1359,10 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -1204,7 +1389,10 @@
     "sources": [
       "jiggyhunter",
       "tetzcatlipoca",
-      "strawhat"
+      "strawhat",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -1231,7 +1419,9 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -1258,7 +1448,10 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -1283,7 +1476,10 @@
     "acquired_via_item": null,
     "sources": [
       "tetzcatlipoca",
-      "strawhat"
+      "strawhat",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -1311,7 +1507,10 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -1339,7 +1538,25 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
+    ],
+    "conflicts": [
+      {
+        "field": "range",
+        "values": {
+          "jiggyhunter": 3,
+          "tetzcatlipoca": 3,
+          "strawhat": 3,
+          "plz2bstfu-class": 3,
+          "super-slash": 3,
+          "shotgunnova": 5
+        },
+        "resolution": "majority",
+        "note": "majority: 3×5/5×1"
+      }
     ]
   },
   {
@@ -1367,7 +1584,25 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
+    ],
+    "conflicts": [
+      {
+        "field": "range",
+        "values": {
+          "jiggyhunter": 5,
+          "tetzcatlipoca": 5,
+          "strawhat": 5,
+          "plz2bstfu-class": 5,
+          "super-slash": 5,
+          "shotgunnova": 7
+        },
+        "resolution": "majority",
+        "note": "majority: 5×5/7×1"
+      }
     ]
   },
   {
@@ -1394,7 +1629,9 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova"
     ]
   },
   {
@@ -1422,7 +1659,10 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -1450,7 +1690,25 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
+    ],
+    "conflicts": [
+      {
+        "field": "range",
+        "values": {
+          "jiggyhunter": "all",
+          "tetzcatlipoca": "all",
+          "strawhat": "all",
+          "plz2bstfu-class": "all",
+          "super-slash": "all",
+          "shotgunnova": 1
+        },
+        "resolution": "majority",
+        "note": "majority: all×5/1×1"
+      }
     ]
   },
   {
@@ -1477,7 +1735,10 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -1505,7 +1766,10 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -1532,7 +1796,10 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -1559,7 +1826,25 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
+    ],
+    "conflicts": [
+      {
+        "field": "range",
+        "values": {
+          "jiggyhunter": "all",
+          "tetzcatlipoca": "all",
+          "strawhat": "all",
+          "plz2bstfu-class": "all",
+          "super-slash": "all",
+          "shotgunnova": 1
+        },
+        "resolution": "majority",
+        "note": "majority: all×5/1×1"
+      }
     ]
   },
   {
@@ -1586,7 +1871,10 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ],
     "conflicts": [
       {
@@ -1594,9 +1882,12 @@
         "values": {
           "jiggyhunter": 3,
           "tetzcatlipoca": 3,
-          "strawhat": 5
+          "strawhat": 5,
+          "super-slash": 3,
+          "shotgunnova": 3
         },
-        "note": "Majority value (3) used."
+        "resolution": "majority",
+        "note": "majority: 3×4/5×1"
       }
     ]
   },
@@ -1624,7 +1915,9 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova"
     ]
   },
   {
@@ -1649,7 +1942,10 @@
     "acquired_via_item": null,
     "sources": [
       "tetzcatlipoca",
-      "strawhat"
+      "strawhat",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -1676,7 +1972,9 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova"
     ]
   },
   {
@@ -1703,7 +2001,10 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -1730,7 +2031,10 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -1755,7 +2059,10 @@
     "acquired_via_item": null,
     "sources": [
       "tetzcatlipoca",
-      "strawhat"
+      "strawhat",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -1782,7 +2089,10 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -1808,7 +2118,10 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -1833,7 +2146,10 @@
     "sources": [
       "jiggyhunter",
       "tetzcatlipoca",
-      "strawhat"
+      "strawhat",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -1859,7 +2175,10 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -1885,7 +2204,10 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -1910,7 +2232,10 @@
     "sources": [
       "jiggyhunter",
       "tetzcatlipoca",
-      "strawhat"
+      "strawhat",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -1939,7 +2264,10 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -1967,7 +2295,10 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -1995,7 +2326,10 @@
     "sources": [
       "jiggyhunter",
       "tetzcatlipoca",
-      "strawhat"
+      "strawhat",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -2025,7 +2359,10 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -2054,7 +2391,10 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -2084,7 +2424,10 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -2114,7 +2457,10 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -2143,7 +2489,9 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "bfgamer"
     ]
   },
   {
@@ -2173,7 +2521,9 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "bfgamer"
     ],
     "conflicts": [
       {
@@ -2182,9 +2532,12 @@
           "jiggyhunter": 4,
           "tetzcatlipoca": 4,
           "strawhat": 7,
-          "plz2bstfu-class": 4
+          "plz2bstfu-class": 4,
+          "super-slash": 4,
+          "bfgamer": 4
         },
-        "note": "Majority value (4) used."
+        "resolution": "majority",
+        "note": "majority: 4×5/7×1"
       }
     ]
   },
@@ -2213,7 +2566,10 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -2240,7 +2596,10 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ],
     "conflicts": [
       {
@@ -2248,9 +2607,12 @@
         "values": {
           "jiggyhunter": 5,
           "tetzcatlipoca": 5,
-          "strawhat": 3
+          "strawhat": 3,
+          "super-slash": 5,
+          "shotgunnova": 5
         },
-        "note": "Majority value (5) used."
+        "resolution": "majority",
+        "note": "majority: 5×4/3×1"
       }
     ]
   },
@@ -2276,16 +2638,22 @@
     "acquired_via_item": null,
     "sources": [
       "tetzcatlipoca",
-      "strawhat"
+      "strawhat",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ],
     "conflicts": [
       {
         "field": "range",
         "values": {
           "tetzcatlipoca": 7,
-          "strawhat": 5
+          "strawhat": 5,
+          "super-slash": 7,
+          "shotgunnova": 5
         },
-        "note": "tetzcatlipoca value used per tie-break rule."
+        "resolution": "authority",
+        "note": "authority: 7×2/5×2"
       }
     ]
   },
@@ -2314,7 +2682,9 @@
       "tetzcatlipoca",
       "strawhat",
       "plz2bstfu-class",
-      "aku-chi"
+      "aku-chi",
+      "super-slash",
+      "shotgunnova"
     ]
   },
   {
@@ -2341,7 +2711,10 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -2368,7 +2741,10 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -2395,7 +2771,10 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -2420,16 +2799,21 @@
     "acquired_via_item": null,
     "sources": [
       "tetzcatlipoca",
-      "strawhat"
+      "strawhat",
+      "super-slash",
+      "shotgunnova"
     ],
     "conflicts": [
       {
         "field": "pp_cost",
         "values": {
           "tetzcatlipoca": 39,
-          "strawhat": 19
+          "strawhat": 19,
+          "super-slash": 39,
+          "shotgunnova": 39
         },
-        "note": "strawhat's 19 PP is copied from its Thunderbolt entry. tetzcatlipoca value used."
+        "resolution": "majority",
+        "note": "majority: 39×3/19×1"
       }
     ]
   },
@@ -2457,7 +2841,9 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "bfgamer"
     ]
   },
   {
@@ -2484,7 +2870,10 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -2511,7 +2900,10 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -2538,7 +2930,10 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -2565,7 +2960,9 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova"
     ]
   },
   {
@@ -2591,7 +2988,9 @@
     "sources": [
       "tetzcatlipoca",
       "strawhat",
-      "aku-chi"
+      "aku-chi",
+      "super-slash",
+      "shotgunnova"
     ]
   },
   {
@@ -2619,7 +3018,10 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -2647,7 +3049,10 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -2675,7 +3080,10 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -2703,7 +3111,10 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -2731,7 +3142,10 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -2757,7 +3171,10 @@
     "acquired_via_item": null,
     "sources": [
       "tetzcatlipoca",
-      "strawhat"
+      "strawhat",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -2785,7 +3202,10 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -2813,7 +3233,10 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -2840,7 +3263,9 @@
     "sources": [
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "bfgamer"
     ]
   },
   {
@@ -2868,7 +3293,10 @@
     "acquired_via_item": null,
     "sources": [
       "tetzcatlipoca",
-      "strawhat"
+      "strawhat",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -2896,7 +3324,9 @@
     "acquired_via_item": null,
     "sources": [
       "tetzcatlipoca",
-      "strawhat"
+      "strawhat",
+      "super-slash",
+      "bfgamer"
     ]
   },
   {
@@ -2921,7 +3351,8 @@
     "acquired_via_item": null,
     "sources": [
       "jiggyhunter",
-      "strawhat"
+      "strawhat",
+      "shotgunnova"
     ],
     "conflicts": [
       {
@@ -2930,7 +3361,8 @@
           "jiggyhunter": "wind",
           "strawhat": "water"
         },
-        "note": "jiggyhunter groups Dull under Wind-Jupiter; strawhat states Mercury but its companion Blunt is Jupiter. Wind used."
+        "resolution": "authority",
+        "note": "GS1 Dull is a Jupiter (wind) psynergy; jiggyhunter says wind, strawhat's 'water' is a known element typo."
       }
     ]
   },
@@ -2955,7 +3387,8 @@
     ],
     "acquired_via_item": null,
     "sources": [
-      "strawhat"
+      "strawhat",
+      "shotgunnova"
     ]
   },
   {
@@ -2983,7 +3416,9 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova"
     ]
   },
   {
@@ -3008,7 +3443,9 @@
     "sources": [
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "bfgamer"
     ]
   },
   {
@@ -3033,7 +3470,10 @@
     "sources": [
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -3061,7 +3501,10 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ],
     "conflicts": [
       {
@@ -3070,9 +3513,13 @@
           "jiggyhunter": 4,
           "tetzcatlipoca": 4,
           "strawhat": 3,
-          "plz2bstfu-class": 4
+          "plz2bstfu-class": 4,
+          "super-slash": 4,
+          "shotgunnova": 4,
+          "bfgamer": 4
         },
-        "note": "Majority value (4) used."
+        "resolution": "majority",
+        "note": "majority: 4×6/3×1"
       }
     ]
   },
@@ -3101,7 +3548,10 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -3128,7 +3578,10 @@
     "sources": [
       "jiggyhunter",
       "tetzcatlipoca",
-      "strawhat"
+      "strawhat",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -3158,7 +3611,10 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -3188,7 +3644,10 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -3216,7 +3675,10 @@
     "sources": [
       "jiggyhunter",
       "tetzcatlipoca",
-      "strawhat"
+      "strawhat",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -3246,7 +3708,9 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "bfgamer"
     ]
   },
   {
@@ -3275,7 +3739,9 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "bfgamer"
     ]
   },
   {
@@ -3309,7 +3775,10 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -3335,7 +3804,10 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -3361,7 +3833,10 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -3387,7 +3862,10 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -3413,7 +3891,10 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -3438,7 +3919,10 @@
     "sources": [
       "jiggyhunter",
       "tetzcatlipoca",
-      "strawhat"
+      "strawhat",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -3466,7 +3950,10 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -3494,7 +3981,10 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -3520,7 +4010,9 @@
     "acquired_via_item": null,
     "sources": [
       "tetzcatlipoca",
-      "strawhat"
+      "strawhat",
+      "super-slash",
+      "shotgunnova"
     ]
   },
   {
@@ -3554,7 +4046,10 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -3582,7 +4077,10 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -3609,7 +4107,10 @@
     "sources": [
       "tetzcatlipoca",
       "strawhat",
-      "aku-chi"
+      "aku-chi",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -3637,7 +4138,10 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -3665,7 +4169,9 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova"
     ]
   },
   {
@@ -3691,7 +4197,9 @@
     "acquired_via_item": null,
     "sources": [
       "tetzcatlipoca",
-      "strawhat"
+      "strawhat",
+      "super-slash",
+      "shotgunnova"
     ]
   },
   {
@@ -3719,7 +4227,9 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova"
     ]
   },
   {
@@ -3749,7 +4259,9 @@
       "jiggyhunter",
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "bfgamer"
     ]
   },
   {
@@ -3775,7 +4287,9 @@
     "sources": [
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "bfgamer"
     ]
   },
   {
@@ -3800,7 +4314,9 @@
     "sources": [
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "bfgamer"
     ]
   },
   {
@@ -3827,7 +4343,10 @@
     "sources": [
       "tetzcatlipoca",
       "strawhat",
-      "plz2bstfu-class"
+      "plz2bstfu-class",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -3858,7 +4377,9 @@
     },
     "sources": [
       "tetzcatlipoca",
-      "strawhat"
+      "strawhat",
+      "super-slash",
+      "bfgamer"
     ]
   },
   {
@@ -3889,7 +4410,9 @@
     },
     "sources": [
       "tetzcatlipoca",
-      "strawhat"
+      "strawhat",
+      "super-slash",
+      "bfgamer"
     ],
     "conflicts": [
       {
@@ -3898,7 +4421,8 @@
           "tetzcatlipoca": "Orb of Force",
           "strawhat": "Force Gem"
         },
-        "note": null
+        "resolution": "unresolved",
+        "note": "Same item named two ways; verify in-game."
       }
     ]
   },
@@ -3930,7 +4454,10 @@
     },
     "sources": [
       "tetzcatlipoca",
-      "strawhat"
+      "strawhat",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -3961,7 +4488,9 @@
     },
     "sources": [
       "tetzcatlipoca",
-      "strawhat"
+      "strawhat",
+      "super-slash",
+      "bfgamer"
     ],
     "conflicts": [
       {
@@ -3970,7 +4499,8 @@
           "tetzcatlipoca": "Carry Stone",
           "strawhat": "Carry Gem"
         },
-        "note": null
+        "resolution": "unresolved",
+        "note": "Same item named two ways; verify in-game."
       }
     ]
   },
@@ -4002,7 +4532,10 @@
     },
     "sources": [
       "tetzcatlipoca",
-      "strawhat"
+      "strawhat",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   },
   {
@@ -4033,7 +4566,10 @@
     },
     "sources": [
       "tetzcatlipoca",
-      "strawhat"
+      "strawhat",
+      "super-slash",
+      "shotgunnova",
+      "bfgamer"
     ]
   }
 ]

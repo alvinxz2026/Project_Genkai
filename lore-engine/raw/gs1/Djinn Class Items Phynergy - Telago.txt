@@ -1,0 +1,2474 @@
+===========================================================================
+Appendix A: Djinn & Classes
+===========================================================================
+
+---------------------------------------------------------------------------
+1. Djinn Descriptions
+---------------------------------------------------------------------------
+
+ In Golden Sun there are 28 Djinn you can find throughout the continents. 
+Most of them are quite easy to find, while others may prove to be more 
+difficult to locate. Here's a list of all Djinn sorted by element and the 
+moment you can find them in-game.
+
+ There is one remark that has to be made here; the statistic boosts of the 
+Djinn may differ from the values given here, this is so because higher 
+classes affect the statistics relatively (e.g. in percentages). Simply put 
+this means that the upgrades may vary a bit. All the statistic upgrades 
+were checked using "Base Class" for each character, for more information on 
+that topic see the following paragraph. The exact Djinn locations can also 
+be found in the FAQ, just search for the Djinni's name with "Ctrl+F" in 
+most Windows based Text Editors / Viewers.
+
+The Djinn List
+---------------------------------------------------------------------------
+
+Venus Djinn
+---------------------------------------------------------------------------
+
+Name     HP PP ATK DEF AGL LCK  Location           Ability
+-------  -- -- --- --- --- ---  ------------------ ------------------------
+Flint     8  4   3   -   -   -  Vale(WM)           Swift Strike
+Granite   9  -   -   2   2   1  Kolima             Reduce Damage
+Quartz   10  3   -   -   3   -  Mogall Forest      Revive Downed Ally
+Vine     12  4   -   3   -   1  Lamakan West(WM)   Lower enemy AGL
+Sap      10  -   3   -   -   1  Vault              Hit & Drain enemy HP
+Ground    9  3   -   -   3   -  Kalay Docks        Enemy must skip a turn
+Bane     12  -   4   -   -   -  Crossbone Isle(B7) Hit & Venom Enemy
+
+
+Mars Djinn
+---------------------------------------------------------------------------
+
+Name     HP PP ATK DEF AGL LCK  Location           Ability
+-------  -- -- --- --- --- ---  ------------------ ------------------------
+Forge    10  -   2   -   2   2  Goma Cave          Raise Allies' ATK
+Fever    12  -   3   -   1   -  Imil               Delude Enemies
+Corona   12  3   -   3   -   1  Xian (WM)          Raise Allies' DEF
+Scorch    8  -   3   -   -   -  Kalay Tunnel       Stun Enemy
+Ember     9  4   -   2   2   -  Tolbi              Recover Allies' PP
+Flash    14  3   -   2   -   -  Suhalla Desert     Reduce Damage
+Torch     9  -   3   -   -   1  Lalivero           Hit Through Enemy Def
+
+
+Jupiter Djinn
+---------------------------------------------------------------------------
+
+Name     HP PP ATK DEF AGL LCK  Location           Ability
+-------  -- -- --- --- --- ---  ------------------ ------------------------
+Gust      9  -   2   -   2   -  Bilibin            1 or 2 Wind Attacks
+Breeze   12  5   -   2   -   1  Tret Tree          Raise Allies' Resistance
+Zephyr   11  3   -   -   2   1  Fuchin Temple      Raise Allies' AGL
+Smog      9  -   3   -   -   -  Lamakan Desert     Delude Enemies
+Kite      8  3   -   -   3   -  Vale Cave          2 Attacks Next Turn
+Squall   10  -   5   -   -   -  Altmiller Cave     Stun Enemy
+Luff     11  5   -   2   -   1  Babi's Tower       Seal Enemy's Psynergy
+
+
+Mercury Djinn
+---------------------------------------------------------------------------
+
+Name     HP PP ATK DEF AGL LCK  Location           Ability
+-------  -- -- --- --- --- ---  ------------------ ------------------------
+Fizz      9  4   -   3   -   -  Mia's Pet          Recover ally's HP
+Sleet    12  -   3   -   -   1  Mercury Lighthouse Lower Enemy ATK
+Mist     11  -   4   -   -   -  Xian               Make Enemy Fall Asleep
+Spritz    8  4   -   -   3   -  Altin Peak         Recover allies' HP
+Hail      9  -   4   -   -   1  Tolbi West(WM)     Lower Enemy DEF
+Tonic    10  3   -   2   -   2  Lunpa Fortress     Restore all ailments
+Dew      13  4   -   -   4   -  Suhalla Gateway    Revive Downed Ally
+
+ (WM) = World Map
+
+
+
+---------------------------------------------------------------------------
+2. About the Summons
+---------------------------------------------------------------------------
+
+ There are 16 Summon in Golden Sun, each representing a spirit for a 
+certain element. All the Summons of the same level are equal in strength, 
+but because of the elemental resistances of the monsters you oppose this 
+may seem different. Many believe Meteor or Judgment is the strongest 
+Summon, but this purely depends on the enemy you battle against. This game 
+has many enemies weak to fire, so naturally fire based attacks will work 
+pretty good.
+
+------------------------------
+Summons Table
+------------------------------
+
+Djinn            Spirit         Djinn            Spirit
+---------------- -----------    ---------------- -----------
+1 Venus          Venus          1 Mars           Mars
+2 Venus          Ramses         2 Mars           Kirin
+3 Venus          Cybele         3 Mars           Tiamat
+4 Venus          Judgment       4 Mars           Meteor
+
+Djinn            Spirit         Djinn            Spirit
+---------------- -----------    ---------------- -----------
+1 Jupiter        Jupiter        1 Mercury        Mercury
+2 Jupiter        Atalanta       2 Mercury        Nereid
+3 Jupiter        Procne         3 Mercury        Neptune
+4 Jupiter        Thor           4 Mercury        Boreas
+
+
+
+---------------------------------------------------------------------------
+3. Class & Psynergy Effects
+---------------------------------------------------------------------------
+
+ Next to these effects assigning a Djinni to a character may change his/her 
+class level. In some cases these changes can create huge statistic upgrades 
+and stronger Psynergy Spells, however in some cases the class may actually 
+downgrade a character so experiment yourself to find out which classes are 
+most suitable. Of course the clean sweep with all Djinn assigned to the 
+characters with the same elemental is a good combination. Actually it seems 
+to be the only good combination, whereas assigning 1 Djinni of another type 
+to the list breaks up the entire set-up weakening the character to the 
+lowest class possible. Later on however when you have more Djinn more 
+interesting combinations take place. Here's a list of all the Class levels 
+that each character can reach.
+
+A word about the notation here:
+
+- "x|y" means all number of Djinn between x and y. For example: 3|5
+  means either 3,4 or 5 Djinn of that kind.
+
+- All percentage were calculated after subtracting the effects of the 
+  Djinn, so the actual percentage may appear even higher than listed
+  here.
+
+- An "*" after a class name means that 1 extra Djinn of any type, may
+  be included for this has no effect on the class.
+
+
+------------------------------------------------------------------------|
+Isaac - Venus Adept (Base Class: Squire)                                |
+------------------------------------------------------------------------|
+            Req. Djinn         Statistic Change ('-' = No Change, 100%) |
+-----------|------------------|-----------------------------------------|
+Class      | Ven Mar Jup Mer  | HP   | PP   | Att  | Def  | Agl  | Lck  |
+-----------|------------------|------|------|------|------|------|------|
+            Venus Series                                                |
+           |------------------|------|------|------|------|------|------|
+Squire     | 0|1  0   0   0   | 110% |  80% | 110% |   -  | 110% |   -  |
+Knight     | 2|3  0   0   0   | 130% |  90% | 120% | 110% | 120% |   -  |
+Gallant    | 4|5  0   0   0   | 150% |   -  | 130% | 120% | 130% |   -  |
+Lord       | 6|7  0   0   0   | 170% | 110% | 140% | 130% | 140% |   -  |
+-----------|------------------|------|------|------|------|------|------|
+            Mars Series                                                 |
+           |------------------|------|------|------|------|------|------|
+Brute      |  0   1   0   0   |   -  |  70% | 120% |  90% | 110% |  70% |
+Ruffian    |  0  2|3  0   0   | 120% |  80% | 130% |   -  | 120% |  70% |
+Savage     |  0   4   0   0   | 140% |  90% | 140% | 110% | 130% |  70% |
+Barbarian  |  0  5|7  0   0   | 160% |   -  | 150% | 120% | 140% |  70% |
+Berserker  |  1   6   0   0   | 180% | 110% | 160% | 130% | 150% |  70% |
+-----------|------------------|------|------|------|------|------|------|
+            Jupiter Series                                              |
+           |------------------|------|------|------|------|------|------|
+Apprentice |  0   0   1   0   |   -  | 120% | 110% |   -  | 120% |  90% |
+Illusionist|  0   0  2|3  0   | 120% | 130% | 120% | 110% | 130% |  90% |
+Enchanter  |  0   0  4|5  0   | 140% | 140% | 140% | 120% | 140% |  90% |
+Shaman     |  0   0  6|7  0   | 120% | 150% | 110% | 110% | 130% |   -  |
+Conjurer   |  1   0   6   0   | 170% | 160% | 150% | 130% | 150% |  90% |
+-----------|------------------|------|------|------|------|------|------|
+            Mercury Series                                              |
+           |------------------|------|------|------|------|------|------|
+Swordsman  |  0   0   0   1   |   -  |  90% | 110% | 110% |  90% | 120% |
+Defender   |  0   0   0  2|3  | 120% |   -  | 120% | 120% |   -  | 120% |
+Cavalier   |  0   0   0  4|5  | 140% | 110% | 130% | 130% | 110% | 120% |
+Shaman     |  0   0   0  6|7  | 120% | 150% | 110% | 110% | 130% |   -  |
+Guardian   |  1   0   0   6   | 170% | 130% | 140% | 140% | 130% | 120% |
+-----------|------------------|------|------|------|------|------|------|
+            Other Series                                                |
+           |------------------|------|------|------|------|------|------|
+Ninja      |  0   3   3   0   | 160% | 140% | 150% | 120% | 170% |  90% |
+Samurai    |  0   4   3   0   | 190% | 130% | 150% | 140% | 140% |  95% |
+Dragoon    |  0   3   0  3|4  | 160% | 130% | 140% | 140% | 110% | 120% |
+-----------|------------------|-----------------------------------------|
+
+
+Venus Series
+---------------------------------------------------------------------------
+___   ____________________    ____________________
+lvl   Squire & Knight         Gallant & Lord
+¯¯¯   ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯    ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  1    Cure                ->  Cure
+  2    Quake               ->  Quake
+  4    Earthquake          ->  Earthquake
+  6    Spire               ->  Spire
+  7                            Gaia
+ 10    Cure Well           ->  Cure Well
+ 13    Ragnarok            ->  Ragnarok
+ 14    Quake Sphere        ->  Quake Sphere
+ 19                            Revive
+ 20    Clay Spire          ->  Clay Spire
+ 24                            Mother Gaia
+ 26    Potent Cure         ->  Potent Cure
+ 42    Stone Spire         ->  Stone Spire
+ 54                            Grand Gaia
+
+
+Mars Series
+---------------------------------------------------------------------------
+___   ____________________    ____________________
+lvl   Brute & Ruffian         Savage - Berserker
+¯¯¯   ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯    ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  1    Growth              ->  Growth
+  6    Blast               ->  Blast
+  7                            Spire
+  9                            Impair
+ 12    Mad Growth          ->  Mad Growth
+ 13    Planet Diver        ->  Planet Diver
+ 16    Nova                ->  Nova
+ 17    Haunt               ->  Haunt
+ 19                            Revive
+ 20                            Clay Spire
+ 23                            Debilitate
+ 24    Curse               ->  Curse
+ 28    Wild Growth         ->  Wild Growth
+ 29    Condemn             ->  Condemn
+ 40    Supernova           ->  Supernova
+ 42                            Stone Spire
+
+
+Jupiter Series
+---------------------------------------------------------------------------
+___  _______________________   ____________________
+lvl  Apprentice & Illusionist  Enchanter & Conjurer
+¯¯¯  ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯   ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  1   Delude                ->  Delude
+  5                             Impact
+  6                             Ward
+  6   Gaia                  ->  Gaia
+  9   Weaken                ->  Weaken
+ 11   Astral Blast          ->  Astral Blast
+ 14   Sleep                 ->  Sleep
+ 17   Haunt                 ->  Haunt
+ 21                             High Impact
+ 22                             Resist
+ 24   Mother Gaia           ->  Mother Gaia
+ 25   Enfeeble              ->  Enfeeble
+ 31   Drain                 ->  Drain
+ 39   Psy Drain             ->  Psy Drain
+ 54   Grand Gaia            ->  Grand Gaia
+___   ____________________
+lvl   Shaman
+¯¯¯   ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  1    Cure
+  2    Bolt
+  3    Growth
+  5    Ward
+  6    Flash Bolt
+ 12    Mad Growth
+ 10    Cure Well
+ 18    Bind
+ 19    Revive
+ 22    Blue Bolt
+ 23    Resist
+ 26    Potent Cure
+ 29    Wild Growth
+ 31    Drain
+ 39    Psy Drain
+
+
+Mercury Series
+---------------------------------------------------------------------------
+___   ____________________    ____________________    ____________________
+lvl   Swordsman               Defender                Cavalier
+¯¯¯   ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯    ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯    ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  1                            Ply                 ->  Ply
+  4    Thorn               ->  Thorn               ->  Thorn
+  5    Cure Poison         ->  Cure Poison         ->  Cure Poison
+  6                            Avoid               ->  Avoid
+  8                                                    Wish
+ 10    Mad Blast           ->  Mad Blast           ->  Mad Blast
+ 11    Cutting Edge        ->  Cutting Edge        ->  Cutting Edge
+ 13    Restore             ->  Restore             ->  Restore
+ 14    Briar               ->  Briar               ->  Briar
+ 16                            Ply Well            ->  Ply Well
+ 19    Revive              ->  Revive              ->  Revive
+ 22                                                    Wish Well
+ 30    Break               ->  Break               ->  Break
+ 34                            Pure Ply            ->  Pure Ply
+ 36    Nettle              ->  Nettle              ->  Nettle
+ 46                                                    Pure Wish
+___   ____________________
+lvl   Shaman
+¯¯¯   ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  1    Cure
+  1    Growth
+  2    Froth
+  5    Cure Poison
+  8    Wish
+ 10    Cure Well
+ 12    Mad Growth
+ 13    Restore
+ 14    Froth Sphere
+ 19    Revive
+ 22    Wish Well
+ 26    Potent Cure
+ 28    Wild Growth
+ 34    Break
+ 40    Froth Spiral
+ 46    Pure Wish
+
+
+Other Series
+---------------------------------------------------------------------------
+
+___   ____________________
+lvl   Ninja
+¯¯¯   ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  1    Gale
+  4    Punji
+  6    Fire Bomb
+  7    Mist
+  8    Thunderclap
+ 12    Death Plunge
+ 15    Punji Trap
+ 16    Cluster Bomb
+ 18    Typhoon
+ 21    Shuriken
+ 26    Thunderbolt
+ 31    Annihilation
+ 36    Punji Strike
+ 40    Carpet Bomb
+ 44    Hurricane
+ 50    Thunderhead
+
+___   ____________________
+lvl   Samurai
+¯¯¯   ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  3    Guardian 
+  5    Demon Spear
+  6    Rockfall
+  8    Lava Shower
+ 10    Magic Shell
+ 12    Dragon Cloud
+ 15    Protector
+ 18    Demon Night
+ 21    Angel Spear
+ 22    Molten Bath
+ 24    Rockslide
+ 27    Magic Shield
+ 33    Helm Splitter
+ 40    Quick Strike
+ 48    Magma Storm
+ 54    Avalanche
+
+___   ____________________
+lvl   Dragoon
+¯¯¯   ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  2    Blast
+  4    Thorn
+  5    Cure Cure Poison
+  6    Avoid
+  8    Wish
+ 10    Mad Mad Blas
+ 11    Cutting Edge
+ 13    Restore
+ 16    Ply Well
+ 17    Briar
+ 22    Wish Well
+ 27    Fiery Blast
+ 34    Pure Ply
+ 36    Nettle
+ 46    Pure Wish
+
+
+
+------------------------------------------------------------------------|
+Mars Adepts - Jenna & Garet (Base Class: Flame User & Guard)            |
+------------------------------------------------------------------------|
+            Req. Djinn         Statistic Change ('-' = No Change, 100%) |
+-----------|------------------|-----------------------------------------|
+Class      | Ven Mar Jup Mer  | HP   | PP   | Att  | Def  | Agl  | Lck  |
+-----------|------------------|------|------|------|------|------|------|
+            Venus Series                                                |
+           |------------------|------|------|------|------|------|------|
+Brute      |  1   0   0   0   |   -  |  70% | 120% |  90% | 110% |  70% |
+Ruffian    | 2|3  0   0   0   | 120% |  80% | 130% |   -  | 120% |  70% |
+Savage     |  4   0   0   0   | 140% |  90% | 140% | 110% | 130% |  70% |
+Barbarian  | 5|7  0   0   0   | 160% |   -  | 150% | 120% | 140% |  70% |
+Berserker  |  6   1   0   0   | 180% | 110% | 160% | 130% | 150% |  70% |
+-----------|------------------|------|------|------|------|------|------|
+      Jenna Mars Series                                                 |
+           |------------------|------|------|------|------|------|------|
+Flame User |  0   0   0   0   |   -  | 120% |   -  |   -  | 120% |  90% |
+-----------|------------------|------|------|------|------|------|------|
+      Garet Mars Series                                                 |
+           |------------------|------|------|------|------|------|------|
+Guard      |  0  0|1  0   0   | 110% |  80% |   -  | 110% |  70% |   -  |
+Soldier    |  0  2|3  0   0   | 130% |  90% | 110% | 120% |  80% |   -  |
+Warrior    |  0  4|5  0   0   | 150% |   -  | 120% | 130% |  90% |   -  |
+Champion   |  0  6|7  0   0   | 170% | 110% | 130% | 140% |   -  |   -  |
+-----------|------------------|------|------|------|------|------|------|
+            Jupiter Series                                              |
+           |------------------|------|------|------|------|------|------|
+Page       |  0   0   1   0   |   -  | 120% | 110% |   -  | 120% |  90% |
+Illusionist|  0   0  2|3  0   | 120% | 130% | 120% | 110% | 130% |  90% |
+Enchanter  |  0   0  4|5  0   | 140% | 140% | 140% | 120% | 140% |  90% |
+Ascetic    |  0   0  6|7  0   | 120% | 140% | 120% | 120% | 140% | 120% |
+Conjurer   |  0   1   6   0   | 170% | 160% | 150% | 130% | 150% |  90% |
+-----------|------------------|------|------|------|------|------|------|
+            Mercury Series                                              |
+           |------------------|------|------|------|------|------|------|
+Swordsman  |  0   0   0   1   |   -  |  90% | 110% | 110% |  90% | 120% |
+Defender   |  0   0   0  2|3  | 120% |   -  | 120% | 120% |   -  | 120% |
+Cavalier   |  0   0   0  4|5  | 140% | 110% | 130% | 130% | 110% | 120% |
+Ascetic    |  0   0   0  6|7  | 120% | 140% | 110% | 120% | 140% | 120% |
+Luminier   |  0   1   0   6   | 170% | 130% | 140% | 140% | 130% | 120% |
+-----------|------------------|-----------------------------------------|
+            Other Series                                                |
+           |------------------|------|------|------|------|------|------|
+Ninja      |  3   0   3   0   | 160% | 140% | 150% | 120% | 170% |  90% |
+Samurai    |  4   0   3   0   | 190% | 130% | 150% | 140% | 140% |  95% |
+Dragoon    |  0   3   0  3|4  | 160% | 130% | 140% | 140% | 110% | 120% |
+-----------|------------------|-----------------------------------------|
+
+Venus Series
+---------------------------------------------------------------------------
+
+   See Venus Adepts "Mars" Series (are identical)
+
+
+Mars Series (Jenna)
+---------------------------------------------------------------------------
+___   ____________________
+lvl   Flame User
+¯¯¯   ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  1    Flare
+  6    Flare Wall
+ 18    Flare Storm
+
+Mars Series (Garet)
+---------------------------------------------------------------------------
+___   ____________________    ____________________
+lvl   Guard & Soldier         Warrior & Champion
+¯¯¯   ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯    ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  1    Flare               ->  Flare
+  3                            Guard
+  4    Fire                ->  Fire
+  6    Flare Wall          ->  Flare Wall
+  8    Volcano             ->  Volcano
+  9                            Impair
+ 12    Heat Wave           ->  Heat Wave
+ 14    Fireball            ->  Fireball
+ 15                            Protect
+ 18    Flare Storm         ->  Flare Storm
+ 22    Eruption            ->  Eruption
+ 26                            Debilitate
+ 36    Inferno             ->  Inferno
+ 48    Pyroclasm           ->  Pyroclasm
+
+
+Jupiter Series
+---------------------------------------------------------------------------
+___   ____________________    ____________________
+lvl   Page & Illusionist      Enchanter & Conjurer
+¯¯¯   ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯    ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  1    Delude              ->  Delude
+  3                            Guard
+  5                            Impact
+  6    Ward                ->  Ward
+  8    Volcano             ->  Volcano
+  9    Weaken              ->  Weaken
+ 11    Astral Blast        ->  Astral Blast
+ 14    Sleep               ->  Sleep
+ 15                            Protect
+ 21                            High Impact
+ 23    Eruption            ->  Eruption
+ 25    Enfeeble            ->  Enfeeble
+ 31    Drain               ->  Drain
+ 39    Psy Drain           ->  Psy Drain
+ 48    Pyroclasm           ->  Pyroclasm
+___   ____________________
+lvl   Ascetic
+¯¯¯   ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  1    Slash
+  6    Ward
+  8    Volcano
+  9    Plasma
+ 10    Wind Slash
+ 18    Bind
+ 22    Eruption
+ 24    Resist
+ 26    Shine Plasma
+ 30    Sonic Slash
+ 33    Drain
+ 41    Psy Drain
+ 48    Pyroclasm
+ 50    Spark Plasma
+
+
+Mercury Series
+---------------------------------------------------------------------------
+___   ____________________    ____________________    ____________________
+lvl   Swordsman               Defender                Cavalier
+¯¯¯   ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯    ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯    ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  1                            Ply                 ->  Ply
+  2    Blast               ->  Blast               ->  Blast
+  3    Guard               ->  Guard               ->  Guard
+  5    Cure Poison         ->  Cure Poison         ->  Cure Poison
+  6                            Avoid               ->  Avoid
+  8                                                    Wish
+ 10    Mad Blast           ->  Mad Blast           ->  Mad Blast
+ 11    Cutting Edge        ->  Cutting Edge        ->  Cutting Edge
+ 13    Restore             ->  Restore             ->  Restore
+ 15    Protect             ->  Protect             ->  Protect
+ 16                            Ply Well            ->  Ply Well
+ 22                                                    Wish Well
+ 28    Fiery Blast         ->  Fiery Blast         ->  Fiery Blast
+ 30    Break               ->  Break               ->  Break
+ 34                            Pure Ply            ->  Pure Ply
+ 46                                                    Pure Wish
+___   ____________________
+lvl   Ascetic
+¯¯¯   ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  1    Douse
+  5    Cure Poison
+  6    Prism
+  8    Volcano
+  9    Wish
+ 12    Drench
+ 13    Restore
+ 20    Hail Prism
+ 22    Eruption
+ 24    Wish Well
+ 30    Deluge
+ 34    Break
+ 46    Pure Wish
+ 48    Pyroclasm
+ 52    Freeze Prism
+
+
+Other Series
+---------------------------------------------------------------------------
+
+   See Venus Adepts "Other" Series (are identical)
+
+
+
+------------------------------------------------------------------------|
+Jupiter Adepts - Ivan (Base Class: Wind Seer)                           |
+------------------------------------------------------------------------|
+            Req. Djinn         Statistic Change ('-' = No Change, 100%) |
+-----------|------------------|-----------------------------------------|
+Class      | Ven Mar Jup Mer  | HP   | PP   | Att  | Def  | Agl  | Lck  |
+-----------|------------------|------|------|------|------|------|------|
+            Venus Series                                                |
+           |------------------|------|------|------|------|------|------|
+Seer       |  1   0   0   0   |  90% | 130% |  90% |  90% | 110% |   -  |
+Diviner    | 2|3  0   0   0   | 110% | 140% |   -  |   -  | 120% |   -  |
+Shaman     | 4|5  0   0   0   | 120% | 150% | 110% | 110% | 130% |   -  |
+Enchanter  | 6|7  0   0   0   | 140% | 140% | 130% | 120% | 140% |  90% |
+Druid      |  6   0   1   0   | 150% | 170% | 130% | 130% | 160% |  90% |
+-----------|------------------|------|------|------|------|------|------|
+            Mars Series                                                 |
+           |------------------|------|------|------|------|------|------|
+Pilgrim    |  0   1   0   0   |  90% | 120% |  90% |   -  | 120% | 120% |
+Wanderer   |  0  2|3  0   0   | 110% | 130% |   -  | 110% | 130% | 120% |
+Ascetic    |  0  4|5  0   0   | 120% | 140% | 110% | 120% | 140% | 120% |
+Enchanter  |  0  6|7  0   0   | 140% | 140% | 130% | 120% | 140% |  90% |
+Fire Monk  |  0   6   1   0   | 150% | 160% | 140% | 140% | 160% | 120% |
+-----------|------------------|------|------|------|------|------|------|
+            Jupiter Series                                              |
+           |------------------|------|------|------|------|------|------|
+Wind Seer  |  0   0  0|1  0   |  80% | 140% |  80% |  90% | 130% | 110% |
+Magician   |  0   0  2|3  0   |  90% | 150% |  90% |   -  | 140% | 110% |
+Mage       |  0   0  4|5  0   | 110% | 160% |   -  | 110% | 150% | 110% |
+Magister   |  0   0  6|7  0   | 130% | 170% | 110% | 120% | 160% | 110% |
+-----------|------------------|------|------|------|------|------|------|
+            Mercury Series                                              |
+           |------------------|------|------|------|------|------|------|
+Hermit     |  0   0   0   1   |  80% | 140% |  80% |  90% | 130% | 120% |
+Elder      |  0   0   0  2|3  |  90% | 150% |  90% |   -  | 140% | 120% |
+Scholar    |  0   0   0   4   | 110% | 160% |   -  | 110% | 150% | 120% |
+Savant     |  0   0   0  5|7  | 130% | 170% | 110% | 120% | 160% | 120% |
+Sage       |  0   0   1   6   | 150% | 180% | 120% | 130% | 170% | 120% |
+-----------|------------------|------|------|------|------|------|------|
+            Other Series                                                |
+           |------------------|------|------|------|------|------|------|
+Medium     |  3   0   0   3   | 130% | 170% | 120% | 120% | 150% |  90% |
+White Mage |  3   0   0   4   | 150% | 180% | 130% | 130% | 150% | 120% |
+Ranger     |  0  3|4  0   3   | 130% | 160% | 120% | 120% | 160% | 120% |
+-----------|------------------|------|------|------|------|------|------|
+
+Venus Series
+---------------------------------------------------------------------------
+___   ____________________    ______________________
+lvl   Seer & Diviner          Shaman & Druid
+¯¯¯   ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯    ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  1    Cure                ->  Cure
+  2    Bolt                ->  Bolt
+  3    Growth              ->  Growth
+  5                            Ward
+  6    Flash Bolt          ->  Flash Bolt
+ 12    Mad Growth          ->  Mad Growth
+ 10    Cure Well           ->  Cure Well
+ 18    Bind                ->  Bind
+ 19                            Revive
+ 22    Blue Bolt           ->  Blue Bolt
+ 23                            Resist
+ 26    Potent Cure         ->  Potent Cure
+ 29    Wild Growth         ->  Wild Growth
+ 31    Drain               ->  Drain
+ 39    Psy Drain           ->  Psy Drain
+___   ____________________
+lvl   Enchanter
+¯¯¯   ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  1    Delude
+  5    Impact
+  6    Gaia 
+  9    Weaken
+ 11    Astral Blast
+ 14    Sleep
+ 17    Haunt
+ 20    Curse
+ 21    High Impact
+ 22    Resist
+ 24    Mother Gaia
+ 25    Enfeeble
+ 31    Drain
+ 39    Psy Drain
+ 54    Grand Gaia
+
+
+Mars Series
+---------------------------------------------------------------------------
+___   ____________________    _________________________
+lvl   Pilgrim & Wanderer      Ascetic & Fire Monk
+¯¯¯   ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯    ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  1    Slash               ->  Slash
+  6                            Ward
+  8                            Volcano
+  9    Plasma              ->  Plasma
+ 10    Wind Slash          ->  Wind Slash
+ 18    Bind                ->  Bind
+ 22                            Eruption
+ 24                            Resist
+ 26    Shine Plasma        ->  Shine Plasma
+ 30    Sonic Slash         ->  Sonic Slash
+ 33    Drain               ->  Drain
+ 34    Break               ->  Break
+ 41    Psy Drain           ->  Psy Drain
+ 48                            Pyroclasm
+ 50    Spark Plasma        ->  Spark Plasma
+___   ____________________
+lvl   Enchanter
+¯¯¯   ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  1    Delude
+  3    Guard
+  5    Impact
+  6    Ward
+  8    Volcano
+  9    Weaken
+ 11    Astral Blast
+ 14    Sleep
+ 15    Protect
+ 21    High Impact
+ 23    Eruption
+ 25    Enfeeble
+ 31    Drain
+ 39    Psy Drain
+ 48    Pyroclasm
+
+
+Jupiter Series
+---------------------------------------------------------------------------
+___   ____________________    ____________________    ____________________
+lvl   Wind Seer               Magician                Mage & Magister
+¯¯¯   ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯    ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯    ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  1    Whirlwind           ->  Whirlwind           ->  Whirlwind
+  4    Ray                 ->  Ray                 ->  Ray
+  5                            Impact              ->  Impact
+  6                                                    Ward
+  8    Plasma              ->  Plasma              ->  Plasma
+ 12    Sleep               ->  Sleep               ->  Sleep
+ 14    Storm Ray           ->  Storm Ray           ->  Storm Ray
+ 17    Bind                ->  Bind                ->  Bind
+ 18    Tornado             ->  Tornado             ->  Tornado
+ 21                            High Impact         ->  High Impact
+ 22                                                    Resist
+ 26    Shine Plasma        ->  Shine Plasma        ->  Shine Plasma
+ 36    Destruct Ray        ->  Destruct Ray        ->  Destruct Ray
+ 44    Tempest             ->  Tempest             ->  Tempest
+ 50    Spark Plasma        ->  Spark Plasma        ->  Spark Plasma
+
+
+Mercury Series
+---------------------------------------------------------------------------
+___   ____________________    ____________________
+lvl   Hermit & Elder          Scholar - Sage
+¯¯¯   ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯    ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  1    Impact              ->  Impact
+  6    Prism               ->  Prism
+  8    Plasma              ->  Plasma
+ 12                            Wish
+ 18    Bind                ->  Bind
+ 21    High Impact         ->  High Impact
+ 22    Hail Prism          ->  Hail Prism
+ 24                            Wish Well
+ 26    Shine Plasma        ->  Shine Plasma
+ 30    Break               ->  Break
+ 31    Drain               ->  Drain
+ 39    Psy Drain           ->  Psy Drain
+ 46                            Pure Wish
+ 50    Spark Plasma        ->  Spark Plasma
+ 52    Freeze Prism        ->  Freeze Prism
+
+
+Other Series
+---------------------------------------------------------------------------
+
+___   ____________________ 
+lvl   Ranger
+¯¯¯   ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  1    Douse
+  1    Slash
+  6    Ward
+  8    Volcano
+ 10    Wind Slash
+ 12    Drench
+ 18    Bind
+ 22    Eruption
+ 24    Resist
+ 30    Sonic Slash
+ 30    Deluge
+ 33    Drain
+ 34    Break
+ 41    Psy Drain
+ 48    Pyroclasm
+___   ____________________ 
+lvl   Medium
+¯¯¯   ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  1    Cure
+  2    Froth
+  2    Bolt
+  6    Flash Bolt
+ 10    Cure Well
+ 14    Froth Sphere
+ 17    Haunt
+ 19    Revive
+ 20    Curse
+ 22    Blue Bolt
+ 26    Potent Cure
+ 29    Condemn
+ 31    Drain
+ 36    Psy Drain
+ 40    Froth Spiral
+___   ______________________ 
+lvl   White Mage
+¯¯¯   ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  2    Prism
+  5    Cure Poison
+  6    Ward
+  8    Plasma
+ 11    Dull
+ 12    Wish
+ 13    Restore
+ 17    Revive
+ 20    Hail Prism
+ 24    Wish Well
+ 26    Shine Plasma
+ 31    Resist
+ 37    Blunt
+ 46    Spark Plasma
+ 46    Pure Wish
+ 52    Freeze Prism
+
+
+
+------------------------------------------------------------------------|
+Mercury Adepts - Mia (Base Class: Water Seer)                           |
+------------------------------------------------------------------------|
+            Req. Djinn         Statistic Change ('-' = No Change, 100%) |
+-----------|------------------|-----------------------------------------|
+Class      | Ven Mar Jup Mer  | HP   | PP   | Att  | Def  | Agl  | Lck  |
+-----------|------------------|------|------|------|------|------|------|
+            Venus Series                                                |
+           |------------------|------|------|------|------|------|------|
+Seer       |  1   0   0   0   |  90% | 130% |  90% |  90% | 110% |   -  |
+Diviner    | 2|3  0   0   0   | 110% | 140% |   -  |   -  | 120% |   -  |
+Shaman     | 4|5  0   0   0   | 120% | 150% | 110% | 110% | 130% |   -  |
+Cavalier   | 6|9  0   0   0   | 140% | 110% | 130% | 130% | 110% | 120% |
+Druid      |  6   0   0  1|3  | 150% | 170% | 130% | 130% | 160% |   -  |
+-----------|------------------|------|------|------|------|------|------|
+            Mars Series                                                 |
+           |------------------|------|------|------|------|------|------|
+Pilgrim    |  0   1   0   0   |  90% | 120% |  90% |   -  | 120% | 120% |
+Wanderer   |  0  2|3  0   0   | 110% | 130% |   -  | 110% | 130% | 120% |
+Ascetic    |  0  4|5  0   0   | 120% | 140% | 110% | 120% | 140% | 120% |
+Cavalier   |  0  6|9  0   0   | 140% | 110% | 130% | 130% | 110% | 120% |
+Water Monk | 1|3  6   0   0   | 150% | 160% | 130% | 140% | 160% | 120% |
+-----------|------------------|------|------|------|------|------|------|
+            Jupiter Series                                              |
+           |------------------|------|------|------|------|------|------|
+Hermit     |  0   0   1   0   |  80% | 140% |  80% |  90% | 130% | 120% |
+Elder      |  0   0  2|3  0   |  90% | 150% |  90% |   -  | 140% | 120% |
+Scholar    |  0   0   4   0   | 110% | 160% |   -  | 110% | 150% | 120% |
+Savant     |  0   0   0  5|9  | 130% | 170% | 110% | 120% | 160% | 120% |
+Sage       |  0   0  1|3 6|8  | 150% | 180% | 120% | 130% | 170% | 120% |
+-----------|------------------|------|------|------|------|------|------|
+            Mercury Series                                              |
+           |------------------|------|------|------|------|------|------|
+Water Seer |  0   0   0  0|1  |  90% | 130% |  90% |   -  |  80% | 130% |
+Scribe     |  0   0   0  2|3  |   -  | 140% |   -  | 110% |  90% | 130% |
+Cleric     |  0   0   0  4|5  | 120% | 150% | 110% | 120% |   -  | 130% |
+Paragon    |  0   0   0  6|7  | 140% | 160% | 120% | 130% | 110% | 130% |
+-----------|------------------|------|------|------|------|------|------|
+            Other Series                                                |
+           |------------------|------|------|------|------|------|------|
+Medium     |  3   0   3   0   | 120% | 150% | 110% | 120% | 150% |  90% |
+White Mage |  3   0  4|6  0   | 150% | 180% | 130% | 130% | 150% | 120% |
+Ranger     |  0  3|6  3   0   | 130% | 160% | 120% | 120% | 160% | 120% |
+-----------|------------------|------|------|------|------|------|------|
+
+Venus Series
+---------------------------------------------------------------------------
+___   ____________________    ______________________
+lvl   Seer & Diviner          Shaman & Druid
+¯¯¯   ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯    ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  1    Cure                ->  Cure
+  2    Froth               ->  Froth
+  3    Growth              ->  Growth
+  5    Cure Poison         ->  Cure Poison
+  8                            Wish
+ 10    Cure Well           ->  Cure Well
+ 12    Mad Growth          ->  Mad Growth
+ 13    Restore             ->  Restore
+ 14    Froth Sphere        ->  Froth Sphere
+ 19                            Revive
+ 22                            Wish Well
+ 26    Potent Cure         ->  Potent Cure
+ 29    Wild Growth         ->  Wild Growth
+ 30    Break               ->  Break
+ 40    Froth Spiral        ->  Froth Spiral
+ 36    Pure Wish           ->  Pure Wish
+___   ______________
+lvl   Cavalier
+¯¯¯   ¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  1    Ply
+  4    Thorn
+  5    Cure Poison
+  6    Avoid
+  8    Wish
+ 10    Mad Mad Blast
+ 11    Cutting Edge
+ 13    Restore
+ 14    Briar
+ 16    Ply Well
+ 19    Revive
+ 22    Wish Well
+ 30    Break
+ 34    Pure Ply
+ 36    Nettle
+ 46    Pure Wish
+
+
+Mars Series
+---------------------------------------------------------------------------
+___   ____________________    __________________________
+lvl   Pilgrim & Wanderer      Ascetic & Water Monk
+¯¯¯   ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯    ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  1    Douse               ->  Douse
+  5    Cure Poison         ->  Cure Poison
+  6    Prism               ->  Prism
+  8                            Volcano
+  9                            Wish
+ 12    Drench              ->  Drench
+ 13    Restore             ->  Restore
+ 20    Hail Prism          ->  Hail Prism
+ 22                            Eruption
+ 24                            Wish Well
+ 30    Deluge              ->  Deluge
+ 34    Break               ->  Break
+ 46                            Pure Wish
+ 48                            Pyroclasm
+ 52    Freeze Prism        ->  Freeze Prism
+___   ____________________
+lvl   Cavalier
+¯¯¯   ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  1    Ply
+  2    Blast
+  3    Guard 
+  5    Cure Poison 
+  6    Avoid
+  8    Wish
+ 10    Mad Blast
+ 11    Cutting Edge
+ 13    Restore
+ 15    Protect
+ 16    Ply Well
+ 22    Wish Well
+ 28    Fiery Blast
+ 30    Break
+ 34    Pure Ply
+ 46    Pure Wish
+
+Jupiter Series
+---------------------------------------------------------------------------
+___   ____________________    ____________________
+lvl   Hermit & Elder          Scholar - Sage
+¯¯¯   ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯    ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  1    Impact              ->  Impact
+  6    Prism               ->  Prism
+  8    Plasma              ->  Plasma
+ 12                            Wish
+ 18    Bind                ->  Bind
+ 21    High Impact         ->  High Impact
+ 22    Hail Prism          ->  Hail Prism
+ 24                            Wish Well
+ 26    Shine Plasma        ->  Shine Plasma
+ 30    Break               ->  Break
+ 31    Drain               ->  Drain
+ 39    Psy Drain           ->  Psy Drain
+ 46                            Pure Wish
+ 50    Spark Plasma        ->  Spark Plasma
+ 52    Freeze Prism        ->  Freeze Prism
+
+
+Mercury Series
+---------------------------------------------------------------------------
+
+___   ____________________    ____________________
+lvl   Water Seer & Scribe     Cleric & Paragon
+¯¯¯   ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯    ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  1    Ply                 ->  Ply
+  4    Ice                 ->  Ice
+  2    Frost               ->  Frost
+  8                            Wish
+  9    Tundra              ->  Tundra
+ 13    Restore             ->  Restore
+ 16    Ply Well            ->  Ply Well
+ 17    Ice Horn            ->  Ice Horn
+ 22                            Wish Well
+ 25    Glacier             ->  Glacier
+ 30    Break               ->  Break
+ 34    Pure Ply            ->  Pure Ply
+ 42    Ice Missile         ->  Ice Missile
+ 46                            Pure Wish
+
+
+Other Series
+---------------------------------------------------------------------------
+
+ See Jupiter Adepts "Other" Series (Are identical)
+
+
+
+
+
+===========================================================================
+Appendix B: Chart Tables
+===========================================================================
+
+---------------------------------------------------------------------------
+1. I Items - Potions
+---------------------------------------------------------------------------
+
+Name           Value Description
+-------------- ----- ------------------------------------------------------
+Herb              10 Heals 50 HP
+Nut              200 Heals 200 HP
+Corn              12 Heals 200 HP
+Vial             500 Heals 500 HP
+Potion!         1000 Heals all HP
+Empty Bottle!   1000 Use to store Hermes' Water from the Mercury Lighthouse
+Hermes' Water!  2000 Heals all HP; Heals Tret
+Psy Crystal!     500 Heals all PP
+Antidote          20 Cures Poison
+Elixir            30 Cures Delude, Stun, Sleep, Haunt & Curse
+Sacred Feather    70 Decreases Encounter Rate (Less Monster Battles)
+Water of Life!  3000 Revives a dead character and heals all HP
+Power Bread!     500 Increase maximum HP with +5 permanently
+Cookie!          500 Increase maximum PP with +5 permanently
+Apple!           500 Increase Attack with +3 permanently
+Hard Nut!        500 Increase Defense with +3 permanently
+Mint!            500 Increase Agility with +3 permanently
+Lucky Pepper!    500 Increase Luck with +2 permanently
+
+
+---------------------------------------------------------------------------
+1. II Items - Attack Items
+---------------------------------------------------------------------------
+
+Name           Value Description
+-------------- ----- ------------------------------------------------------
+Smoke Bomb        30 Use to delude enemies
+Sleep Bomb        60 Use to make enemies fall to sleep
+Oil Drop          30 Attack with Fire power 
+Weasel Claw       40 Attack with Wind power
+Bramble Seed      50 Attack with Earth power
+Crystal Powder    60 Attack with Water power
+
+
+---------------------------------------------------------------------------
+1. III Items - Scenario Items
+---------------------------------------------------------------------------
+
+Name           Value Description
+-------------- ----- ------------------------------------------------------
+Lucky Medal!      50 Use for winning items at Tolbi's Fountain
+Game Ticket!     100 Use for winning items at Tolbi's Slot Machine
+
+Lifting Jewel      - Learn "Lift" Psynergy
+Frost Jewel        - Learn "Frost" Psynergy
+Douse Drop         - Learn "Douse" Psynergy
+Orb of Force       - Learn "Force" (neutral) Psynergy
+Carry Stone        - Learn "Carry" Psynergy
+Cloak Ball         - Learn "Cloak" Psynergy
+Halt Gem           - Learn "Halt" Psynergy
+
+Mythril Bag        - Can hold one of the elemental stars
+Mercury Star       - Use to light the beacon of the Mercury Lighthouse
+Venus Star         - Use to light the beacon of the Venus Lighthouse
+Jupiter Star       - Use to light the beacon of the Jupiter Lighthouse
+Mars Star          - Use to light the beacon of the Mars Lighthouse
+Small Jewel        - Used for the Minotaur relief in Sol Sanctum
+Dragon's Eye       - Used for the Dragon Statue in Fuchin Temple
+Bone               - Wastes inventory space / Get a hint from dog in Vault
+Boat Ticket        - Used for boarding the ship to Tolbi (600 Coins for 4)
+Anchor Charm       - Used to get the Tolbi-bound ship going
+Cell Key!         30 Used to sneak inside Dodonpa's Fortress
+Mystic Draught     - Used to cure Babi's illness temporarily
+Blue Key           - Used for unlocking one blue door in Crossbone Isle
+Red Key            - Used for unlocking one red door in Crossbone Isle
+Black Orb          - Used for entering & controlling the Lemurian Ship
+
+
+
+---------------------------------------------------------------------------
+2. I Weapons - Long Swords                          (Used by Isaac & Garet)
+---------------------------------------------------------------------------
+
+Name           ATK Value Unleash        Other
+-------------- --- ----- -------------- -----------------------------------
+Long Sword      14   200 -
+Broad Sword     40  1000 -
+Arctic Blade!   55  2600 Blizzard
+Claymore        70  4000 -
+Great Sword     90  7000 -
+Shamshir!       99 10000 Acid Bath
+Silver Sword!  108 12000 Aqua Sock
+Masamune!      115 13400 -              Dummied out
+Muramase!      126 13600 Demon Fire     Cursed
+Gaia Blade!    135 17000 Titan Blade    (Earth) Earth Pow. & Res. +20
+Sol Blade!     138 19000 -              Dummied out
+
+
+---------------------------------------------------------------------------
+2. II Weapons - Light Blades                  (Used by Isaac, Garet & Ivan)
+---------------------------------------------------------------------------
+
+Name           ATK Value Unleash        Other
+-------------- --- ----- -------------- -----------------------------------
+Machete^         6    22 -
+Short Sword      8   120 -
+Bandit's Sword! 12   700 Rapid Smash
+Hunter's Sword  28   520 -
+Elven Rapier!   44  2200 Vorpal Slash   (Wind)
+Battle Rapier   58  2900 -
+Mystery Blade!  85  6400 Life Nourish
+Master Rapier   86  6800 -
+Assassin Blade! 90  7800 Mortal Danger
+Ninja Blade!    99  8800 Cyclone Attack
+Swift Sword!   104  9400 Sonic Smash    Wind Pow. +10
+Kikuichimonji! 128 13400 Asura
+Kunasagi!      135 19000 -              Dummied out
+
+
+---------------------------------------------------------------------------
+2. III Weapons - Axes                               (Used by Isaac & Garet)
+---------------------------------------------------------------------------
+
+Name           ATK Value Unleash        Other
+-------------- --- ----- -------------- -----------------------------------
+Battle Axe      24   280 -
+Broad Axe       50  1400 -
+Vulcan Axe!     76  4600 Barrage
+Great Axe       80  5200 -
+Burning Axe!    84  7500 Broil          (Fire)
+Dragon Axe!    100 10300 Heat Mirage    (Fire)
+Giant Axe!     114 14000 Meltdown
+Demon Axe!     132 16000 Poison Cloud   Cursed
+
+
+---------------------------------------------------------------------------
+2. IV Weapons - Maces                          (Used by Isaac, Garet & Mia)
+---------------------------------------------------------------------------
+
+Name           ATK Value Unleash        Other
+-------------- --- ----- -------------- -----------------------------------
+Mace             6    80 -
+Heavy Mace      26   500 -
+Battle Mace     56  2600 -
+War Mace        84  6200 -
+Grievous Mace!  88  7000 Terra Strike   (Earth)
+Righteous Mace!112  8400 Blinding Smog  HP rec. +3
+Blessed Mace!  126 14500 -              HP rec. +2, Use rec. +200 HP
+Wicked Mace!   130 13800 Poison Death   Cursed
+
+
+---------------------------------------------------------------------------
+2. V Weapons - Rods                                    (Used by Mia & Ivan)
+---------------------------------------------------------------------------
+
+Name           ATK Value Unleash        Other
+-------------- --- ----- -------------- -----------------------------------
+Wooden Stick     4    40 -
+Shaman's Rod    10    NA -
+Magic Rod!      16   380 Murk
+Witch's Wand!   32   850 Stun Voltage
+Blessed Ankh!   46  1600 Psyphon Seal
+Psynergy Rod!   64  3800 Psynergy Leech
+Frost Wand!     76  5400 Frost Bite      (Water)
+Angelic Ankh!   83  6400 Life Leech
+Demonic Staff!  92 10000 Bad Omen        Cursed
+Zodiac Wand!   102 11400 Shining Star
+Crystal Rod!   106 13400 Drown
+
+
+
+---------------------------------------------------------------------------
+3. I Body Armor - Armor                             (Worn by Isaac & Garet)
+---------------------------------------------------------------------------
+
+Name             DEF Value Other
+---------------- --- ----- ------------------------------------------------
+Leather Armor     12   240
+Psynergy Armor    21  1000 Max PP +20
+Chainmail         25  2000
+Armored Shell     30  3600
+Spirit Armor      32  4000 All Res. +15
+Plate Mail        33  4400
+Spiked Armor!     34 14000 ATK +10, Crit. +6%
+Steel Armor       36  4900
+Asura's Armor!    42 15000 ATK +5, HP rec. +8
+Dragon Scales!    44 17000 Water/Fire Res. +30
+Demon Mail!       50 17000 Cursed, Wind Res. -10
+
+
+---------------------------------------------------------------------------
+3. II Body Armor - Clothing                                   (Worn by All)
+---------------------------------------------------------------------------
+
+Name             DEF Value Other
+---------------- --- ----- ------------------------------------------------
+Cotton Shirt       3    20
+Travel Vest        6    50
+Fur Coat          16   400 Water Res. +20
+Adept's Clothes   18   850 Max PP +8
+Elven Shirt!      22  1700 AGL *1.5
+Kimono!           25  2800 AGL +10, Fire Res. +10
+Silver Vest       28  3200 
+Water Jacket!     30  3000 Water Res. +30, Fire Res. +20
+Ninja Garb!       36  6900 AGL +30, Wind Res. +10
+Storm Gear!       42  9800 Water/Fire/Wind Res. +30
+
+
+---------------------------------------------------------------------------
+3. III Body Armor - Robes                              (Worn by Mia & Ivan)
+---------------------------------------------------------------------------
+
+Name             DEF Value Other
+---------------- --- ----- ------------------------------------------------
+One-Piece Dress*   4    24
+Travel Robe       10   200
+China Dress!*     19  1600 Use enemy ATK-
+Silk robe*        20  1400
+Jerkin*           26  2400
+Cocktail Dress!*  29  4000 Max PP +15
+Blessed Robe!     36  7000 HP rec. +5
+Magical Cassock!  39  9000 PP rec. +2
+Mysterious Robe!  40 11000 Dummied Out
+Oracle Robe!*     43 13500 HP rec. +10, Water Res. +40 
+Feathered Robe!   45 14000 AGL +30, Wind Pow. +20, Wind Res. +30
+
+
+
+---------------------------------------------------------------------------
+4. I Arm Protection - Shields                       (Worn by Isaac & Garet)
+---------------------------------------------------------------------------
+ 
+Name             DEF Value Other
+---------------- --- ----- ------------------------------------------------
+Wooden Shield      6    40
+Bronze Shield     14   500
+Iron Shield       20  1200
+Dragon Shield!    26  2400 Fire Res. +30
+Knight Shield     28  3000
+Earth Shield!     31  4100 Earth Res. +20, use to rec. 150 HP
+Mirrored Shield!  39  5200 Use induce Delude
+
+
+---------------------------------------------------------------------------
+4. II Arm Protection - Gloves                                 (Worn by all)
+---------------------------------------------------------------------------
+
+Name             DEF Value Other
+---------------- --- ----- ------------------------------------------------
+Padded Gloves      2    10
+Leather Gloves    10   220
+Gauntlets         23  1600
+Battle Gloves!    26  2100 Attack +8
+Vambrace!         27  1800 Attack +5
+War Gloves!       31  4000 Attack +10
+Spirit Gloves!    34  5200 All Pow. +5
+Aura Gloves!      36  6500 Use boost all Res.
+
+
+---------------------------------------------------------------------------
+4. III Arm Protection - Armlets                        (Worn by Ivan & Mia)
+---------------------------------------------------------------------------
+
+Name             DEF Value Other
+---------------- --- ----- ------------------------------------------------
+Leather Armlet     7   180
+Armlet            17   900
+Heavy Armlet      25  2000
+Guardian Armlet!  27  2600 Use DEF+  
+Silver Armlet     30  4000
+Virtuous Armlet!  35  7000 Fire & Wind Pow. +10, Use rec. 100 HP
+Spirit Armlet!    38  9000 Earth & Water Pow. +10, Use cure Ailments
+
+
+
+---------------------------------------------------------------------------
+5. I Helmets - Helms                                (Worn by Isaac & Garet)
+---------------------------------------------------------------------------
+
+Name             DEF Value Other
+---------------- --- ----- ------------------------------------------------
+Open Helm          9   180
+Bronze Helm       14   600
+Iron Helm         20  1600
+Steel Helm        27  3100
+Adept's Helm!     29  3700 Max PP *1.2
+Silver Helm       30  3900
+Knight's Helm     33  4600
+Warrior's Helm!   35 10000 Earth Pow. +10, Crit. +10%
+
+
+---------------------------------------------------------------------------
+5. II Helmets - Caps                                          (Worn by All)
+---------------------------------------------------------------------------
+
+Name             DEF Value Other
+---------------- --- ----- ------------------------------------------------
+Leather Cap        3    30
+Wooden Cap        10   400
+Lure Cap!         20  3000 Increase Encounter Rate
+Mail Cap          23  2000
+Ninja Hood!       28  2800 AGL +20
+Prophet's Hat!    30  4600 Use induce Curse
+Lucky Cap!        33  5200 PP rec. +2, Crit. +8%
+Jeweled Crown!    35  4000 LCK +5
+Thunder Crown!    40  7500 Cursed, PP rec. +4
+
+
+---------------------------------------------------------------------------
+5. III Helmets - Circlets                              (Worn by Ivan & Mia) 
+---------------------------------------------------------------------------
+
+Name             Def Value Other
+---------------- --- ----- ------------------------------------------------
+Circlet            6   120
+Silver Circlet    16  1300
+Guardian Circlet  25  3400
+Glittering Tiara!*27  3600 Use prevent Delusion
+Platinum Circlet  29  4200
+Mythril Circlet!  34  7000 PP rec. +3
+
+
+
+---------------------------------------------------------------------------
+6. I Accessories - Rings                                      (Worn by All)
+---------------------------------------------------------------------------
+
+Name             Value Other
+---------------- ----- ----------------------------------------------------
+Healing Ring!      800 Use rec. 70 HP
+Unicorn Ring!     1100 Use cure Poison
+Sleep Ring!       1400 Use induce sleep
+Adept Ring!       3100 Use rec. 7 PP
+War Ring!         2600 Use ATK+
+Fairy Ring!       2900 Use as Elixir
+Cleric's Ring!    6400 Nullify effect caused by Curse (doesn't remove it)
+
+
+---------------------------------------------------------------------------
+6. II Accessories - Shirts                                    (Worn by All)
+---------------------------------------------------------------------------
+
+Name             Def Value Other
+---------------- --- ----- ------------------------------------------------
+Running Shirt!     1   400 AGL +15
+Silk Shirt!*       6  1800 LCK +1
+Mythril Shirt!    10  2900 Max HP +5
+
+
+---------------------------------------------------------------------------
+6. III Accessories - Boots                                    (Worn by All)
+---------------------------------------------------------------------------
+
+Name             Def Value Other
+---------------- --- ----- ------------------------------------------------
+Turtle Boots!      3   600 AGL *0.5
+Fur Boots!         2  1200 Water Res. +15
+Quick Boots!       3  2100 AGL +20
+Hyper Boots!       4  2400 Crit. +12%
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+ATK = Attack
+DEF = Defense
+AGL = Agility
+LCK = Luck
+
+'item name'! = Item is an Artifact
+'item name'* = Item can by used by girls only (Mia & Jenna)
+Crit+        = When equipped item increases Unleash Rate
+('Element')  = Regular attack is of type: 'Element'
+
+
+Note 1: Selling an item gives you only 75% of its original value. Using
+        this I calculated the original values, instead of having 2 columns
+        for price
+Note 2: All items that are used in battle can break
+Note 3: Ivan can't use the Machete, even though it is a Light blade class
+        weapon.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+
+---------------------------------------------------------------------------
+8. I Psynergy Spells - Field
+---------------------------------------------------------------------------
+
+Name           Lvl Elem. PP Item           Effect and Notes
+-------------- --- ----- -- -------------- --------------------------------
+Avoid            6 Wind   5  -             Encounter Rate decreases 
+Carry            - Earth  2 Carry Stone    Carry an object to another tile
+Catch            - Earth  1 Catch Beads    Catch small objects
+Cloak            - Water  1 Cloak Ball     Cloak to hide in the shadows
+Douse            1 Water  5 Douse Drop     Small rain cloud
+Force (Ki)       -  -     2 Orb of Force   Use Ki to strike an object
+Frost            1 Water  5 Frost Jewel    Freeze puddles of water
+Gale             1 Wind   3  -             Same as "Whirlwind"
+Growth           1 Earth  4  -             Make small plants grow
+Halt             - Wind   2 Halt Gem       Stop 1 Target's Movements
+Lift             - Wind   2 Lifting Gem    Lift boulders
+Mind Read        1 Wind   1  -             Read peoples' Minds
+Move             1 Fire   2  -             Move an object one square
+Retreat          1 Earth  6  -             Retreat to the dungeon entrance
+Reveal           - Wind   1  -             See things normally invisible
+Whirlwind        1 Wind   5  -             Use to blow away small bushes
+---------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------
+8. II Psynergy Spells - Healing & Status
+---------------------------------------------------------------------------
+
+Name           lvl E PP Ran Effect and Notes
+-------------- --- - -- --- -----------------------------------------------
+Revive          19 Earth 15   1 Revives downed and recover HP
+
+Cure Poison      5 Wind   2   1 Cures one poisoned ally
+Restore         13 Wind   3   1 Cures sleep, stun and Delusion Statuses
+Break           34 Water  5 All Nullify any enemy status boosts
+
+Impact           5 Wind   7   1 Raise Ally Attack
+High Impact     21 Wind  12 All Raise Allies Attacks
+Demon Spear      5 Wind   7   1 Raise Ally Attack
+Angel Spear     21 Wind  12 All Raise allies' Attacks
+
+Guard            3 Fire   3   1 Raise Ally Defense
+Protect         15 Fire   5 All Raise Allies Defenses
+Guardian         3 Wind   3   1 Raise Ally Defense
+Protector       15 Wind   5 All Raise Allies' Defenses
+
+Ward             6 Wind   3   1 Raise Ally's Resistance
+Resist          22 Wind   5 All Raise Allies' Resistance
+Magic Shell     10 Wind   3   1 Raise Ally Resistance
+Magic Shield    27 Wind   5 All Raise Allies' Resistances
+
+Dull            11 Wind   6   1 Lower Enemy Attack
+Blunt           37 Wind  11   3 Lower Enemies Attacks
+Impair           9 Fire   4   1 Lower Enemy Defense
+Debilitate      23 Fire   6   3 Lower Enemies Defenses
+Weaken           9 Wind   4   1 Lower Enemy Resistance
+Enfeeble        25 Wind   6   3 Lower Enemies Resistances
+
+Sleep           12 Wind   5   3 induce sleep
+Bind            18 Wind   4   1 Chance of Sealing enemy's Psynergy
+Delude           1 Wind   4   3 induce Delusion
+Mist             1 Wind   4   3 induce Delusion
+Haunt           17 Earth  5   3 induce Haunt
+Curse           20 Earth  6   1 induce Curse
+Condemn         29 Earth  8   1 Chance of disabling enemy
+Annihilation    31 Earth 18   1 Chance of Instantly killing enemy
+
+HP Drain        33 Wind   3   1 Chance of draining HP
+Psy Drain   *39/41 Wind   0   1 Chance of draining PP (if it has any)
+
+Cure             1 Earth  3   1 Cure Series, Cures 70 HP
+Cure Well       10 Earth  7   1 Cure Series, Cures 150 HP
+Potent Cure     26 Earth 10   1 Cure Series, Cures 300 HP
+
+Ply              1 Water  4   1 Ply Series, Cures 100 HP
+Ply Well        16 Water  8   1 Ply Series, Cures 300 HP
+Pure Ply        34 Water 12   1 Ply Series, Cures 1000 HP
+
+Wish             8 Water  9 All Wish Series, Cures 80 HP 
+Wish Well       22 Water 13 All Wish Series, Cures 160 HP
+Pure Wish       46 Water 20 All Wish Series, Cures 400 HP
+
+
+* = Some classes learn this spell on different levels for some unknown 
+reason. Check the individual classes for more details.
+
+
+---------------------------------------------------------------------------
+8. III Psynergy Spells - Attack
+---------------------------------------------------------------------------
+
+Name           lvl Elem. PP Ran Effect and Notes
+-------------- --- ----- -- --- -------------------------------------------
+Ragnarok        13 Earth  7   1 Attack with a huge sword
+Helm Splitter   33 Earth  8   1 Attack that can induce Paralysis
+Demon Night     18 Earth 12   3 Attack with monster spirits
+
+Heat Wave       12 Fire   6   1 Attack with Fiery Bolts
+Planet Diver    13 Fire   7   1 Attack with a gigantic leap
+Dragon Cloud    11 Fire   6   1 Attack with a Fire Dragon 
+
+Astral Blast    11 Wind   5   1 Attack with heaven's power
+Death Plunge    12 Wind  14   1 Attack with a gigantic leap
+Quick Strike    40 Wind  12   1 Attack in a split second
+Shuriken        21 Wind   8   3 Attack with knives
+
+Cutting Edge    11 Water  5   1 Attack with a water shockwave
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Quake            2 Earth  4   3 Quake Series
+Earthquake       4 Earth  7   5 Quake Series
+Quake Sphere    14 Earth 15   7 Quake Series
+
+Spire            6 Earth  5   1 Spire Series
+Clay Spire      20 Earth 13   3 Spire Series
+Stone Spire     42 Earth 22   3 Spire Series
+
+Gaia             6 Earth  7   3 Gaia Series
+Mother Gaia     24 Earth 17   5 Gaia Series
+Grand Gaia      54 Earth 32   5 Gaia Series
+
+Rockfall         6 Earth  5   3 Rockfall Series (similar to Gaia)
+Rockslide       24 Earth 15   5 Rockfall Series
+Avalanche       54 Earth 30   5 Rockfall Series
+
+Growth           1 Earth  4   1 Growth Series
+Mad Growth      12 Earth 10   3 Growth Series 
+Wild Growth     28 Earth 19   5 Growth Series
+
+Thorn            4 Earth  6   3 Thorn Series
+Briar           17 Earth 11   3 Thorn Series
+Nettle          36 Earth 23   5 Thorn Series
+
+Punji            4 Earth  7   3 Punji Series (similar to Thorn)
+Punji Trap      15 Earth 13   3 Punji Series
+Punji Strike    36 Earth 24   5 Punji Series
+
+Flare            1 Fire   4   3 Flare Series
+Flare Wall       6 Fire   7   3 Flare Series
+Flare Storm     18 Fire  12   3 Flare Series
+
+Fire             4 Fire   6   3 Fire Series
+Fireball        14 Fire  12   5 Fire Series
+Inferno         36 Fire  23   5 Fire Series
+
+Volcano          8 Fire   6   1 Volcano Series
+Eruption        22 Fire  14   3 Volcano Series
+Pyroclasm       48 Fire  29   5 Volcano Series
+
+Lava Shower      8 Fire   4   1 Lava Shower Series (Similar to Volcano)
+Molten Bath     22 Fire  12   1 Lava Shower Series
+Magma Storm     48 Fire  27   1 Lava Shower Series
+
+Blast            6 Fire   7   3 Blast(1) Series
+Nova            16 Fire  13   5 Blast(1) Series
+Supernova       40 Fire  31   7 Blast(1) Series
+
+Fire Bomb        6 Fire   5   3 Fire Bomb Series (Similar to Blast(1))
+Cluster Bomb    16 Fire  11   5 Fire Bomb Series
+Carpet Bomb     40 Fire  29   7 Fire Bomb Series
+
+Blast            2 Fire   5   3 Blast(2) Series
+Mad Blast       10 Fire   9   3 Blast(2) Series
+Fiery Blast     27 Fire  19   5 Blast(2) Series
+
+Whirlwind        1 Wind   5   3 Whirlwind Series
+Tornado         18 Wind  14   5 Whirlwind Series
+Tempest         44 Wind  27   5 Whirlwind Series
+
+Gale             1 Wind   3   3 Gale Series (Similar to Whirlwind)
+Typhoon         18 Wind  12   5 Gale Series
+Hurricane       44 Wind  25   5 Gale Series
+
+Ray              1 Wind   6   3 Ray Series
+Storm Ray       14 Wind  10   3 Ray Series
+Destruct Ray    36 Wind  21   3 Ray Series
+
+Plasma           8 Wind   8   3 Plasma Series  
+Shine Plasma    26 Wind  18   5 Plasma Series
+Spark Plasma    50 Wind  37   7 Plasma Series
+
+Bolt             2 Wind   4   1 Bolt Series
+Flash Bolt       6 Wind   7   3 Bolt Series
+Blue Bolt       22 Wind  14   3 Bolt Series
+
+Slash            1 Wind   4   1 Slash Series
+Wind Slash      10 Wind   9   3 Slash Series
+Sonic Slash     30 Wind  20   5 Slash Series
+
+Thunderclap      8 Wind   9   3 Thunderclap Series (Similar to Plasma)
+Thunderbolt     27 Wind  19   5 Thunderclap Series
+Thunderstorm    50 Wind  39   7 Thunderclap Series
+
+Frost          1/2 Water  5   3 Frost Series
+Tundra         8/9 Water  8   3 Frost Series
+Glacier      24/25 Water 15   3 Frost Series
+
+Ice              4 Water  5   1 Ice Series
+Ice Horn        17 Water 11   3 Ice Series
+Ice Missle      41 Water 23   3 Ice Series
+
+Froth            2 Water  5   3 Froth Series
+Froth Sphere    14 Water 12   5 Froth Series
+Froth Spiral    40 Water 31   7 Froth Series
+
+Prism            6 Water  7   3 Prism Series
+Hail Prism      22 Water 16   5 Prism Series
+Freeze Prism    52 Water 31   5 Prism Series
+
+Douse            1 Water  5   3 Douse Series
+Drench          12 Water 10   3 Douse Series
+Deluge          30 Water 20   5 Douse Series
+
+
+
+---------------------------------------------------------------------------
+9. Unleash Attacks
+---------------------------------------------------------------------------
+
+Name            Elem.  Effect and Other notes
+--------------  -----  ----------------------------------------------------
+Acid Bath       Fire   Drop ATK
+Aqua Sock       Water  -
+Asura           Wind   -
+Bad Omen        Fire   Induce Haunt
+Barrage         Fire   Induce Stun
+Blinding Smog   Wind   Induce Delusion
+Blizzard        Water  Drop ATK
+Broil           Fire   -
+Cyclone Attack  Wind   Drop Res.
+Demon Fire      Fire   Induce Haunt
+Drown           Water  Instant kill 
+Frost Bite      Water  Induce Stun
+Heat Mirage     Fire   Induce Delusion
+Life Leech      Water  Drain HP
+Life Nourish    Earth  Drain HP
+Meltdown        Fire   Drop DEF
+Mortal Danger   Earth  Instant Kill
+Murk            Wind   Induce Sleep
+Psynergy Leech  Water  Drain PP
+Psyphon Seal    Wind   Seal Psynergy
+Poison Cloud    Earth  Induce Poison
+Poison Death    Earth  Induce Venom
+Rapid Smash     Wind   Can do either 1x or 3x Damage
+Shining Star    Wind   Induce Delusion
+Sonic Smash     Wind   Can do either 1x or 3x Damage
+Stun Voltage    Wind   Induce Stun
+Terra Strike    Earth  -
+Titan Sword     Earth  -
+Vorpal Slash    Wind   -
+
+
+
+---------------------------------------------------------------------------
+10. Monster Compendium
+---------------------------------------------------------------------------
+
+This is the Monster Compendium and it has detailed data about all the 
+monsters in this game. Most statistics speak for themselves, but some of 
+tem are a bit harder to understand.
+
+-Elemental properties are abbreviated:
+
+      E = Earth   F = Fire    W = Wind    w = Water
+
+-ICC stands for Item Chance Class, there are 9 classes ranging from 1 to 9. 
+Each class has its own percentage with ICC1 = 100%. The next class (ICC2) 
+has a drop chance of 50% and this gets halved each time. We get the 
+following list:
+
+     ICC1  = 100.0%
+     ICC2  =  50.0%
+     ICC3  =  25.0%
+     ICC4  =  12.5%
+     ICC5 ~=   6.3%
+     ICC6 ~=   3.1%
+     ICC7 ~=   1.6%
+     ICC8 ~=   0.8%
+     ICC9 ~=   0.4%
+
+ICC9 is in this game only used for the Fenrir's Kikuichimonji. Other than 
+that ICC2 is non-existent in this game. Most drops have a chance of ICC5 
+and ICC6, but most of those items are just weak and regular items. If you 
+manage to get a Djinn Kill / "Dark Panther Method" (see below in stuff 
+section) this class is lowered by 2, meaning that the chance is quadrupled!
+
+-Monsters are sorted in four lists, one for regular enemies, one for the 
+bosses (and non-regular enemies), one for the Mimics and the last is for 
+the Djinn. Also all monsters are listed by alphabetical order of their 
+names.
+
+-(WM) means that the monster is found mainly on the World Map.
+
+---------------------------------------------------------------------------
+I. Regular Enemies
+---------------------------------------------------------------------------
+
+Monster Name    HP    Att  Agl  Exp.  Weakness      Power: E    F    W    w 
+                PP    Def  Luck Coin  Strong       Resist: E    F    W    w
+                Dropped Item     ICC  Location
+                Special Attacks
+--------------- -----------------------------------------------------------
+Acid Maggot      160  255   78    86   Fire               95   90   85   85
+                   0   60    2   102   -                  48   25   48   48
+                Sleep Bomb         6   Suhalla Desert
+                Acid Bite, Escape
+
+Amaze (Weak)      28   25   12     3   Wind              100   95   95   95
+                   0    8    2     2   Water              48   72    7  100
+                Oil Drop           5   Sol Sanctum
+                Rumble
+
+Amaze             39   36   18     5   Wind              100   95   95   95
+                   0   10    2     6   Water              48   72    7  100
+                Oil Drop           5   Vale (WM)
+                Rumble
+
+Ant Lion         400  160   58   168   Water              95  115   95   85
+                   0   45   19   320   Fire              100  175  100   25
+                Vial               4   Lamakan Desert
+                Ultrasonic Waves, Flare Wall, Earthquake
+
+Ape              290  128   49    96   Fire              100   70   80   80
+                   0   29    2   160   Wind               48   25   72   48
+                Vial               3   Mogall Forest
+                Ransack
+
+Armored Rat      147  193   60    77   Fire              100   70   80   80
+                   0   79    1   100   Wind               48   25   72   48
+                Herb               6   Altmiller Cave
+                Defend (50%/90% damage reduction)
+
+Bat (Weak)        17   21   13     1   Wind               95   95  110   95
+                   0    6    3     1   Earth             127   48    7   72
+                Herb               6   Sol Sanctum
+                -
+
+Bat               30   30   20     2   Wind               95   95  110   95
+                   0    4    3     3   Earth             127   48    7   72
+                Herb               5   Vale (WM)
+                Ultrasonic Waves
+
+Bone Fighter     122  131   52    51   Earth             100   80   80   95
+                   0   35    3    63   Water              25   72   48  127
+                Sleep Bomb         6   Fuchin Temple
+                Undead Sword
+
+Boulder Beast    211  327  140   278   Water              95  125   95   75
+                  14  137    6   164   Fire              100  193  100   25
+                Water of Life      8   Venus Lighthouse (Upper Level)
+                Mad Blast, Dynamite (Kamikaze), Head butt
+
+Brigand          421  251  104   162   All                80   80   80   80
+                   0   69    5   190   -                  72   72   72   72
+                Crystal Powder     6   Lunpa Fortress
+                Uses 'Smoke bomb', Slice
+
+Brutal Troll     291  273   76   150   Fire              100   70   80   80
+                   0   63    6   190   Wind               48   25   72   48
+                Nut                5   Suhalla (WM)
+                Brute Force, 'Furious Rage', 'Regenerate 30 HP'
+
+Calamar          104  130   46    59   Fire               95   75   95  125
+                   0   34    1    79   Water              48    7   48  127
+                Elixir             5   Altin Peak
+                Electric Bite, 'Search for Allies'
+
+Cannibal Ghoul   249  274   80   194   Fire              100   80   80   95
+                   0   82    4   160   Water              25    7   48   72
+                Antidote           6   Suhalla Gate
+                Cannibal Fang, 'Search for Allies', 'Smell of Decay'
+
+Cave Troll       212  199   44   106   Fire              100   70   80   80
+                   0   45    3   134   Wind               48   25   72   48
+                Nut                5   Vault Cave
+                Brute Force, 'Regenerate 20 HP'
+
+Chimera Mage     413  326  145   362   Water              95  115   95   85
+                  28  119   16   300   Fire              100  175  100   25
+                Spiked Armor       7   Venus Lighthouse (Upper Level)
+                Eruption, Fire Blessing, Mad Dash, Rabid Fang,
+                Recover 150 HP
+
+Clay Gargoyle    209  210   84   100   Earth             100  100   95  100
+                  24   90    7   147   Wind               48  100  127  100
+                Nut                6   Altmiller Cave
+                Guard, Spire, Ultrasonic Waves
+
+Creeper           89   79   29    32   Wind              100   95   95   95
+                   6   19    2    38   Water              48   72    7  100
+                Weasel's Claw      6   Tret Tree
+                Douse, Frost
+
+Cuttle            80   96   36    27   Fire               95   75   95  125
+                   0   22    1    49   Water              48    7   48  127
+                Sleep Bomb         6   Mercury Lighthouse
+                Poisonous Bite
+
+Death Cap        117  159   90    48   Fire              105   80   70  100
+                   0   19    5    56   Water              48    7   72  100
+                Sleep Bomb         6   Vale Cave
+                Sleep Star
+
+Death Head       128  130   47    55   Earth             100   80   80   95
+                  15   31    3    73   Water              25   72   48  127
+                Nut                5   Mogall Forest
+                Impair, Slash
+
+Dirge             91  122   60    47   Wind               95   95  110   95
+                   0   32    2    61   Earth             127   48    7   72
+                Nut                5   Mogall Forest
+                Flying Attack
+
+Dirty Ape        230  236  132   114   Fire              100   70   80   80
+                   0   57    2   149   Wind               72   25  127   72
+                Antidote           5   Suhalla (WM)
+                Freebite Rush, War Cry
+
+Dread Hound      252  211   90   116   Water              95  115   95   85
+                   0   56   13   176   Fire              100  175  100   25
+                Prophet's Hat      7   Altmiller Cave
+                Double Fang, Fire Blessing, Wicked Howl
+
+Drone Bee         63   68   36    19   Wind               90   95  105   90
+                   0   19    2    28   Earth             100   48    7   48
+                Elixir             5   Bilibin Cave
+                Numbing Sting
+
+Earth Golem      298  299   70   218   Wind              120   95   80   95
+                   0  114    5   183   Earth             193  100   25  100
+                Giant Axe          8   Venus Lighthouse (Lower)
+                Truncheon fist
+
+Fenrir           406  357  141   402   Fire               95   85   95  115
+                   0  125    9   212   Water             100   25  100  175
+                 Kikuichimonji     9   Venus Lighthouse (Upper Level)
+                 Double Fang, Ice Blessing, Wicked Howl
+
+Fighter Bee      116  155   74    67   Wind               90   95  105   90
+                   0   38    2    90   Earth             100   48    7   48
+                 Elixir            6   Lamakan Desert
+                 'Search for Allies', Numbing Sting
+
+Foul Dirge       149  177  120    82   Wind               95   95  110   95
+                   0   46    2   100   Earth             127   48    7   72
+                Smoke Bomb         6   Altmiller Cave
+                Swift Strike
+
+Gargoyle         176  181   59    84   Earth             100  100   95  100
+                  21   81    7   119   Wind               48  100  127  100
+                Sleep bomb         6   Vault Cave
+                Guard, Ice Blessing, Quake Sphere
+
+Ghost             56   38   12     9   Wind              100   95   95   95
+                   6   12    2     9   Water              48   72    7  100
+                Oil Drop           5   Goma Cave         
+                Impair, Rumble
+
+Ghost Mage       161  168   86    80   Wind              100   95   95   95
+                  19   43    9   110   Water              48   72    7  100
+                Bramble Seed       5   Vale Cave
+                Haunting, Spire, Whirlwind
+
+Ghoul             99   93   16    34   Fire              100   80   80   95
+                   0   20    1    42   Water              25    7   48   72
+                Antidote           5   Bilibin Cave
+                Cannibal Fang
+
+Gnome             48   73   38    29   Earth              85   85  100   85
+                   5   15    3    40   Wind               48   72  100   72
+                Oil Drop           6   Imil (WM)
+                Bolt, Flare, Guard, Escape
+
+Gnome Mage       162  179  108    86   Earth              85   85  100   85
+                  24   50    8   126   Wind               48   72  100   72
+                Crystal Powder     5   Altmiller Cave
+                Delude, Fire Ball, Flash Bolt
+
+Gnome Wizard     215  257  122   219   Wind              100   85   85   85
+                   0   74    8   176   Earth             100   72   48   72
+                Crystal Powder     6   Suhalla Gate
+                Impact, Mother Gaia, Sleep
+
+Goblin           268  289   83   221   Jupiter           100   85   85   85
+                   0   91    3   170   Venus             100   72   48   72
+                Vial               6   Suhalla Gate
+                -
+
+Golem            266  217   40   105   Wind              120   95   80   95
+                   0   57    2   161   Earth             193  100   25  100
+                Vial               7   Altmiller Cave
+                Forcible Arm
+
+Grand Golem      476  367   80   412   Wind              120   95   80   95
+                   0  149    5   208   Earth             193  100   25  100
+                Zodiac Wand        8   Venus Lighthouse (Upper Level)
+                Truncheon Fist
+
+Grub             102  154   52    62   Fire               95   90   85   85
+                   0   32    1    88   Earth              48   25   48   48
+                Antidote           5   Lamakan Desert
+                Escape
+
+Harpy            105  104   46    36   Wind               95   95  110   95
+                   0   25    4    53   Earth             127   48    7   72
+                Elixir             5   Mercury Lighthouse
+                Shriek
+
+Harridan         231  261  118   150   Wind               95   95  110   95
+                  29   66    8   164   Earth             175   72   25  100
+                Nut                6   Suhalla Desert
+                Banshee Howl, Crazy Voice, Wind Slash
+
+Horned Ghost     236  268  116   166   Wind              100   95   95   95
+                   0   78    5   199   Water              48   72    7  100
+                Elixir             6   Suhalla Gate
+                Ice Horn, Hail Prism, Haunting
+
+Ice Gargoyle     304  319  100   307   Earth             100  100   95  100
+                  21  150    7   170   Wind               48  100  127  100
+                Potion             7   Venus Lighthouse (Upper)
+                Guard, Ice Blessing, Mother Gaia
+
+Kobold           220  230   75   107   Wind              100   85   85   85
+                   0   62    4   154   Earth             100   72   48   72
+                Sleep Bomb         5   Suhalla (WM)
+                Use 'Herb'
+
+Lizard Man       129  106   30    42   Fire               85   85   85  100
+                   0   31    2    52   Water             100   72  100  127
+                Nut                6   Mercury Lighthouse 
+                Water Blessing
+
+Mad Mole         156  197   62    71   Fire              100   70   80   80
+                   0   23    1    88   Wind               48   25   72   48
+                Bramble Seed       6   Tolbi (WM)
+                Mad Spatter
+
+Mad Vermin       131  164   67    55   Fire              100   70   80   80
+                   0   22    2    80   Wind               48   25   72   48
+                Herb               6   Lamakan Desert (WM)
+                -
+
+Magicore         321  253  109   169   Water              95  115   95   85
+                  34   74   11   208   Fire              100  175  100   25
+                Aura Gloves        8   Suhalla Desert
+                Bind, Nova, Poisonous Tail, Sleep
+
+Manticore King   348  317  134   342   Water              95  115   95   85
+                  33  106   12   240   Fire              100  175  100   25
+                Psy Crystal        7   Venus Lighthouse (Upper Level)
+                Bind, Eruption, Lucid Prophecy, Poison Tail
+
+Mauler           109   99   24    37   Fire              100   70   80   80
+                   0   27    1    45   Wind               48   25   72   48
+                Nut                6   Imil (WM)
+                Bear claw
+
+Mole              96  119   36    39   Fire              100   70   80   80
+                   0   22    1    60   Wind               48   25   72   48
+                Bramble Seed       5   Mogall Forest
+                Mad Spatter, use 'Bramble Seed'
+
+Mole Mage        199  265   74   191   Fire              100   70   80   80
+                  14   47    4   132   Wind               48   25   72   48
+                Antidote           6   Suhalla Gate
+                Mad Growth, Mad Spatter
+
+Nightmare        258  287  138   241   Earth              85   85  100   85
+                  28   89   13   198   Wind               72  100  127  100
+                Healing Ring       7   Venus Lighthouse (Lower Level)
+                Bind, Shine Plasma, Fireball, Glowers Miserably
+
+Ooze              72   72   30    26   Fire               95   75   95  125
+                   0   19    1    40   Water              48    7   48  127
+                Herb               5   Bilibin Cave
+                Divide, Sticky Goo
+
+Orc              148  156   54    68   Wind              100   85   85   85
+                   0   41    3   113   Earth             100   72   48   72
+                Nut                6   Lamakan Desert
+                Spasm
+
+Orc Captain      231  248   90   125   Wind              100   85   85   85
+                   0   69    4   142   Earth             100   72   48   72
+                Smoke Bomb         5   Suhalla Desert
+                Spasm
+
+Orc Lord         278  302   70   260   Wind              100   85   85   85
+                  18   98    3   198   Earth             100   72   48   72
+                Lucky Medal        8   Babi's Lighthouse
+                Sleep, Spasm
+
+Plated Rat       203  262   61   208   Fire              100   70   80   80
+                   0  130    2   135   Wind               48   25   72   48
+                Elixir             6   Tunnel Ruins 
+                'Counter', Defend (50%/90% damage reduction)
+
+Rabid Bat        125  190   84    61   Wind               95   95  110   95
+                   0   34    2    82   Earth             127   48    7   72
+                Sleep Bomb         5   Tolbi-bound Ship
+                Vampiric Fang, Ultrasonic Waves
+
+Rat               49   52   15    14   Fire              100   70   80   80
+                   0   27    1    17   Wind               48   25   72   48
+                Herb               6   Kolima Forest
+                Defend
+
+Rat Fighter      143  146   58   126   Fire               85   85   85  100
+                   0   39    3   166   Water              72   48   72  100
+                Smoke Bomb         6   Altin Peak
+                Uses 'Smoke Bomb', Escape
+
+Rat Soldier       69   56   19    17   Fire               85   85   85  100
+                   0   13    2    19   Water              72   48   72  100
+                Smoke Bomb         5   Kolima Forest
+                Escape
+
+Rat Warrior      208  226  121   100   Fire               85   85   85  100
+                   0   49    3   160   Water              72   48   72  100
+                Bramble Seed       6   Suhalla (WM)
+                Uses 'Smoke Bomb', Escape
+
+Ravager          189  185   60    90   Fire              100   70   80   80
+                   0   47    2    95   Wind               48   25   72   48
+                Elixir             6   Vault Cave
+                Bear Claw
+Recluse          221  323  109   243   Fire               95   90   85   85
+                   0  122    4   153   Earth              48   25   48   48
+                Unicorn Ring       7   Venus Lighthouse (Upper Level)
+                Rabid Fang, Spider Web
+
+Roach            211  252   92   144   Water              95  115   95   85
+                  27   72    4   120   Fire              100  175  100   25
+                Bramble Seed       6   Suhalla Desert
+                Flare Wall, Quake Sphere, Ultrasonic Waves
+
+Salamander       212  158   50    84   Water              95  125   95   75
+                  18   49    6   190   Fire              100  193  100   25
+                Oil Drop           5   Lamakan Desert
+                Blast, Fireball, Fire Blessing, Guard
+
+Siren            116  107   54    45   Fire               85   85   85  100
+                  12   27    9    56   Water             100   72  100  127
+                Crystal Powder     5   Mercury Lighthouse
+                Froth Sphere, Glowers Miserably, Sleep
+
+Skeleton          60   46   18    10   Earth             100   80   80   95
+                   0   14    1    11   Water              25   72   48  127
+                Herb               5   Goma Cave
+                Bone Charge
+
+Skull Warrior    283  322  130   301   Earth             100   80   80   95
+                  16  112    5   188   Water              25   72   48  127
+                Vial               6   Venus Lighthouse (Upper)
+                Bone Charge, Dull
+
+Slime (Weak)      22   22    8     2   Fire               95   75   95  125
+                   0    6    1     2   Water              48    7   48  127
+                Herb               6   Sol Sanctum
+                Escape
+
+Slime             32   34   10     4   Fire               95   75   95  125
+                   0    6    1     4   Water              48    7   48  127
+                Herb               5   Vale (WM)
+                Bone Chiller
+
+Slime Beast       99  134   54    51   Fire               95   75   95  125
+                   0   27    2    77   Water              48    7   48  127
+                Herb               5   Altin Peak
+                Sticky Poison, Divide
+
+Spider            69   75   22    25   Fire               95   90   85   85
+                   0   22    1    32   Earth              48   25   48   48
+                Antidote           5   Tret Tree
+                Spider Web
+
+Spirit           116  114   48    49   Wind              100   95   95   95
+                  11   30    6    67   Water              48   72    7  100
+                Crystal Powder     6   Fuchin Temple
+                Ice, Douse
+
+Stone Soldier    179  241  104    98   Water              95  125   95   75
+                   6  105    5    98   Fire               48  127   48    7
+                Elixir             6   Suhalla Desert
+                Blast, Dynamite (Kamikaze), Mad Blast, Head butt
+
+Tarantula        108  144   52    58   Fire               95   90   85   85
+                   0   30    5    81   Earth              48   25   48   48
+                Antidote           5   Altin Peak
+                Poison Fang
+
+Tempest Lizard  3000  295  114  1360   Earth              90   95  110   95
+                  45   94   26  6400   Wind               48  100  152  100
+                Potion             1   Suhalla Desert
+                'attack 2x', Impact, Storm Ray, Sonic Slash, Tempest, Ward,
+                Wing Stroke
+
+Thunder Lizard   456  347  134   422   Earth              80   95  120   95
+                   0  133   10   221   Wind               25  100  193  100
+                Blessed Mace       8   Venus Lighthouse (Upper Level)
+                Storm Blessing
+
+Tornado Lizard   530  267  104   620   Earth              90   95  110   95
+                  37   74   18   477   Wind               48  100  152  100
+                Weasel's Claw      4   Suhalla Desert
+                Impact, Storm Ray, Tornado, Ward, Wind Slash, Wing Flutter
+
+Troll            101   73   14    30   Fire              100   70   80   80
+                   0   16    1    34   Wind               48   25   72   48
+                Nut                6   Bilibin Cave
+                Brute Force, 'Regenerate 10 HP'
+
+Undead           165  180   58    74   Fire              100   80   80   95
+                   0   27    1    90   Water              25    7   48   72
+                Antidote           5   Lamakan (WM)
+                'Search for Allies', Smell of Decay
+
+Vermin (Weak)     20   23    7     2   Fire              100   70   80   80
+                   0    7    2     2   Wind               48   25   72   48
+                Herb               5   Sol Sanctum
+                Defend
+
+Vermin            36   32    9     4   Fire              100   70   80   80
+                   0    7    2     4   Wind               48   25   72   48
+                Herb               5   Vale (WM)
+                Defend, Escape
+
+Vile Dirge       173  228  120    75   Wind               95   95  110   95
+                   0   56    2    98   Earth             127   48    7   72
+                Weasel's Claw      5   Suhalla (WM)
+                Flying Attack, Wing Beat
+
+Virago           185  199   89    87   Wind               95   95  110   95
+                   0   47    4   120   Earth             127   48    7   72
+                Elixir             5   Tolbi-bound Ship & Crossbone Isle B1
+                Banshee Howl
+
+Warrior Bee      164  221  102    65   Wind               90   95  105   90
+                   0   65    5   104   Earth             100   48    7   48
+                Elixir             5   Gondowan Cave
+                Numbing Sting, Mortal Blow, 'Search for Allies'
+
+Wight            192  205   54    92   Fire              100   80   80   95
+                   0   55    2   115   Water              25    7   48   72
+                Elixir             5   Altmiller Cave
+                Rotten Blood, Smell of Decay
+
+Wild Gryphon     370  332  170   322   Wind               90   95  110   95
+                   8  112   10   290   Earth             152   72   48  110
+                Feathered Robe     8   Venus Lighthouse (Upper Level)
+                Bind, Twin Beaks, Wind Stroke
+
+Wild Mushroom     18   22   10     1   Fire              105   80   70  100
+(Weak)             0    5    1     2   Water              48    7   72  100
+                Smoke Bomb         6   Sol Sanctum
+                Soothing Star
+
+
+Wild Mushroom     34   31   15     3   Fire              105   80   70  100
+                   0    5    1     3   Water              48    7   72  100
+                Smoke Bomb         6   Vale (WM)
+                Soothing Star
+
+Will Head         54   42   10     9   Earth             100   80   80   95
+                   0   10    1    10   Water              25   72   48  127
+                Smoke Bomb         6   Goma Cave
+                Mystic Flame
+
+Willowisp        209  279  121   227   Earth             100   80   80   95
+                  12   87    6   160   Water              25   72   48  127
+                Nut                6   Venus Lighthouse (Upper Level)
+                Blue Bolt, Drain, Haunting, Tundra
+
+Worm             132  196   79    60   Fire               95   90   85   85
+                   0   51    2    94   Earth              48   25   48   48
+                Herb               6   Altmiller Cave
+                'Search for Allies'
+
+Zombie            55   41    5     7   Fire              100   80   80   95
+                   0    9    1     8   Water              25    7   48   72
+                Herb               5   Goma Cave
+
+
+
+---------------------------------------------------------------------------
+II. Boss List
+---------------------------------------------------------------------------
+
+Monster Name    HP    Att  Agl  Exp.  Weakness           E   F   W   w(Pow) 
+                PP    Def  Luck Coin  Strong             E   F   W   w(Res)
+                Dropped Item    ICC   Location
+                Special Attacks
+--------------- -----------------------------------------------------------
+Azart            450  206   62     0   All                80   80   80   80
+ (Weak)            0    2    9     0   -                  90   90   90   90
+                -                      Colosso (1st Round)
+                Defend
+
+Azart            450  206   62     0   All                80   80   80   80
+ (Strong)          0   20    9     0   -                  90   90   90   90
+                -                      Colosso (1st Round)
+                Defend
+
+Bandit           244   46   20    36   All                80   80   80   80
+                   0    8    3    46   -                  72   72   72   72
+                Bandit's Sword     1   Vault Inn's Attic
+                Uses 'Smoke Bomb', Glowers Ferociously
+
+Cerebus         2200  369  151  1863   Fire               95   85   95  115
+                  42  130   22  3200   Water             100   25  100  175
+                Psy Crystal        1   Crossbone Isle B9
+                Double Fang, Ice Blessing, Ice Missle, Restore, Wicked Howl
+
+Chimera         1350  294  121   930   Water              95  115   95   85
+                  48   90   18  1600   Fire              100  175  100   25
+                Potion             1   Crossbone Isle B6
+                Bind, Flare Storm, Fire Blessing, Guard, Impair, Mad Dash,
+                Rabid Fang
+
+Deadbeard       6000  468  180  8000   Earth             100  120  110  130
+                 600  178   60  9000   Water              72  127  152  193
+                Water of Life      1   Pirate Ship
+                'Attack 2x', Break, Debilitate, Freeze Prism, Guard,
+                Impact, Inferno, Spark Plasma, Ward
+
+Earth Lizard    1550  278  102  1545   Wind              120   95   80   95
+                  48   97   17   920   Earth             193  100   25  100
+                Water of Life      1   Crossbone Isle B7
+                Acid Blessing, Clay Spire, Cure Well, Mother Gaia,
+                Quake Sphere
+
+Fiendish Ghoul   609  199   69    87   Fire              100   80   80   95
+                   0   45    3   109   Water              25    7   48   72
+                Antidote           5   Crossbone Isle B3
+                Bacteria Rush, Cannibal Fang
+
+Fusion Dragon   5000  439  190     0   Water             100  110  100   95
+                 500  150   50     0   Fire              127  175  127   72
+                -                      Venus Lighthouse Aerie
+                'Attack 2x', Break, Outer Space, Drain Fang, Dragon Diver,
+                Evil Blessing, Deadly Gas, Severe Blow
+
+Grisly           768  208   78   243   Fire              100   70   80   80
+                   0   63   13   700   Wind               72   25  127   72
+                Potion             1   Crossbone Isle B2
+                Bear Claw, 'Furious Rage'
+
+Gryphon         1100  213   98   303   Wind               90   95  110   95
+                  36   56   19  1900   Earth             152   72   48  110
+                Potion             1   Crossbone Isle B4
+                Bind, Impact, Sonic Slash, Tornado, Wing Flutter,
+                Twin Beaks, Ward
+
+Hobgoblin        650  203   65   223   Wind              100   85   85   85
+                   0   54    9   800   Earth             127  100   72  100
+                Lucky Medal        1  Crossbone Isle B1
+                Uses 'Crystal Powder' / 'Smoke Bomb' / 'Nut' / 'Sleep Bomb'
+
+Hydros Statue   1300  156   62   496   Fire               95   75   95  125
+                  80   53   30  2400   Water             100   25  100  193
+                Lucky Medal        1   Altin Peak
+                Drench, Froth Sphere, Ice Horn, Restore, Tundra,
+                Water Blessing
+
+Killer Ape      1000  156   94   460   Fire              100   70   80   80
+                  45   49   26  1500   Wind               72   25  127   72
+                Douse Drop         1   Mogall Forest
+                Bind, Debilitate, Ransack, War Cry, Douse
+
+Kraken          2400  216   80   711   Fire               95   85   95  115
+                  46   60   21  5200   Water             100   25  100  175
+                Water of Life      1   Tolbi-bound Ship
+                'attack 2x', Dark Blessing, Drench, Ply, Poisonous Beating,
+                Spinning Beat, Water Blessing, Froth Sphere
+
+Lich             900  192  106   263   Wind              100   95   95   95
+                  52   48   15  1200   Water              72  100   25  152
+                Psy Crystal        1   Crossbone Isle B3
+                Bind, Curse, Debilitate, Enfeeble, Glacier, Haunt, Revive
+
+Living Statue    540  149   56   377   Fire               95   75   95  125
+                  34   44   20   900   Water             100   25  100  193
+                Vial               1   Altin Peak
+                Tundra, Water Blessing
+
+Lizard Fighter   212  204   60    89   Fire               85   85   85  100
+                   0   61    2   124   Water             100   72  100  127
+                Nut                5   Tolbi-bound Ship
+                Water Blessing
+
+Lizard King     2000  285   92   535   Fire               85   85   85  100
+                  52   93   13  1200   Water             100   72  100  127
+                Psy Crystal        1   Crossbone Isle B5
+                Bind, Blunt, Debilitate, Hail Prism, High Impact,
+                Ice Blessing
+
+Man o' War       137  193   70    55   Fire               95   75   95  125
+                   0   42    1    87   Water              48    7   48  127
+                Antidote           6   Tolbi-bound Ship
+                Poison Ink
+
+Manticore       1700  168   61   590   Water              95  115   95   85
+                  83   48   36  3400   Fire              100  175  100   25
+                Psy crystal        1   Lamakan Desert
+                'attack 2x', Curse, Delude, Impair, Mad Blast, Nova,
+                Poison Tail         
+
+Menardi         2600  389  220  3000   Water             100  105  100   95
+                 300  134   50  4200   Fire              127  175  100   72
+                -                      Venus Lighthouse Aerie
+                Death Size, Fiery Blast, Flare Storm, Impact, Resist,
+                Supernova, Wish
+
+Mystery Man     3000   63    9     0   Water             100  110  100   90
+                 260   22   40     0   Fire              100  175  127   72
+                -                  -   Vale (Prologue)
+                Eruption, Fireball, Heat Flash
+
+Mystery Woman   2600   50   13     0   Water             100  105  100   95
+                 300   20   40     0   Fire              127  175  100   72
+                -                  -   Vale (Prologue)
+                Death Size, Flare Wall, Mad Blast, Nova
+
+Navampa          820  232   84     0   All                80   80   80   80
+ (Weak)            0   54   16     0   -                  90   90   90   90
+                -                      Tolbi Colosso (3rd round)
+                Defend
+
+Navampa          820  274   84     0   All                80   80   80   80
+ (Strong)          0   54   16     0   -                  90   90   90   90
+                -                      Tolbi Colosso (3rd round)
+                Defend
+
+Poison Toad     2250  363   93  1732   Fire               95   85   95  115
+                   0   97   20  2200   Water             100   25  100  175
+                Water of Life      1   Crossbone Isle B8
+                Acid Blessing, Rabid Fang, Rotten Blood
+
+Satrage          570  228   73     0   All                80   80   80   80
+ (Weak)            0    6   12     0   -                  90   90   90   90
+                -                  -   Colosso (2nd round)
+                Defend
+
+Satrage          570  228   73     0   All                80   80   80   80
+ (Strong)          0   28   12     0   -                  90   90   90   90
+                -                  -   Colosso (2nd round)
+                Defend
+
+Saturos         1200  113   51   331   Water             100  110  100   90
+                 160   35   40   800   Fire              100  175  127   72
+                Psy crystal        1   Mercury Lighthouse Aerie
+                Eruption, Fireball, Heat Flash
+
+Saturos         3000  409  160  3000   Water             100  110  100   90
+                 260  140   50  3600   Fire              100  175  127   72
+                -                      Venus Lighthouse Aerie
+                Break, Haunt, Heat Flash, Inferno, Potent Cure, Protect,
+                Pyroclasm
+
+Storm Lizard    2900  291  112  1300   Earth              90   95  110   95
+                  42   86   22  6100   Wind               48  100  152  100
+                Psy crystal        1   Suhalla Desert
+                'Attack 2x', Impact, Sonic Slash, Storm Ray, Tempest, Ward,
+                Wing Stroke
+
+Succubus         529  195  101   101   Fire               85   85   85  100
+                  56   49   12   143   Water             100   72  100  127
+                Crystal Powder     5  Crossbone Isle B2
+                Glowers Miserably, Hail Prism, Wind Slash
+
+Thief            110   42    9    16   All                80   80   80   80
+                   0    5    1    20   -                  72   72   72   72
+                -                  -   Vault Inn's Attic
+                Uses 'Herb', Glowers Ferociously
+
+Toadonpa        2800  266   82   999   Fire               95   85   95  115
+                   0   52   18  3200   Water             100   25  100  175
+                Psy crystal        1   Lunpa Fortress
+                Dark Blessing, Rotten Blood, Sticky Poison, Trash,
+                'Regenerate 80 HP'
+
+Tret             710   89   30   226   Fire              105   80   70  100
+                  36   27   28   700   Water              72   25  100  175
+                Potion             1   Tret Tree
+                Growth, Sleep Star, Thorn, Quake
+
+Zombie            55   41    1     0   Fire              100   80   80   95
+                   0    1    1     0   Water              25    7   48   72
+                -                  -   Flint's Special Demonstration
+
+
+
+---------------------------------------------------------------------------
+III. Mimic List
+---------------------------------------------------------------------------
+
+Monster Name    HP    Att  Agl  Exp.  Weakness           E   F   W   w(Pow) 
+                PP    Def  Luck Coin  Strong             E   F   W   w(Res)
+                Dropped Item     ICC  Location
+                Special Attacks
+--------------- -----------------------------------------------------------
+Mimic            468  120   51   164   Fire               95   75  105  100
+                  24   33    8   178   Wind              100   25  152  127
+                Water of Life      1   Mercury Lighthouse
+                Debilitate, Psy Drain, Sleep, Wind Slash
+
+Mimic            506  133   57   190   Fire               95   75  105  100
+                  26   36   10   207   Wind              100   25  152  127
+                Game Ticket        1   Fuchin Temple
+                Debilitate, Psy Drain, Sleep, Briar
+
+Mimic            579  160   51   241   Fire               95   75  105  100
+                  32   44   12   267   Wind              100   25  152  127
+                Game Ticket        1   Altin Peak
+                Debilitate, Psy Drain, Sleep, Shine Plasma
+
+Mimic            690  156   89   321   Fire               95   75  105  100
+                  42   56   13   356   Wind              100   25  152  127
+                Vial               1   Vault Cave
+                Debilitate, Psy Drain, Sleep, Sonic Slash
+
+Mimic            767  227  104   374   Fire               95   75  105  100
+                  48   63   15   415   Wind              100   25  152  127
+                Water of Life      1   Altmiller Cave
+                Debilitate, Psy Drain, Sleep, Curse, Nettle
+
+Mimic            997  303  139   669   Fire               95   75  105  100
+                  60   94   17   547   Wind              100   25  152  127
+                Water of Life      1   Suhalla Desert
+                Debilitate, Psy Drain, Sleep, Curse, Condemn, Ice Missile
+
+Mimic            729  214   97   347   Fire               95   75  105  100
+                  44   59   14   386   Wind              100   25  152  127
+                Potion             1   Crossbone Isle B1
+                Debilitate, Psy Drain, Sleep, Curse, Sonic Slash
+
+Mimic           1206  367  167  1009   Fire               95   75  105  100
+                  68  126   18   643   Wind              100   25  152  127
+                Potion             1   Pirate Ship
+                Debilitate, Psy Drain, Sleep, Condemn, Curse, Spark Plasma
+
+
+
+---------------------------------------------------------------------------
+IV. Djinn List
+---------------------------------------------------------------------------
+
+Monster Name    HP    Att  Agl  Exp.  Weakness           E   F   W   w(Pow) 
+                PP    Def  Luck Coin  Strong             E   F   W   w(Res)
+                Dropped Item     ICC  Location
+                Special Attacks
+--------------- -----------------------------------------------------------
+Jupiter Djinni   243   79   42    88   Earth              80   95  120   95
+ (Breeze)         22   20    7   100   Wind               25  100  193  100
+                -                  -   Tret Tree
+                Flash Bolt, Ray, Plasma, Whirlwind, Wind Slash, Escape
+
+Jupiter Djinni   314  115   68   150   Earth              80   95  120   95
+ (Zephyr)         25   26    9   176   Wind               25  100  193  100
+                -                  -   Fuchin Temple
+                Flash Bolt, Plasma, Storm Ray, Wind Slash, Whirlwind,
+                Escape
+
+Jupiter Djinni   481  205  120   295   Earth              80   95  120   95
+ (Squall)         40   45   14   352   Wind               25  100  193  100
+                -                  -   Altmiller Cave
+                Blue Bolt, Plasma, Storm Ray, Wind Slash, Tornado, Escape
+
+Jupiter Djinni   688  302  177   677   Earth              80   95  120   95
+ (Luff)           62   85   21   506   Wind               25  100  193  100
+                -                  -   Babi's Tower
+                Blue Bolt, Destruct Ray, Shine Plasma, Tornado, Wind Slash,
+                Escape
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+Mars Djinni      172   45   22    28   Water              95  125   95   75
+ (Forge)          14    9    6    85   Fire              100  193  100   25
+                -                  -   Goma Cave
+                Flare, Blast, Escape
+
+Mars Djinni      355  144   76   173   Water              95  125   95   75
+ (Corona)         24   41    8   210   Fire              100  193  100   25
+                -                  -   Xian (WM)
+                Fireball, Flare Wall, Mad Blast, Nova, Volcano, Escape
+
+Mars Djinni      592  253  151   460   Water              95  125   95   75
+ (Flash)          52   65   17   445   Fire              100  193  100   25
+                -                  -   Suhalla Desert
+                Eruption, Fireball, Fiery Blast, Flare Storm, Nova, Escape
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+Mercury Djinni   290  107   58   130   Fire               95   75   95  125
+ (Sleet)          20   24    9   151   Water             100   25  100  193
+                -                  -   Mercury Lighthouse
+                Drench, Froth Sphere, Prism, Tundra, Escape
+
+Mercury Djinni   361  140   84   190   Fire               95   75   95  125
+ (Spritz)         27   32   10   226   Water             100   25  100  193
+                -                  -   Altin Peak
+                Drench, Froth Sphere, Hail Prism, Ice Horn, Tundra, Escape
+
+Mercury Djinni   466  207  116   279   Fire               95   75   95  125
+ (Hail)           46   48   16   340   Water             100   25  100  193
+                -                  -   Tolbi (WM)
+                Drench, Froth Sphere, Hail Prism, Ice Horn, Tundra, Escape
+                
+Mercury Djinni   654  281  172   606   Fire               95   75   95  125
+ (Dew)            59   77   19   484   Water             100   25  100  193
+                -                  -   Suhalla Gate
+                Deluge, Froth Sphere, Glacier, Ice Horn, Hail Prism, Escape
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+Venus Djinni     349  127   76   172   Wind              120   95   80   95
+ (Quartz)         25   28    9   201   Earth             193  100   25  100
+                -                  -   Mogall Forest
+                Briar, Earthquake, Gaia, Mad Growth, Spire, Earthquake,
+                Escape
+
+Venus Djinni     421  175   91   230   Wind              120   95   80   95
+ (Vine)           30   45   10   277   Earth             193  100   25  100
+                -                  -   Kalay (WM)
+                Briar, Clay Spire, Gaia, Mad Growth, Quake Sphere, Escape

@@ -1,0 +1,401 @@
+[
+  {
+    "id": "antidote",
+    "name": "Antidote",
+    "game": "gs1",
+    "item_type": "consumable",
+    "effect": { "description": "Cures poison.", "target": "ally", "stat_boosted": null },
+    "usable_in_battle": true,
+    "buy_price": 20,
+    "sell_price": 15,
+    "acquisition": null,
+    "sources": ["super-slash"]
+  },
+  {
+    "id": "corn",
+    "name": "Corn",
+    "game": "gs1",
+    "item_type": "consumable",
+    "effect": { "description": "Replenishes 100 HP.", "target": "ally", "stat_boosted": null },
+    "usable_in_battle": true,
+    "buy_price": null,
+    "sell_price": 9,
+    "acquisition": null,
+    "sources": ["super-slash"]
+  },
+  {
+    "id": "crystal-powder",
+    "name": "Crystal Powder",
+    "game": "gs1",
+    "item_type": "consumable",
+    "effect": { "description": "Deals ice-based damage to enemies.", "target": "enemy", "stat_boosted": null },
+    "usable_in_battle": true,
+    "buy_price": null,
+    "sell_price": null,
+    "acquisition": null,
+    "sources": ["super-slash"]
+  },
+  {
+    "id": "elixir",
+    "name": "Elixir",
+    "game": "gs1",
+    "item_type": "consumable",
+    "effect": { "description": "Cures Delusion, Stun, & Sleep.", "target": "ally", "stat_boosted": null },
+    "usable_in_battle": true,
+    "buy_price": 30,
+    "sell_price": 22,
+    "acquisition": null,
+    "sources": ["super-slash"]
+  },
+  {
+    "id": "game-ticket",
+    "name": "Game Ticket",
+    "game": "gs1",
+    "item_type": "consumable",
+    "effect": { "description": "A special ticket used in Tolbi.", "target": null, "stat_boosted": null },
+    "usable_in_battle": false,
+    "buy_price": null,
+    "sell_price": 37,
+    "acquisition": {
+      "method": "drop",
+      "location": "Various shops / Mimics",
+      "notes": "Received randomly when purchasing items from shops; also dropped by some Mimics. Used to play Lucky Wheels at Tolbi."
+    },
+    "sources": ["super-slash", "rockettrekkie"]
+  },
+  {
+    "id": "herb",
+    "name": "Herb",
+    "game": "gs1",
+    "item_type": "consumable",
+    "effect": { "description": "Replenishes 50 HP.", "target": "ally", "stat_boosted": null },
+    "usable_in_battle": true,
+    "buy_price": 10,
+    "sell_price": 7,
+    "acquisition": null,
+    "sources": ["super-slash"]
+  },
+  {
+    "id": "lucky-medal",
+    "name": "Lucky Medal",
+    "game": "gs1",
+    "item_type": "consumable",
+    "effect": { "description": "A rare medal used in Tolbi.", "target": null, "stat_boosted": null },
+    "usable_in_battle": false,
+    "buy_price": null,
+    "sell_price": 75,
+    "acquisition": {
+      "method": "drop",
+      "location": "Chests / hidden in barrels and jars / Orc Lord (Babi Lighthouse, Tunnel Ruins) / Mimics",
+      "notes": "Thrown into Tolbi Springs to receive a random prize."
+    },
+    "sources": ["super-slash", "rockettrekkie"]
+  },
+  {
+    "id": "nut",
+    "name": "Nut",
+    "game": "gs1",
+    "item_type": "consumable",
+    "effect": { "description": "Replenishes 200 HP.", "target": "ally", "stat_boosted": null },
+    "usable_in_battle": true,
+    "buy_price": null,
+    "sell_price": 150,
+    "acquisition": null,
+    "sources": ["super-slash"]
+  },
+  {
+    "id": "potion",
+    "name": "Potion",
+    "game": "gs1",
+    "item_type": "consumable",
+    "effect": { "description": "Replenishes all HP.", "target": "ally", "stat_boosted": null },
+    "usable_in_battle": true,
+    "buy_price": 1000,
+    "sell_price": 750,
+    "acquisition": {
+      "method": "drop",
+      "location": "Babi Lighthouse / Tunnel Ruins / Venus Lighthouse (Ice Gargoyle); also chests, Tolbi Springs, Lucky Wheels",
+      "notes": "Some bosses also drop Potions; Artifact list appears at Suhalla. Buyable as an artifact at Suhalla/Lalivero for 1000."
+    },
+    "sources": ["super-slash", "rockettrekkie", "shotgunnova"],
+    "conflicts": [
+      {
+        "field": "buy_price",
+        "values": { "super-slash": null, "shotgunnova": 1000, "rockettrekkie": 1000 },
+        "note": "Super Slash §VI item list marks buy price N/A; Shotgunnova/rockettrekkie list it as a 1000-coin artifact sold at Suhalla and Lalivero."
+      }
+    ]
+  },
+  {
+    "id": "psy-crystal",
+    "name": "Psy Crystal",
+    "game": "gs1",
+    "item_type": "consumable",
+    "effect": { "description": "Replenishes all PP.", "target": "ally", "stat_boosted": null },
+    "usable_in_battle": true,
+    "buy_price": 1500,
+    "sell_price": 1125,
+    "acquisition": {
+      "method": "drop",
+      "location": "Babi Lighthouse / Tunnel Ruins / Venus Lighthouse (Manticore King); also chests, Tolbi Springs, Lucky Wheels",
+      "notes": "Some bosses also drop Psy Crystals; Artifact list appears at Suhalla. Buyable as an artifact at Suhalla/Lalivero for 1500."
+    },
+    "sources": ["super-slash", "rockettrekkie", "shotgunnova"],
+    "conflicts": [
+      {
+        "field": "buy_price",
+        "values": { "super-slash": null, "shotgunnova": 1500, "rockettrekkie": 1500 },
+        "note": "Super Slash §VI item list marks buy price N/A; Shotgunnova/rockettrekkie list it as a 1500-coin artifact sold at Suhalla and Lalivero."
+      }
+    ]
+  },
+  {
+    "id": "sacred-feather",
+    "name": "Sacred Feather",
+    "game": "gs1",
+    "item_type": "consumable",
+    "effect": { "description": "Reduces the chance of a random encounter for a short time.", "target": "party", "stat_boosted": null },
+    "usable_in_battle": false,
+    "buy_price": 70,
+    "sell_price": 52,
+    "acquisition": null,
+    "sources": ["super-slash"]
+  },
+  {
+    "id": "sleep-bomb",
+    "name": "Sleep Bomb",
+    "game": "gs1",
+    "item_type": "consumable",
+    "effect": { "description": "Makes an enemy fall asleep.", "target": "enemy", "stat_boosted": null },
+    "usable_in_battle": true,
+    "buy_price": null,
+    "sell_price": 45,
+    "acquisition": null,
+    "sources": ["super-slash"]
+  },
+  {
+    "id": "smoke-bomb",
+    "name": "Smoke Bomb",
+    "game": "gs1",
+    "item_type": "consumable",
+    "effect": { "description": "Puts Delusion on an enemy.", "target": "enemy", "stat_boosted": null },
+    "usable_in_battle": true,
+    "buy_price": null,
+    "sell_price": 22,
+    "acquisition": null,
+    "sources": ["super-slash"]
+  },
+  {
+    "id": "vial",
+    "name": "Vial",
+    "game": "gs1",
+    "item_type": "consumable",
+    "effect": { "description": "Replenishes 375 HP.", "target": "ally", "stat_boosted": null },
+    "usable_in_battle": true,
+    "buy_price": null,
+    "sell_price": 375,
+    "acquisition": null,
+    "sources": ["super-slash"]
+  },
+  {
+    "id": "water-of-life",
+    "name": "Water of Life",
+    "game": "gs1",
+    "item_type": "consumable",
+    "effect": { "description": "Revives a fallen party member.", "target": "ally", "stat_boosted": null },
+    "usable_in_battle": true,
+    "buy_price": 3000,
+    "sell_price": 2250,
+    "acquisition": {
+      "method": "drop",
+      "location": "Venus Lighthouse (Boulder Beast); also chests, Tolbi Springs, Lucky Wheels",
+      "notes": "Some bosses and Mimics also drop Water of Life; Artifact list appears at Tolbi. Buyable as an artifact at Tolbi/Suhalla/Lalivero for 3000."
+    },
+    "sources": ["super-slash", "rockettrekkie", "shotgunnova"],
+    "conflicts": [
+      {
+        "field": "buy_price",
+        "values": { "super-slash": null, "shotgunnova": 3000, "rockettrekkie": 3000 },
+        "note": "Super Slash §VI item list marks buy price N/A; Shotgunnova/rockettrekkie list it as a 3000-coin artifact sold at Tolbi, Suhalla and Lalivero."
+      }
+    ]
+  },
+  {
+    "id": "weasels-claw",
+    "name": "Weasel's Claw",
+    "game": "gs1",
+    "item_type": "consumable",
+    "effect": { "description": "Damages enemies with a claw attack.", "target": "enemy", "stat_boosted": null },
+    "usable_in_battle": true,
+    "buy_price": null,
+    "sell_price": 30,
+    "acquisition": null,
+    "sources": ["super-slash"]
+  },
+  {
+    "id": "apple",
+    "name": "Apple",
+    "game": "gs1",
+    "item_type": "stat_boost",
+    "effect": { "description": "Permanently boosts a party member's Attack.", "target": "ally", "stat_boosted": "atk" },
+    "usable_in_battle": false,
+    "buy_price": null,
+    "sell_price": 375,
+    "acquisition": null,
+    "sources": ["super-slash"]
+  },
+  {
+    "id": "cookie",
+    "name": "Cookie",
+    "game": "gs1",
+    "item_type": "stat_boost",
+    "effect": { "description": "Permanently boosts a party member's maximum PP.", "target": "ally", "stat_boosted": "pp" },
+    "usable_in_battle": false,
+    "buy_price": null,
+    "sell_price": 375,
+    "acquisition": null,
+    "sources": ["super-slash"]
+  },
+  {
+    "id": "hard-nut",
+    "name": "Hard Nut",
+    "game": "gs1",
+    "item_type": "stat_boost",
+    "effect": { "description": "Permanently boosts a party member's Defense.", "target": "ally", "stat_boosted": "def" },
+    "usable_in_battle": false,
+    "buy_price": null,
+    "sell_price": 375,
+    "acquisition": null,
+    "sources": ["super-slash"]
+  },
+  {
+    "id": "lucky-pepper",
+    "name": "Lucky Pepper",
+    "game": "gs1",
+    "item_type": "stat_boost",
+    "effect": { "description": "Permanently boosts a party member's Luck.", "target": "ally", "stat_boosted": "lck" },
+    "usable_in_battle": false,
+    "buy_price": null,
+    "sell_price": 375,
+    "acquisition": null,
+    "sources": ["super-slash"]
+  },
+  {
+    "id": "mint",
+    "name": "Mint",
+    "game": "gs1",
+    "item_type": "stat_boost",
+    "effect": { "description": "Permanently boosts a party member's Agility.", "target": "ally", "stat_boosted": "agi" },
+    "usable_in_battle": false,
+    "buy_price": null,
+    "sell_price": 375,
+    "acquisition": null,
+    "sources": ["super-slash"]
+  },
+  {
+    "id": "power-bread",
+    "name": "Power Bread",
+    "game": "gs1",
+    "item_type": "stat_boost",
+    "effect": { "description": "Permanently boosts a party member's maximum HP.", "target": "ally", "stat_boosted": "hp" },
+    "usable_in_battle": false,
+    "buy_price": null,
+    "sell_price": 375,
+    "acquisition": null,
+    "sources": ["super-slash"]
+  },
+  {
+    "id": "black-orb",
+    "name": "Black Orb",
+    "game": "gs1",
+    "item_type": "key",
+    "effect": { "description": "A mysterious orb that gets Babi's ship sailing.", "target": null, "stat_boosted": null },
+    "usable_in_battle": false,
+    "buy_price": null,
+    "sell_price": null,
+    "acquisition": null,
+    "sources": ["super-slash"]
+  },
+  {
+    "id": "dragons-eye",
+    "name": "Dragon's Eye",
+    "game": "gs1",
+    "item_type": "key",
+    "effect": { "description": "An eye of a dragon that can be placed in a statue.", "target": null, "stat_boosted": null },
+    "usable_in_battle": false,
+    "buy_price": null,
+    "sell_price": null,
+    "acquisition": null,
+    "sources": ["super-slash"]
+  },
+  {
+    "id": "empty-bottle",
+    "name": "Empty Bottle",
+    "game": "gs1",
+    "item_type": "key",
+    "effect": { "description": "This normal bottle is used to keep Hermes' Water.", "target": null, "stat_boosted": null },
+    "usable_in_battle": false,
+    "buy_price": null,
+    "sell_price": 750,
+    "acquisition": {
+      "method": "event",
+      "location": "Imil",
+      "notes": "Found in a house in Imil. Used near a magic spring to extract water and create Hermes' Water."
+    },
+    "sources": ["super-slash", "rockettrekkie"]
+  },
+  {
+    "id": "hermes-water",
+    "name": "Hermes' Water",
+    "game": "gs1",
+    "item_type": "key",
+    "effect": { "description": "Used to restore Tret.", "target": null, "stat_boosted": null },
+    "usable_in_battle": false,
+    "buy_price": null,
+    "sell_price": null,
+    "acquisition": {
+      "method": "event",
+      "location": "Mercury Lighthouse",
+      "notes": "Use the Empty Bottle on the spring fountain inside Mercury Lighthouse; can be refilled repeatedly."
+    },
+    "sources": ["super-slash", "rockettrekkie"],
+    "conflicts": [
+      {
+        "field": "effect.description",
+        "values": {
+          "super-slash": "Used to restore Tret.",
+          "rockettrekkie": "Restores all HP to one ally"
+        },
+        "note": "Hermes' Water is a key event item used to heal Tret (Kolima Forest); rockettrekkie appears to mislabel it as a generic HP restorative."
+      }
+    ]
+  },
+  {
+    "id": "mars-star",
+    "name": "Mars Star",
+    "game": "gs1",
+    "item_type": "key",
+    "effect": { "description": "A powerful star with the Mars Element fused into it.", "target": null, "stat_boosted": null },
+    "usable_in_battle": false,
+    "buy_price": null,
+    "sell_price": null,
+    "acquisition": null,
+    "sources": ["super-slash"]
+  },
+  {
+    "id": "cell-key",
+    "name": "Cell Key",
+    "game": "gs1",
+    "item_type": "key",
+    "effect": { "description": "Opens cell doors in Lunpa Fortress.", "target": null, "stat_boosted": null },
+    "usable_in_battle": false,
+    "buy_price": null,
+    "sell_price": null,
+    "acquisition": {
+      "method": "event",
+      "location": "Lunpa Fortress",
+      "notes": "Obtained by using the Catch Psynergy on a guard."
+    },
+    "sources": ["rockettrekkie"]
+  }
+]

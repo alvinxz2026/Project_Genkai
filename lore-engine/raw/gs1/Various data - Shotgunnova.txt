@@ -1,0 +1,1566 @@
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+PSYNERGY LIST                                                            [PSNR]
+_______________________________________________________________________________
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+ Psynergy is the "magic" of this game, and comes in a few categories: Field,
+ Attack, Status, and Medicinal. 
+
+______________
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+FIELD PSYNERGY
+______________
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+  _______________ ____ ___ _________________________________ ________________
+ | PSYNERGY      | PP | R | EFFECT                          | ITEM USED...   |
+ |¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯|¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|
+ | Avoid         | 05 | - | Enemy encounters will decrease  | ---------------|
+ | Carry         | 02 | - | Levitate & move special blocks  | Carry Stone    |
+ | Catch         | 01 | - | Retrieve out-of-range items     | Catch Beads    |
+ | Cloak         | 01 | - | Become invisible in the shadows | Cloak Ball     |
+ | Douse         | 05 | - | Use water to fill/douse objects | Douse Drop     |
+ | Force         | 02 | - | Knock over out-of-range objects | Orb of Force   |
+ | Frost         | 05 | - | Create ice pillars from puddles | Frost Jewel    |
+ | Gale          | 03 | - | Removes overgrowth from objects | -------------- |
+ | Growth        | 04 | - | Grow vines to scale cliffsides  | -------------- |
+ | Halt          | 02 | - | Temporarily stop moving objects | Halt Gem       |
+ | Lift          | 02 | - | Levitates certain tiny boulders | Lifting Gem    |
+ | Mind Read     | 01 | - | Read NPCs' innermost thoughts   | -------------- |
+ | Move          | 02 | - | Push/pull/move certain objects  | -------------- |
+ | Retreat       | 06 | - | Warp back to dungeon's entrance | -------------- |
+ | Reveal        | 01 | - | Find things hidden by illusions | -------------- |
+ | Whirlwind     | 05 | - | Removes overgrowth from objects | -------------- |
+ |_______________|____|___|_________________________________|________________|
+
+ This category deals with special abilities that can be used on the field,
+ i.e. walking around towns and dungeons. They're often used for puzzle-solving
+ of some sort, although a few kinds (Gale, Douse, Frost, Growth,
+ Whirlwind) can be used in battle as well. Most of these special abilities are
+ learned through unique accessories that give the effect when equipped, but a
+ few are inherent on the allies. The only duplicate psynergy is "Gale," which
+ is the Ninja class' version of Whirlwind, just for a cheaper PP cost.
+
+_______________
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+ATTACK PSYNERGY
+_______________
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+ Attack psynergy is, as its name suggests, used to deal damage to targets (and
+ maybe add a status effect all the while). These come in elemental "series"
+ of three for the most part, and that's how they'll be listed.
+ _______________ ____ ___ ____________   _______________ ____ ___ ____________
+| SERIES        | PP | R | EFFECT     | | SERIES        | PP | R | EFFECT     |
+|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯|¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯| |¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯|¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯|
+| Quake         | 02 | 3 | Earth DMG  | | Spire         | 05 | 1 | Earth DMG  |
+| Earthquake    | 04 | 5 | Earth DMG  | | Clay Spire    | 13 | 3 | Earth DMG  |
+| Quake Sphere  | 14 | 7 | Earth DMG  | | Stone Spire   | 22 | 3 | Earth DMG  |
+|_______________|____|___|____________| |_______________|____|___|____________|
+|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯|¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯| |¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯|¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯|
+| Gaia          | 07 | 3 | Earth DMG  | | Rockfall      | 05 | 3 | Earth DMG  |
+| Mother Gaia   | 17 | 5 | Earth DMG  | | Rockslide     | 15 | 5 | Earth DMG  |
+| Grand Gaia    | 32 | 5 | Earth DMG  | | Avalanche     | 30 | 5 | Earth DMG  |
+|_______________|____|___|____________| |_______________|____|___|____________|
+|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯|¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯| |¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯|¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯|
+| Growth        | 04 | 1 | Earth DMG  | | Thorn         | 06 | 3 | Earth DMG  |
+| Mad Growth    | 10 | 3 | Earth DMG  | | Briar         | 11 | 3 | Earth DMG  |
+| Wild Growth   | 19 | 5 | Earth DMG  | | Nettle        | 23 | 5 | Earth DMG  |
+|_______________|____|___|____________| |_______________|____|___|____________|
+|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯|¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯|
+| Punji         | 07 | 3 | Earth DMG  |
+| Punji Pit     | 13 | 3 | Earth DMG  |
+| Punji Strike  | 24 | 5 | Earth DMG  |
+|_______________|____|___|____________|
+
+ _______________ ____ ___ ____________   _______________ ____ ___ ____________
+| SERIES        | PP | R | EFFECT     | | SERIES        | PP | R | EFFECT     |
+|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯|¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯| |¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯|¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯|
+| Flare         | 04 | 3 | Fire DMG   | | Fire          | 06 | 3 | Fire DMG   |
+| Flare Wall    | 07 | 3 | Fire DMG   | | Fireball      | 12 | 5 | Fire DMG   |
+| Flare Storm   | 12 | 3 | Fire DMG   | | Inferno       | 23 | 5 | Fire DMG   |
+|_______________|____|___|____________| |_______________|____|___|____________|
+|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯|¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯| |¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯|¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯|
+| Volcano       | 06 | 1 | Fire DMG   | | Blast         | 07 | 3 | Fire DMG   |
+| Eruption      | 14 | 3 | Fire DMG   | | Nova          | 13 | 5 | Fire DMG   |
+| Pyroclasm     | 29 | 5 | Fire DMG   | | Supernova     | 31 | 7 | Fire DMG   |
+|_______________|____|___|____________| |_______________|____|___|____________|
+|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯|¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯| |¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯|¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯|
+| Blast         | 05 | 3 | Fire DMG   | | Fire Bomb     | 05 | 3 | Fire DMG   |
+| Mad Blast     | 09 | 5 | Fire DMG   | | Cluster Bomb  | 11 | 5 | Fire DMG   |
+| Fiery Blast   | 19 | 7 | Fire DMG   | | Carpet Bomb   | 29 | 7 | Fire DMG   |
+|_______________|____|___|____________| |_______________|____|___|____________|
+|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯|¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯|
+| Lava Shower   | 04 | 1 | Fire DMG   |
+| Molten Bath   | 12 | 3 | Fire DMG   |
+| Magma Storm   | 27 | 5 | Fire DMG   |
+|_______________|____|___|____________|
+
+ _______________ ____ ___ ____________   _______________ ____ ___ ____________
+| SERIES        | PP | R | EFFECT     | | SERIES        | PP | R | EFFECT     |
+|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯|¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯| |¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯|¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯|
+| Whirlwind     | 05 | 3 | Wind DMG   | | Ray           | 06 | 3 | Wind DMG   |
+| Tornado       | 14 | 5 | Wind DMG   | | Storm Ray     | 10 | 3 | Wind DMG   |
+| Tempest       | 27 | 5 | Wind DMG   | | Destruct Ray  | 21 | 3 | Wind DMG   |
+|_______________|____|___|____________| |_______________|____|___|____________|
+|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯|¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯| |¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯|¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯|
+| Plasma        | 08 | 3 | Wind DMG   | | Bolt          | 04 | 1 | Wind DMG   |
+| Shine Plasma  | 18 | 5 | Wind DMG   | | Flash Bolt    | 07 | 3 | Wind DMG   |
+| Spark Plasma  | 37 | 7 | Wind DMG   | | Blue Bolt     | 14 | 3 | Wind DMG   |
+|_______________|____|___|____________| |_______________|____|___|____________|
+|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯|¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯| |¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯|¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯|
+| Slash         | 04 | 1 | Wind DMG   | | Gale          | 03 | 3 | Wind DMG   |
+| Wind Slash    | 09 | 3 | Wind DMG   | | Typhoon       | 12 | 5 | Wind DMG   |
+| Sonic Slash   | 20 | 5 | Wind DMG   | | Hurricane     | 25 | 5 | Wind DMG   |
+|_______________|____|___|____________| |_______________|____|___|____________|
+|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯|¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯|
+| Thunderclap   | 09 | 3 | Wind DMG   |
+| Thunderbolt   | 19 | 5 | Wind DMG   |
+| Thunderstorm  | 39 | 7 | Wind DMG   |
+|_______________|____|___|____________|
+
+ _______________ ____ ___ ____________   _______________ ____ ___ ____________
+| SERIES        | PP | R | EFFECT     | | SERIES        | PP | R | EFFECT     |
+|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯|¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯| |¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯|¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯|
+| Frost         | 05 | 3 | Water DMG  | | Ice           | 05 | 1 | Water DMG  |
+| Tundra        | 08 | 3 | Water DMG  | | Ice Horn      | 11 | 3 | Water DMG  |
+| Glacier       | 15 | 3 | Water DMG  | | Ice Missile   | 23 | 3 | Water DMG  |
+|_______________|____|___|____________| |_______________|____|___|____________|
+|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯|¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯| |¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯|¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯|
+| Douse         | 05 | 3 | Water DMG  | | Prism         | 07 | 3 | Water DMG  |
+| Drench        | 10 | 3 | Water DMG  | | Hail Prism    | 16 | 5 | Water DMG  |
+| Deluge        | 20 | 5 | Water DMG  | | Freeze Prism  | 31 | 5 | Water DMG  |
+|_______________|____|___|____________| |_______________|____|___|____________|
+|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯|¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯|
+| Froth         | 05 | 3 | Water DMG  |
+| Froth Sphere  | 12 | 5 | Water DMG  |
+| Froth Spiral  | 31 | 7 | Water DMG  |
+|_______________|____|___|____________|
+
+ Some attack psynergy is unique to a class, and those are listed below. They
+ don't typically come in a series, so I'll just pair them by elements.
+         _______________ ____ ___ ______ ___________________________ 
+        | PSYNERGY      | PP | R | ELEM | EFFECT                    |
+        |¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯|¯¯¯|¯¯¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|
+        | Ragnarok      | 07 | 1 | Erth | Earth damage              |
+        | Helm Splitter | 08 | 1 | Erth | Earth damage + %Paralysis |
+        | Demon Night   | 12 | 3 | Erth | Earth damage + %Haunted   |
+        | Heat Wave     | 06 | 1 | Fire | Fire damage               |
+        | Dragon Cloud  | 06 | 1 | Fire | Fire damage               |
+        | Planet Diver  | 07 | 1 | Fire | Fire damage               |
+        | Astral Blast  | 05 | 1 | Wind | Wind damage               |
+        | Shuriken      | 08 | 3 | Wind | Wind damage               |
+        | Quick Strike  | 12 | 1 | Wind | Wind damage               |
+        | Death Plunge  | 14 | 1 | Wind | Wind damage               |
+        | Cutting Edge  | 05 | 1 | Watr | Water damage              |
+        |_______________|____|___|______|___________________________|
+
+_______________
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+STATUS PSYNERGY
+_______________
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+ Status psynergy is meant to bolster the allied ranks by augmenting stats, or
+ inflict abnormalities on the enemy to even the odds of winning. They come in
+ "families" of two generally, but some classes have different abilities that
+ do the same thing, so they'll be paired together. [A '9' in the range column
+ signifies that the attack targets "all" of one group.]
+ _______________ ____ ___ ____________   _______________ ____ ___ ____________
+| SERIES        | PP | R | EFFECT     | | SERIES        | PP | R | EFFECT     |
+|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯|¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯| |¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯|¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯|
+| Impact        | 07 | 1 | ATK Raised | | Guard         | 03 | 1 | DEF Raised |
+| Demon Spear   | 07 | 1 | ATK Raised | | Guardian      | 03 | 1 | DEF Raised |
+| High Impact   | 12 | 9 | ATK Raised | | Protect       | 05 | 1 | DEF Raised |
+| Angel Spear   | 12 | 9 | ATK Raised | | Protector     | 05 | 1 | DEF Raised |
+|_______________|____|___|____________| |_______________|____|___|____________|
+|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯|¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯| |¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯|¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯|
+| Ward          | 03 | 1 | RES Raised | | Sleep         | 05 | 3 | %Sleep     |
+| Magic Shell   | 03 | 1 | RES Raised | | Bind          | 04 | 1 | %Seal      |
+| Resist        | 05 | 9 | RES Raised | | Haunt         | 05 | 3 | %Haunt     |
+| Magic Shield  | 05 | 9 | RES Raised | | Curse         | 06 | 1 | %Curse     |
+|_______________|____|___|____________| | Condemn       | 08 | 1 | %P. Downed |
+|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯|¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯| | Annihilation  | 18 | 1 | %Downed    |
+| Dull          | 06 | 1 | ATK Lowerd | | Delude        | 04 | 3 | %Delused   |
+| Blunt         | 11 | 3 | ATK Lowerd | | Mist          | 04 | 3 | %Deluded   |
+| Weaken        | 04 | 1 | RES Lowerd | |_______________|____|___|____________|
+| Enfeeble      | 06 | 3 | RES Lowerd | |¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯|¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯|
+| Impair        | 04 | 1 | DEF Lowerd | | HP Drain      | 03 | 1 | Drains HP  |
+| Debilitate    | 06 | 3 | DEF Lowerd | | Psy Drain     | -- | 1 | Drains PP  |
+|_______________|____|___|____________| |_______________|____|___|____________|
+
+__________________
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+MEDICINAL PSYNERGY
+__________________
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+ This category specializes in party wellness, particularly the HP side of
+ things. It also can alleviate bad statuses from allies or, in the case of
+ Break, any stat augmentations from enemies.
+ _______________ ____ ___ ____________   _______________ ____ ___ ____________
+| SERIES        | PP | R | EFFECT     | | SERIES        | PP | R | EFFECT     |
+|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯|¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯| |¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯|¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯|
+| Cure          | 03 | 1 | Restore HP | | Ply           | 04 | 1 | Restore HP |
+| Cure Well     | 07 | 1 | Restore HP | | Ply Well      | 08 | 1 | Restore HP |
+| Potent Cure   | 10 | 1 | Restore HP | | Pure Ply      | 12 | 1 | Restore HP |
+|_______________|____|___|____________| |_______________|____|___|____________|
+|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯|¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯| |¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯|¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯|
+| Wish          | 09 | 9 | Restore HP | | Revive        | 15 | 1 | Cure KO    |
+| Wish Well     | 13 | 9 | Restore HP | | Cure Poison   | 02 | 1 | Cure Ps/Vn |
+| Pure Wish     | 20 | 9 | Restore HP | | Restore       | 03 | 1 | Cure S/S/D |
+|_______________|____|___|____________| | Break         | 05 | A | See above  |
+                                        |_______________|____|___|____________|
+
+_______________________________________________________________________________
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+CLASS OVERVIEW                                                           [CLSS]
+_______________________________________________________________________________
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+ Each character can have their class changed by different djinn combinations,
+ and this changes their psynergy. Additionally, leveling up will learn new
+ psynergy -- this applies to any class, even after changing.
+
+ The following table will tell everyone's class, the minimum amount of djinn
+ they need to be that class, and the stat augmentations (%) the class gives.
+ The class "families" are organized by pure djinn amounts (or lack thereof),
+ typically.
+
+       _____________ _________________ _______________________________
+      | ISAAC CLASS | ERT FIR WIN WAT |  HP   PP  ATK  DEF  AGL  LCK  |
+      |¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|
+      | Squire      |  0  --- --- --- | 110%  80% 110% 100% 110% 100% |
+      | Knight      |  2  --- --- --- | 130%  90% 120% 110% 120% 100% |
+      | Gallant     |  4  --- --- --- | 150% 100% 130% 120% 130% 100% |
+      | Lord        |  6  --- --- --- | 170% 110% 140% 130% 140% 100% |
+      |_____________|_________________|_______________________________|
+      |¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|
+      | Brute       | ---  1  --- --- | 100%  70% 120%  90% 110%  70% |
+      | Ruffian     | ---  2  --- --- | 120%  80% 130% 100% 120%  70% |
+      | Savage      | ---  4  --- --- | 140%  90% 140% 110% 130%  70% |
+      | Barbarian   | ---  5  --- --- | 160% 100% 150% 120% 140%  70% |
+      | Berserker   |  1   6  --- --- | 180% 110% 160% 130% 150%  70% |
+      |_____________|_________________|_______________________________|
+      |¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|
+      | Apprentice  | --- ---  1  --- | 100% 120% 110% 100% 120%  90% |
+      | Illusionist | --- ---  2  --- | 120% 130% 120% 110% 130%  90% |
+      | Enchanter   | --- ---  4  --- | 140% 140% 130% 120% 140%  90% |
+      | Conjurer    |  1  ---  6  --- | 170% 160% 140% 130% 160%  90% |
+      | Shaman      | --- ---  7  --- | 120% 150% 110% 110% 130% 100% |
+      |_____________|_________________|_______________________________|
+      |¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|
+      | Swordsman   | --- --- ---  1  | 100%  90% 110% 110%  90% 120% |
+      | Defender    | --- --- ---  2  | 120% 100% 120% 120% 100% 120% |
+      | Cavalier    | --- --- ---  4  | 140% 110% 130% 130% 100% 120% |
+      | Guardian    |  1  --- ---  6  | 170% 130% 140% 140% 130% 120% |
+      | Shaman      | --- --- ---  6  | 120% 150% 110% 110% 130% 100% |
+      |_____________|_________________|_______________________________|
+      |¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|
+      | Dragoon     | ---  3  ---  3  | 160% 130% 140% 140% 110% 130% |
+      | Ninja       | ---  3   3  --- | 160% 140% 150% 120% 170%  80% |
+      | Samurai     | ---  4   3  --- | 190% 130% 150% 140% 140%  90% |
+      |_____________|_________________|_______________________________|
+
+       _____________ _________________ _______________________________
+      | GARET CLASS | ERT FIR WIN WAT |  HP   PP  ATK  DEF  AGL  LCK  |
+      |¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|
+      | Guard       | ---  0  --- --- | 110%  80% 100% 110%  70% 100% |
+      | Soldier     | ---  2  --- --- | 130%  90% 110% 120%  80% 100% |
+      | Warrior     | ---  4  --- --- | 150% 100% 120% 130%  90% 100% |
+      | Champion    | ---  6  --- --- | 170% 120% 130% 140% 100% 100% |
+      |_____________|_________________|_______________________________|
+      |¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|
+      | Brute       |  1  --- --- --- | 100%  70% 120%  90% 110%  70% |
+      | Ruffian     |  2  --- --- --- | 120%  80% 130% 100% 120%  70% |
+      | Savage      |  4  --- --- --- | 140%  90% 140% 110% 130%  70% |
+      | Barbarian   |  5  --- --- --- | 160% 100% 150% 120% 140%  70% |
+      | Berserker   |  6   1  --- --- | 180% 160% 110% 130% 150%  70% |
+      |_____________|_________________|_______________________________|
+      |¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|
+      | Page        | --- ---  1  --- | 100% 120% 110% 100% 120%  90% |
+      | Illusionist | --- ---  2  --- | 120% 130% 120% 110% 130%  90% |
+      | Enchanter   | --- ---  4  --- | 140% 140% 130% 120% 140%  90% |
+      | Conjurer    | ---  1   6  --- | 170% 160% 140% 130% 160%  90% |
+      | Ascetic     | --- ---  7  --- | 120% 140% 110% 120% 140% 120% |
+      |_____________|_________________|_______________________________|
+      |¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|
+      | Swordsman   | --- --- ---  1  | 100%  90% 110% 110%  90% 120% |
+      | Defender    | --- --- ---  2  | 120% 100% 120% 120% 100% 120% |
+      | Cavalier    | --- --- ---  4  | 140% 110% 130% 130% 110% 120% |
+      | Luminier    | ---  1  ---  6  | 170% 130% 140% 140% 130% 120% |
+      | Ascetic     | --- --- ---  7  | 120% 140% 110% 120% 140% 120% |
+      |_____________|_________________|_______________________________|
+      |¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|
+      | Dragoon     |  3  --- ---  3  | 160% 130% 140% 140% 110% 130% |
+      | Ninja       |  3  ---  3  --- | 160% 140% 150% 120% 170%  80% |
+      | Samurai     |  4  ---  3  --- | 190% 130% 150% 140% 140%  90% |
+      |_____________|_________________|_______________________________|
+
+       _____________ _________________ _______________________________
+      | IVAN CLASS  | ERT FIR WIN WAT |  HP   PP  ATK  DEF  AGL  LCK  |
+      |¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|
+      | Wind Seer   | --- ---  0  --- |  80% 140%  80%  90% 130% 110% |
+      | Magician    | --- ---  2  --- |  90% 150%  90% 100% 140% 110% |
+      | Mage        | --- ---  4  --- | 110% 160% 100% 110% 140% 110% |
+      | Magister    | --- ---  6  --- | 130% 170% 100% 120% 160% 110% |
+      |_____________|_________________|_______________________________|
+      |¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|
+      | Seer        |  1  --- --- --- |  90% 130%  90%  90% 110% 100% |
+      | Diviner     |  2  --- --- --- | 110% 140% 100% 100% 120% 100% |
+      | Shaman      |  4  --- --- --- | 120% 150% 110% 110% 130% 100% |
+      | Druid       |  6  ---  1  --- | 150% 170% 130% 130% 150% 100% |
+      | Enchanter   |  7  --- --- --- | 140% 140% 130% 120% 140%  90% |
+      |_____________|_________________|_______________________________|
+      |¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|
+      | Pilgrim     | ---  1  --- --- |  90% 120%  90% 100% 120% 120% |
+      | Wanderer    | ---  2  --- --- | 110% 130% 100% 110% 130% 120% |
+      | Ascetic     | ---  4  --- --- | 120% 140% 110% 120% 140% 120% |
+      | Fire Monk   | ---  6   1  --- | 150% 160% 130% 140% 160% 120% |
+      | Enchanter   | ---  7  --- --- | 140% 140% 130% 120% 140%  90% |
+      |_____________|_________________|_______________________________|
+      |¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|
+      | Hermit      | --- --- ---  1  |  80% 140%  80%  90% 130% 120% |
+      | Elder       | --- --- ---  2  |  90% 150%  90% 100% 140% 120% |
+      | Scholar     | --- --- ---  4  | 110% 160% 100% 110% 150% 120% |
+      | Savant      | --- --- ---  5  | 130% 170% 110% 120% 160% 120% |
+      | Sage        | --- ---  1   6  | 150% 180% 120% 130% 170% 120% |
+      |_____________|_________________|_______________________________|
+      |¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|
+      | Medium      |  3  --- ---  3  | 130% 170% 120% 120% 150%  90% |
+      | Ranger      | ---  3  ---  3  | 130% 160% 120% 120% 160% 120% |
+      | White Mage  |  3  --- ---  4  | 150% 180% 130% 130% 150% 130% |
+      |_____________|_________________|_______________________________|
+
+       _____________ _________________ _______________________________
+      | MIA CLASSES | ERT FIR WIN WAT |  HP   PP  ATK  DEF  AGL  LCK  |
+      |¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|
+      | Water Seer  | --- --- ---  0  |  90% 130%  90% 100%  80% 130% |
+      | Scribe      | --- --- ---  2  | 100% 140% 100% 110%  90% 130% |
+      | Cleric      | --- --- ---  4  | 120% 150% 110% 120% 100% 130% |
+      | Paragon     | --- --- ---  6  | 140% 160% 120% 130% 110% 130% |
+      |_____________|_________________|_______________________________|
+      |¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|
+      | Seer        |  1  --- --- --- |  90% 130%  90%  90% 110% 100% |
+      | Diviner     |  2  --- --- --- | 110% 140% 100% 100% 120% 100% |
+      | Shaman      |  4  --- --- --- | 120% 150% 110% 110% 120% 100% |
+      | Druid       |  6  --- ---  1  | 150% 170% 130% 130% 150% 100% |
+      | Cavalier    |  7  --- --- --- | 140% 110% 130% 130% 110% 120% |
+      |_____________|_________________|_______________________________|
+      |¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|
+      | Pilgrim     | ---  1  --- --- |  90% 120%  90% 100% 120% 120% |
+      | Wanderer    | ---  2  --- --- | 110% 130% 100% 110% 130% 120% |
+      | Ascetic     | ---  4  --- --- | 120% 140% 110% 120% 140% 120% |
+      | Water Monk  | ---  6  ---  1  | 150% 160% 130% 140% 160% 120% |
+      | Cavalier    | ---  7  --- --- | 140% 110% 130% 130% 110% 120% |
+      |_____________|_________________|_______________________________|
+      |¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|
+      | Hermit      | --- ---  1  --- |  80% 140%  80%  90% 130% 120% |
+      | Elder       | --- ---  2  --- |  90% 150%  90% 110% 140% 120% |
+      | Scholar     | --- ---  4  --- | 110% 160% 100% 110% 150% 120% |
+      | Savant      | --- ---  5  --- | 130% 170% 110% 120% 160% 120% |
+      | Sage        | --- ---  6   1  | 150% 180% 120% 130% 170% 120% |
+      |_____________|_________________|_______________________________|
+      |¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|
+      | Medium      |  3  ---  3  --- | 130% 170% 120% 120% 160% 120% |
+      | Ranger      | ---  3   3  --- | 130% 160% 120% 120% 160% 120% |
+      | White Mage  |  3  ---  4  --- | 150% 180% 130% 130% 150% 130% |
+      |_____________|_________________|_______________________________|
+
+###############################################################################
+   ____ _______________ _________________________________________________ 
+  | LV | PSYNERGY      | Squ Kni Gal Lor Bru Ruf Sav Bar Ber Dra Nin Sam |
+  |¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|
+  | 01 | Blahblah      |  X --> --> -->   -   -   -   -   -   -   -   -  |
+  | 05 | BlahBlah II   |  -   -   X -->   -   -   -   -   -   -   X   -  |
+  |____|_______________|_________________________________________________|
+
+ X = Learned in this class
+ > = Inherited by a lower class when class is available
+
+ In this example, the Blahblah psynergy would be learned initially in the
+ "Squ"ire class, and every other one in the series would benefit from that
+ (Kni, Gal, Lor). The "BlahBlah II" psynergy would be learned as low as the
+ "Gal"lant class, inaccessible to any classes lower than that (Squ, Kni).
+ Also, The "Nin"ja, which has no series besides itself, would learn that!
+ Hopefully this is pretty clear.
+ 
+__________________
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+ISAAC CLASSES
+__________________
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+ EARTH: Squire -> Knight -> Gallant -> Lord
+ FIRE : Brute -> Ruffian -> Savage -> Barbarian -> Berserker
+ WIND : Apprentice -> Illusionist -> Enchanter -> Shaman -> Conjurer
+ WATER: Swordsman -> Defender -> Cavalier -> Shaman -> Guardian
+ OTHER: Dragoon, Ninja, Samurai
+
+[EARTH/FIRE/OTHER PSYNERGY LIST]
+   ____ _______________ _________________________________________________ 
+  | LV | PSYNERGY      | Squ Kni Gal Lor Bru Ruf Sav Bar Ber Dra Nin Sam |
+  |¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|
+  | 01 | Cure          |  X   X --> -->   -   -   -   -   -   -   -   -  |
+  |    | Gale          |  -   -   -   -   -   -   -   -   -   -   X   -  |
+  |    | Growth        |  -   -   -   -   X   X --> -->   -   -   -   -  |
+  | 02 | Quake         |  X   X --> -->   -   -   -   -   -   -   -   -  |
+  |    | Blast         |  -   -   -   -   -   -   -   -   -   X   -   -  |
+  | 03 | Guardian      |  -   -   -   -   -   -   -   -   -   -   -   X  |
+  | 04 | Earthquake    |  X   X --> -->   -   -   -   -   -   -   -   -  |
+  |    | Thorn         |  -   -   -   -   -   -   -   -   -   X   -   -  |
+  |    | Punji         |  -   -   -   -   -   -   -   -   -   -   X   -  |
+  | 05 | Demon Spear   |  -   -   -   -   -   -   -   -   -   -   -   X  |
+  |    | Cure Poison   |  -   -   -   -   -   -   -   -   -   X   -   -  |
+  | 06 | Spire         |  X   X --> -->   -   -   -   -   -   -   -   -  |
+  |    | Fire Bomb     |  -   -   -   -   -   -   -   -   -   -   X   -  |
+  |    | Avoid         |  -   -   -   -   -   -   -   -   -   X   -   -  |
+  |    | Rockfall      |  -   -   -   -   -   -   -   -   -   -   -   X  |
+  |    | Blast         |  -   -   -   -   X   X --> -->   -   -   -   -  |
+  | 07 | Gaia          |  -   -   X   X   -   -   -   -   -   -   -   -  |
+  |    | Mist          |  -   -   -   -   -   -   -   -   -   -   X   -  |
+  |    | Spire         |  -   -   -   -   -   -   X   X   -   -   -   -  |
+  | 08 | Thunderclap   |  -   -   -   -   -   -   -   -   -   -   X   -  |
+  |    | Lava Shower   |  -   -   -   -   -   -   -   -   -   -   -   X  |
+  |    | Wish          |  -   -   -   -   -   -   -   -   -   X   -   -  |
+  | 09 | Impair        |  -   -   -   -   -   -   X   X   -   -   -   -  |
+  | 10 | Cure Well     |  X   X --> -->   -   -   -   -   -   -   -   -  |
+  |    | Magic Shell   |  -   -   -   -   -   -   -   -   -   -   -   X  |
+  |    | Mad Blast     |  -   -   -   -   -   -   -   -   -   X   -   -  |
+  | 11 | Cutting Edge  |  -   -   -   -   -   -   -   -   -   X   -   -  |
+  | 12 | Death Plunge  |  -   -   -   -   -   -   -   -   -   -   X   -  |
+  |    | Dragon Cloud  |  -   -   -   -   -   -   -   -   -   -   -   X  |
+  |    | Mad Growth    |  -   -   -   -   X   X --> -->   -   -   -   -  |
+  | 13 | Ragnarok      |  X   X --> -->   -   -   -   -   -   -   -   -  |
+  |    | Planet Diver  |  -   -   -   -   X   X --> -->   -   -   -   -  |
+  |    | Restore       |  -   -   -   -   -   -   -   -   -   X   -   -  |
+  | 14 | Quake Sphere  |  X   X --> -->   -   -   -   -   -   -   -   -  |
+  | 15 | Punji Trap    |  -   -   -   -   -   -   -   -   -   -   X   -  |
+  |    | Protector     |  -   -   -   -   -   -   -   -   -   -   -   X  |
+  | 16 | Cluster Bomb  |  -   -   -   -   -   -   -   -   -   -   X   -  |
+  |    | Ply Well      |  -   -   -   -   -   -   -   -   -   X   -   -  |
+  |    | Nova          |  -   -   -   -   X   X --> -->   -   -   -   -  |
+  | 17 | Briar         |  -   -   -   -   -   -   -   -   -   X   -   -  |
+  |    | Haunt         |  -   -   -   -   X   X --> -->   -   -   -   -  |
+  | 18 | Typhoon       |  -   -   -   -   -   -   -   -   -   -   X   -  |
+  |    | Demon Night   |  -   -   -   -   -   -   -   -   -   -   -   X  |
+  | 19 | Revive        |  -   -   X   X   -   -   -   X   -   -   -   -  |
+  | 20 | Clay Spire    |  X   X --> -->   -   -   -   X   -   -   -   -  |
+  | 21 | Shuriken      |  -   -   -   -   -   -   -   -   -   -   X   -  |
+  |    | Angel Spear   |  -   -   -   -   -   -   -   -   -   -   -   X  |
+  | 22 | Molten Bath   |  -   -   -   -   -   -   -   -   -   -   -   X  |
+  |    | Wish Well     |  -   -   -   -   -   -   -   -   -   X   -   -  |
+  | 23 | Debilitate    |  -   -   -   -   -   -   X   X   -   -   -   -  |
+  | 24 | Mother Gaia   |  -   -   X   X   -   -   -   -   -   -   -   -  |
+  |    | Curse         |  -   -   -   -   X   X --> -->   -   -   -   -  |
+  |    | Rock Slide    |  -   -   -   -   -   -   -   -   -   -   -   X  |
+  | 26 | Potent Cure   |  X   X --> -->   -   -   -   -   -   -   -   -  |
+  |    | Thunderbolt   |  -   -   -   -   -   -   -   -   -   -   X   -  |
+  | 27 | Magic Shield  |  -   -   -   -   -   -   -   -   -   -   -   X  |
+  |    | Fiery Blast   |  -   -   -   -   -   -   -   -   -   X   -   -  |
+  | 28 | Wild Growth   |  -   -   -   -   X   X --> -->   -   -   -   -  |
+  | 29 | Condemn       |  -   -   -   -   X   X --> -->   -   -   -   -  |
+  | 31 | Annihilation  |  -   -   -   -   -   -   -   -   -   -   X   -  |
+  | 33 | Helm Splitter |  -   -   -   -   -   -   -   -   -   -   -   X  |
+  | 34 | Pure Ply      |  -   -   -   -   -   -   -   -   -   X   -   -  |
+  | 36 | Punji Strike  |  -   -   -   -   -   -   -   -   -   -   X   -  |
+  |    | Nettle        |  -   -   -   -   -   -   -   -   -   X   -   -  |
+  | 40 | Carpet Bomb   |  -   -   -   -   -   -   -   -   -   -   X   -  |
+  |    | Supernova     |  -   -   -   -   X   X --> -->   -   -   -   -  |
+  |    | Quick Strike  |  -   -   -   -   -   -   -   -   -   -   -   X  |
+  | 42 | Stone Spire   |  X   X --> -->   -   -   -   X   -   -   -   -  |
+  | 44 | Hurricane     |  -   -   -   -   -   -   -   -   -   -   X   -  |
+  | 46 | Pure Wish     |  -   -   -   -   -   -   -   -   -   X   -   -  |
+  | 48 | Magma Storm   |  -   -   -   -   -   -   -   -   -   -   -   X  |
+  | 50 | Thunderhead   |  -   -   -   -   -   -   -   -   -   -   X   -  |
+  | 54 | Grand Gaia    |  -   -   X   X   -   -   -   -   -   -   -   -  |
+  |    | Avalanche     |  -   -   -   -   -   -   -   -   -   -   -   X  |
+  |____|_______________|_________________________________________________|
+
+[WIND/WATER PSYNERGY LIST]
+
+ WIND : Apprentice -> Illusionist -> Enchanter -> Shaman -> Conjurer
+ WATER: Swordsman -> Defender -> Cavalier -> Shaman -> Guardian
+   ____ _______________ _________________________________________ 
+  | LV | PSYNERGY      | App Ill Enc Con Sha Swo Def Cav Gua Sha |
+  |¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|
+  | -- | Delude        |  X --> --> -->   -   -   -   -   -   -  |
+  |    | Cure          |  -   -   -   -   X   -   -   -   -   X  |
+  |    | Ply           |  -   -   -   -   -   -   X --> -->   -  |
+  | 02 | Bolt          |  -   -   -   -   X   -   -   -   -   -  |
+  |    | Froth         |  -   -   -   -   -   -   -   -   -   X  |
+  | 03 | Growth        |  -   -   -   -   X   -   -   -   -   X  |
+  | 04 | Thorn         |  -   -   -   -   -   X --> --> -->   -  |
+  | 05 | Impact        |  -   -   X -->   -   -   -   -   -   -  |
+  |    | Ward          |  -   -   -   -   X   -   -   -   -   -  |
+  |    | Cure Poison   |  -   -   -   -   -   X --> --> -->   X  |
+  | 06 | Ward          |  -   -   X -->   -   -   -   -   -   -  |
+  |    | Gaia          |  X --> --> -->   -   -   -   -   -   -  |
+  |    | Flash Bolt    |  -   -   -   -   X   -   -   -   -   -  |
+  |    | Avoid         |  -   -   -   -   -   -   X --> -->   -  |
+  | 07 | Ward          |  -   -   -   -   X   -   -   -   -   -  |
+  | 08 | Wish          |  -   -   -   -   -   -   -   X -->   X  |
+  | 09 | Weaken        |  X --> --> -->   -   -   -   -   -   -  |
+  | 10 | Cure Well     |  -   -   -   -   X   -   -   -   -   X  |
+  |    | Mad Blast     |  -   -   -   -   -   X --> --> -->   -  |
+  | 11 | Astral Blast  |  X --> --> -->   -   -   -   -   -   -  |
+  |    | Cutting Edge  |  -   -   -   -   -   X --> --> -->   -  |
+  | 12 | Mad Growth    |  -   -   -   -   X   -   -   -   -   X  |
+  | 13 | Restore       |  -   -   -   -   -   X --> --> -->   X  |
+  | 14 | Sleep         |  X --> --> -->   -   -   -   -   -   -  |
+  |    | Briar         |  -   -   -   -   -   X --> --> -->   -  |
+  |    | Froth Sphere  |  -   -   -   -   -   -   -   -   -   X  |
+  | 16 | Ply Well      |  -   -   -   -   -   -   X --> -->   -  |
+  | 17 | Haunt         |  X --> --> -->   -   -   -   -   -   -  |
+  | 18 | Bind          |  -   -   -   -   X   -   -   -   -   -  |
+  | 19 | Revive        |  -   -   -   -   X   X --> --> -->   X  |
+  | 21 | High Impact   |  -   -   X -->   -   -   -   -   -   -  |
+  | 22 | Resist        |  -   -   X -->   -   -   -   -   -   -  |
+  |    | Blue Bolt     |  -   -   -   -   X   -   -   -   -   -  |
+  |    | Wish Well     |  -   -   -   -   -   -   -   X -->   X  |
+  | 23 | Resist        |  -   -   -   -   X   -   -   -   -   -  |
+  | 24 | Mother Gaia   |  X --> --> -->   -   -   -   -   -   -  |
+  | 25 | Enfeeble      |  X --> --> -->   -   -   -   -   -   -  |
+  | 26 | Potent Cure   |  -   -   -   -   X   -   -   -   -   X  |
+  | 29 | Wild Growth   |  -   -   -   -   X   -   -   -   -   X  |
+  | 30 | Break         |  -   -   -   -   -   X --> --> -->   X  |
+  | 31 | Drain         |  X --> --> -->   X   -   -   -   -   -  |
+  | 34 | Pure Ply      |  -   -   -   -   -   -   X --> -->   -  |
+  | 36 | Nettle        |  -   -   -   -   -   X --> --> -->   -  |
+  | 39 | Psy Drain     |  X --> --> -->   X   -   -   -   -   -  |
+  | 40 | Froth Spiral  |  -   -   -   -   -   -   -   -   -   X  |
+  | 46 | Pure Wish     |  -   -   -   -   -   -   -   X -->   X  |
+  | 54 | Grand Gaia    |  X --> --> -->   -   -   -   -   -   -  |
+  |____|_______________|_________________________________________|
+
+_____________
+¯¯¯¯¯¯¯¯¯¯¯¯¯
+GARET CLASSES
+_____________
+¯¯¯¯¯¯¯¯¯¯¯¯¯
+ FIRE : Guard -> Soldier -> Warrior -> Champion
+ EARTH: Brute -> Ruffian -> Savage -> Barbarian -> Berserker
+ WIND : Page -> Illusionist -> Enchanter -> Ascetic -> Conjurer
+ WATER: Swordsman -> Defender -> Cavalier -> Ascetic -> Luminier
+ OTHER: Dragoon, Ninja, Samurai
+
+[FIRE/EARTH/OTHER PSYNERGY LIST]
+   ____ _______________ _________________________________________________ 
+  | LV | PSYNERGY      | Gua Sol War Cha Bru Ruf Sav Bar Ber Dra Nin Sam |
+  |¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|
+  | -- | Flare         |  X --> --> -->   -   -   -   -   -   -   -   -  |
+  |    | Growth        |  -   -   -   -   X   X --> --> -->   -   -   -  |
+  |    | Ply           |  -   -   -   -   -   -   -   -   -   X   -   -  |
+  |    | Gale          |  -   -   -   -   -   -   -   -   -   -   X   -  |
+  | 02 | Blast         |  -   -   -   -   -   -   -   -   -   X   -   -  |
+  | 03 | Guard         |  -   -   X -->   -   -   -   -   -   -   -   -  |
+  |    | Guardian      |  -   -   -   -   -   -   -   -   -   -   -   X  |
+  | 04 | Fire          |  X --> --> -->   -   -   -   -   -   -   -   -  |
+  |    | Thorn         |  -   -   -   -   -   -   -   -   -   X   -   -  |
+  |    | Punji         |  -   -   -   -   -   -   -   -   -   -   X   -  |
+  | 05 | Cure Poison   |  -   -   -   -   -   -   -   -   -   X   -   -  |
+  |    | Demon Spear   |  -   -   -   -   -   -   -   -   -   -   -   X  |
+  | 06 | Flare Wall    |  X --> --> -->   -   -   -   -   -   -   -   -  |
+  |    | Blast         |  -   -   -   -   X   X --> --> -->   -   -   -  |
+  |    | Avoid         |  -   -   -   -   -   -   -   -   -   X   -   -  |
+  |    | Fire Bomb     |  -   -   -   -   -   -   -   -   -   -   X   -  |
+  |    | Rockfall      |  -   -   -   -   -   -   -   -   -   -   -   X  |
+  | 07 | Spire         |  -   -   -   -   -   -   X --> -->   -   -   -  |
+  |    | Mist          |  -   -   -   -   -   -   -   -   -   -   X   -  |
+  | 08 | Volcano       |  X --> --> -->   -   -   -   -   -   -   -   -  |
+  |    | Wish          |  -   -   -   -   -   -   -   -   -   X   -   -  |
+  |    | Thunderclap   |  -   -   -   -   -   -   -   -   -   -   X   -  |
+  |    | Lava Shower   |  -   -   -   -   -   -   -   -   -   -   -   X  |
+  | 09 | Impair        |  -   -   X -->   -   -   X --> -->   -   -   -  |
+  | 10 | Mad Blast     |  -   -   -   -   -   -   -   -   -   X   -   -  |
+  |    | Magic Shell   |  -   -   -   -   -   -   -   -   -   -   -   X  |
+  | 11 | Cutting Edge  |  -   -   -   -   -   -   -   -   -   X   -   -  |
+  | 12 | Heat Wave     |  X --> --> -->   -   -   -   -   -   -   -   -  |
+  |    | Mad Growth    |  -   -   -   -   X   X --> --> -->   -   -   -  |
+  |    | Death Plunge  |  -   -   -   -   -   -   -   -   -   -   X   -  |
+  |    | Dragon Cloud  |  -   -   -   -   -   -   -   -   -   -   -   X  |
+  | 13 | Planet Diver  |  -   -   -   -   X   X --> --> -->   -   -   -  |
+  |    | Restore       |  -   -   -   -   -   -   -   -   -   X   -   -  |
+  | 14 | Fireball      |  X --> --> -->   -   -   -   -   -   -   -   -  |
+  | 15 | Protect       |  -   -   X -->   -   -   -   -   -   -   -   -  |
+  |    | Punji Trap    |  -   -   -   -   -   -   -   -   -   -   X   -  |
+  |    | Protector     |  -   -   -   -   -   -   -   -   -   -   -   X  |
+  | 16 | Nova          |  -   -   -   -   X   X --> --> -->   -   -   -  |
+  |    | Ply Well      |  -   -   -   -   -   -   -   -   -   X   -   -  |
+  |    | Cluster Bomb  |  -   -   -   -   -   -   -   -   -   -   X   -  |
+  | 17 | Haunt         |  -   -   -   -   X   X --> --> -->   -   -   -  |
+  |    | Briar         |  -   -   -   -   -   -   -   -   -   X   -   -  |
+  | 18 | Flare Storm   |  X --> --> -->   -   -   -   -   -   -   -   -  |
+  |    | Typhoon       |  -   -   -   -   -   -   -   -   -   -   X   -  |
+  |    | Demon Night   |  -   -   -   -   -   -   -   -   -   -   -   X  |
+  | 19 | Revive        |  -   -   -   -   -   -   X --> -->   -   -   -  |
+  | 20 | Clay Spire    |  -   -   -   -   -   -   X --> -->   -   -   -  |
+  | 21 | Shuriken      |  -   -   -   -   -   -   -   -   -   -   X   -  |
+  |    | Angel Spear   |  -   -   -   -   -   -   -   -   -   -   -   X  |
+  | 22 | Eruption      |  X --> --> -->   -   -   -   -   -   -   -   -  |
+  |    | Wish Well     |  -   -   -   -   -   -   -   -   -   X   -   -  |
+  |    | Molten Bath   |  -   -   -   -   -   -   -   -   -   -   -   X  |
+  | 23 | Debilitate    |  -   -   -   -   -   -   X --> -->   -   -   -  |
+  | 24 | Curse         |  -   -   -   -   X   X --> --> -->   -   -   -  |
+  |    | Rockslide     |  -   -   -   -   -   -   -   -   -   -   -   X  |
+  | 26 | Debilitate    |  -   -   X -->   -   -   -   -   -   -   -   -  |
+  |    | Thunderbolt   |  -   -   -   -   -   -   -   -   -   -   X   -  |
+  | 27 | Fiery Blast   |  -   -   -   -   -   -   -   -   -   X   -   -  |
+  |    | Magic Shield  |  -   -   -   -   -   -   -   -   -   -   -   X  |
+  | 28 | Wild Growth   |  -   -   -   -   X   X --> --> -->   -   -   -  |
+  | 29 | Condemn       |  -   -   -   -   X   X --> --> -->   -   -   -  |
+  | 31 | Annihilation  |  -   -   -   -   -   -   -   -   -   -   X   -  |
+  | 33 | Helm Splitter |  -   -   -   -   -   -   -   -   -   -   -   X  |
+  | 34 | Pure Ply      |  -   -   -   -   -   -   -   -   -   X   -   -  |
+  | 36 | Inferno       |  X --> --> -->   -   -   -   -   -   -   -   -  |
+  |    | Nettle        |  -   -   -   -   -   -   -   -   -   X   -   -  |
+  |    | Punji Strike  |  -   -   -   -   -   -   -   -   -   -   X   -  |
+  | 40 | Supernova     |  -   -   -   -   X   X --> --> -->   -   -   -  |
+  |    | Carpet Bomb   |  -   -   -   -   -   -   -   -   -   -   X   -  |
+  |    | Quick Strike  |  -   -   -   -   -   -   -   -   -   -   -   X  |
+  | 42 | Stone Spire   |  -   -   -   -   -   -   X --> -->   -   -   -  |
+  | 44 | Hurricane     |  -   -   -   -   -   -   -   -   -   -   X   -  |
+  | 46 | Pure Wish     |  -   -   -   -   -   -   -   -   -   X   -   -  |
+  | 48 | Pyroclasm     |  X --> --> -->   -   -   -   -   -   -   -   -  |
+  |    | Magma Storm   |  -   -   -   -   -   -   -   -   -   -   -   X  |
+  | 50 | Thunderstorm  |  -   -   -   -   -   -   -   -   -   -   X   -  |
+  | 54 | Avalanche     |  -   -   -   -   -   -   -   -   -   -   -   X  |
+  |____|_______________|_________________________________________________|
+
+[WIND/WATER PSYNERGY LIST]
+
+ WIND : Page -> Illusionist -> Enchanter -> Conjurer -> Ascetic
+ WATER: Swordsman -> Defender -> Cavalier -> Luminier -> Ascetic
+   ____ _______________ _________________________________________ 
+  | LV | PSYNERGY      | Pag Ill Enc Con Asc Swo Def Cav Lum Asc |
+  |¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|
+  | -- | Delude        |  X --> --> -->   -   -   -   -   -   -  |
+  |    | Slash         |  -   -   -   -   X   -   -   -   -   -  |
+  |    | Ply           |  -   -   -   -   -   -   X --> -->   -  |
+  |    | Douse         |  -   -   -   -   -   -   -   -   -   X  |
+  | 02 | Blast         |  -   -   -   -   -   X --> --> -->   -  |
+  | 03 | Guard         |  -   -   X -->   -   X --> --> -->   -  |
+  | 05 | Impact        |  -   -   X -->   -   -   -   -   -   -  |
+  |    | Cure Poison   |  -   -   -   -   -   X --> --> -->   X  |
+  | 06 | Ward          |  X --> --> -->   X   -   -   -   -   -  |
+  |    | Avoid         |  -   -   -   -   -   -   X --> -->   -  |
+  |    | Prism         |  -   -   -   -   -   -   -   -   -   X  |
+  | 08 | Volcano       |  X --> --> -->   X   -   -   -   -   X  |
+  |    | Wish          |  -   -   -   -   -   -   -   X   X   -  |
+  | 09 | Weaken        |  X --> --> -->   -   -   -   -   -   -  |
+  |    | Plasma        |  -   -   -   -   X   -   -   -   -   -  |
+  |    | Wish          |  -   -   -   -   -   -   -   -   -   X  |
+  | 10 | Wind Slash    |  -   -   -   -   X   -   -   -   -   -  |
+  |    | Mad Blast     |  -   -   -   -   -   X --> --> -->   -  |
+  | 11 | Astral Blast  |  X --> --> -->   -   -   -   -   -   -  |
+  |    | Cutting Edge  |  -   -   -   -   -   X --> --> -->   -  |
+  | 12 | Drench        |  -   -   -   -   -   -   -   -   -   X  |
+  | 13 | Restore       |  -   -   -   -   -   X --> --> -->   X  |
+  | 14 | Sleep         |  X --> --> -->   -   -   -   -   -   -  |
+  | 15 | Protect       |  -   -   X -->   -   X --> --> -->   -  |
+  | 16 | Ply Well      |  -   -   -   -   -   -   X --> -->   -  |
+  | 18 | Bind          |  -   -   -   -   X   -   -   -   -   -  |
+  | 20 | Hail Prism    |  -   -   -   -   -   -   -   -   -   X  |
+  | 21 | High Impact   |  -   -   X -->   -   -   -   -   -   -  |
+  | 22 | Eruption      |  -   -   -   -   X   -   -   -   -   X  |
+  |    | Wish Well     |  -   -   -   -   -   -   -   X   X   -  |
+  | 23 | Eruption      |  X --> --> -->   -   -   -   -   -   -  |
+  | 24 | Resist        |  -   -   -   -   X   -   -   -   -   -  |
+  |    | Wish Well     |  -   -   -   -   -   -   -   -   -   X  |
+  | 25 | Enfeeble      |  X --> --> -->   -   -   -   -   -   -  |
+  | 26 | Shine Plasma  |  -   -   -   -   X   -   -   -   -   -  |
+  | 28 | Fiery Blast   |  -   -   -   -   -   X --> --> -->   -  |
+  | 30 | Sonic Slash   |  -   -   -   -   X   -   -   -   -   -  |
+  |    | Break         |  -   -   -   -   -   X --> --> -->   -  |
+  |    | Deluge        |  -   -   -   -   -   -   -   -   -   X  |
+  | 31 | Drain         |  X --> --> -->   -   -   -   -   -   -  |
+  | 33 | Drain         |  -   -   -   -   X   -   -   -   -   -  |
+  | 34 | Pure Ply      |  -   -   -   -   -   -   X --> -->   -  |
+  |    | Break         |  -   -   -   -   -   -   -   -   -   X  |
+  | 39 | Psy Drain     |  X --> --> -->   -   -   -   -   -   -  |
+  | 41 | Psy Drain     |  -   -   -   -   X   -   -   -   -   -  |
+  | 46 | Pure Wish     |  -   -   -   -   -   -   -   X   X   X  |
+  | 48 | Pyroclasm     |  X --> --> -->   X   -   -   -   -   X  |
+  | 50 | Spark Plasma  |  -   -   -   -   X   -   -   -   -   -  |
+  | 52 | Freeze Prism  |  -   -   -   -   -   -   -   -   -   X  |
+  |____|_______________|_________________________________________|
+
+____________
+¯¯¯¯¯¯¯¯¯¯¯¯
+IVAN CLASSES
+____________
+¯¯¯¯¯¯¯¯¯¯¯¯
+ WIND : Wind Seer -> Magician -> Mage -> Magister
+ FIRE : Pilgrim -> Wanderer -> Ascetic -> Fire Monk -> Enchanter
+ EARTH: Seer -> Diviner -> Shaman -> Enchanter -> Druid
+ WATER: Hermit -> Elder -> Scholar -> Savant -> Sage
+ OTHER: Medium, White Mage, Ranger
+
+[WIND/FIRE/OTHER PSYNERGY LIST]
+   ____ _______________ _________________________________________________
+  | LV | PSYNERGY      | Win Mgi Mge Mgs Pil Wan Asc Fir Enc Med Whi Ran |
+  |¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|
+  | -- | Whirlwind     |  X --> --> -->   -   -   -   -   -   -   -   -  |
+  |    | Slash         |  -   -   -   -   X --> --> -->   -   -   -   X  |
+  |    | Delude        |  -   -   -   -   -   -   -   -   X   -   -   -  |
+  |    | Cure          |  -   -   -   -   -   -   -   -   -   X   -   -  |
+  |    | Douse         |  -   -   -   -   -   -   -   -   -   -   -   X  |
+  | 02 | Froth         |  -   -   -   -   -   -   -   -   -   X   -   -  |
+  |    | Prism         |  -   -   -   -   -   -   -   -   -   -   X   -  |
+  | 03 | Guard         |  -   -   -   -   -   -   -   -   X   -   -   -  |
+  |    | Cure          |  -   -   -   -   -   -   -   -   -   X   -   -  |
+  | 04 | Ray           |  X --> --> -->   -   -   -   -   -   -   -   -  |
+  | 05 | Impact        |  -   X --> -->   -   -   -   -   X   -   -   -  |
+  |    | Cure Poison   |  -   -   -   -   -   -   -   -   -   -   X   -  |
+  | 06 | Ward          |  -   -   X -->   -   -   X -->   X   -   X   X  |
+  |    | Flash Bolt    |  -   -   -   -   -   -   -   -   -   X   -   -  |
+  | 08 | Plasma        |  X --> --> -->   -   -   -   -   -   -   X   -  |
+  |    | Volcano       |  -   -   -   -   -   -   X -->   X   -   -   X  |
+  | 09 | Plasma        |  -   -   -   -   X --> --> -->   -   -   -   -  |
+  |    | Weaken        |  -   -   -   -   -   -   -   -   X   -   -   -  |
+  | 10 | Wind Slash    |  -   -   -   -   X --> --> -->   -   -   -   X  |
+  |    | Cure Well     |  -   -   -   -   -   -   -   -   -   X   -   -  |
+  | 11 | Astral Blast  |  -   -   -   -   -   -   -   -   X   -   -   -  |
+  |    | Dull          |  -   -   -   -   -   -   -   -   -   -   X   -  |
+  | 12 | Sleep         |  X --> --> -->   -   -   -   -   -   -   -   -  |
+  |    | Wish          |  -   -   -   -   -   -   -   -   -   -   X   -  |
+  |    | Drench        |  -   -   -   -   -   -   -   -   -   -   -   X  |
+  | 13 | Restore       |  -   -   -   -   -   -   -   -   -   -   X   -  |
+  | 14 | Storm Ray     |  X --> --> -->   -   -   -   -   -   -   -   -  |
+  |    | Sleep         |  -   -   -   -   -   -   -   -   X   -   -   -  |
+  |    | Froth Sphere  |  -   -   -   -   -   -   -   -   -   X   -   -  |
+  | 15 | Protect       |  -   -   -   -   -   -   -   -   X   -   -   -  |
+  | 17 | Bind          |  X --> --> -->   -   -   -   -   -   -   -   -  |
+  |    | Haunt         |  -   -   -   -   -   -   -   -   -   X   -   -  |
+  |    | Revive        |  -   -   -   -   -   -   -   -   -   -   X   -  |
+  | 18 | Tornado       |  X --> --> -->   -   -   -   -   -   -   -   -  |
+  |    | Bind          |  -   -   -   -   X --> --> -->   -   -   -   X  |
+  | 19 | Revive        |  -   -   -   -   -   -   -   -   -   X   -   -  |
+  | 20 | Curse         |  -   -   -   -   -   -   -   -   -   X   -   -  |
+  |    | Hail Prism    |  -   -   -   -   -   -   -   -   -   -   X   -  |
+  | 21 | High Impact   |  -   X --> -->   -   -   -   -   -   -   -   -  |
+  | 22 | Resist        |  -   -   X -->   -   -   -   -   -   -   -   -  |
+  |    | Eruption      |  -   -   -   -   -   -   X -->   -   -   -   X  |
+  |    | Blue Bolt     |  -   -   -   -   -   -   -   -   -   X   -   -  |
+  | 23 | Eruption      |  -   -   -   -   -   -   -   -   X   -   -   -  |
+  | 24 | Resist        |  -   -   -   -   -   -   X -->   -   -   -   X  |
+  |    | Wish Well     |  -   -   -   -   -   -   -   -   -   -   X   -  |
+  | 25 | Enfeeble      |  -   -   -   -   -   -   -   -   X   -   -   -  |
+  | 26 | Shine Plasma  |  X --> --> -->   -   -   -   -   -   -   X   -  |
+  |    | Potent Cure   |  -   -   -   -   -   -   -   -   -   X   -   -  |
+  | 29 | Condemn       |  -   -   -   -   -   -   -   -   -   X   -   -  |
+  | 30 | Sonic Slash   |  -   -   -   -   X --> --> -->   -   -   -   X  |
+  |    | Deluge        |  -   -   -   -   -   -   -   -   -   -   -   X  |
+  | 31 | Drain         |  -   -   -   -   -   -   -   -   X   X   -   -  |
+  |    | Resist        |  -   -   -   -   -   -   -   -   -   -   X   -  |
+  | 33 | Drain         |  -   -   -   -   X --> --> -->   -   -   -   X  |
+  | 34 | Break         |  -   -   -   -   X --> --> -->   -   -   -   X  |
+  | 36 | Destruct Ray  |  X --> --> -->   -   -   -   -   -   -   -   -  |
+  |    | Psy Drain     |  -   -   -   -   -   -   -   -   -   X   -   -  |
+  | 37 | Blunt         |  -   -   -   -   -   -   -   -   -   -   X   -  |
+  | 39 | Psy Drain     |  -   -   -   -   -   -   -   -   X   -   -   -  |
+  | 40 | Froth Spiral  |  -   -   -   -   -   -   -   -   -   X   -   -  |
+  | 41 | Psy Drain     |  -   -   -   -   X --> --> -->   -   -   -   X  |
+  | 44 | Tempest       |  X --> --> -->   -   -   -   -   -   -   -   -  |
+  | 46 | Spark Plasma  |  -   -   -   -   -   -   -   -   -   -   X   -  |
+  |    | Pure Wish     |  -   -   -   -   -   -   -   -   -   -   X   -  |
+  | 48 | Pyroclasm     |  -   -   -   -   -   -   X -->   X   -   -   X  |
+  | 50 | Spark Plasma  |  X --> --> -->   X --> --> -->   -   -   -   -  |
+  | 52 | Freeze Prism  |  -   -   -   -   -   -   -   -   -   -   X   -  |
+  |____|_______________|_________________________________________________|
+
+[EARTH/WATER PSYNERGY LIST]
+
+ EARTH: Seer -> Diviner -> Shaman -> Druid -> Enchanter
+ WATER: Hermit -> Elder -> Scholar -> Savant -> Sage
+   ____ _______________ _________________________________________ 
+  | LV | PSYNERGY      | See Div Sha Dru Enc Her Eld Sch Sav Sag |
+  |¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|
+  | -- | Cure          |  X --> --> -->   -   -   -   -   -   -  |
+  |    | Delude        |  -   -   -   -   X   -   -   -   -   -  |
+  |    | Impact        |  -   -   -   -   -   X --> --> --> -->  |
+  | 02 | Bolt          |  X --> --> -->   -   -   -   -   -   -  |
+  | 03 | Growth        |  X --> --> -->   -   -   -   -   -   -  |
+  | 05 | Ward          |  -   -   X -->   -   -   -   -   -   -  |
+  |    | Impact        |  -   -   -   -   X   -   -   -   -   -  |
+  | 06 | Flash Bolt    |  X --> --> -->   -   -   -   -   -   -  |
+  |    | Gaia          |  -   -   -   -   X   -   -   -   -   -  |
+  |    | Prism         |  -   -   -   -   -   X --> --> --> -->  |
+  | 08 | Plasma        |  -   -   -   -   -   X --> --> --> -->  |
+  | 09 | Weaken        |  -   -   -   -   X   -   -   -   -   -  |
+  | 10 | Cure Well     |  X --> --> -->   -   -   -   -   -   -  |
+  | 11 | Astral Blast  |  -   -   -   -   X   -   -   -   -   -  |
+  | 12 | Mad Growth    |  X --> --> -->   -   -   -   -   -   -  |
+  |    | Wish          |  -   -   -   -   -   -   -   X --> -->  |
+  | 14 | Sleep         |  -   -   -   -   X   -   -   -   -   -  |
+  | 17 | Haunt         |  -   -   -   -   X   -   -   -   -   -  |
+  | 18 | Bind          |  X --> --> -->   -   X --> --> --> -->  |
+  | 19 | Revive        |  -   -   X -->   -   -   -   -   -   -  |
+  | 20 | Curse         |  -   -   -   -   X   -   -   -   -   -  |
+  | 21 | High Impact   |  -   -   -   -   X   X --> --> --> -->  |
+  | 22 | Blue Bolt     |  X --> --> -->   -   -   -   -   -   -  |
+  |    | Resist        |  -   -   -   -   X   -   -   -   -   -  |
+  |    | Hail Prism    |  -   -   -   -   -   X --> --> --> -->  |
+  | 23 | Resist        |  -   -   X -->   -   -   -   -   -   -  |
+  | 24 | Mother Gaia   |  -   -   -   -   X   -   -   -   -   -  |
+  |    | Wish Well     |  -   -   -   -   -   -   -   X --> -->  |
+  | 25 | Enfeeble      |  -   -   -   -   X   -   -   -   -   -  |
+  | 26 | Potent Cure   |  X --> --> -->   -   -   -   -   -   -  |
+  |    | Shine Plasma  |  -   -   -   -   -   X --> --> --> -->  |
+  | 29 | Wild Growth   |  X --> --> -->   -   -   -   -   -   -  |
+  | 30 | Break         |  -   -   -   -   -   X --> --> --> -->  |
+  | 31 | Drain         |  X --> --> -->   X   X --> --> --> -->  |
+  | 39 | Psy Drain     |  X --> --> -->   X   X --> --> --> -->  |
+  | 46 | Pure Wish     |  -   -   -   -   -   -   -   X --> -->  |
+  | 50 | Spark Plasma  |  -   -   -   -   -   X --> --> --> -->  |
+  | 52 | Freeze Prism  |  -   -   -   -   -   X --> --> --> -->  |
+  | 54 | Grand Gaia    |  -   -   -   -   X   -   -   -   -   -  |
+  |____|_______________|_________________________________________|
+
+___________
+¯¯¯¯¯¯¯¯¯¯¯
+MIA CLASSES
+___________
+¯¯¯¯¯¯¯¯¯¯¯
+ WATER: Water Seer -> Scribe -> Cleric -> Paragon 
+ WIND : Hermet -> Elder -> Scholar -> Savant -> Sage
+ FIRE : Pilgrim -> Wanderer -> Ascetic -> Water Monk -> Cavalier
+ EARTH: Seer -> Diviner -> Shaman -> Druid -> Cavalier
+ OTHER: Medium, White Mage, Ranger
+
+[WATER/WIND/OTHER PSYNERGY LIST]
+   ____ _______________ _________________________________________________
+  | LV | PSYNERGY      | Wat Scr Cle Par Her Eld Sch Sav Sag Med Whi Ran |
+  |¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|
+  | -- | Ply           |  X --> --> -->   -   -   -   -   -   -   -   -  |
+  |    | Impact        |  -   -   -   -   X --> --> --> -->   -   -   -  |
+  |    | Bolt          |  -   -   -   -   -   -   -   -   -   X   -   -  |
+  |    | Cure Poison   |  -   -   -   -   -   -   -   -   -   -   X   -  |
+  |    | Slash         |  -   -   -   -   -   -   -   -   -   -   -   X  |
+  | 02 | Frost         |  X --> --> -->   -   -   -   -   -   -   -   -  |
+  |    | Froth         |  -   -   -   -   -   -   -   -   -   X   -   -  |
+  |    | Douse         |  -   -   -   -   -   -   -   -   -   -   -   X  |
+  | 03 | Cure          |  -   -   -   -   -   -   -   -   -   X   -   -  |
+  | 04 | Ice           |  X --> --> -->   -   -   -   -   -   -   -   -  |
+  | 05 | Cure Poison   |  X --> --> -->   -   -   -   -   -   -   -   -  |
+  | 06 | Prism         |  -   -   -   -   X --> --> --> -->   -   X   -  |
+  |    | Flash Bolt    |  -   -   -   -   -   -   -   -   -   X   -   -  |
+  |    | Ward          |  -   -   -   -   -   -   -   -   -   -   -   X  |
+  | 08 | Wish          |  -   -   X -->   -   -   -   -   -   -   -   -  |
+  |    | Plasma        |  -   -   -   -   X --> --> --> -->   -   X   -  |
+  |    | Volcano       |  -   -   -   -   -   -   -   -   -   -   -   X  |
+  | 09 | Tundra        |  X --> --> -->   -   -   -   -   -   -   -   -  |
+  |    | Ward          |  -   -   -   -   -   -   -   -   -   -   X   -  |
+  | 10 | Cure Well     |  -   -   -   -   -   -   -   -   -   X   -   -  |
+  |    | Wind Slash    |  -   -   -   -   -   -   -   -   -   -   -   X  |
+  | 11 | Dull          |  -   -   -   -   -   -   -   -   -   -   X   -  |
+  | 12 | Wish          |  -   -   -   -   -   -   X --> -->   -   X   -  |
+  |    | Drench        |  -   -   -   -   -   -   -   -   -   -   -   X  |
+  | 13 | Restore       |  X --> --> -->   -   -   -   -   -   -   X   -  |
+  | 14 | Froth Sphere  |  -   -   -   -   -   -   -   -   -   X   -   -  |
+  | 16 | Ply Well      |  X --> --> -->   -   -   -   -   -   -   -   -  |
+  | 17 | Ice Horn      |  X --> --> -->   -   -   -   -   -   -   -   -  |
+  |    | Haunt         |  -   -   -   -   -   -   -   -   -   X   -   -  |
+  |    | Revive        |  -   -   -   -   -   -   -   -   -   -   X   -  |
+  | 18 | Bind          |  -   -   -   -   X --> --> --> -->   -   -   X  |
+  | 19 | Revive        |  -   -   -   -   -   -   -   -   -   X   -   -  |
+  | 20 | Curse         |  -   -   -   -   -   -   -   -   -   X   -   -  |
+  | 21 | High Impact   |  -   -   -   -   X --> --> --> -->   -   -   -  |
+  | 22 | Wish Well     |  -   -   X -->   -   -   -   -   -   -   -   -  |
+  |    | Hail Prism    |  -   -   -   -   X --> --> --> -->   -   X   -  |
+  |    | Blue Bolt     |  -   -   -   -   -   -   -   -   -   X   -   -  |
+  |    | Eruption      |  -   -   -   -   -   -   -   -   -   -   -   X  |
+  | 24 | Glacier       |  X --> --> -->   -   -   -   -   -   -   -   -  |
+  |    | Wish Well     |  -   -   -   -   -   -   X --> -->   -   X   -  |
+  |    | Resist        |  -   -   -   -   -   -   -   -   -   -   -   X  |
+  | 26 | Shine Plasma  |  -   -   -   -   X --> --> --> -->   -   X   -  |
+  |    | Potent Cure   |  -   -   -   -   -   -   -   -   -   X   -   -  |
+  | 29 | Condemn       |  -   -   -   -   -   -   -   -   -   X   -   -  |
+  | 30 | Break         |  X --> --> -->   X --> --> --> -->   -   -   -  |
+  |    | Deluge        |  -   -   -   -   -   -   -   -   -   -   -   X  |
+  |    | Sonic Slash   |  -   -   -   -   -   -   -   -   -   -   -   X  |
+  | 31 | Drain         |  -   -   -   -   X --> --> --> -->   X   -   -  |
+  |    | Resist        |  -   -   -   -   -   -   -   -   -   -   X   -  |
+  | 34 | Pure Ply      |  X --> --> -->   -   -   -   -   -   -   -   -  |
+  |    | Break         |  -   -   -   -   -   -   -   -   -   -   -   X  |
+  | 36 | Psy Drain     |  -   -   -   -   -   -   -   -   -   X   -   -  |
+  | 37 | Blunt         |  -   -   -   -   -   -   -   -   -   -   X   -  |
+  | 39 | Psy Drain     |  -   -   -   -   X --> --> --> -->   -   -   -  |
+  | 40 | Froth Spiral  |  -   -   -   -   -   -   -   -   -   X   -   -  |
+  | 41 | Psy Drain     |  -   -   -   -   -   -   -   -   -   -   -   X  |
+  | 42 | Ice Missile   |  X --> --> -->   -   -   -   -   -   -   -   -  |
+  | 46 | Pure Wish     |  -   -   X -->   -   -   X --> -->   -   X   -  |
+  |    | Spark Plasma  |  -   -   -   -   -   -   -   -   -   -   X   -  |
+  | 48 | Pyroclasm     |  -   -   -   -   -   -   -   -   -   -   -   X  |
+  | 50 | Spark Plasma  |  -   -   -   -   X --> --> --> -->   -   -   -  |
+  | 52 | Freeze Prism  |  -   -   -   -   X --> --> --> -->   -   X   -  |
+  |____|_______________|_________________________________________________|
+
+[EARTH/FIRE PSYNERGY LIST]
+
+ FIRE : Pilgrim -> Wanderer -> Ascetic -> Water Monk -> Cavalier
+ EARTH: Seer -> Diviner -> Shaman -> Druid -> Cavalier
+   ____ _______________ _________________________________________ 
+  | LV | PSYNERGY      | Pil Wan Asc Wat Cav See Div Sha Dru Cav |
+  |¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|
+  | 01 | Douse         |  X --> --> -->   -   -   -   -   -   -  |
+  |    | Ply           |  -   -   -   -   X   -   -   -   -   X  |
+  |    | Cure          |  -   -   -   -   -   X --> --> -->   -  |
+  | 02 | Blast         |  -   -   -   -   X   -   -   -   -   -  |
+  |    | Froth         |  -   -   -   -   -   X --> --> -->   -  |
+  | 03 | Guard         |  -   -   -   -   X   -   -   -   -   -  |
+  |    | Growth        |  -   -   -   -   -   X --> --> -->   -  |
+  | 04 | Thorn         |  -   -   -   -   -   -   -   -   -   X  |
+  | 05 | Cure Poison   |  X --> --> -->   X   X --> --> -->   X  |
+  | 06 | Prism         |  X --> --> -->   -   -   -   -   -   -  |
+  |    | Avoid         |  -   -   -   -   X   -   -   -   -   X  |
+  | 08 | Volcano       |  -   -   X -->   -   -   -   -   -   -  |
+  |    | Wish          |  -   -   -   -   X   -   -   X -->   X  |
+  | 09 | Wish          |  -   -   X -->   -   -   -   -   -   -  |
+  | 10 | Mad Blast     |  -   -   -   -   X   -   -   -   -   -  |
+  |    | Cure Well     |  -   -   -   -   -   X --> --> -->   -  |
+  | 11 | Cutting Edge  |  -   -   -   -   X   -   -   -   -   X  |
+  | 12 | Drench        |  X --> --> -->   -   -   -   -   -   -  |
+  |    | Mad Growth    |  -   -   -   -   -   X --> --> -->   -  |
+  | 13 | Restore       |  X --> --> -->   X   X --> --> -->   X  |
+  | 14 | Froth Sphere  |  -   -   -   -   -   X --> --> -->   -  |
+  |    | Briar         |  -   -   -   -   -   -   -   -   -   X  |
+  | 15 | Protect       |  -   -   -   -   X   -   -   -   -   -  |
+  | 16 | Ply Well      |  -   -   -   -   X   -   -   -   -   X  |
+  | 19 | Revive        |  -   -   -   -   -   -   -   X -->   X  |
+  | 20 | Hail Prism    |  X --> --> -->   -   -   -   -   -   -  |
+  | 22 | Eruption      |  -   -   X -->   -   -   -   -   -   -  |
+  |    | Wish Well     |  -   -   -   -   X   -   -   X -->   X  |
+  | 24 | Wish Well     |  -   -   X -->   -   -   -   -   -   -  |
+  | 26 | Potent Cure   |  -   -   -   -   -   X --> --> -->   -  |
+  | 28 | Fiery Blast   |  -   -   -   -   X   -   -   -   -   -  |
+  | 29 | Wild Growth   |  -   -   -   -   -   X --> --> -->   -  |
+  | 30 | Deluge        |  X --> --> -->   -   -   -   -   -   -  |
+  |    | Break         |  -   -   -   -   X   X --> --> -->   X  |
+  | 34 | Break         |  X --> --> -->   -   -   -   -   -   -  |
+  |    | Pure Ply      |  -   -   -   -   X   -   -   -   -   X  |
+  | 36 | Nettle        |  -   -   -   -   -   -   -   -   -   X  |
+  | 40 | Froth Spiral  |  -   -   -   -   -   X --> --> -->   -  |
+  | 46 | Pure Wish     |  -   -   X -->   X   -   -   X -->   X  |
+  | 48 | Pyroclasm     |  -   -   X -->   -   -   -   -   -   -  |
+  | 52 | Freeze Prism  |  X --> --> -->   -   -   -   -   -   -  |
+  |____|_______________|_________________________________________|
+
+_______________________________________________________________________________
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+DJINN LIST                                                               [DJNN]
+_______________________________________________________________________________
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+ Djinni, these elemental-type creatures, escape after Mt. Aleph erupts and the
+ team is told to seek them out and combine powers. And that's a great idea, as
+ they will allow the users to change class depending on what combination is
+ equipped, not to mention new psynergy is gained/lost with their influence.
+ They appear all over the world, some putting up a fight and some not. There
+ are twenty-eight (28) in all, making 7 of each element. They're listed in
+ the order they can first be obtained!
+
+ NOTE: If you plan on transferring the data here to Golden Sun: The Lost Age,
+ this game's sequel, collecting all the djinn will unlock a secret dungeon.
+  ____ _________ _________ __________________________ _____________________
+ | ## | NAME    | TYPE    | LOCATION                 | IN-BATTLE FUNCTION  |
+ |¯¯¯¯|¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|
+ | 01 | Flint   | Venus   | World map outside Vale   | Physical damage     |
+ | 02 | Forge   | Mars    | Goma Cave                | Raise party's ATK   |
+ | 03 | Gust    | Jupiter | Bilibin                  | Wind-elem damage    |
+ | 04 | Granite | Venus   | Kolima                   | Lower next turn DMG |
+ | 05 | Breeze  | Jupiter | Tret Tree                | Raise party's RES   |
+ | 06 | Fever   | Mars    | Imil Falls Cave          | Damage + Delusion   |
+ | 07 | Fizz    | Mercury | Mia (Mercury Lighthouse) | Heal HP             |
+ | 08 | Sleet   | Mercury | Mercury Lighthouse       | Lower foe's ATK     |
+ | 09 | Zephyr  | Jupiter | Fuchin Falls Cave        | Raise party's AGL   |
+ | 10 | Quartz  | Venus   | Mogall Forest            | Revive fallen ally  |
+ | 11 | Mist    | Mercury | Xian                     | Puts foe to sleep   |
+ | 12 | Corona  | Mars    | North of Xian (Island)   | Raise party's DEF   |
+ | 13 | Spritz  | Mercury | Altin Peak (lowest mine) | Heal HP to party    |
+ | 14 | Smog    | Jupiter | Lamakan Desert           | Deludes foe         |
+ | 15 | Vine    | Venus   | World map (NE of Kalay)  | Drops foes' AGL     |
+ | 16 | Scorch  | Mars    | Kalay Tunnel             | Damage + %Stunned   |
+ | 17 | Sap     | Venus   | Vault Cave               | Damage + HP Drain   |
+ | 18 | Kite    | Jupiter | Vale Cave                | 2 attks next round! |
+ | 19 | Ember   | Mars    | Tolbi                    | Restore allies' PP  |
+ | 20 | Hail    | Mercury | NW of Tolbi (by bridge)  | Damage + lower DEF  |
+ | 21 | Ground  | Venus   | Kalay Docks              | Foe loses its turn! |
+ | 22 | Squall  | Jupiter | Altmiller Cave           | Damage + %Paralyze  |
+ | 23 | Tonic   | Mercury | Lunpa Fortress           | Cure all statuses   |
+ | 24 | Flash   | Mars    | Suhalla Desert           | Blocks most damage  |
+ | 25 | Dew     | Mercury | Suhalla Gate             | Revive downed ally  |
+ | 26 | Torch   | Mars    | Lalivero                 | Damage (Ignore DEF) |
+ | 27 | Luff    | Jupiter | Babi Lighthouse          | Seals foe psynergy  |
+ | 28 | Bane    | Venus   | Crossbone Isle [B6]      | Damage + %Venom     |
+ |____|_________|_________|__________________________|_____________________|
+
+ Additionally, each djinni will give certain stat boosts on whomever they're
+ equipped to. Depending on which class a person is, the stat boosts may differ
+ slightly since percentages are involved. [All djinni give +5 Power/RES of
+ the element.] ____ _________ _________ ________________________
+              | ## | NAME    | TYPE    | HP  PP ATK DEF AGL LCK |
+              |¯¯¯¯|¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|
+              | 01 | Flint   | Venus   | 08  04  03  --  --  -- |
+              | 02 | Forge   | Mars    | 10  --  02  --  02  02 |
+              | 03 | Gust    | Jupiter | 09  --  02  --  02  -- |
+              | 04 | Granite | Venus   | 09  --  --  02  02  01 |
+              | 05 | Breeze  | Jupiter | 12  05  --  02  --  01 |
+              | 06 | Fever   | Mars    | 12  --  03  --  01  -- |
+              | 07 | Fizz    | Mercury | 09  04  --  03  --  -- |
+              | 08 | Sleet   | Mercury | 12  --  03  --  --  01 |
+              | 09 | Zephyr  | Jupiter | 11  03  --  --  02  01 |
+              | 10 | Quartz  | Venus   | 10  03  --  --  03  -- |
+              | 11 | Mist    | Mercury | 11  --  04  --  --  -- |
+              | 12 | Corona  | Mars    | 12  03  --  03  --  01 |
+              | 13 | Spritz  | Mercury | 08  04  --  --  03  -- |
+              | 14 | Smog    | Jupiter | 09  --  03  --  --  -- |
+              | 15 | Vine    | Venus   | 12  04  --  03  --  01 |
+              | 16 | Scorch  | Mars    | 08  --  03  --  --  -- |
+              | 17 | Sap     | Venus   | 10  --  03  --  --  01 |
+              | 18 | Kite    | Jupiter | 08  03  --  --  03  -- |
+              | 19 | Ember   | Mars    | 09  04  --  02  02  -- |
+              | 20 | Hail    | Mercury | 09  --  04  --  --  01 |
+              | 21 | Ground  | Venus   | 09  03  --  --  03  -- |
+              | 22 | Squall  | Jupiter | 10  --  05  --  --  -- |
+              | 23 | Tonic   | Mercury | 10  03  --  02  --  02 |
+              | 24 | Flash   | Mars    | 14  03  --  02  --  -- |
+              | 25 | Dew     | Mercury | 13  04  --  --  04  -- |
+              | 26 | Torch   | Mars    | 09  --  03  --  --  01 |
+              | 27 | Luff    | Jupiter | 11  05  --  02  --  01 |
+              | 28 | Bane    | Venus   | 12  --  04  --  --  -- |
+              |____|_________|_________|________________________|
+
+_______________________________________________________________________________
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+SHOP LIST                                                                [SHPL]
+_______________________________________________________________________________
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+ Shops around the world carry a stock of items, weapons, and armor. Some of
+ these will also carry "artifacts," special equipment (of various type) that
+ often give great effects. Once bought, artifacts can be sold and will appear
+ in every shop's list. [NOTE: The Turtle Boots are the only artifact that'll
+ permanently disappear if sold.] Asterisks (*) denote artifacts.
+
+ The 'Use?' column will use the initials of the characters to show which ones
+ can equip the items. In order: Isaac, Garret, Ivan, Mia.
+
+VALE
+  _________________ ______ _____ _____ _____ _____ ________________ ________
+ | WEAPON          | USE? | ATK | DEF | AGL | LCK | UNLEASH/EFFECT | COST   |
+ |¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯|¯¯¯¯¯|¯¯¯¯¯|¯¯¯¯¯|¯¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯¯¯|
+ | Herb            | ---- | --- | --- | --- | --- | Heal 50 HP     |     10 |
+ | Antidote        | ---- | --- | --- | --- | --- | Cure Poison    |     20 |
+ | Short Sword     | IG-- |  08 | --- | --- | --- | -------------- |    120 |
+ | Long Sword      | IG-- |  14 | --- | --- | --- | -------------- |    200 |
+ | Wooden Stick    | --IM |  04 | --- | --- | --- | -------------- |     60 |
+ | Mace            | IG-M |  06 | --- | --- | --- | -------------- |     80 |
+ | Cotton Shirt    | IG-- | --- |  03 | --- | --- | -------------- |     20 |
+ | One-Piece Dress | ---M | --- |  04 | --- | --- | -------------- |     25 |
+ | Travel Vest     | IG-- | --- |  07 | --- | --- | -------------- |     50 |
+ | Padded Gloves   | IG-- | --- |  02 | --- | --- | -------------- |     10 |
+ | Wooden Shield   | IG-- | --- |  06 | --- | --- | -------------- |     40 |
+ | Leather Cap     | IG-- | --- |  03 | --- | --- | -------------- |     30 |
+ |_________________|______|_____|_____|_____|_____|________________|________|
+
+VAULT
+  _________________ ______ _____ _____ _____ _____ ________________ ________
+ | WEAPON          | USE? | ATK | DEF | AGL | LCK | UNLEASH/EFFECT | COST   |
+ |¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯|¯¯¯¯¯|¯¯¯¯¯|¯¯¯¯¯|¯¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯¯¯|
+ | Herb            | ---- | --- | --- | --- | --- | Heal 50 HP     |     10 |
+ | Antidote        | ---- | --- | --- | --- | --- | Cure Poison    |     20 |
+ | Short Sword     | IG-- |  08 | --- | --- | --- | -------------- |    120 |
+ | Long Sword      | IG-- |  14 | --- | --- | --- | -------------- |    200 |
+ | Battle Axe      | IG-- |  24 | --- | --- | --- | -------------- |    280 |
+*| Magic Rod       | --IM |  16 | --- | --- | --- | Murk           |    380 |
+ | Mace            | IG-M |  06 | --- | --- | --- | -------------- |     80 |
+ | Travel Vest     | IG-- | --- |  07 | --- | --- | -------------- |     50 |
+ | Wooden Shield   | IG-- | --- |  06 | --- | --- | -------------- |     40 |
+ | Padded Gloves   | IG-- | --- |  02 | --- | --- | -------------- |     10 |
+ | Leather Armlet  | --IM | --- |  07 | --- | --- | -------------- |    180 |
+ | Leather Cap     | IG-- | --- |  03 | --- | --- | -------------- |     30 |
+ | Circlet         | --IM | --- |  06 | --- | --- | -------------- |    130 |
+ |_________________|______|_____|_____|_____|_____|________________|________|
+
+BILIBIN
+  _________________ ______ _____ _____ _____ _____ ________________ ________
+ | WEAPON          | USE? | ATK | DEF | AGL | LCK | UNLEASH/EFFECT | COST   |
+ |¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯|¯¯¯¯¯|¯¯¯¯¯|¯¯¯¯¯|¯¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯¯¯|
+ | Long Sword      | IG-- |  14 | --- | --- | --- | -------------- |    200 |
+ | Broad Sword     | IG-- |  40 | --- | --- | --- | -------------- |   1000 |
+ | Heavy Mace      | IG-M |  26 | --- | --- | --- | -------------- |    500 |
+ | Hunter's Sword  | IG-- |  28 | --- | --- | --- | -------------- |    520 |
+*| Witch's Wand    | --IM |  32 | --- | --- | --- | Stun           |    860 |
+ | Travel Robe     | --IM | --- |  10 | --- | --- | -------------- |    200 |
+ | Travel Vest     | IG-- | --- |  07 | --- | --- | -------------- |     50 |
+ | Leather Armor   | IG-- | --- |  12 | --- | --- | -------------- |    240 |
+ | Leather Gloves  | IG-- | --- |  10 | --- | --- | -------------- |    220 |
+ | Bronze Shield   | IG-- | --- |  14 | --- | --- | -------------- |    500 |
+ | Leather Armlet  | --IM | --- |  07 | --- | --- | -------------- |    180 |
+ | Open Helm       | IG-- | --- |  09 | --- | --- | -------------- |    180 |
+ | Wooden Cap      | IG-- | --- |  10 | --- | --- | -------------- |    400 |
+ | Circlet         | --IM | --- |  06 | --- | --- | -------------- |    130 |
+ |_________________|______|_____|_____|_____|_____|________________|________|
+
+IMIL   [NOTE: Until Mercury Lighthouse is beaten, only the item shop's open.]
+  _________________ ______ _____ _____ _____ _____ ________________ ________
+ | WEAPON          | USE? | ATK | DEF | AGL | LCK | UNLEASH/EFFECT | COST   |
+ |¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯|¯¯¯¯¯|¯¯¯¯¯|¯¯¯¯¯|¯¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯¯¯|
+ | Herb            | ---- | --- | --- | --- | --- | Heal 50 HP     |     10 |
+ | Antidote        | ---- | --- | --- | --- | --- | Cure Poison    |     20 |
+ | Elixir          | ---- | --- | --- | --- | --- | Cure Del/St/Sl |     30 |
+ | Sacred Feather  | ---- | --- | --- | --- | --- | Less foes attk |     70 |
+ | Long Sword      | IG-- |  14 | --- | --- | --- | -------------- |    200 |
+ | Broad Sword     | IG-- |  40 | --- | --- | --- | -------------- |   1000 |
+ | Hunter's Sword  | IG-- |  28 | --- | --- | --- | -------------- |    520 |
+ | Battle Axe      | IG-- |  24 | --- | --- | --- | -------------- |    280 |
+ | Heavy Mace      | IG-M |  26 | --- | --- | --- | -------------- |    500 |
+*| Blessed Ankh    | --IM |  46 | --- | --- | --- | Psyphon Seal   |   1600 |
+ | Leather Armor   | IG-- | --- |  12 | --- | --- | -------------- |    240 |
+ | Adept's Clothes | IGIM | --- |  18 | --- | --- | PP +8          |    850 |
+ | Leather Gloves  | IG-- | --- |  10 | --- | --- | -------------- |    220 |
+ | Bronze Shield   | IG-- | --- |  14 | --- | --- | -------------- |    500 |
+ | Leather Armlet  | --IM | --- |  07 | --- | --- | -------------- |    180 |
+ | Open Helm       | IG-- | --- |  09 | --- | --- | -------------- |    180 |
+ | Wooden Cap      | IG-- | --- |  10 | --- | --- | -------------- |    400 |
+ | Circlet         | --IM | --- |  06 | --- | --- | -------------- |    130 |
+ |_________________|______|_____|_____|_____|_____|________________|________|
+
+KOLIMA                 [NOTE: Shops are closed until Tret's curse is lifted.]
+  _________________ ______ _____ _____ _____ _____ ________________ ________
+ | WEAPON          | USE? | ATK | DEF | AGL | LCK | UNLEASH/EFFECT | COST   |
+ |¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯|¯¯¯¯¯|¯¯¯¯¯|¯¯¯¯¯|¯¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯¯¯|
+ | Herb            | ---- | --- | --- | --- | --- | Heal 50 HP     |     10 |
+ | Antidote        | ---- | --- | --- | --- | --- | Cure Poison    |     20 |
+ | Elixir          | ---- | --- | --- | --- | --- | Cure Del/St/Sl |     30 |
+ | Sacred Feather  | ---- | --- | --- | --- | --- | Less foes attk |     70 |
+ | Long Sword      | IG-- |  14 | --- | --- | --- | -------------- |    200 |
+ | Broad Sword     | IG-- |  40 | --- | --- | --- | -------------- |   1000 |
+ | Hunter's Sword  | IG-- |  28 | --- | --- | --- | -------------- |    520 |
+ | Battle Axe      | IG-- |  24 | --- | --- | --- | -------------- |    280 |
+ | Heavy Mace      | IG-M |  26 | --- | --- | --- | -------------- |    500 |
+ | Leather Armor   | IG-- | --- |  12 | --- | --- | -------------- |    240 |
+ | Adept's Clothes | IGIM | --- |  18 | --- | --- | PP +8          |    850 |
+ | Bronze Shield   | IG-- | --- |  14 | --- | --- | -------------- |    500 |
+ | Leather Gloves  | IG-- | --- |  10 | --- | --- | -------------- |    220 |
+ | Armlet          | --IM | --- |  17 | --- | --- | -------------- |    900 |
+ | Bronze Helm     | IG-- | --- |  14 | --- | --- | -------------- |    600 |
+ | Wooden Cap      | IG-- | --- |  10 | --- | --- | -------------- |    400 |
+ |_________________|______|_____|_____|_____|_____|________________|________|
+
+XIAN
+  _________________ ______ _____ _____ _____ _____ ________________ ________
+ | WEAPON          | USE? | ATK | DEF | AGL | LCK | UNLEASH/EFFECT | COST   |
+ |¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯|¯¯¯¯¯|¯¯¯¯¯|¯¯¯¯¯|¯¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯¯¯|
+ | Herb            | ---- | --- | --- | --- | --- | Heal 50 HP     |     10 |
+ | Antidote        | ---- | --- | --- | --- | --- | Cure Poison    |     20 |
+ | Elixir          | ---- | --- | --- | --- | --- | Cure Del/St/Sl |     30 |
+ | Sacred Feather  | ---- | --- | --- | --- | --- | Less foes attk |     70 |
+ | Broad Sword     | IG-- |  40 | --- | --- | --- | -------------- |   1000 |
+ | Battle Rapier   | IGI- |  58 | --- | --- | --- | -------------- |   2800 |
+ | Broad Axe       | IG-- |  50 | --- | --- | --- | -------------- |   1400 |
+ | Battle Mace     | IG-M |  56 | --- | --- | --- | -------------- |   2600 |
+ | Adept's Clothes | IGIM | --- |  18 | --- | --- | PP +8          |    850 |
+ | Silk Robe       | --IM | --- |  20 | --- | --- | -------------- |   1400 |
+ | Iron Shield     | IG-- | --- |  20 | --- | --- | -------------- |   1200 |
+ | Armlet          | --IM | --- |  17 | --- | --- | -------------- |    900 |
+ | Bronze Helm     | IG-- | --- |  14 | --- | --- | -------------- |    600 |
+ | Wooden Cap      | IG-- | --- |  10 | --- | --- | -------------- |    400 |
+ | Silver Circlet  | --IM | --- |  16 | --- | --- | -------------- |   1300 |
+*| China Dress     | ---M | --- |  19 | --- | --- | Lower foe ATK  |   1600 |
+ |_________________|______|_____|_____|_____|_____|________________|________|
+
+ALTIN
+  _________________ ______ _____ _____ _____ _____ ________________ ________
+ | WEAPON          | USE? | ATK | DEF | AGL | LCK | UNLEASH/EFFECT | COST   |
+ |¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯|¯¯¯¯¯|¯¯¯¯¯|¯¯¯¯¯|¯¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯¯¯|
+ | Herb            | ---- | --- | --- | --- | --- | Heal 50 HP     |     10 |
+ | Nut             | ---- | --- | --- | --- | --- | Heal 200 HP    |    200 |
+ | Antidote        | ---- | --- | --- | --- | --- | Cure Poison    |     20 |
+ | Elixir          | ---- | --- | --- | --- | --- | Cure Del/St/Sl |     30 |
+ | Sacred Feather  | ---- | --- | --- | --- | --- | Less foes attk |     70 |
+ | Claymore        | ---- |  70 | --- | --- | --- | -------------- |   4000 |
+ | Battle Rapier   | IGI- |  58 | --- | --- | --- | -------------- |   2800 |
+ | Broad Axe       | IG-- |  50 | --- | --- | --- | -------------- |   1400 |
+ | Battle Mace     | IG-M |  56 | --- | --- | --- | -------------- |   2600 |
+*| Psynergy Rod    | --IM |  64 | --- | --- | --- | Psynergy Leech |   3800 |
+ | Chain Mail      | IG-- | --- |  25 | --- | --- | -------------- |   2000 |
+ | Adept's Clothes | IGIM | --- |  18 | --- | --- | PP +8          |    850 |
+ | Silk Robe       | --IM | --- |  20 | --- | --- | -------------- |   1400 |
+ | Iron Shield     | IG-- | --- |  20 | --- | --- | -------------- |   1200 |
+ | Gauntlets       | IGIM | --- |  23 | --- | --- | -------------- |   1600 |
+ | Armlet          | --IM | --- |  17 | --- | --- | -------------- |    900 |
+ | Iron Helm       | IG-- | --- |  20 | --- | --- | -------------- |   1600 |
+ | Silver Circlet  | --IM | --- |  16 | --- | --- | -------------- |   1300 |
+ |_________________|______|_____|_____|_____|_____|________________|________|
+
+KALAY
+  _________________ ______ _____ _____ _____ _____ ________________ ________
+ | WEAPON          | USE? | ATK | DEF | AGL | LCK | UNLEASH/EFFECT | COST   |
+ |¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯|¯¯¯¯¯|¯¯¯¯¯|¯¯¯¯¯|¯¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯¯¯|
+ | Herb            | ---- | --- | --- | --- | --- | Heal 50 HP     |     10 |
+ | Nut             | ---- | --- | --- | --- | --- | Heal 200 HP    |    200 |
+ | Antidote        | ---- | --- | --- | --- | --- | Cure Poison    |     20 |
+ | Elixir          | ---- | --- | --- | --- | --- | Cure Del/St/Sl |     30 |
+ | Sacred Feather  | ---- | --- | --- | --- | --- | Less foes attk |     70 |
+ | Claymore        | ---- |  70 | --- | --- | --- | -------------- |   4000 |
+ | Battle Rapier   | IGI- |  58 | --- | --- | --- | -------------- |   2800 |
+ | Great Axe       | IG-- |  80 | --- | --- | --- | -------------- |   5200 |
+ | Battle Mace     | IG-M |  56 | --- | --- | --- | -------------- |   2600 |
+*| Frost Wand      | --IM |  76 | --- | --- | --- | Frost Bite     |   5400 |
+ | Chain Mail      | IG-- | --- |  25 | --- | --- | -------------- |   2000 |
+ | Jerkin          | --IM | --- |  26 | --- | --- | -------------- |   2400 |
+ | Iron Shield     | IG-- | --- |  20 | --- | --- | -------------- |   1200 |
+ | Gauntlets       | IGIM | --- |  23 | --- | --- | -------------- |   1600 |
+ | Heavy Armlet    | --IM | --- |  25 | --- | --- | -------------- |   2000 |
+ | Iron Helm       | IG-- | --- |  20 | --- | --- | -------------- |   1600 |
+ | Mail Cap        | IGIM | --- |  23 | --- | --- | -------------- |   2000 |
+ | Silver Circlet  | --IM | --- |  16 | --- | --- | -------------- |   1300 |
+ |_________________|______|_____|_____|_____|_____|________________|________|
+
+TOLBI
+  _________________ ______ _____ _____ _____ _____ ________________ ________
+ | WEAPON          | USE? | ATK | DEF | AGL | LCK | UNLEASH/EFFECT | COST   |
+ |¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯|¯¯¯¯¯|¯¯¯¯¯|¯¯¯¯¯|¯¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯¯¯|
+ | Herb            | ---- | --- | --- | --- | --- | Heal 50 HP     |     10 |
+ | Nut             | ---- | --- | --- | --- | --- | Heal 200 HP    |    200 |
+ | Antidote        | ---- | --- | --- | --- | --- | Cure Poison    |     20 |
+ | Elixir          | ---- | --- | --- | --- | --- | Cure Del/St/Sl |     30 |
+ | Sacred Feather  | ---- | --- | --- | --- | --- | Less foes attk |     70 |
+*| Water of Life   | ---- | --- | --- | --- | --- | Cure KO'd ally |   3000 |
+ | Great Sword     | IG-- |  90 | --- | --- | --- | -------------- |   7000 |
+ | Master Rapier   | IGI- |  86 | --- | --- | --- | -------------- |   6800 |
+ | Great Axe       | IG-- |  80 | --- | --- | --- | -------------- |   5200 |
+ | War Mace        | IG-M |  84 | --- | --- | --- | -------------- |   6200 |
+*| Angelic Ankh    | --IM |  83 | --- | --- | --- | Life Leech     |   6400 |
+ | Armored Shell   | IG-- | --- |  30 | --- | --- | -------------- |   3600 |
+ | Silver Vest     | IGIM | --- |  28 | --- | --- | -------------- |   3200 |
+ | Jerkin          | --IM | --- |  26 | --- | --- | -------------- |   2400 |
+ | Knight's Shield | IG-- | --- |  28 | --- | --- | -------------- |   3000 |
+ | Gauntlets       | IGIM | --- |  23 | --- | --- | -------------- |   1600 |
+ | Heavy Armlet    | --IM | --- |  25 | --- | --- | -------------- |   2000 |
+ | Steel Helm      | IG-- | --- |  27 | --- | --- | -------------- |   3100 |
+ | Mail Cap        | IGIM | --- |  23 | --- | --- | -------------- |   2000 |
+ | Guardian Circlet| --IM | --- |  25 | --- | --- | -------------- |   3400 |
+ |_________________|______|_____|_____|_____|_____|________________|________|
+
+LUNPA           [Weapon/Armor Shop opens up only after Lunpa Fortress events]
+  _________________ ______ _____ _____ _____ _____ ________________ ________
+ | WEAPON          | USE? | ATK | DEF | AGL | LCK | UNLEASH/EFFECT | COST   |
+ |¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯|¯¯¯¯¯|¯¯¯¯¯|¯¯¯¯¯|¯¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯¯¯|
+ | Herb            | ---- | --- | --- | --- | --- | Heal 50 HP     |     10 |
+ | Nut             | ---- | --- | --- | --- | --- | Heal 200 HP    |    200 |
+ | Antidote        | ---- | --- | --- | --- | --- | Cure Poison    |     20 |
+ | Elixir          | ---- | --- | --- | --- | --- | Cure Del/St/Sl |     30 |
+ | Sacred Feather  | ---- | --- | --- | --- | --- | Less foes attk |     70 |
+ | Great Sword     | IG-- |  90 | --- | --- | --- | -------------- |   7000 |
+ | Master Rapier   | IGI- |  86 | --- | --- | --- | -------------- |   6800 |
+ | Great Axe       | IG-- |  80 | --- | --- | --- | -------------- |   5200 |
+ | War Mace        | IG-M |  84 | --- | --- | --- | -------------- |   6200 |
+*| Shamshir        | IG-- |  99 | --- | --- | --- | Acid Bath      |  10000 |
+*| Ninja Sword     | IGI- |  94 | --- | --- | --- | Cyclone Attack |   8800 |
+*| Dragon Axe      | IG-- | 100 | --- | --- | --- | Heat Mirage    |  10300 |
+*| Demonic Staff   | --IM |  92 | --- | --- | --- | Bad Omen       |  10000 |
+ | Plate Mail      | IG-- | --- |  33 | --- | --- | -------------- |   4400 |
+ | Silver Armlet   | --IM | --- |  30 | --- | --- | -------------- |   4000 |
+ | Silver Helm     | IG-- | --- |  30 | --- | --- | -------------- |   3900 |
+ | Platinum Circlet| --IM | --- |  29 | --- | --- | -------------- |   4200 |
+*| Blessed Robe    | --IM | --- |  36 | --- | --- | HP Recovery +5 |   7000 |
+*| War Gloves      | IGIM |  10 |  35 | --- | --- | -------------- |   4000 |
+ |_________________|______|_____|_____|_____|_____|________________|________|
+
+SUHALLA
+  _________________ ______ _____ _____ _____ _____ ________________ ________
+ | WEAPON          | USE? | ATK | DEF | AGL | LCK | UNLEASH/EFFECT | COST   |
+ |¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯|¯¯¯¯¯|¯¯¯¯¯|¯¯¯¯¯|¯¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯¯¯|
+ | Herb            | ---- | --- | --- | --- | --- | Heal 50 HP     |     10 |
+ | Nut             | ---- | --- | --- | --- | --- | Heal 200 HP    |    200 |
+ | Antidote        | ---- | --- | --- | --- | --- | Cure Poison    |     20 |
+ | Elixir          | ---- | --- | --- | --- | --- | Cure Del/St/Sl |     30 |
+ | Sacred Feather  | ---- | --- | --- | --- | --- | Less foes attk |     70 |
+*| Water of Life   | ---- | --- | --- | --- | --- | Revive from KO |   3000 |
+*| Psy Crystal     | ---- | --- | --- | --- | --- | Recover all PP |   1500 |
+*| Potion          | ---- | --- | --- | --- | --- | Recover all HP |   1000 |
+ |_________________|______|_____|_____|_____|_____|________________|________|
+
+LALIVERO
+  _________________ ______ _____ _____ _____ _____ ________________ ________
+ | WEAPON          | USE? | ATK | DEF | AGL | LCK | UNLEASH/EFFECT | COST   |
+ |¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯|¯¯¯¯¯|¯¯¯¯¯|¯¯¯¯¯|¯¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯¯¯|
+ | Herb            | ---- | --- | --- | --- | --- | Heal 50 HP     |     10 |
+ | Nut             | ---- | --- | --- | --- | --- | Heal 200 HP    |    200 |
+ | Antidote        | ---- | --- | --- | --- | --- | Cure Poison    |     20 |
+ | Elixir          | ---- | --- | --- | --- | --- | Cure Del/St/Sl |     30 |
+ | Sacred Feather  | ---- | --- | --- | --- | --- | Less foes attk |     70 |
+*| Water of Life   | ---- | --- | --- | --- | --- | Revive from KO |   3000 |
+*| Psy Crystal     | ---- | --- | --- | --- | --- | Recover all PP |   1500 |
+*| Potion          | ---- | --- | --- | --- | --- | Recover all HP |   1000 |
+ | Great Sword     | IG-- |  90 | --- | --- | --- | -------------- |   7000 |
+ | Master Rapier   | IGI- |  86 | --- | --- | --- | -------------- |   6800 |
+ | Great Axe       | IG-- |  80 | --- | --- | --- | -------------- |   5200 |
+ | War Mace        | IG-M |  84 | --- | --- | --- | -------------- |   6200 |
+*| Silver Blade    | IG-- | 108 | --- | --- | --- | Aqua Sock      |  12000 |
+*| Swift Sword     | IGI- | 104 | --- | --- | --- | Sonic Smash    |   9400 |
+*| Righteous Mace  | IG-M | 112 | --- | --- | --- | Smog           |   8400 |
+*| Crystal Rod     | --IM | 106 | --- | --- | --- | Drown          |  13400 |
+ | Steel Armor     | IG-- | --- |  36 | --- | --- | -------------- |   4900 |
+ | Knight's Helm   | IG-- | --- |  33 | --- | --- | -------------- |   4600 |
+ | Platinum Circlet| --IM | --- |  29 | --- | --- | -------------- |   4200 |
+*| Magical Cassock | --IM | --- |  39 | --- | --- | PP Recovery +2 |   9000 |
+*| Mirrored Shield | IG-- | --- |  39 | --- | --- | Deludes foes   |   5200 |
+*| Spirit Armlet   | --IM | --- |  38 | --- | --- | Er/Wt Powr +10 |   9000 |
+*| Jeweled Crown   | IG-- | --- |  35 | --- |  05 | -------------- |   4000 |
+ |_________________|______|_____|_____|_____|_____|________________|________|
+
+_______________________________________________________________________________
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+EQUIPMENT LIST                                                           [EQPT]
+_______________________________________________________________________________
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+ Items with an asterisk (*) in front denotes artifacts, which, if resold, can
+ be rebought at the appropriate shop again. If you see a little |C| next to
+ the price, it means the item is CURSED! It can only be removed by going to a
+ sanctum and having the healer force it off. Artifacts also have a special
+ property where, if they're discarded to clear space, they can show back up
+ in stores!
+
+ As for equipment, everyone has a certain bunch of categories they can use.
+ Everyone can equip boots, rings, caps and undershirts for reference.
+
+ ISAAC: Light Blade, Longsword, Axe, Shield, Gloves, Heavy Armor, Jackets
+ GARET: Light Blade, Longsword, Axe, Shield, Gloves, Heavy Armor, Jackets
+ IVAN : Light Blade, Stave, Robes, Gloves, Armlets
+ MIA  : Light Blade, Stave, Mace, Robes, Gloves, Armlets
+  _________________ ______ _____ _____ _____ _____ ________________ ________
+ | WEAPON          | USE? | ATK | DEF | AGL | LCK | UNLEASH        | COST   |
+ |¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯|¯¯¯¯¯|¯¯¯¯¯|¯¯¯¯¯|¯¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯¯¯|
+ | Wooden Stick    | --IM |  04 | --- | --- | --- | -------------- |     60 |
+ | Machete         | IG-- |  06 | --- | --- | --- | -------------- | ------ |
+ | Mace            | IG-- |  06 | --- | --- | --- | -------------- |     80 |
+ | Short Sword     | IG-- |  08 | --- | --- | --- | -------------- |    120 |
+ | Shaman's Rod    | --IM |  10 | --- | --- | --- | -------------- | ------ |
+ | Bandit's Sword  | IG-- |  12 | --- | --- | --- | Rapid Smash    | ------ |
+ | Long Sword      | IG-- |  14 | --- | --- | --- | -------------- |    200 |
+*| Magic Rod       | --IM |  16 | --- | --- | --- | Murk           |    380 |
+ | Heavy Mace      | IG-- |  26 | --- | --- | --- | -------------- |    500 |
+*| Witch's Wand    | --IM |  32 | --- | --- | --- | Stun           |    860 |
+ | Broad Sword     | IG-- |  40 | --- | --- | --- | -------------- |   1000 |
+*| Elven Rapier    | IGI- |  44 | --- | --- | --- | Vorpal Slash   | ------ |
+*| Blessed Ankh    | --IM |  46 | --- | --- | --- | Psyphon Seal   |   1600 |
+ | Broad Axe       | IG-- |  50 | --- | --- | --- | -------------- |   1400 |
+*| Arctic Blade    | IG-- |  55 | --- | --- | --- | Blizzard       | ------ |
+ | Battle Mace     | IG-M |  56 | --- | --- | --- | -------------- |   2600 |
+ | Battle Rapier   | IGI- |  58 | --- | --- | --- | -------------- |   2800 |
+*| Psynergy Rod    | --IM |  64 | --- | --- | --- | Psynergy Leech |   3800 |
+ | Claymore        | IG-- |  70 | --- | --- | --- | -------------- |   4000 |
+*| Vulcan Axe      | IG-- |  76 | --- | --- | --- | Barrage        | ------ |
+*| Frost Wand      | --IM |  76 | --- | --- | --- | Frost Bite     |   5400 |
+ | Great Axe       | IG-- |  80 | --- | --- | --- | -------------- |   5200 |
+*| Angelic Ankh    | --IM |  83 | --- | --- | --- | Life Leech     |   6400 |
+ | War Mace        | IG-M |  84 | --- | --- | --- | -------------- |   6200 |
+*| Burning Axe     | IG-- |  84 | --- | --- | --- | Broil          | ------ |
+*| Mystery Blade   | IGI- |  84 | --- | --- | --- | Life Nourish   | ------ |
+ | Master Rapier   | IGI- |  86 | --- | --- | --- | -------------- |   6800 |
+*| Grievous Mace   | IG-M |  88 | --- | --- | --- | Terra Strike   | ------ |
+ | Great Sword     | IG-- |  90 | --- | --- | --- | -------------- |   7000 |
+*| Assassin Blade  | IGI- |  90 | --- | --- | --- | Mortal Danger  | ------ |_
+*| Demonic Staff   | --IM |  92 | --- | --- | --- | Bad Omen       |  10000 |C|
+*| Ninja Sword     | IGI- |  94 | --- | --- | --- | Cyclone Attack |   8800 |¯
+*| Shamshir        | IG-- |  99 | --- | --- | --- | Acid Bath      |  10000 |
+*| Dragon Axe      | IG-- | 100 | --- | --- | --- | Heat Mirage    |  10300 |
+*| Zodiac Wand     | --IM | 102 | --- | --- | --- | Shining Star   | ------ |
+*| Swift Sword     | IGI- | 104 | --- | --- | --- | Sonic Smash    |   9400 |
+*| Crystal Rod     | --IM | 106 | --- | --- | --- | Drown          |  13400 |
+*| Silver Blade    | IG-- | 108 | --- | --- | --- | Aqua Sock      |  12000 |
+*| Giant Axe       | IG-- | 114 | --- | --- | --- | Meltdown       | ------ |
+*| Kikuichimonji   | IGI- | 128 | --- | --- | --- | Asura          | ------ |_
+*| Wicked Mace     | IG-M | 130 | --- | --- | --- | Poison Death   | ------ |C|
+*| Demon Axe       | IG-- | 132 | --- | --- | --- | Poison Cloud   | ------ |C|
+*| Gaia Blade      | IG-- | 135 | --- | --- | --- | Titan Blade    | ------ |¯
+ |_________________|______|_____|_____|_____|_____|________________|________|
+
+  - Swift Sword also gives +5 Wind Power
+  - Righteous Mace gives 5HP/turn recovery
+  - Gaia Blade gives +20 Earth Resist & Power
+  _________________ ______ _____ _____ _____ _____ ________________ ________
+ | ARMOR           | USE? | ATK | DEF | AGL | LCK | EFFECT         | COST   |
+ |¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯|¯¯¯¯¯|¯¯¯¯¯|¯¯¯¯¯|¯¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯¯¯|
+ | Cotton Shirt    | IGIM | --- |  03 | --- | --- | -------------- |     20 |
+ | One-Piece Dress | ---M | --- |  04 | --- | --- | -------------- |     25 |
+ | Travel Vest     | IGIM | --- |  07 | --- | --- | -------------- |     50 |
+ | Travel Robe     | --IM | --- |  10 | --- | --- | -------------- |    200 |
+ | Leather Armor   | IG-- | --- |  12 | --- | --- | -------------- |    240 |
+ | Fur Coat        | IGIM | --- |  16 | --- | --- | Water DEF +20  | ------ |
+ | Adept's Clothes | IGIM | --- |  18 | --- | --- | PP +8          |    850 |
+ | Silk Robe       | --IM | --- |  20 | --- | --- | -------------- |   1400 |
+*| Psynergy Armor  | IG-- | --- |  21 | --- | --- | PP +20         | ------ |
+*| Elven Shirt     | IGIM | --- |  22 | --- | --- | AGL x1.5       | ------ |
+*| Kimono          | ---M | --- |  25 |  10 | --- | Fire RES +10   |   2800 |
+ | Chain Mail      | IG-- | --- |  25 | --- | --- | -------------- |   2000 |
+ | Jerkin          | --IM | --- |  26 | --- | --- | -------------- |   2400 |
+ | Silver Vest     | IGIM | --- |  28 | --- | --- | -------------- |   3200 |
+*| Cocktail Dress  | ---M | --- |  29 | --- | --- | PP +15         | ------ |
+*| Water Jacket    | IGIM | --- |  30 | --- | --- | Wa/F RES 30/20 | ------ |
+ | Armored Shell   | IG-- | --- |  30 | --- | --- | -------------- |   3600 |
+*| Spirit Armor    | IG-- | --- |  32 | --- | --- | All RES +15    | ------ |
+ | Plate Mail      | IG-- | --- |  33 | --- | --- | -------------- |   4400 |
+*| Spiked Armor    | IG-- |  10 |  34 | --- | --- | Crit Hit% UP   | ------ |
+ | Steel Armor     | IG-- | --- |  36 | --- | --- | -------------- |   4900 |
+*| Blessed Robe    | --IM | --- |  36 | --- | --- | HP Recovery +5 |   7000 |
+*| Ninja Garb      | IGIM | --- |  36 |  30 | --- | Wind RES +10   | ------ |
+*| Magical Cassock | --IM | --- |  39 | --- | --- | PP Recovery +2 |   9000 |
+*| Asura's Armor   | IG-- |  05 |  42 | --- | --- | HP Recovery +8 | ------ |
+*| Storm Gear      | IGIM | --- |  42 | --- | --- | W/F/Wi RES +40 | ------ |
+*| Oracle's Robe   | ---M | --- |  43 | --- | --- | HP Recovry +10 | ------ |
+*| Dragon Scales   | IG-- | --- |  44 | --- | --- | F/Wa RES +40   | ------ |
+*| Feathered Robe  | --IM | --- |  45 |  30 | --- | Wi/W PWR 20/30 | ------ |
+*| Demon Mail      | IG-- | --- |  50 | --- | --- | Wind RES -10   | ------ |C|
+ |_________________|______|_____|_____|_____|_____|________________|________|¯
+
+  - Oracle's Robe also gives +40 Water RES
+  - The Fur Coat is unique but NOT an artifact!!
+
+  _________________ ______ _____ _____ _____ _____ ________________ ________
+ | HEADGEAR        | USE? | ATK | DEF | AGL | LCK | EFFECT         | COST   |
+ |¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯|¯¯¯¯¯|¯¯¯¯¯|¯¯¯¯¯|¯¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯¯¯|
+ | Leather Cap     | IG-- | --- |  03 | --- | --- | -------------- |     30 |
+ | Circlet         | --IM | --- |  06 | --- | --- | -------------- |    130 |
+ | Open Helm       | IG-- | --- |  09 | --- | --- | -------------- |    180 |
+ | Wooden Cap      | IG-- | --- |  10 | --- | --- | -------------- |    400 |
+ | Bronze Helm     | IG-- | --- |  14 | --- | --- | -------------- |    600 |
+ | Silver Circlet  | --IM | --- |  16 | --- | --- | -------------- |   1300 |
+ | Iron Helm       | IG-- | --- |  20 | --- | --- | -------------- |   1600 |
+ | Lure Cap        | IGIM | --- |  20 | --- | --- | In more battls | ------ |
+ | Mail Cap        | IGIM | --- |  23 | --- | --- | -------------- |   2000 |
+ | Guardian Circlet| --IM | --- |  25 | --- | --- | -------------- |   3400 |
+ | Steel Helm      | IG-- | --- |  27 | --- | --- | -------------- |   3100 |
+*| Glittering Tiara| ---M | --- |  27 | --- | --- | Prevent Delusn | ------ |
+*| Ninja Hood      | IGIM | --- |  28 |  20 | --- | -------------- | ------ |
+*| Adept's Helm    | IG-- | --- |  29 | --- | --- | Max PP x1.2    | ------ |
+ | Platinum Circlet| --IM | --- |  29 | --- | --- | -------------- |   4200 |
+ | Silver Helm     | IG-- | --- |  30 | --- | --- | -------------- |   3900 |
+*| Prophet's Hat   | IGIM | --- |  30 | --- | --- | Curses enemy   | ------ |
+ | Knight's Helm   | IG-- | --- |  33 | --- | --- | -------------- |   4600 |
+*| Lucky Cap       | IGIM | --- |  33 | --- | --- | PP Recovery +2 | ------ |
+*| Mythril Circlet | --IM | --- |  34 | --- | --- | PP Recovery +3 | ------ |
+*| Warrior's Helm  | IG-- | --- |  35 | --- | --- | Earth PWR +10* | ------ |
+*| Jeweled Crown   | IG-- | --- |  35 | --- |  05 | -------------- |   4000 |_
+*| Thunder Crown   | IGIM | --- |  40 | --- | --- | PP Recovery +4 | ------ |C|
+ |_________________|______|_____|_____|_____|_____|________________|________|¯
+
+  - Warrior's Helm & Lucky Cap also increase frequency of critical hits
+  _________________ ______ _____ _____ _____ _____ ________________ ________
+ | ACCESSORIES     | USE? | ATK | DEF | AGL | LCK | EFFECT         | COST   |
+ |¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯|¯¯¯¯¯|¯¯¯¯¯|¯¯¯¯¯|¯¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯¯¯|
+ | Padded Gloves   | IGIM | --- |  02 | --- | --- | -------------- |     10 |
+ | Wooden Shield   | IGIM | --- |  06 | --- | --- | -------------- |     40 |
+ | Leather Armlet  | --IM | --- |  07 | --- | --- | -------------- |    180 |
+ | Leather Gloves  | IG-- | --- |  10 | --- | --- | -------------- |    220 |
+ | Bronze Shield   | IG-- | --- |  14 | --- | --- | -------------- |    500 |
+ | Armlet          | --IM | --- |  17 | --- | --- | -------------- |    900 |
+ | Iron Shield     | IG-- | --- |  20 | --- | --- | -------------- |   1200 |
+ | Gauntlets       | IGIM | --- |  23 | --- | --- | -------------- |   1600 |
+ | Heavy Armlet    | --IM | --- |  25 | --- | --- | -------------- |   2000 |
+*| Dragon Shield   | IG-- | --- |  26 | --- | --- | Fire RES +30   | ------ |
+*| Battle Gloves   | IG-- |  05 |  26 | --- | --- | -------------- | ------ |
+*| Vambrace        | IGIM |  05 |  27 | --- | --- | -------------- | ------ |
+*| Guardian Armlet | --IM | --- |  27 | --- | --- | -------------- | ------ |
+ | Knight's Shield | IG-- | --- |  28 | --- | --- | -------------- |   3000 |
+ | Silver Armlet   | --IM | --- |  30 | --- | --- | -------------- |   4000 |
+*| Earth Shield    | IG-- | --- |  31 | --- | --- | Earth RES +20* | ------ |
+*| Spirit Gloves   | IGIM | --- |  34 | --- | --- | Elem Power +5  | ------ |
+*| War Gloves      | IGIM |  10 |  35 | --- | --- | -------------- |   4000 |
+*| Virtuous Armlet | --IM | --- |  35 | --- | --- | Er/Wi Powr +10 | ------ |
+*| Aura Gloves     | IGIM | --- |  36 | --- | --- | -------------- | ------ |
+*| Spirit Armlet   | --IM | --- |  38 | --- | --- | Er/Wt Powr +10 |   9000 |
+*| Mirrored Shield | IG-- | --- |  39 | --- | --- | Deludes foes   |   5200 |
+ |_________________|______|_____|_____|_____|_____|________________|________|
+
+  [Breakable] Earth Shield: used to cure 150 HP in-battle
+  [Breakable] Guardian Armlet: raises DEF in-battle
+  [Breakable] Spirit Armlet: used to cure ailments in-battle
+  [Breakable] Aura Gloves: used to raise RES in-battle
+
+  _________________ ______ _____ _____ _____ _____ ________________ ________
+ | SHIRTS          | USE? | ATK | DEF | AGL | LCK | EFFECT         | COST   |
+ |¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯|¯¯¯¯¯|¯¯¯¯¯|¯¯¯¯¯|¯¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯¯¯|
+*| Running Shirt   | IGIM | --- |  01 |  15 | --- | -------------- | ------ |
+*| Silk Shirt      | ---M | --- |  06 | --- |  01 | -------------- | ------ |
+*| Mythril Shirt   | IGIM | --- |  10 | --- | --- | HP +5          | ------ |
+ |_________________|______|_____|_____|_____|_____|________________|________|
+  _________________ ______ _____ _____ _____ _____ ________________ ________
+ | BOOTS           | USE? | ATK | DEF | AGL | LCK | EFFECT         | COST   |
+ |¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯|¯¯¯¯¯|¯¯¯¯¯|¯¯¯¯¯|¯¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯¯¯|
+*| Fur Boots       | IGIM | --- |  02 | --- | --- | Water RES +15  | ------ |
+*| Quick Boots     | IGIM | --- |  03 |  20 | --- | -------------- | ------ |
+*| Turtle Boots    | IGIM | --- |  03 | x.5 | --- | -------------- | ------ |
+*| Hyper Boots     | IGIM | --- |  04 | --- | --- | Crit Hit% UP   | ------ |
+ |_________________|______|_____|_____|_____|_____|________________|________|
+  _________________ ______ _____ _____ _____ _____ ________________ ________
+ | RINGS           | USE? | ATK | DEF | AGL | LCK | EFFECT         | COST   |
+ |¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯|¯¯¯¯¯|¯¯¯¯¯|¯¯¯¯¯|¯¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯¯¯|
+*| Adept Ring      | IGIM | --- | --- | --- | --- | Restores 7 PP  | ------ |
+*| Cleric's Ring   | IGIM | --- | --- | --- | --- | Curse-Immune   | ------ |
+*| Fairy Ring      | IGIM | --- | --- | --- | --- | Like an Elixir | ------ |
+*| Healing Ring    | IGIM | --- | --- | --- | --- | Heal ~70 HP    | ------ |
+*| Sleep Ring      | IGIM | --- | --- | --- | --- | Sleep on foes  | ------ |
+*| War Ring        | IGIM | --- | --- | --- | --- | ATK+ In-battle | ------ |
+ |_________________|______|_____|_____|_____|_____|________________|________|
+  _________________ ______ _____ _____ _____ _____ ________________ ________
+ | ITEMS           | USE? | ATK | DEF | AGL | LCK | EFFECT         | COST   |
+ |¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯|¯¯¯¯¯|¯¯¯¯¯|¯¯¯¯¯|¯¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯¯¯|
+ | Antidote        | IGIM | --- | --- | --- | --- | Cures Poison   |     20 |
+*| Apple           | IGIM | --- | --- | --- | --- | +5 HP          | ------ |
+ | Bramble Seed    | IGIM | --- | --- | --- | --- | Damages enemy  | ------ |
+*| Cookie          | IGIM | --- | --- | --- | --- | +5 PP          | ------ |
+ | Corn            | IGIM | --- | --- | --- | --- | Heal 200 HP    | ------ |
+ | Crystal Powder  | IGIM | --- | --- | --- | --- | Damages enemy  | ------ |
+ | Elixir          | IGIM | --- | --- | --- | --- | Cures statuses |     30 |
+*| Empty Bottle    | IGIM | --- | --- | --- | --- | For Hermes Wtr | ------ |
+*| Hard Nut        | IGIM | --- | --- | --- | --- | +3 DEF         | ------ |
+ | Herb            | IGIM | --- | --- | --- | --- | Heal 50 HP     |     10 |
+*| Hermes Water    | IGIM | --- | --- | --- | --- | Heals all HP   | ------ |
+*| Lucky Pepper    | IGIM | --- | --- | --- | --- | +2 LCK         | ------ |
+*| Mint            | IGIM | --- | --- | --- | --- | +3 AGL         | ------ |
+ | Nut             | IGIM | --- | --- | --- | --- | Heal 200 HP    |    200 |
+ | Oil Drop        | IGIM | --- | --- | --- | --- | Damages foe    | ------ |
+*| Potion          | IGIM | --- | --- | --- | --- | Heal 1000 HP   |   1000 |
+*| Power Bread     | IGIM | --- | --- | --- | --- | +3 ATK         | ------ |
+*| Psy Crystal     | IGIM | --- | --- | --- | --- | Heals all PP   |   1500 |
+ | Sacred Feather  | IGIM | --- | --- | --- | --- | Less encountrs |     70 |
+ | Sleep Bomb      | IGIM | --- | --- | --- | --- | Sleeps enemy   | ------ |
+ | Smoke Bomb      | IGIM | --- | --- | --- | --- | Deludes enemy  | ------ |
+ | Vial            | IGIM | --- | --- | --- | --- | Heal 500 HP    | ------ |
+*| Water of Life   | IGIM | --- | --- | --- | --- | Revive from KO |   3000 |
+ | Weasel Claw     | IGIM | --- | --- | --- | --- | Damages enemy  | ------ |
+ |_________________|______|_____|_____|_____|_____|________________|________|
+
+_______________________________________________________________________________
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+TRANSFERRING FILE TO GOLDEN SUN TLA                                      [GSTR]
+_______________________________________________________________________________
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+ Here's a list of the items that are NOT native to Golden Sun TLA, which you
+ may want to take along for one reason or another. 
+
+ WEAPONS           ARMOR              HEADGEAR            ARMGEAR/ITEMS
+ ¯¯¯¯¯¯¯           ¯¯¯¯¯              ¯¯¯¯¯¯¯¯            ¯¯¯¯¯¯¯¯¯¯¯¯¯
+ • Arctic Blade     • Asura's Armor    • Adept's Helm      • Dragon Shield
+ • Assassin Blade   • China Dress      • Glittering Tiara  • Earth Shield
+ • Bandit's Sword   • Cocktail Dress   • Jeweled Crown     • Guardian Armlet
+ • Burning Axe      • Demon Mail       • Lucky Cap         • Virtuous Armlet
+ • Demon Axe        • Dragon Scales    • Lure Cap          • Vambrace
+ • Elven Rapier     • Elven Shirt      • Mythril Circlet   • Battle Gloves
+ • Gaia Blade       • Fur Coat         • Ninja Hood        • Spirit Gloves
+ • Grievous Mace    • Kimono           • Thunder Crown     • Catch Beads
+ • Muramasa         • Ninja Garb       • Warrior's Helm    • Carry Stone
+ • Mystery Blade    • Oracle's Robe                        • Halt Gem
+ • Kikuichimonji    • Spiked Armor     RINGS/BOOTS         • Cloak Ball
+ • Vulcan Axe       • Spirit Armor     ¯¯¯¯¯¯¯¯¯¯¯         • Frost Jewel
+ • Wicked Mace      • Storm Gear       • Cleric's Ring     • Lifting Gem
+ • Zodiac Wand      • Water Jacket     • Fairy Ring        • Orb of Force
+                                       • Turtle Boots      • Douse Drop
+
+ So, you may be wondering: which ones should I take with? There's limited
+ space, so it'll be wise to take the best stuff and leave the obsolete/unused
+ junk behind, right? Take the best three weapons from the list (Gaia Blade,
+ Kikuichimonji, Muramasa), the Demon Mail, the Thunder Crown, and the
+ ever-useful Cleric's Ring to nullify cursed equipment effects. Also take the
+ Lure Cap since it helps for fighting monsters faster. [There are two types
+ of Spirit Gloves in GS:TLA, for reference.]
+
+ Feel free to leave behind anything else, including some psynergy-granting
+ items like the Cloak Ball or Halt Gem, neither of which are used in TLA.
+ You can still bring 'em if you want, though.

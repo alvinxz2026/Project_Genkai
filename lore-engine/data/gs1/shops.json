@@ -1,0 +1,1418 @@
+[
+  {
+    "id": "vale",
+    "name": "Vale",
+    "game": "gs1",
+    "availability_notes": null,
+    "stock": [
+      {
+        "name": "Herb",
+        "category": "item",
+        "price": 10,
+        "is_artifact": false
+      },
+      {
+        "name": "Antidote",
+        "category": "item",
+        "price": 20,
+        "is_artifact": false
+      },
+      {
+        "name": "Short Sword",
+        "category": "weapon",
+        "price": 120,
+        "is_artifact": false
+      },
+      {
+        "name": "Long Sword",
+        "category": "weapon",
+        "price": 200,
+        "is_artifact": false
+      },
+      {
+        "name": "Wooden Stick",
+        "category": "weapon",
+        "price": 60,
+        "is_artifact": false
+      },
+      {
+        "name": "Mace",
+        "category": "weapon",
+        "price": 80,
+        "is_artifact": false
+      },
+      {
+        "name": "Cotton Shirt",
+        "category": "armor",
+        "price": 20,
+        "is_artifact": false
+      },
+      {
+        "name": "One-Piece Dress",
+        "category": "armor",
+        "price": 25,
+        "is_artifact": false
+      },
+      {
+        "name": "Travel Vest",
+        "category": "armor",
+        "price": 50,
+        "is_artifact": false
+      },
+      {
+        "name": "Padded Gloves",
+        "category": "armor",
+        "price": 10,
+        "is_artifact": false
+      },
+      {
+        "name": "Wooden Shield",
+        "category": "armor",
+        "price": 40,
+        "is_artifact": false
+      },
+      {
+        "name": "Leather Cap",
+        "category": "armor",
+        "price": 30,
+        "is_artifact": false
+      }
+    ],
+    "sources": [
+      "shotgunnova",
+      "super-slash"
+    ],
+    "conflicts": [
+      {
+        "field": "stock[Wooden Stick].price",
+        "values": {
+          "shotgunnova": 60,
+          "super-slash": 40
+        },
+        "note": null
+      }
+    ]
+  },
+  {
+    "id": "vault",
+    "name": "Vault",
+    "game": "gs1",
+    "availability_notes": null,
+    "stock": [
+      {
+        "name": "Herb",
+        "category": "item",
+        "price": 10,
+        "is_artifact": false
+      },
+      {
+        "name": "Antidote",
+        "category": "item",
+        "price": 20,
+        "is_artifact": false
+      },
+      {
+        "name": "Short Sword",
+        "category": "weapon",
+        "price": 120,
+        "is_artifact": false
+      },
+      {
+        "name": "Long Sword",
+        "category": "weapon",
+        "price": 200,
+        "is_artifact": false
+      },
+      {
+        "name": "Battle Axe",
+        "category": "weapon",
+        "price": 280,
+        "is_artifact": false
+      },
+      {
+        "name": "Magic Rod",
+        "category": "weapon",
+        "price": 380,
+        "is_artifact": true
+      },
+      {
+        "name": "Mace",
+        "category": "weapon",
+        "price": 80,
+        "is_artifact": false
+      },
+      {
+        "name": "Travel Vest",
+        "category": "armor",
+        "price": 50,
+        "is_artifact": false
+      },
+      {
+        "name": "Wooden Shield",
+        "category": "armor",
+        "price": 40,
+        "is_artifact": false
+      },
+      {
+        "name": "Padded Gloves",
+        "category": "armor",
+        "price": 10,
+        "is_artifact": false
+      },
+      {
+        "name": "Leather Armlet",
+        "category": "armor",
+        "price": 180,
+        "is_artifact": false
+      },
+      {
+        "name": "Leather Cap",
+        "category": "armor",
+        "price": 30,
+        "is_artifact": false
+      },
+      {
+        "name": "Circlet",
+        "category": "armor",
+        "price": 130,
+        "is_artifact": false
+      }
+    ],
+    "sources": [
+      "shotgunnova",
+      "super-slash"
+    ],
+    "conflicts": [
+      {
+        "field": "stock[Circlet].price",
+        "values": {
+          "shotgunnova": 130,
+          "super-slash": 120
+        },
+        "note": null
+      }
+    ]
+  },
+  {
+    "id": "bilibin",
+    "name": "Bilibin",
+    "game": "gs1",
+    "availability_notes": null,
+    "stock": [
+      {
+        "name": "Long Sword",
+        "category": "weapon",
+        "price": 200,
+        "is_artifact": false
+      },
+      {
+        "name": "Broad Sword",
+        "category": "weapon",
+        "price": 1000,
+        "is_artifact": false
+      },
+      {
+        "name": "Heavy Mace",
+        "category": "weapon",
+        "price": 500,
+        "is_artifact": false
+      },
+      {
+        "name": "Hunter's Sword",
+        "category": "weapon",
+        "price": 520,
+        "is_artifact": false
+      },
+      {
+        "name": "Witch's Wand",
+        "category": "weapon",
+        "price": 860,
+        "is_artifact": true
+      },
+      {
+        "name": "Travel Robe",
+        "category": "armor",
+        "price": 200,
+        "is_artifact": false
+      },
+      {
+        "name": "Travel Vest",
+        "category": "armor",
+        "price": 50,
+        "is_artifact": false
+      },
+      {
+        "name": "Leather Armor",
+        "category": "armor",
+        "price": 240,
+        "is_artifact": false
+      },
+      {
+        "name": "Leather Gloves",
+        "category": "armor",
+        "price": 220,
+        "is_artifact": false
+      },
+      {
+        "name": "Bronze Shield",
+        "category": "armor",
+        "price": 500,
+        "is_artifact": false
+      },
+      {
+        "name": "Leather Armlet",
+        "category": "armor",
+        "price": 180,
+        "is_artifact": false
+      },
+      {
+        "name": "Open Helm",
+        "category": "armor",
+        "price": 180,
+        "is_artifact": false
+      },
+      {
+        "name": "Wooden Cap",
+        "category": "armor",
+        "price": 400,
+        "is_artifact": false
+      },
+      {
+        "name": "Circlet",
+        "category": "armor",
+        "price": 130,
+        "is_artifact": false
+      },
+      {
+        "name": "Battle Axe",
+        "category": "weapon",
+        "price": 280,
+        "is_artifact": false
+      },
+      {
+        "name": "Herb",
+        "category": "item",
+        "price": 10,
+        "is_artifact": false
+      },
+      {
+        "name": "Antidote",
+        "category": "item",
+        "price": 20,
+        "is_artifact": false
+      },
+      {
+        "name": "Elixir",
+        "category": "item",
+        "price": 30,
+        "is_artifact": false
+      },
+      {
+        "name": "Sacred Feather",
+        "category": "item",
+        "price": 70,
+        "is_artifact": false
+      }
+    ],
+    "sources": [
+      "shotgunnova",
+      "super-slash"
+    ]
+  },
+  {
+    "id": "imil",
+    "name": "Imil",
+    "game": "gs1",
+    "availability_notes": "NOTE: Until Mercury Lighthouse is beaten, only the item shop's open.",
+    "stock": [
+      {
+        "name": "Herb",
+        "category": "item",
+        "price": 10,
+        "is_artifact": false
+      },
+      {
+        "name": "Antidote",
+        "category": "item",
+        "price": 20,
+        "is_artifact": false
+      },
+      {
+        "name": "Elixir",
+        "category": "item",
+        "price": 30,
+        "is_artifact": false
+      },
+      {
+        "name": "Sacred Feather",
+        "category": "item",
+        "price": 70,
+        "is_artifact": false
+      },
+      {
+        "name": "Long Sword",
+        "category": "weapon",
+        "price": 200,
+        "is_artifact": false
+      },
+      {
+        "name": "Broad Sword",
+        "category": "weapon",
+        "price": 1000,
+        "is_artifact": false
+      },
+      {
+        "name": "Hunter's Sword",
+        "category": "weapon",
+        "price": 520,
+        "is_artifact": false
+      },
+      {
+        "name": "Battle Axe",
+        "category": "weapon",
+        "price": 280,
+        "is_artifact": false
+      },
+      {
+        "name": "Heavy Mace",
+        "category": "weapon",
+        "price": 500,
+        "is_artifact": false
+      },
+      {
+        "name": "Blessed Ankh",
+        "category": "weapon",
+        "price": 1600,
+        "is_artifact": true
+      },
+      {
+        "name": "Leather Armor",
+        "category": "armor",
+        "price": 240,
+        "is_artifact": false
+      },
+      {
+        "name": "Adept's Clothes",
+        "category": "armor",
+        "price": 850,
+        "is_artifact": false
+      },
+      {
+        "name": "Leather Gloves",
+        "category": "armor",
+        "price": 220,
+        "is_artifact": false
+      },
+      {
+        "name": "Bronze Shield",
+        "category": "armor",
+        "price": 500,
+        "is_artifact": false
+      },
+      {
+        "name": "Leather Armlet",
+        "category": "armor",
+        "price": 180,
+        "is_artifact": false
+      },
+      {
+        "name": "Open Helm",
+        "category": "armor",
+        "price": 180,
+        "is_artifact": false
+      },
+      {
+        "name": "Wooden Cap",
+        "category": "armor",
+        "price": 400,
+        "is_artifact": false
+      },
+      {
+        "name": "Circlet",
+        "category": "armor",
+        "price": 130,
+        "is_artifact": false
+      }
+    ],
+    "sources": [
+      "shotgunnova",
+      "super-slash"
+    ],
+    "conflicts": [
+      {
+        "field": "stock[Circlet].price",
+        "values": {
+          "shotgunnova": 130,
+          "super-slash": 120
+        },
+        "note": null
+      }
+    ]
+  },
+  {
+    "id": "kolima",
+    "name": "Kolima",
+    "game": "gs1",
+    "availability_notes": "NOTE: Shops are closed until Tret's curse is lifted.",
+    "stock": [
+      {
+        "name": "Herb",
+        "category": "item",
+        "price": 10,
+        "is_artifact": false
+      },
+      {
+        "name": "Antidote",
+        "category": "item",
+        "price": 20,
+        "is_artifact": false
+      },
+      {
+        "name": "Elixir",
+        "category": "item",
+        "price": 30,
+        "is_artifact": false
+      },
+      {
+        "name": "Sacred Feather",
+        "category": "item",
+        "price": 70,
+        "is_artifact": false
+      },
+      {
+        "name": "Long Sword",
+        "category": "weapon",
+        "price": 200,
+        "is_artifact": false
+      },
+      {
+        "name": "Broad Sword",
+        "category": "weapon",
+        "price": 1000,
+        "is_artifact": false
+      },
+      {
+        "name": "Hunter's Sword",
+        "category": "weapon",
+        "price": 520,
+        "is_artifact": false
+      },
+      {
+        "name": "Battle Axe",
+        "category": "weapon",
+        "price": 280,
+        "is_artifact": false
+      },
+      {
+        "name": "Heavy Mace",
+        "category": "weapon",
+        "price": 500,
+        "is_artifact": false
+      },
+      {
+        "name": "Leather Armor",
+        "category": "armor",
+        "price": 240,
+        "is_artifact": false
+      },
+      {
+        "name": "Adept's Clothes",
+        "category": "armor",
+        "price": 850,
+        "is_artifact": false
+      },
+      {
+        "name": "Bronze Shield",
+        "category": "armor",
+        "price": 500,
+        "is_artifact": false
+      },
+      {
+        "name": "Leather Gloves",
+        "category": "armor",
+        "price": 220,
+        "is_artifact": false
+      },
+      {
+        "name": "Armlet",
+        "category": "armor",
+        "price": 900,
+        "is_artifact": false
+      },
+      {
+        "name": "Bronze Helm",
+        "category": "armor",
+        "price": 600,
+        "is_artifact": false
+      },
+      {
+        "name": "Wooden Cap",
+        "category": "armor",
+        "price": 400,
+        "is_artifact": false
+      },
+      {
+        "name": "Broad Axe",
+        "category": "weapon",
+        "price": 1400,
+        "is_artifact": false
+      }
+    ],
+    "sources": [
+      "shotgunnova",
+      "super-slash"
+    ]
+  },
+  {
+    "id": "xian",
+    "name": "Xian",
+    "game": "gs1",
+    "availability_notes": null,
+    "stock": [
+      {
+        "name": "Herb",
+        "category": "item",
+        "price": 10,
+        "is_artifact": false
+      },
+      {
+        "name": "Antidote",
+        "category": "item",
+        "price": 20,
+        "is_artifact": false
+      },
+      {
+        "name": "Elixir",
+        "category": "item",
+        "price": 30,
+        "is_artifact": false
+      },
+      {
+        "name": "Sacred Feather",
+        "category": "item",
+        "price": 70,
+        "is_artifact": false
+      },
+      {
+        "name": "Broad Sword",
+        "category": "weapon",
+        "price": 1000,
+        "is_artifact": false
+      },
+      {
+        "name": "Battle Rapier",
+        "category": "weapon",
+        "price": 2800,
+        "is_artifact": false
+      },
+      {
+        "name": "Broad Axe",
+        "category": "weapon",
+        "price": 1400,
+        "is_artifact": false
+      },
+      {
+        "name": "Battle Mace",
+        "category": "weapon",
+        "price": 2600,
+        "is_artifact": false
+      },
+      {
+        "name": "Adept's Clothes",
+        "category": "armor",
+        "price": 850,
+        "is_artifact": false
+      },
+      {
+        "name": "Silk Robe",
+        "category": "armor",
+        "price": 1400,
+        "is_artifact": false
+      },
+      {
+        "name": "Iron Shield",
+        "category": "armor",
+        "price": 1200,
+        "is_artifact": false
+      },
+      {
+        "name": "Armlet",
+        "category": "armor",
+        "price": 900,
+        "is_artifact": false
+      },
+      {
+        "name": "Bronze Helm",
+        "category": "armor",
+        "price": 600,
+        "is_artifact": false
+      },
+      {
+        "name": "Wooden Cap",
+        "category": "armor",
+        "price": 400,
+        "is_artifact": false
+      },
+      {
+        "name": "Silver Circlet",
+        "category": "armor",
+        "price": 1300,
+        "is_artifact": false
+      },
+      {
+        "name": "China Dress",
+        "category": "armor",
+        "price": 1600,
+        "is_artifact": true
+      }
+    ],
+    "sources": [
+      "shotgunnova",
+      "super-slash"
+    ],
+    "conflicts": [
+      {
+        "field": "stock[Battle Rapier].price",
+        "values": {
+          "shotgunnova": 2800,
+          "super-slash": 2900
+        },
+        "note": null
+      }
+    ]
+  },
+  {
+    "id": "altin",
+    "name": "Altin",
+    "game": "gs1",
+    "availability_notes": null,
+    "stock": [
+      {
+        "name": "Herb",
+        "category": "item",
+        "price": 10,
+        "is_artifact": false
+      },
+      {
+        "name": "Nut",
+        "category": "item",
+        "price": 200,
+        "is_artifact": false
+      },
+      {
+        "name": "Antidote",
+        "category": "item",
+        "price": 20,
+        "is_artifact": false
+      },
+      {
+        "name": "Elixir",
+        "category": "item",
+        "price": 30,
+        "is_artifact": false
+      },
+      {
+        "name": "Sacred Feather",
+        "category": "item",
+        "price": 70,
+        "is_artifact": false
+      },
+      {
+        "name": "Claymore",
+        "category": "weapon",
+        "price": 4000,
+        "is_artifact": false
+      },
+      {
+        "name": "Battle Rapier",
+        "category": "weapon",
+        "price": 2800,
+        "is_artifact": false
+      },
+      {
+        "name": "Broad Axe",
+        "category": "weapon",
+        "price": 1400,
+        "is_artifact": false
+      },
+      {
+        "name": "Battle Mace",
+        "category": "weapon",
+        "price": 2600,
+        "is_artifact": false
+      },
+      {
+        "name": "Psynergy Rod",
+        "category": "weapon",
+        "price": 3800,
+        "is_artifact": true
+      },
+      {
+        "name": "Chain Mail",
+        "category": "armor",
+        "price": 2000,
+        "is_artifact": false
+      },
+      {
+        "name": "Adept's Clothes",
+        "category": "armor",
+        "price": 850,
+        "is_artifact": false
+      },
+      {
+        "name": "Silk Robe",
+        "category": "armor",
+        "price": 1400,
+        "is_artifact": false
+      },
+      {
+        "name": "Iron Shield",
+        "category": "armor",
+        "price": 1200,
+        "is_artifact": false
+      },
+      {
+        "name": "Gauntlets",
+        "category": "armor",
+        "price": 1600,
+        "is_artifact": false
+      },
+      {
+        "name": "Armlet",
+        "category": "armor",
+        "price": 900,
+        "is_artifact": false
+      },
+      {
+        "name": "Iron Helm",
+        "category": "armor",
+        "price": 1600,
+        "is_artifact": false
+      },
+      {
+        "name": "Silver Circlet",
+        "category": "armor",
+        "price": 1300,
+        "is_artifact": false
+      },
+      {
+        "name": "Bronze Helm",
+        "category": "armor",
+        "price": 600,
+        "is_artifact": false
+      }
+    ],
+    "sources": [
+      "shotgunnova",
+      "super-slash"
+    ],
+    "conflicts": [
+      {
+        "field": "stock[Battle Rapier].price",
+        "values": {
+          "shotgunnova": 2800,
+          "super-slash": 2900
+        },
+        "note": null
+      }
+    ]
+  },
+  {
+    "id": "kalay",
+    "name": "Kalay",
+    "game": "gs1",
+    "availability_notes": null,
+    "stock": [
+      {
+        "name": "Herb",
+        "category": "item",
+        "price": 10,
+        "is_artifact": false
+      },
+      {
+        "name": "Nut",
+        "category": "item",
+        "price": 200,
+        "is_artifact": false
+      },
+      {
+        "name": "Antidote",
+        "category": "item",
+        "price": 20,
+        "is_artifact": false
+      },
+      {
+        "name": "Elixir",
+        "category": "item",
+        "price": 30,
+        "is_artifact": false
+      },
+      {
+        "name": "Sacred Feather",
+        "category": "item",
+        "price": 70,
+        "is_artifact": false
+      },
+      {
+        "name": "Claymore",
+        "category": "weapon",
+        "price": 4000,
+        "is_artifact": false
+      },
+      {
+        "name": "Battle Rapier",
+        "category": "weapon",
+        "price": 2800,
+        "is_artifact": false
+      },
+      {
+        "name": "Great Axe",
+        "category": "weapon",
+        "price": 5200,
+        "is_artifact": false
+      },
+      {
+        "name": "Battle Mace",
+        "category": "weapon",
+        "price": 2600,
+        "is_artifact": false
+      },
+      {
+        "name": "Frost Wand",
+        "category": "weapon",
+        "price": 5400,
+        "is_artifact": true
+      },
+      {
+        "name": "Chain Mail",
+        "category": "armor",
+        "price": 2000,
+        "is_artifact": false
+      },
+      {
+        "name": "Jerkin",
+        "category": "armor",
+        "price": 2400,
+        "is_artifact": false
+      },
+      {
+        "name": "Iron Shield",
+        "category": "armor",
+        "price": 1200,
+        "is_artifact": false
+      },
+      {
+        "name": "Gauntlets",
+        "category": "armor",
+        "price": 1600,
+        "is_artifact": false
+      },
+      {
+        "name": "Heavy Armlet",
+        "category": "armor",
+        "price": 2000,
+        "is_artifact": false
+      },
+      {
+        "name": "Iron Helm",
+        "category": "armor",
+        "price": 1600,
+        "is_artifact": false
+      },
+      {
+        "name": "Mail Cap",
+        "category": "armor",
+        "price": 2000,
+        "is_artifact": false
+      },
+      {
+        "name": "Silver Circlet",
+        "category": "armor",
+        "price": 1300,
+        "is_artifact": false
+      }
+    ],
+    "sources": [
+      "shotgunnova",
+      "super-slash"
+    ],
+    "conflicts": [
+      {
+        "field": "stock[Battle Rapier].price",
+        "values": {
+          "shotgunnova": 2800,
+          "super-slash": 2900
+        },
+        "note": null
+      }
+    ]
+  },
+  {
+    "id": "tolbi",
+    "name": "Tolbi",
+    "game": "gs1",
+    "availability_notes": null,
+    "stock": [
+      {
+        "name": "Herb",
+        "category": "item",
+        "price": 10,
+        "is_artifact": false
+      },
+      {
+        "name": "Nut",
+        "category": "item",
+        "price": 200,
+        "is_artifact": false
+      },
+      {
+        "name": "Antidote",
+        "category": "item",
+        "price": 20,
+        "is_artifact": false
+      },
+      {
+        "name": "Elixir",
+        "category": "item",
+        "price": 30,
+        "is_artifact": false
+      },
+      {
+        "name": "Sacred Feather",
+        "category": "item",
+        "price": 70,
+        "is_artifact": false
+      },
+      {
+        "name": "Water of Life",
+        "category": "item",
+        "price": 3000,
+        "is_artifact": true
+      },
+      {
+        "name": "Great Sword",
+        "category": "weapon",
+        "price": 7000,
+        "is_artifact": false
+      },
+      {
+        "name": "Master Rapier",
+        "category": "weapon",
+        "price": 6800,
+        "is_artifact": false
+      },
+      {
+        "name": "Great Axe",
+        "category": "weapon",
+        "price": 5200,
+        "is_artifact": false
+      },
+      {
+        "name": "War Mace",
+        "category": "weapon",
+        "price": 6200,
+        "is_artifact": false
+      },
+      {
+        "name": "Angelic Ankh",
+        "category": "weapon",
+        "price": 6400,
+        "is_artifact": true
+      },
+      {
+        "name": "Armored Shell",
+        "category": "armor",
+        "price": 3600,
+        "is_artifact": false
+      },
+      {
+        "name": "Silver Vest",
+        "category": "armor",
+        "price": 3200,
+        "is_artifact": false
+      },
+      {
+        "name": "Jerkin",
+        "category": "armor",
+        "price": 2400,
+        "is_artifact": false
+      },
+      {
+        "name": "Knight's Shield",
+        "category": "armor",
+        "price": 3000,
+        "is_artifact": false
+      },
+      {
+        "name": "Gauntlets",
+        "category": "armor",
+        "price": 1600,
+        "is_artifact": false
+      },
+      {
+        "name": "Heavy Armlet",
+        "category": "armor",
+        "price": 2000,
+        "is_artifact": false
+      },
+      {
+        "name": "Steel Helm",
+        "category": "armor",
+        "price": 3100,
+        "is_artifact": false
+      },
+      {
+        "name": "Mail Cap",
+        "category": "armor",
+        "price": 2000,
+        "is_artifact": false
+      },
+      {
+        "name": "Guardian Circlet",
+        "category": "armor",
+        "price": 3400,
+        "is_artifact": false
+      }
+    ],
+    "sources": [
+      "shotgunnova",
+      "super-slash"
+    ]
+  },
+  {
+    "id": "lunpa",
+    "name": "Lunpa",
+    "game": "gs1",
+    "availability_notes": "Weapon/Armor Shop opens up only after Lunpa Fortress events",
+    "stock": [
+      {
+        "name": "Herb",
+        "category": "item",
+        "price": 10,
+        "is_artifact": false
+      },
+      {
+        "name": "Nut",
+        "category": "item",
+        "price": 200,
+        "is_artifact": false
+      },
+      {
+        "name": "Antidote",
+        "category": "item",
+        "price": 20,
+        "is_artifact": false
+      },
+      {
+        "name": "Elixir",
+        "category": "item",
+        "price": 30,
+        "is_artifact": false
+      },
+      {
+        "name": "Sacred Feather",
+        "category": "item",
+        "price": 70,
+        "is_artifact": false
+      },
+      {
+        "name": "Great Sword",
+        "category": "weapon",
+        "price": 7000,
+        "is_artifact": false
+      },
+      {
+        "name": "Master Rapier",
+        "category": "weapon",
+        "price": 6800,
+        "is_artifact": false
+      },
+      {
+        "name": "Great Axe",
+        "category": "weapon",
+        "price": 5200,
+        "is_artifact": false
+      },
+      {
+        "name": "War Mace",
+        "category": "weapon",
+        "price": 6200,
+        "is_artifact": false
+      },
+      {
+        "name": "Shamshir",
+        "category": "weapon",
+        "price": 10000,
+        "is_artifact": true
+      },
+      {
+        "name": "Ninja Sword",
+        "category": "weapon",
+        "price": 8800,
+        "is_artifact": true
+      },
+      {
+        "name": "Dragon Axe",
+        "category": "weapon",
+        "price": 10300,
+        "is_artifact": true
+      },
+      {
+        "name": "Demonic Staff",
+        "category": "weapon",
+        "price": 10000,
+        "is_artifact": true
+      },
+      {
+        "name": "Plate Mail",
+        "category": "armor",
+        "price": 4400,
+        "is_artifact": false
+      },
+      {
+        "name": "Silver Armlet",
+        "category": "armor",
+        "price": 4000,
+        "is_artifact": false
+      },
+      {
+        "name": "Silver Helm",
+        "category": "armor",
+        "price": 3900,
+        "is_artifact": false
+      },
+      {
+        "name": "Platinum Circlet",
+        "category": "armor",
+        "price": 4200,
+        "is_artifact": false
+      },
+      {
+        "name": "Blessed Robe",
+        "category": "armor",
+        "price": 7000,
+        "is_artifact": true
+      },
+      {
+        "name": "War Gloves",
+        "category": "armor",
+        "price": 4000,
+        "is_artifact": true
+      }
+    ],
+    "sources": [
+      "shotgunnova",
+      "super-slash"
+    ]
+  },
+  {
+    "id": "suhalla",
+    "name": "Suhalla",
+    "game": "gs1",
+    "availability_notes": null,
+    "stock": [
+      {
+        "name": "Herb",
+        "category": "item",
+        "price": 10,
+        "is_artifact": false
+      },
+      {
+        "name": "Nut",
+        "category": "item",
+        "price": 200,
+        "is_artifact": false
+      },
+      {
+        "name": "Antidote",
+        "category": "item",
+        "price": 20,
+        "is_artifact": false
+      },
+      {
+        "name": "Elixir",
+        "category": "item",
+        "price": 30,
+        "is_artifact": false
+      },
+      {
+        "name": "Sacred Feather",
+        "category": "item",
+        "price": 70,
+        "is_artifact": false
+      },
+      {
+        "name": "Water of Life",
+        "category": "item",
+        "price": 3000,
+        "is_artifact": true
+      },
+      {
+        "name": "Psy Crystal",
+        "category": "item",
+        "price": 1500,
+        "is_artifact": true
+      },
+      {
+        "name": "Potion",
+        "category": "item",
+        "price": 1000,
+        "is_artifact": true
+      }
+    ],
+    "sources": [
+      "shotgunnova",
+      "super-slash"
+    ]
+  },
+  {
+    "id": "lalivero",
+    "name": "Lalivero",
+    "game": "gs1",
+    "availability_notes": null,
+    "stock": [
+      {
+        "name": "Herb",
+        "category": "item",
+        "price": 10,
+        "is_artifact": false
+      },
+      {
+        "name": "Nut",
+        "category": "item",
+        "price": 200,
+        "is_artifact": false
+      },
+      {
+        "name": "Antidote",
+        "category": "item",
+        "price": 20,
+        "is_artifact": false
+      },
+      {
+        "name": "Elixir",
+        "category": "item",
+        "price": 30,
+        "is_artifact": false
+      },
+      {
+        "name": "Sacred Feather",
+        "category": "item",
+        "price": 70,
+        "is_artifact": false
+      },
+      {
+        "name": "Water of Life",
+        "category": "item",
+        "price": 3000,
+        "is_artifact": true
+      },
+      {
+        "name": "Psy Crystal",
+        "category": "item",
+        "price": 1500,
+        "is_artifact": true
+      },
+      {
+        "name": "Potion",
+        "category": "item",
+        "price": 1000,
+        "is_artifact": true
+      },
+      {
+        "name": "Great Sword",
+        "category": "weapon",
+        "price": 7000,
+        "is_artifact": false
+      },
+      {
+        "name": "Master Rapier",
+        "category": "weapon",
+        "price": 6800,
+        "is_artifact": false
+      },
+      {
+        "name": "Great Axe",
+        "category": "weapon",
+        "price": 5200,
+        "is_artifact": false
+      },
+      {
+        "name": "War Mace",
+        "category": "weapon",
+        "price": 6200,
+        "is_artifact": false
+      },
+      {
+        "name": "Silver Blade",
+        "category": "weapon",
+        "price": 12000,
+        "is_artifact": true
+      },
+      {
+        "name": "Swift Sword",
+        "category": "weapon",
+        "price": 9400,
+        "is_artifact": true
+      },
+      {
+        "name": "Righteous Mace",
+        "category": "weapon",
+        "price": 8400,
+        "is_artifact": true
+      },
+      {
+        "name": "Crystal Rod",
+        "category": "weapon",
+        "price": 13400,
+        "is_artifact": true
+      },
+      {
+        "name": "Steel Armor",
+        "category": "armor",
+        "price": 4900,
+        "is_artifact": false
+      },
+      {
+        "name": "Knight's Helm",
+        "category": "armor",
+        "price": 4600,
+        "is_artifact": false
+      },
+      {
+        "name": "Platinum Circlet",
+        "category": "armor",
+        "price": 4200,
+        "is_artifact": false
+      },
+      {
+        "name": "Magical Cassock",
+        "category": "armor",
+        "price": 9000,
+        "is_artifact": true
+      },
+      {
+        "name": "Mirrored Shield",
+        "category": "armor",
+        "price": 5200,
+        "is_artifact": true
+      },
+      {
+        "name": "Spirit Armlet",
+        "category": "armor",
+        "price": 9000,
+        "is_artifact": true
+      },
+      {
+        "name": "Jeweled Crown",
+        "category": "armor",
+        "price": 4000,
+        "is_artifact": true
+      }
+    ],
+    "sources": [
+      "shotgunnova",
+      "super-slash"
+    ]
+  }
+]
