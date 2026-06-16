@@ -49,7 +49,8 @@ def norm(s):
 # Djinn type (Venus/Mars/Jupiter/Mercury); normalize both to the element.
 ELEM_ALIAS = {
     "earth": "earth", "venus": "earth", "fire": "fire", "mars": "fire",
-    "wind": "wind", "jupiter": "wind", "water": "water", "mercury": "water",
+    "wind": "wind", "jupiter": "wind", "air": "wind", "water": "water",
+    "mercury": "water",
 }
 
 
@@ -60,7 +61,7 @@ def parse_djinn_req(text):
     t = re.sub(r"\([^)]*\)", "", text)
     out = []
     for m in re.finditer(
-            r"(\d+)(?:\s*-\s*(\d+))?\s+(earth|fire|wind|water|venus|mars|jupiter|mercury)",
+            r"(\d+)(?:\s*-\s*(\d+))?\s+(earth|fire|wind|water|air|venus|mars|jupiter|mercury)",
             t, re.I):
         lo = int(m.group(1))
         hi = int(m.group(2)) if m.group(2) else lo

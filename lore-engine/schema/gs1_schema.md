@@ -1950,12 +1950,27 @@ game                string            YES        Always "gs1" for this file.
 djinn_required      integer           YES        Number of Standby Djinn of `element` needed to
                                                  summon (1-4). Also functions as the summon's
                                                  tier within its element (1 = weakest).
-damage_power        integer | null    YES        Base summon power. null when no ingested source
-                                                 provides a number (current sources do not).
+damage_power        integer | null    YES        Terence's "Base Mod" — the flat base component of
+                                                 summon damage. null if unknown.
+damage_hp_mod       float | null      YES        Terence's "Max HP Mod" — fraction of the target's
+                                                 Max HP added to the base. Total summon damage =
+                                                 damage_power + (damage_hp_mod × target Max HP),
+                                                 before elemental resistance. null if unknown.
 effect              string | null     YES        Special/secondary effect text. null if none/unknown.
 sources             array of string   YES        All source IDs that contributed data.
 conflicts           array of object   NO         Only if sources disagree. Same shape as elsewhere.
 ```
+
+Summon damage is a function of `djinn_required` (tier) only — Telago: "all summons
+of the same level are equal in strength." Per Terence, the tier → (damage_power,
+damage_hp_mod, power buff) mapping is:
+
+| djinn_required | damage_power | damage_hp_mod | effect (user Power raise, 200 max) |
+|---|---|---|---|
+| 1 | 30  | 0.03 | +10 |
+| 2 | 60  | 0.06 | +30 |
+| 3 | 120 | 0.09 | +60 |
+| 4 | 240 | 0.12 | +100 |
 
 ### Example Entry: Judgment
 
@@ -1966,9 +1981,10 @@ conflicts           array of object   NO         Only if sources disagree. Same 
   "element": "earth",
   "game": "gs1",
   "djinn_required": 4,
-  "damage_power": null,
-  "effect": null,
-  "sources": ["telago", "bfgamer"]
+  "damage_power": 240,
+  "damage_hp_mod": 0.12,
+  "effect": "Raises the user's elemental Power by 100 (max 200).",
+  "sources": ["telago", "bfgamer", "terence"]
 }
 ```
 
@@ -1983,9 +1999,11 @@ When extracting summon data:
 3. **djinn_required** = the standby-Djinn count beside the spirit name (1-4).
 4. **Spelling**: prefer in-game GS1 spelling. "Judgment" (Telago), not
    "Judgement" (BFGamer) — a spelling variant, not a data conflict.
-5. **damage_power / effect**: current ingested sources (Telago, BFGamer,
-   Super Slash) only list names; leave these `null`. Populate later if a
-   source with summon power numbers is ingested.
+5. **damage_power / damage_hp_mod / effect**: populated from Terence's summon
+   mechanics table (`raw/gs1/Summon.md`). Damage depends only on tier
+   (`djinn_required`), not on the individual summon — use the tier→values table
+   above. `damage_power` = Base Mod, `damage_hp_mod` = Max HP Mod, `effect` = the
+   user-Power raise. Leave `null` only if no source provides numbers.
 6. **Do not invent data.**
 
 ---

@@ -1,21 +1,21 @@
 [
-  { "id": "venus",    "name": "Venus",    "element": "earth", "game": "gs1", "djinn_required": 1, "damage_power": null, "effect": null, "sources": ["telago", "bfgamer"] },
-  { "id": "ramses",   "name": "Ramses",   "element": "earth", "game": "gs1", "djinn_required": 2, "damage_power": null, "effect": null, "sources": ["telago", "bfgamer"] },
-  { "id": "cybele",   "name": "Cybele",   "element": "earth", "game": "gs1", "djinn_required": 3, "damage_power": null, "effect": null, "sources": ["telago", "bfgamer"] },
-  { "id": "judgment", "name": "Judgment", "element": "earth", "game": "gs1", "djinn_required": 4, "damage_power": null, "effect": null, "sources": ["telago", "bfgamer"] },
+  { "id": "venus",    "name": "Venus",    "element": "earth", "game": "gs1", "djinn_required": 1, "damage_power": 30,  "damage_hp_mod": 0.03, "effect": "Raises the user's elemental Power by 10 (max 200).",  "sources": ["telago", "bfgamer", "terence"] },
+  { "id": "ramses",   "name": "Ramses",   "element": "earth", "game": "gs1", "djinn_required": 2, "damage_power": 60,  "damage_hp_mod": 0.06, "effect": "Raises the user's elemental Power by 30 (max 200).",  "sources": ["telago", "bfgamer", "terence"] },
+  { "id": "cybele",   "name": "Cybele",   "element": "earth", "game": "gs1", "djinn_required": 3, "damage_power": 120, "damage_hp_mod": 0.09, "effect": "Raises the user's elemental Power by 60 (max 200).",  "sources": ["telago", "bfgamer", "terence"] },
+  { "id": "judgment", "name": "Judgment", "element": "earth", "game": "gs1", "djinn_required": 4, "damage_power": 240, "damage_hp_mod": 0.12, "effect": "Raises the user's elemental Power by 100 (max 200).", "sources": ["telago", "bfgamer", "terence"] },
 
-  { "id": "mars",     "name": "Mars",     "element": "fire",  "game": "gs1", "djinn_required": 1, "damage_power": null, "effect": null, "sources": ["telago", "bfgamer"] },
-  { "id": "kirin",    "name": "Kirin",    "element": "fire",  "game": "gs1", "djinn_required": 2, "damage_power": null, "effect": null, "sources": ["telago", "bfgamer"] },
-  { "id": "tiamat",   "name": "Tiamat",   "element": "fire",  "game": "gs1", "djinn_required": 3, "damage_power": null, "effect": null, "sources": ["telago", "bfgamer"] },
-  { "id": "meteor",   "name": "Meteor",   "element": "fire",  "game": "gs1", "djinn_required": 4, "damage_power": null, "effect": null, "sources": ["telago", "bfgamer"] },
+  { "id": "mars",     "name": "Mars",     "element": "fire",  "game": "gs1", "djinn_required": 1, "damage_power": 30,  "damage_hp_mod": 0.03, "effect": "Raises the user's elemental Power by 10 (max 200).",  "sources": ["telago", "bfgamer", "terence"] },
+  { "id": "kirin",    "name": "Kirin",    "element": "fire",  "game": "gs1", "djinn_required": 2, "damage_power": 60,  "damage_hp_mod": 0.06, "effect": "Raises the user's elemental Power by 30 (max 200).",  "sources": ["telago", "bfgamer", "terence"] },
+  { "id": "tiamat",   "name": "Tiamat",   "element": "fire",  "game": "gs1", "djinn_required": 3, "damage_power": 120, "damage_hp_mod": 0.09, "effect": "Raises the user's elemental Power by 60 (max 200).",  "sources": ["telago", "bfgamer", "terence"] },
+  { "id": "meteor",   "name": "Meteor",   "element": "fire",  "game": "gs1", "djinn_required": 4, "damage_power": 240, "damage_hp_mod": 0.12, "effect": "Raises the user's elemental Power by 100 (max 200).", "sources": ["telago", "bfgamer", "terence"] },
 
-  { "id": "jupiter",  "name": "Jupiter",  "element": "wind",  "game": "gs1", "djinn_required": 1, "damage_power": null, "effect": null, "sources": ["telago", "bfgamer"] },
-  { "id": "atalanta", "name": "Atalanta", "element": "wind",  "game": "gs1", "djinn_required": 2, "damage_power": null, "effect": null, "sources": ["telago", "bfgamer"] },
-  { "id": "procne",   "name": "Procne",   "element": "wind",  "game": "gs1", "djinn_required": 3, "damage_power": null, "effect": null, "sources": ["telago", "bfgamer"] },
-  { "id": "thor",     "name": "Thor",     "element": "wind",  "game": "gs1", "djinn_required": 4, "damage_power": null, "effect": null, "sources": ["telago", "bfgamer"] },
+  { "id": "jupiter",  "name": "Jupiter",  "element": "wind",  "game": "gs1", "djinn_required": 1, "damage_power": 30,  "damage_hp_mod": 0.03, "effect": "Raises the user's elemental Power by 10 (max 200).",  "sources": ["telago", "bfgamer", "terence"] },
+  { "id": "atalanta", "name": "Atalanta", "element": "wind",  "game": "gs1", "djinn_required": 2, "damage_power": 60,  "damage_hp_mod": 0.06, "effect": "Raises the user's elemental Power by 30 (max 200).",  "sources": ["telago", "bfgamer", "terence"] },
+  { "id": "procne",   "name": "Procne",   "element": "wind",  "game": "gs1", "djinn_required": 3, "damage_power": 120, "damage_hp_mod": 0.09, "effect": "Raises the user's elemental Power by 60 (max 200).",  "sources": ["telago", "bfgamer", "terence"] },
+  { "id": "thor",     "name": "Thor",     "element": "wind",  "game": "gs1", "djinn_required": 4, "damage_power": 240, "damage_hp_mod": 0.12, "effect": "Raises the user's elemental Power by 100 (max 200).", "sources": ["telago", "bfgamer", "terence"] },
 
-  { "id": "mercury",  "name": "Mercury",  "element": "water", "game": "gs1", "djinn_required": 1, "damage_power": null, "effect": null, "sources": ["telago", "bfgamer"] },
-  { "id": "nereid",   "name": "Nereid",   "element": "water", "game": "gs1", "djinn_required": 2, "damage_power": null, "effect": null, "sources": ["telago", "bfgamer"] },
-  { "id": "neptune",  "name": "Neptune",  "element": "water", "game": "gs1", "djinn_required": 3, "damage_power": null, "effect": null, "sources": ["telago", "bfgamer"] },
-  { "id": "boreas",   "name": "Boreas",   "element": "water", "game": "gs1", "djinn_required": 4, "damage_power": null, "effect": null, "sources": ["telago", "bfgamer"] }
+  { "id": "mercury",  "name": "Mercury",  "element": "water", "game": "gs1", "djinn_required": 1, "damage_power": 30,  "damage_hp_mod": 0.03, "effect": "Raises the user's elemental Power by 10 (max 200).",  "sources": ["telago", "bfgamer", "terence"] },
+  { "id": "nereid",   "name": "Nereid",   "element": "water", "game": "gs1", "djinn_required": 2, "damage_power": 60,  "damage_hp_mod": 0.06, "effect": "Raises the user's elemental Power by 30 (max 200).",  "sources": ["telago", "bfgamer", "terence"] },
+  { "id": "neptune",  "name": "Neptune",  "element": "water", "game": "gs1", "djinn_required": 3, "damage_power": 120, "damage_hp_mod": 0.09, "effect": "Raises the user's elemental Power by 60 (max 200).",  "sources": ["telago", "bfgamer", "terence"] },
+  { "id": "boreas",   "name": "Boreas",   "element": "water", "game": "gs1", "djinn_required": 4, "damage_power": 240, "damage_hp_mod": 0.12, "effect": "Raises the user's elemental Power by 100 (max 200).", "sources": ["telago", "bfgamer", "terence"] }
 ]
