@@ -397,5 +397,165 @@
       "notes": "Obtained by using the Catch Psynergy on a guard."
     },
     "sources": ["rockettrekkie"]
+  },
+  {
+    "id": "oil-drop",
+    "name": "Oil Drop",
+    "game": "gs1",
+    "item_type": "consumable",
+    "effect": { "description": "When thrown in battle, attacks an enemy with Fire-element power (30).", "target": "enemy", "stat_boosted": null },
+    "usable_in_battle": true,
+    "buy_price": null,
+    "sell_price": null,
+    "acquisition": {
+      "method": "drop",
+      "location": null,
+      "notes": "Dropped by various enemies and found in chests (e.g. Sol Sanctum, Goma Cave, Vale world map)."
+    },
+    "sources": ["telago", "strawhat", "shotgunnova"]
+  },
+  {
+    "id": "bramble-seed",
+    "name": "Bramble Seed",
+    "game": "gs1",
+    "item_type": "consumable",
+    "effect": { "description": "When thrown in battle, attacks an enemy with Earth-element power (50).", "target": "enemy", "stat_boosted": null },
+    "usable_in_battle": true,
+    "buy_price": null,
+    "sell_price": null,
+    "acquisition": {
+      "method": "drop",
+      "location": null,
+      "notes": "Dropped by various enemies and found in chests (e.g. Vale Cave, Tolbi world map)."
+    },
+    "sources": ["telago", "strawhat", "shotgunnova"]
+  },
+  {
+    "id": "catch-beads",
+    "name": "Catch Beads",
+    "game": "gs1",
+    "item_type": "key",
+    "effect": { "description": "Held to use the Catch Psynergy in the field (grabs distant items).", "target": null, "stat_boosted": null },
+    "usable_in_battle": false,
+    "buy_price": null,
+    "sell_price": null,
+    "acquisition": {
+      "method": "event",
+      "location": "Vale",
+      "notes": "Given by Garet's sister (from Dora) when leaving Vale at the start of the journey."
+    },
+    "sources": ["super-slash", "tetzcatlipoca"]
+  },
+  {
+    "id": "carry-stone",
+    "name": "Carry Stone",
+    "game": "gs1",
+    "item_type": "key",
+    "effect": { "description": "Held to use the Carry Psynergy in the field (lifts and moves objects).", "target": null, "stat_boosted": null },
+    "usable_in_battle": false,
+    "buy_price": null,
+    "sell_price": null,
+    "acquisition": {
+      "method": "chest",
+      "location": "Venus Lighthouse",
+      "notes": "Found in Venus Lighthouse."
+    },
+    "sources": ["super-slash", "tetzcatlipoca"]
+  },
+  {
+    "id": "cloak-ball",
+    "name": "Cloak Ball",
+    "game": "gs1",
+    "item_type": "key",
+    "effect": { "description": "Held to use the Cloak Psynergy in the field (move unseen in shadow).", "target": null, "stat_boosted": null },
+    "usable_in_battle": false,
+    "buy_price": null,
+    "sell_price": null,
+    "acquisition": {
+      "method": "event",
+      "location": "Tolbi",
+      "notes": "Beside Babi's bed, obtained after winning Colosso."
+    },
+    "sources": ["super-slash", "tetzcatlipoca"]
+  },
+  {
+    "id": "douse-drop",
+    "name": "Douse Drop",
+    "game": "gs1",
+    "item_type": "key",
+    "effect": { "description": "Held to use the Douse Psynergy in the field (pours water from above).", "target": null, "stat_boosted": null },
+    "usable_in_battle": false,
+    "buy_price": null,
+    "sell_price": null,
+    "acquisition": {
+      "method": "drop",
+      "location": "Mogall Forest",
+      "notes": "Always dropped by the Killer Ape at the end of Mogall Forest."
+    },
+    "sources": ["super-slash", "tetzcatlipoca"]
+  },
+  {
+    "id": "frost-jewel",
+    "name": "Frost Jewel",
+    "game": "gs1",
+    "item_type": "key",
+    "effect": { "description": "Held to use the Frost Psynergy in the field (freezes puddles into pillars).", "target": null, "stat_boosted": null },
+    "usable_in_battle": false,
+    "buy_price": null,
+    "sell_price": null,
+    "acquisition": {
+      "method": "drop",
+      "location": "Altin Peak",
+      "notes": "Always dropped by the first Living Statue in Altin Peak."
+    },
+    "sources": ["super-slash", "tetzcatlipoca"]
+  },
+  {
+    "id": "halt-gem",
+    "name": "Halt Gem",
+    "game": "gs1",
+    "item_type": "key",
+    "effect": { "description": "Held to use the Halt Psynergy in the field (freezes a target in place).", "target": null, "stat_boosted": null },
+    "usable_in_battle": false,
+    "buy_price": null,
+    "sell_price": null,
+    "acquisition": {
+      "method": "chest",
+      "location": "Vale Cave",
+      "notes": "In Vale Cave (revisit Vale later; Lift the rock near Kraden's house to enter)."
+    },
+    "sources": ["super-slash", "tetzcatlipoca"]
+  },
+  {
+    "id": "lifting-gem",
+    "name": "Lifting Gem",
+    "game": "gs1",
+    "item_type": "key",
+    "effect": { "description": "Held to use the Lift Psynergy in the field (raises heavy objects).", "target": null, "stat_boosted": null },
+    "usable_in_battle": false,
+    "buy_price": null,
+    "sell_price": null,
+    "acquisition": {
+      "method": "chest",
+      "location": "Altin Peak",
+      "notes": "In a chest behind the Hydros Statue in Altin Peak."
+    },
+    "sources": ["super-slash", "tetzcatlipoca"]
+  },
+  {
+    "id": "orb-of-force",
+    "name": "Orb of Force",
+    "game": "gs1",
+    "item_type": "key",
+    "effect": { "description": "Held to use the Force Psynergy in the field (strikes objects with a blast).", "target": null, "stat_boosted": null },
+    "usable_in_battle": false,
+    "buy_price": null,
+    "sell_price": null,
+    "acquisition": {
+      "method": "field",
+      "location": "Fuchin Falls Cave",
+      "notes": "Reward for completing the puzzles in Fuchin Falls Cave."
+    },
+    "sources": ["super-slash", "tetzcatlipoca"]
   }
 ]

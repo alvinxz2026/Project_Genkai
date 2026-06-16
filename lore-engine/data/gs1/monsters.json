@@ -43,6 +43,8 @@
       "items": [
         {
           "name": "Herb",
+          "ref_type": "item",
+          "ref_id": "herb",
           "icc": 5
         }
       ]
@@ -95,6 +97,8 @@
       "items": [
         {
           "name": "Herb",
+          "ref_type": "item",
+          "ref_id": "herb",
           "icc": 6
         }
       ]
@@ -148,6 +152,8 @@
       "items": [
         {
           "name": "Smoke Bomb",
+          "ref_type": "item",
+          "ref_id": "smoke-bomb",
           "icc": 6
         }
       ]
@@ -200,6 +206,8 @@
       "items": [
         {
           "name": "Herb",
+          "ref_type": "item",
+          "ref_id": "herb",
           "icc": 6
         }
       ]
@@ -253,6 +261,8 @@
       "items": [
         {
           "name": "Oil Drop",
+          "ref_type": "item",
+          "ref_id": "oil-drop",
           "icc": 5
         }
       ]
@@ -354,6 +364,8 @@
       "items": [
         {
           "name": "Herb",
+          "ref_type": "item",
+          "ref_id": "herb",
           "icc": 5
         }
       ]
@@ -417,6 +429,8 @@
       "items": [
         {
           "name": "Oil Drop",
+          "ref_type": "item",
+          "ref_id": "oil-drop",
           "icc": 5
         }
       ]
@@ -470,6 +484,8 @@
       "items": [
         {
           "name": "Herb",
+          "ref_type": "item",
+          "ref_id": "herb",
           "icc": 5
         }
       ]
@@ -524,6 +540,8 @@
       "items": [
         {
           "name": "Herb",
+          "ref_type": "item",
+          "ref_id": "herb",
           "icc": 5
         }
       ]
@@ -577,6 +595,8 @@
       "items": [
         {
           "name": "Smoke Bomb",
+          "ref_type": "item",
+          "ref_id": "smoke-bomb",
           "icc": 6
         }
       ]
@@ -632,6 +652,8 @@
       "items": [
         {
           "name": "Herb",
+          "ref_type": "item",
+          "ref_id": "herb",
           "icc": 5
         }
       ]
@@ -685,6 +707,8 @@
       "items": [
         {
           "name": "Bandit's Sword",
+          "ref_type": "equipment",
+          "ref_id": "bandits-sword",
           "icc": 1
         }
       ]
@@ -789,6 +813,8 @@
       "items": [
         {
           "name": "Herb",
+          "ref_type": "item",
+          "ref_id": "herb",
           "icc": 5
         }
       ]
@@ -844,6 +870,8 @@
       "items": [
         {
           "name": "Oil Drop",
+          "ref_type": "item",
+          "ref_id": "oil-drop",
           "icc": 5
         }
       ]
@@ -907,6 +935,8 @@
       "items": [
         {
           "name": "Smoke Bomb",
+          "ref_type": "item",
+          "ref_id": "smoke-bomb",
           "icc": 6
         }
       ]
@@ -1011,6 +1041,8 @@
       "items": [
         {
           "name": "Herb",
+          "ref_type": "item",
+          "ref_id": "herb",
           "icc": 6
         }
       ]
@@ -1067,6 +1099,8 @@
       "items": [
         {
           "name": "Smoke Bomb",
+          "ref_type": "item",
+          "ref_id": "smoke-bomb",
           "icc": 5
         }
       ]
@@ -1122,6 +1156,8 @@
       "items": [
         {
           "name": "Elixir",
+          "ref_type": "item",
+          "ref_id": "elixir",
           "icc": 5
         }
       ]
@@ -1177,6 +1213,8 @@
       "items": [
         {
           "name": "Nut",
+          "ref_type": "item",
+          "ref_id": "nut",
           "icc": 6
         }
       ]
@@ -1229,6 +1267,8 @@
       "items": [
         {
           "name": "Antidote",
+          "ref_type": "item",
+          "ref_id": "antidote",
           "icc": 5
         }
       ]
@@ -1292,6 +1332,8 @@
       "items": [
         {
           "name": "Weasel's Claw",
+          "ref_type": "item",
+          "ref_id": "weasels-claw",
           "icc": 6
         }
       ]
@@ -1350,6 +1392,8 @@
       "items": [
         {
           "name": "Oil Drop",
+          "ref_type": "item",
+          "ref_id": "oil-drop",
           "icc": 6
         }
       ]
@@ -1465,6 +1509,8 @@
       "items": [
         {
           "name": "Antidote",
+          "ref_type": "item",
+          "ref_id": "antidote",
           "icc": 5
         }
       ]
@@ -1524,6 +1570,8 @@
       "items": [
         {
           "name": "Herb",
+          "ref_type": "item",
+          "ref_id": "herb",
           "icc": 5
         }
       ]
@@ -1580,6 +1628,8 @@
       "items": [
         {
           "name": "Nut",
+          "ref_type": "item",
+          "ref_id": "nut",
           "icc": 6
         }
       ]
@@ -1634,6 +1684,8 @@
       "items": [
         {
           "name": "Nut",
+          "ref_type": "item",
+          "ref_id": "nut",
           "icc": 6
         }
       ]
@@ -1686,6 +1738,8 @@
       "items": [
         {
           "name": "Sleep Bomb",
+          "ref_type": "item",
+          "ref_id": "sleep-bomb",
           "icc": 6
         }
       ]
@@ -1741,6 +1795,8 @@
       "items": [
         {
           "name": "Water of Life",
+          "ref_type": "item",
+          "ref_id": "water-of-life",
           "icc": 1
         }
       ]
@@ -1795,6 +1851,8 @@
       "items": [
         {
           "name": "Crystal Powder",
+          "ref_type": "item",
+          "ref_id": "crystal-powder",
           "icc": 5
         }
       ]
@@ -1857,6 +1915,8 @@
       "items": [
         {
           "name": "Elixir",
+          "ref_type": "item",
+          "ref_id": "elixir",
           "icc": 5
         }
       ]
@@ -1963,6 +2023,8 @@
       "items": [
         {
           "name": "Bramble Seed",
+          "ref_type": "item",
+          "ref_id": "bramble-seed",
           "icc": 5
         }
       ]
@@ -2018,6 +2080,8 @@
       "items": [
         {
           "name": "Game Ticket",
+          "ref_type": "item",
+          "ref_id": "game-ticket",
           "icc": 1
         }
       ]
@@ -2076,6 +2140,8 @@
       "items": [
         {
           "name": "Sleep Bomb",
+          "ref_type": "item",
+          "ref_id": "sleep-bomb",
           "icc": 6
         }
       ]
@@ -2134,6 +2200,8 @@
       "items": [
         {
           "name": "Nut",
+          "ref_type": "item",
+          "ref_id": "nut",
           "icc": 5
         }
       ]
@@ -2190,6 +2258,8 @@
       "items": [
         {
           "name": "Crystal Powder",
+          "ref_type": "item",
+          "ref_id": "crystal-powder",
           "icc": 6
         }
       ]
@@ -2299,6 +2369,8 @@
       "items": [
         {
           "name": "Vial",
+          "ref_type": "item",
+          "ref_id": "vial",
           "icc": 3
         }
       ]
@@ -2354,6 +2426,8 @@
       "items": [
         {
           "name": "Nut",
+          "ref_type": "item",
+          "ref_id": "nut",
           "icc": 5
         }
       ]
@@ -2514,6 +2588,8 @@
       "items": [
         {
           "name": "Vial",
+          "ref_type": "item",
+          "ref_id": "vial",
           "icc": 1
         }
       ]
@@ -2569,6 +2645,8 @@
       "items": [
         {
           "name": "Herb",
+          "ref_type": "item",
+          "ref_id": "herb",
           "icc": 5
         }
       ]
@@ -2624,6 +2702,8 @@
       "items": [
         {
           "name": "Antidote",
+          "ref_type": "item",
+          "ref_id": "antidote",
           "icc": 5
         }
       ]
@@ -2679,6 +2759,8 @@
       "items": [
         {
           "name": "Elixir",
+          "ref_type": "item",
+          "ref_id": "elixir",
           "icc": 5
         }
       ]
@@ -2735,6 +2817,8 @@
       "items": [
         {
           "name": "Smoke Bomb",
+          "ref_type": "item",
+          "ref_id": "smoke-bomb",
           "icc": 6
         }
       ]
@@ -2792,6 +2876,8 @@
       "items": [
         {
           "name": "Game Ticket",
+          "ref_type": "item",
+          "ref_id": "game-ticket",
           "icc": 1
         }
       ]
@@ -2897,6 +2983,8 @@
       "items": [
         {
           "name": "Antidote",
+          "ref_type": "item",
+          "ref_id": "antidote",
           "icc": 5
         }
       ]
@@ -2962,6 +3050,8 @@
       "items": [
         {
           "name": "Oil Drop",
+          "ref_type": "item",
+          "ref_id": "oil-drop",
           "icc": 5
         }
       ]
@@ -3016,6 +3106,8 @@
       "items": [
         {
           "name": "Vial",
+          "ref_type": "item",
+          "ref_id": "vial",
           "icc": 4
         }
       ]
@@ -3068,6 +3160,8 @@
       "items": [
         {
           "name": "Nut",
+          "ref_type": "item",
+          "ref_id": "nut",
           "icc": 6
         }
       ]
@@ -3143,6 +3237,8 @@
       "items": [
         {
           "name": "Elixir",
+          "ref_type": "item",
+          "ref_id": "elixir",
           "icc": 6
         }
       ]
@@ -3196,6 +3292,8 @@
       "items": [
         {
           "name": "Elixir",
+          "ref_type": "item",
+          "ref_id": "elixir",
           "icc": 6
         }
       ]
@@ -3250,6 +3348,8 @@
       "items": [
         {
           "name": "Sleep Bomb",
+          "ref_type": "item",
+          "ref_id": "sleep-bomb",
           "icc": 6
         }
       ]
@@ -3305,6 +3405,8 @@
       "items": [
         {
           "name": "Bramble Seed",
+          "ref_type": "item",
+          "ref_id": "bramble-seed",
           "icc": 5
         }
       ]
@@ -3357,6 +3459,8 @@
       "items": [
         {
           "name": "Nut",
+          "ref_type": "item",
+          "ref_id": "nut",
           "icc": 5
         }
       ]
@@ -3422,6 +3526,8 @@
       "items": [
         {
           "name": "Vial",
+          "ref_type": "item",
+          "ref_id": "vial",
           "icc": 1
         }
       ]
@@ -3477,6 +3583,8 @@
       "items": [
         {
           "name": "Sleep Bomb",
+          "ref_type": "item",
+          "ref_id": "sleep-bomb",
           "icc": 6
         }
       ]
@@ -3531,6 +3639,8 @@
       "items": [
         {
           "name": "Herb",
+          "ref_type": "item",
+          "ref_id": "herb",
           "icc": 6
         }
       ]
@@ -3586,6 +3696,8 @@
       "items": [
         {
           "name": "Antidote",
+          "ref_type": "item",
+          "ref_id": "antidote",
           "icc": 5
         }
       ]
@@ -3644,6 +3756,8 @@
       "items": [
         {
           "name": "Herb",
+          "ref_type": "item",
+          "ref_id": "herb",
           "icc": null
         }
       ]
@@ -3709,6 +3823,8 @@
       "items": [
         {
           "name": "Antidote",
+          "ref_type": "item",
+          "ref_id": "antidote",
           "icc": 6
         }
       ]
@@ -3762,6 +3878,8 @@
       "items": [
         {
           "name": "Nut",
+          "ref_type": "item",
+          "ref_id": "nut",
           "icc": 5
         }
       ]
@@ -3818,6 +3936,8 @@
       "items": [
         {
           "name": "Sleep Bomb",
+          "ref_type": "item",
+          "ref_id": "sleep-bomb",
           "icc": 5
         }
       ]
@@ -3891,6 +4011,8 @@
       "items": [
         {
           "name": "Elixir",
+          "ref_type": "item",
+          "ref_id": "elixir",
           "icc": 5
         }
       ]
@@ -3947,6 +4069,8 @@
       "items": [
         {
           "name": "Herb",
+          "ref_type": "item",
+          "ref_id": "herb",
           "icc": 6
         }
       ]
@@ -4003,10 +4127,14 @@
       "items": [
         {
           "name": "Bramble Seed",
+          "ref_type": "item",
+          "ref_id": "bramble-seed",
           "icc": 6
         },
         {
           "name": "Herb",
+          "ref_type": "item",
+          "ref_id": "herb",
           "icc": null
         }
       ]
@@ -4092,6 +4220,8 @@
       "items": [
         {
           "name": "Smoke Bomb",
+          "ref_type": "item",
+          "ref_id": "smoke-bomb",
           "icc": 6
         }
       ]
@@ -4149,6 +4279,8 @@
       "items": [
         {
           "name": "Crystal Powder",
+          "ref_type": "item",
+          "ref_id": "crystal-powder",
           "icc": 5
         }
       ]
@@ -4275,6 +4407,8 @@
       "items": [
         {
           "name": "Prophet's Hat",
+          "ref_type": "equipment",
+          "ref_id": "prophets-hat",
           "icc": 7
         }
       ]
@@ -4328,6 +4462,8 @@
       "items": [
         {
           "name": "Herb",
+          "ref_type": "item",
+          "ref_id": "herb",
           "icc": 6
         }
       ]
@@ -4383,6 +4519,8 @@
       "items": [
         {
           "name": "Nut",
+          "ref_type": "item",
+          "ref_id": "nut",
           "icc": 6
         }
       ]
@@ -4437,6 +4575,8 @@
       "items": [
         {
           "name": "Elixir",
+          "ref_type": "item",
+          "ref_id": "elixir",
           "icc": 5
         }
       ]
@@ -4490,6 +4630,8 @@
       "items": [
         {
           "name": "Vial",
+          "ref_type": "item",
+          "ref_id": "vial",
           "icc": 7
         }
       ]
@@ -4547,6 +4689,8 @@
       "items": [
         {
           "name": "Water of Life",
+          "ref_type": "item",
+          "ref_id": "water-of-life",
           "icc": 1
         }
       ]
@@ -4798,6 +4942,8 @@
       "items": [
         {
           "name": "Elixir",
+          "ref_type": "item",
+          "ref_id": "elixir",
           "icc": 5
         }
       ]
@@ -4854,10 +5000,14 @@
       "items": [
         {
           "name": "Antidote",
+          "ref_type": "item",
+          "ref_id": "antidote",
           "icc": 5
         },
         {
           "name": "Herb",
+          "ref_type": "item",
+          "ref_id": "herb",
           "icc": null
         }
       ]
@@ -4936,6 +5086,8 @@
       "items": [
         {
           "name": "Sleep Bomb",
+          "ref_type": "item",
+          "ref_id": "sleep-bomb",
           "icc": 5
         }
       ]
@@ -4994,6 +5146,8 @@
       "items": [
         {
           "name": "Bramble Seed",
+          "ref_type": "item",
+          "ref_id": "bramble-seed",
           "icc": 6
         }
       ]
@@ -5046,6 +5200,8 @@
       "items": [
         {
           "name": "Crystal Powder",
+          "ref_type": "item",
+          "ref_id": "crystal-powder",
           "icc": 6
         }
       ]
@@ -5103,6 +5259,8 @@
       "items": [
         {
           "name": "Weasel's Claw",
+          "ref_type": "item",
+          "ref_id": "weasels-claw",
           "icc": 5
         }
       ]
@@ -5159,6 +5317,8 @@
       "items": [
         {
           "name": "Smoke Bomb",
+          "ref_type": "item",
+          "ref_id": "smoke-bomb",
           "icc": 5
         }
       ]
@@ -5216,6 +5376,8 @@
       "items": [
         {
           "name": "Elixir",
+          "ref_type": "item",
+          "ref_id": "elixir",
           "icc": 6
         }
       ]
@@ -5270,6 +5432,8 @@
       "items": [
         {
           "name": "Bramble Seed",
+          "ref_type": "item",
+          "ref_id": "bramble-seed",
           "icc": 6
         }
       ]
@@ -5326,6 +5490,8 @@
       "items": [
         {
           "name": "Nut",
+          "ref_type": "item",
+          "ref_id": "nut",
           "icc": 6
         }
       ]
@@ -5379,6 +5545,8 @@
       "items": [
         {
           "name": "Sleep Bomb",
+          "ref_type": "item",
+          "ref_id": "sleep-bomb",
           "icc": 6
         }
       ]
@@ -5434,6 +5602,8 @@
       "items": [
         {
           "name": "Aura Gloves",
+          "ref_type": "equipment",
+          "ref_id": "aura-gloves",
           "icc": 8
         }
       ]
@@ -5489,6 +5659,8 @@
       "items": [
         {
           "name": "Nut",
+          "ref_type": "item",
+          "ref_id": "nut",
           "icc": 5
         }
       ]
@@ -5546,6 +5718,8 @@
       "items": [
         {
           "name": "Water of Life",
+          "ref_type": "item",
+          "ref_id": "water-of-life",
           "icc": 1
         }
       ]
@@ -5655,6 +5829,8 @@
       "items": [
         {
           "name": "Weasel's Claw",
+          "ref_type": "item",
+          "ref_id": "weasels-claw",
           "icc": 4
         }
       ]
@@ -5719,6 +5895,8 @@
       "items": [
         {
           "name": "Giant Axe",
+          "ref_type": "equipment",
+          "ref_id": "giant-axe",
           "icc": 8
         }
       ]
@@ -5770,6 +5948,8 @@
       "items": [
         {
           "name": "Vial",
+          "ref_type": "item",
+          "ref_id": "vial",
           "icc": 6
         }
       ]
@@ -5842,6 +6022,8 @@
       "items": [
         {
           "name": "Antidote",
+          "ref_type": "item",
+          "ref_id": "antidote",
           "icc": 6
         }
       ]
@@ -5900,6 +6082,8 @@
       "items": [
         {
           "name": "Healing Ring",
+          "ref_type": "equipment",
+          "ref_id": "healing-ring",
           "icc": 7
         }
       ]
@@ -5956,6 +6140,8 @@
       "items": [
         {
           "name": "Elixir",
+          "ref_type": "item",
+          "ref_id": "elixir",
           "icc": 6
         }
       ]
@@ -6013,6 +6199,8 @@
       "items": [
         {
           "name": "Crystal Powder",
+          "ref_type": "item",
+          "ref_id": "crystal-powder",
           "icc": 6
         }
       ]
@@ -6067,6 +6255,8 @@
       "items": [
         {
           "name": "Antidote",
+          "ref_type": "item",
+          "ref_id": "antidote",
           "icc": 6
         }
       ]
@@ -6186,6 +6376,8 @@
       "items": [
         {
           "name": "Feathered Robe",
+          "ref_type": "equipment",
+          "ref_id": "feathered-robe",
           "icc": 8
         }
       ]
@@ -6244,6 +6436,8 @@
       "items": [
         {
           "name": "Psy Crystal",
+          "ref_type": "item",
+          "ref_id": "psy-crystal",
           "icc": 7
         }
       ]
@@ -6302,6 +6496,8 @@
       "items": [
         {
           "name": "Nut",
+          "ref_type": "item",
+          "ref_id": "nut",
           "icc": 6
         }
       ]
@@ -6366,6 +6562,8 @@
       "items": [
         {
           "name": "Elixir",
+          "ref_type": "item",
+          "ref_id": "elixir",
           "icc": 6
         }
       ]
@@ -6425,6 +6623,8 @@
       "items": [
         {
           "name": "Spiked Armor",
+          "ref_type": "equipment",
+          "ref_id": "spiked-armor",
           "icc": 7
         }
       ]
@@ -6482,6 +6682,8 @@
       "items": [
         {
           "name": "Potion",
+          "ref_type": "item",
+          "ref_id": "potion",
           "icc": 7
         }
       ]
@@ -6538,6 +6740,8 @@
       "items": [
         {
           "name": "Vial",
+          "ref_type": "item",
+          "ref_id": "vial",
           "icc": 6
         }
       ]
@@ -6592,6 +6796,8 @@
       "items": [
         {
           "name": "Lucky Medal",
+          "ref_type": "item",
+          "ref_id": "lucky-medal",
           "icc": 8
         }
       ]
@@ -6698,6 +6904,8 @@
       "items": [
         {
           "name": "Zodiac Wand",
+          "ref_type": "equipment",
+          "ref_id": "zodiac-wand",
           "icc": 8
         }
       ]
@@ -6752,6 +6960,8 @@
       "items": [
         {
           "name": "Unicorn Ring",
+          "ref_type": "equipment",
+          "ref_id": "unicorn-ring",
           "icc": 7
         }
       ]
@@ -6807,6 +7017,8 @@
       "items": [
         {
           "name": "Water of Life",
+          "ref_type": "item",
+          "ref_id": "water-of-life",
           "icc": 8
         }
       ]
@@ -6872,6 +7084,8 @@
       "items": [
         {
           "name": "Blessed Mace",
+          "ref_type": "equipment",
+          "ref_id": "blessed-mace",
           "icc": 8
         }
       ]
@@ -6927,6 +7141,8 @@
       "items": [
         {
           "name": "Kikuichimonji",
+          "ref_type": "equipment",
+          "ref_id": "kikuichimonji",
           "icc": 9
         }
       ]
@@ -6979,52 +7195,15 @@
       "items": [
         {
           "name": "Lucky Medal",
+          "ref_type": "item",
+          "ref_id": "lucky-medal",
           "icc": 1
-        },
-        {
-          "name": "::Carries::",
-          "icc": null
-        },
-        {
-          "name": "(1)  Crystal Powder",
-          "icc": null
-        },
-        {
-          "name": "(1)  Smoke Bomb",
-          "icc": null
-        },
-        {
-          "name": "(1)  Nut",
-          "icc": null
-        },
-        {
-          "name": "(1)  Sleep Bomb",
-          "icc": null
         }
       ]
     },
     "sources": [
       "super-slash",
       "torrent-load"
-    ],
-    "conflicts": [
-      {
-        "field": "drops.items",
-        "values": {
-          "super-slash": [
-            "lucky medal"
-          ],
-          "torrent-load": [
-            "(1)  crystal powder",
-            "(1)  nut",
-            "(1)  sleep bomb",
-            "(1)  smoke bomb",
-            "::carries::",
-            "lucky medal"
-          ]
-        },
-        "note": null
-      }
     ]
   },
   {
@@ -7075,6 +7254,8 @@
       "items": [
         {
           "name": "Potion",
+          "ref_type": "item",
+          "ref_id": "potion",
           "icc": 1
         }
       ]
@@ -7129,6 +7310,8 @@
       "items": [
         {
           "name": "Potion",
+          "ref_type": "item",
+          "ref_id": "potion",
           "icc": 1
         }
       ]
@@ -7184,6 +7367,8 @@
       "items": [
         {
           "name": "Crystal Powder",
+          "ref_type": "item",
+          "ref_id": "crystal-powder",
           "icc": 5
         }
       ]
@@ -7243,6 +7428,8 @@
       "items": [
         {
           "name": "Psy Crystal",
+          "ref_type": "item",
+          "ref_id": "psy-crystal",
           "icc": 1
         }
       ]
@@ -7297,6 +7484,8 @@
       "items": [
         {
           "name": "Antidote",
+          "ref_type": "item",
+          "ref_id": "antidote",
           "icc": 5
         }
       ]
@@ -7356,6 +7545,8 @@
       "items": [
         {
           "name": "Potion",
+          "ref_type": "item",
+          "ref_id": "potion",
           "icc": 1
         }
       ]
@@ -7424,6 +7615,8 @@
       "items": [
         {
           "name": "Psy Crystal",
+          "ref_type": "item",
+          "ref_id": "psy-crystal",
           "icc": 1
         }
       ]
@@ -7483,6 +7676,8 @@
       "items": [
         {
           "name": "Potion",
+          "ref_type": "item",
+          "ref_id": "potion",
           "icc": 1
         }
       ]
@@ -7540,6 +7735,8 @@
       "items": [
         {
           "name": "Water of Life",
+          "ref_type": "item",
+          "ref_id": "water-of-life",
           "icc": 1
         }
       ]
@@ -7595,6 +7792,8 @@
       "items": [
         {
           "name": "Water of Life",
+          "ref_type": "item",
+          "ref_id": "water-of-life",
           "icc": 1
         }
       ]
@@ -7652,6 +7851,8 @@
       "items": [
         {
           "name": "Psy Crystal",
+          "ref_type": "item",
+          "ref_id": "psy-crystal",
           "icc": 1
         }
       ]
@@ -7710,6 +7911,8 @@
       "items": [
         {
           "name": "Potion",
+          "ref_type": "item",
+          "ref_id": "potion",
           "icc": 1
         }
       ]

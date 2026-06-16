@@ -98,10 +98,40 @@ GS1 原型已把 djinn / bosses / equipment / classes / psynergy 五类 schema +
   - 脚本：`scripts/equipment_supplement.py`（覆盖+冲突报告）+ `scripts/equipment_apply.py`（重生成，从 curated 87 基底每次重建 54，可重入、字节级幂等）
   - 修了 1 个解析 bug：「One-Piece Dress」含连字符未被识别为新块 → 数据漏进上一条（Cocktail Dress）；id slug 去撇号匹配既有命名（knights-helm 而非 knight-s-helm）
 
-### Phase D — locations（最难，单列，需清洗层）
-- [ ] **D1 locations**（L）→ `data/gs1/locations.json`（现为空）
-  - 散落在各攻略，无规整源 → 先按地区切中间 markdown（staging），人工 review 后再出 JSON
-  - 建议**最后做**，或独立成另一个 plan
+### Phase D — locations（做成 gazetteer / hub 节点，不做复杂结构；最后做）
+
+**设计决定（关键 = 简化）**：`locations.json` 只做**规范地名注册表 + hub 节点**，**不**做房间/连接/坐标/逐格道具这类复杂结构。
+理由：① 复杂结构化 location 收益低、维护贵；② 地图已在 `data/gs1/gs1_maps.md`（含 ASCII 图 + 道具 + 敌人 + 图例），攻略散文已在 `data/gs1/gs1_walkthrough.md`，再 JSON 化只是重复。
+locations.json 的真正价值 = ①一份**规范地名清单**（type + 章节 + 一句话）；②把现有各 JSON 里散落的 location 字符串（`djinn.location.area` / `equipment.acquisition.location` / `monsters.found[]` / `bosses.location` / shops 镇名 / `items.location` / `psynergy.acquisition.location`）**反向索引**聚到一个节点。
+
+**源（全是已清洗的二手层，本批不必再读 raw）**：
+- `gs1_maps.md` 的三个分类标题块（World Map / Towns & Villages / Dungeons & Caves / Other）→ 直接给 `type` 分类 + `has_map`。其 `_(暂无 ASCII 地图)_` 占位 = `has_map:false`。
+- `gs1_walkthrough.md` 的 `### {地点}` 标题序（按 chapter 组织）→ 给 `chapter_first_seen` + 截 narrative 首句做 `summary`。
+
+**schema（最小字段，新增 `locations` 段；TOC + Master Source IDs 同步）**：
+- `id`(slug)、`name`(游戏内名)、`type`(enum: `town` | `dungeon` | `world_map` | `other`)、`region`(string|null)、`chapter_first_seen`(string)、`summary`(1 句，取自 walkthrough narrative，不臆造)、`has_map`(bool，true 时即指向 `gs1_maps.md` 同名条目)、`aliases`(array：攻略里出现的异名 / revisit / 拆屏变体，**供反向索引匹配用**)
+- **反向索引（refs）= 派生的物化视图，不嵌在 locations.json**，单独落 `data/gs1/location_refs.json`（脚本生成、勿手改）。locations.json 保持纯手写 dimension/词表。设计依据：源/派生分层、先量化数据质量再决定是否清源（data management 规范，详见 `docs/data_management_notes.md`）。
+- **无冲突标记环节**：注册表是地名枚举，无多源数值分歧；故不套 conflicts/resolution 机制。
+
+**步骤（轻量，2 步）**：
+- [x] **D1 清单 + schema**（S–M）→ `locations.json` 骨架（**38 条**：12 town / 22 dungeon / 3 other / 1 world_map；26 条 has_map）✅
+  - 合并两文件标题 + 各 JSON 实际 location 字符串 → **去重归一**：`Imil Ice Sliding`/`(Post-Lighthouse)` → imil；`Crossbone Isle #1..#10`/`Ghost Ship` → crossbone-isle；`World Map (near Vale)`/`World Map 1..9` 等 → 单个 world-map；`Colosso`/`Babi's Palace`/`Battle Arena` → tolbi（`Vale Cave`/`Vault Cave`/`Kalay Tunnel` 保留独立）。
+  - `type` 照 maps.md 分类；`aliases` 已**预填各 JSON 里的真实写法含 typo**（`Bibilin Cave`/`Atmiller Cave`/`Tolbi-bound Boat`/`Crossbones Isle`）以拉高 D2 命中率。
+  - schema 已加 `locations` 段（含 Type Enum + 示例 + CC 注记）；TOC 同步；Master Source IDs 加 `gs1-walkthrough` / `gs1-maps` 两个清洗层源。
+  - chapter 用 `gs1_walkthrough.md`（非 fable）编号；refs 外迁 D2。校验：38 id 唯一、0 alias 冲突、JSON 合法。
+- [x] **D2 反向索引（物化视图）**（S）→ `scripts/locations_refs.py` + `data/gs1/location_refs.json`（可重入、字节级幂等）✅
+  - 读 djinn / equipment / monsters / bosses / shops / items 的 location 字段，按 `aliases` 解析到 location id，物化反向索引到**独立文件** `location_refs.json`（不回写 locations.json，不动源实体）。
+  - 解析器：整串精确 → 拆复合串（` / ;,` 切片 + 剥 `(...)` 括注）→ 词边界子串兜底；多匹配（一条装备可同属 3 个灯塔）。
+  - **未匹配从 10 → 0**：白名单掉 `B2/B3`（floor 碎片，母条目已含 Altin Peak）、`Various shops / Mimics`（game-ticket 非定点）、`[Not In Game]`。
+  - psynergy/summons 无 location 字段，未纳入。零-ref 地点 2 个（idejima 片尾场景 / lama-temple 纯剧情）合理为空。
+  - 校验：双向引用完整性（location id + 实体 id 均真实）；重跑 md5 一致；抽样 mercury-lighthouse→saturos、kolima-forest→tret/breeze、tolbi→springs items 均正确。
+  - schema 改：locations 段删 `refs` 字段、加「Derived view」小节；TOC 同步。
+- [x] **D3 教学文档**（S）✅ → `docs/data_management_notes.md`：用本项目实例讲 data management（源/派生、物化视图、受控词表/实体解析、引用完整性、measure-before-mutate）。
+
+估算：整体 S–M，**比 A/B/C 都轻**（无 raw 切片、无冲突裁决）。D1+D2 已收尾；D3 为用户额外要求的科普文档。
+
+### Phase E — 跨实体 FK 规范化（已完成，独立 tracker）
+A–D 完成后，把「各实体只靠 name 字符串隐式相连」升级成 **id 连通、可强校验的图**：补 10 个缺失 item、建 `characters.json`、给 classes/shops/monsters/psynergy 回填 FK（`scripts/links_normalize.py`）、加只读质量门（`scripts/links_audit.py`）。详见独立 tracker **`docs/gs1_linkage_normalization_plan.md`**。
 
 ### 每批通用：新增 source 时
 - 把新 source ID 加进 `schema/gs1_schema.md` 的 **Master Source IDs** 表。
@@ -120,6 +150,8 @@ GS1 原型已把 djinn / bosses / equipment / classes / psynergy 五类 schema +
 | 2026-06-15 | C3 classes | classes.json(76) stat% 15→72(填57)；electro+shotgun+aku-chi 三源；13 冲突 | 放弃 Telago(难解析)；champion pp 多数120 压过 aku-chi 110；classes_supplement+apply 脚本 |
 | 2026-06-15 | C3 复核 | 加第4源 FandomWiki 通用职业表(20行)；20 条引用 fandom-wiki；脚本可重入 | 用户查 wiki 纠正：**champion pp 120→110**(2-2平局→权威 aku-chi/fandom-wiki)；medium agi/lck 升 majority；权威只认 aku-chi/fandom-wiki，electro≠shotgun 1v1 留 unresolved |
 | 2026-06-15 | C4 equipment | equipment.json(141=87+54)；3 结构化源(shotgunnova/super-slash/electrospecter)；equipment_supplement+apply 脚本 | 补全 shops 全部 54 基础装备(stock 0 缺口)；价格多数票(Wooden Stick 40/Circlet 120/Battle Rapier 2900)；4 既有 stat 冲突 authority 保 dnextreme88；20 冲突全裁决；修 One-Piece Dress 连字符解析 bug |
+| 2026-06-16 | D1 locations | locations.json(38: 12town/22dungeon/3other/1world_map) + schema locations 段 + TOC + 2 源(gs1-walkthrough/gs1-maps) | gazetteer/hub 设计；折叠 Crossbone 9 层/World Map/Imil 子区到 aliases；aliases 预填各 JSON 真实写法+typo；refs 全空待 D2；38 id 唯一/0 alias 冲突 |
+| 2026-06-16 | D2 location_refs | scripts/locations_refs.py + data/gs1/location_refs.json(物化视图) ；locations.json 删 refs 字段；schema 加 Derived view 小节 | 反向索引外迁独立文件(源/派生分层)；解析器 精确+拆复合+子串兜底+多匹配；未匹配 10→0(白名单 B2/B3·Various shops·[Not In Game])；双向引用完整性+md5 幂等校验通过；2 零-ref 地点(idejima/lama-temple)合理 |
 
 ## 验证方式（落地后）
 - 计数核对：djinn=28、summons=16、monsters≈全敌人数等已知总数

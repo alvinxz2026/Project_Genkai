@@ -123,8 +123,13 @@ def parse_torrent():
         if cur is None:
             continue
         s = l.strip()
-        if s in ("::Stats::", "::Abilities::", "::Drops::", "::Location::"):
-            section = s.strip(":").lower()
+        sm = re.match(r"^::(.+?)::$", s)
+        if sm:
+            # Recognize ANY ::Section:: marker. Known ones (stats/abilities/drops/
+            # location) are parsed below; unknown ones (e.g. ::Carries:: on the
+            # Hobgoblin) set a section with no handler, so their lines are skipped
+            # rather than leaking into the previous section's data.
+            section = sm.group(1).strip().lower()
             continue
         if not s or set(s) <= {"~"}:   # skip blanks and block-border tildes
             continue

@@ -1,0 +1,47 @@
+[
+  {
+    "id": "isaac",
+    "name": "Isaac",
+    "game": "gs1",
+    "element": "earth",
+    "is_permanent": true,
+    "notes": "Venus Adept and the silent protagonist; party leader for all of GS1.",
+    "sources": ["fandom-wiki"]
+  },
+  {
+    "id": "garet",
+    "name": "Garet",
+    "game": "gs1",
+    "element": "fire",
+    "is_permanent": true,
+    "notes": "Mars Adept; joins in the Prologue and stays for the whole game.",
+    "sources": ["fandom-wiki"]
+  },
+  {
+    "id": "ivan",
+    "name": "Ivan",
+    "game": "gs1",
+    "element": "wind",
+    "is_permanent": true,
+    "notes": "Jupiter Adept; joins in Kalay (Chapter 9).",
+    "sources": ["fandom-wiki"]
+  },
+  {
+    "id": "mia",
+    "name": "Mia",
+    "game": "gs1",
+    "element": "water",
+    "is_permanent": true,
+    "notes": "Mercury Adept; joins at Mercury Lighthouse / Imil (Chapter 3).",
+    "sources": ["fandom-wiki"]
+  },
+  {
+    "id": "jenna",
+    "name": "Jenna",
+    "game": "gs1",
+    "element": "fire",
+    "is_permanent": false,
+    "notes": "Mars Adept; playable only during the Prologue in GS1, then leaves the party. Becomes a full party member in GS2.",
+    "sources": ["fandom-wiki"]
+  }
+]

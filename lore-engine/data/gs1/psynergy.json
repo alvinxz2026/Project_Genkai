@@ -3768,6 +3768,7 @@
     ],
     "acquired_via_item": {
       "item": "Frost Jewel",
+      "item_id": "frost-jewel",
       "location": "Defeat the first Living Statue in Altin Peak.",
       "source": "tetzcatlipoca"
     },
@@ -4039,6 +4040,7 @@
     ],
     "acquired_via_item": {
       "item": "Douse Drop",
+      "item_id": "douse-drop",
       "location": "Defeat the Ape at the end of Mogall Forest.",
       "source": "tetzcatlipoca"
     },
@@ -4372,6 +4374,7 @@
     ],
     "acquired_via_item": {
       "item": "Catch Beads",
+      "item_id": "catch-beads",
       "location": "Given by Garet's sister (from Dora) when leaving Vale at the start of the journey.",
       "source": "tetzcatlipoca"
     },
@@ -4405,6 +4408,7 @@
     ],
     "acquired_via_item": {
       "item": "Orb of Force",
+      "item_id": "orb-of-force",
       "location": "Complete the puzzles in Fuchin Falls Cave.",
       "source": "tetzcatlipoca"
     },
@@ -4449,6 +4453,7 @@
     ],
     "acquired_via_item": {
       "item": "Lifting Gem",
+      "item_id": "lifting-gem",
       "location": "Defeat the Hydros Statue in Altin Peak; open the chest behind it.",
       "source": "tetzcatlipoca"
     },
@@ -4483,6 +4488,7 @@
     ],
     "acquired_via_item": {
       "item": "Carry Stone",
+      "item_id": "carry-stone",
       "location": "Found in Venus Lighthouse.",
       "source": "tetzcatlipoca"
     },
@@ -4527,6 +4533,7 @@
     ],
     "acquired_via_item": {
       "item": "Halt Gem",
+      "item_id": "halt-gem",
       "location": "Revisit Vale later in the game; use Lift on the rock near Kraden's house and enter the cave.",
       "source": "tetzcatlipoca"
     },
@@ -4561,6 +4568,7 @@
     ],
     "acquired_via_item": {
       "item": "Cloak Ball",
+      "item_id": "cloak-ball",
       "location": "Beside Babi's bed after winning Colosso.",
       "source": "tetzcatlipoca"
     },

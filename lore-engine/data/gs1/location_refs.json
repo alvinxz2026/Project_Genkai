@@ -1,0 +1,863 @@
+{
+  "generated_by": "scripts/locations_refs.py",
+  "note": "DERIVED materialized view. Do not hand-edit. Rebuild: python scripts/locations_refs.py",
+  "source_files": [
+    "djinn.json",
+    "equipment.json",
+    "monsters.json",
+    "bosses.json",
+    "shops.json",
+    "items.json"
+  ],
+  "locations": {
+    "altin": {
+      "djinn": [
+        "spritz"
+      ],
+      "equipment": [
+        "chain-mail",
+        "claymore",
+        "gauntlets",
+        "iron-helm",
+        "psynergy-rod"
+      ],
+      "monsters": [],
+      "bosses": [],
+      "shops": [
+        "altin"
+      ],
+      "items": []
+    },
+    "altin-peak": {
+      "djinn": [],
+      "equipment": [
+        "dragon-shield"
+      ],
+      "monsters": [
+        "ape",
+        "bone-fighter",
+        "calamar",
+        "dirge",
+        "living-statue",
+        "mercury-djinni-spritz",
+        "mimic-3",
+        "rat-fighter",
+        "slime-beast",
+        "tarantula"
+      ],
+      "bosses": [
+        "hydros-statue"
+      ],
+      "shops": [],
+      "items": []
+    },
+    "altmiller-cave": {
+      "djinn": [
+        "squall"
+      ],
+      "equipment": [
+        "prophets-hat"
+      ],
+      "monsters": [
+        "armored-rat",
+        "clay-gargoyle",
+        "dread-hound",
+        "foul-dirge",
+        "gnome-mage",
+        "golem",
+        "jupiter-djinni-squall",
+        "mad-mole",
+        "mimic-6",
+        "wight",
+        "worm"
+      ],
+      "bosses": [],
+      "shops": [],
+      "items": []
+    },
+    "babi-lighthouse": {
+      "djinn": [
+        "luff"
+      ],
+      "equipment": [
+        "feathered-robe",
+        "spiked-armor"
+      ],
+      "monsters": [
+        "chimera-mage",
+        "gnome-wizard",
+        "ice-gargoyle",
+        "jupiter-djinni-luff",
+        "manticore-king",
+        "nightmare",
+        "orc-lord",
+        "plated-rat",
+        "skull-warrior",
+        "wild-gryphon",
+        "willowisp"
+      ],
+      "bosses": [],
+      "shops": [],
+      "items": [
+        "lucky-medal",
+        "potion",
+        "psy-crystal"
+      ]
+    },
+    "bilibin": {
+      "djinn": [
+        "gust"
+      ],
+      "equipment": [
+        "broad-sword",
+        "bronze-shield",
+        "heavy-mace",
+        "hunters-sword",
+        "leather-armor",
+        "leather-gloves",
+        "magic-rod",
+        "open-helm",
+        "travel-robe",
+        "witchs-wand",
+        "wooden-cap"
+      ],
+      "monsters": [],
+      "bosses": [],
+      "shops": [
+        "bilibin"
+      ],
+      "items": []
+    },
+    "bilibin-cave": {
+      "djinn": [],
+      "equipment": [
+        "elven-rapier"
+      ],
+      "monsters": [
+        "ghoul",
+        "ooze"
+      ],
+      "bosses": [],
+      "shops": [],
+      "items": []
+    },
+    "crossbone-isle": {
+      "djinn": [
+        "bane"
+      ],
+      "equipment": [
+        "clerics-ring",
+        "demon-axe",
+        "demon-mail",
+        "fairy-ring",
+        "muramasa",
+        "mystery-blade",
+        "ninja-garb",
+        "storm-gear",
+        "wicked-mace"
+      ],
+      "monsters": [
+        "cerebus",
+        "chimera",
+        "earth-lizard",
+        "fiendish-ghoul",
+        "grisly",
+        "gryphon",
+        "harridan",
+        "hobgoblin",
+        "lich",
+        "lizard-king",
+        "mimic-8",
+        "mimic-9",
+        "poison-toad",
+        "stone-soldier",
+        "succubus",
+        "thunder-lizard",
+        "virago"
+      ],
+      "bosses": [
+        "deadbeard"
+      ],
+      "shops": [],
+      "items": []
+    },
+    "fuchin-falls-cave": {
+      "djinn": [
+        "zephyr"
+      ],
+      "equipment": [
+        "arctic-blade"
+      ],
+      "monsters": [
+        "bone-fighter",
+        "dirge",
+        "jupiter-djinni-zephyr",
+        "mauler",
+        "mimic-2",
+        "mole",
+        "ooze",
+        "spirit"
+      ],
+      "bosses": [],
+      "shops": [],
+      "items": []
+    },
+    "fuchin-temple": {
+      "djinn": [],
+      "equipment": [
+        "unicorn-ring"
+      ],
+      "monsters": [],
+      "bosses": [],
+      "shops": [],
+      "items": []
+    },
+    "goma-cave": {
+      "djinn": [
+        "forge"
+      ],
+      "equipment": [],
+      "monsters": [
+        "bat-2",
+        "ghost",
+        "mars-djinni-forge",
+        "skeleton",
+        "will-head",
+        "zombie-2"
+      ],
+      "bosses": [],
+      "shops": [],
+      "items": []
+    },
+    "gondowan-cave": {
+      "djinn": [],
+      "equipment": [],
+      "monsters": [
+        "dirty-ape",
+        "kobold",
+        "rat-warrior",
+        "warrior-bee"
+      ],
+      "bosses": [],
+      "shops": [],
+      "items": []
+    },
+    "idejima": {
+      "djinn": [],
+      "equipment": [],
+      "monsters": [],
+      "bosses": [],
+      "shops": [],
+      "items": []
+    },
+    "imil": {
+      "djinn": [
+        "fever"
+      ],
+      "equipment": [
+        "adepts-clothes",
+        "blessed-ankh"
+      ],
+      "monsters": [],
+      "bosses": [],
+      "shops": [
+        "imil"
+      ],
+      "items": [
+        "empty-bottle"
+      ]
+    },
+    "kalay": {
+      "djinn": [
+        "ground",
+        "scorch"
+      ],
+      "equipment": [
+        "frost-wand",
+        "heavy-armlet",
+        "jerkin",
+        "mail-cap",
+        "water-jacket"
+      ],
+      "monsters": [],
+      "bosses": [],
+      "shops": [
+        "kalay"
+      ],
+      "items": []
+    },
+    "kalay-tunnel": {
+      "djinn": [],
+      "equipment": [
+        "spirit-gloves"
+      ],
+      "monsters": [],
+      "bosses": [],
+      "shops": [],
+      "items": []
+    },
+    "kolima": {
+      "djinn": [
+        "granite"
+      ],
+      "equipment": [
+        "armlet",
+        "broad-axe",
+        "bronze-helm"
+      ],
+      "monsters": [],
+      "bosses": [],
+      "shops": [
+        "kolima"
+      ],
+      "items": []
+    },
+    "kolima-forest": {
+      "djinn": [
+        "breeze"
+      ],
+      "equipment": [
+        "fur-coat",
+        "healing-ring"
+      ],
+      "monsters": [
+        "creeper",
+        "drone-bee",
+        "gnome",
+        "jupiter-djinni-breeze",
+        "rat",
+        "rat-soldier",
+        "skeleton",
+        "spider",
+        "troll",
+        "will-head"
+      ],
+      "bosses": [
+        "tret"
+      ],
+      "shops": [],
+      "items": []
+    },
+    "lalivero": {
+      "djinn": [
+        "torch"
+      ],
+      "equipment": [
+        "crystal-rod",
+        "jeweled-crown",
+        "knights-helm",
+        "magical-cassock",
+        "mirrored-shield",
+        "platinum-circlet",
+        "righteous-mace",
+        "silver-blade",
+        "spirit-armlet",
+        "steel-armor",
+        "swift-sword"
+      ],
+      "monsters": [],
+      "bosses": [],
+      "shops": [
+        "lalivero"
+      ],
+      "items": []
+    },
+    "lama-temple": {
+      "djinn": [],
+      "equipment": [],
+      "monsters": [],
+      "bosses": [],
+      "shops": [],
+      "items": []
+    },
+    "lamakan-desert": {
+      "djinn": [
+        "smog"
+      ],
+      "equipment": [
+        "vulcan-axe"
+      ],
+      "monsters": [
+        "ant-lion",
+        "fighter-bee",
+        "grub",
+        "orc",
+        "rat-fighter",
+        "salamander"
+      ],
+      "bosses": [
+        "manticore"
+      ],
+      "shops": [],
+      "items": []
+    },
+    "lunpa": {
+      "djinn": [],
+      "equipment": [
+        "blessed-robe",
+        "demonic-staff",
+        "dragon-axe",
+        "ninja-blade",
+        "plate-mail",
+        "shamshir",
+        "silver-armlet",
+        "silver-helm",
+        "war-gloves"
+      ],
+      "monsters": [],
+      "bosses": [],
+      "shops": [
+        "lunpa"
+      ],
+      "items": []
+    },
+    "lunpa-fortress": {
+      "djinn": [
+        "tonic"
+      ],
+      "equipment": [
+        "mythril-circlet"
+      ],
+      "monsters": [
+        "brigand",
+        "kobold",
+        "rat-warrior",
+        "vile-dirge"
+      ],
+      "bosses": [
+        "toadonpa"
+      ],
+      "shops": [],
+      "items": [
+        "cell-key"
+      ]
+    },
+    "mercury-lighthouse": {
+      "djinn": [
+        "fizz",
+        "sleet"
+      ],
+      "equipment": [
+        "psynergy-armor"
+      ],
+      "monsters": [
+        "cuttle",
+        "gnome",
+        "harpy",
+        "lizard-man",
+        "mauler",
+        "mercury-djinni-sleet",
+        "mimic-1",
+        "ooze",
+        "siren"
+      ],
+      "bosses": [
+        "saturos"
+      ],
+      "shops": [],
+      "items": [
+        "hermes-water"
+      ]
+    },
+    "mogall-forest": {
+      "djinn": [
+        "quartz"
+      ],
+      "equipment": [
+        "elven-shirt"
+      ],
+      "monsters": [
+        "ape",
+        "bone-fighter",
+        "death-head",
+        "dirge",
+        "spirit",
+        "venus-djinni-quartz"
+      ],
+      "bosses": [
+        "killer-ape"
+      ],
+      "shops": [],
+      "items": []
+    },
+    "sol-sanctum": {
+      "djinn": [],
+      "equipment": [],
+      "monsters": [
+        "amaze-1",
+        "bat-1",
+        "slime-1",
+        "vermin-1",
+        "wild-mushroom-1"
+      ],
+      "bosses": [],
+      "shops": [],
+      "items": []
+    },
+    "suhalla": {
+      "djinn": [],
+      "equipment": [],
+      "monsters": [],
+      "bosses": [],
+      "shops": [
+        "suhalla"
+      ],
+      "items": []
+    },
+    "suhalla-desert": {
+      "djinn": [
+        "flash"
+      ],
+      "equipment": [
+        "aura-gloves",
+        "virtuous-armlet"
+      ],
+      "monsters": [
+        "acid-maggot",
+        "brutal-troll",
+        "harridan",
+        "kobold",
+        "magicore",
+        "mars-djinni-flash",
+        "mimic-7",
+        "orc-captain",
+        "roach",
+        "stone-soldier",
+        "tornado-lizard",
+        "vile-dirge"
+      ],
+      "bosses": [
+        "storm-lizard",
+        "tempest-lizard"
+      ],
+      "shops": [],
+      "items": []
+    },
+    "suhalla-gate": {
+      "djinn": [
+        "dew"
+      ],
+      "equipment": [
+        "giant-axe",
+        "healing-ring"
+      ],
+      "monsters": [
+        "cannibal-ghoul",
+        "earth-golem",
+        "gnome-wizard",
+        "goblin",
+        "horned-ghost",
+        "mercury-djinni-dew",
+        "mole-mage",
+        "nightmare"
+      ],
+      "bosses": [],
+      "shops": [],
+      "items": []
+    },
+    "tolbi": {
+      "djinn": [
+        "ember"
+      ],
+      "equipment": [
+        "adept-ring",
+        "adepts-helm",
+        "angelic-ankh",
+        "armored-shell",
+        "assassin-blade",
+        "battle-gloves",
+        "burning-axe",
+        "cocktail-dress",
+        "earth-shield",
+        "fur-boots",
+        "glittering-tiara",
+        "great-axe",
+        "great-sword",
+        "grievous-mace",
+        "guardian-armlet",
+        "guardian-circlet",
+        "hyper-boots",
+        "kimono",
+        "knights-shield",
+        "lure-cap",
+        "master-rapier",
+        "mythril-shirt",
+        "ninja-hood",
+        "quick-boots",
+        "running-shirt",
+        "silk-shirt",
+        "silver-vest",
+        "sleep-ring",
+        "spirit-armor",
+        "steel-helm",
+        "war-mace",
+        "war-ring"
+      ],
+      "monsters": [
+        "azart",
+        "navampa",
+        "satrage"
+      ],
+      "bosses": [],
+      "shops": [
+        "tolbi"
+      ],
+      "items": [
+        "potion",
+        "psy-crystal",
+        "water-of-life"
+      ]
+    },
+    "tolbi-bound-ship": {
+      "djinn": [],
+      "equipment": [],
+      "monsters": [
+        "lizard-fighter",
+        "man-o-war",
+        "rabid-bat",
+        "virago"
+      ],
+      "bosses": [
+        "kraken"
+      ],
+      "shops": [],
+      "items": []
+    },
+    "tunnel-ruins": {
+      "djinn": [],
+      "equipment": [
+        "asuras-armor",
+        "feathered-robe",
+        "oracles-robe",
+        "spiked-armor"
+      ],
+      "monsters": [
+        "chimera-mage",
+        "ice-gargoyle",
+        "manticore-king",
+        "orc-lord",
+        "plated-rat",
+        "skull-warrior",
+        "wild-gryphon",
+        "willowisp"
+      ],
+      "bosses": [],
+      "shops": [],
+      "items": [
+        "lucky-medal",
+        "potion",
+        "psy-crystal"
+      ]
+    },
+    "vale": {
+      "djinn": [
+        "kite"
+      ],
+      "equipment": [
+        "cotton-shirt",
+        "leather-cap",
+        "long-sword",
+        "mace",
+        "one-piece-dress",
+        "padded-gloves",
+        "short-sword",
+        "travel-vest",
+        "wooden-shield",
+        "wooden-stick"
+      ],
+      "monsters": [
+        "bat-1",
+        "vermin-1",
+        "wild-mushroom-1",
+        "zombie-1"
+      ],
+      "bosses": [
+        "menardi",
+        "saturos"
+      ],
+      "shops": [
+        "vale"
+      ],
+      "items": []
+    },
+    "vale-cave": {
+      "djinn": [],
+      "equipment": [],
+      "monsters": [
+        "death-cap",
+        "fighter-bee",
+        "ghost-mage",
+        "mad-vermin",
+        "ravager",
+        "undead"
+      ],
+      "bosses": [],
+      "shops": [],
+      "items": []
+    },
+    "vault": {
+      "djinn": [
+        "sap"
+      ],
+      "equipment": [
+        "bandits-sword",
+        "battle-axe",
+        "circlet",
+        "leather-armlet",
+        "shamans-rod"
+      ],
+      "monsters": [
+        "bandit",
+        "thief"
+      ],
+      "bosses": [
+        "bandits"
+      ],
+      "shops": [
+        "vault"
+      ],
+      "items": []
+    },
+    "vault-cave": {
+      "djinn": [],
+      "equipment": [
+        "vambrace"
+      ],
+      "monsters": [
+        "cave-troll",
+        "death-cap",
+        "fighter-bee",
+        "gargoyle",
+        "ghost-mage",
+        "mimic-4",
+        "ravager"
+      ],
+      "bosses": [],
+      "shops": [],
+      "items": []
+    },
+    "venus-lighthouse": {
+      "djinn": [],
+      "equipment": [
+        "blessed-mace",
+        "dragon-scales",
+        "feathered-robe",
+        "gaia-blade",
+        "giant-axe",
+        "healing-ring",
+        "kikuichimonji",
+        "lucky-cap",
+        "spiked-armor",
+        "thunder-crown",
+        "unicorn-ring",
+        "warriors-helm",
+        "zodiac-wand"
+      ],
+      "monsters": [
+        "boulder-beast",
+        "chimera-mage",
+        "earth-golem",
+        "fenrir",
+        "gnome-wizard",
+        "grand-golem",
+        "horned-ghost",
+        "ice-gargoyle",
+        "manticore-king",
+        "nightmare",
+        "recluse",
+        "skull-warrior",
+        "thunder-lizard",
+        "wild-gryphon",
+        "willowisp"
+      ],
+      "bosses": [
+        "fusion-dragon",
+        "menardi",
+        "saturos"
+      ],
+      "shops": [],
+      "items": [
+        "potion",
+        "psy-crystal",
+        "water-of-life"
+      ]
+    },
+    "world-map": {
+      "djinn": [
+        "corona",
+        "flint",
+        "hail",
+        "vine"
+      ],
+      "equipment": [
+        "turtle-boots"
+      ],
+      "monsters": [
+        "amaze",
+        "ape",
+        "armored-rat",
+        "bat-2",
+        "bone-fighter",
+        "brutal-troll",
+        "death-cap",
+        "death-head",
+        "dirge",
+        "dirty-ape",
+        "drone-bee",
+        "fighter-bee",
+        "foul-dirge",
+        "ghost",
+        "gnome",
+        "gnome-mage",
+        "kobold",
+        "lizard-man",
+        "mad-mole",
+        "mad-vermin",
+        "mars-djinni-corona",
+        "mauler",
+        "mercury-djinni-hail",
+        "mole",
+        "ooze",
+        "orc-captain",
+        "rabid-bat",
+        "rat",
+        "rat-soldier",
+        "rat-warrior",
+        "skeleton",
+        "slime-2",
+        "spirit",
+        "troll",
+        "undead",
+        "venus-djinni-vine",
+        "vermin-2",
+        "vile-dirge",
+        "warrior-bee",
+        "wild-mushroom-2",
+        "zombie-1",
+        "zombie-2"
+      ],
+      "bosses": [],
+      "shops": [],
+      "items": []
+    },
+    "xian": {
+      "djinn": [
+        "mist"
+      ],
+      "equipment": [
+        "battle-mace",
+        "battle-rapier",
+        "china-dress",
+        "iron-shield",
+        "silk-robe",
+        "silver-circlet"
+      ],
+      "monsters": [],
+      "bosses": [],
+      "shops": [
+        "xian"
+      ],
+      "items": []
+    }
+  }
+}
