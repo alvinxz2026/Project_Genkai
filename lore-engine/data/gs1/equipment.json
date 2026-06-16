@@ -52,7 +52,10 @@
     },
     "sources": [
       "dnextreme88",
-      "rockettrekkie"
+      "rockettrekkie",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash"
     ]
   },
   {
@@ -110,7 +113,9 @@
     },
     "sources": [
       "dnextreme88",
-      "rockettrekkie"
+      "rockettrekkie",
+      "electrospecter",
+      "super-slash"
     ]
   },
   {
@@ -166,7 +171,10 @@
     },
     "sources": [
       "dnextreme88",
-      "rockettrekkie"
+      "rockettrekkie",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash"
     ]
   },
   {
@@ -224,7 +232,10 @@
     },
     "sources": [
       "dnextreme88",
-      "rockettrekkie"
+      "rockettrekkie",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash"
     ],
     "conflicts": [
       {
@@ -233,7 +244,8 @@
           "dnextreme88": "Tolbi",
           "rockettrekkie": "Lunpa"
         },
-        "note": "dnextreme88 says buy from Tolbi's weapon dealer; rockettrekkie lists as Artifacts list (Lunpa)"
+        "note": "dnextreme88 says buy from Tolbi's weapon dealer; rockettrekkie lists as Artifacts list (Lunpa)",
+        "resolution": "unresolved"
       }
     ]
   },
@@ -292,7 +304,10 @@
     },
     "sources": [
       "dnextreme88",
-      "rockettrekkie"
+      "rockettrekkie",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash"
     ]
   },
   {
@@ -447,7 +462,10 @@
     },
     "sources": [
       "dnextreme88",
-      "rockettrekkie"
+      "rockettrekkie",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash"
     ]
   },
   {
@@ -506,7 +524,10 @@
     },
     "sources": [
       "dnextreme88",
-      "rockettrekkie"
+      "rockettrekkie",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash"
     ],
     "conflicts": [
       {
@@ -515,7 +536,8 @@
           "dnextreme88": "Sonic Slash",
           "rockettrekkie": "Sonic Smash"
         },
-        "note": "Unleash name differs between sources; rockettrekkie preferred as primary"
+        "note": "Unleash name differs between sources; rockettrekkie preferred as primary",
+        "resolution": "unresolved"
       }
     ]
   },
@@ -575,7 +597,9 @@
     },
     "sources": [
       "dnextreme88",
-      "rockettrekkie"
+      "rockettrekkie",
+      "electrospecter",
+      "super-slash"
     ]
   },
   {
@@ -635,7 +659,10 @@
     },
     "sources": [
       "dnextreme88",
-      "rockettrekkie"
+      "rockettrekkie",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash"
     ]
   },
   {
@@ -694,7 +721,10 @@
     },
     "sources": [
       "dnextreme88",
-      "rockettrekkie"
+      "rockettrekkie",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash"
     ]
   },
   {
@@ -751,7 +781,10 @@
     },
     "sources": [
       "dnextreme88",
-      "rockettrekkie"
+      "rockettrekkie",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash"
     ]
   },
   {
@@ -810,7 +843,10 @@
     },
     "sources": [
       "dnextreme88",
-      "rockettrekkie"
+      "rockettrekkie",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash"
     ]
   },
   {
@@ -917,7 +953,10 @@
     },
     "sources": [
       "dnextreme88",
-      "rockettrekkie"
+      "rockettrekkie",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash"
     ]
   },
   {
@@ -975,7 +1014,10 @@
     },
     "sources": [
       "dnextreme88",
-      "rockettrekkie"
+      "rockettrekkie",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash"
     ],
     "conflicts": [
       {
@@ -984,7 +1026,8 @@
           "dnextreme88": "Suhalla Gate and Tunnel Ruins",
           "rockettrekkie": "Suhalla Pass and lower Venus Lighthouse"
         },
-        "note": "Drop location differs between sources"
+        "note": "Drop location differs between sources",
+        "resolution": "unresolved"
       }
     ]
   },
@@ -1043,7 +1086,10 @@
     },
     "sources": [
       "dnextreme88",
-      "rockettrekkie"
+      "rockettrekkie",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash"
     ],
     "conflicts": [
       {
@@ -1052,7 +1098,8 @@
           "dnextreme88": "Tolbi",
           "rockettrekkie": "Lunpa"
         },
-        "note": "dnextreme88 says buy from Tolbi's weapon dealer; rockettrekkie lists as Artifacts list (Lunpa)"
+        "note": "dnextreme88 says buy from Tolbi's weapon dealer; rockettrekkie lists as Artifacts list (Lunpa)",
+        "resolution": "unresolved"
       }
     ]
   },
@@ -1109,7 +1156,10 @@
     },
     "sources": [
       "dnextreme88",
-      "rockettrekkie"
+      "rockettrekkie",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash"
     ]
   },
   {
@@ -1167,7 +1217,10 @@
     },
     "sources": [
       "dnextreme88",
-      "rockettrekkie"
+      "rockettrekkie",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash"
     ]
   },
   {
@@ -1226,7 +1279,9 @@
     },
     "sources": [
       "dnextreme88",
-      "rockettrekkie"
+      "rockettrekkie",
+      "shotgunnova",
+      "electrospecter"
     ]
   },
   {
@@ -1279,7 +1334,8 @@
     },
     "sources": [
       "dnextreme88",
-      "rockettrekkie"
+      "rockettrekkie",
+      "electrospecter"
     ]
   },
   {
@@ -1338,7 +1394,9 @@
     },
     "sources": [
       "dnextreme88",
-      "rockettrekkie"
+      "rockettrekkie",
+      "electrospecter",
+      "super-slash"
     ]
   },
   {
@@ -1395,7 +1453,21 @@
     },
     "sources": [
       "dnextreme88",
-      "rockettrekkie"
+      "rockettrekkie",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash"
+    ],
+    "conflicts": [
+      {
+        "field": "stat_bonus.atk",
+        "values": {
+          "dnextreme88": 88,
+          "super-slash": 101
+        },
+        "resolution": "authority",
+        "note": "authority: dnextreme88 is the equipment-stat authority"
+      }
     ]
   },
   {
@@ -1454,7 +1526,10 @@
     },
     "sources": [
       "dnextreme88",
-      "rockettrekkie"
+      "rockettrekkie",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash"
     ]
   },
   {
@@ -1512,7 +1587,10 @@
     },
     "sources": [
       "dnextreme88",
-      "rockettrekkie"
+      "rockettrekkie",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash"
     ]
   },
   {
@@ -1570,7 +1648,10 @@
     },
     "sources": [
       "dnextreme88",
-      "rockettrekkie"
+      "rockettrekkie",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash"
     ]
   },
   {
@@ -1628,7 +1709,10 @@
     },
     "sources": [
       "dnextreme88",
-      "rockettrekkie"
+      "rockettrekkie",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash"
     ]
   },
   {
@@ -1686,7 +1770,9 @@
     },
     "sources": [
       "dnextreme88",
-      "rockettrekkie"
+      "rockettrekkie",
+      "shotgunnova",
+      "electrospecter"
     ]
   },
   {
@@ -1744,7 +1830,10 @@
     },
     "sources": [
       "dnextreme88",
-      "rockettrekkie"
+      "rockettrekkie",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash"
     ]
   },
   {
@@ -1802,7 +1891,10 @@
     },
     "sources": [
       "dnextreme88",
-      "rockettrekkie"
+      "rockettrekkie",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash"
     ]
   },
   {
@@ -1860,7 +1952,10 @@
     },
     "sources": [
       "dnextreme88",
-      "rockettrekkie"
+      "rockettrekkie",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash"
     ]
   },
   {
@@ -1918,7 +2013,10 @@
     },
     "sources": [
       "dnextreme88",
-      "rockettrekkie"
+      "rockettrekkie",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash"
     ]
   },
   {
@@ -1966,7 +2064,10 @@
       "notes": "Recovered from thieves in Vault; cannot be dropped or sold"
     },
     "sources": [
-      "rockettrekkie"
+      "rockettrekkie",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash"
     ]
   },
   {
@@ -2016,7 +2117,9 @@
     "sources": [
       "dnextreme88",
       "rockettrekkie",
-      "fandom-equipment"
+      "fandom-equipment",
+      "shotgunnova",
+      "electrospecter"
     ]
   },
   {
@@ -2066,7 +2169,10 @@
     "sources": [
       "dnextreme88",
       "rockettrekkie",
-      "fandom-equipment"
+      "fandom-equipment",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash"
     ]
   },
   {
@@ -2116,7 +2222,10 @@
     "sources": [
       "dnextreme88",
       "rockettrekkie",
-      "fandom-equipment"
+      "fandom-equipment",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash"
     ]
   },
   {
@@ -2166,7 +2275,10 @@
     "sources": [
       "dnextreme88",
       "rockettrekkie",
-      "fandom-equipment"
+      "fandom-equipment",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash"
     ]
   },
   {
@@ -2216,7 +2328,10 @@
     "sources": [
       "dnextreme88",
       "rockettrekkie",
-      "fandom-equipment"
+      "fandom-equipment",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash"
     ]
   },
   {
@@ -2265,7 +2380,10 @@
     },
     "sources": [
       "rockettrekkie",
-      "fandom-equipment"
+      "fandom-equipment",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash"
     ]
   },
   {
@@ -2317,7 +2435,21 @@
     "sources": [
       "dnextreme88",
       "rockettrekkie",
-      "fandom-equipment"
+      "fandom-equipment",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash"
+    ],
+    "conflicts": [
+      {
+        "field": "stat_bonus.def",
+        "values": {
+          "dnextreme88": 42,
+          "super-slash": 36
+        },
+        "resolution": "authority",
+        "note": "authority: dnextreme88 is the equipment-stat authority"
+      }
     ]
   },
   {
@@ -2369,18 +2501,12 @@
     "sources": [
       "dnextreme88",
       "rockettrekkie",
-      "fandom-equipment"
+      "fandom-equipment",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash"
     ],
     "conflicts": [
-      {
-        "field": "stat_bonus.def",
-        "values": {
-          "dnextreme88": 35,
-          "rockettrekkie": 36,
-          "fandom-equipment": 36
-        },
-        "note": "dnextreme88 gives DEF+35; rockettrekkie and fandom agree on DEF+36"
-      },
       {
         "field": "stat_bonus.agi",
         "values": {
@@ -2388,7 +2514,8 @@
           "rockettrekkie": 30,
           "fandom-equipment": 10
         },
-        "note": "dnextreme88 and rockettrekkie give AGI+30; fandom gives AGI+10"
+        "note": "dnextreme88 and rockettrekkie give AGI+30; fandom gives AGI+10",
+        "resolution": "majority"
       }
     ]
   },
@@ -2441,7 +2568,8 @@
     "sources": [
       "dnextreme88",
       "rockettrekkie",
-      "fandom-equipment"
+      "fandom-equipment",
+      "shotgunnova"
     ],
     "conflicts": [
       {
@@ -2451,7 +2579,8 @@
           "rockettrekkie": 30,
           "fandom-equipment": 20
         },
-        "note": "dnextreme88 and rockettrekkie give Water RES+30; fandom gives Water RES+20"
+        "note": "dnextreme88 and rockettrekkie give Water RES+30; fandom gives Water RES+20",
+        "resolution": "majority"
       }
     ]
   },
@@ -2504,7 +2633,10 @@
     "sources": [
       "dnextreme88",
       "rockettrekkie",
-      "fandom-equipment"
+      "fandom-equipment",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash"
     ]
   },
   {
@@ -2558,7 +2690,10 @@
     "sources": [
       "dnextreme88",
       "rockettrekkie",
-      "fandom-equipment"
+      "fandom-equipment",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash"
     ]
   },
   {
@@ -2609,7 +2744,10 @@
     },
     "sources": [
       "rockettrekkie",
-      "fandom-equipment"
+      "fandom-equipment",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash"
     ]
   },
   {
@@ -2659,7 +2797,10 @@
     "sources": [
       "dnextreme88",
       "rockettrekkie",
-      "fandom-equipment"
+      "fandom-equipment",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash"
     ]
   },
   {
@@ -2708,18 +2849,8 @@
     "sources": [
       "dnextreme88",
       "rockettrekkie",
-      "fandom-equipment"
-    ],
-    "conflicts": [
-      {
-        "field": "stat_bonus.def",
-        "values": {
-          "dnextreme88": 42,
-          "rockettrekkie": 43,
-          "fandom-equipment": 43
-        },
-        "note": "dnextreme88 gives DEF+42; rockettrekkie and fandom agree on DEF+43"
-      }
+      "fandom-equipment",
+      "shotgunnova"
     ]
   },
   {
@@ -2769,7 +2900,10 @@
     "sources": [
       "dnextreme88",
       "rockettrekkie",
-      "fandom-equipment"
+      "fandom-equipment",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash"
     ]
   },
   {
@@ -2819,7 +2953,10 @@
     "sources": [
       "dnextreme88",
       "rockettrekkie",
-      "fandom-equipment"
+      "fandom-equipment",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash"
     ]
   },
   {
@@ -2868,7 +3005,10 @@
     "sources": [
       "dnextreme88",
       "rockettrekkie",
-      "fandom-equipment"
+      "fandom-equipment",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash"
     ]
   },
   {
@@ -2920,7 +3060,9 @@
     "sources": [
       "dnextreme88",
       "rockettrekkie",
-      "fandom-equipment"
+      "fandom-equipment",
+      "electrospecter",
+      "super-slash"
     ]
   },
   {
@@ -2973,7 +3115,10 @@
     "sources": [
       "dnextreme88",
       "rockettrekkie",
-      "fandom-equipment"
+      "fandom-equipment",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash"
     ],
     "conflicts": [
       {
@@ -2983,7 +3128,8 @@
           "rockettrekkie": "Mirrored Shield",
           "fandom-equipment": "Mirrored Shield"
         },
-        "note": "dnextreme88 calls it 'Mirror Shield'; rockettrekkie and fandom call it 'Mirrored Shield'"
+        "note": "dnextreme88 calls it 'Mirror Shield'; rockettrekkie and fandom call it 'Mirrored Shield'",
+        "resolution": "majority"
       }
     ]
   },
@@ -3037,7 +3183,10 @@
     "sources": [
       "dnextreme88",
       "rockettrekkie",
-      "fandom-equipment"
+      "fandom-equipment",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash"
     ]
   },
   {
@@ -3087,7 +3236,10 @@
     "sources": [
       "dnextreme88",
       "rockettrekkie",
-      "fandom-equipment"
+      "fandom-equipment",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash"
     ],
     "conflicts": [
       {
@@ -3097,7 +3249,8 @@
           "rockettrekkie": "Dragon Shield",
           "fandom-equipment": "Dragon Shield"
         },
-        "note": "dnextreme88 calls this shield 'Dragon Scales'; rockettrekkie and fandom call it 'Dragon Shield'"
+        "note": "dnextreme88 calls this shield 'Dragon Scales'; rockettrekkie and fandom call it 'Dragon Shield'",
+        "resolution": "majority"
       }
     ]
   },
@@ -3153,7 +3306,10 @@
     "sources": [
       "dnextreme88",
       "rockettrekkie",
-      "fandom-equipment"
+      "fandom-equipment",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash"
     ]
   },
   {
@@ -3205,7 +3361,10 @@
     "sources": [
       "dnextreme88",
       "rockettrekkie",
-      "fandom-equipment"
+      "fandom-equipment",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash"
     ]
   },
   {
@@ -3257,7 +3416,21 @@
     "sources": [
       "dnextreme88",
       "rockettrekkie",
-      "fandom-equipment"
+      "fandom-equipment",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash"
+    ],
+    "conflicts": [
+      {
+        "field": "stat_bonus.def",
+        "values": {
+          "dnextreme88": 32,
+          "shotgunnova": 35
+        },
+        "resolution": "authority",
+        "note": "authority: dnextreme88 is the equipment-stat authority"
+      }
     ]
   },
   {
@@ -3309,7 +3482,21 @@
     "sources": [
       "dnextreme88",
       "rockettrekkie",
-      "fandom-equipment"
+      "fandom-equipment",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash"
+    ],
+    "conflicts": [
+      {
+        "field": "stat_bonus.atk",
+        "values": {
+          "dnextreme88": 8,
+          "shotgunnova": 5
+        },
+        "resolution": "authority",
+        "note": "authority: dnextreme88 is the equipment-stat authority"
+      }
     ]
   },
   {
@@ -3361,7 +3548,10 @@
     "sources": [
       "dnextreme88",
       "rockettrekkie",
-      "fandom-equipment"
+      "fandom-equipment",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash"
     ]
   },
   {
@@ -3414,7 +3604,9 @@
     "sources": [
       "dnextreme88",
       "rockettrekkie",
-      "fandom-equipment"
+      "fandom-equipment",
+      "shotgunnova",
+      "electrospecter"
     ]
   },
   {
@@ -3467,7 +3659,9 @@
     "sources": [
       "dnextreme88",
       "rockettrekkie",
-      "fandom-equipment"
+      "fandom-equipment",
+      "shotgunnova",
+      "electrospecter"
     ]
   },
   {
@@ -3520,7 +3714,9 @@
     "sources": [
       "dnextreme88",
       "rockettrekkie",
-      "fandom-equipment"
+      "fandom-equipment",
+      "shotgunnova",
+      "electrospecter"
     ]
   },
   {
@@ -3570,7 +3766,9 @@
     "sources": [
       "dnextreme88",
       "rockettrekkie",
-      "fandom-equipment"
+      "fandom-equipment",
+      "shotgunnova",
+      "electrospecter"
     ],
     "conflicts": [
       {
@@ -3580,7 +3778,8 @@
           "rockettrekkie": "Artifacts list (Lalivero)",
           "fandom-equipment": "Chest (GS)"
         },
-        "note": "rockettrekkie lists as Artifacts list Lalivero; dnextreme88 and fandom agree it is found in a chest in Venus Lighthouse"
+        "note": "rockettrekkie lists as Artifacts list Lalivero; dnextreme88 and fandom agree it is found in a chest in Venus Lighthouse",
+        "resolution": "unresolved"
       }
     ]
   },
@@ -3633,7 +3832,10 @@
     "sources": [
       "dnextreme88",
       "rockettrekkie",
-      "fandom-equipment"
+      "fandom-equipment",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash"
     ]
   },
   {
@@ -3685,7 +3887,10 @@
     "sources": [
       "dnextreme88",
       "rockettrekkie",
-      "fandom-equipment"
+      "fandom-equipment",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash"
     ],
     "conflicts": [
       {
@@ -3695,7 +3900,8 @@
           "rockettrekkie": "crown",
           "fandom-equipment": "hat"
         },
-        "note": "dnextreme88 and rockettrekkie classify as Crown; fandom classifies as Hat"
+        "note": "dnextreme88 and rockettrekkie classify as Crown; fandom classifies as Hat",
+        "resolution": "majority"
       }
     ]
   },
@@ -3748,7 +3954,10 @@
     "sources": [
       "dnextreme88",
       "rockettrekkie",
-      "fandom-equipment"
+      "fandom-equipment",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash"
     ],
     "conflicts": [
       {
@@ -3758,7 +3967,8 @@
           "rockettrekkie": "crown",
           "fandom-equipment": "hat"
         },
-        "note": "dnextreme88 and rockettrekkie classify as Crown; fandom classifies as Hat"
+        "note": "dnextreme88 and rockettrekkie classify as Crown; fandom classifies as Hat",
+        "resolution": "majority"
       }
     ]
   },
@@ -3811,7 +4021,10 @@
     "sources": [
       "dnextreme88",
       "rockettrekkie",
-      "fandom-equipment"
+      "fandom-equipment",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash"
     ],
     "conflicts": [
       {
@@ -3821,7 +4034,8 @@
           "rockettrekkie": "crown",
           "fandom-equipment": "hat"
         },
-        "note": "dnextreme88 and rockettrekkie classify as Crown; fandom classifies as Hat"
+        "note": "dnextreme88 and rockettrekkie classify as Crown; fandom classifies as Hat",
+        "resolution": "majority"
       }
     ]
   },
@@ -3877,7 +4091,10 @@
     "sources": [
       "dnextreme88",
       "rockettrekkie",
-      "fandom-equipment"
+      "fandom-equipment",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash"
     ]
   },
   {
@@ -3929,7 +4146,10 @@
     "sources": [
       "dnextreme88",
       "rockettrekkie",
-      "fandom-equipment"
+      "fandom-equipment",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash"
     ]
   },
   {
@@ -3981,7 +4201,10 @@
     "sources": [
       "dnextreme88",
       "rockettrekkie",
-      "fandom-equipment"
+      "fandom-equipment",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash"
     ]
   },
   {
@@ -4031,7 +4254,10 @@
     "sources": [
       "dnextreme88",
       "rockettrekkie",
-      "fandom-equipment"
+      "fandom-equipment",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash"
     ]
   },
   {
@@ -4083,7 +4309,10 @@
     "sources": [
       "dnextreme88",
       "rockettrekkie",
-      "fandom-equipment"
+      "fandom-equipment",
+      "shotgunnova",
+      "electrospecter",
+      "super-slash"
     ]
   },
   {
@@ -4134,7 +4363,9 @@
     },
     "sources": [
       "rockettrekkie",
-      "fandom-equipment"
+      "fandom-equipment",
+      "shotgunnova",
+      "super-slash"
     ]
   },
   {
@@ -4182,7 +4413,9 @@
     },
     "sources": [
       "rockettrekkie",
-      "fandom-equipment"
+      "fandom-equipment",
+      "shotgunnova",
+      "super-slash"
     ]
   },
   {
@@ -4233,7 +4466,9 @@
     },
     "sources": [
       "rockettrekkie",
-      "fandom-equipment"
+      "fandom-equipment",
+      "shotgunnova",
+      "super-slash"
     ]
   },
   {
@@ -4284,7 +4519,9 @@
     },
     "sources": [
       "rockettrekkie",
-      "fandom-equipment"
+      "fandom-equipment",
+      "shotgunnova",
+      "super-slash"
     ]
   },
   {
@@ -4335,7 +4572,9 @@
     },
     "sources": [
       "rockettrekkie",
-      "fandom-equipment"
+      "fandom-equipment",
+      "shotgunnova",
+      "super-slash"
     ]
   },
   {
@@ -4386,7 +4625,9 @@
     },
     "sources": [
       "rockettrekkie",
-      "fandom-equipment"
+      "fandom-equipment",
+      "shotgunnova",
+      "super-slash"
     ],
     "conflicts": [
       {
@@ -4395,7 +4636,8 @@
           "rockettrekkie": 15,
           "fandom-equipment": 10
         },
-        "note": "rockettrekkie gives Water RES+15; fandom gives Water RES+10"
+        "note": "rockettrekkie gives Water RES+15; fandom gives Water RES+10",
+        "resolution": "unresolved"
       }
     ]
   },
@@ -4449,7 +4691,9 @@
     },
     "sources": [
       "rockettrekkie",
-      "fandom-equipment"
+      "fandom-equipment",
+      "shotgunnova",
+      "super-slash"
     ]
   },
   {
@@ -4819,6 +5063,2767 @@
     "sources": [
       "rockettrekkie",
       "fandom-equipment"
+    ]
+  },
+  {
+    "id": "short-sword",
+    "name": "Short Sword",
+    "game": "gs1",
+    "category": "weapon",
+    "type": "light_blade",
+    "is_cursed": false,
+    "is_artifact": false,
+    "equippable_by": [
+      "Isaac",
+      "Garet",
+      "Ivan"
+    ],
+    "stat_bonus": {
+      "atk": 8,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "shop",
+      "location": "Vale",
+      "price": 120,
+      "notes": null
+    },
+    "sources": [
+      "electrospecter",
+      "shotgunnova",
+      "super-slash"
+    ]
+  },
+  {
+    "id": "long-sword",
+    "name": "Long Sword",
+    "game": "gs1",
+    "category": "weapon",
+    "type": "long_sword",
+    "is_cursed": false,
+    "is_artifact": false,
+    "equippable_by": [
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 14,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "shop",
+      "location": "Vale",
+      "price": 200,
+      "notes": null
+    },
+    "sources": [
+      "electrospecter",
+      "shotgunnova",
+      "super-slash"
+    ]
+  },
+  {
+    "id": "wooden-stick",
+    "name": "Wooden Stick",
+    "game": "gs1",
+    "category": "weapon",
+    "type": "staff",
+    "is_cursed": false,
+    "is_artifact": false,
+    "equippable_by": [
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 4,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "shop",
+      "location": "Vale",
+      "price": 40,
+      "notes": null
+    },
+    "sources": [
+      "electrospecter",
+      "shotgunnova",
+      "super-slash"
+    ],
+    "conflicts": [
+      {
+        "field": "acquisition.price",
+        "values": {
+          "shotgunnova": 60,
+          "super-slash": 40,
+          "electrospecter": 40
+        },
+        "resolution": "majority",
+        "note": "majority: 40×2/60×1"
+      }
+    ]
+  },
+  {
+    "id": "mace",
+    "name": "Mace",
+    "game": "gs1",
+    "category": "weapon",
+    "type": "mace",
+    "is_cursed": false,
+    "is_artifact": false,
+    "equippable_by": [
+      "Isaac",
+      "Garet",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 6,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "shop",
+      "location": "Vale",
+      "price": 80,
+      "notes": null
+    },
+    "sources": [
+      "electrospecter",
+      "shotgunnova",
+      "super-slash"
+    ]
+  },
+  {
+    "id": "cotton-shirt",
+    "name": "Cotton Shirt",
+    "game": "gs1",
+    "category": "armor",
+    "type": "clothing",
+    "is_cursed": false,
+    "is_artifact": false,
+    "equippable_by": [
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 3,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "shop",
+      "location": "Vale",
+      "price": 20,
+      "notes": null
+    },
+    "sources": [
+      "electrospecter",
+      "shotgunnova",
+      "super-slash"
+    ]
+  },
+  {
+    "id": "one-piece-dress",
+    "name": "One-Piece Dress",
+    "game": "gs1",
+    "category": "armor",
+    "type": "robe",
+    "is_cursed": false,
+    "is_artifact": false,
+    "equippable_by": [
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 4,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "shop",
+      "location": "Vale",
+      "price": 25,
+      "notes": null
+    },
+    "sources": [
+      "electrospecter",
+      "shotgunnova",
+      "super-slash"
+    ]
+  },
+  {
+    "id": "travel-vest",
+    "name": "Travel Vest",
+    "game": "gs1",
+    "category": "armor",
+    "type": "clothing",
+    "is_cursed": false,
+    "is_artifact": false,
+    "equippable_by": [
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 7,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "shop",
+      "location": "Vale",
+      "price": 50,
+      "notes": null
+    },
+    "sources": [
+      "electrospecter",
+      "shotgunnova",
+      "super-slash"
+    ]
+  },
+  {
+    "id": "padded-gloves",
+    "name": "Padded Gloves",
+    "game": "gs1",
+    "category": "armor",
+    "type": "gloves",
+    "is_cursed": false,
+    "is_artifact": false,
+    "equippable_by": [
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 2,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "shop",
+      "location": "Vale",
+      "price": 10,
+      "notes": null
+    },
+    "sources": [
+      "electrospecter",
+      "shotgunnova",
+      "super-slash"
+    ]
+  },
+  {
+    "id": "wooden-shield",
+    "name": "Wooden Shield",
+    "game": "gs1",
+    "category": "armor",
+    "type": "shield",
+    "is_cursed": false,
+    "is_artifact": false,
+    "equippable_by": [
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 6,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "shop",
+      "location": "Vale",
+      "price": 40,
+      "notes": null
+    },
+    "sources": [
+      "electrospecter",
+      "shotgunnova",
+      "super-slash"
+    ]
+  },
+  {
+    "id": "leather-cap",
+    "name": "Leather Cap",
+    "game": "gs1",
+    "category": "armor",
+    "type": "hat",
+    "is_cursed": false,
+    "is_artifact": false,
+    "equippable_by": [
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 3,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "shop",
+      "location": "Vale",
+      "price": 30,
+      "notes": null
+    },
+    "sources": [
+      "electrospecter",
+      "shotgunnova",
+      "super-slash"
+    ]
+  },
+  {
+    "id": "battle-axe",
+    "name": "Battle Axe",
+    "game": "gs1",
+    "category": "weapon",
+    "type": "axe",
+    "is_cursed": false,
+    "is_artifact": false,
+    "equippable_by": [
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 24,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "shop",
+      "location": "Vault",
+      "price": 280,
+      "notes": null
+    },
+    "sources": [
+      "electrospecter",
+      "super-slash"
+    ]
+  },
+  {
+    "id": "leather-armlet",
+    "name": "Leather Armlet",
+    "game": "gs1",
+    "category": "armor",
+    "type": "bracelet",
+    "is_cursed": false,
+    "is_artifact": false,
+    "equippable_by": [
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 7,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "shop",
+      "location": "Vault",
+      "price": 180,
+      "notes": null
+    },
+    "sources": [
+      "electrospecter",
+      "shotgunnova"
+    ]
+  },
+  {
+    "id": "circlet",
+    "name": "Circlet",
+    "game": "gs1",
+    "category": "armor",
+    "type": "circlet",
+    "is_cursed": false,
+    "is_artifact": false,
+    "equippable_by": [
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 6,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "shop",
+      "location": "Vault",
+      "price": 120,
+      "notes": null
+    },
+    "sources": [
+      "electrospecter",
+      "shotgunnova",
+      "super-slash"
+    ],
+    "conflicts": [
+      {
+        "field": "acquisition.price",
+        "values": {
+          "shotgunnova": 130,
+          "super-slash": 120,
+          "electrospecter": 120
+        },
+        "resolution": "majority",
+        "note": "majority: 120×2/130×1"
+      }
+    ]
+  },
+  {
+    "id": "broad-sword",
+    "name": "Broad Sword",
+    "game": "gs1",
+    "category": "weapon",
+    "type": "long_sword",
+    "is_cursed": false,
+    "is_artifact": false,
+    "equippable_by": [
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 40,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "shop",
+      "location": "Bilibin",
+      "price": 1000,
+      "notes": null
+    },
+    "sources": [
+      "electrospecter",
+      "shotgunnova",
+      "super-slash"
+    ]
+  },
+  {
+    "id": "heavy-mace",
+    "name": "Heavy Mace",
+    "game": "gs1",
+    "category": "weapon",
+    "type": "mace",
+    "is_cursed": false,
+    "is_artifact": false,
+    "equippable_by": [
+      "Isaac",
+      "Garet",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 26,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "shop",
+      "location": "Bilibin",
+      "price": 500,
+      "notes": null
+    },
+    "sources": [
+      "electrospecter",
+      "shotgunnova",
+      "super-slash"
+    ]
+  },
+  {
+    "id": "hunters-sword",
+    "name": "Hunter's Sword",
+    "game": "gs1",
+    "category": "weapon",
+    "type": "light_blade",
+    "is_cursed": false,
+    "is_artifact": false,
+    "equippable_by": [
+      "Isaac",
+      "Garet",
+      "Ivan"
+    ],
+    "stat_bonus": {
+      "atk": 28,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "shop",
+      "location": "Bilibin",
+      "price": 520,
+      "notes": null
+    },
+    "sources": [
+      "electrospecter",
+      "super-slash"
+    ]
+  },
+  {
+    "id": "travel-robe",
+    "name": "Travel Robe",
+    "game": "gs1",
+    "category": "armor",
+    "type": "robe",
+    "is_cursed": false,
+    "is_artifact": false,
+    "equippable_by": [
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 10,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "shop",
+      "location": "Bilibin",
+      "price": 200,
+      "notes": null
+    },
+    "sources": [
+      "electrospecter",
+      "shotgunnova",
+      "super-slash"
+    ]
+  },
+  {
+    "id": "leather-armor",
+    "name": "Leather Armor",
+    "game": "gs1",
+    "category": "armor",
+    "type": "armor",
+    "is_cursed": false,
+    "is_artifact": false,
+    "equippable_by": [
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 12,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "shop",
+      "location": "Bilibin",
+      "price": 240,
+      "notes": null
+    },
+    "sources": [
+      "electrospecter",
+      "shotgunnova",
+      "super-slash"
+    ]
+  },
+  {
+    "id": "leather-gloves",
+    "name": "Leather Gloves",
+    "game": "gs1",
+    "category": "armor",
+    "type": "gloves",
+    "is_cursed": false,
+    "is_artifact": false,
+    "equippable_by": [
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 10,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "shop",
+      "location": "Bilibin",
+      "price": 220,
+      "notes": null
+    },
+    "sources": [
+      "electrospecter",
+      "shotgunnova",
+      "super-slash"
+    ]
+  },
+  {
+    "id": "bronze-shield",
+    "name": "Bronze Shield",
+    "game": "gs1",
+    "category": "armor",
+    "type": "shield",
+    "is_cursed": false,
+    "is_artifact": false,
+    "equippable_by": [
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 14,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "shop",
+      "location": "Bilibin",
+      "price": 500,
+      "notes": null
+    },
+    "sources": [
+      "electrospecter",
+      "shotgunnova",
+      "super-slash"
+    ]
+  },
+  {
+    "id": "open-helm",
+    "name": "Open Helm",
+    "game": "gs1",
+    "category": "armor",
+    "type": "helm",
+    "is_cursed": false,
+    "is_artifact": false,
+    "equippable_by": [
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 9,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "shop",
+      "location": "Bilibin",
+      "price": 180,
+      "notes": null
+    },
+    "sources": [
+      "electrospecter",
+      "shotgunnova"
+    ]
+  },
+  {
+    "id": "wooden-cap",
+    "name": "Wooden Cap",
+    "game": "gs1",
+    "category": "armor",
+    "type": "hat",
+    "is_cursed": false,
+    "is_artifact": false,
+    "equippable_by": [
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 10,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "shop",
+      "location": "Bilibin",
+      "price": 400,
+      "notes": null
+    },
+    "sources": [
+      "electrospecter",
+      "shotgunnova",
+      "super-slash"
+    ]
+  },
+  {
+    "id": "adepts-clothes",
+    "name": "Adept's Clothes",
+    "game": "gs1",
+    "category": "armor",
+    "type": "clothing",
+    "is_cursed": false,
+    "is_artifact": false,
+    "equippable_by": [
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 18,
+      "hp": 0,
+      "pp": 8,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "shop",
+      "location": "Imil Armor Shop; +8 Max PP",
+      "price": 850,
+      "notes": null
+    },
+    "sources": [
+      "electrospecter",
+      "shotgunnova",
+      "super-slash"
+    ]
+  },
+  {
+    "id": "armlet",
+    "name": "Armlet",
+    "game": "gs1",
+    "category": "armor",
+    "type": "bracelet",
+    "is_cursed": false,
+    "is_artifact": false,
+    "equippable_by": [
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 17,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "shop",
+      "location": "Kolima",
+      "price": 900,
+      "notes": null
+    },
+    "sources": [
+      "electrospecter",
+      "shotgunnova"
+    ]
+  },
+  {
+    "id": "bronze-helm",
+    "name": "Bronze Helm",
+    "game": "gs1",
+    "category": "armor",
+    "type": "helm",
+    "is_cursed": false,
+    "is_artifact": false,
+    "equippable_by": [
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 14,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "shop",
+      "location": "Kolima",
+      "price": 600,
+      "notes": null
+    },
+    "sources": [
+      "electrospecter",
+      "shotgunnova",
+      "super-slash"
+    ]
+  },
+  {
+    "id": "broad-axe",
+    "name": "Broad Axe",
+    "game": "gs1",
+    "category": "weapon",
+    "type": "axe",
+    "is_cursed": false,
+    "is_artifact": false,
+    "equippable_by": [
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 50,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "shop",
+      "location": "Kolima",
+      "price": 1400,
+      "notes": null
+    },
+    "sources": [
+      "electrospecter",
+      "shotgunnova",
+      "super-slash"
+    ]
+  },
+  {
+    "id": "battle-rapier",
+    "name": "Battle Rapier",
+    "game": "gs1",
+    "category": "weapon",
+    "type": "light_blade",
+    "is_cursed": false,
+    "is_artifact": false,
+    "equippable_by": [
+      "Isaac",
+      "Garet",
+      "Ivan"
+    ],
+    "stat_bonus": {
+      "atk": 58,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "shop",
+      "location": "Xian",
+      "price": 2900,
+      "notes": null
+    },
+    "sources": [
+      "electrospecter",
+      "shotgunnova",
+      "super-slash"
+    ],
+    "conflicts": [
+      {
+        "field": "acquisition.price",
+        "values": {
+          "shotgunnova": 2800,
+          "super-slash": 2900,
+          "electrospecter": 2900
+        },
+        "resolution": "majority",
+        "note": "majority: 2900×2/2800×1"
+      }
+    ]
+  },
+  {
+    "id": "battle-mace",
+    "name": "Battle Mace",
+    "game": "gs1",
+    "category": "weapon",
+    "type": "mace",
+    "is_cursed": false,
+    "is_artifact": false,
+    "equippable_by": [
+      "Isaac",
+      "Garet",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 56,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "shop",
+      "location": "Xian",
+      "price": 2600,
+      "notes": null
+    },
+    "sources": [
+      "electrospecter",
+      "shotgunnova",
+      "super-slash"
+    ]
+  },
+  {
+    "id": "silk-robe",
+    "name": "Silk Robe",
+    "game": "gs1",
+    "category": "armor",
+    "type": "robe",
+    "is_cursed": false,
+    "is_artifact": false,
+    "equippable_by": [
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 20,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "shop",
+      "location": "Xian",
+      "price": 1400,
+      "notes": null
+    },
+    "sources": [
+      "electrospecter",
+      "shotgunnova",
+      "super-slash"
+    ]
+  },
+  {
+    "id": "iron-shield",
+    "name": "Iron Shield",
+    "game": "gs1",
+    "category": "armor",
+    "type": "shield",
+    "is_cursed": false,
+    "is_artifact": false,
+    "equippable_by": [
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 20,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "shop",
+      "location": "Xian",
+      "price": 1200,
+      "notes": null
+    },
+    "sources": [
+      "electrospecter",
+      "shotgunnova",
+      "super-slash"
+    ]
+  },
+  {
+    "id": "silver-circlet",
+    "name": "Silver Circlet",
+    "game": "gs1",
+    "category": "armor",
+    "type": "circlet",
+    "is_cursed": false,
+    "is_artifact": false,
+    "equippable_by": [
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 16,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "shop",
+      "location": "Xian Item Shop",
+      "price": 1300,
+      "notes": null
+    },
+    "sources": [
+      "electrospecter",
+      "shotgunnova",
+      "super-slash"
+    ]
+  },
+  {
+    "id": "claymore",
+    "name": "Claymore",
+    "game": "gs1",
+    "category": "weapon",
+    "type": "long_sword",
+    "is_cursed": false,
+    "is_artifact": false,
+    "equippable_by": [
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 70,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "shop",
+      "location": "Altin",
+      "price": 4000,
+      "notes": null
+    },
+    "sources": [
+      "electrospecter",
+      "shotgunnova",
+      "super-slash"
+    ]
+  },
+  {
+    "id": "chain-mail",
+    "name": "Chain Mail",
+    "game": "gs1",
+    "category": "armor",
+    "type": "armor",
+    "is_cursed": false,
+    "is_artifact": false,
+    "equippable_by": [
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 25,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "shop",
+      "location": "Altin",
+      "price": 2000,
+      "notes": null
+    },
+    "sources": [
+      "electrospecter",
+      "shotgunnova",
+      "super-slash"
+    ]
+  },
+  {
+    "id": "gauntlets",
+    "name": "Gauntlets",
+    "game": "gs1",
+    "category": "armor",
+    "type": "gloves",
+    "is_cursed": false,
+    "is_artifact": false,
+    "equippable_by": [
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 23,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "shop",
+      "location": "Altin",
+      "price": 1600,
+      "notes": null
+    },
+    "sources": [
+      "electrospecter",
+      "shotgunnova",
+      "super-slash"
+    ]
+  },
+  {
+    "id": "iron-helm",
+    "name": "Iron Helm",
+    "game": "gs1",
+    "category": "armor",
+    "type": "helm",
+    "is_cursed": false,
+    "is_artifact": false,
+    "equippable_by": [
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 20,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "shop",
+      "location": "Altin",
+      "price": 1600,
+      "notes": null
+    },
+    "sources": [
+      "electrospecter",
+      "shotgunnova",
+      "super-slash"
+    ]
+  },
+  {
+    "id": "great-axe",
+    "name": "Great Axe",
+    "game": "gs1",
+    "category": "weapon",
+    "type": "axe",
+    "is_cursed": false,
+    "is_artifact": false,
+    "equippable_by": [
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 80,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "shop",
+      "location": "Tolbi",
+      "price": 5200,
+      "notes": null
+    },
+    "sources": [
+      "electrospecter",
+      "shotgunnova",
+      "super-slash"
+    ]
+  },
+  {
+    "id": "jerkin",
+    "name": "Jerkin",
+    "game": "gs1",
+    "category": "armor",
+    "type": "robe",
+    "is_cursed": false,
+    "is_artifact": false,
+    "equippable_by": [
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 26,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "shop",
+      "location": "Kalay",
+      "price": 2400,
+      "notes": null
+    },
+    "sources": [
+      "electrospecter",
+      "shotgunnova",
+      "super-slash"
+    ]
+  },
+  {
+    "id": "heavy-armlet",
+    "name": "Heavy Armlet",
+    "game": "gs1",
+    "category": "armor",
+    "type": "bracelet",
+    "is_cursed": false,
+    "is_artifact": false,
+    "equippable_by": [
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 25,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "shop",
+      "location": "Kalay",
+      "price": 2000,
+      "notes": null
+    },
+    "sources": [
+      "electrospecter",
+      "shotgunnova"
+    ]
+  },
+  {
+    "id": "mail-cap",
+    "name": "Mail Cap",
+    "game": "gs1",
+    "category": "armor",
+    "type": "hat",
+    "is_cursed": false,
+    "is_artifact": false,
+    "equippable_by": [
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 23,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "shop",
+      "location": "Kalay",
+      "price": 2000,
+      "notes": null
+    },
+    "sources": [
+      "electrospecter",
+      "shotgunnova",
+      "super-slash"
+    ]
+  },
+  {
+    "id": "great-sword",
+    "name": "Great Sword",
+    "game": "gs1",
+    "category": "weapon",
+    "type": "long_sword",
+    "is_cursed": false,
+    "is_artifact": false,
+    "equippable_by": [
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 90,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "shop",
+      "location": "Tolbi",
+      "price": 7000,
+      "notes": null
+    },
+    "sources": [
+      "electrospecter",
+      "shotgunnova",
+      "super-slash"
+    ]
+  },
+  {
+    "id": "master-rapier",
+    "name": "Master Rapier",
+    "game": "gs1",
+    "category": "weapon",
+    "type": "light_blade",
+    "is_cursed": false,
+    "is_artifact": false,
+    "equippable_by": [
+      "Isaac",
+      "Garet",
+      "Ivan"
+    ],
+    "stat_bonus": {
+      "atk": 86,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "shop",
+      "location": "Tolbi",
+      "price": 6800,
+      "notes": null
+    },
+    "sources": [
+      "electrospecter",
+      "shotgunnova",
+      "super-slash"
+    ]
+  },
+  {
+    "id": "war-mace",
+    "name": "War Mace",
+    "game": "gs1",
+    "category": "weapon",
+    "type": "mace",
+    "is_cursed": false,
+    "is_artifact": false,
+    "equippable_by": [
+      "Isaac",
+      "Garet",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 84,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "shop",
+      "location": "Tolbi",
+      "price": 6200,
+      "notes": null
+    },
+    "sources": [
+      "electrospecter",
+      "shotgunnova",
+      "super-slash"
+    ]
+  },
+  {
+    "id": "armored-shell",
+    "name": "Armored Shell",
+    "game": "gs1",
+    "category": "armor",
+    "type": "armor",
+    "is_cursed": false,
+    "is_artifact": false,
+    "equippable_by": [
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 30,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "shop",
+      "location": "Tolbi",
+      "price": 3600,
+      "notes": null
+    },
+    "sources": [
+      "electrospecter",
+      "shotgunnova",
+      "super-slash"
+    ]
+  },
+  {
+    "id": "silver-vest",
+    "name": "Silver Vest",
+    "game": "gs1",
+    "category": "armor",
+    "type": "clothing",
+    "is_cursed": false,
+    "is_artifact": false,
+    "equippable_by": [
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 28,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "shop",
+      "location": "Tolbi",
+      "price": 3200,
+      "notes": null
+    },
+    "sources": [
+      "electrospecter",
+      "shotgunnova",
+      "super-slash"
+    ]
+  },
+  {
+    "id": "knights-shield",
+    "name": "Knight's Shield",
+    "game": "gs1",
+    "category": "armor",
+    "type": "shield",
+    "is_cursed": false,
+    "is_artifact": false,
+    "equippable_by": [
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 28,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "shop",
+      "location": "Tolbi",
+      "price": 3000,
+      "notes": null
+    },
+    "sources": [
+      "electrospecter",
+      "shotgunnova",
+      "super-slash"
+    ]
+  },
+  {
+    "id": "steel-helm",
+    "name": "Steel Helm",
+    "game": "gs1",
+    "category": "armor",
+    "type": "helm",
+    "is_cursed": false,
+    "is_artifact": false,
+    "equippable_by": [
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 27,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "shop",
+      "location": "Tolbi",
+      "price": 3100,
+      "notes": null
+    },
+    "sources": [
+      "electrospecter",
+      "shotgunnova",
+      "super-slash"
+    ]
+  },
+  {
+    "id": "guardian-circlet",
+    "name": "Guardian Circlet",
+    "game": "gs1",
+    "category": "armor",
+    "type": "circlet",
+    "is_cursed": false,
+    "is_artifact": false,
+    "equippable_by": [
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 25,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "shop",
+      "location": "Tolbi",
+      "price": 3400,
+      "notes": null
+    },
+    "sources": [
+      "electrospecter",
+      "shotgunnova",
+      "super-slash"
+    ]
+  },
+  {
+    "id": "ninja-sword",
+    "name": "Ninja Sword",
+    "game": "gs1",
+    "category": "weapon",
+    "type": "light_blade",
+    "is_cursed": false,
+    "is_artifact": true,
+    "equippable_by": [
+      "Isaac",
+      "Garet",
+      "Ivan"
+    ],
+    "stat_bonus": {
+      "atk": 94,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": {
+      "name": "Cyclone Attack",
+      "element": null,
+      "rate": null,
+      "power_level": null,
+      "effects": [],
+      "notes": "source gives unleash name only; rate/power/element unconfirmed"
+    },
+    "use_effect": null,
+    "acquisition": {
+      "method": "shop",
+      "location": null,
+      "price": 8800,
+      "notes": null
+    },
+    "sources": [
+      "shotgunnova"
+    ]
+  },
+  {
+    "id": "plate-mail",
+    "name": "Plate Mail",
+    "game": "gs1",
+    "category": "armor",
+    "type": "armor",
+    "is_cursed": false,
+    "is_artifact": false,
+    "equippable_by": [
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 33,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "shop",
+      "location": "Lunpa",
+      "price": 4400,
+      "notes": null
+    },
+    "sources": [
+      "electrospecter",
+      "shotgunnova",
+      "super-slash"
+    ]
+  },
+  {
+    "id": "silver-armlet",
+    "name": "Silver Armlet",
+    "game": "gs1",
+    "category": "armor",
+    "type": "bracelet",
+    "is_cursed": false,
+    "is_artifact": false,
+    "equippable_by": [
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 30,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "shop",
+      "location": "Lunpa",
+      "price": 4000,
+      "notes": null
+    },
+    "sources": [
+      "electrospecter",
+      "shotgunnova"
+    ]
+  },
+  {
+    "id": "silver-helm",
+    "name": "Silver Helm",
+    "game": "gs1",
+    "category": "armor",
+    "type": "helm",
+    "is_cursed": false,
+    "is_artifact": false,
+    "equippable_by": [
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 30,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "shop",
+      "location": "Lunpa",
+      "price": 3900,
+      "notes": null
+    },
+    "sources": [
+      "electrospecter",
+      "shotgunnova",
+      "super-slash"
+    ]
+  },
+  {
+    "id": "platinum-circlet",
+    "name": "Platinum Circlet",
+    "game": "gs1",
+    "category": "armor",
+    "type": "circlet",
+    "is_cursed": false,
+    "is_artifact": false,
+    "equippable_by": [
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 29,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "shop",
+      "location": "Lalivero",
+      "price": 4200,
+      "notes": null
+    },
+    "sources": [
+      "electrospecter",
+      "shotgunnova"
+    ]
+  },
+  {
+    "id": "steel-armor",
+    "name": "Steel Armor",
+    "game": "gs1",
+    "category": "armor",
+    "type": "armor",
+    "is_cursed": false,
+    "is_artifact": false,
+    "equippable_by": [
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 36,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "shop",
+      "location": "Lalivero",
+      "price": 4900,
+      "notes": null
+    },
+    "sources": [
+      "electrospecter",
+      "shotgunnova",
+      "super-slash"
+    ]
+  },
+  {
+    "id": "knights-helm",
+    "name": "Knight's Helm",
+    "game": "gs1",
+    "category": "armor",
+    "type": "helm",
+    "is_cursed": false,
+    "is_artifact": false,
+    "equippable_by": [
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 33,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "stat_multiplier": null,
+    "increases_critical": false,
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash": null,
+    "use_effect": null,
+    "acquisition": {
+      "method": "shop",
+      "location": "Lalivero",
+      "price": 4600,
+      "notes": null
+    },
+    "sources": [
+      "electrospecter",
+      "shotgunnova",
+      "super-slash"
     ]
   }
 ]

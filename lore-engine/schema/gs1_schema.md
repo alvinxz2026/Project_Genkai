@@ -1180,6 +1180,38 @@ When extracting equipment data from the three raw source files:
     sources, use `null` (or `0` for elemental fields confirmed to be zero).
     Do not guess at missing stat values.
 
+14. **Basic (non-artifact) equipment — C4 supplement.** The original 87 entries
+    (from dnextreme88 / rockettrekkie / fandom-equipment) were artifact-biased, so
+    the ~54 plain shop weapons/armor that `shops.json` references (Long Sword,
+    Leather Armor, …) were added from three GS1-clean structured sources:
+    - `shotgunnova` [EQPT] — one fixed-width table for every category: equip flags
+      (IGIM), ATK/DEF/AGL/LCK, unleash/effect, cost, artifact `*`, cursed `|C|`.
+      Not 100% complete (omits e.g. Battle Axe, Hunter's Sword).
+    - `super-slash` §VII-IX — per-item Found / Buy Price / Stats / Effect (explicit
+      elemental & PP/HP bonuses, regen, multipliers).
+    - `electrospecter` §8/§10 — per-`type` tables (LONG SWORDS / AXES / HELMS / …),
+      ATK/DEF, price, location.
+
+    Resolution rules used (see scripts `equipment_supplement.py` + `equipment_apply.py`,
+    rerunnable):
+    - `type` from a curated name→type map, cross-validated against the FandomWiki
+      chart + ElectroSpecter type tables (caps → `hat`, Jerkin/One-Piece Dress →
+      `robe`, Cotton Shirt → `clothing`). Source type buckets are individually
+      incomplete/ambiguous (crown vs hat), so the map is the authority.
+    - `equippable_by` from the type default (per the Equippable-By Reference),
+      overridden to `["Mia"]` for females-only items (Shotgunnova `---M`, e.g.
+      One-Piece Dress). Shotgunnova's restrictive `IG--` on Leather/Wooden Cap is an
+      outlier vs ElectroSpecter "used by all" + the existing all-four hats → ignored.
+    - ATK/DEF agree across all three sources for every new basic (no stat conflicts).
+    - `acquisition.price` = **majority** of the 3 equipment sources (the shop price in
+      `shops.json` derives from Shotgunnova, so it is NOT an independent vote);
+      conflicts recorded (Wooden Stick 40, Circlet 120, Battle Rapier 2900 — Shotgunnova
+      the lone outlier each time).
+    - Cross-check of the existing 87: new sources added to `sources` where they
+      corroborate; genuine stat disagreements flagged with `resolution: "authority"`
+      keeping the dnextreme88 value (grievous-mace atk, storm-gear def, war-gloves def,
+      battle-gloves atk). Pre-existing A-phase conflicts had `resolution` back-filled.
+
 ---
 
 ## Schema: `classes`
@@ -1416,9 +1448,18 @@ When extracting class data from raw source files:
    strawhat gives example 7-8 djinn setups ("3 Venus, 3 Mars"); aku-chi
    gives top-tier setups ("1 earth, 6 wind"). These describe the same class
    from different angles — record all, flag only direct contradictions.
-5. **stat_multiplier / acr**: only aku-chi provides these, and only for the
-   classes it discusses. stat_multiplier is class-level; acr is per
-   character + class (lives in `available_to`).
+5. **stat_multiplier / acr**: aku-chi, `electrospecter` (§7), `shotgunnova`
+   ([CLSS]) and `fandom-wiki` provide stat_multiplier; only aku-chi provides
+   acr. stat_multiplier is class-level; acr is per character + class (lives in
+   `available_to`). `fandom-wiki` (Golden Sun Wiki class table, `Class -
+   FandomWiki`) lists the **generic** high-tier dual-element classes (Lord,
+   Champion, Magister, … 20 rows, no character axis): one row's stat% applies
+   to every json entry sharing the class name. Per-stat resolution: majority of
+   {electrospecter, shotgunnova, fandom-wiki, aku-chi}; ties → authority order
+   **aku-chi → fandom-wiki** (both data-derived); a pure electrospecter-vs-
+   shotgunnova 1v1 has no authority → `unresolved` (keep electrospecter). Worked
+   example: champion PP — electro/shotgun say 120, aku-chi/fandom-wiki say 110,
+   2-2 tie → authority → **110**.
 6. **8-djinn classes** (Slayer, Chaos Lord, War Adept — mentioned only in
    strawhat's tier headers): create entries with `reachable_in_gs1: false`
    and a note. Do not invent psynergy beyond the tier-group list.

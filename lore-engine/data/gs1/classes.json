@@ -22,7 +22,14 @@
         "acr": null
       }
     ],
-    "stat_multiplier": null,
+    "stat_multiplier": {
+      "hp": 110,
+      "pp": 80,
+      "atk": 110,
+      "def": 100,
+      "agi": 110,
+      "lck": 100
+    },
     "psynergy": [
       {
         "name": "Ragnarok",
@@ -97,7 +104,9 @@
     "notes": "Isaac's base class. plz2bstfu's spell list is a level-30 snapshot and omits psynergy learned above level 30.",
     "sources": [
       "plz2bstfu-class",
-      "strawhat"
+      "strawhat",
+      "electrospecter",
+      "shotgunnova"
     ]
   },
   {
@@ -123,7 +132,14 @@
         "acr": null
       }
     ],
-    "stat_multiplier": null,
+    "stat_multiplier": {
+      "hp": 130,
+      "pp": 90,
+      "atk": 120,
+      "def": 110,
+      "agi": 120,
+      "lck": 100
+    },
     "psynergy": [
       {
         "name": "Ragnarok",
@@ -198,7 +214,9 @@
     "notes": "Same psynergy as Squire (plz2bstfu: 'Same as Squire').",
     "sources": [
       "plz2bstfu-class",
-      "strawhat"
+      "strawhat",
+      "electrospecter",
+      "shotgunnova"
     ]
   },
   {
@@ -224,7 +242,14 @@
         "acr": null
       }
     ],
-    "stat_multiplier": null,
+    "stat_multiplier": {
+      "hp": 150,
+      "pp": 100,
+      "atk": 130,
+      "def": 120,
+      "agi": 130,
+      "lck": 100
+    },
     "psynergy": [
       {
         "name": "Ragnarok",
@@ -325,7 +350,9 @@
     "notes": "strawhat's class list omits Revive for this tier group, though its psynergy section lists Revive as learned by Lord; plz2bstfu confirms Revive from Gallant up.",
     "sources": [
       "plz2bstfu-class",
-      "strawhat"
+      "strawhat",
+      "electrospecter",
+      "shotgunnova"
     ]
   },
   {
@@ -465,7 +492,10 @@
     "sources": [
       "plz2bstfu-class",
       "strawhat",
-      "aku-chi"
+      "aku-chi",
+      "electrospecter",
+      "shotgunnova",
+      "fandom-wiki"
     ]
   },
   {
@@ -600,7 +630,14 @@
         "acr": null
       }
     ],
-    "stat_multiplier": null,
+    "stat_multiplier": {
+      "hp": 100,
+      "pp": 120,
+      "atk": 110,
+      "def": 100,
+      "agi": 120,
+      "lck": 90
+    },
     "psynergy": [
       {
         "name": "Astral Blast",
@@ -688,7 +725,9 @@
     "sources": [
       "plz2bstfu-class",
       "strawhat",
-      "aku-chi"
+      "aku-chi",
+      "electrospecter",
+      "shotgunnova"
     ]
   },
   {
@@ -714,7 +753,14 @@
         "acr": null
       }
     ],
-    "stat_multiplier": null,
+    "stat_multiplier": {
+      "hp": 120,
+      "pp": 130,
+      "atk": 120,
+      "def": 110,
+      "agi": 130,
+      "lck": 90
+    },
     "psynergy": [
       {
         "name": "Astral Blast",
@@ -801,7 +847,9 @@
     "notes": "Isaac's Illusionist (Apprentice line). Distinct from Garet's Illusionist (Page line).",
     "sources": [
       "plz2bstfu-class",
-      "strawhat"
+      "strawhat",
+      "electrospecter",
+      "shotgunnova"
     ]
   },
   {
@@ -827,7 +875,14 @@
         "acr": null
       }
     ],
-    "stat_multiplier": null,
+    "stat_multiplier": {
+      "hp": 140,
+      "pp": 140,
+      "atk": 130,
+      "def": 120,
+      "agi": 140,
+      "lck": 90
+    },
     "psynergy": [
       {
         "name": "Astral Blast",
@@ -942,7 +997,9 @@
     "notes": "Isaac's Enchanter (Apprentice line). Distinct from Garet's Enchanter (Page line).",
     "sources": [
       "plz2bstfu-class",
-      "strawhat"
+      "strawhat",
+      "electrospecter",
+      "shotgunnova"
     ]
   },
   {
@@ -1095,7 +1152,10 @@
     "sources": [
       "plz2bstfu-class",
       "strawhat",
-      "aku-chi"
+      "aku-chi",
+      "electrospecter",
+      "shotgunnova",
+      "fandom-wiki"
     ]
   },
   {
@@ -1244,7 +1304,14 @@
         "acr": null
       }
     ],
-    "stat_multiplier": null,
+    "stat_multiplier": {
+      "hp": 100,
+      "pp": 90,
+      "atk": 110,
+      "def": 110,
+      "agi": 90,
+      "lck": 120
+    },
     "psynergy": [
       {
         "name": "Cutting Edge",
@@ -1305,7 +1372,9 @@
     "notes": "Isaac's Swordsman (Thorn series + Revive). Distinct from Garet's Swordsman (Mad Blast series + Guard/Protect).",
     "sources": [
       "plz2bstfu-class",
-      "strawhat"
+      "strawhat",
+      "electrospecter",
+      "shotgunnova"
     ]
   },
   {
@@ -1335,7 +1404,14 @@
         "acr": null
       }
     ],
-    "stat_multiplier": null,
+    "stat_multiplier": {
+      "hp": 120,
+      "pp": 100,
+      "atk": 120,
+      "def": 120,
+      "agi": 100,
+      "lck": 120
+    },
     "psynergy": [
       {
         "name": "Cutting Edge",
@@ -1424,7 +1500,9 @@
     "sources": [
       "plz2bstfu-class",
       "strawhat",
-      "aku-chi"
+      "aku-chi",
+      "electrospecter",
+      "shotgunnova"
     ]
   },
   {
@@ -1450,7 +1528,14 @@
         "acr": null
       }
     ],
-    "stat_multiplier": null,
+    "stat_multiplier": {
+      "hp": 140,
+      "pp": 110,
+      "atk": 130,
+      "def": 130,
+      "agi": 110,
+      "lck": 120
+    },
     "psynergy": [
       {
         "name": "Cutting Edge",
@@ -1558,7 +1643,20 @@
     "notes": "Isaac's Cavalier (water line). Distinct from Garet's Cavalier and Mia's (Earth)/(Fire) Cavaliers.",
     "sources": [
       "plz2bstfu-class",
-      "strawhat"
+      "strawhat",
+      "electrospecter",
+      "shotgunnova"
+    ],
+    "conflicts": [
+      {
+        "field": "stat_multiplier.agi",
+        "values": {
+          "electrospecter": 110,
+          "shotgunnova": 100
+        },
+        "resolution": "unresolved",
+        "note": "unresolved: 110×1/100×1"
+      }
     ]
   },
   {
@@ -1704,7 +1802,10 @@
     "sources": [
       "plz2bstfu-class",
       "strawhat",
-      "aku-chi"
+      "aku-chi",
+      "electrospecter",
+      "shotgunnova",
+      "fandom-wiki"
     ]
   },
   {
@@ -1730,7 +1831,14 @@
         "acr": null
       }
     ],
-    "stat_multiplier": null,
+    "stat_multiplier": {
+      "hp": 120,
+      "pp": 150,
+      "atk": 110,
+      "def": 110,
+      "agi": 130,
+      "lck": 100
+    },
     "psynergy": [
       {
         "name": "Froth",
@@ -1846,7 +1954,9 @@
     "notes": "Isaac with a water majority. Distinct from Isaac's (Wind) Shaman and from Ivan/Mia's Shaman (Seer line).",
     "sources": [
       "plz2bstfu-class",
-      "strawhat"
+      "strawhat",
+      "electrospecter",
+      "shotgunnova"
     ]
   },
   {
@@ -1872,7 +1982,14 @@
         "acr": null
       }
     ],
-    "stat_multiplier": null,
+    "stat_multiplier": {
+      "hp": 120,
+      "pp": 150,
+      "atk": 110,
+      "def": 110,
+      "agi": 130,
+      "lck": 100
+    },
     "psynergy": [
       {
         "name": "Bolt",
@@ -1981,7 +2098,9 @@
     "notes": "Isaac with a wind majority.",
     "sources": [
       "plz2bstfu-class",
-      "strawhat"
+      "strawhat",
+      "electrospecter",
+      "shotgunnova"
     ]
   },
   {
@@ -2021,7 +2140,14 @@
         "acr": null
       }
     ],
-    "stat_multiplier": null,
+    "stat_multiplier": {
+      "hp": 100,
+      "pp": 70,
+      "atk": 120,
+      "def": 90,
+      "agi": 110,
+      "lck": 70
+    },
     "psynergy": [
       {
         "name": "Planet Diver",
@@ -2096,7 +2222,9 @@
     "notes": "'Blast' here is the Nova-series Blast (blast-nova). Garet's Brute is identical to Isaac's (plz2bstfu: 'Same as Isaac as a Brute').",
     "sources": [
       "plz2bstfu-class",
-      "strawhat"
+      "strawhat",
+      "electrospecter",
+      "shotgunnova"
     ]
   },
   {
@@ -2132,7 +2260,14 @@
         "acr": null
       }
     ],
-    "stat_multiplier": null,
+    "stat_multiplier": {
+      "hp": 120,
+      "pp": 80,
+      "atk": 130,
+      "def": 100,
+      "agi": 120,
+      "lck": 70
+    },
     "psynergy": [
       {
         "name": "Planet Diver",
@@ -2207,7 +2342,9 @@
     "notes": "Same psynergy as Brute.",
     "sources": [
       "plz2bstfu-class",
-      "strawhat"
+      "strawhat",
+      "electrospecter",
+      "shotgunnova"
     ]
   },
   {
@@ -2247,7 +2384,14 @@
         "acr": null
       }
     ],
-    "stat_multiplier": null,
+    "stat_multiplier": {
+      "hp": 140,
+      "pp": 90,
+      "atk": 140,
+      "def": 110,
+      "agi": 130,
+      "lck": 70
+    },
     "psynergy": [
       {
         "name": "Planet Diver",
@@ -2363,7 +2507,9 @@
     "notes": null,
     "sources": [
       "plz2bstfu-class",
-      "strawhat"
+      "strawhat",
+      "electrospecter",
+      "shotgunnova"
     ]
   },
   {
@@ -2403,7 +2549,14 @@
         "acr": null
       }
     ],
-    "stat_multiplier": null,
+    "stat_multiplier": {
+      "hp": 160,
+      "pp": 100,
+      "atk": 150,
+      "def": 120,
+      "agi": 140,
+      "lck": 70
+    },
     "psynergy": [
       {
         "name": "Planet Diver",
@@ -2519,7 +2672,9 @@
     "notes": "Same psynergy as Savage.",
     "sources": [
       "plz2bstfu-class",
-      "strawhat"
+      "strawhat",
+      "electrospecter",
+      "shotgunnova"
     ]
   },
   {
@@ -2691,7 +2846,34 @@
     "sources": [
       "plz2bstfu-class",
       "strawhat",
-      "aku-chi"
+      "aku-chi",
+      "electrospecter",
+      "shotgunnova",
+      "fandom-wiki"
+    ],
+    "conflicts": [
+      {
+        "field": "stat_multiplier.pp",
+        "values": {
+          "electrospecter": 110,
+          "shotgunnova": 160,
+          "fandom-wiki": 110,
+          "aku-chi": 110
+        },
+        "resolution": "majority",
+        "note": "majority: 110×3/160×1"
+      },
+      {
+        "field": "stat_multiplier.atk",
+        "values": {
+          "electrospecter": 160,
+          "shotgunnova": 110,
+          "fandom-wiki": 160,
+          "aku-chi": 160
+        },
+        "resolution": "majority",
+        "note": "majority: 160×3/110×1"
+      }
     ]
   },
   {
@@ -2983,7 +3165,10 @@
     "sources": [
       "plz2bstfu-class",
       "strawhat",
-      "aku-chi"
+      "aku-chi",
+      "electrospecter",
+      "shotgunnova",
+      "fandom-wiki"
     ]
   },
   {
@@ -3149,7 +3334,10 @@
     "sources": [
       "plz2bstfu-class",
       "strawhat",
-      "aku-chi"
+      "aku-chi",
+      "electrospecter",
+      "shotgunnova",
+      "fandom-wiki"
     ]
   },
   {
@@ -3316,7 +3504,10 @@
     "sources": [
       "plz2bstfu-class",
       "strawhat",
-      "aku-chi"
+      "aku-chi",
+      "electrospecter",
+      "shotgunnova",
+      "fandom-wiki"
     ]
   },
   {
@@ -3342,7 +3533,14 @@
         "acr": null
       }
     ],
-    "stat_multiplier": null,
+    "stat_multiplier": {
+      "hp": 110,
+      "pp": 80,
+      "atk": 100,
+      "def": 110,
+      "agi": 70,
+      "lck": 100
+    },
     "psynergy": [
       {
         "name": "Heat Wave",
@@ -3416,7 +3614,9 @@
     "notes": "Garet's base class. Unrelated to the Guard psynergy.",
     "sources": [
       "plz2bstfu-class",
-      "strawhat"
+      "strawhat",
+      "electrospecter",
+      "shotgunnova"
     ]
   },
   {
@@ -3442,7 +3642,14 @@
         "acr": null
       }
     ],
-    "stat_multiplier": null,
+    "stat_multiplier": {
+      "hp": 130,
+      "pp": 90,
+      "atk": 110,
+      "def": 120,
+      "agi": 80,
+      "lck": 100
+    },
     "psynergy": [
       {
         "name": "Heat Wave",
@@ -3516,7 +3723,9 @@
     "notes": "Same psynergy as Guard.",
     "sources": [
       "plz2bstfu-class",
-      "strawhat"
+      "strawhat",
+      "electrospecter",
+      "shotgunnova"
     ]
   },
   {
@@ -3542,7 +3751,14 @@
         "acr": null
       }
     ],
-    "stat_multiplier": null,
+    "stat_multiplier": {
+      "hp": 150,
+      "pp": 100,
+      "atk": 120,
+      "def": 130,
+      "agi": 90,
+      "lck": 100
+    },
     "psynergy": [
       {
         "name": "Heat Wave",
@@ -3644,7 +3860,9 @@
     "notes": null,
     "sources": [
       "plz2bstfu-class",
-      "strawhat"
+      "strawhat",
+      "electrospecter",
+      "shotgunnova"
     ]
   },
   {
@@ -3784,7 +4002,23 @@
     "sources": [
       "plz2bstfu-class",
       "strawhat",
-      "aku-chi"
+      "aku-chi",
+      "electrospecter",
+      "shotgunnova",
+      "fandom-wiki"
+    ],
+    "conflicts": [
+      {
+        "field": "stat_multiplier.pp",
+        "values": {
+          "electrospecter": 120,
+          "shotgunnova": 120,
+          "fandom-wiki": 110,
+          "aku-chi": 110
+        },
+        "resolution": "authority",
+        "note": "authority: 120×2/110×2"
+      }
     ]
   },
   {
@@ -3814,7 +4048,14 @@
         "acr": null
       }
     ],
-    "stat_multiplier": null,
+    "stat_multiplier": {
+      "hp": 100,
+      "pp": 120,
+      "atk": 110,
+      "def": 100,
+      "agi": 120,
+      "lck": 90
+    },
     "psynergy": [
       {
         "name": "Astral Blast",
@@ -3901,7 +4142,9 @@
     "sources": [
       "plz2bstfu-class",
       "strawhat",
-      "aku-chi"
+      "aku-chi",
+      "electrospecter",
+      "shotgunnova"
     ]
   },
   {
@@ -3927,7 +4170,14 @@
         "acr": null
       }
     ],
-    "stat_multiplier": null,
+    "stat_multiplier": {
+      "hp": 120,
+      "pp": 130,
+      "atk": 120,
+      "def": 110,
+      "agi": 130,
+      "lck": 90
+    },
     "psynergy": [
       {
         "name": "Astral Blast",
@@ -4013,7 +4263,9 @@
     "notes": "Garet's Illusionist (Page line). Distinct from Isaac's Illusionist (Apprentice line).",
     "sources": [
       "plz2bstfu-class",
-      "strawhat"
+      "strawhat",
+      "electrospecter",
+      "shotgunnova"
     ]
   },
   {
@@ -4039,7 +4291,14 @@
         "acr": null
       }
     ],
-    "stat_multiplier": null,
+    "stat_multiplier": {
+      "hp": 140,
+      "pp": 140,
+      "atk": 130,
+      "def": 120,
+      "agi": 140,
+      "lck": 90
+    },
     "psynergy": [
       {
         "name": "Astral Blast",
@@ -4153,7 +4412,9 @@
     "notes": "Garet's Enchanter (Page line). Distinct from Isaac's Enchanter (Apprentice line).",
     "sources": [
       "plz2bstfu-class",
-      "strawhat"
+      "strawhat",
+      "electrospecter",
+      "shotgunnova"
     ]
   },
   {
@@ -4179,7 +4440,14 @@
         "acr": null
       }
     ],
-    "stat_multiplier": null,
+    "stat_multiplier": {
+      "hp": 170,
+      "pp": 160,
+      "atk": 140,
+      "def": 130,
+      "agi": 160,
+      "lck": 90
+    },
     "psynergy": [
       {
         "name": "Astral Blast",
@@ -4293,7 +4561,10 @@
     "notes": "plz2bstfu: 'Same as Enchanter' (Garet). Distinct from Isaac's Conjurer.",
     "sources": [
       "plz2bstfu-class",
-      "strawhat"
+      "strawhat",
+      "electrospecter",
+      "shotgunnova",
+      "fandom-wiki"
     ]
   },
   {
@@ -4319,7 +4590,14 @@
         "acr": null
       }
     ],
-    "stat_multiplier": null,
+    "stat_multiplier": {
+      "hp": 100,
+      "pp": 90,
+      "atk": 110,
+      "def": 110,
+      "agi": 90,
+      "lck": 120
+    },
     "psynergy": [
       {
         "name": "Cutting Edge",
@@ -4387,7 +4665,9 @@
     "notes": "'Blast' here is the Mad Blast-series Blast (blast-mad). Garet's Swordsman; distinct from Isaac's Swordsman (Thorn series + Revive).",
     "sources": [
       "plz2bstfu-class",
-      "strawhat"
+      "strawhat",
+      "electrospecter",
+      "shotgunnova"
     ]
   },
   {
@@ -4417,7 +4697,14 @@
         "acr": null
       }
     ],
-    "stat_multiplier": null,
+    "stat_multiplier": {
+      "hp": 120,
+      "pp": 100,
+      "atk": 120,
+      "def": 120,
+      "agi": 100,
+      "lck": 120
+    },
     "psynergy": [
       {
         "name": "Cutting Edge",
@@ -4513,7 +4800,9 @@
     "sources": [
       "plz2bstfu-class",
       "strawhat",
-      "aku-chi"
+      "aku-chi",
+      "electrospecter",
+      "shotgunnova"
     ]
   },
   {
@@ -4543,7 +4832,14 @@
         "acr": null
       }
     ],
-    "stat_multiplier": null,
+    "stat_multiplier": {
+      "hp": 140,
+      "pp": 110,
+      "atk": 130,
+      "def": 130,
+      "agi": 110,
+      "lck": 120
+    },
     "psynergy": [
       {
         "name": "Cutting Edge",
@@ -4659,7 +4955,9 @@
     "sources": [
       "plz2bstfu-class",
       "strawhat",
-      "aku-chi"
+      "aku-chi",
+      "electrospecter",
+      "shotgunnova"
     ]
   },
   {
@@ -4689,7 +4987,14 @@
         "acr": null
       }
     ],
-    "stat_multiplier": null,
+    "stat_multiplier": {
+      "hp": 170,
+      "pp": 130,
+      "atk": 140,
+      "def": 140,
+      "agi": 130,
+      "lck": 120
+    },
     "psynergy": [
       {
         "name": "Cutting Edge",
@@ -4805,7 +5110,10 @@
     "sources": [
       "plz2bstfu-class",
       "strawhat",
-      "aku-chi"
+      "aku-chi",
+      "electrospecter",
+      "shotgunnova",
+      "fandom-wiki"
     ]
   },
   {
@@ -4831,7 +5139,14 @@
         "acr": null
       }
     ],
-    "stat_multiplier": null,
+    "stat_multiplier": {
+      "hp": 120,
+      "pp": 140,
+      "atk": 110,
+      "def": 120,
+      "agi": 140,
+      "lck": 120
+    },
     "psynergy": [
       {
         "name": "Douse",
@@ -4937,7 +5252,9 @@
     "notes": "Garet with a water majority. strawhat's '8 Mercury' setup is impossible in GS1 (7 djinn per element); 6-7 Mercury reaches this class per plz2bstfu.",
     "sources": [
       "plz2bstfu-class",
-      "strawhat"
+      "strawhat",
+      "electrospecter",
+      "shotgunnova"
     ]
   },
   {
@@ -4963,7 +5280,14 @@
         "acr": null
       }
     ],
-    "stat_multiplier": null,
+    "stat_multiplier": {
+      "hp": 120,
+      "pp": 140,
+      "atk": 110,
+      "def": 120,
+      "agi": 140,
+      "lck": 120
+    },
     "psynergy": [
       {
         "name": "Slash",
@@ -5062,7 +5386,9 @@
     "notes": "Garet with a wind majority.",
     "sources": [
       "plz2bstfu-class",
-      "strawhat"
+      "strawhat",
+      "electrospecter",
+      "shotgunnova"
     ]
   },
   {
@@ -5088,7 +5414,14 @@
         "acr": null
       }
     ],
-    "stat_multiplier": null,
+    "stat_multiplier": {
+      "hp": 80,
+      "pp": 140,
+      "atk": 80,
+      "def": 90,
+      "agi": 130,
+      "lck": 110
+    },
     "psynergy": [
       {
         "name": "Ray",
@@ -5168,7 +5501,9 @@
     "notes": "Ivan's base class.",
     "sources": [
       "plz2bstfu-class",
-      "strawhat"
+      "strawhat",
+      "electrospecter",
+      "shotgunnova"
     ]
   },
   {
@@ -5194,7 +5529,14 @@
         "acr": null
       }
     ],
-    "stat_multiplier": null,
+    "stat_multiplier": {
+      "hp": 90,
+      "pp": 150,
+      "atk": 90,
+      "def": 100,
+      "agi": 140,
+      "lck": 110
+    },
     "psynergy": [
       {
         "name": "Ray",
@@ -5288,7 +5630,9 @@
     "notes": null,
     "sources": [
       "plz2bstfu-class",
-      "strawhat"
+      "strawhat",
+      "electrospecter",
+      "shotgunnova"
     ]
   },
   {
@@ -5318,7 +5662,14 @@
         "acr": null
       }
     ],
-    "stat_multiplier": null,
+    "stat_multiplier": {
+      "hp": 110,
+      "pp": 160,
+      "atk": 100,
+      "def": 110,
+      "agi": 150,
+      "lck": 110
+    },
     "psynergy": [
       {
         "name": "Ray",
@@ -5427,7 +5778,21 @@
     "sources": [
       "plz2bstfu-class",
       "strawhat",
-      "aku-chi"
+      "aku-chi",
+      "electrospecter",
+      "shotgunnova"
+    ],
+    "conflicts": [
+      {
+        "field": "stat_multiplier.agi",
+        "values": {
+          "electrospecter": 150,
+          "shotgunnova": 140,
+          "aku-chi": 150
+        },
+        "resolution": "majority",
+        "note": "majority: 150×2/140×1"
+      }
     ]
   },
   {
@@ -5573,7 +5938,23 @@
     "sources": [
       "plz2bstfu-class",
       "strawhat",
-      "aku-chi"
+      "aku-chi",
+      "electrospecter",
+      "shotgunnova",
+      "fandom-wiki"
+    ],
+    "conflicts": [
+      {
+        "field": "stat_multiplier.atk",
+        "values": {
+          "electrospecter": 110,
+          "shotgunnova": 100,
+          "fandom-wiki": 110,
+          "aku-chi": 110
+        },
+        "resolution": "majority",
+        "note": "majority: 110×3/100×1"
+      }
     ]
   },
   {
@@ -5603,7 +5984,14 @@
         "acr": null
       }
     ],
-    "stat_multiplier": null,
+    "stat_multiplier": {
+      "hp": 90,
+      "pp": 130,
+      "atk": 90,
+      "def": 90,
+      "agi": 110,
+      "lck": 100
+    },
     "psynergy": [
       {
         "name": "Bolt",
@@ -5692,7 +6080,9 @@
     "sources": [
       "plz2bstfu-class",
       "strawhat",
-      "aku-chi"
+      "aku-chi",
+      "electrospecter",
+      "shotgunnova"
     ]
   },
   {
@@ -5722,7 +6112,14 @@
         "acr": null
       }
     ],
-    "stat_multiplier": null,
+    "stat_multiplier": {
+      "hp": 110,
+      "pp": 140,
+      "atk": 100,
+      "def": 100,
+      "agi": 120,
+      "lck": 100
+    },
     "psynergy": [
       {
         "name": "Bolt",
@@ -5811,7 +6208,9 @@
     "sources": [
       "plz2bstfu-class",
       "strawhat",
-      "aku-chi"
+      "aku-chi",
+      "electrospecter",
+      "shotgunnova"
     ]
   },
   {
@@ -5841,7 +6240,14 @@
         "acr": null
       }
     ],
-    "stat_multiplier": null,
+    "stat_multiplier": {
+      "hp": 120,
+      "pp": 150,
+      "atk": 110,
+      "def": 110,
+      "agi": 130,
+      "lck": 100
+    },
     "psynergy": [
       {
         "name": "Bolt",
@@ -5951,7 +6357,21 @@
     "sources": [
       "plz2bstfu-class",
       "strawhat",
-      "aku-chi"
+      "aku-chi",
+      "electrospecter",
+      "shotgunnova"
+    ],
+    "conflicts": [
+      {
+        "field": "stat_multiplier.agi",
+        "values": {
+          "electrospecter": 130,
+          "shotgunnova": 120,
+          "aku-chi": 130
+        },
+        "resolution": "majority",
+        "note": "majority: 130×2/120×1"
+      }
     ]
   },
   {
@@ -5981,7 +6401,14 @@
         "acr": null
       }
     ],
-    "stat_multiplier": null,
+    "stat_multiplier": {
+      "hp": 150,
+      "pp": 170,
+      "atk": 130,
+      "def": 130,
+      "agi": 150,
+      "lck": 100
+    },
     "psynergy": [
       {
         "name": "Bolt",
@@ -6091,7 +6518,10 @@
     "sources": [
       "plz2bstfu-class",
       "strawhat",
-      "aku-chi"
+      "aku-chi",
+      "electrospecter",
+      "shotgunnova",
+      "fandom-wiki"
     ]
   },
   {
@@ -6117,7 +6547,14 @@
         "acr": null
       }
     ],
-    "stat_multiplier": null,
+    "stat_multiplier": {
+      "hp": 140,
+      "pp": 140,
+      "atk": 130,
+      "def": 120,
+      "agi": 140,
+      "lck": 90
+    },
     "psynergy": [
       {
         "name": "Astral Blast",
@@ -6232,7 +6669,9 @@
     "notes": null,
     "sources": [
       "plz2bstfu-class",
-      "strawhat"
+      "strawhat",
+      "electrospecter",
+      "shotgunnova"
     ],
     "conflicts": [
       {
@@ -6241,7 +6680,8 @@
           "plz2bstfu-class": "(Earth) Enchanter",
           "strawhat": "(Earth) Shaman"
         },
-        "note": "strawhat's section header reads '(Earth) Shaman' but its content matches plz2bstfu's (Earth) Enchanter; treated as a strawhat typo."
+        "note": "strawhat's section header reads '(Earth) Shaman' but its content matches plz2bstfu's (Earth) Enchanter; treated as a strawhat typo.",
+        "resolution": "unresolved"
       }
     ]
   },
@@ -6268,7 +6708,14 @@
         "acr": null
       }
     ],
-    "stat_multiplier": null,
+    "stat_multiplier": {
+      "hp": 140,
+      "pp": 140,
+      "atk": 130,
+      "def": 120,
+      "agi": 140,
+      "lck": 90
+    },
     "psynergy": [
       {
         "name": "Astral Blast",
@@ -6383,7 +6830,9 @@
     "notes": "plz2bstfu's list contains a duplicated 'Impact 7pp' entry; deduplicated here.",
     "sources": [
       "plz2bstfu-class",
-      "strawhat"
+      "strawhat",
+      "electrospecter",
+      "shotgunnova"
     ]
   },
   {
@@ -6409,7 +6858,14 @@
         "acr": null
       }
     ],
-    "stat_multiplier": null,
+    "stat_multiplier": {
+      "hp": 90,
+      "pp": 120,
+      "atk": 90,
+      "def": 100,
+      "agi": 120,
+      "lck": 120
+    },
     "psynergy": [
       {
         "name": "Slash",
@@ -6474,7 +6930,9 @@
     "notes": "Ivan's Pilgrim (Slash/Plasma). Distinct from Mia's Pilgrim (Douse/Prism).",
     "sources": [
       "plz2bstfu-class",
-      "strawhat"
+      "strawhat",
+      "electrospecter",
+      "shotgunnova"
     ]
   },
   {
@@ -6504,7 +6962,14 @@
         "acr": null
       }
     ],
-    "stat_multiplier": null,
+    "stat_multiplier": {
+      "hp": 110,
+      "pp": 130,
+      "atk": 100,
+      "def": 110,
+      "agi": 130,
+      "lck": 120
+    },
     "psynergy": [
       {
         "name": "Slash",
@@ -6570,7 +7035,9 @@
     "sources": [
       "plz2bstfu-class",
       "strawhat",
-      "aku-chi"
+      "aku-chi",
+      "electrospecter",
+      "shotgunnova"
     ]
   },
   {
@@ -6596,7 +7063,14 @@
         "acr": null
       }
     ],
-    "stat_multiplier": null,
+    "stat_multiplier": {
+      "hp": 120,
+      "pp": 140,
+      "atk": 110,
+      "def": 120,
+      "agi": 140,
+      "lck": 120
+    },
     "psynergy": [
       {
         "name": "Slash",
@@ -6695,7 +7169,9 @@
     "notes": "Ivan's Ascetic (Slash series). Distinct from Mia's Ascetic (Douse/Prism series) and Garet's (Water)/(Wind) Ascetics.",
     "sources": [
       "plz2bstfu-class",
-      "strawhat"
+      "strawhat",
+      "electrospecter",
+      "shotgunnova"
     ]
   },
   {
@@ -6721,7 +7197,14 @@
         "acr": null
       }
     ],
-    "stat_multiplier": null,
+    "stat_multiplier": {
+      "hp": 150,
+      "pp": 160,
+      "atk": 130,
+      "def": 140,
+      "agi": 160,
+      "lck": 120
+    },
     "psynergy": [
       {
         "name": "Slash",
@@ -6820,7 +7303,10 @@
     "notes": "plz2bstfu: 'Same as Ascetic' (Ivan).",
     "sources": [
       "plz2bstfu-class",
-      "strawhat"
+      "strawhat",
+      "electrospecter",
+      "shotgunnova",
+      "fandom-wiki"
     ]
   },
   {
@@ -6860,7 +7346,14 @@
         "acr": null
       }
     ],
-    "stat_multiplier": null,
+    "stat_multiplier": {
+      "hp": 80,
+      "pp": 140,
+      "atk": 80,
+      "def": 90,
+      "agi": 130,
+      "lck": 120
+    },
     "psynergy": [
       {
         "name": "Prism",
@@ -6945,7 +7438,9 @@
     "notes": null,
     "sources": [
       "plz2bstfu-class",
-      "strawhat"
+      "strawhat",
+      "electrospecter",
+      "shotgunnova"
     ]
   },
   {
@@ -6989,7 +7484,14 @@
         "acr": null
       }
     ],
-    "stat_multiplier": null,
+    "stat_multiplier": {
+      "hp": 90,
+      "pp": 150,
+      "atk": 90,
+      "def": 100,
+      "agi": 140,
+      "lck": 120
+    },
     "psynergy": [
       {
         "name": "Prism",
@@ -7075,7 +7577,21 @@
     "sources": [
       "plz2bstfu-class",
       "strawhat",
-      "aku-chi"
+      "aku-chi",
+      "electrospecter",
+      "shotgunnova"
+    ],
+    "conflicts": [
+      {
+        "field": "stat_multiplier.def",
+        "values": {
+          "electrospecter": 100,
+          "shotgunnova": 110,
+          "aku-chi": 100
+        },
+        "resolution": "majority",
+        "note": "majority: 100×2/110×1"
+      }
     ]
   },
   {
@@ -7119,7 +7635,14 @@
         "acr": null
       }
     ],
-    "stat_multiplier": null,
+    "stat_multiplier": {
+      "hp": 110,
+      "pp": 160,
+      "atk": 100,
+      "def": 110,
+      "agi": 150,
+      "lck": 120
+    },
     "psynergy": [
       {
         "name": "Prism",
@@ -7225,7 +7748,9 @@
     "sources": [
       "plz2bstfu-class",
       "strawhat",
-      "aku-chi"
+      "aku-chi",
+      "electrospecter",
+      "shotgunnova"
     ]
   },
   {
@@ -7265,7 +7790,14 @@
         "acr": null
       }
     ],
-    "stat_multiplier": null,
+    "stat_multiplier": {
+      "hp": 130,
+      "pp": 170,
+      "atk": 110,
+      "def": 120,
+      "agi": 160,
+      "lck": 120
+    },
     "psynergy": [
       {
         "name": "Prism",
@@ -7370,7 +7902,9 @@
     "notes": "Same psynergy as Scholar.",
     "sources": [
       "plz2bstfu-class",
-      "strawhat"
+      "strawhat",
+      "electrospecter",
+      "shotgunnova"
     ]
   },
   {
@@ -7531,7 +8065,10 @@
     "sources": [
       "plz2bstfu-class",
       "strawhat",
-      "aku-chi"
+      "aku-chi",
+      "electrospecter",
+      "shotgunnova",
+      "fandom-wiki"
     ]
   },
   {
@@ -7575,7 +8112,14 @@
         "acr": null
       }
     ],
-    "stat_multiplier": null,
+    "stat_multiplier": {
+      "hp": 130,
+      "pp": 170,
+      "atk": 120,
+      "def": 120,
+      "agi": 150,
+      "lck": 90
+    },
     "psynergy": [
       {
         "name": "Haunt",
@@ -7684,7 +8228,10 @@
     "sources": [
       "plz2bstfu-class",
       "strawhat",
-      "aku-chi"
+      "aku-chi",
+      "electrospecter",
+      "shotgunnova",
+      "fandom-wiki"
     ],
     "conflicts": [
       {
@@ -7693,7 +8240,30 @@
           "plz2bstfu-class": "3-4 Earth, 3 Wind Djinn",
           "strawhat": "4 Venus, 3 Mercury"
         },
-        "note": "plz2bstfu says 3 Wind for Mia's Medium; strawhat and the Ivan entries say 3 Mercury/Water. plz2bstfu's 'Wind' is likely an error since Mia's element mix would not include wind here."
+        "note": "plz2bstfu says 3 Wind for Mia's Medium; strawhat and the Ivan entries say 3 Mercury/Water. plz2bstfu's 'Wind' is likely an error since Mia's element mix would not include wind here.",
+        "resolution": "unresolved"
+      },
+      {
+        "field": "stat_multiplier.agi",
+        "values": {
+          "electrospecter": 150,
+          "shotgunnova": 160,
+          "fandom-wiki": 150,
+          "aku-chi": 150
+        },
+        "resolution": "majority",
+        "note": "majority: 150×3/160×1"
+      },
+      {
+        "field": "stat_multiplier.lck",
+        "values": {
+          "electrospecter": 90,
+          "shotgunnova": 120,
+          "fandom-wiki": 90,
+          "aku-chi": 90
+        },
+        "resolution": "majority",
+        "note": "majority: 90×3/120×1"
       }
     ]
   },
@@ -7855,7 +8425,10 @@
     "sources": [
       "plz2bstfu-class",
       "strawhat",
-      "aku-chi"
+      "aku-chi",
+      "electrospecter",
+      "shotgunnova",
+      "fandom-wiki"
     ]
   },
   {
@@ -8009,7 +8582,10 @@
     "sources": [
       "plz2bstfu-class",
       "strawhat",
-      "aku-chi"
+      "aku-chi",
+      "electrospecter",
+      "shotgunnova",
+      "fandom-wiki"
     ],
     "conflicts": [
       {
@@ -8019,7 +8595,8 @@
           "strawhat": "3 Venus, 4 Mercury",
           "aku-chi": "4 wind, 3 earth"
         },
-        "note": "aku-chi lists Mia's White Mage as 4 wind + 3 earth; plz2bstfu and strawhat both say 4 water + 3 earth."
+        "note": "aku-chi lists Mia's White Mage as 4 wind + 3 earth; plz2bstfu and strawhat both say 4 water + 3 earth.",
+        "resolution": "unresolved"
       }
     ]
   },
@@ -8046,7 +8623,14 @@
         "acr": null
       }
     ],
-    "stat_multiplier": null,
+    "stat_multiplier": {
+      "hp": 90,
+      "pp": 130,
+      "atk": 90,
+      "def": 100,
+      "agi": 80,
+      "lck": 130
+    },
     "psynergy": [
       {
         "name": "Ply",
@@ -8133,7 +8717,8 @@
     "notes": "Mia's base class.",
     "sources": [
       "plz2bstfu-class",
-      "strawhat"
+      "strawhat",
+      "electrospecter"
     ]
   },
   {
@@ -8159,7 +8744,14 @@
         "acr": null
       }
     ],
-    "stat_multiplier": null,
+    "stat_multiplier": {
+      "hp": 100,
+      "pp": 140,
+      "atk": 100,
+      "def": 110,
+      "agi": 90,
+      "lck": 130
+    },
     "psynergy": [
       {
         "name": "Ply",
@@ -8246,7 +8838,8 @@
     "notes": "Same psynergy as Water Seer.",
     "sources": [
       "plz2bstfu-class",
-      "strawhat"
+      "strawhat",
+      "electrospecter"
     ]
   },
   {
@@ -8276,7 +8869,14 @@
         "acr": null
       }
     ],
-    "stat_multiplier": null,
+    "stat_multiplier": {
+      "hp": 120,
+      "pp": 150,
+      "atk": 110,
+      "def": 120,
+      "agi": 100,
+      "lck": 130
+    },
     "psynergy": [
       {
         "name": "Ply",
@@ -8384,7 +8984,8 @@
     "sources": [
       "plz2bstfu-class",
       "strawhat",
-      "aku-chi"
+      "aku-chi",
+      "electrospecter"
     ]
   },
   {
@@ -8529,7 +9130,9 @@
     "sources": [
       "plz2bstfu-class",
       "strawhat",
-      "aku-chi"
+      "aku-chi",
+      "electrospecter",
+      "fandom-wiki"
     ]
   },
   {
@@ -8555,7 +9158,14 @@
         "acr": null
       }
     ],
-    "stat_multiplier": null,
+    "stat_multiplier": {
+      "hp": 90,
+      "pp": 130,
+      "atk": 90,
+      "def": 90,
+      "agi": 110,
+      "lck": 100
+    },
     "psynergy": [
       {
         "name": "Froth",
@@ -8643,7 +9253,8 @@
     "notes": "Mia's Seer (Froth series). Distinct from Ivan's Seer (Bolt series).",
     "sources": [
       "plz2bstfu-class",
-      "strawhat"
+      "strawhat",
+      "electrospecter"
     ]
   },
   {
@@ -8673,7 +9284,14 @@
         "acr": null
       }
     ],
-    "stat_multiplier": null,
+    "stat_multiplier": {
+      "hp": 110,
+      "pp": 140,
+      "atk": 100,
+      "def": 100,
+      "agi": 120,
+      "lck": 100
+    },
     "psynergy": [
       {
         "name": "Froth",
@@ -8762,7 +9380,8 @@
     "sources": [
       "plz2bstfu-class",
       "strawhat",
-      "aku-chi"
+      "aku-chi",
+      "electrospecter"
     ]
   },
   {
@@ -8788,7 +9407,14 @@
         "acr": null
       }
     ],
-    "stat_multiplier": null,
+    "stat_multiplier": {
+      "hp": 120,
+      "pp": 150,
+      "atk": 110,
+      "def": 110,
+      "agi": 130,
+      "lck": 100
+    },
     "psynergy": [
       {
         "name": "Froth",
@@ -8902,7 +9528,8 @@
     "notes": "Mia's Shaman (Froth series). plz2bstfu lists Revive only from the Druid tier; strawhat's Shaman/Druid group includes it. Distinct from Ivan's Shaman and Isaac's (Water)/(Wind) Shamans.",
     "sources": [
       "plz2bstfu-class",
-      "strawhat"
+      "strawhat",
+      "electrospecter"
     ]
   },
   {
@@ -8928,7 +9555,14 @@
         "acr": null
       }
     ],
-    "stat_multiplier": null,
+    "stat_multiplier": {
+      "hp": 150,
+      "pp": 170,
+      "atk": 130,
+      "def": 130,
+      "agi": 150,
+      "lck": 100
+    },
     "psynergy": [
       {
         "name": "Froth",
@@ -9043,7 +9677,9 @@
     "notes": "Mia's Druid (Froth series). Distinct from Ivan's Druid (Bolt series).",
     "sources": [
       "plz2bstfu-class",
-      "strawhat"
+      "strawhat",
+      "electrospecter",
+      "fandom-wiki"
     ]
   },
   {
@@ -9069,7 +9705,14 @@
         "acr": null
       }
     ],
-    "stat_multiplier": null,
+    "stat_multiplier": {
+      "hp": 140,
+      "pp": 110,
+      "atk": 130,
+      "def": 130,
+      "agi": 110,
+      "lck": 120
+    },
     "psynergy": [
       {
         "name": "Cutting Edge",
@@ -9176,7 +9819,8 @@
     "notes": "Mia with an earth majority.",
     "sources": [
       "plz2bstfu-class",
-      "strawhat"
+      "strawhat",
+      "electrospecter"
     ]
   },
   {
@@ -9202,7 +9846,14 @@
         "acr": null
       }
     ],
-    "stat_multiplier": null,
+    "stat_multiplier": {
+      "hp": 140,
+      "pp": 110,
+      "atk": 130,
+      "def": 130,
+      "agi": 110,
+      "lck": 120
+    },
     "psynergy": [
       {
         "name": "Cutting Edge",
@@ -9317,7 +9968,8 @@
     "notes": "Mia with a fire majority. 'Blast' here is the Mad Blast-series Blast (blast-mad).",
     "sources": [
       "plz2bstfu-class",
-      "strawhat"
+      "strawhat",
+      "electrospecter"
     ]
   },
   {
@@ -9347,7 +9999,14 @@
         "acr": null
       }
     ],
-    "stat_multiplier": null,
+    "stat_multiplier": {
+      "hp": 90,
+      "pp": 120,
+      "atk": 90,
+      "def": 100,
+      "agi": 120,
+      "lck": 120
+    },
     "psynergy": [
       {
         "name": "Douse",
@@ -9414,7 +10073,8 @@
     "sources": [
       "plz2bstfu-class",
       "strawhat",
-      "aku-chi"
+      "aku-chi",
+      "electrospecter"
     ]
   },
   {
@@ -9440,7 +10100,14 @@
         "acr": null
       }
     ],
-    "stat_multiplier": null,
+    "stat_multiplier": {
+      "hp": 110,
+      "pp": 130,
+      "atk": 100,
+      "def": 110,
+      "agi": 130,
+      "lck": 120
+    },
     "psynergy": [
       {
         "name": "Douse",
@@ -9506,7 +10173,8 @@
     "notes": "Same psynergy as Mia's Pilgrim.",
     "sources": [
       "plz2bstfu-class",
-      "strawhat"
+      "strawhat",
+      "electrospecter"
     ]
   },
   {
@@ -9650,7 +10318,8 @@
     "sources": [
       "plz2bstfu-class",
       "strawhat",
-      "aku-chi"
+      "aku-chi",
+      "electrospecter"
     ]
   },
   {
@@ -9794,7 +10463,9 @@
     "sources": [
       "plz2bstfu-class",
       "strawhat",
-      "aku-chi"
+      "aku-chi",
+      "electrospecter",
+      "fandom-wiki"
     ]
   },
   {

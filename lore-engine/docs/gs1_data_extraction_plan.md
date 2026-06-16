@@ -77,11 +77,26 @@ GS1 原型已把 djinn / bosses / equipment / classes / psynergy 五类 schema +
   - 亮点：grand-gaia pp 32（5 源印证，strawhat 17 离群）；hurricane 平局→tetz 权威保 7；dull→wind（strawhat water 是已知元素 typo）；force/carry 同物异名→unresolved
   - 脚本：`scripts/psynergy_supplement.py`（diff 报告）+ `scripts/psynergy_apply.py`（重生成）
   - 修了 2 个解析 bug：「One Ally」含子串 all、Shotgunnova 用 R=9 表「全体」
-- [ ] **C3 classes 补充** → `data/gs1/classes.json`
-  - 新源：Telago §3 / Super Slash §XI / Shotgunnova [CLSS] / ElectroSpecter §7
-- [ ] **C4 equipment 补充** → `data/gs1/equipment.json`
-  - 新源：Super Slash §VII-IX / Shotgunnova [EQPT] / ElectroSpecter
-  - **已知缺口**：A3 发现 shops 引用的 ~54 个基础武器/防具（Long Sword、Leather Armor 等）equipment.json 里没有，需补全（含 stats）
+- [x] **C3 classes 补充** → `data/gs1/classes.json`（76 条）✅
+  - 核心价值：**stat_multiplier 从 15→72**（填了 57 个之前缺 % 的 class）
+  - 源：**ElectroSpecter §7 + Shotgunnova [CLSS] + FandomWiki 通用职业表**（`Class - FandomWiki`，20 行高阶双元素职业，无角色维度，按名匹配）+ aku-chi 四源交叉；**放弃 Telago §3**（元素-角色共享段 + `x|y` 含管道，解析不可靠）；Super Slash §XI 只有 spell 列表无 %（本次未用）
+  - 匹配：角色 + class 名 + Djinn 元素消歧（Shaman(1) 6 Jupiter→wind-shaman 等）；FandomWiki 按 class 名直接套到所有同名条目（Conjurer/Druid 双变体 stat 相同，无歧义）
+  - 裁决：逐 stat majority；平局走权威 **aku-chi → fandom-wiki**（皆 data-derived）；纯 electro-vs-shotgun 1v1 无权威→ unresolved（留 electro）
+  - **2026-06-15 加 FandomWiki 复核（用户查 wiki 发现 champion pp 是 110 不是 120）**：13→10 stat 冲突；**champion pp 120→110**（electro/shotgun 120 vs aku-chi/fandom-wiki 110，2-2 平局→权威→110，唯一被改值）；medium agi/lck 由 unresolved 升 majority（FandomWiki 站 electro）；berserker pp/atk、magister atk 得 FandomWiki 佐证确认 Shotgunnova swap 为离群；脚本可重入（从 conflict 还原原始 aku-chi 票，避免用已裁决值重投）
+  - 当前 10 冲突 resolution：8 majority / 1 authority(champion pp) / 1 unresolved(cavalier-isaac agi)；另 3 旧非 stat 冲突补 unresolved → 全表 13 冲突全带 resolution
+  - 4 个不可达类（slayer/war-adept/chaos-lord/flame-user）无源，stat% 留 null
+  - 脚本：`scripts/classes_supplement.py` + `scripts/classes_apply.py`
+  - ⚠ 遗留：Shotgunnova 有 7 个 Ivan 异名 class（Water Seer/Scribe/Cleric/Paragon…）未匹配 json，可能 json 缺这些 Ivan 变体——待查
+- [x] **C4 equipment 补充** → `data/gs1/equipment.json`（**141 条** = 87 + **54 新基础装备**）✅
+  - 核心价值：补全 A3 发现的 shops 引用但 equipment.json（偏 artifact）缺失的 54 基础武器/防具 → **shops stock 现 0 缺口**
+  - 新源（3 个结构化表，均 GS1 干净）：**Shotgunnova [EQPT]**（一张定宽表覆盖全部类别：IGIM 装备位/ATK/DEF/AGL/LCK/unleash/cost/artifact `*`/cursed `|C|`；但不全，缺 Battle Axe、Hunter's Sword）∪ **Super Slash §VII-IX**（Found/Buy Price/Stats/Effect，含元素与 PP/HP 加成、regen、倍率）∪ **ElectroSpecter §8/§10**（按 type 分表 → 权威 type 桶 + ATK/DEF + price/location）
+  - 54 新：17 武器（4 long_sword / 5 light_blade / 3 axe / 4 mace / 1 staff）+ 37 防具；**三源 ATK/DEF 全一致（无数值冲突）**
+  - `type` 用人工 map（按 FandomWiki 装备图表 + ElectroSpecter type 表交叉验证：caps→hat、Jerkin/One-Piece Dress→robe、Cotton Shirt→clothing）；`equippable_by` 用 type 默认 + females-only 覆盖（Shotgunnova `---M`→[Mia]，如 One-Piece Dress）；Shotgunnova 给 Leather/Wooden Cap 的 `IG--` 是离群（ElectroSpecter「used by all」+ 既有 hat 全四人）→ 忽略
+  - 裁决：`acquisition.price` 取三源**多数票**（shops 价格派生自 Shotgunnova，非独立票）→ Wooden Stick 40 / Circlet 120 / Battle Rapier 2900（Shotgunnova 每次都是离群），冲突已记
+  - 交叉校验既有 87：新源印证处加进 `sources`（shotgunnova 124 / super-slash 114 / electrospecter 121 条引用）；真分歧标 `resolution:"authority"` 保 dnextreme88 值（grievous-mace atk 88 vs 101、storm-gear def 42 vs 36、war-gloves def 32 vs 35、battle-gloves atk 8 vs 5）；回填 A 阶段旧冲突 resolution
+  - 当前 20 冲突全带 resolution（10 majority / 4 authority / 6 unresolved）
+  - 脚本：`scripts/equipment_supplement.py`（覆盖+冲突报告）+ `scripts/equipment_apply.py`（重生成，从 curated 87 基底每次重建 54，可重入、字节级幂等）
+  - 修了 1 个解析 bug：「One-Piece Dress」含连字符未被识别为新块 → 数据漏进上一条（Cocktail Dress）；id slug 去撇号匹配既有命名（knights-helm 而非 knight-s-helm）
 
 ### Phase D — locations（最难，单列，需清洗层）
 - [ ] **D1 locations**（L）→ `data/gs1/locations.json`（现为空）
@@ -102,6 +117,9 @@ GS1 原型已把 djinn / bosses / equipment / classes / psynergy 五类 schema +
 | 2026-06-15 | 自检 A+B | 修 monsters 1 个真 bug（末条吸入 IV/2 榜单）+ 过滤 SS found "N/A" | 验证双源对齐(仅3处错位且无害)；Orc exp/coins 确为真源对调；全 JSON 合法、id 唯一、计数核对通过 |
 | 2026-06-15 | C1 djinn | djinn.json(28) +must_fight +6 裁决冲突；schema v1.3 冲突裁决策略+权威排序 | stat→terence权威；location→majority(Zephyr/Luff/Tonic 改名)；djinn_supplement+djinn_apply 脚本 |
 | 2026-06-15 | C2 psynergy | psynergy.json(141) 22 冲突全裁决(18maj/2auth/2unres)；跳过 GS2 源 | pp/range 多数表决；0 值改变(新源印证)；psynergy_supplement+apply 脚本 |
+| 2026-06-15 | C3 classes | classes.json(76) stat% 15→72(填57)；electro+shotgun+aku-chi 三源；13 冲突 | 放弃 Telago(难解析)；champion pp 多数120 压过 aku-chi 110；classes_supplement+apply 脚本 |
+| 2026-06-15 | C3 复核 | 加第4源 FandomWiki 通用职业表(20行)；20 条引用 fandom-wiki；脚本可重入 | 用户查 wiki 纠正：**champion pp 120→110**(2-2平局→权威 aku-chi/fandom-wiki)；medium agi/lck 升 majority；权威只认 aku-chi/fandom-wiki，electro≠shotgun 1v1 留 unresolved |
+| 2026-06-15 | C4 equipment | equipment.json(141=87+54)；3 结构化源(shotgunnova/super-slash/electrospecter)；equipment_supplement+apply 脚本 | 补全 shops 全部 54 基础装备(stock 0 缺口)；价格多数票(Wooden Stick 40/Circlet 120/Battle Rapier 2900)；4 既有 stat 冲突 authority 保 dnextreme88；20 冲突全裁决；修 One-Piece Dress 连字符解析 bug |
 
 ## 验证方式（落地后）
 - 计数核对：djinn=28、summons=16、monsters≈全敌人数等已知总数
