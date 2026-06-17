@@ -1,14 +1,21 @@
-新找的数据
-- Djinn Class Items Phynergy - Telago.txt
-- Various data - Super Slash.txt
-- Classes Djinn Weapons Armor Equipment - ElectroSpecter.txt
-- Djinn Items Psynergy - BFGamer.txt
-- Various data - Shotgunnova.txt
-- Various data - Super Slash.txt
-- Various data - strawhat.txt
-- Comprehensive Enemy List - Torrent Load.txt
+聊下。
 
-就这些了。
+我们现在这个gs1的算是做得差不了。我的gs1也打通关了。说实话，因为这边刚做完，所以做出来的东西也没太用上。但跑一遍这个流程的目的倒是达到了。
 
-因为很多，所以感觉得分批来？不然容易usage/context winddow爆掉。所以你再看下到底要做哪些，然后怎么分批来做。可以更新到那个plan里面去，我之后去review一下。到时候就用那个file做progress tracker。
+下面想开始做gs2。但感觉这边得收个尾。我能想到的一些东西：
+1. 清理一些temp的files？
+2. 更新一些东西比如readme，claude.md之类的。
+3. 然后不知道文件夹这些需不需要重新整理下。
+可能还有些我没想到的。
 
+然后gs2的话，我也在考虑，先在这边做完，然后我再开始打游戏，这样我真的能做一些“我可以一边玩一边用”的东西出来。
+关于gs2:
+- 不知道这边有没有可以直接port over的东西？
+    - 比如scripts；
+    - 以及gs2本来就会继承一些gs1的数据。
+- 然后是在这个folder里面接着做，还是新弄一个folder好？
+- 我大致的想法，我是想把gs2的raw，全收集好，然后我做个最简单的标注，比如作者，内容大概跟什么相关，可能会用markdown format加一点点最简单的手工标注，frontmatter，以及一些标题之类的。然后再在这边开始做，不知道会不会更organized一些，以及更efficient。
+    - 很重要的一点是，我想把该收集的收集好，这样可以有个更formal的像project一样的，idea - design - plan - execution 之类的这种感觉。
+- 但具体执行细节怎么弄，需要靠你plan。
+
+包括上面所有东西，做什么，什么顺序，也需要你告诉我。

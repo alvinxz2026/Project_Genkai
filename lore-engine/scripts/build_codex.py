@@ -197,7 +197,7 @@ TEMPLATE = r"""<!DOCTYPE html>
     <div class="infobox">
       Set the Djinn each adept has <b>Set</b> (by element) to resolve their <b>current class</b>,
       <b>stat multipliers</b>, and <b>Psynergy</b>. Or pick a target class to see the Djinn it needs.
-      Rules follow <code>plz2bstfu-class</code>; GS1 caps each adept at <b>7</b> Set Djinn.
+      Rules follow <code>terence</code>'s full 4-element class table; GS1 caps each adept at <b>7</b> Set Djinn.
       Class &amp; Psynergy names link into the Wiki.
     </div>
     <div class="pgrid" id="pgrid"></div>
@@ -439,17 +439,27 @@ const psyById={}; PSYNERGY.forEach(p=>psyById[p.id]=p);
 const NATIVE={}; CHARACTERS.forEach(c=>NATIVE[c.name]=c.element);
 const PARTY=CHARACTERS.filter(c=>c.is_permanent&&c.element);
 const REQ_ORDER=["plz2bstfu-class","strawhat","aku-chi"]; const CAP=7;
+// `terence` is the authoritative matching source: each of its rows ranges over
+// ALL FOUR elements and rows are OR-combined, so multi-off-element mixes resolve
+// correctly (legacy single-range sources couldn't). Fall back to the first
+// legacy source only when a (class,character) has no terence rows.
+function terenceParsed(av){ return av.djinn_requirements.filter(r=>r.source==="terence"&&r.parsed&&r.parsed.length).map(r=>r.parsed); }
 function pickReq(av){ for(const src of REQ_ORDER){ const r=av.djinn_requirements.find(r=>r.source===src&&r.parsed&&r.parsed.length); if(r) return r; } return null; }
-function satisfies(parsed,counts,native){ const named={};
+function matchParsedRows(av){ const t=terenceParsed(av); if(t.length) return t; const r=pickReq(av); return r?[r.parsed]:[]; }
+// terence rows name all four elements, so the unnamed/native fallback below is a
+// no-op for them; it only matters for legacy rows (native free, unnamed off = 0).
+function rowSatisfies(parsed,counts,native){ const named={};
   for(const p of parsed){ if(counts[p.element]<p.min||counts[p.element]>p.max) return false; named[p.element]=true; }
   for(const el of ELEMS){ if(el===native||named[el]) continue; if(counts[el]>0) return false; } return true; }
+function rowWidth(parsed){ return parsed.reduce((s,p)=>s+(p.max-p.min),0); }
 function matchClasses(charName,counts){ const native=NATIVE[charName]; const out=[];
   for(const c of CLASSES){ if(!c.reachable_in_gs1) continue; const av=c.available_to.find(a=>a.character===charName); if(!av) continue;
-    const req=pickReq(av); if(req&&satisfies(req.parsed,counts,native)) out.push({cls:c,av,req}); }
-  out.sort((a,b)=>{ if(a.req.parsed.length!==b.req.parsed.length) return b.req.parsed.length-a.req.parsed.length;
-    const w=r=>r.parsed.reduce((s,p)=>s+(p.max-p.min),0); return w(a.req)-w(b.req); });
+    let best=null; for(const parsed of matchParsedRows(av)){ if(rowSatisfies(parsed,counts,native)){ const w=rowWidth(parsed); if(best===null||w<best) best=w; } }
+    if(best!==null) out.push({cls:c,av,width:best}); }
+  out.sort((a,b)=>a.width-b.width);   // most specific (tightest ranges) first; rest -> "also valid"
   return out; }
-function reverseCounts(av){ const req=pickReq(av); const c={earth:0,fire:0,wind:0,water:0}; if(req) for(const p of req.parsed) c[p.element]=p.min; return c; }
+function reverseCounts(av){ const rows=matchParsedRows(av); const parsed=rows.length?rows[0]:null;
+  const c={earth:0,fire:0,wind:0,water:0}; if(parsed) for(const p of parsed) c[p.element]=p.min; return c; }
 const pstate={}; PARTY.forEach(c=>pstate[c.name]={earth:0,fire:0,wind:0,water:0});
 function pStatBars(sm){ if(!sm) return '<div class="psy empty" style="margin-top:10px">No stat multipliers in source.</div>';
   return `<div class="statgrid" style="margin-top:10px">`+[["hp","HP"],["pp","PP"],["atk","ATK"],["def","DEF"],["agi","AGI"],["lck","LCK"]].map(([k,l])=>{

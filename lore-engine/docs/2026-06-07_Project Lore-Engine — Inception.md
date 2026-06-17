@@ -159,5 +159,6 @@ lore-engine/
 | Date | Entry |
 |---|---|
 | 2026-06-07 | Project conceived in brainstorm session. Inception doc created. Repo setup pending. |
+| 2026-06-17 | **GS1 prototype complete.** 11 FK-linked + audited entities in `data/gs1/`; unified explorer `tools/gs1_codex.html` (graph wiki + build planner). Pipeline validated end-to-end on the gs1 corpus. Wrapped up (cleanup, archived one-shots, READMEs); GS2 next — see `docs/gs1_wrapup_gs2_kickoff_plan.md`. |
 
 ---

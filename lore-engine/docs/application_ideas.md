@@ -38,6 +38,7 @@
 
 > 产出：`tools/gs1_build_planner.html`（自包含静态页，内嵌 JSON，file:// 可用）；
 > 生成脚本 `scripts/build_planner.py`（纯读 data/gs1，数据改了重跑即可）。
+> （注：2026-06-17 收尾后两者均已被 codex 取代并归档 —— html → `tools/archive/`，脚本 → `scripts/gs1/`。）
 > 匹配模型：以 `plz2bstfu-class` 为权威单一模型（每职业是 djinn 分布空间里一块互斥区域：
 > 本命元素数定基础线 tier，副元素数定混合线；未命名的副元素须为 0、本命未命名则不限）。
 > 覆盖四名常驻 Adept 全部 GS1-reachable 职业（Ivan 的 White Mage 唯一回退 strawhat，确定且与 aku-chi 一致）；

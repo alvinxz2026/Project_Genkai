@@ -186,8 +186,14 @@ def main():
                 unresolved.append(("classes.available_to", c["id"], a["character"], "no match"))
             new_reqs = []
             for r in a.get("djinn_requirements", []):
-                parsed = parse_djinn_req(r["requirement"])
                 n_req += 1
+                # terence rows carry authoritative full 4-element `parsed`
+                # (written by build_terence_class_reqs.py); the prose parser is
+                # lossy for "Earth 0-2, ..." form, so keep them verbatim.
+                if r.get("source") == "terence" and r.get("parsed"):
+                    new_reqs.append(r)
+                    continue
+                parsed = parse_djinn_req(r["requirement"])
                 if not parsed:
                     n_req_empty += 1
                     warnings.append(("djinn_requirement", c["id"], r["requirement"]))
