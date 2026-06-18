@@ -1,0 +1,2326 @@
+[
+  {
+    "id": "angel-spear",
+    "name": "Angel Spear",
+    "game": "gs2",
+    "element": "wind",
+    "pp_cost": 12,
+    "range": "all",
+    "description": "Boost attack with a heavenly blade.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi"
+    ]
+  },
+  {
+    "id": "annihilation",
+    "name": "Annihilation",
+    "game": "gs2",
+    "element": "earth",
+    "pp_cost": 18,
+    "range": 1,
+    "description": "Attempt to annihilate a foe.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "astral-blast",
+    "name": "Astral Blast",
+    "game": "gs2",
+    "element": "wind",
+    "pp_cost": 5,
+    "range": 1,
+    "description": "Attack with celestial force.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "aura",
+    "name": "Aura",
+    "game": "gs2",
+    "element": "fire",
+    "pp_cost": 7,
+    "range": "all",
+    "description": "Restore 50 HP to the whole party.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi"
+    ]
+  },
+  {
+    "id": "avalanche",
+    "name": "Avalanche",
+    "game": "gs2",
+    "element": "earth",
+    "pp_cost": 30,
+    "range": 5,
+    "description": "Attack with blasts of rock.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "avoid",
+    "name": "Avoid",
+    "game": "gs2",
+    "element": "water",
+    "pp_cost": 5,
+    "range": 1,
+    "description": "Encounter fewer monsters.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "beam",
+    "name": "Beam",
+    "game": "gs2",
+    "element": "fire",
+    "pp_cost": 7,
+    "range": 3,
+    "description": "Attack with a searing heat beam.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi"
+    ]
+  },
+  {
+    "id": "bind",
+    "name": "Bind",
+    "game": "gs2",
+    "element": "wind",
+    "pp_cost": 4,
+    "range": 1,
+    "description": "Block a foe's Psynergy.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "blast-5pp",
+    "name": "Blast",
+    "game": "gs2",
+    "element": "fire",
+    "pp_cost": 5,
+    "range": 3,
+    "description": "Attack with an explosive blast.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "blast-7pp",
+    "name": "Blast",
+    "game": "gs2",
+    "element": "fire",
+    "pp_cost": 7,
+    "range": 3,
+    "description": "Attack with a massive explosion.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "blaze",
+    "name": "Blaze",
+    "game": "gs2",
+    "element": "fire",
+    "pp_cost": 1,
+    "range": 1,
+    "description": "Manipulate flames.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi"
+    ]
+  },
+  {
+    "id": "blue-bolt",
+    "name": "Blue Bolt",
+    "game": "gs2",
+    "element": "wind",
+    "pp_cost": 14,
+    "range": 3,
+    "description": "Attack with a lightning bolt.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "bolt",
+    "name": "Bolt",
+    "game": "gs2",
+    "element": "wind",
+    "pp_cost": 4,
+    "range": 1,
+    "description": "Attack with a lightning bolt.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "break",
+    "name": "Break",
+    "game": "gs2",
+    "element": "water",
+    "pp_cost": 5,
+    "range": "all",
+    "description": "Eliminate an enemy's bonuses.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "briar",
+    "name": "Briar",
+    "game": "gs2",
+    "element": "earth",
+    "pp_cost": 11,
+    "range": 3,
+    "description": "Attack with sharpened briars.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "burst",
+    "name": "Burst",
+    "game": "gs2",
+    "element": "fire",
+    "pp_cost": 2,
+    "range": 1,
+    "description": "Break cracked objects.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi"
+    ]
+  },
+  {
+    "id": "carry",
+    "name": "Carry",
+    "game": "gs2",
+    "element": "earth",
+    "pp_cost": 2,
+    "range": 1,
+    "description": "Lift and move light objects.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "catch",
+    "name": "Catch",
+    "game": "gs2",
+    "element": "earth",
+    "pp_cost": 1,
+    "range": 1,
+    "description": "Grab light objects from afar.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "clay-spire",
+    "name": "Clay Spire",
+    "game": "gs2",
+    "element": "earth",
+    "pp_cost": 13,
+    "range": 3,
+    "description": "Attack with earthen spire.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "cloak",
+    "name": "Cloak",
+    "game": "gs2",
+    "element": "water",
+    "pp_cost": 1,
+    "range": 1,
+    "description": "Hide away in shadows.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "condemn",
+    "name": "Condemn",
+    "game": "gs2",
+    "element": "earth",
+    "pp_cost": 8,
+    "range": 1,
+    "description": "Disable your enemy with evil power.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "cool",
+    "name": "Cool",
+    "game": "gs2",
+    "element": "water",
+    "pp_cost": 6,
+    "range": 3,
+    "description": "Attack with freezing cold.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi"
+    ]
+  },
+  {
+    "id": "cool-aura",
+    "name": "Cool Aura",
+    "game": "gs2",
+    "element": "fire",
+    "pp_cost": 16,
+    "range": "all",
+    "description": "Restore 200 HP to the whole party.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi"
+    ]
+  },
+  {
+    "id": "cure",
+    "name": "Cure",
+    "game": "gs2",
+    "element": "earth",
+    "pp_cost": 3,
+    "range": 1,
+    "description": "Restore 70 HP.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "cure-poison",
+    "name": "Cure Poison",
+    "game": "gs2",
+    "element": "water",
+    "pp_cost": 2,
+    "range": 1,
+    "description": "Cleanse the body of poison.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "cure-well",
+    "name": "Cure Well",
+    "game": "gs2",
+    "element": "earth",
+    "pp_cost": 7,
+    "range": 1,
+    "description": "Restore 150 HP.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "curse",
+    "name": "Curse",
+    "game": "gs2",
+    "element": "earth",
+    "pp_cost": 6,
+    "range": 1,
+    "description": "Draw the Spirit of Death to a foe.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi"
+    ]
+  },
+  {
+    "id": "cutting-edge",
+    "name": "Cutting Edge",
+    "game": "gs2",
+    "element": "water",
+    "pp_cost": 5,
+    "range": 1,
+    "description": "Inflict damage with a shockwave.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "cycle-beam",
+    "name": "Cycle Beam",
+    "game": "gs2",
+    "element": "fire",
+    "pp_cost": 14,
+    "range": 5,
+    "description": "Attack with a searing heat beam.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi"
+    ]
+  },
+  {
+    "id": "cyclone",
+    "name": "Cyclone",
+    "game": "gs2",
+    "element": "wind",
+    "pp_cost": 2,
+    "range": 1,
+    "description": "Conjure wind to scatter weeds.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi"
+    ]
+  },
+  {
+    "id": "deluge",
+    "name": "Deluge",
+    "game": "gs2",
+    "element": "water",
+    "pp_cost": 20,
+    "range": 3,
+    "description": "Attack with a deadly flood.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "diamond-berg",
+    "name": "Diamond Berg",
+    "game": "gs2",
+    "element": "water",
+    "pp_cost": 17,
+    "range": 1,
+    "description": "Freeze and crush a foe.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi"
+    ]
+  },
+  {
+    "id": "diamond-dust",
+    "name": "Diamond Dust",
+    "game": "gs2",
+    "element": "water",
+    "pp_cost": 6,
+    "range": 1,
+    "description": "Freeze and crush a foe.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi"
+    ]
+  },
+  {
+    "id": "douse",
+    "name": "Douse",
+    "game": "gs2",
+    "element": "water",
+    "pp_cost": 5,
+    "range": 3,
+    "description": "Attack with a surge of water.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "drench",
+    "name": "Drench",
+    "game": "gs2",
+    "element": "water",
+    "pp_cost": 10,
+    "range": 3,
+    "description": "Attack with a torrent of water.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "earthquake",
+    "name": "Earthquake",
+    "game": "gs2",
+    "element": "earth",
+    "pp_cost": 7,
+    "range": 5,
+    "description": "Attack with a mighty tremor.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "extremecool",
+    "name": "Extremecool",
+    "game": "gs2",
+    "element": "water",
+    "pp_cost": 33,
+    "range": 7,
+    "description": "Attack with freezing cold.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi"
+    ]
+  },
+  {
+    "id": "fire",
+    "name": "Fire",
+    "game": "gs2",
+    "element": "fire",
+    "pp_cost": 6,
+    "range": 3,
+    "description": "Attack with a scorching fireball.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "fireball",
+    "name": "Fireball",
+    "game": "gs2",
+    "element": "fire",
+    "pp_cost": 12,
+    "range": 3,
+    "description": "Attack with a scorching fireball.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "flare",
+    "name": "Flare",
+    "game": "gs2",
+    "element": "fire",
+    "pp_cost": 4,
+    "range": 3,
+    "description": "Attack with flaring flames.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "flare-storm",
+    "name": "Flare Storm",
+    "game": "gs2",
+    "element": "fire",
+    "pp_cost": 12,
+    "range": 3,
+    "description": "Attack with incinerating flames.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "flare-wall",
+    "name": "Flare Wall",
+    "game": "gs2",
+    "element": "fire",
+    "pp_cost": 8,
+    "range": 3,
+    "description": "Attack with searing flames.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "freeze-prism",
+    "name": "Freeze Prism",
+    "game": "gs2",
+    "element": "water",
+    "pp_cost": 31,
+    "range": 5,
+    "description": "Attack with ice crystals.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "frost",
+    "name": "Frost",
+    "game": "gs2",
+    "element": "water",
+    "pp_cost": 5,
+    "range": 3,
+    "description": "Attack with frigid blasts.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "froth",
+    "name": "Froth",
+    "game": "gs2",
+    "element": "water",
+    "pp_cost": 5,
+    "range": 3,
+    "description": "Attack with frothing bubbles.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "froth-sphere",
+    "name": "Froth Sphere",
+    "game": "gs2",
+    "element": "water",
+    "pp_cost": 12,
+    "range": 5,
+    "description": "Attack with frenzied bubbles.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "fume",
+    "name": "Fume",
+    "game": "gs2",
+    "element": "fire",
+    "pp_cost": 6,
+    "range": 1,
+    "description": "Attack with a plume of flames.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi"
+    ]
+  },
+  {
+    "id": "gaia",
+    "name": "Gaia",
+    "game": "gs2",
+    "element": "earth",
+    "pp_cost": 7,
+    "range": 3,
+    "description": "Attack with the earth's might.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "glacier",
+    "name": "Glacier",
+    "game": "gs2",
+    "element": "water",
+    "pp_cost": 15,
+    "range": 3,
+    "description": "Attack with frigid blasts.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "grind",
+    "name": "Grind",
+    "game": "gs2",
+    "element": "earth",
+    "pp_cost": 2,
+    "range": 1,
+    "description": "Pulverize large objects.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi"
+    ]
+  },
+  {
+    "id": "growth",
+    "name": "Growth",
+    "game": "gs2",
+    "element": "earth",
+    "pp_cost": 4,
+    "range": 1,
+    "description": "Attack with wild plants.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "hail-prism",
+    "name": "Hail Prism",
+    "game": "gs2",
+    "element": "water",
+    "pp_cost": 16,
+    "range": 5,
+    "description": "Attack with ice crystals.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "halt",
+    "name": "Halt",
+    "game": "gs2",
+    "element": "wind",
+    "pp_cost": 2,
+    "range": 1,
+    "description": "Stop a moving object.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "haunt",
+    "name": "Haunt",
+    "game": "gs2",
+    "element": "earth",
+    "pp_cost": 5,
+    "range": 3,
+    "description": "Haunt a foe with an evil spirit.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "healing-aura",
+    "name": "Healing Aura",
+    "game": "gs2",
+    "element": "fire",
+    "pp_cost": 11,
+    "range": "all",
+    "description": "Restore 100 HP to the whole party.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi"
+    ]
+  },
+  {
+    "id": "hover",
+    "name": "Hover",
+    "game": "gs2",
+    "element": "wind",
+    "pp_cost": 2,
+    "range": 1,
+    "description": "Hover in the air.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi"
+    ]
+  },
+  {
+    "id": "ice",
+    "name": "Ice",
+    "game": "gs2",
+    "element": "water",
+    "pp_cost": 5,
+    "range": 1,
+    "description": "Attack with spikes of ice.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "ice-horn",
+    "name": "Ice Horn",
+    "game": "gs2",
+    "element": "water",
+    "pp_cost": 11,
+    "range": 3,
+    "description": "Attack with spikes of ice.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "ice-missile",
+    "name": "Ice Missile",
+    "game": "gs2",
+    "element": "water",
+    "pp_cost": 23,
+    "range": 3,
+    "description": "Attack with spikes of ice.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "lash",
+    "name": "Lash",
+    "game": "gs2",
+    "element": "wind",
+    "pp_cost": 1,
+    "range": 1,
+    "description": "Lift and move very light objects.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi"
+    ]
+  },
+  {
+    "id": "lift",
+    "name": "Lift",
+    "game": "gs2",
+    "element": "water",
+    "pp_cost": 2,
+    "range": 1,
+    "description": "Lift an object up vertically.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "move",
+    "name": "Move",
+    "game": "gs2",
+    "element": "fire",
+    "pp_cost": 2,
+    "range": 1,
+    "description": "Move an object on the ground.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "mind-read",
+    "name": "Mind Read",
+    "game": "gs2",
+    "element": "wind",
+    "pp_cost": 1,
+    "range": 1,
+    "description": "Read someone's mind.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "parch",
+    "name": "Parch",
+    "game": "gs2",
+    "element": "water",
+    "pp_cost": 2,
+    "range": 1,
+    "description": "Evaporate standing water.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi"
+    ]
+  },
+  {
+    "id": "ply",
+    "name": "Ply",
+    "game": "gs2",
+    "element": "water",
+    "pp_cost": 4,
+    "range": 1,
+    "description": "Restore 100 HP with faith's power.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "ply-well",
+    "name": "Ply Well",
+    "game": "gs2",
+    "element": "water",
+    "pp_cost": 8,
+    "range": 1,
+    "description": "Restore 200 HP with faith's power.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "potent-cure",
+    "name": "Potent Cure",
+    "game": "gs2",
+    "element": "earth",
+    "pp_cost": 10,
+    "range": 1,
+    "description": "Restore 300 HP.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "pound",
+    "name": "Pound",
+    "game": "gs2",
+    "element": "fire",
+    "pp_cost": 2,
+    "range": 1,
+    "description": "Drive objects into the ground.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi"
+    ]
+  },
+  {
+    "id": "prism",
+    "name": "Prism",
+    "game": "gs2",
+    "element": "water",
+    "pp_cost": 7,
+    "range": 3,
+    "description": "Attack with ice crystals.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "punji",
+    "name": "Punji",
+    "game": "gs2",
+    "element": "earth",
+    "pp_cost": 7,
+    "range": 3,
+    "description": "Attack with a bamboo weapon.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "punji-strike",
+    "name": "Punji Strike",
+    "game": "gs2",
+    "element": "earth",
+    "pp_cost": 24,
+    "range": 3,
+    "description": "Attack with a bamboo weapon.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "punji-trap",
+    "name": "Punji Trap",
+    "game": "gs2",
+    "element": "earth",
+    "pp_cost": 13,
+    "range": 3,
+    "description": "Attack with a bamboo weapon.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "pure-ply",
+    "name": "Pure Ply",
+    "game": "gs2",
+    "element": "water",
+    "pp_cost": 12,
+    "range": 1,
+    "description": "Restore 1000 HP with faith's power.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "pure-wish",
+    "name": "Pure Wish",
+    "game": "gs2",
+    "element": "water",
+    "pp_cost": 20,
+    "range": "all",
+    "description": "Restore 400 HP to the whole party.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "quake",
+    "name": "Quake",
+    "game": "gs2",
+    "element": "earth",
+    "pp_cost": 4,
+    "range": 3,
+    "description": "Attack with a powerful quake.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "quake-sphere",
+    "name": "Quake Sphere",
+    "game": "gs2",
+    "element": "earth",
+    "pp_cost": 15,
+    "range": 7,
+    "description": "Attack with a massive quake.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "reflect",
+    "name": "Reflect",
+    "game": "gs2",
+    "element": "water",
+    "pp_cost": 5,
+    "range": 1,
+    "description": "Reflect a foe's psynergy.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "restore",
+    "name": "Restore",
+    "game": "gs2",
+    "element": "water",
+    "pp_cost": 3,
+    "range": 1,
+    "description": "Remove sleep, stun, and delusion.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "reveal",
+    "name": "Reveal",
+    "game": "gs2",
+    "element": "wind",
+    "pp_cost": 1,
+    "range": 1,
+    "description": "Perceive hidden truths.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "revive",
+    "name": "Revive",
+    "game": "gs2",
+    "element": "earth",
+    "pp_cost": 15,
+    "range": 1,
+    "description": "Revive a downed ally.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "retreat",
+    "name": "Retreat",
+    "game": "gs2",
+    "element": "earth",
+    "pp_cost": 6,
+    "range": 1,
+    "description": "Return to the dungeon's entrance.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "sand",
+    "name": "Sand",
+    "game": "gs2",
+    "element": "earth",
+    "pp_cost": 2,
+    "range": 1,
+    "description": "Melt into sand.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi"
+    ]
+  },
+  {
+    "id": "scoop",
+    "name": "Scoop",
+    "game": "gs2",
+    "element": "earth",
+    "pp_cost": 1,
+    "range": 1,
+    "description": "Dig in soft ground.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi"
+    ]
+  },
+  {
+    "id": "spire",
+    "name": "Spire",
+    "game": "gs2",
+    "element": "earth",
+    "pp_cost": 5,
+    "range": 1,
+    "description": "Attack with earthen spire.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "stone-spire",
+    "name": "Stone Spire",
+    "game": "gs2",
+    "element": "earth",
+    "pp_cost": 22,
+    "range": 5,
+    "description": "Attack with earthen spire.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "supercool",
+    "name": "Supercool",
+    "game": "gs2",
+    "element": "water",
+    "pp_cost": 14,
+    "range": 5,
+    "description": "Attack with freezing cold.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi"
+    ]
+  },
+  {
+    "id": "teleport",
+    "name": "Teleport",
+    "game": "gs2",
+    "element": "wind",
+    "pp_cost": 3,
+    "range": 1,
+    "description": "Teleport at will.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi"
+    ]
+  },
+  {
+    "id": "tremor",
+    "name": "Tremor",
+    "game": "gs2",
+    "element": "earth",
+    "pp_cost": 1,
+    "range": 1,
+    "description": "Shake objects left and right.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi"
+    ]
+  },
+  {
+    "id": "tundra",
+    "name": "Tundra",
+    "game": "gs2",
+    "element": "water",
+    "pp_cost": 8,
+    "range": 3,
+    "description": "Attack with frigid blasts.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "wish",
+    "name": "Wish",
+    "game": "gs2",
+    "element": "water",
+    "pp_cost": 9,
+    "range": "all",
+    "description": "Restore 80 HP to the whole party.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "wish-well",
+    "name": "Wish Well",
+    "game": "gs2",
+    "element": "water",
+    "pp_cost": 13,
+    "range": "all",
+    "description": "Restore 160 HP to the whole party.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "mother-gaia",
+    "name": "Mother Gaia",
+    "game": "gs2",
+    "element": "earth",
+    "pp_cost": 17,
+    "range": 5,
+    "description": "Attack with the earth's might.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "grand-gaia",
+    "name": "Grand Gaia",
+    "game": "gs2",
+    "element": "earth",
+    "pp_cost": 32,
+    "range": 7,
+    "description": "Attack with the earth's might.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "mad-growth",
+    "name": "Mad Growth",
+    "game": "gs2",
+    "element": "earth",
+    "pp_cost": 10,
+    "range": 3,
+    "description": "Attack with ferocious plants.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "wild-growth",
+    "name": "Wild Growth",
+    "game": "gs2",
+    "element": "earth",
+    "pp_cost": 19,
+    "range": 5,
+    "description": "Attack with giant plants.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "ragnarok",
+    "name": "Ragnarok",
+    "game": "gs2",
+    "element": "earth",
+    "pp_cost": 7,
+    "range": 1,
+    "description": "Strike with a massive sword.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "odyssey",
+    "name": "Odyssey",
+    "game": "gs2",
+    "element": "earth",
+    "pp_cost": 18,
+    "range": 1,
+    "description": "Pierce a foe with a colossal sword.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi"
+    ]
+  },
+  {
+    "id": "demon-night",
+    "name": "Demon Night",
+    "game": "gs2",
+    "element": "earth",
+    "pp_cost": 12,
+    "range": 3,
+    "description": "Unleash a myriad of monsters.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "rockfall",
+    "name": "Rockfall",
+    "game": "gs2",
+    "element": "earth",
+    "pp_cost": 5,
+    "range": 3,
+    "description": "Attack with blasts of rock.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "rockslide",
+    "name": "Rockslide",
+    "game": "gs2",
+    "element": "earth",
+    "pp_cost": 15,
+    "range": 5,
+    "description": "Attack with blasts of rock.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "inferno",
+    "name": "Inferno",
+    "game": "gs2",
+    "element": "fire",
+    "pp_cost": 23,
+    "range": 5,
+    "description": "Attack with a scorching fireball.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "volcano",
+    "name": "Volcano",
+    "game": "gs2",
+    "element": "fire",
+    "pp_cost": 6,
+    "range": 1,
+    "description": "Attack with volcanic might.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "eruption",
+    "name": "Eruption",
+    "game": "gs2",
+    "element": "fire",
+    "pp_cost": 14,
+    "range": 3,
+    "description": "Attack with volcanic might.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "pyroclasm",
+    "name": "Pyroclasm",
+    "game": "gs2",
+    "element": "fire",
+    "pp_cost": 29,
+    "range": 7,
+    "description": "Attack with volcanic might.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "nova",
+    "name": "Nova",
+    "game": "gs2",
+    "element": "fire",
+    "pp_cost": 13,
+    "range": 5,
+    "description": "Attack with a massive explosion.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "supernova",
+    "name": "Supernova",
+    "game": "gs2",
+    "element": "fire",
+    "pp_cost": 31,
+    "range": 7,
+    "description": "Attack with a massive explosion.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "serpent-fume",
+    "name": "Serpent Fume",
+    "game": "gs2",
+    "element": "fire",
+    "pp_cost": 14,
+    "range": 1,
+    "description": "Attack with a plume of flames.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi"
+    ]
+  },
+  {
+    "id": "dragon-fume",
+    "name": "Dragon Fume",
+    "game": "gs2",
+    "element": "fire",
+    "pp_cost": 35,
+    "range": 1,
+    "description": "Attack with a plume of flames.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi"
+    ]
+  },
+  {
+    "id": "guard",
+    "name": "Guard",
+    "game": "gs2",
+    "element": "fire",
+    "pp_cost": 3,
+    "range": 1,
+    "description": "Boost ally's defense.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "protect",
+    "name": "Protect",
+    "game": "gs2",
+    "element": "fire",
+    "pp_cost": 5,
+    "range": "all",
+    "description": "Boost party's defense.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "impair",
+    "name": "Impair",
+    "game": "gs2",
+    "element": "fire",
+    "pp_cost": 4,
+    "range": 1,
+    "description": "Drop enemy's Defense.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "debilitate",
+    "name": "Debilitate",
+    "game": "gs2",
+    "element": "fire",
+    "pp_cost": 6,
+    "range": 3,
+    "description": "Drop enemy party's Defense.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "planet-diver",
+    "name": "Planet Diver",
+    "game": "gs2",
+    "element": "fire",
+    "pp_cost": 7,
+    "range": 1,
+    "description": "Leap skyward and lunge onto a foe.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "heat-wave",
+    "name": "Heat Wave",
+    "game": "gs2",
+    "element": "fire",
+    "pp_cost": 6,
+    "range": 1,
+    "description": "Attack with fiery bolts.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "fire-bomb",
+    "name": "Fire Bomb",
+    "game": "gs2",
+    "element": "fire",
+    "pp_cost": 5,
+    "range": 3,
+    "description": "Attack with a bomb blast.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "cluster-bomb",
+    "name": "Cluster Bomb",
+    "game": "gs2",
+    "element": "fire",
+    "pp_cost": 11,
+    "range": 5,
+    "description": "Attack with a bomb blast.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "mad-blast",
+    "name": "Mad Blast",
+    "game": "gs2",
+    "element": "fire",
+    "pp_cost": 9,
+    "range": 3,
+    "description": "Attack with an explosive blast.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "fiery-blast",
+    "name": "Fiery Blast",
+    "game": "gs2",
+    "element": "fire",
+    "pp_cost": 19,
+    "range": 5,
+    "description": "Attack with an explosive blast.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "lava-shower",
+    "name": "Lava Shower",
+    "game": "gs2",
+    "element": "fire",
+    "pp_cost": 4,
+    "range": 1,
+    "description": "Attack with volcanic might.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "molten-bath",
+    "name": "Molten Bath",
+    "game": "gs2",
+    "element": "fire",
+    "pp_cost": 12,
+    "range": 3,
+    "description": "Attack with volcanic might.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "flash-bolt",
+    "name": "Flash Bolt",
+    "game": "gs2",
+    "element": "wind",
+    "pp_cost": 7,
+    "range": 3,
+    "description": "Attack with a lightning bolt.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "ray",
+    "name": "Ray",
+    "game": "gs2",
+    "element": "wind",
+    "pp_cost": 6,
+    "range": 3,
+    "description": "Attack with a magnetic storm.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "storm-ray",
+    "name": "Storm Ray",
+    "game": "gs2",
+    "element": "wind",
+    "pp_cost": 10,
+    "range": 3,
+    "description": "Attack with a magnetic storm.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "destruct-ray",
+    "name": "Destruct Ray",
+    "game": "gs2",
+    "element": "wind",
+    "pp_cost": 21,
+    "range": 3,
+    "description": "Attack with a magnetic storm.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "plasma",
+    "name": "Plasma",
+    "game": "gs2",
+    "element": "wind",
+    "pp_cost": 8,
+    "range": 3,
+    "description": "Attack with a barrage of bolts.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "shine-plasma",
+    "name": "Shine Plasma",
+    "game": "gs2",
+    "element": "wind",
+    "pp_cost": 18,
+    "range": 5,
+    "description": "Attack with a barrage of bolts.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "spark-plasma",
+    "name": "Spark Plasma",
+    "game": "gs2",
+    "element": "wind",
+    "pp_cost": 37,
+    "range": 5,
+    "description": "Attack with a barrage of bolts.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "whirlwind",
+    "name": "Whirlwind",
+    "game": "gs2",
+    "element": "wind",
+    "pp_cost": 5,
+    "range": 3,
+    "description": "Attack with a swirling tornado.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "tornado",
+    "name": "Tornado",
+    "game": "gs2",
+    "element": "wind",
+    "pp_cost": 14,
+    "range": 5,
+    "description": "Attack with a mighty tornado.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "tempest",
+    "name": "Tempest",
+    "game": "gs2",
+    "element": "wind",
+    "pp_cost": 27,
+    "range": 5,
+    "description": "Attack with a fearsome windstorm.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "impact",
+    "name": "Impact",
+    "game": "gs2",
+    "element": "wind",
+    "pp_cost": 7,
+    "range": 1,
+    "description": "Boost ally's Attack.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "high-impact",
+    "name": "High Impact",
+    "game": "gs2",
+    "element": "wind",
+    "pp_cost": 12,
+    "range": "all",
+    "description": "Boost party's Attack.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "ward",
+    "name": "Ward",
+    "game": "gs2",
+    "element": "wind",
+    "pp_cost": 3,
+    "range": 1,
+    "description": "Boost Resistance.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "resist",
+    "name": "Resist",
+    "game": "gs2",
+    "element": "wind",
+    "pp_cost": 5,
+    "range": "all",
+    "description": "Boost Resistance.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "sleep",
+    "name": "Sleep",
+    "game": "gs2",
+    "element": "wind",
+    "pp_cost": 5,
+    "range": 3,
+    "description": "Lull multiple foes to sleep.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "delude",
+    "name": "Delude",
+    "game": "gs2",
+    "element": "wind",
+    "pp_cost": 4,
+    "range": 3,
+    "description": "Wrap multiple foes in delusion.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "drain",
+    "name": "Drain",
+    "game": "gs2",
+    "element": "wind",
+    "pp_cost": 3,
+    "range": 1,
+    "description": "Drain enemy's HP into yourself.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "psy-drain",
+    "name": "Psy Drain",
+    "game": "gs2",
+    "element": "wind",
+    "pp_cost": 0,
+    "range": 1,
+    "description": "Drain enemy's PP into yourself.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "gale",
+    "name": "Gale",
+    "game": "gs2",
+    "element": "wind",
+    "pp_cost": 3,
+    "range": 3,
+    "description": "Attack with the wind's might.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "death-plunge",
+    "name": "Death Plunge",
+    "game": "gs2",
+    "element": "wind",
+    "pp_cost": 14,
+    "range": 1,
+    "description": "Plunge your weapon into a foe.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "power-plunge",
+    "name": "Power Plunge",
+    "game": "gs2",
+    "element": "wind",
+    "pp_cost": 22,
+    "range": 1,
+    "description": "Plunge your weapon into a foe.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi"
+    ]
+  },
+  {
+    "id": "shuriken",
+    "name": "Shuriken",
+    "game": "gs2",
+    "element": "wind",
+    "pp_cost": 8,
+    "range": 3,
+    "description": "Attack with a huge throwing knife.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "typhoon",
+    "name": "Typhoon",
+    "game": "gs2",
+    "element": "wind",
+    "pp_cost": 12,
+    "range": 5,
+    "description": "Attack with the wind's might.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "thunderclap",
+    "name": "Thunderclap",
+    "game": "gs2",
+    "element": "wind",
+    "pp_cost": 9,
+    "range": 3,
+    "description": "Attack with the storm's fury.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "thunderbolt",
+    "name": "Thunderbolt",
+    "game": "gs2",
+    "element": "wind",
+    "pp_cost": 19,
+    "range": 5,
+    "description": "Attack with the storm's fury.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "thunderstorm",
+    "name": "Thunderstorm",
+    "game": "gs2",
+    "element": "wind",
+    "pp_cost": 39,
+    "range": 5,
+    "description": "Attack with the storm's fury.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "demon-spear",
+    "name": "Demon Spear",
+    "game": "gs2",
+    "element": "wind",
+    "pp_cost": 7,
+    "range": 1,
+    "description": "Boost attack with a heavenly blade.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "magic-shell",
+    "name": "Magic Shell",
+    "game": "gs2",
+    "element": "wind",
+    "pp_cost": 3,
+    "range": 1,
+    "description": "Boost elemental resistance.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "magic-shield",
+    "name": "Magic Shield",
+    "game": "gs2",
+    "element": "wind",
+    "pp_cost": 5,
+    "range": "all",
+    "description": "Boost elemental resistance.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi"
+    ]
+  },
+  {
+    "id": "slash",
+    "name": "Slash",
+    "game": "gs2",
+    "element": "wind",
+    "pp_cost": 4,
+    "range": 1,
+    "description": "Attack with a blade of focused air.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "wind-slash",
+    "name": "Wind Slash",
+    "game": "gs2",
+    "element": "wind",
+    "pp_cost": 9,
+    "range": 3,
+    "description": "Attack with a blade of focused air.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "sonic-slash",
+    "name": "Sonic Slash",
+    "game": "gs2",
+    "element": "wind",
+    "pp_cost": 10,
+    "range": 5,
+    "description": "Attack with a blade of focused air.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "mist",
+    "name": "Mist",
+    "game": "gs2",
+    "element": "wind",
+    "pp_cost": 4,
+    "range": 3,
+    "description": "Wrap a foe in a cloud of delusion.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "dull",
+    "name": "Dull",
+    "game": "gs2",
+    "element": "wind",
+    "pp_cost": 6,
+    "range": 1,
+    "description": "Drop enemy attack.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi"
+    ]
+  },
+  {
+    "id": "weaken",
+    "name": "Weaken",
+    "game": "gs2",
+    "element": "wind",
+    "pp_cost": 4,
+    "range": 1,
+    "description": "Drop enemy resistance.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "enfeeble",
+    "name": "Enfeeble",
+    "game": "gs2",
+    "element": "wind",
+    "pp_cost": 6,
+    "range": 3,
+    "description": "Drop enemy party's resistance.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "force",
+    "name": "Force",
+    "game": "gs2",
+    "element": "neutral",
+    "pp_cost": 2,
+    "range": 1,
+    "description": "Strike a distant object.",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "yoyoyoshi",
+      "mr-unorigino-psy"
+    ]
+  }
+]

@@ -29,6 +29,12 @@ merged. Restate or amend here once gs2-specific rules emerge.
 | `link-kirby-boss` | `raw/gs2/In-Depth Guides/Boss Guide by Link_Kirby.md` | Link_Kirby | bosses |
 | `demooni` | `raw/gs2/In-Depth Guides/Djinni Stat Boosts Guide by Demooni.md` | Demooni | djinn, locations |
 | `cooldude345` | `raw/gs2/In-Depth Guides/Summons FAQ by cooldude345.md` | cooldude345 | summons, djinn |
+| `darkslime` | `raw/gs2/Guide and Walkthrough/Guide and Walkthrough by Darkslime.md` | Darkslime | walkthrough, characters, items, djinn, psynergy, classes, monsters (general) |
+| `darthmarth` | `raw/gs2/Guide and Walkthrough/Guide and Walkthrough by DarthMarth.md` | DarthMarth | walkthrough, characters (general) |
+| `terence` | `raw/gs2/In-Depth Guides/Battle Mechanics by Terence.md` | Terence | classes (bonuses+reqs, authoritative), mechanics, djinn, psynergy |
+| `ultimalink` | `raw/gs2/In-Depth Guides/Character Class Guide by UltimaLink.md` | UltimaLink | classes (per-character chains, psynergy learnsets, available_to) |
+| `yoyoyoshi` | `raw/gs2/In-Depth Guides/Psynergy FAQ by YoyoYoshi.md` | YoyoYoshi | psynergy (master list: pp/range/description/element), mechanics |
+| `mr-unorigino-psy` | `raw/gs2/In-Depth Guides/Psynergy List by Mr_UnOrigino.md` | Mr_UnOrigino | psynergy (completeness cross-check; kana columns mojibake) |
 
 > More rows are added per entity as extraction proceeds. The full per-source map
 > lives in `docs/gs2/gs2_sources.md`; only rows for entities being extracted need
@@ -475,3 +481,269 @@ conflicts        array of object    NO         Same shape as gs1.
    note cooldude calls Valukar "Bullrog" and Sentinel "Sentinal" — reconcile with
    `bosses` at link time. `dbfire` is an optional 2nd source for tablet sidequests.
 5. Do not invent data.
+
+---
+
+## Schema: `characters`
+
+One entry per **playable** GS2 (Lost Age) party member. This is the small
+**dimension table** the scattered character references resolve against
+(`equipment.equippable_by`, `psynergy.available_to`,
+`classes.available_to[].character`). GS2 has **8** playables: the four TLA-native
+Adepts (Felix, Jenna, Sheba, Piers) plus the four returning GS1 Adepts (Isaac,
+Garet, Ivan, Mia) who rejoin in the late game. Mirrors GS1's `characters` but,
+per the ER sketch (§4.1), replaces GS1's single `is_permanent` with
+`is_starter` + `from_gs1` + a prose `join` (the GS1 "permanent vs Prologue-only"
+split does not map onto the TLA roster).
+
+File: `data/gs2/characters.json`
+
+```
+Field           Type              Required   Notes
+---------------------------------------------------------------------------
+id              string            YES        Lowercase. e.g. "felix", "piers".
+name            string            YES        In-game display name. Matches the strings used
+                                             in equippable_by / available_to (natural key).
+jp_name         string | null     YES        Alt/JP romanized name from darkslime's
+                                             "Name/JPName" header (e.g. Piers -> "Picard").
+game            string            YES        Always "gs2".
+element         string            YES        Innate element from darkslime "Alignment: <clan>":
+                                             Venus->earth | Mars->fire | Jupiter->wind |
+                                             Mercury->water.
+is_starter      boolean           YES        true if in the party at the opening (Idejima):
+                                             Felix/Jenna/Sheba. (curated)
+from_gs1        boolean           YES        true for a returning GS1 Adept (Isaac/Garet/Ivan/
+                                             Mia), who rejoins late-game. (curated)
+join            string            YES        Short factual note: when/how they join the TLA
+                                             party. (curated — judgment, walkthrough-sourced)
+hometown        string | null     YES        From darkslime "Hometown:". Proper noun, literal.
+can_equip       array of string   YES        Equip-type categories from darkslime "Can Equip:"
+                                             (lowercased), e.g. ["long swords","axes",...].
+                                             The reverse of equipment.equippable_by.
+sources         array of string   YES        Source IDs.
+```
+
+### Example Entry: Piers
+
+```json
+{
+  "id": "piers",
+  "name": "Piers",
+  "jp_name": "Picard",
+  "game": "gs2",
+  "element": "water",
+  "is_starter": false,
+  "from_gs1": false,
+  "join": "joins at Kibombo, after the party helps recover his ship.",
+  "hometown": "Lemuria",
+  "can_equip": ["long swords", "light blades", "axes", "maces", "armor",
+    "clothing", "shields", "gloves", "helms", "crowns", "boots", "shirts", "masks"],
+  "sources": ["darkslime", "darthmarth"]
+}
+```
+
+### Notes for CC (Extraction Instructions)
+
+Produced by the deterministic parser `scripts/characters_extract_gs2.py` (no LLM).
+
+1. **Two layers**: structured fields (name/jp_name/element/hometown/can_equip) are
+   parsed from `darkslime`'s "1. The Character Guide" blocks; the **8 playables are
+   exactly the blocks carrying a `Can Equip:` line** (villains have none). The
+   judgment fields (`is_starter`/`from_gs1`/`join`) are a curated 8-row map.
+2. **Natural keys**: `name` is the key that `equipment.equippable_by` /
+   `psynergy.available_to` / `classes.available_to[].character` reference; the gs2
+   `links_audit` validates them against this table (no `*_id` added at those sites).
+3. **Known source artifact**: darkslime's Sheba block line-wraps a stray equip type
+   "Caps" onto the `Hometown:` line, so her `hometown` reads
+   "Unknown, fell from the sky into Tolbi, Caps" and her `can_equip` omits "caps".
+   Left literal (faithful to source, not silently fixed); reconcile at link time.
+4. Do not invent data.
+
+---
+
+## Schema: `classes`
+
+One entry per distinct GS2 class. **GS2's class system is Element-Levels +
+Dominance, not GS1's raw djinn-count table**: each character has a base Element
+Level of 5 in their primary element and +1 per equipped Djinni of an element; the
+class you get is decided by your two Dominant elements (see `terence` "Dominance")
+and the Element-Level thresholds. The game reuses display names across element
+contexts (e.g. "Seer", "Conjurer", "Dark Mage"); `terence`'s qualifier letters
+disambiguate them.
+
+Built in **layers** (like `bosses`); this file has **Layers 1+2 done**:
+
+- **Layer 1 — Terence spine** (`scripts/classes_extract_gs2.py`, done): the
+  authoritative roster — `stat_multiplier` + `element_requirements` + grouping,
+  from `terence`'s "Class Bonuses And Reqs" tables. 110 classes.
+- **Layer 2 — ultimalink** (`scripts/classes_ultimalink_gs2.py`, done): fills
+  `available_to[]` (which of the 8 characters reach each class, with that
+  character's djinn counts) + `psynergy[]` learnsets (per class-line, by level).
+  GS1 had to split classes per character (swordsman-isaac vs -garet) for diverging
+  psynergy; the Layer-1 element-context ids **pre-resolve** that, so psynergy is a
+  property of the class-LINE shared across same-element characters. 106/110 have
+  psynergy (Tamer's per-sub-class psynergy is deferred — side-by-side columns).
+- **Layer 3 — matcher / ratings** (deferred): the relative per-djinn-count rows
+  (`terence` "Prm Aff Wek Neu" table — the GS2 analog of GS1's
+  `build_terence_class_reqs`) + `aku-chi` ACR ratings (`available_to[].acr`).
+
+File: `data/gs2/classes.json`
+
+```
+Field                   Type              Required   Notes
+---------------------------------------------------------------------------
+id                      string            YES        Lowercase, hyphens. Qualifier -> suffix:
+                                                     (E)/(W)/(F)/(A) -> -earth/-water/-fire/-wind,
+                                                     (D) -> -medium, (I) -> -item. Suffix (not
+                                                     prefix) so it never collides with leading-
+                                                     element compound base names, e.g. "Water Seer"
+                                                     -> water-seer vs "Seer (W)" -> seer-water.
+name                    string            YES        In-game display name. e.g. "Seer", "Swordsman".
+qualified_name          string | null     YES        Name as printed with qualifier, e.g.
+                                                     "Seer (W)", "Dark Mage (I)". null if unqualified.
+game                    string            YES        Always "gs2".
+class_line              string            YES        id of the top (root) class of this tier chain,
+                                                     i.e. the first row of the `----`-delimited
+                                                     sub-block in terence's table. Standalone chains
+                                                     use their own id. e.g. "squire" for the
+                                                     Squire->Knight->...->Slayer chain.
+dominance_group         string            YES        terence table the class is from:
+                                                     basic | lost-age-new | water-aligned |
+                                                     wind-aligned | earth-aligned | fire-aligned |
+                                                     earth-fire-aligned | water-wind-aligned |
+                                                     item-required.
+stat_multiplier         object            YES        Class stat bonus as a percent (110 = 110%).
+  .hp .pp .atk .def .agi .lck  integer    YES
+element_requirements    object            YES        Min Element LEVEL per element from terence
+                                                     (order Eth Wtr Fre Wnd). 5 = base primary level;
+                                                     int value | null when the column is "-".
+  .earth .water .fire .wind   integer|null YES
+available_to            array of object   YES        One per character (of 8) who can reach this
+                                                     class (ultimalink). [] if no source lists it.
+  [].character          string            YES        Display name, natural key -> characters.json.
+  [].character_id       string            YES        Lowercased name (FK -> characters.id).
+  [].djinn_requirements array of object   YES        ultimalink's character-relative djinn counts.
+    [].requirement      string            YES        e.g. "water x6, earth x1" | "none".
+    [].parsed           array of object   YES        [{element, count}]; [] for "none".
+    [].source           string            YES        "ultimalink".
+  [].acr                number | null     YES        aku-chi Combat Rank — null (Layer 3).
+psynergy                array of object   YES        Class-line learnset (ultimalink), sorted by
+                                                     level. [] if deferred (Tamer) / no source.
+  [].name               string            YES        Display name (footnote * stripped). FK ->
+                                                     psynergy.json (by name).
+  [].id                 string | null     YES        null until gs2 links_normalize fills it.
+  [].level              integer           YES        Level learned (ultimalink).
+  [].sources            array of string   YES        ["ultimalink"].
+sources                 array of string   YES        Source IDs, e.g. ["terence", "ultimalink"].
+```
+
+### Example Entry: Cavalier (E)
+
+```json
+{
+  "id": "cavalier-earth",
+  "name": "Cavalier",
+  "qualified_name": "Cavalier (E)",
+  "game": "gs2",
+  "class_line": "swordsman-earth",
+  "dominance_group": "water-aligned",
+  "stat_multiplier": {"hp": 140, "pp": 110, "atk": 130, "def": 130, "agi": 110, "lck": 120},
+  "element_requirements": {"earth": 5, "water": 4, "fire": null, "wind": null},
+  "available_to": [
+    {"character": "Felix", "character_id": "felix",
+     "djinn_requirements": [{"requirement": "water x4", "parsed": [{"element": "water", "count": 4}], "source": "ultimalink"}],
+     "acr": null}
+  ],
+  "psynergy": [{"name": "Ply", "id": null, "level": 1, "sources": ["ultimalink"]}],
+  "sources": ["terence", "ultimalink"]
+}
+```
+
+### Notes for CC (Extraction Instructions)
+
+Layers produced by deterministic parsers (no LLM): `scripts/classes_extract_gs2.py`
+(Layer 1) then `scripts/classes_ultimalink_gs2.py` (Layer 2). Rerun in that order.
+
+1. **Spine = terence**: parse "== CLASS BONUSES AND REQS ==" tables only. Each
+   group banner (`== <NAME> ==`, exact match) sets `dominance_group`; `----` rules
+   within a group separate tier chains (first row = `class_line` root); a data row
+   is any line whose tokens are `name… N% N% N% N% N% N% E E E E` (find the first
+   `%` token to split name from stats). Element column order is **Eth Wtr Fre Wnd**.
+2. **`element_requirements` is Element LEVELS, not djinn counts** — GS2 differs from
+   GS1 here. 5 = base primary; the relative djinn-count matcher is Layer 3.
+3. **Layer 2 = ultimalink** maps each per-character class block to a terence
+   class-line (BLOCK2LINE, by block title), then **positionally zips** the block's
+   tier rows to the line's classes (in tier order) — the block title→line mapping is
+   globally consistent and every block's tier-count matches its chain length. A
+   non-N/A tier => that character is `available_to` that class (with its djinn
+   counts); the block's psynergy table is assigned to the whole class-line (shared
+   across same-element characters, verified). `character_id` is the lowercased name;
+   psynergy `id` stays null until gs2 `links_normalize`.
+4. **Deferred**: Tamer per-sub-class psynergy (side-by-side columns) -> psynergy [];
+   Layer 3 = `acr` (aku-chi) + the relative djinn-count matcher (terence 2nd table).
+5. Do not invent data.
+
+---
+
+## Schema: `psynergy`
+
+One entry per distinct psynergy ability. Abilities sharing a display name but
+mechanically distinct (the two "Blast" lines) get separate ids. The clean master
+source is `yoyoyoshi`'s section "11 > ALL PSYNERGIES" — an alphabetical
+fixed-width table giving, per ability: pp / targeting range / short description /
+element. This file is the **canonical psynergy reference** that
+`classes[].psynergy[]` resolves against (by name).
+
+File: `data/gs2/psynergy.json`
+
+```
+Field         Type              Required   Notes
+---------------------------------------------------------------------------
+id            string            YES        Lowercase, hyphens. Duplicate display names get a
+                                           "-<pp>pp" suffix: "blast-5pp" (explosive) /
+                                           "blast-7pp" (massive explosion).
+name          string            YES        Display name. e.g. "Angel Spear", "Cure".
+game          string            YES        Always "gs2".
+element       string            YES        From the Type column: Venus->earth | Mars->fire |
+                                           Mercury->water | Jupiter->wind | "neutral".
+pp_cost       integer           YES        PP cost.
+range         integer | string  YES        Targets from the "I"-bar: 1 | 3 | 5 | 7, or "all"
+                                           (the 8-wide bar = whole party / all enemies).
+description   string            YES        In-game short description.
+series        string | null     YES        null — deferred (yoyoyoshi's element-section groupings
+                                           mix true progressions with thematic clusters).
+tier          integer | null    YES        null — deferred (with series).
+sources       array of string   YES        ["yoyoyoshi"] (+ "mr-unorigino-psy" when its US-English
+                                           name corroborates).
+```
+
+### Example Entry
+
+```json
+{
+  "id": "angel-spear", "name": "Angel Spear", "game": "gs2", "element": "wind",
+  "pp_cost": 12, "range": "all", "description": "Boost attack with a heavenly blade.",
+  "series": null, "tier": null, "sources": ["yoyoyoshi", "mr-unorigino-psy"]
+}
+```
+
+### Coverage & deferred
+
+- **157 psynergy** (battle + field/utility), produced by deterministic parser
+  `scripts/psynergy_extract_gs2.py` (no LLM). `mr-unorigino-psy` corroborates 126
+  (its kana columns are mojibake; only its ASCII US-English name is used).
+- **Known gap (-> gs2 `links_normalize`)**: yoyoyoshi's "ALL PSYNERGIES" is *not*
+  exhaustive of class-learnable psynergy. `classes[].psynergy[]` (from ultimalink)
+  references ~37 abilities absent here — Pierrot **Card** skills (Sword Card,
+  Saber Dance…), high-tier attacks (Magma Storm, Hurricane, Quake Strike,
+  Thunderhead), and Thorn/Nettle/Guardian/Protector — plus ~7 ultimalink
+  misspellings (`Frezze Prism`->Freeze Prism, `Flare Strom`->Flare Storm,
+  `Strom Ray`->Storm Ray, `High Imapct`, `Drian`->Drain, `Wind slash`, a
+  `Cluster\tBomb` tab) and a name conflict (ultimalink "Megacool" vs yoyoyoshi
+  "Supercool"). Resolving `classes.psynergy` name->id (fix typos, add the missing,
+  flag the conflict) is the gs2 `links_normalize` job — `classes[].psynergy[].id`
+  is null until then; this canonical list is intentionally not padded with
+  typo-prone, stat-less names.
+- **Deferred fields**: `series`/`tier`; and `level_learned` / `available_to` /
+  `category` / `target` / `acquired_via_item` (level_learned + available_to are
+  **derivable from `classes.json`** — the reverse-index belongs to links_normalize).

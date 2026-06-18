@@ -1,0 +1,234 @@
+[
+  {
+    "id": "felix",
+    "name": "Felix",
+    "jp_name": "Garcia",
+    "game": "gs2",
+    "element": "earth",
+    "is_starter": true,
+    "from_gs1": false,
+    "join": "party leader; available from the start on Idejima.",
+    "hometown": "Vale",
+    "can_equip": [
+      "long swords",
+      "light blades",
+      "axes",
+      "maces",
+      "armor",
+      "clothing",
+      "shields",
+      "gloves",
+      "helms",
+      "crowns",
+      "boots",
+      "shirts",
+      "masks"
+    ],
+    "sources": [
+      "darkslime",
+      "darthmarth"
+    ]
+  },
+  {
+    "id": "jenna",
+    "name": "Jenna",
+    "jp_name": "Jasmine",
+    "game": "gs2",
+    "element": "fire",
+    "is_starter": true,
+    "from_gs1": false,
+    "join": "available from the start on Idejima (Felix's sister).",
+    "hometown": "Vale",
+    "can_equip": [
+      "light blades",
+      "staves",
+      "clothing",
+      "robes",
+      "gloves",
+      "armlets",
+      "crowns",
+      "boots",
+      "masks",
+      "circlets",
+      "shirts",
+      "caps"
+    ],
+    "sources": [
+      "darkslime",
+      "darthmarth"
+    ]
+  },
+  {
+    "id": "sheba",
+    "name": "Sheba",
+    "jp_name": "Sheba",
+    "game": "gs2",
+    "element": "wind",
+    "is_starter": true,
+    "from_gs1": false,
+    "join": "available from the start (fell to Idejima with Felix).",
+    "hometown": "Unknown, fell from the sky into Tolbi, Caps",
+    "can_equip": [
+      "maces",
+      "staves",
+      "clothing",
+      "robes",
+      "gloves",
+      "armlets",
+      "crowns",
+      "boots",
+      "circlets",
+      "shirts"
+    ],
+    "sources": [
+      "darkslime",
+      "darthmarth"
+    ]
+  },
+  {
+    "id": "piers",
+    "name": "Piers",
+    "jp_name": "Picard",
+    "game": "gs2",
+    "element": "water",
+    "is_starter": false,
+    "from_gs1": false,
+    "join": "joins at Kibombo, after the party helps recover his ship.",
+    "hometown": "Lemuria",
+    "can_equip": [
+      "long swords",
+      "light blades",
+      "axes",
+      "maces",
+      "armor",
+      "clothing",
+      "shields",
+      "gloves",
+      "helms",
+      "crowns",
+      "boots",
+      "shirts",
+      "masks"
+    ],
+    "sources": [
+      "darkslime",
+      "darthmarth"
+    ]
+  },
+  {
+    "id": "isaac",
+    "name": "Isaac",
+    "jp_name": "Robin",
+    "game": "gs2",
+    "element": "earth",
+    "is_starter": false,
+    "from_gs1": true,
+    "join": "returning GS1 Adept; joins the playable party in the late game once the two parties reunite (Contigo).",
+    "hometown": "Vale",
+    "can_equip": [
+      "long swords",
+      "light blades",
+      "axes",
+      "maces",
+      "armor",
+      "clothing",
+      "shields",
+      "gloves",
+      "helms",
+      "crowns",
+      "boots",
+      "shirts",
+      "masks"
+    ],
+    "sources": [
+      "darkslime",
+      "darthmarth"
+    ]
+  },
+  {
+    "id": "garet",
+    "name": "Garet",
+    "jp_name": "Gerald",
+    "game": "gs2",
+    "element": "fire",
+    "is_starter": false,
+    "from_gs1": true,
+    "join": "returning GS1 Adept; joins the playable party in the late game once the two parties reunite (Contigo).",
+    "hometown": "Vale",
+    "can_equip": [
+      "long swords",
+      "light blades",
+      "axes",
+      "maces",
+      "armor",
+      "clothing",
+      "shields",
+      "gloves",
+      "helms",
+      "crowns",
+      "boots",
+      "shirts",
+      "masks"
+    ],
+    "sources": [
+      "darkslime",
+      "darthmarth"
+    ]
+  },
+  {
+    "id": "ivan",
+    "name": "Ivan",
+    "jp_name": "?",
+    "game": "gs2",
+    "element": "wind",
+    "is_starter": false,
+    "from_gs1": true,
+    "join": "returning GS1 Adept; joins the playable party in the late game once the two parties reunite (Contigo).",
+    "hometown": "Kalay",
+    "can_equip": [
+      "light blades",
+      "staves",
+      "clothing",
+      "robes",
+      "gloves",
+      "armlets",
+      "crowns",
+      "boots",
+      "masks",
+      "circlets",
+      "shirts"
+    ],
+    "sources": [
+      "darkslime",
+      "darthmarth"
+    ]
+  },
+  {
+    "id": "mia",
+    "name": "Mia",
+    "jp_name": "Mary",
+    "game": "gs2",
+    "element": "water",
+    "is_starter": false,
+    "from_gs1": true,
+    "join": "returning GS1 Adept; joins the playable party in the late game once the two parties reunite (Contigo).",
+    "hometown": "Imil",
+    "can_equip": [
+      "maces",
+      "staves",
+      "clothing",
+      "robes",
+      "gloves",
+      "armlets",
+      "crowns",
+      "boots",
+      "caps",
+      "circlets",
+      "shirts"
+    ],
+    "sources": [
+      "darkslime",
+      "darthmarth"
+    ]
+  }
+]
