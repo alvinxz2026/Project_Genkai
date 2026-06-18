@@ -1,0 +1,146 @@
+[
+  {
+    "id": "chestbeater",
+    "weakness": ["fire"],
+    "recommended_level": 6,
+    "strategy": "First boss, three Chestbeaters at once inside Kandorean Temple. Focus Fume on one at a time to drop them faster. They carry Herbs and heal each other until the Herbs run out. Keep HP topped with Cure.",
+    "special_mechanics": ["uses Herbs to heal each other", "resistant to wind"],
+    "sources": ["link-kirby-boss"]
+  },
+  {
+    "id": "king-scorpion",
+    "weakness": ["fire"],
+    "recommended_level": 10,
+    "strategy": "Yampi Desert boss. Buff defense with Iron and attack power with Impact; his Desert Gasp lowers your defense and Twin Shear then hits low-defense characters hard. Maxed Iron defense reduces his physicals to almost nothing.",
+    "special_mechanics": ["Desert Gasp lowers party defense", "Twin Shear punishes low defense", "Paralytail may paralyze", "resistant to wind"],
+    "sources": ["link-kirby-boss"]
+  },
+  {
+    "id": "briggs",
+    "weakness": [],
+    "recommended_level": 13,
+    "strategy": "Eastern Alhafra. Briggs himself defends and lets his two Sea Fighters attack; he calls in more (up to four total) with a Signal Whistle as they fall. Put the Sea Fighters to Sleep. Watch his Oil Drops (~80 damage to target, ~50 to others). Once his backups are gone he is easy.",
+    "special_mechanics": ["calls reinforcements via Signal Whistle (4 max)", "Oil Drops hit whole party", "fought with two Sea Fighters"],
+    "sources": ["link-kirby-boss"]
+  },
+  {
+    "id": "sea-fighter",
+    "weakness": [],
+    "recommended_level": 13,
+    "strategy": "Briggs' escorts (two appear, more summoned). They can be put to Sleep and, with maxed Iron defense, their physical attacks do only 1-4 damage. Kill them off to leave Briggs defenseless.",
+    "special_mechanics": ["can be put to sleep", "summoned as Briggs' reinforcements"],
+    "sources": ["link-kirby-boss"]
+  },
+  {
+    "id": "aqua-hydra",
+    "weakness": ["fire"],
+    "recommended_level": 19,
+    "strategy": "A mass of jellyfish aboard Piers' ship. Boost Felix/Jenna attack with Impact and pour Djinn unleashes/summons into it. Its only real group attack is Raging Flood; keep one healer (Piers) and save PP.",
+    "special_mechanics": ["Raging Flood is its main group attack"],
+    "sources": ["link-kirby-boss"]
+  },
+  {
+    "id": "serpent",
+    "weakness": ["wind"],
+    "recommended_level": 23,
+    "strategy": "Gaia Rock. Activate all four lights before the fight or it regenerates a huge amount of HP each turn; with all four lit it recovers only ~30 HP/turn. It acts twice per turn and can self-heal with Cure Well. Carry Antidotes for Toxic Breath; its Mighty Press can instantly down a character.",
+    "special_mechanics": ["acts twice per turn", "massive HP regen unless all four lights are lit (then ~30 HP/turn)", "Cure Well self-heal", "Toxic Breath poisons", "Mighty Press can instakill one character", "resistant to earth"],
+    "sources": ["link-kirby-boss"]
+  },
+  {
+    "id": "avimander",
+    "weakness": [],
+    "recommended_level": 28,
+    "strategy": "Summoned by Briggs' grandmother in Champa. Since it resists fire, use Jenna as healer. Max Impact to power Odyssey/Diamond Berg. Watch Star Mine (worst group attack) and Heat Stun.",
+    "special_mechanics": ["Star Mine is its strongest group attack", "Heat Stun can stun characters", "resistant to fire"],
+    "sources": ["link-kirby-boss"]
+  },
+  {
+    "id": "poseidon",
+    "weakness": ["fire"],
+    "recommended_level": 28,
+    "strategy": "Sea of Time. The forged Trident is mandatory: it breaks Poseidon's forcefield so you can damage him at all. Jenna's fire is his weakness, so keep her attacking with Serpent Fume and protect her from being downed (it resets her boosted Fire Power). Watery Grave can instant-down characters and Ocean Fist can cut one to 1 HP.",
+    "special_mechanics": ["requires the Trident to break his forcefield and deal damage", "Watery Grave can instantly down characters", "Ocean Fist can reduce HP to 1", "Counter-rush retaliates"],
+    "sources": ["link-kirby-boss"]
+  },
+  {
+    "id": "moapa",
+    "weakness": ["earth", "fire", "wind", "water"],
+    "recommended_level": 30,
+    "strategy": "Reached after the Trial Road race at Shaman Village (don't let Moapa beat you to the top). Weak to every element, so all Psynergy lands. Keep Protect up against his physicals and Bosca Hit; Bramble Seeds do 200+ damage to him.",
+    "special_mechanics": ["weak to all elements", "Bosca Hit strong physical", "fought with two Knights"],
+    "sources": ["link-kirby-boss"]
+  },
+  {
+    "id": "knight",
+    "weakness": [],
+    "recommended_level": 30,
+    "strategy": "Two Knights fight as Moapa's escorts. Use Protect to blunt their Strong Hit physicals and clear them while keeping Moapa controlled.",
+    "special_mechanics": ["Strong Hit physical attack", "two appear as Moapa's escorts"],
+    "sources": ["link-kirby-boss"]
+  },
+  {
+    "id": "agatio",
+    "weakness": [],
+    "recommended_level": 32,
+    "strategy": "Jupiter Lighthouse, fought together with Karst. You start with only Felix and Piers; the backup party arrives on turn 3, so survive until then. Agatio hits hardest with Stun Muscle and Meteor Blow; Rising Dragon does ~250 to one character. Summon Boreas repeatedly once Sheba arrives.",
+    "special_mechanics": ["battle starts with only half the party (backup arrives turn 3)", "Stun Muscle and Meteor Blow are his strongest group attacks", "fought alongside Karst"],
+    "sources": ["link-kirby-boss"]
+  },
+  {
+    "id": "karst",
+    "weakness": [],
+    "recommended_level": 32,
+    "strategy": "Jupiter Lighthouse, fought with Agatio. Target her first (about 1000 less HP). She is extremely fast, but a Hestia Blade halves her Agility. She has group healing, Djinnfest (sends one Djinni of each character into recovery) and Death Scythe.",
+    "special_mechanics": ["very high agility (Hestia Blade halves it)", "Djinnfest sends a Djinni of each character into recovery", "Death Scythe", "group healing", "fought alongside Agatio"],
+    "sources": ["link-kirby-boss"]
+  },
+  {
+    "id": "flame-dragon",
+    "weakness": [],
+    "recommended_level": 36,
+    "strategy": "Two Flame Dragons (Agatio & Karst transformed) encased in ice in Mars Lighthouse; Blaze the side heads and Burst the ice to start. Pick one and focus it. The larger (Flame Dragon 1) has stronger attacks including Meteor Blow; the smaller (Flame Dragon 2) has Djinnfest. Essentially the Agatio/Karst fight minus Death Scythe plus Flame Breath. Cool Aura heals.",
+    "special_mechanics": ["two dragons fought at once (larger has stronger attacks, smaller has Djinnfest)", "must Blaze + Burst the ice to begin", "resistant to fire"],
+    "sources": ["link-kirby-boss"]
+  },
+  {
+    "id": "doom-dragon",
+    "weakness": ["wind"],
+    "recommended_level": 40,
+    "strategy": "Final boss, fought with two full teams of four. Its ~14,400 HP is split unevenly across three heads; felling a head ends the turn (like Lull). The first head is weak, the second tougher (Blast Breath, Gravel Blow, Cruel Ruin), and the third uses Guard Aura (90% damage reduction), Cruel Ruin every other attack, and Djinn Storm. Keep Shade/Flash/Granite/Lull cycling.",
+    "special_mechanics": ["~14,400 total HP split unevenly across three heads", "felling a head ends the turn", "third head's Guard Aura reduces damage 90%", "Djinn Storm sends all front-party Djinn into recovery", "Cruel Ruin hits target and neighbors", "resistant to earth and fire"],
+    "sources": ["link-kirby-boss"]
+  },
+  {
+    "id": "star-magician",
+    "weakness": ["earth"],
+    "recommended_level": 35,
+    "strategy": "Treasure Isle summon-tablet guardian. He continually summons Balls: kill Refresh Balls first (they heal him 1000+ with Earnest Ply), then Guardian Balls (Guard Aura, 90% reduction); ignore Thunder Balls (Resist neutralizes them) and Anger Balls (they self-destruct). With the Balls cleared, summon Judgment. Watch Spark Plasma, Megacool and Mine Ball. Drops the Azul summon.",
+    "special_mechanics": ["summons Refresh/Guardian/Thunder/Anger Balls", "Refresh Balls heal him 1000+ HP (top priority)", "Guardian Balls reduce his damage taken 90%", "rewards the Azul summon tablet"],
+    "sources": ["link-kirby-boss"]
+  },
+  {
+    "id": "sentinel",
+    "weakness": ["earth"],
+    "recommended_level": 38,
+    "strategy": "Islet Cave guardian. Immune to ALL Psynergy including Break, casts Guard on itself to negate physicals, and recovers 200 HP/turn — so only summons damage it. It spams Break and Armor Crush to wreck your stats; cycle Corona/Flash and summon Haures then Judgment. Drops the Catastrophe summon.",
+    "special_mechanics": ["immune to all Psynergy (including Break)", "Guard negates physical attacks", "recovers 200 HP per turn", "only summons deal real damage", "Armor Crush shreds defense", "rewards the Catastrophe summon tablet"],
+    "sources": ["link-kirby-boss"]
+  },
+  {
+    "id": "valukar",
+    "weakness": [],
+    "recommended_level": 38,
+    "strategy": "Yampi Desert Cave guardian. His Stun Jip is a strong physical that usually stuns; carry Elixirs. Djinn Stun sets your own Djinn and lets him summon them against you, so avoid bringing Mercury Adepts and out-summon him with fast casters before he can. Drops the Daedalus summon.",
+    "special_mechanics": ["Stun Jip strong physical that stuns", "Djinn Stun sets your Djinn and summons them against you", "rewards the Daedalus summon tablet"],
+    "sources": ["link-kirby-boss"]
+  },
+  {
+    "id": "dullahan",
+    "weakness": ["wind"],
+    "recommended_level": 52,
+    "strategy": "Anemos Inner Sanctum, reachable only with all 72 Djinn; arguably the hardest boss. Recovers 200 HP and 30 PP each turn and acts three times per turn. Formina Sage does ~3x his physical damage (often a kill), Charon (10-Djinn summon) can down multiple characters, and Djinn Storm sends all front-party Djinn into recovery. He has no Guard Aura, so an all-summons rush works; the rewarding no-summon route uses Wind-weakness Excaliburs plus Lull-cycling and careful switch-ins (never switch out downed characters — they don't recover Djinn). Drops the ultimate Iris summon.",
+    "special_mechanics": ["recovers 200 HP and 30 PP per turn", "acts three times per turn", "Formina Sage ~3x physical damage (near-instakill)", "Charon can down multiple characters", "Djinn Storm sends all front-party Djinn into recovery", "no Guard Aura (summon rush viable)", "rewards the ultimate Iris summon tablet"],
+    "sources": ["link-kirby-boss"]
+  }
+]

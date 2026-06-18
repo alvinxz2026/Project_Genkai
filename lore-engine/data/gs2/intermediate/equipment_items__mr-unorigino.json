@@ -1,0 +1,6239 @@
+[
+  {
+    "section": "2A",
+    "debug_no": 272,
+    "name": "Huge Sword",
+    "name_literal": "Huge Sword",
+    "stat_bonus": {
+      "atk": 155,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": "Heavy Divide",
+    "unleash_name_literal": "Heavy Divide",
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 14000,
+    "sell_price": 10500
+  },
+  {
+    "section": "2A",
+    "debug_no": 273,
+    "name": "Mythril Blade",
+    "name_literal": "Mithril Blade",
+    "stat_bonus": {
+      "atk": 160,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": "Lethe Albion",
+    "unleash_name_literal": "Lethe Albion",
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 14600,
+    "sell_price": 10950
+  },
+  {
+    "section": "2A",
+    "debug_no": 274,
+    "name": "Levatine",
+    "name_literal": "Levatein",
+    "stat_bonus": {
+      "atk": 173,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": "Radient Fire",
+    "unleash_name_literal": "Hell Fire",
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 19700,
+    "sell_price": 14775
+  },
+  {
+    "section": "2A",
+    "debug_no": 275,
+    "name": "Darksword",
+    "name_literal": "Darkside Sword",
+    "stat_bonus": {
+      "atk": 210,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": "Acheron's Grief",
+    "unleash_name_literal": "Akeron Grief",
+    "is_cursed": true,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 24200,
+    "sell_price": 18150
+  },
+  {
+    "section": "2A",
+    "debug_no": 276,
+    "name": "Excalibur",
+    "name_literal": "Excalibur",
+    "stat_bonus": {
+      "atk": 180,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": "Legend",
+    "unleash_name_literal": "Celes Legend",
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 29200,
+    "sell_price": 21900
+  },
+  {
+    "section": "2A",
+    "debug_no": 277,
+    "name": "Robber's Blade",
+    "name_literal": "Lobar Blade",
+    "stat_bonus": {
+      "atk": 101,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": "Shred",
+    "unleash_name_literal": "Armor Shred",
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 7600,
+    "sell_price": 5700
+  },
+  {
+    "section": "2A",
+    "debug_no": 278,
+    "name": "Soul Brand",
+    "name_literal": "Blade of Soul",
+    "stat_bonus": {
+      "atk": 141,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": "Soul Shatter",
+    "unleash_name_literal": "Soul Crash",
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 11600,
+    "sell_price": 8700
+  },
+  {
+    "section": "2A",
+    "debug_no": 279,
+    "name": "Storm Brand",
+    "name_literal": "Storm Blade",
+    "stat_bonus": {
+      "atk": 60,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": "Hurricane",
+    "unleash_name_literal": "Bad Hurricane",
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 3900,
+    "sell_price": 2925
+  },
+  {
+    "section": "2A",
+    "debug_no": 280,
+    "name": "Hestia Blade",
+    "name_literal": "Hestia Blade",
+    "stat_bonus": {
+      "atk": 145,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": "Crucible Fire",
+    "unleash_name_literal": "Hot Sphere",
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 12900,
+    "sell_price": 9675
+  },
+  {
+    "section": "2A",
+    "debug_no": 281,
+    "name": "Lightning Sword",
+    "name_literal": "Lightning Sword",
+    "stat_bonus": {
+      "atk": 134,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": "Flash Edge",
+    "unleash_name_literal": "Flash Edge",
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 11400,
+    "sell_price": 8550
+  },
+  {
+    "section": "2A",
+    "debug_no": 282,
+    "name": "Rune Blade",
+    "name_literal": "Rune Blade",
+    "stat_bonus": {
+      "atk": 162,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": "Void Beam",
+    "unleash_name_literal": "Void Energy",
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 15000,
+    "sell_price": 11250
+  },
+  {
+    "section": "2A",
+    "debug_no": 283,
+    "name": "Cloud Brand",
+    "name_literal": "Sword of Amakumo",
+    "stat_bonus": {
+      "atk": 130,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": "Raiden's Wrath",
+    "unleash_name_literal": "Anger of Raijin",
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 11800,
+    "sell_price": 8850
+  },
+  {
+    "section": "2B",
+    "debug_no": 285,
+    "name": "Sylph Rapier",
+    "name_literal": "Sylph Rapier",
+    "stat_bonus": {
+      "atk": 124,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": "Mad Zephyr",
+    "unleash_name_literal": "Angry Zephyr",
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 10100,
+    "sell_price": 7575
+  },
+  {
+    "section": "2B",
+    "debug_no": 286,
+    "name": "Burning Sword",
+    "name_literal": "Burning Sword",
+    "stat_bonus": {
+      "atk": 157,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": "Blaze Rush",
+    "unleash_name_literal": "Blaze Rush",
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 14600,
+    "sell_price": 10950
+  },
+  {
+    "section": "2B",
+    "debug_no": 287,
+    "name": "Pirate's Sword",
+    "name_literal": "Pirate Sword",
+    "stat_bonus": {
+      "atk": 34,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": "Dreamtide",
+    "unleash_name_literal": "Sleepy Wave",
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 2000,
+    "sell_price": 1500
+  },
+  {
+    "section": "2B",
+    "debug_no": 288,
+    "name": "Corsair's Edge",
+    "name_literal": "Corsair Scimitar",
+    "stat_bonus": {
+      "atk": 90,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": "Lunar Slash",
+    "unleash_name_literal": "Moon Smash",
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 6300,
+    "sell_price": 4725
+  },
+  {
+    "section": "2B",
+    "debug_no": 289,
+    "name": "Pirate's Sabre",
+    "name_literal": "Pirate's Saber",
+    "stat_bonus": {
+      "atk": 136,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": "Scorpionfish",
+    "unleash_name_literal": "Stingfish Poison",
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 10600,
+    "sell_price": 7950
+  },
+  {
+    "section": "2B",
+    "debug_no": 290,
+    "name": "Hypnos' Sword",
+    "name_literal": "Hypnos Sword",
+    "stat_bonus": {
+      "atk": 49,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": "Moon Air",
+    "unleash_name_literal": "Moony Air",
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 2900,
+    "sell_price": 2175
+  },
+  {
+    "section": "2B",
+    "debug_no": 291,
+    "name": "Mist Sabre",
+    "name_literal": "Mist Saber",
+    "stat_bonus": {
+      "atk": 110,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": "Searing Fog",
+    "unleash_name_literal": "Fog Stab",
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 8600,
+    "sell_price": 6450
+  },
+  {
+    "section": "2B",
+    "debug_no": 292,
+    "name": "Phaeton's Blade",
+    "name_literal": "Photon Rapier",
+    "stat_bonus": {
+      "atk": 151,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": "Light Surge",
+    "unleash_name_literal": "Light Mirage",
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 13600,
+    "sell_price": 10200
+  },
+  {
+    "section": "2B",
+    "debug_no": 293,
+    "name": "Tisiphone Edge",
+    "name_literal": "Tisiphone Sword",
+    "stat_bonus": {
+      "atk": 178,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": "Vengeance",
+    "unleash_name_literal": "Heaven Vengeance",
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 2300,
+    "sell_price": 17250
+  },
+  {
+    "section": "2C",
+    "debug_no": 295,
+    "name": "Appolo's Axe",
+    "name_literal": "Apollon Axe",
+    "stat_bonus": {
+      "atk": 158,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": "Flare Burst",
+    "unleash_name_literal": "Flare Burst",
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 15200,
+    "sell_price": 11400
+  },
+  {
+    "section": "2C",
+    "debug_no": 296,
+    "name": "Gaia's Axe",
+    "name_literal": "Gaia Axe",
+    "stat_bonus": {
+      "atk": 163,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": "Mother Earth",
+    "unleash_name_literal": "Earth Mother",
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 16400,
+    "sell_price": 12300
+  },
+  {
+    "section": "2C",
+    "debug_no": 297,
+    "name": "Stellar Axe",
+    "name_literal": "Stellar Axe",
+    "stat_bonus": {
+      "atk": 171,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": "Supernova",
+    "unleash_name_literal": "Supernova",
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 19700,
+    "sell_price": 14775
+  },
+  {
+    "section": "2C",
+    "debug_no": 298,
+    "name": "Captain's Axe",
+    "name_literal": "Captain's Axe",
+    "stat_bonus": {
+      "atk": 95,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": true,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [
+      "Boosts Defense in battle"
+    ],
+    "buy_price": 6800,
+    "sell_price": 5100
+  },
+  {
+    "section": "2C",
+    "debug_no": 299,
+    "name": "Viking Axe",
+    "name_literal": "Viking Axe",
+    "stat_bonus": {
+      "atk": 137,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": "Stun Bolt",
+    "unleash_name_literal": "Stun Lightning",
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 11000,
+    "sell_price": 8250
+  },
+  {
+    "section": "2C",
+    "debug_no": 300,
+    "name": "Disk Axe",
+    "name_literal": "Wheel Axe",
+    "stat_bonus": {
+      "atk": 76,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": "Power Drive",
+    "unleash_name_literal": "Power Drive",
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 4700,
+    "sell_price": 3525
+  },
+  {
+    "section": "2C",
+    "debug_no": 301,
+    "name": "Themis' Axe",
+    "name_literal": "Themis Axe",
+    "stat_bonus": {
+      "atk": 30,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": "Stone Justice",
+    "unleash_name_literal": "Jiicoraps",
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 1900,
+    "sell_price": 1425
+  },
+  {
+    "section": "2C",
+    "debug_no": 302,
+    "name": "Mighty Axe",
+    "name_literal": "Mighty Axe",
+    "stat_bonus": {
+      "atk": 142,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": "Heat Shatter",
+    "unleash_name_literal": "Heat Smash",
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 11900,
+    "sell_price": 8925
+  },
+  {
+    "section": "2C",
+    "debug_no": 303,
+    "name": "Tartarus Axe",
+    "name_literal": "Tartarus Axe",
+    "stat_bonus": {
+      "atk": 127,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": "Vein Tap",
+    "unleash_name_literal": "Blood Suck",
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 10800,
+    "sell_price": 8100
+  },
+  {
+    "section": "2D",
+    "debug_no": 305,
+    "name": "Comet Mace",
+    "name_literal": "Comet Mace",
+    "stat_bonus": {
+      "atk": 105,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": "Ice Crush",
+    "unleash_name_literal": "Ice Crash",
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 8000,
+    "sell_price": 6000
+  },
+  {
+    "section": "2D",
+    "debug_no": 306,
+    "name": "Tungsten Mace",
+    "name_literal": "Tungsten Mace",
+    "stat_bonus": {
+      "atk": 159,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": "Hammersphere",
+    "unleash_name_literal": "Hammer Sphere",
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 14700,
+    "sell_price": 11025
+  },
+  {
+    "section": "2D",
+    "debug_no": 307,
+    "name": "Demon Mace",
+    "name_literal": "Demon's Mace",
+    "stat_bonus": {
+      "atk": 115,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": "Evil Eye",
+    "unleash_name_literal": "Lisp Eye",
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 9200,
+    "sell_price": 6900
+  },
+  {
+    "section": "2D",
+    "debug_no": 308,
+    "name": "Hagbone Mace",
+    "name_literal": "Hagbone Mace",
+    "stat_bonus": {
+      "atk": 108,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": "Wyrd Curse",
+    "unleash_name_literal": "Witch Curse",
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 8400,
+    "sell_price": 6300
+  },
+  {
+    "section": "2D",
+    "debug_no": 309,
+    "name": "Blow Mace",
+    "name_literal": "Blow Mace",
+    "stat_bonus": {
+      "atk": 45,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": "Boost Hack",
+    "unleash_name_literal": "Boost Gash",
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 2800,
+    "sell_price": 2100
+  },
+  {
+    "section": "2D",
+    "debug_no": 310,
+    "name": "Rising Mace",
+    "name_literal": "Rising Mace",
+    "stat_bonus": {
+      "atk": 152,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": "High Vitals",
+    "unleash_name_literal": "High Vital",
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 13900,
+    "sell_price": 10425
+  },
+  {
+    "section": "2D",
+    "debug_no": 311,
+    "name": "Thanatos Mace",
+    "name_literal": "Thanatos Mace",
+    "stat_bonus": {
+      "atk": 125,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": "Heartbreak",
+    "unleash_name_literal": "Heartbreak",
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 10400,
+    "sell_price": 7800
+  },
+  {
+    "section": "2E",
+    "debug_no": 313,
+    "name": "Cloud Wand",
+    "name_literal": "Cloud Wand",
+    "stat_bonus": {
+      "atk": 98,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": "Stun Cloud",
+    "unleash_name_literal": "Stun Cloud",
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 7000,
+    "sell_price": 5250
+  },
+  {
+    "section": "2E",
+    "debug_no": 314,
+    "name": "Salamander Rod",
+    "name_literal": "Salamander Rod",
+    "stat_bonus": {
+      "atk": 156,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": "Fire Dance",
+    "unleash_name_literal": "Flame Dance",
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 14300,
+    "sell_price": 10725
+  },
+  {
+    "section": "2E",
+    "debug_no": 315,
+    "name": "Nebula Wand",
+    "name_literal": "Nebula Wand",
+    "stat_bonus": {
+      "atk": 165,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": "Reverse Star",
+    "unleash_name_literal": "Reverse Star",
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 15200,
+    "sell_price": 11400
+  },
+  {
+    "section": "2E",
+    "debug_no": 316,
+    "name": "Dracomace",
+    "name_literal": "Cane of the Dragon King's Palace",
+    "stat_bonus": {
+      "atk": 128,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": "Aging Gas",
+    "unleash_name_literal": "Aging Gas",
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 10700,
+    "sell_price": 8025
+  },
+  {
+    "section": "2E",
+    "debug_no": 317,
+    "name": "Glower Staff",
+    "name_literal": "Cane of the Sea's Rumble",
+    "stat_bonus": {
+      "atk": 126,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": "Flash Force",
+    "unleash_name_literal": "Ranburin Energy",
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 10100,
+    "sell_price": 7575
+  },
+  {
+    "section": "2E",
+    "debug_no": 318,
+    "name": "Goblin's Rod",
+    "name_literal": "Cane of the Sea Priest",
+    "stat_bonus": {
+      "atk": 134,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": "Sargasso",
+    "unleash_name_literal": "Sargasso",
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 9800,
+    "sell_price": 7350
+  },
+  {
+    "section": "2E",
+    "debug_no": 319,
+    "name": "Meditation Rod",
+    "name_literal": "Cane of Enlightenment",
+    "stat_bonus": {
+      "atk": 150,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": "Nirvana",
+    "unleash_name_literal": "Nirvana",
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 13400,
+    "sell_price": 10050
+  },
+  {
+    "section": "2E",
+    "debug_no": 320,
+    "name": "Fireman's Rod",
+    "name_literal": "Fire Extinguisher's Matoi",
+    "stat_bonus": {
+      "atk": 130,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": true,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [
+      "Raises Elemental Resistance"
+    ],
+    "buy_price": 8200,
+    "sell_price": 6150
+  },
+  {
+    "section": "2E",
+    "debug_no": 321,
+    "name": "Atropos' Rod",
+    "name_literal": "Atropos Rod",
+    "stat_bonus": {
+      "atk": 169,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": "Life Shear",
+    "unleash_name_literal": "Life Scissor",
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 18900,
+    "sell_price": 14175
+  },
+  {
+    "section": "2E",
+    "debug_no": 322,
+    "name": "Lachesis' Rule",
+    "name_literal": "Lachesis Wand",
+    "stat_bonus": {
+      "atk": 177,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": "Apocalypse",
+    "unleash_name_literal": "Last Judge",
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 21700,
+    "sell_price": 16275
+  },
+  {
+    "section": "2E",
+    "debug_no": 323,
+    "name": "Clotho's Distaff",
+    "name_literal": "Clotho Ankh",
+    "stat_bonus": {
+      "atk": 168,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": true,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [
+      "Restores 1000HP"
+    ],
+    "buy_price": 17200,
+    "sell_price": 12900
+  },
+  {
+    "section": "2E",
+    "debug_no": 324,
+    "name": "Staff of Anubis",
+    "name_literal": "Anubis Wand",
+    "stat_bonus": {
+      "atk": 83,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": "Sarcophagus",
+    "unleash_name_literal": "Pharaoh Curse",
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 5500,
+    "sell_price": 4125
+  },
+  {
+    "section": "2F",
+    "debug_no": 328,
+    "name": "Trident",
+    "name_literal": "3-Pronged Spear",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 20
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": false,
+    "effects": [],
+    "buy_price": null,
+    "sell_price": null
+  },
+  {
+    "section": "2G",
+    "debug_no": 328,
+    "name": "Planet Armor",
+    "name_literal": "Planet Armor",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 36,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 10,
+      "fire": 10,
+      "wind": 10,
+      "water": 10
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 4800,
+    "sell_price": 3600
+  },
+  {
+    "section": "2G",
+    "debug_no": 329,
+    "name": "Dragon Mail",
+    "name_literal": "Dragon Mail",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 44,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 15,
+      "wind": 0,
+      "water": 15
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 9700,
+    "sell_price": 7275
+  },
+  {
+    "section": "2G",
+    "debug_no": 330,
+    "name": "Chronos Mail",
+    "name_literal": "Cronos Mail",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 47,
+      "hp": 30,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 13100,
+    "sell_price": 9825
+  },
+  {
+    "section": "2G",
+    "debug_no": 331,
+    "name": "Stealth Armor",
+    "name_literal": "Stealth Armor",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 48,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": -10,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": true,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 14000,
+    "sell_price": 10500
+  },
+  {
+    "section": "2G",
+    "debug_no": 332,
+    "name": "Xylion Armor",
+    "name_literal": "Zillion Armor",
+    "stat_bonus": {
+      "atk": 12,
+      "def": 50,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 22500,
+    "sell_price": 16875
+  },
+  {
+    "section": "2G",
+    "debug_no": 333,
+    "name": "Ixion Mail",
+    "name_literal": "Ixion Mail",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 26,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 20,
+      "water": 20
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 1300,
+    "sell_price": 975
+  },
+  {
+    "section": "2G",
+    "debug_no": 334,
+    "name": "Phantasmal Mail",
+    "name_literal": "Armor of Mahoroba",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 38,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 7,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": true,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [
+      "Boosts luck in battle"
+    ],
+    "buy_price": 5800,
+    "sell_price": 4350
+  },
+  {
+    "section": "2G",
+    "debug_no": 335,
+    "name": "Erebus Armor",
+    "name_literal": "Erebos Armor",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 43,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 6,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 9000,
+    "sell_price": 6750
+  },
+  {
+    "section": "2G",
+    "debug_no": 336,
+    "name": "Valkyrie Mail",
+    "name_literal": "Valkyrie Mail",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 53,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": true,
+    "can_trade": true,
+    "effects": [
+      "Rate of Criticals rise."
+    ],
+    "buy_price": 25500,
+    "sell_price": 19125
+  },
+  {
+    "section": "2H",
+    "debug_no": 338,
+    "name": "Faery Vest",
+    "name_literal": "Fairy Vest",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 38,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": true,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [
+      "Restores 200 HP"
+    ],
+    "buy_price": 6900,
+    "sell_price": 5175
+  },
+  {
+    "section": "2H",
+    "debug_no": 339,
+    "name": "Mythril Clothes",
+    "name_literal": "Mithril Clothing",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 49,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": true,
+    "can_trade": true,
+    "effects": [
+      "Rate of Criticals rise."
+    ],
+    "buy_price": 14900,
+    "sell_price": 11175
+  },
+  {
+    "section": "2H",
+    "debug_no": 340,
+    "name": "Full Metal Vest",
+    "name_literal": "Full Metal Vest",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 21,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 1100,
+    "sell_price": 825
+  },
+  {
+    "section": "2H",
+    "debug_no": 341,
+    "name": "Wild Coat",
+    "name_literal": "Wild Coat",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 37,
+      "hp": 0,
+      "pp": 0,
+      "agi": 40,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 4000,
+    "sell_price": 3000
+  },
+  {
+    "section": "2H",
+    "debug_no": 342,
+    "name": "Floral Dress",
+    "name_literal": "Floral Dress",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 38,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": true,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [
+      "Can send enemies to sleep"
+    ],
+    "buy_price": 6600,
+    "sell_price": 4950
+  },
+  {
+    "section": "2H",
+    "debug_no": 343,
+    "name": "Festival Coat",
+    "name_literal": "Happy Coat of the Festival",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 28,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 10,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 2800,
+    "sell_price": 2100
+  },
+  {
+    "section": "2H",
+    "debug_no": 344,
+    "name": "Erinyes Tunic",
+    "name_literal": "Aerines Coat",
+    "stat_bonus": {
+      "atk": 5,
+      "def": 45,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": true,
+    "can_trade": true,
+    "effects": [
+      "Rate of Criticals rise."
+    ],
+    "buy_price": 10400,
+    "sell_price": 7800
+  },
+  {
+    "section": "2H",
+    "debug_no": 345,
+    "name": "Triton's Ward",
+    "name_literal": "Triton Cloth",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 47,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 30
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 70
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 16200,
+    "sell_price": 12150
+  },
+  {
+    "section": "2I",
+    "debug_no": 347,
+    "name": "Dragon Robe",
+    "name_literal": "Dragon Robe",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 42,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 18,
+      "wind": 0,
+      "water": 18
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 8900,
+    "sell_price": 6675
+  },
+  {
+    "section": "2I",
+    "debug_no": 348,
+    "name": "Ardagh Robe",
+    "name_literal": "Arder Robe",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 44,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 20,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 40,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 9900,
+    "sell_price": 7425
+  },
+  {
+    "section": "2I",
+    "debug_no": 349,
+    "name": "Muni Robe",
+    "name_literal": "Robe of Muni",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 39,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 10,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 6300,
+    "sell_price": 4725
+  },
+  {
+    "section": "2I",
+    "debug_no": 350,
+    "name": "Aeolian Cossack",
+    "name_literal": "Eolia Cassock",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 46,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 15,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 50,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 11400,
+    "sell_price": 8550
+  },
+  {
+    "section": "2I",
+    "debug_no": 351,
+    "name": "Iris Robe",
+    "name_literal": "Iris Robe",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 47,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 15,
+      "hp_regen": 0,
+      "pp_regen": 12
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 30,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 16600,
+    "sell_price": 12450
+  },
+  {
+    "section": "2J",
+    "debug_no": 353,
+    "name": "Luna Shield",
+    "name_literal": "Luna Shield",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 33,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 30,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 3900,
+    "sell_price": 2925
+  },
+  {
+    "section": "2J",
+    "debug_no": 354,
+    "name": "Dragon Shield",
+    "name_literal": "Dragon Shield",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 42,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 15,
+      "wind": 0,
+      "water": 15
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 7400,
+    "sell_price": 5550
+  },
+  {
+    "section": "2J",
+    "debug_no": 355,
+    "name": "Flame Shield",
+    "name_literal": "Flame Shield",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 44,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 60,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 8600,
+    "sell_price": 6450
+  },
+  {
+    "section": "2J",
+    "debug_no": 356,
+    "name": "Terra Shield",
+    "name_literal": "Terra Shield",
+    "stat_bonus": {
+      "atk": 5,
+      "def": 48,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": true,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 11200,
+    "sell_price": 8400
+  },
+  {
+    "section": "2J",
+    "debug_no": 357,
+    "name": "Cosmos Shield",
+    "name_literal": "Cosmo Shield",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 49,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 20,
+      "fire": 20,
+      "wind": 20,
+      "water": 20
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 12200,
+    "sell_price": 9150
+  },
+  {
+    "section": "2J",
+    "debug_no": 358,
+    "name": "Fujin Shield",
+    "name_literal": "Shield of Fuujin",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 23,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 50,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 1400,
+    "sell_price": 1050
+  },
+  {
+    "section": "2J",
+    "debug_no": 359,
+    "name": "Aegis Shield",
+    "name_literal": "Aegis Shield",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 41,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": true,
+    "can_trade": true,
+    "effects": [
+      "Rate of Criticals rise."
+    ],
+    "buy_price": 6700,
+    "sell_price": 5025
+  },
+  {
+    "section": "2K",
+    "debug_no": 361,
+    "name": "Aerial Gloves",
+    "name_literal": "Aerial Gloves",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 37,
+      "hp": 0,
+      "pp": 0,
+      "agi": 30,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 20,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 5400,
+    "sell_price": 4050
+  },
+  {
+    "section": "2K",
+    "debug_no": 362,
+    "name": "Titan Gloves",
+    "name_literal": "Titan Gloves",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 43,
+      "hp": 30,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 8100,
+    "sell_price": 6075
+  },
+  {
+    "section": "2K",
+    "debug_no": 363,
+    "name": "Big Bang Gloves",
+    "name_literal": "Big Bang Gloves",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 47,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 40,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 10200,
+    "sell_price": 7650
+  },
+  {
+    "section": "2K",
+    "debug_no": 364,
+    "name": "Crafted Gloves",
+    "name_literal": "Composite Gloves",
+    "stat_bonus": {
+      "atk": 5,
+      "def": 35,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 4600,
+    "sell_price": 3450
+  },
+  {
+    "section": "2K",
+    "debug_no": 365,
+    "name": "Riot Gloves",
+    "name_literal": "Riot Gloves",
+    "stat_bonus": {
+      "atk": 15,
+      "def": 45,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": true,
+    "can_trade": true,
+    "effects": [
+      "Rate of Criticals rise."
+    ],
+    "buy_price": 10400,
+    "sell_price": 7800
+  },
+  {
+    "section": "2K",
+    "debug_no": 366,
+    "name": "Spirit Gloves",
+    "name_literal": "Spiritual Gloves",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 40,
+      "hp": 0,
+      "pp": 20,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 7200,
+    "sell_price": 5400
+  },
+  {
+    "section": "2L",
+    "debug_no": 368,
+    "name": "Clear Bracelet",
+    "name_literal": "Clear Bracelet",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 31,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 25
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 3500,
+    "sell_price": 2625
+  },
+  {
+    "section": "2L",
+    "debug_no": 369,
+    "name": "Mythril Armlet",
+    "name_literal": "Mithril Armlet",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 46,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": true,
+    "can_trade": true,
+    "effects": [
+      "Rate of Criticals rise."
+    ],
+    "buy_price": 9700,
+    "sell_price": 7275
+  },
+  {
+    "section": "2L",
+    "debug_no": 370,
+    "name": "Bone Armlet",
+    "name_literal": "Bone Armlet",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 30,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": true,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [
+      "Haunts an enemy"
+    ],
+    "buy_price": 3000,
+    "sell_price": 2250
+  },
+  {
+    "section": "2L",
+    "debug_no": 371,
+    "name": "Jester's Armlet",
+    "name_literal": "Armlet of Gusha",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 39,
+      "hp": 0,
+      "pp": 30,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 5100,
+    "sell_price": 3825
+  },
+  {
+    "section": "2L",
+    "debug_no": 372,
+    "name": "Leda's Armlet",
+    "name_literal": "Reda Armlet",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 38,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 30,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 5800,
+    "sell_price": 4350
+  },
+  {
+    "section": "2M",
+    "debug_no": 374,
+    "name": "Dragon Helm",
+    "name_literal": "Dragon Helm",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 42,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 20,
+      "wind": 0,
+      "water": 20
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 8900,
+    "sell_price": 6675
+  },
+  {
+    "section": "2M",
+    "debug_no": 375,
+    "name": "Mythril Helm",
+    "name_literal": "Mithril Helm",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 44,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": true,
+    "can_trade": true,
+    "effects": [
+      "Rate of Criticals rise."
+    ],
+    "buy_price": 11400,
+    "sell_price": 8550
+  },
+  {
+    "section": "2M",
+    "debug_no": 376,
+    "name": "Fear Helm",
+    "name_literal": "Fear Helm",
+    "stat_bonus": {
+      "atk": 10,
+      "def": 48,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": true,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 12800,
+    "sell_price": 9600
+  },
+  {
+    "section": "2M",
+    "debug_no": 377,
+    "name": "Millenium Helm",
+    "name_literal": "Millennium Helm",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 45,
+      "hp": 20,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 11400,
+    "sell_price": 8550
+  },
+  {
+    "section": "2M",
+    "debug_no": 378,
+    "name": "Viking Helm",
+    "name_literal": "Viking Helm",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 30,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 30
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 4000,
+    "sell_price": 3000
+  },
+  {
+    "section": "2M",
+    "debug_no": 379,
+    "name": "Gloria Helm",
+    "name_literal": "Gloria Helm",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 49,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 10,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 13800,
+    "sell_price": 10350
+  },
+  {
+    "section": "2M",
+    "debug_no": 380,
+    "name": "Minerva Helm",
+    "name_literal": "Minerva Helm",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 43,
+      "hp": 0,
+      "pp": 20,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 8700,
+    "sell_price": 6525
+  },
+  {
+    "section": "2N",
+    "debug_no": 382,
+    "name": "Floating Hat",
+    "name_literal": "Light Hat",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 34,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 20,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [
+      "Luck x1.2"
+    ],
+    "buy_price": 5700,
+    "sell_price": 4275
+  },
+  {
+    "section": "2N",
+    "debug_no": 383,
+    "name": "Nurse's Cap",
+    "name_literal": "Nurse Cap",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 18,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": true,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [
+      "\"Use to release healing power\""
+    ],
+    "buy_price": 1200,
+    "sell_price": 900
+  },
+  {
+    "section": "2N",
+    "debug_no": 384,
+    "name": "Thorn Crown",
+    "name_literal": "Thorn Crown",
+    "stat_bonus": {
+      "atk": 8,
+      "def": 28,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 3300,
+    "sell_price": 2475
+  },
+  {
+    "section": "2N",
+    "debug_no": 385,
+    "name": "Otafuku Mask",
+    "name_literal": "Face of the Homely Woman",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 31,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": true,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [
+      "A water attack on the enemy"
+    ],
+    "buy_price": 3900,
+    "sell_price": 2925
+  },
+  {
+    "section": "2N",
+    "debug_no": 386,
+    "name": "Hiotoko Mask",
+    "name_literal": "Face of Hyottoko",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 33,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": true,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [
+      "A fire attack on the enemy"
+    ],
+    "buy_price": 6600,
+    "sell_price": 4950
+  },
+  {
+    "section": "2N",
+    "debug_no": 387,
+    "name": "Crown of Glory",
+    "name_literal": "Marvelous Crown",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 40,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 8
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 7400,
+    "sell_price": 5550
+  },
+  {
+    "section": "2N",
+    "debug_no": 388,
+    "name": "Alastor's Hood",
+    "name_literal": "Arastal Hood",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 47,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": true,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [
+      "Haunts the enemy"
+    ],
+    "buy_price": 11800,
+    "sell_price": 8850
+  },
+  {
+    "section": "2O",
+    "debug_no": 390,
+    "name": "Pure Circlet",
+    "name_literal": "Pure Circle",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 29,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 20
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 3700,
+    "sell_price": 2775
+  },
+  {
+    "section": "2O",
+    "debug_no": 391,
+    "name": "Astral Circle",
+    "name_literal": "Astral Circle",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 32,
+      "hp": 0,
+      "pp": 15,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 4600,
+    "sell_price": 3450
+  },
+  {
+    "section": "2O",
+    "debug_no": 392,
+    "name": "Psychic Circle",
+    "name_literal": "Psychic Circle",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 39,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 12
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 8800,
+    "sell_price": 6600
+  },
+  {
+    "section": "2O",
+    "debug_no": 393,
+    "name": "Demon Circlet",
+    "name_literal": "Demon Circle",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 50,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": true,
+    "may_break": false,
+    "increases_critical": true,
+    "can_trade": true,
+    "effects": [
+      "Rate of Criticals rise."
+    ],
+    "buy_price": 15800,
+    "sell_price": 11850
+  },
+  {
+    "section": "2O",
+    "debug_no": 394,
+    "name": "Clarity Circlet",
+    "name_literal": "Clarity Circle",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 21,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 15,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 1500,
+    "sell_price": 1125
+  },
+  {
+    "section": "2O",
+    "debug_no": 395,
+    "name": "Brilliant Circlet",
+    "name_literal": "Brillian Circle",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 36,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 10,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 6100,
+    "sell_price": 4575
+  },
+  {
+    "section": "2O",
+    "debug_no": 396,
+    "name": "Berserker Band",
+    "name_literal": "Berserk Circle",
+    "stat_bonus": {
+      "atk": 15,
+      "def": 46,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 13700,
+    "sell_price": 10275
+  },
+  {
+    "section": "2P1",
+    "debug_no": 398,
+    "name": "Divine Camisole",
+    "name_literal": "Angel Cami",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 10,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 5,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 2700,
+    "sell_price": 2025
+  },
+  {
+    "section": "2P1",
+    "debug_no": 399,
+    "name": "Herbed Shirt",
+    "name_literal": "Herb-knit Shirt",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 7,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": true,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [
+      "Reduces enemy defense"
+    ],
+    "buy_price": 1900,
+    "sell_price": 1425
+  },
+  {
+    "section": "2P1",
+    "debug_no": 400,
+    "name": "Golden Shirt",
+    "name_literal": "Shirt of Gold",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 12,
+      "hp": 10,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 2400,
+    "sell_price": 1800
+  },
+  {
+    "section": "2P1",
+    "debug_no": 401,
+    "name": "Casual Shirt",
+    "name_literal": "Sasurii Band",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 3,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 5,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 50,
+    "sell_price": 37
+  },
+  {
+    "section": "2P2",
+    "debug_no": 402,
+    "name": "Leather Boots",
+    "name_literal": "Leather Boots",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 6,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 270,
+    "sell_price": 202
+  },
+  {
+    "section": "2P2",
+    "debug_no": 403,
+    "name": "Dragon Boots",
+    "name_literal": "Dragon Boots",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 13,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 10,
+      "fire": 10,
+      "wind": 0,
+      "water": 10
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 4200,
+    "sell_price": 3150
+  },
+  {
+    "section": "2P2",
+    "debug_no": 404,
+    "name": "Safety Boots",
+    "name_literal": "Safety Boots",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 12,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [
+      "Agility x0.7"
+    ],
+    "buy_price": 700,
+    "sell_price": 525
+  },
+  {
+    "section": "2P2",
+    "debug_no": 405,
+    "name": "Knight's Greave",
+    "name_literal": "Knight Greave",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 8,
+      "hp": 5,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 2700,
+    "sell_price": 2025
+  },
+  {
+    "section": "2P2",
+    "debug_no": 406,
+    "name": "Silver Greave",
+    "name_literal": "Silver Greave",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 11,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 4,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 3800,
+    "sell_price": 2850
+  },
+  {
+    "section": "2P2",
+    "debug_no": 407,
+    "name": "Ninja Sandals",
+    "name_literal": "Straw Sandals of Shinobi",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 5,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": true,
+    "can_trade": true,
+    "effects": [
+      "Rate of Criticals rise."
+    ],
+    "buy_price": 2000,
+    "sell_price": 1500
+  },
+  {
+    "section": "2P2",
+    "debug_no": 408,
+    "name": "Golden Boots",
+    "name_literal": "Boots of Gold",
+    "stat_bonus": {
+      "atk": 15,
+      "def": 30,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 4400,
+    "sell_price": 3300
+  },
+  {
+    "section": "2P3",
+    "debug_no": 409,
+    "name": "Spirit Ring",
+    "name_literal": "Ring of Spirit",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": true,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [
+      "Restores 160HP to all"
+    ],
+    "buy_price": 3600,
+    "sell_price": 2700
+  },
+  {
+    "section": "2P3",
+    "debug_no": 410,
+    "name": "Stardust Ring",
+    "name_literal": "Stardust Ring",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": true,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [
+      "Seals an enemy's psynergy"
+    ],
+    "buy_price": 2500,
+    "sell_price": 1875
+  },
+  {
+    "section": "2P3",
+    "debug_no": 411,
+    "name": "Aroma Ring",
+    "name_literal": "Aroma Ring",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": true,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [
+      "Restores 100HP to all"
+    ],
+    "buy_price": 2300,
+    "sell_price": 1725
+  },
+  {
+    "section": "2P3",
+    "debug_no": 412,
+    "name": "Rainbow Ring",
+    "name_literal": "Rainbow Ring",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": true,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [
+      "Deludes multiple enemies"
+    ],
+    "buy_price": 900,
+    "sell_price": 675
+  },
+  {
+    "section": "2P3",
+    "debug_no": 413,
+    "name": "Soul Ring",
+    "name_literal": "Ring of Soul",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": true,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [
+      "Revives a fallen ally"
+    ],
+    "buy_price": 1800,
+    "sell_price": 1350
+  },
+  {
+    "section": "2P3",
+    "debug_no": 414,
+    "name": "Guardian Ring",
+    "name_literal": "Guardian Ring",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 4,
+      "hp": 20,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 1700,
+    "sell_price": 1275
+  },
+  {
+    "section": "2P3",
+    "debug_no": 415,
+    "name": "Golden Ring",
+    "name_literal": "Ring of Gold",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": true,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [
+      "Raises elemental resistance"
+    ],
+    "buy_price": 4000,
+    "sell_price": 3000
+  },
+  {
+    "section": "2Q",
+    "debug_no": 417,
+    "name": "Rusty Sword",
+    "name_literal": "Rusted Sword",
+    "stat_bonus": {
+      "atk": 9,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 320,
+    "sell_price": 240
+  },
+  {
+    "section": "2Q",
+    "debug_no": 418,
+    "name": "Rusty Sword",
+    "name_literal": "Rusted Sword",
+    "stat_bonus": {
+      "atk": 10,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 370,
+    "sell_price": 277
+  },
+  {
+    "section": "2Q",
+    "debug_no": 419,
+    "name": "Rusty Sword",
+    "name_literal": "Rusted Sword",
+    "stat_bonus": {
+      "atk": 13,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 520,
+    "sell_price": 390
+  },
+  {
+    "section": "2Q",
+    "debug_no": 420,
+    "name": "Rusty Sword",
+    "name_literal": "Rusted Sword",
+    "stat_bonus": {
+      "atk": 14,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 580,
+    "sell_price": 435
+  },
+  {
+    "section": "2Q",
+    "debug_no": 421,
+    "name": "Rusty Axe",
+    "name_literal": "Rusted Axe",
+    "stat_bonus": {
+      "atk": 10,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 340,
+    "sell_price": 255
+  },
+  {
+    "section": "2Q",
+    "debug_no": 422,
+    "name": "Rusty Axe",
+    "name_literal": "Rusted Axe",
+    "stat_bonus": {
+      "atk": 14,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 550,
+    "sell_price": 412
+  },
+  {
+    "section": "2Q",
+    "debug_no": 423,
+    "name": "Rusty Mace",
+    "name_literal": "Rusted Mace",
+    "stat_bonus": {
+      "atk": 12,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 460,
+    "sell_price": 345
+  },
+  {
+    "section": "2Q",
+    "debug_no": 424,
+    "name": "Rusty Mace",
+    "name_literal": "Rusted Mace",
+    "stat_bonus": {
+      "atk": 11,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 420,
+    "sell_price": 315
+  },
+  {
+    "section": "2Q",
+    "debug_no": 425,
+    "name": "Rusty Staff",
+    "name_literal": "Rusted Stick",
+    "stat_bonus": {
+      "atk": 13,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 530,
+    "sell_price": 397
+  },
+  {
+    "section": "2Q",
+    "debug_no": 426,
+    "name": "Rusty Staff",
+    "name_literal": "Rusted Stick",
+    "stat_bonus": {
+      "atk": 12,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 500,
+    "sell_price": 375
+  },
+  {
+    "section": "2Q",
+    "debug_no": 427,
+    "name": "Rusty Staff",
+    "name_literal": "Rusted Stick",
+    "stat_bonus": {
+      "atk": 11,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 480,
+    "sell_price": 360
+  },
+  {
+    "section": "2R",
+    "debug_no": 429,
+    "name": "Tear Stone",
+    "name_literal": "Tear Stone",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 300,
+    "sell_price": 225
+  },
+  {
+    "section": "2R",
+    "debug_no": 430,
+    "name": "Star Dust",
+    "name_literal": "Stardust",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 400,
+    "sell_price": 300
+  },
+  {
+    "section": "2R",
+    "debug_no": 431,
+    "name": "Sylph Feather",
+    "name_literal": "Sylph's Feather",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 700,
+    "sell_price": 525
+  },
+  {
+    "section": "2R",
+    "debug_no": 432,
+    "name": "Dragon Skin",
+    "name_literal": "Dragon Skin",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 1200,
+    "sell_price": 900
+  },
+  {
+    "section": "2R",
+    "debug_no": 433,
+    "name": "Salamander Tail",
+    "name_literal": "Salamander's Tail",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 1400,
+    "sell_price": 1050
+  },
+  {
+    "section": "2R",
+    "debug_no": 434,
+    "name": "Golem Core",
+    "name_literal": "Golem Core",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 1500,
+    "sell_price": 1125
+  },
+  {
+    "section": "2R",
+    "debug_no": 435,
+    "name": "Mythril Silver",
+    "name_literal": "Mithril Silver",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 2000,
+    "sell_price": 1500
+  },
+  {
+    "section": "2R",
+    "debug_no": 436,
+    "name": "Dark Matter",
+    "name_literal": "Dark Matter",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 3000,
+    "sell_price": 2250
+  },
+  {
+    "section": "2R",
+    "debug_no": 437,
+    "name": "Orihalcon",
+    "name_literal": "Orihalcon",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 4000,
+    "sell_price": 3000
+  },
+  {
+    "section": "2S",
+    "debug_no": 439,
+    "name": "Right Prong",
+    "name_literal": "Right Point of the Spear",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": false,
+    "effects": [],
+    "buy_price": null,
+    "sell_price": null
+  },
+  {
+    "section": "2S",
+    "debug_no": 440,
+    "name": "Left Prong",
+    "name_literal": "Left Point side of the Spear",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": false,
+    "effects": [],
+    "buy_price": null,
+    "sell_price": null
+  },
+  {
+    "section": "2S",
+    "debug_no": 441,
+    "name": "Center Prong",
+    "name_literal": "Middle Point of the Spear",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": false,
+    "effects": [],
+    "buy_price": null,
+    "sell_price": null
+  },
+  {
+    "section": "2T",
+    "debug_no": 443,
+    "name": "Mysterious Card",
+    "name_literal": "Mystery Card",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 333,
+    "sell_price": 249
+  },
+  {
+    "section": "2T",
+    "debug_no": 444,
+    "name": "Trainer's Whip",
+    "name_literal": "Whip of Hell",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 666,
+    "sell_price": 499
+  },
+  {
+    "section": "2T",
+    "debug_no": 445,
+    "name": "Tomegathericon",
+    "name_literal": "Necronomicon",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 999,
+    "sell_price": 749
+  },
+  {
+    "section": "2U",
+    "debug_no": 448,
+    "name": "Healing Fungus",
+    "name_literal": "Healing Mushroom",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 300,
+    "sell_price": 225
+  },
+  {
+    "section": "2U",
+    "debug_no": 449,
+    "name": "Laughing Fungus",
+    "name_literal": "Laughing Mushroom",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 700,
+    "sell_price": 525
+  },
+  {
+    "section": "2U",
+    "debug_no": 451,
+    "name": "Dancing Idol",
+    "name_literal": "Dancing Doll",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 400,
+    "sell_price": 300
+  },
+  {
+    "section": "2U",
+    "debug_no": 452,
+    "name": "Pretty Stone",
+    "name_literal": "Pretty Stone",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 300,
+    "sell_price": 225
+  },
+  {
+    "section": "2U",
+    "debug_no": 453,
+    "name": "Red Cloth",
+    "name_literal": "Red Cloth",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 120,
+    "sell_price": 90
+  },
+  {
+    "section": "2U",
+    "debug_no": 454,
+    "name": "Milk",
+    "name_literal": "Milk",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 90,
+    "sell_price": 67
+  },
+  {
+    "section": "2U",
+    "debug_no": 455,
+    "name": "Li'l Turtle",
+    "name_literal": "Little Turtle",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 500,
+    "sell_price": 375
+  },
+  {
+    "section": "2U",
+    "debug_no": 456,
+    "name": "Aquarius Stone",
+    "name_literal": "Stone of Aquarius",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": false,
+    "effects": [],
+    "buy_price": null,
+    "sell_price": null
+  },
+  {
+    "section": "2U",
+    "debug_no": 457,
+    "name": "Large Bread",
+    "name_literal": "Big Bread",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 8,
+    "sell_price": 6
+  },
+  {
+    "section": "2U",
+    "debug_no": 458,
+    "name": "Sea God's Tear",
+    "name_literal": "Water Drop of the Sea God",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 300,
+    "sell_price": 225
+  },
+  {
+    "section": "2U",
+    "debug_no": 459,
+    "name": "Ruin Key",
+    "name_literal": "Key of the Ruins",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 230,
+    "sell_price": 172
+  },
+  {
+    "section": "2U",
+    "debug_no": 460,
+    "name": "Magma Ball",
+    "name_literal": "Magma Ball",
+    "stat_bonus": {
+      "atk": 0,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "unleash_name": null,
+    "unleash_name_literal": null,
+    "is_cursed": false,
+    "may_break": false,
+    "increases_critical": false,
+    "can_trade": true,
+    "effects": [],
+    "buy_price": 800,
+    "sell_price": 600
+  }
+]

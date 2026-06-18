@@ -1,0 +1,482 @@
+[
+  {
+    "id": "tear-stone",
+    "name": "Tear Stone",
+    "game": "gs2",
+    "name_literal": "Tear Stone",
+    "item_type": "material",
+    "effect": {
+      "description": null,
+      "target": null,
+      "stat_boosted": null
+    },
+    "usable_in_battle": null,
+    "debug_no": 429,
+    "buy_price": 300,
+    "sell_price": 225,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "star-dust",
+    "name": "Star Dust",
+    "game": "gs2",
+    "name_literal": "Stardust",
+    "item_type": "material",
+    "effect": {
+      "description": null,
+      "target": null,
+      "stat_boosted": null
+    },
+    "usable_in_battle": null,
+    "debug_no": 430,
+    "buy_price": 400,
+    "sell_price": 300,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "sylph-feather",
+    "name": "Sylph Feather",
+    "game": "gs2",
+    "name_literal": "Sylph's Feather",
+    "item_type": "material",
+    "effect": {
+      "description": null,
+      "target": null,
+      "stat_boosted": null
+    },
+    "usable_in_battle": null,
+    "debug_no": 431,
+    "buy_price": 700,
+    "sell_price": 525,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "dragon-skin",
+    "name": "Dragon Skin",
+    "game": "gs2",
+    "name_literal": "Dragon Skin",
+    "item_type": "material",
+    "effect": {
+      "description": null,
+      "target": null,
+      "stat_boosted": null
+    },
+    "usable_in_battle": null,
+    "debug_no": 432,
+    "buy_price": 1200,
+    "sell_price": 900,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "salamander-tail",
+    "name": "Salamander Tail",
+    "game": "gs2",
+    "name_literal": "Salamander's Tail",
+    "item_type": "material",
+    "effect": {
+      "description": null,
+      "target": null,
+      "stat_boosted": null
+    },
+    "usable_in_battle": null,
+    "debug_no": 433,
+    "buy_price": 1400,
+    "sell_price": 1050,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "golem-core",
+    "name": "Golem Core",
+    "game": "gs2",
+    "name_literal": "Golem Core",
+    "item_type": "material",
+    "effect": {
+      "description": null,
+      "target": null,
+      "stat_boosted": null
+    },
+    "usable_in_battle": null,
+    "debug_no": 434,
+    "buy_price": 1500,
+    "sell_price": 1125,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "mythril-silver",
+    "name": "Mythril Silver",
+    "game": "gs2",
+    "name_literal": "Mithril Silver",
+    "item_type": "material",
+    "effect": {
+      "description": null,
+      "target": null,
+      "stat_boosted": null
+    },
+    "usable_in_battle": null,
+    "debug_no": 435,
+    "buy_price": 2000,
+    "sell_price": 1500,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "dark-matter",
+    "name": "Dark Matter",
+    "game": "gs2",
+    "name_literal": "Dark Matter",
+    "item_type": "material",
+    "effect": {
+      "description": null,
+      "target": null,
+      "stat_boosted": null
+    },
+    "usable_in_battle": null,
+    "debug_no": 436,
+    "buy_price": 3000,
+    "sell_price": 2250,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "orihalcon",
+    "name": "Orihalcon",
+    "game": "gs2",
+    "name_literal": "Orihalcon",
+    "item_type": "material",
+    "effect": {
+      "description": null,
+      "target": null,
+      "stat_boosted": null
+    },
+    "usable_in_battle": null,
+    "debug_no": 437,
+    "buy_price": 4000,
+    "sell_price": 3000,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "right-prong",
+    "name": "Right Prong",
+    "game": "gs2",
+    "name_literal": "Right Point of the Spear",
+    "item_type": "key",
+    "effect": {
+      "description": null,
+      "target": null,
+      "stat_boosted": null
+    },
+    "usable_in_battle": null,
+    "debug_no": 439,
+    "buy_price": null,
+    "sell_price": null,
+    "can_trade": false,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "left-prong",
+    "name": "Left Prong",
+    "game": "gs2",
+    "name_literal": "Left Point side of the Spear",
+    "item_type": "key",
+    "effect": {
+      "description": null,
+      "target": null,
+      "stat_boosted": null
+    },
+    "usable_in_battle": null,
+    "debug_no": 440,
+    "buy_price": null,
+    "sell_price": null,
+    "can_trade": false,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "center-prong",
+    "name": "Center Prong",
+    "game": "gs2",
+    "name_literal": "Middle Point of the Spear",
+    "item_type": "key",
+    "effect": {
+      "description": null,
+      "target": null,
+      "stat_boosted": null
+    },
+    "usable_in_battle": null,
+    "debug_no": 441,
+    "buy_price": null,
+    "sell_price": null,
+    "can_trade": false,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "healing-fungus",
+    "name": "Healing Fungus",
+    "game": "gs2",
+    "name_literal": "Healing Mushroom",
+    "item_type": "consumable",
+    "effect": {
+      "description": null,
+      "target": null,
+      "stat_boosted": null
+    },
+    "usable_in_battle": null,
+    "debug_no": 448,
+    "buy_price": 300,
+    "sell_price": 225,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "laughing-fungus",
+    "name": "Laughing Fungus",
+    "game": "gs2",
+    "name_literal": "Laughing Mushroom",
+    "item_type": "consumable",
+    "effect": {
+      "description": null,
+      "target": null,
+      "stat_boosted": null
+    },
+    "usable_in_battle": null,
+    "debug_no": 449,
+    "buy_price": 700,
+    "sell_price": 525,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "dancing-idol",
+    "name": "Dancing Idol",
+    "game": "gs2",
+    "name_literal": "Dancing Doll",
+    "item_type": "material",
+    "effect": {
+      "description": null,
+      "target": null,
+      "stat_boosted": null
+    },
+    "usable_in_battle": null,
+    "debug_no": 451,
+    "buy_price": 400,
+    "sell_price": 300,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "pretty-stone",
+    "name": "Pretty Stone",
+    "game": "gs2",
+    "name_literal": "Pretty Stone",
+    "item_type": "material",
+    "effect": {
+      "description": null,
+      "target": null,
+      "stat_boosted": null
+    },
+    "usable_in_battle": null,
+    "debug_no": 452,
+    "buy_price": 300,
+    "sell_price": 225,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "red-cloth",
+    "name": "Red Cloth",
+    "game": "gs2",
+    "name_literal": "Red Cloth",
+    "item_type": "material",
+    "effect": {
+      "description": null,
+      "target": null,
+      "stat_boosted": null
+    },
+    "usable_in_battle": null,
+    "debug_no": 453,
+    "buy_price": 120,
+    "sell_price": 90,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "milk",
+    "name": "Milk",
+    "game": "gs2",
+    "name_literal": "Milk",
+    "item_type": "consumable",
+    "effect": {
+      "description": null,
+      "target": null,
+      "stat_boosted": null
+    },
+    "usable_in_battle": null,
+    "debug_no": 454,
+    "buy_price": 90,
+    "sell_price": 67,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "li-l-turtle",
+    "name": "Li'l Turtle",
+    "game": "gs2",
+    "name_literal": "Little Turtle",
+    "item_type": "consumable",
+    "effect": {
+      "description": null,
+      "target": null,
+      "stat_boosted": null
+    },
+    "usable_in_battle": null,
+    "debug_no": 455,
+    "buy_price": 500,
+    "sell_price": 375,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "aquarius-stone",
+    "name": "Aquarius Stone",
+    "game": "gs2",
+    "name_literal": "Stone of Aquarius",
+    "item_type": "key",
+    "effect": {
+      "description": null,
+      "target": null,
+      "stat_boosted": null
+    },
+    "usable_in_battle": null,
+    "debug_no": 456,
+    "buy_price": null,
+    "sell_price": null,
+    "can_trade": false,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "large-bread",
+    "name": "Large Bread",
+    "game": "gs2",
+    "name_literal": "Big Bread",
+    "item_type": "consumable",
+    "effect": {
+      "description": null,
+      "target": null,
+      "stat_boosted": null
+    },
+    "usable_in_battle": null,
+    "debug_no": 457,
+    "buy_price": 8,
+    "sell_price": 6,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "sea-god-s-tear",
+    "name": "Sea God's Tear",
+    "game": "gs2",
+    "name_literal": "Water Drop of the Sea God",
+    "item_type": "material",
+    "effect": {
+      "description": null,
+      "target": null,
+      "stat_boosted": null
+    },
+    "usable_in_battle": null,
+    "debug_no": 458,
+    "buy_price": 300,
+    "sell_price": 225,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "ruin-key",
+    "name": "Ruin Key",
+    "game": "gs2",
+    "name_literal": "Key of the Ruins",
+    "item_type": "key",
+    "effect": {
+      "description": null,
+      "target": null,
+      "stat_boosted": null
+    },
+    "usable_in_battle": null,
+    "debug_no": 459,
+    "buy_price": 230,
+    "sell_price": 172,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "magma-ball",
+    "name": "Magma Ball",
+    "game": "gs2",
+    "name_literal": "Magma Ball",
+    "item_type": "key",
+    "effect": {
+      "description": null,
+      "target": null,
+      "stat_boosted": null
+    },
+    "usable_in_battle": null,
+    "debug_no": 460,
+    "buy_price": 800,
+    "sell_price": 600,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  }
+]

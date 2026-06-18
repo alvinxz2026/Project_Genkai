@@ -1,0 +1,1664 @@
+[
+  {
+    "id": "chestbeater",
+    "name": "Chestbeater",
+    "game": "gs2",
+    "is_optional": false,
+    "is_superboss": false,
+    "encounters": [
+      {
+        "form_id": "chestbeater",
+        "location": "Kandorean Temple",
+        "stats": {
+          "hp": 155,
+          "pp": 0,
+          "hp_regen": 0,
+          "pp_regen": 0,
+          "atk": 44,
+          "def": 11,
+          "agi": 20,
+          "lck": 24,
+          "turns": 1
+        },
+        "elemental_power": {
+          "earth": 100,
+          "water": 80,
+          "fire": 70,
+          "wind": 80
+        },
+        "elemental_resistance": {
+          "earth": 48,
+          "water": 48,
+          "fire": 25,
+          "wind": 72
+        },
+        "attacks": [
+          {
+            "name": "Attack",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Claw Attack",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Beat Dance",
+            "source": "torrentlord"
+          }
+        ],
+        "rewards": {
+          "exp": 40,
+          "coins": 28,
+          "items": [
+            "Nut"
+          ]
+        }
+      }
+    ],
+    "weakness": [
+      "fire"
+    ],
+    "recommended_level": 6,
+    "strategy": "First boss, three Chestbeaters at once inside Kandorean Temple. Focus Fume on one at a time to drop them faster. They carry Herbs and heal each other until the Herbs run out. Keep HP topped with Cure.",
+    "special_mechanics": [
+      "uses Herbs to heal each other",
+      "resistant to wind"
+    ],
+    "special_notes": "Fought as three Chestbeaters at once (x3).",
+    "sources": [
+      "link-kirby-boss",
+      "torrentlord"
+    ]
+  },
+  {
+    "id": "king-scorpion",
+    "name": "King Scorpion",
+    "game": "gs2",
+    "is_optional": false,
+    "is_superboss": false,
+    "encounters": [
+      {
+        "form_id": "king-scorpion",
+        "location": "Yampi Desert",
+        "stats": {
+          "hp": 1064,
+          "pp": 0,
+          "hp_regen": 0,
+          "pp_regen": 0,
+          "atk": 101,
+          "def": 32,
+          "agi": 39,
+          "lck": 40,
+          "turns": 1
+        },
+        "elemental_power": {
+          "earth": 95,
+          "water": 85,
+          "fire": 90,
+          "wind": 85
+        },
+        "elemental_resistance": {
+          "earth": 72,
+          "water": 72,
+          "fire": 48,
+          "wind": 100
+        },
+        "attacks": [
+          {
+            "name": "Attack",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Defend",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Poison Tail",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Sand Breath",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Desert Gasp",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Twin Shear",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Paralytail",
+            "source": "torrentlord"
+          }
+        ],
+        "rewards": {
+          "exp": 440,
+          "coins": 228,
+          "items": [
+            "Vial"
+          ]
+        }
+      }
+    ],
+    "weakness": [
+      "fire"
+    ],
+    "recommended_level": 10,
+    "strategy": "Yampi Desert boss. Buff defense with Iron and attack power with Impact; his Desert Gasp lowers your defense and Twin Shear then hits low-defense characters hard. Maxed Iron defense reduces his physicals to almost nothing.",
+    "special_mechanics": [
+      "Desert Gasp lowers party defense",
+      "Twin Shear punishes low defense",
+      "Paralytail may paralyze",
+      "resistant to wind"
+    ],
+    "special_notes": null,
+    "sources": [
+      "link-kirby-boss",
+      "torrentlord"
+    ]
+  },
+  {
+    "id": "briggs",
+    "name": "Briggs",
+    "game": "gs2",
+    "is_optional": false,
+    "is_superboss": false,
+    "encounters": [
+      {
+        "form_id": "briggs",
+        "location": "Eastern Alhafra",
+        "stats": {
+          "hp": 984,
+          "pp": 0,
+          "hp_regen": 0,
+          "pp_regen": 0,
+          "atk": 129,
+          "def": 29,
+          "agi": 76,
+          "lck": 42,
+          "turns": 1
+        },
+        "elemental_power": {
+          "earth": 100,
+          "water": 100,
+          "fire": 100,
+          "wind": 100
+        },
+        "elemental_resistance": {
+          "earth": 100,
+          "water": 100,
+          "fire": 100,
+          "wind": 100
+        },
+        "attacks": [
+          {
+            "name": "Attack",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Defend",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Echo Cut",
+            "source": "torrentlord"
+          }
+        ],
+        "rewards": {
+          "exp": 333,
+          "coins": 891,
+          "items": [
+            "Vial"
+          ]
+        }
+      }
+    ],
+    "weakness": [],
+    "recommended_level": 13,
+    "strategy": "Eastern Alhafra. Briggs himself defends and lets his two Sea Fighters attack; he calls in more (up to four total) with a Signal Whistle as they fall. Put the Sea Fighters to Sleep. Watch his Oil Drops (~80 damage to target, ~50 to others). Once his backups are gone he is easy.",
+    "special_mechanics": [
+      "calls reinforcements via Signal Whistle (4 max)",
+      "Oil Drops hit whole party",
+      "fought with two Sea Fighters"
+    ],
+    "special_notes": "Fought alongside two Sea Fighters.",
+    "sources": [
+      "link-kirby-boss",
+      "torrentlord"
+    ]
+  },
+  {
+    "id": "sea-fighter",
+    "name": "Sea Fighter",
+    "game": "gs2",
+    "is_optional": false,
+    "is_superboss": false,
+    "encounters": [
+      {
+        "form_id": "sea-fighter",
+        "location": "Eastern Alhafra",
+        "stats": {
+          "hp": 197,
+          "pp": 0,
+          "hp_regen": 0,
+          "pp_regen": 0,
+          "atk": 119,
+          "def": 28,
+          "agi": 61,
+          "lck": 26,
+          "turns": 1
+        },
+        "elemental_power": {
+          "earth": 100,
+          "water": 100,
+          "fire": 100,
+          "wind": 100
+        },
+        "elemental_resistance": {
+          "earth": 100,
+          "water": 100,
+          "fire": 100,
+          "wind": 100
+        },
+        "attacks": [
+          {
+            "name": "Attack",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Echo Cut",
+            "source": "torrentlord"
+          }
+        ],
+        "rewards": {
+          "exp": 89,
+          "coins": 130,
+          "items": []
+        }
+      }
+    ],
+    "weakness": [],
+    "recommended_level": 13,
+    "strategy": "Briggs' escorts (two appear, more summoned). They can be put to Sleep and, with maxed Iron defense, their physical attacks do only 1-4 damage. Kill them off to leave Briggs defenseless.",
+    "special_mechanics": [
+      "can be put to sleep",
+      "summoned as Briggs' reinforcements"
+    ],
+    "special_notes": "Two appear as Briggs' escorts.",
+    "sources": [
+      "link-kirby-boss",
+      "torrentlord"
+    ]
+  },
+  {
+    "id": "aqua-hydra",
+    "name": "Aqua Hydra",
+    "game": "gs2",
+    "is_optional": false,
+    "is_superboss": false,
+    "encounters": [
+      {
+        "form_id": "aqua-hydra",
+        "location": "Lemurian Ship",
+        "stats": {
+          "hp": 2776,
+          "pp": 70,
+          "hp_regen": 0,
+          "pp_regen": 0,
+          "atk": 173,
+          "def": 38,
+          "agi": 63,
+          "lck": 44,
+          "turns": 1
+        },
+        "elemental_power": {
+          "earth": 95,
+          "water": 115,
+          "fire": 85,
+          "wind": 95
+        },
+        "elemental_resistance": {
+          "earth": 100,
+          "water": 175,
+          "fire": 25,
+          "wind": 100
+        },
+        "attacks": [
+          {
+            "name": "Attack",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Drench",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Triple Chomp",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Raging Flood",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Rising Venom",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Slaver",
+            "source": "torrentlord"
+          }
+        ],
+        "rewards": {
+          "exp": 963,
+          "coins": 1612,
+          "items": [
+            "Vial"
+          ]
+        }
+      }
+    ],
+    "weakness": [
+      "fire"
+    ],
+    "recommended_level": 19,
+    "strategy": "A mass of jellyfish aboard Piers' ship. Boost Felix/Jenna attack with Impact and pour Djinn unleashes/summons into it. Its only real group attack is Raging Flood; keep one healer (Piers) and save PP.",
+    "special_mechanics": [
+      "Raging Flood is its main group attack"
+    ],
+    "special_notes": null,
+    "sources": [
+      "link-kirby-boss",
+      "torrentlord"
+    ]
+  },
+  {
+    "id": "serpent",
+    "name": "Serpent",
+    "game": "gs2",
+    "is_optional": false,
+    "is_superboss": false,
+    "encounters": [
+      {
+        "form_id": "serpent",
+        "location": "Gaia Rock",
+        "stats": {
+          "hp": 3536,
+          "pp": 160,
+          "hp_regen": 2430,
+          "pp_regen": 0,
+          "atk": 249,
+          "def": 76,
+          "agi": 135,
+          "lck": 46,
+          "turns": 3
+        },
+        "elemental_power": {
+          "earth": 110,
+          "water": 95,
+          "fire": 95,
+          "wind": 90
+        },
+        "elemental_resistance": {
+          "earth": 152,
+          "water": 100,
+          "fire": 100,
+          "wind": 48
+        },
+        "attacks": [
+          {
+            "name": "Attack",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Quake Sphere",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Briar",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Cure Well",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Black Ice",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Toxic Breath",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Mighty Press",
+            "source": "torrentlord"
+          }
+        ],
+        "rewards": {
+          "exp": 1995,
+          "coins": 2898,
+          "items": []
+        }
+      }
+    ],
+    "weakness": [
+      "wind"
+    ],
+    "recommended_level": 23,
+    "strategy": "Gaia Rock. Activate all four lights before the fight or it regenerates a huge amount of HP each turn; with all four lit it recovers only ~30 HP/turn. It acts twice per turn and can self-heal with Cure Well. Carry Antidotes for Toxic Breath; its Mighty Press can instantly down a character.",
+    "special_mechanics": [
+      "acts twice per turn",
+      "massive HP regen unless all four lights are lit (then ~30 HP/turn)",
+      "Cure Well self-heal",
+      "Toxic Breath poisons",
+      "Mighty Press can instakill one character",
+      "resistant to earth"
+    ],
+    "special_notes": null,
+    "sources": [
+      "link-kirby-boss",
+      "torrentlord"
+    ]
+  },
+  {
+    "id": "avimander",
+    "name": "Avimander",
+    "game": "gs2",
+    "is_optional": false,
+    "is_superboss": false,
+    "encounters": [
+      {
+        "form_id": "avimander",
+        "location": "Champa",
+        "stats": {
+          "hp": 3792,
+          "pp": 87,
+          "hp_regen": 0,
+          "pp_regen": 0,
+          "atk": 281,
+          "def": 89,
+          "agi": 94,
+          "lck": 41,
+          "turns": 2
+        },
+        "elemental_power": {
+          "earth": 95,
+          "water": 85,
+          "fire": 115,
+          "wind": 95
+        },
+        "elemental_resistance": {
+          "earth": 100,
+          "water": 25,
+          "fire": 175,
+          "wind": 100
+        },
+        "attacks": [
+          {
+            "name": "Attack",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Fiery Blast",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Guard",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Impair",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Fire Breath",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Star Mine",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Heat Stun",
+            "source": "torrentlord"
+          }
+        ],
+        "rewards": {
+          "exp": 2176,
+          "coins": 1330,
+          "items": [
+            "Potion"
+          ]
+        }
+      }
+    ],
+    "weakness": [],
+    "recommended_level": 28,
+    "strategy": "Summoned by Briggs' grandmother in Champa. Since it resists fire, use Jenna as healer. Max Impact to power Odyssey/Diamond Berg. Watch Star Mine (worst group attack) and Heat Stun.",
+    "special_mechanics": [
+      "Star Mine is its strongest group attack",
+      "Heat Stun can stun characters",
+      "resistant to fire"
+    ],
+    "special_notes": null,
+    "sources": [
+      "link-kirby-boss",
+      "torrentlord"
+    ]
+  },
+  {
+    "id": "poseidon",
+    "name": "Poseidon",
+    "game": "gs2",
+    "is_optional": false,
+    "is_superboss": false,
+    "encounters": [
+      {
+        "form_id": "poseidon",
+        "location": "Sea of Time",
+        "stats": {
+          "hp": 4905,
+          "pp": 162,
+          "hp_regen": 0,
+          "pp_regen": 0,
+          "atk": 302,
+          "def": 100,
+          "agi": 185,
+          "lck": 47,
+          "turns": 2
+        },
+        "elemental_power": {
+          "earth": 95,
+          "water": 115,
+          "fire": 85,
+          "wind": 95
+        },
+        "elemental_resistance": {
+          "earth": 100,
+          "water": 175,
+          "fire": 25,
+          "wind": 100
+        },
+        "attacks": [
+          {
+            "name": "Attack",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Ice Missile",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Deluge",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Ply Well",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Typhoon Blow",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Ocean Fist",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Watery Grave",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Counter-rush",
+            "source": "torrentlord"
+          }
+        ],
+        "rewards": {
+          "exp": 2930,
+          "coins": 3762,
+          "items": [
+            "Psy Crystal"
+          ]
+        }
+      }
+    ],
+    "weakness": [
+      "fire"
+    ],
+    "recommended_level": 28,
+    "strategy": "Sea of Time. The forged Trident is mandatory: it breaks Poseidon's forcefield so you can damage him at all. Jenna's fire is his weakness, so keep her attacking with Serpent Fume and protect her from being downed (it resets her boosted Fire Power). Watery Grave can instant-down characters and Ocean Fist can cut one to 1 HP.",
+    "special_mechanics": [
+      "requires the Trident to break his forcefield and deal damage",
+      "Watery Grave can instantly down characters",
+      "Ocean Fist can reduce HP to 1",
+      "Counter-rush retaliates"
+    ],
+    "special_notes": null,
+    "sources": [
+      "link-kirby-boss",
+      "torrentlord"
+    ]
+  },
+  {
+    "id": "moapa",
+    "name": "Moapa",
+    "game": "gs2",
+    "is_optional": false,
+    "is_superboss": false,
+    "encounters": [
+      {
+        "form_id": "moapa",
+        "location": "Trial Road (Top)",
+        "stats": {
+          "hp": 3042,
+          "pp": 0,
+          "hp_regen": 0,
+          "pp_regen": 0,
+          "atk": 354,
+          "def": 120,
+          "agi": 181,
+          "lck": 40,
+          "turns": 1
+        },
+        "elemental_power": {
+          "earth": 100,
+          "water": 100,
+          "fire": 100,
+          "wind": 100
+        },
+        "elemental_resistance": {
+          "earth": 100,
+          "water": 100,
+          "fire": 100,
+          "wind": 100
+        },
+        "attacks": [
+          {
+            "name": "Attack",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Bosca Hit",
+            "source": "torrentlord"
+          }
+        ],
+        "rewards": {
+          "exp": 1670,
+          "coins": 2460,
+          "items": []
+        }
+      }
+    ],
+    "weakness": [
+      "earth",
+      "fire",
+      "wind",
+      "water"
+    ],
+    "recommended_level": 30,
+    "strategy": "Reached after the Trial Road race at Shaman Village (don't let Moapa beat you to the top). Weak to every element, so all Psynergy lands. Keep Protect up against his physicals and Bosca Hit; Bramble Seeds do 200+ damage to him.",
+    "special_mechanics": [
+      "weak to all elements",
+      "Bosca Hit strong physical",
+      "fought with two Knights"
+    ],
+    "special_notes": "Fought alongside two Knights.",
+    "sources": [
+      "link-kirby-boss",
+      "torrentlord"
+    ]
+  },
+  {
+    "id": "knight",
+    "name": "Knight",
+    "game": "gs2",
+    "is_optional": false,
+    "is_superboss": false,
+    "encounters": [
+      {
+        "form_id": "knight",
+        "location": "Trial Road (Top)",
+        "stats": {
+          "hp": 1954,
+          "pp": 0,
+          "hp_regen": 0,
+          "pp_regen": 0,
+          "atk": 321,
+          "def": 106,
+          "agi": 143,
+          "lck": 36,
+          "turns": 1
+        },
+        "elemental_power": {
+          "earth": 100,
+          "water": 100,
+          "fire": 100,
+          "wind": 100
+        },
+        "elemental_resistance": {
+          "earth": 100,
+          "water": 100,
+          "fire": 100,
+          "wind": 100
+        },
+        "attacks": [
+          {
+            "name": "Attack",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Strong Hit",
+            "source": "torrentlord"
+          }
+        ],
+        "rewards": {
+          "exp": 835,
+          "coins": 205,
+          "items": []
+        }
+      }
+    ],
+    "weakness": [],
+    "recommended_level": 30,
+    "strategy": "Two Knights fight as Moapa's escorts. Use Protect to blunt their Strong Hit physicals and clear them while keeping Moapa controlled.",
+    "special_mechanics": [
+      "Strong Hit physical attack",
+      "two appear as Moapa's escorts"
+    ],
+    "special_notes": "Two appear as Moapa's escorts.",
+    "sources": [
+      "link-kirby-boss",
+      "torrentlord"
+    ]
+  },
+  {
+    "id": "agatio",
+    "name": "Agatio",
+    "game": "gs2",
+    "is_optional": false,
+    "is_superboss": false,
+    "encounters": [
+      {
+        "form_id": "agatio",
+        "location": "Jupiter Lighthouse",
+        "stats": {
+          "hp": 4320,
+          "pp": 280,
+          "hp_regen": 0,
+          "pp_regen": 0,
+          "atk": 453,
+          "def": 167,
+          "agi": 378,
+          "lck": 46,
+          "turns": 1
+        },
+        "elemental_power": {
+          "earth": 100,
+          "water": 90,
+          "fire": 110,
+          "wind": 100
+        },
+        "elemental_resistance": {
+          "earth": 100,
+          "water": 72,
+          "fire": 175,
+          "wind": 127
+        },
+        "attacks": [
+          {
+            "name": "Rising Dragon",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Attack",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Eruption",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Debilitate",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Rolling Flame",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Rising Dragon",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Meteor Blow",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Cage",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Stun Muscle",
+            "source": "torrentlord"
+          }
+        ],
+        "rewards": {
+          "exp": 3000,
+          "coins": 3740,
+          "items": []
+        }
+      }
+    ],
+    "weakness": [],
+    "recommended_level": 32,
+    "strategy": "Jupiter Lighthouse, fought together with Karst. You start with only Felix and Piers; the backup party arrives on turn 3, so survive until then. Agatio hits hardest with Stun Muscle and Meteor Blow; Rising Dragon does ~250 to one character. Summon Boreas repeatedly once Sheba arrives.",
+    "special_mechanics": [
+      "battle starts with only half the party (backup arrives turn 3)",
+      "Stun Muscle and Meteor Blow are his strongest group attacks",
+      "fought alongside Karst"
+    ],
+    "special_notes": "Fought together with Karst at Jupiter Lighthouse. Stats vary by GS1-transfer party size — agatio-vs-all: HP 4248, Atk 377; agatio-vs-2-3: HP 4248, Atk 377.",
+    "sources": [
+      "link-kirby-boss",
+      "torrentlord"
+    ]
+  },
+  {
+    "id": "karst",
+    "name": "Karst",
+    "game": "gs2",
+    "is_optional": false,
+    "is_superboss": false,
+    "encounters": [
+      {
+        "form_id": "karst",
+        "location": "Jupiter Lighthouse",
+        "stats": {
+          "hp": 3240,
+          "pp": 320,
+          "hp_regen": 0,
+          "pp_regen": 0,
+          "atk": 426,
+          "def": 158,
+          "agi": 235,
+          "lck": 50,
+          "turns": 1
+        },
+        "elemental_power": {
+          "earth": 100,
+          "water": 95,
+          "fire": 105,
+          "wind": 100
+        },
+        "elemental_resistance": {
+          "earth": 127,
+          "water": 72,
+          "fire": 175,
+          "wind": 100
+        },
+        "attacks": [
+          {
+            "name": "Attack",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Fiery Blast",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Supernova",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Healing Aura",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Break",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Death Scythe",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Djinnfest",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Heat Kiss",
+            "source": "torrentlord"
+          }
+        ],
+        "rewards": {
+          "exp": 2813,
+          "coins": 5280,
+          "items": [
+            "Dark Matter"
+          ]
+        }
+      }
+    ],
+    "weakness": [],
+    "recommended_level": 32,
+    "strategy": "Jupiter Lighthouse, fought with Agatio. Target her first (about 1000 less HP). She is extremely fast, but a Hestia Blade halves her Agility. She has group healing, Djinnfest (sends one Djinni of each character into recovery) and Death Scythe.",
+    "special_mechanics": [
+      "very high agility (Hestia Blade halves it)",
+      "Djinnfest sends a Djinni of each character into recovery",
+      "Death Scythe",
+      "group healing",
+      "fought alongside Agatio"
+    ],
+    "special_notes": "Fought together with Agatio at Jupiter Lighthouse. Stats vary by GS1-transfer party size — karst-vs-all: HP 3186, Atk 354; karst-vs-2-3: HP 3186, Atk 354.",
+    "sources": [
+      "link-kirby-boss",
+      "torrentlord"
+    ]
+  },
+  {
+    "id": "flame-dragon",
+    "name": "Flame Dragon",
+    "game": "gs2",
+    "is_optional": false,
+    "is_superboss": false,
+    "encounters": [
+      {
+        "form_id": "flame-dragon-big",
+        "location": "Mars Lighthouse",
+        "stats": {
+          "hp": 5724,
+          "pp": 250,
+          "hp_regen": 0,
+          "pp_regen": 4,
+          "atk": 400,
+          "def": 137,
+          "agi": 158,
+          "lck": 48,
+          "turns": 1
+        },
+        "elemental_power": {
+          "earth": 95,
+          "water": 85,
+          "fire": 115,
+          "wind": 95
+        },
+        "elemental_resistance": {
+          "earth": 100,
+          "water": 25,
+          "fire": 175,
+          "wind": 100
+        },
+        "attacks": [
+          {
+            "name": "Attack",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Flame Breath",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Rolling Flame",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Rising Dragon",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Meteor Blow",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Cage",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Stun Muscle",
+            "source": "torrentlord"
+          }
+        ],
+        "rewards": {
+          "exp": 2502,
+          "coins": 1521,
+          "items": []
+        }
+      },
+      {
+        "form_id": "flame-dragon-small",
+        "location": "Mars Lighthouse",
+        "stats": {
+          "hp": 5348,
+          "pp": 320,
+          "hp_regen": 0,
+          "pp_regen": 4,
+          "atk": 389,
+          "def": 134,
+          "agi": 215,
+          "lck": 55,
+          "turns": 1
+        },
+        "elemental_power": {
+          "earth": 95,
+          "water": 85,
+          "fire": 115,
+          "wind": 95
+        },
+        "elemental_resistance": {
+          "earth": 100,
+          "water": 25,
+          "fire": 175,
+          "wind": 100
+        },
+        "attacks": [
+          {
+            "name": "Attack",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Fiery Blast",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Supernova",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Healing Aura",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Break",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Flame Breath",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Djinnfest",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Heat Kiss",
+            "source": "torrentlord"
+          }
+        ],
+        "rewards": {
+          "exp": 2502,
+          "coins": 1872,
+          "items": [
+            "Psy Crystal"
+          ]
+        }
+      }
+    ],
+    "weakness": [],
+    "recommended_level": 36,
+    "strategy": "Two Flame Dragons (Agatio & Karst transformed) encased in ice in Mars Lighthouse; Blaze the side heads and Burst the ice to start. Pick one and focus it. The larger (Flame Dragon 1) has stronger attacks including Meteor Blow; the smaller (Flame Dragon 2) has Djinnfest. Essentially the Agatio/Karst fight minus Death Scythe plus Flame Breath. Cool Aura heals.",
+    "special_mechanics": [
+      "two dragons fought at once (larger has stronger attacks, smaller has Djinnfest)",
+      "must Blaze + Burst the ice to begin",
+      "resistant to fire"
+    ],
+    "special_notes": "Two Flame Dragons (Agatio & Karst transformed) at Mars Lighthouse.",
+    "sources": [
+      "link-kirby-boss",
+      "torrentlord"
+    ]
+  },
+  {
+    "id": "doom-dragon",
+    "name": "Doom Dragon",
+    "game": "gs2",
+    "is_optional": false,
+    "is_superboss": false,
+    "encounters": [
+      {
+        "form_id": "doom-dragon",
+        "location": "Mars Lighthouse",
+        "stats": {
+          "hp": 5000,
+          "pp": 500,
+          "hp_regen": 0,
+          "pp_regen": 0,
+          "atk": 470,
+          "def": 155,
+          "agi": 200,
+          "lck": 50,
+          "turns": 4
+        },
+        "elemental_power": {
+          "earth": 110,
+          "water": 100,
+          "fire": 105,
+          "wind": 95
+        },
+        "elemental_resistance": {
+          "earth": 190,
+          "water": 130,
+          "fire": 175,
+          "wind": 98
+        },
+        "attacks": [
+          {
+            "name": "Defend",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Earthquake",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Quake Sphere",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Thorn",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Flare Storm",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Fiery Blast",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Cure",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Haunt",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Curse",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Blast Breath",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Gravel Blow",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Djinn Blast",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Earth Force",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Psy Boost",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Pressure",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Spire",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Clay Spire",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Briar",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Inferno",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Serpent Fume",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Haunt",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Curse",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Desert Gasp",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Blast Breath",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Djinn Blast",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Earth Force",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Guard Aura",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Cruel Ruin",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Stone Spire",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Nettle",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Darksol Gasp",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Djinn Storm",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Earth Force",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Guard Aura",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Cruel Ruin",
+            "source": "torrentlord"
+          }
+        ],
+        "rewards": {
+          "exp": 0,
+          "coins": 0,
+          "items": []
+        }
+      }
+    ],
+    "weakness": [
+      "wind"
+    ],
+    "recommended_level": 40,
+    "strategy": "Final boss, fought with two full teams of four. Its ~14,400 HP is split unevenly across three heads; felling a head ends the turn (like Lull). The first head is weak, the second tougher (Blast Breath, Gravel Blow, Cruel Ruin), and the third uses Guard Aura (90% damage reduction), Cruel Ruin every other attack, and Djinn Storm. Keep Shade/Flash/Granite/Lull cycling.",
+    "special_mechanics": [
+      "~14,400 total HP split unevenly across three heads",
+      "felling a head ends the turn",
+      "third head's Guard Aura reduces damage 90%",
+      "Djinn Storm sends all front-party Djinn into recovery",
+      "Cruel Ruin hits target and neighbors",
+      "resistant to earth and fire"
+    ],
+    "special_notes": "Final boss; three heads / multiple HP phases (5000 / 4200 / 4000).",
+    "sources": [
+      "link-kirby-boss",
+      "torrentlord"
+    ]
+  },
+  {
+    "id": "valukar",
+    "name": "Valukar",
+    "game": "gs2",
+    "is_optional": true,
+    "is_superboss": true,
+    "encounters": [
+      {
+        "form_id": "valukar",
+        "location": "Yampi Desert Cave",
+        "stats": {
+          "hp": 12960,
+          "pp": 0,
+          "hp_regen": 0,
+          "pp_regen": 0,
+          "atk": 550,
+          "def": 175,
+          "agi": 206,
+          "lck": 46,
+          "turns": 2
+        },
+        "elemental_power": {
+          "earth": 95,
+          "water": 85,
+          "fire": 105,
+          "wind": 95
+        },
+        "elemental_resistance": {
+          "earth": 100,
+          "water": 60,
+          "fire": 175,
+          "wind": 100
+        },
+        "attacks": [
+          {
+            "name": "Attack",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Stun Jip",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Djinn Stun",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Crucible",
+            "source": "torrentlord"
+          }
+        ],
+        "rewards": {
+          "exp": 8702,
+          "coins": 4980,
+          "items": []
+        }
+      }
+    ],
+    "weakness": [],
+    "recommended_level": 38,
+    "strategy": "Yampi Desert Cave guardian. His Stun Jip is a strong physical that usually stuns; carry Elixirs. Djinn Stun sets your own Djinn and lets him summon them against you, so avoid bringing Mercury Adepts and out-summon him with fast casters before he can. Drops the Daedalus summon.",
+    "special_mechanics": [
+      "Stun Jip strong physical that stuns",
+      "Djinn Stun sets your Djinn and summons them against you",
+      "rewards the Daedalus summon tablet"
+    ],
+    "special_notes": null,
+    "sources": [
+      "link-kirby-boss",
+      "torrentlord"
+    ]
+  },
+  {
+    "id": "star-magician",
+    "name": "Star Magician",
+    "game": "gs2",
+    "is_optional": true,
+    "is_superboss": true,
+    "encounters": [
+      {
+        "form_id": "star-magician",
+        "location": "Treasure Isle",
+        "stats": {
+          "hp": 7486,
+          "pp": 560,
+          "hp_regen": 0,
+          "pp_regen": 0,
+          "atk": 460,
+          "def": 139,
+          "agi": 268,
+          "lck": 52,
+          "turns": 2
+        },
+        "elemental_power": {
+          "earth": 90,
+          "water": 105,
+          "fire": 85,
+          "wind": 95
+        },
+        "elemental_resistance": {
+          "earth": 130,
+          "water": 180,
+          "fire": 72,
+          "wind": 150
+        },
+        "attacks": [
+          {
+            "name": "Attack",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Megacool",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Spark Plasma",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Mystic Call",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Mine Ball",
+            "source": "torrentlord"
+          }
+        ],
+        "rewards": {
+          "exp": 7866,
+          "coins": 5566,
+          "items": []
+        }
+      }
+    ],
+    "weakness": [
+      "earth"
+    ],
+    "recommended_level": 35,
+    "strategy": "Treasure Isle summon-tablet guardian. He continually summons Balls: kill Refresh Balls first (they heal him 1000+ with Earnest Ply), then Guardian Balls (Guard Aura, 90% reduction); ignore Thunder Balls (Resist neutralizes them) and Anger Balls (they self-destruct). With the Balls cleared, summon Judgment. Watch Spark Plasma, Megacool and Mine Ball. Drops the Azul summon.",
+    "special_mechanics": [
+      "summons Refresh/Guardian/Thunder/Anger Balls",
+      "Refresh Balls heal him 1000+ HP (top priority)",
+      "Guardian Balls reduce his damage taken 90%",
+      "rewards the Azul summon tablet"
+    ],
+    "special_notes": null,
+    "sources": [
+      "link-kirby-boss",
+      "torrentlord"
+    ]
+  },
+  {
+    "id": "sentinel",
+    "name": "Sentinel",
+    "game": "gs2",
+    "is_optional": true,
+    "is_superboss": true,
+    "encounters": [
+      {
+        "form_id": "sentinel",
+        "location": "Islet Cave (Teleport Area)",
+        "stats": {
+          "hp": 8736,
+          "pp": 780,
+          "hp_regen": 200,
+          "pp_regen": 30,
+          "atk": 608,
+          "def": 216,
+          "agi": 171,
+          "lck": 54,
+          "turns": 3
+        },
+        "elemental_power": {
+          "earth": 100,
+          "water": 130,
+          "fire": 120,
+          "wind": 110
+        },
+        "elemental_resistance": {
+          "earth": 72,
+          "water": 193,
+          "fire": 127,
+          "wind": 152
+        },
+        "attacks": [
+          {
+            "name": "Attack",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Searing Beam",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Blue Bolt",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Destruct Ray",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Spark Plasma",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Guard",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Break",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Armor Crush",
+            "source": "torrentlord"
+          }
+        ],
+        "rewards": {
+          "exp": 10538,
+          "coins": 6144,
+          "items": []
+        }
+      }
+    ],
+    "weakness": [
+      "earth"
+    ],
+    "recommended_level": 38,
+    "strategy": "Islet Cave guardian. Immune to ALL Psynergy including Break, casts Guard on itself to negate physicals, and recovers 200 HP/turn — so only summons damage it. It spams Break and Armor Crush to wreck your stats; cycle Corona/Flash and summon Haures then Judgment. Drops the Catastrophe summon.",
+    "special_mechanics": [
+      "immune to all Psynergy (including Break)",
+      "Guard negates physical attacks",
+      "recovers 200 HP per turn",
+      "only summons deal real damage",
+      "Armor Crush shreds defense",
+      "rewards the Catastrophe summon tablet"
+    ],
+    "special_notes": null,
+    "sources": [
+      "link-kirby-boss",
+      "torrentlord"
+    ]
+  },
+  {
+    "id": "dullahan",
+    "name": "Dullahan",
+    "game": "gs2",
+    "is_optional": true,
+    "is_superboss": true,
+    "encounters": [
+      {
+        "form_id": "dullahan",
+        "location": "Anemos Inner Sanctum",
+        "stats": {
+          "hp": 16000,
+          "pp": 300,
+          "hp_regen": 200,
+          "pp_regen": 100,
+          "atk": 676,
+          "def": 269,
+          "agi": 241,
+          "lck": 59,
+          "turns": 3
+        },
+        "elemental_power": {
+          "earth": 110,
+          "water": 100,
+          "fire": 100,
+          "wind": 100
+        },
+        "elemental_resistance": {
+          "earth": 150,
+          "water": 190,
+          "fire": 130,
+          "wind": 110
+        },
+        "attacks": [
+          {
+            "name": "Attack",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Bind",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Haunt",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Curse",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Condemn",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Break",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Charon",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Formina Sage",
+            "source": "torrentlord"
+          },
+          {
+            "name": "True Collide",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Djinn Storm",
+            "source": "torrentlord"
+          },
+          {
+            "name": "Element Swap",
+            "source": "torrentlord"
+          }
+        ],
+        "rewards": {
+          "exp": 15600,
+          "coins": 6775,
+          "items": []
+        }
+      }
+    ],
+    "weakness": [
+      "wind"
+    ],
+    "recommended_level": 52,
+    "strategy": "Anemos Inner Sanctum, reachable only with all 72 Djinn; arguably the hardest boss. Recovers 200 HP and 30 PP each turn and acts three times per turn. Formina Sage does ~3x his physical damage (often a kill), Charon (10-Djinn summon) can down multiple characters, and Djinn Storm sends all front-party Djinn into recovery. He has no Guard Aura, so an all-summons rush works; the rewarding no-summon route uses Wind-weakness Excaliburs plus Lull-cycling and careful switch-ins (never switch out downed characters — they don't recover Djinn). Drops the ultimate Iris summon.",
+    "special_mechanics": [
+      "recovers 200 HP and 30 PP per turn",
+      "acts three times per turn",
+      "Formina Sage ~3x physical damage (near-instakill)",
+      "Charon can down multiple characters",
+      "Djinn Storm sends all front-party Djinn into recovery",
+      "no Guard Aura (summon rush viable)",
+      "rewards the ultimate Iris summon tablet"
+    ],
+    "special_notes": null,
+    "sources": [
+      "link-kirby-boss",
+      "torrentlord"
+    ]
+  }
+]

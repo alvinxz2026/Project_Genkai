@@ -48,13 +48,13 @@ general`）几乎对每个实体都有附录表，作为通用辅源/兜底，�
 | 实体 | 主源（专项，优先） | 辅源 / 校验 | 备注 |
 |---|---|---|---|
 | **monsters** ✅ | `torrentlord`（全 stat block + 掉落 + location）→ **已提取，203 条** | walkthrough bestiary（autocon/darthmarth/super-slash）；`aspartate-forge`（产材料怪） | **竖切完成**（见 §0）。确定性解析器 `scripts/monsters_extract_gs2.py`，单源 torrentlord。第 2 源做交叉校验是后续可选项。 |
-| **bosses** | `torrentlord`（boss 数值）；`link-kirby-boss` / `goldmario-boss`（打法）；`rena-chan-hardboss`（Hard Mode） | walkthrough boss 段；`ikillkenny` | **数值**走 torrentlord；**打法/策略**是应用层，基础数据先行。 |
+| **bosses** ✅ | `torrentlord`（boss 数值，已在 monsters）；`link-kirby-boss`（打法/弱点/等级）→ **已提取，18 条** | `goldmario-boss`、`rena-chan-hardboss`（Hard Mode）、walkthrough boss 段、`ikillkenny` 待并入 sidecar | **第三刀完成**：两层=确定性骨架(`bosses_extract_gs2.py` 从 monsters 拉数值/合并多形态) + curated strategy sidecar(`intermediate/bosses_strategy.json`，从 link-kirby 提 weakness/level/strategy/mechanics)。数值以 torrentlord 为准不静默改。monsters.boss_id 回填待 gs2 links_normalize。 |
 | **classes** | `ultimalink`（per-角色职业链 stat% + djinn 数 + psynergy 等级表）；`terence`（职业需求/加成权威）；`aku-chi`（配装策略） | walkthrough class 段；`yoyoyoshi`（djinn↔class） | terence 同 gs1 是职业需求权威源（见其 `gs1_counterpart`）。 |
 | **psynergy** | `yoyoyoshi`（全列表+机制，近期更新）；`mr-unorigino-psy`（completeness 校验） | walkthrough psynergy 附录；`terence`（机制/伤害） | 两源交叉补全；mr-unorigino 日文乱码注意。 |
 | **djinn** | `aspartate-djinn` / `android50`（获取位置）；`demooni`（stat boosts） | `cooldude345`、`terence`（机制）；walkthrough 附录A(telago) | 位置 vs 数值分别来自不同源，注意合并。 |
 | **summons** | `cooldude345`（数值，引 Terrence Fergusson）；`dbfire`（石板获取 + 支线） | walkthrough（telago 附录A / autocon §3.6） | 石板/组合召唤：**数值**→summons，**获取**→locations/walkthrough。 |
-| **equipment** | `mr-unorigino-item`（GS1+TLA 全表）；`aspartate-item`（数据+定性） | `shotgunnova-shop`（售价/售点）；`bbbbrain2000`（隐藏）；`aspartate-forge`（锻造） | mr-unorigino 最整齐；forging 单列见下。 |
-| **items** | `mr-unorigino-item`；`aspartate-item` | `bbbbrain2000`（隐藏/最佳）；walkthrough item 附录 | 与 equipment 同源，schema 里再分实体。 |
+| **equipment** ✅ | `mr-unorigino-item`（TLA 段 2A–2U）→ **已提取，143 条** | `aspartate-item`（数据+定性）；`shotgunnova-shop`（售价/售点）；`bbbbrain2000`（隐藏）；`aspartate-forge`（锻造） | **第二刀完成**：确定性解析器 `scripts/items_extract_gs2.py`，单源 mr-unorigino TLA 段。deferred：equippable_by/is_artifact/forged_from/unleash 元素·rate·power。forging 单列见下。 |
+| **items** ✅(部分) | `mr-unorigino-item`（TLA 段：2R 材料 / 2S trident / 2U other）→ **已提取，24 条** | `aspartate-item`；`bbbbrain2000`；walkthrough item 附录 | 与 equipment 同源同解析器。**只取 gs2 专属**；gs1↔gs2 共享消耗品（Herb/Potion/Psy Crystal/补品）源里仅在 GS1 编号段，**deferred** 待下轮用 super-slash/shotgunnova 附录补。 |
 | **shops** | `shotgunnova-shop`（15 城镇清单，link location↔item） | walkthrough shop 段（shotgunnova general） | gs1 同作者（`Various data - Shotgunnova.txt`）。 |
 | **forging** | `aspartate-forge`（材料→装备 + 锈蚀 + 产材料怪） | `aspartate-item` mini guide；walkthrough forging 段 | gs2 专有机制；可单列实体或并入 equipment（schema 再定）。 |
 | **locations** | walkthrough（cloud-blazer 区域最细）；`shotgunnova-shop`（城镇）；`dbfire`（支线区域） | `gamecubeguy49-islet`、djinn/物品位置源 | locations 仍靠 walkthrough 为主；专项源补点。 |
