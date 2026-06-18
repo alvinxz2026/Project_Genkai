@@ -37,10 +37,10 @@ GS2 和 GS1 共用同一套管线、同一个仓库，按 `gs2` 命名空间分�
 |---|---|---|
 | **0. Kickoff** | 建 gs2 命名空间脚手架 + 这份 meta plan | ✅ 完成 2026-06-17 |
 | **1. Idea / 范围** | 想清楚 gs2 要覆盖哪些实体、做成什么应用（可参考 gs1 的 11 实体起步） | ⬜ 待 review |
-| **2. Raw 收集 + 标注** | 收齐 GameFAQs 源到 `raw/gs2/`，每篇加 frontmatter（见 §3）；建源清单/索引 | 🔄 进行中：10 篇 walkthrough + 目录页已收+标注，索引 `gs2_sources.md` 已建；专项源待补 |
-| **3. Design — schema** | 以 `gs1_schema.md` 为模板写 `gs2_schema.md`（含 Master Source IDs 表） | ⬜ 未开始 |
-| **3.5 Extraction plan** | 下一轮补全专项源 frontmatter 后，专门讨论各类数据怎么提取、每个实体/源用 Gemini 还是 Claude Code（见 §4 已定 + 待定） | ⬜ 下一轮 |
-| **4. 提取 + 连图** | 逐实体提（agent 驱动，extract.py 为 fallback）；播种继承数据；跑 normalize→audit（纯 Python，免费） | ⬜ 未开始 |
+| **2. Raw 收集 + 标注** | 收齐 GameFAQs 源到 `raw/gs2/`，每篇加 frontmatter（见 §3）；建源清单/索引 | 🔄 近完成：10 篇 walkthrough + 32 篇 In-Depth + 目录页均已收+标注，索引 `gs2_sources.md` 已建（含 tracker）；目录页专项源已悉数到位，仅余 Maps 暂不收 |
+| **3. Design — schema** | 先有 ER 草图钉 id/FK，再以 `gs1_schema.md` 为模板写 `gs2_schema.md`（含 Master Source IDs 表） | 🔄 ER 草图 `gs2_er_sketch.md` ✅ + `gs2_schema.md` monsters 段 ✅；其余实体段未写 |
+| **3.5 Extraction plan** | 按实体讨论怎么提取、每个实体/源用 Gemini 还是 Claude Code（见 §4 已定 + 待定） | 🔄 已起草 draft：`docs/gs2/gs2_extraction_plan.md`（实体×源覆盖矩阵 + 初步分工），待 refine |
+| **4. 提取 + 连图** | 逐实体提（**规整 data-table 走确定性解析器**，见竖切结论；agent/extract.py 为退路）；播种继承数据；跑 normalize→audit（纯 Python，免费） | 🔄 monsters ✅（203 条，竖切验证）；其余未开始 |
 | **5. 应用层** | 复用/扩展 codex 等（gs2 版或合并版） | ⬜ 远期 |
 
 > 勾选用 ⬜/🔄/✅。每推进一块就回来改这张表 + §5 日志。
@@ -67,6 +67,9 @@ extract.py 同时认 `.txt`/`.md`）。文件名建议 `<内容> - <作者>.md`�
 `transfer`（GS1→GS2 linkage/password/transfer events）、`forging`（Sunshine 铁匠/锈蚀武器/
 稀有材料锻造）、`mechanics`（战斗系统/djinn 用法/属性/RNG 等 basics）。石板/组合召唤归
 `summons`(数值) + `locations`/`walkthrough`(获取)。词表非封闭，写 schema 时可再加。
+> **2026-06-17 标注 In-Depth 时新增 4 个 tag**：`story`（剧本/对白 dump，非实体提取）、
+> `music`、`glitch`（杂项 FAQ，非提取）、`ids`（hex/内存码源，价值在 canonical id + 完整性校验）。
+> 这些主要用于把「非实体提取源」与真正的数据源区分开。
 
 **frontmatter 模板**（已纳入你的反馈：catch-all type、quality 默认、summary 可后补）：
 
@@ -113,9 +116,13 @@ notes:                       # 可选，一句话：强在哪 / 坑在哪
 1. **半通用脚本怎么复用**：`links_normalize` / `links_audit` / `locations_refs` / `build_codex`
    现在 gs1 写死。走 (A) 参数化共用 还是 (B) fork 一份？倾向 A 但「等 gs2 实体定了再抽」。
 2. **继承数据怎么播种**：哪些实体从 gs1 拷草稿（djinn/classes/equipment？），怎么标「继承 vs 待改」。
+   → discovery 草记见 [`gs2_extraction_plan.md §3`](gs2_extraction_plan.md)（mr-unorigino-item 直接 GS1+TLA 并列等）。
 3. **schema 差异**：gs2 新增（队伍 Felix/Jenna/Sheba/Piers、transfer 机制、新 summon/地点/boss），
-   哪些实体直接沿用 gs1 段、哪些要改。
+   哪些实体直接沿用 gs1 段、哪些要改。→ 实体范围草记见 [`gs2_extraction_plan.md §3`](gs2_extraction_plan.md)
+   （characters 8 角色、forging/transfer/组合召唤 是否独立实体）。
 4. **应用层**：gs2 单独出 codex，还是做成跨 game 的统一 app。
+5. **master-data / canonical id 层（新）**：用 hex 源（`90kirsdarke-hack` / `kaitia-savehack`）给
+   每条数据挂 code/id + 做完整性校验？用户提议，待单独一轮（见 `gs2_extraction_plan.md §4`）。
 
 ---
 
@@ -126,3 +133,6 @@ notes:                       # 可选，一句话：强在哪 / 坑在哪
 | 2026-06-17 | Kickoff：建 `raw/gs2` `data/gs2` `docs/gs2` 脚手架 + `schema/gs2_schema.md` 骨架 + 这份 meta plan。待用户 review/annotate。 |
 | 2026-06-17 | Raw 标注：收 10 篇 walkthrough + 目录页；补全 frontmatter(短 source_id/covers/summary)；定"正文不整理/不拆分、用 TOC 定向读"铁律 + gs2 covers 词表(新增 transfer/forging/mechanics)；建总索引 `gs2_sources.md`(含候选专项源)。正文零改动。 |
 | 2026-06-17 | 定提取路线：**走 subscription/agent(Claude Code 和/或 Gemini)，不依赖 extract.py(API，更贵)**，extract.py 降级 fallback；schema 仍是核心 spec，下游 Python 连图免费。加阶段 3.5「Extraction plan」——下一轮补全专项源 frontmatter 后专门讨论各类数据怎么提取、每实体用谁。 |
+| 2026-06-17 | 收 32 篇 In-Depth Guides（含补回的 `bbbbrain2000`）+ 补全 frontmatter（短 `source_id` 规范化 / `type` / `covers` / `quality` / `summary`）；新增 4 个 covers tag（`story`/`music`/`glitch`/`ids`）。`gs2_sources.md` 加四组「已收集 In-Depth」表 + 标注进度 tracker；候选区只剩 Maps。起草 `gs2_extraction_plan.md`（实体×源覆盖矩阵 + 初步 Claude/Gemini 分工，draft）。正文零改动。遗留：`josher1212` 待补 TOC、hex 源（`90kirsdarke-hack`/`kaitia-savehack`）待评估做 master-data/canonical id 层。 |
+| 2026-06-17 | **第一刀竖切：monsters ✅**。写 `gs2_schema.md` monsters 段 + Master Source IDs 起头；写确定性解析器 `scripts/monsters_extract_gs2.py`（镜像 gs1 `monsters_extract.py`）解析 torrentlord Division A → 物化中间层 `data/gs2/intermediate/monsters__torrentlord.json` → `data/gs2/monsters.json`：**203 条**（23 boss + 27 djinn-enemy），全字段齐、0 错、零 LLM。**结论：干净 data-table 源的「中间层」= 确定性解析器（免费/精确/可重跑），非 LLM 蒸馏**（详见 `gs2_extraction_plan.md §0`）。FK（boss_id/djinn_id/drop ref）按计划暂缓。 |
+| 2026-06-18 | **ER 草图 `gs2_er_sketch.md` ✅**。把 gs1 已跑通的实体关系图（11 实体 + characters 维度 / locations 枢纽 + 各 FK 边）整理成 gs2 版，钉死 id 方案 + 引用字段 + 连接原则（存 name、最后 `links_normalize` 回填 id、idempotent → 实体可任意顺序独立提取，不返工）；标出 4 个 gs2 增量及建模倾向（8 角色、forging=equipment.forged_from、组合召唤=djinn_recipe、transfer=标志/小事件表）。回答了「中间层直觉」：字段完整性靠源够多、关联设计靠这张图，两者分开；无需先做 mechanics 预处理。 |
