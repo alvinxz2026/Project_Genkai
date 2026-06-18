@@ -5,9 +5,9 @@ chapter_no: 33
 toc_path: "V > 3"
 title: "The Bestiary"
 source_lines: 3187-3366
-kind:        # prose-walkthrough | data-table | story | meta
-covers: []   # entities: locations | monsters | items | ...
-region:      # canonical game-progression region (fill at consolidation)
+kind: data-table
+covers: [monsters, bosses]
+region: 
 ---
 ---------------/\ 3. The Bestiary /\---------------
 

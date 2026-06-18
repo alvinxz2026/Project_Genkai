@@ -5,9 +5,9 @@ chapter_no: 16
 toc_path: "IV > 2 > J"
 title: "Osenia Cliffs"
 source_lines: 882-912
-kind:        # prose-walkthrough | data-table | story | meta
-covers: []   # entities: locations | monsters | items | ...
-region:      # canonical game-progression region (fill at consolidation)
+kind: prose-walkthrough
+covers: [equipment, locations, monsters, walkthrough]
+region: "Osenia Cliffs"
 ---
 J. Osenia Cliffs
 ======================================

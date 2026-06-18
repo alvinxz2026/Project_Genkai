@@ -5,9 +5,9 @@ chapter_no: 38
 toc_path: "VI > 3"
 title: "Coming Soon"
 source_lines: 3561-3569
-kind:        # prose-walkthrough | data-table | story | meta
-covers: []   # entities: locations | monsters | items | ...
-region:      # canonical game-progression region (fill at consolidation)
+kind: meta
+covers: []
+region: 
 ---
 ---------------/\ 3. Coming Soon /\---------------
 1. A more complete Bestiary, and maybe the item locations.

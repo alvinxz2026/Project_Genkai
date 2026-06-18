@@ -5,9 +5,9 @@ chapter_no: 10
 toc_path: "IV > 2 > C"
 title: "Shrine of the Sea God"
 source_lines: 588-647
-kind:        # prose-walkthrough | data-table | story | meta
-covers: []   # entities: locations | monsters | items | ...
-region:      # canonical game-progression region (fill at consolidation)
+kind: prose-walkthrough
+covers: [djinn, equipment, locations, monsters, psynergy, walkthrough]
+region: "Shrine of the Sea God"
 ---
 C. Shrine of the Sea God
 ==========================

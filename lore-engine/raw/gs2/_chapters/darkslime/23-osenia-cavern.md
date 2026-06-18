@@ -5,9 +5,9 @@ chapter_no: 23
 toc_path: "IV > 3 > G"
 title: "Osenia Cavern"
 source_lines: 1535-1542
-kind:        # prose-walkthrough | data-table | story | meta
-covers: []   # entities: locations | monsters | items | ...
-region:      # canonical game-progression region (fill at consolidation)
+kind: prose-walkthrough
+covers: [locations, summons, walkthrough]
+region: "Osenia Cavern"
 ---
 G. Osenia Cavern
 ===================

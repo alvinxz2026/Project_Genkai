@@ -5,9 +5,9 @@ chapter_no: 36
 toc_path: "VI > 1"
 title: "Manual Errors"
 source_lines: 3477-3484
-kind:        # prose-walkthrough | data-table | story | meta
-covers: []   # entities: locations | monsters | items | ...
-region:      # canonical game-progression region (fill at consolidation)
+kind: meta
+covers: []
+region: 
 ---
 ---------------/\ 1. Manual Errors /\---------------
       A bunch of Djinn still have the Japanese names, and one has

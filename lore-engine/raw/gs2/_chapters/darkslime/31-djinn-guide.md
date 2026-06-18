@@ -5,9 +5,9 @@ chapter_no: 31
 toc_path: "V > 2 > C"
 title: "Djinn Guide"
 source_lines: 2583-2785
-kind:        # prose-walkthrough | data-table | story | meta
-covers: []   # entities: locations | monsters | items | ...
-region:      # canonical game-progression region (fill at consolidation)
+kind: data-table
+covers: [djinn]
+region: 
 ---
 C. Djinn Guide
 =================

@@ -5,9 +5,9 @@ chapter_no: 27
 toc_path: "V"
 title: "INDEXES"
 source_lines: 1607-1610
-kind:        # prose-walkthrough | data-table | story | meta
-covers: []   # entities: locations | monsters | items | ...
-region:      # canonical game-progression region (fill at consolidation)
+kind: meta
+covers: []
+region: 
 ---
 ---------------------|V. Indexes      |-O
                       ~~~~~~~~~~~~~~~~

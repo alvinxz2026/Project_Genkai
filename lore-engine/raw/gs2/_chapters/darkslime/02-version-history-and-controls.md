@@ -5,9 +5,9 @@ chapter_no: 2
 toc_path: "II"
 title: "Version History and Controls"
 source_lines: 118-183
-kind:        # prose-walkthrough | data-table | story | meta
-covers: []   # entities: locations | monsters | items | ...
-region:      # canonical game-progression region (fill at consolidation)
+kind: meta
+covers: []
+region: 
 ---
 ---------------------|II. Version History and Controls |-O
                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

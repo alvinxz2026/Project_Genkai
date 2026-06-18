@@ -5,9 +5,9 @@ chapter_no: 22
 toc_path: "IV > 3 > F"
 title: "Garoh"
 source_lines: 1479-1534
-kind:        # prose-walkthrough | data-table | story | meta
-covers: []   # entities: locations | monsters | items | ...
-region:      # canonical game-progression region (fill at consolidation)
+kind: prose-walkthrough
+covers: [equipment, items, locations, monsters, psynergy, shops, walkthrough]
+region: "Garoh"
 ---
 F. Garoh
 ============

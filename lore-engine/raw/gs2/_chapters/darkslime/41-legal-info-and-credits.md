@@ -5,9 +5,9 @@ chapter_no: 41
 toc_path: "VI > 6"
 title: "Legal info and Credits"
 source_lines: 3593-3619
-kind:        # prose-walkthrough | data-table | story | meta
-covers: []   # entities: locations | monsters | items | ...
-region:      # canonical game-progression region (fill at consolidation)
+kind: meta
+covers: []
+region: 
 ---
 ---------------/\ 5. Legal Stuff and Credits /\---------------
       Got any comments? Questions? Little tiny details that I forgot to

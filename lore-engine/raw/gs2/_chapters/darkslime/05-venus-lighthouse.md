@@ -5,9 +5,9 @@ chapter_no: 5
 toc_path: "IV > 1 > A"
 title: "Venus Lighthouse"
 source_lines: 246-320
-kind:        # prose-walkthrough | data-table | story | meta
-covers: []   # entities: locations | monsters | items | ...
-region:      # canonical game-progression region (fill at consolidation)
+kind: prose-walkthrough
+covers: [djinn, equipment, locations, monsters, psynergy, transfer, walkthrough]
+region: "Venus Lighthouse"
 ---
 A. Venus Lighthouse
 ======================

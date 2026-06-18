@@ -5,9 +5,9 @@ chapter_no: 19
 toc_path: "IV > 3 > C"
 title: "Alhafra"
 source_lines: 1038-1156
-kind:        # prose-walkthrough | data-table | story | meta
-covers: []   # entities: locations | monsters | items | ...
-region:      # canonical game-progression region (fill at consolidation)
+kind: prose-walkthrough
+covers: [bosses, equipment, items, locations, monsters, psynergy, shops, summons, walkthrough]
+region: "Alhafra"
 ---
 C. Alhafra
 =============

@@ -5,9 +5,9 @@ chapter_no: 17
 toc_path: "IV > 3 > A"
 title: "Mikasalla"
 source_lines: 913-926
-kind:        # prose-walkthrough | data-table | story | meta
-covers: []   # entities: locations | monsters | items | ...
-region:      # canonical game-progression region (fill at consolidation)
+kind: prose-walkthrough
+covers: [djinn, locations, walkthrough]
+region: "Mikasalla"
 ---
 A. Mikasalla
 ===============

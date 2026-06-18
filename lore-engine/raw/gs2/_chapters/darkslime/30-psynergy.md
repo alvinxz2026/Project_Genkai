@@ -5,9 +5,9 @@ chapter_no: 30
 toc_path: "V > 2 > B"
 title: "Psynergy"
 source_lines: 2255-2582
-kind:        # prose-walkthrough | data-table | story | meta
-covers: []   # entities: locations | monsters | items | ...
-region:      # canonical game-progression region (fill at consolidation)
+kind: data-table
+covers: [psynergy]
+region: 
 ---
 B. Psynergy
 ==============

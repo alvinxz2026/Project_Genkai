@@ -5,9 +5,9 @@ chapter_no: 25
 toc_path: "IV > 4 > A"
 title: "Madra again"
 source_lines: 1567-1575
-kind:        # prose-walkthrough | data-table | story | meta
-covers: []   # entities: locations | monsters | items | ...
-region:      # canonical game-progression region (fill at consolidation)
+kind: prose-walkthrough
+covers: [locations, walkthrough]
+region: "Madra again"
 ---
 A. Madra again
 =================

@@ -5,9 +5,9 @@ chapter_no: 26
 toc_path: "IV > 4 > B"
 title: "Gondowan Cliffs"
 source_lines: 1576-1606
-kind:        # prose-walkthrough | data-table | story | meta
-covers: []   # entities: locations | monsters | items | ...
-region:      # canonical game-progression region (fill at consolidation)
+kind: prose-walkthrough
+covers: [djinn, locations, monsters, psynergy, walkthrough]
+region: "Gondowan Cliffs"
 ---
 B. Gondowan Cliffs
 =====================

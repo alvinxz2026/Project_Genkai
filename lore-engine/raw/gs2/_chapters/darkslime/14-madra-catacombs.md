@@ -5,9 +5,9 @@ chapter_no: 14
 toc_path: "IV > 2 > H"
 title: "Madra Catacombs"
 source_lines: 842-873
-kind:        # prose-walkthrough | data-table | story | meta
-covers: []   # entities: locations | monsters | items | ...
-region:      # canonical game-progression region (fill at consolidation)
+kind: prose-walkthrough
+covers: [equipment, locations, psynergy, walkthrough]
+region: "Madra Catacombs"
 ---
 H. Madra Catacombs
 =====================

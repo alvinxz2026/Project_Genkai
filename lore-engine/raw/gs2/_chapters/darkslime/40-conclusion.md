@@ -5,9 +5,9 @@ chapter_no: 40
 toc_path: "VI > 5"
 title: "Conclusion"
 source_lines: 3588-3592
-kind:        # prose-walkthrough | data-table | story | meta
-covers: []   # entities: locations | monsters | items | ...
-region:      # canonical game-progression region (fill at consolidation)
+kind: meta
+covers: []
+region: 
 ---
 ---------------/\ 4. Conclusion /\---------------
       I hope you enjoyed the walkthrough. I work on this literally every

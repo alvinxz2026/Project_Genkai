@@ -5,9 +5,9 @@ chapter_no: 13
 toc_path: "IV > 2 > G"
 title: "Madra"
 source_lines: 800-841
-kind:        # prose-walkthrough | data-table | story | meta
-covers: []   # entities: locations | monsters | items | ...
-region:      # canonical game-progression region (fill at consolidation)
+kind: prose-walkthrough
+covers: [djinn, equipment, locations, monsters, psynergy, shops, walkthrough]
+region: "Madra"
 ---
 G. Madra
 ===========

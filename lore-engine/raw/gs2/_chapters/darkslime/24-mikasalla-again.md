@@ -5,9 +5,9 @@ chapter_no: 24
 toc_path: "IV > 3 > H"
 title: "Mikasalla again"
 source_lines: 1543-1566
-kind:        # prose-walkthrough | data-table | story | meta
-covers: []   # entities: locations | monsters | items | ...
-region:      # canonical game-progression region (fill at consolidation)
+kind: prose-walkthrough
+covers: [characters, djinn, equipment, locations, psynergy, shops, walkthrough]
+region: "Mikasalla again"
 ---
 H. Mikasalla again
 =====================

@@ -5,9 +5,9 @@ chapter_no: 37
 toc_path: "VI > 2"
 title: "FAQs"
 source_lines: 3485-3560
-kind:        # prose-walkthrough | data-table | story | meta
-covers: []   # entities: locations | monsters | items | ...
-region:      # canonical game-progression region (fill at consolidation)
+kind: meta
+covers: []
+region: 
 ---
 ---------------/\ 2. FAQs /\---------------
 Q. Why did you write this??

@@ -5,9 +5,9 @@ chapter_no: 18
 toc_path: "IV > 3 > B"
 title: "Yampi Desert"
 source_lines: 927-1037
-kind:        # prose-walkthrough | data-table | story | meta
-covers: []   # entities: locations | monsters | items | ...
-region:      # canonical game-progression region (fill at consolidation)
+kind: prose-walkthrough
+covers: [bosses, djinn, equipment, items, locations, monsters, psynergy, summons, walkthrough]
+region: "Yampi Desert"
 ---
 B. Yampi Desert
 =================

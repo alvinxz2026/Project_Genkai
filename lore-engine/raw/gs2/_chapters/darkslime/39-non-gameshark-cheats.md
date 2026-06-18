@@ -5,9 +5,9 @@ chapter_no: 39
 toc_path: "VI > 4"
 title: "Non-Gameshark Cheats"
 source_lines: 3570-3587
-kind:        # prose-walkthrough | data-table | story | meta
-covers: []   # entities: locations | monsters | items | ...
-region:      # canonical game-progression region (fill at consolidation)
+kind: meta
+covers: []
+region: 
 ---
 ---------------/\ 4. Non-Gameshark Cheats /\---------------
 

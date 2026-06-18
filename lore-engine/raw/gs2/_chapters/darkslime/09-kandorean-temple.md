@@ -5,9 +5,9 @@ chapter_no: 9
 toc_path: "IV > 2 > B"
 title: "Kandorean Temple"
 source_lines: 445-587
-kind:        # prose-walkthrough | data-table | story | meta
-covers: []   # entities: locations | monsters | items | ...
-region:      # canonical game-progression region (fill at consolidation)
+kind: prose-walkthrough
+covers: [bosses, djinn, equipment, forging, items, locations, monsters, psynergy, summons, walkthrough]
+region: "Kandorean Temple"
 ---
 B. Kandorean Temple
 ===================

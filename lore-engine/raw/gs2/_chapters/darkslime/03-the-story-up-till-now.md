@@ -5,9 +5,9 @@ chapter_no: 3
 toc_path: "III"
 title: "The Story Up 'till Now"
 source_lines: 184-232
-kind:        # prose-walkthrough | data-table | story | meta
-covers: []   # entities: locations | monsters | items | ...
-region:      # canonical game-progression region (fill at consolidation)
+kind: story
+covers: []
+region: 
 ---
 ---------------------|III. The Story Up 'till Now|-O
                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~

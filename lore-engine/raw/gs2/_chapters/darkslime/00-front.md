@@ -5,9 +5,9 @@ chapter_no: 0
 toc_path: ""
 title: "(front matter)"
 source_lines: 1-89
-kind:        # prose-walkthrough | data-table | story | meta
-covers: []   # entities: locations | monsters | items | ...
-region:      # canonical game-progression region (fill at consolidation)
+kind: meta
+covers: []
+region: 
 ---
 ---
 source_id: darkslime

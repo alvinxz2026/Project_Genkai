@@ -5,9 +5,9 @@ chapter_no: 7
 toc_path: "IV > 1 > C"
 title: "Idejima"
 source_lines: 346-398
-kind:        # prose-walkthrough | data-table | story | meta
-covers: []   # entities: locations | monsters | items | ...
-region:      # canonical game-progression region (fill at consolidation)
+kind: prose-walkthrough
+covers: [items, locations, walkthrough]
+region: "Idejima"
 ---
 C. Idejima
 =============

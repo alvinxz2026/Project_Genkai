@@ -5,9 +5,9 @@ chapter_no: 28
 toc_path: "V > 1"
 title: "Character Guide"
 source_lines: 1611-1801
-kind:        # prose-walkthrough | data-table | story | meta
-covers: []   # entities: locations | monsters | items | ...
-region:      # canonical game-progression region (fill at consolidation)
+kind: data-table
+covers: [characters]
+region: 
 ---
 ---------------/\ 1. The Character Guide /\---------------
         The Character Guide contains history on all of the characters,

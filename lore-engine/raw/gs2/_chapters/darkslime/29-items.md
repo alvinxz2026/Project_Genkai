@@ -5,9 +5,9 @@ chapter_no: 29
 toc_path: "V > 2 > A"
 title: "Items"
 source_lines: 1802-2254
-kind:        # prose-walkthrough | data-table | story | meta
-covers: []   # entities: locations | monsters | items | ...
-region:      # canonical game-progression region (fill at consolidation)
+kind: data-table
+covers: [items]
+region: 
 ---
 A. Items
 ===========

@@ -5,9 +5,9 @@ chapter_no: 1
 toc_path: "I"
 title: "Introduction"
 source_lines: 90-117
-kind:        # prose-walkthrough | data-table | story | meta
-covers: []   # entities: locations | monsters | items | ...
-region:      # canonical game-progression region (fill at consolidation)
+kind: meta
+covers: []
+region: 
 ---
 ---------------------|I. Introduction |-O
                       ~~~~~~~~~~~~~~~~

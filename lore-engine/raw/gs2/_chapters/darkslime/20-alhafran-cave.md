@@ -5,9 +5,9 @@ chapter_no: 20
 toc_path: "IV > 3 > D"
 title: "Alhafran Cave"
 source_lines: 1157-1188
-kind:        # prose-walkthrough | data-table | story | meta
-covers: []   # entities: locations | monsters | items | ...
-region:      # canonical game-progression region (fill at consolidation)
+kind: prose-walkthrough
+covers: [items, locations, walkthrough]
+region: "Alhafran Cave"
 ---
 D. Alhafran Cave
 ==================

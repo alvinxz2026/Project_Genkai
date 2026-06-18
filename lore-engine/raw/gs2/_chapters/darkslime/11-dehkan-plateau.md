@@ -5,9 +5,9 @@ chapter_no: 11
 toc_path: "IV > 2 > D"
 title: "Dehkan Plateau"
 source_lines: 648-771
-kind:        # prose-walkthrough | data-table | story | meta
-covers: []   # entities: locations | monsters | items | ...
-region:      # canonical game-progression region (fill at consolidation)
+kind: prose-walkthrough
+covers: [djinn, equipment, items, locations, walkthrough]
+region: "Dehkan Plateau"
 ---
 D. Dehkan Plateau
 ===================

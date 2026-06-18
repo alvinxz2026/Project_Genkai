@@ -5,9 +5,9 @@ chapter_no: 21
 toc_path: "IV > 3 > E"
 title: "Air's Rock"
 source_lines: 1189-1478
-kind:        # prose-walkthrough | data-table | story | meta
-covers: []   # entities: locations | monsters | items | ...
-region:      # canonical game-progression region (fill at consolidation)
+kind: prose-walkthrough
+covers: [equipment, items, locations, psynergy, summons, walkthrough]
+region: "Air's Rock"
 ---
 E. Air's Rock
 ================

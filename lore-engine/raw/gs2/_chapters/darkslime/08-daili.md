@@ -5,9 +5,9 @@ chapter_no: 8
 toc_path: "IV > 2 > A"
 title: "Daili"
 source_lines: 399-444
-kind:        # prose-walkthrough | data-table | story | meta
-covers: []   # entities: locations | monsters | items | ...
-region:      # canonical game-progression region (fill at consolidation)
+kind: prose-walkthrough
+covers: [djinn, equipment, locations, shops, summons, walkthrough]
+region: "Daili"
 ---
 A. Daili
 ===========

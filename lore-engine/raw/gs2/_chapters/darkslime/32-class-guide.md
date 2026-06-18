@@ -5,9 +5,9 @@ chapter_no: 32
 toc_path: "V > 2 > D"
 title: "Class Guide"
 source_lines: 2786-3186
-kind:        # prose-walkthrough | data-table | story | meta
-covers: []   # entities: locations | monsters | items | ...
-region:      # canonical game-progression region (fill at consolidation)
+kind: data-table
+covers: [classes]
+region: 
 ---
 D. Class Guide
 ================

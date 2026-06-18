@@ -5,9 +5,9 @@ chapter_no: 34
 toc_path: "V > 4"
 title: "Music Test"
 source_lines: 3367-3472
-kind:        # prose-walkthrough | data-table | story | meta
-covers: []   # entities: locations | monsters | items | ...
-region:      # canonical game-progression region (fill at consolidation)
+kind: meta
+covers: []
+region: 
 ---
 ---------------/\ 4. Music Test /\---------------
      I listed all the music in the Music Test. Duh. If you dont know how

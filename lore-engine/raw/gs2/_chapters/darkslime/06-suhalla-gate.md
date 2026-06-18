@@ -5,9 +5,9 @@ chapter_no: 6
 toc_path: "IV > 1 > B"
 title: "Suhalla Gate"
 source_lines: 321-345
-kind:        # prose-walkthrough | data-table | story | meta
-covers: []   # entities: locations | monsters | items | ...
-region:      # canonical game-progression region (fill at consolidation)
+kind: prose-walkthrough
+covers: [locations, monsters, psynergy, walkthrough]
+region: "Suhalla Gate"
 ---
 B. Suhalla Gate
 =================

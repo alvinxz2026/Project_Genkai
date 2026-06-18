@@ -1,0 +1,325 @@
+﻿00-front.md / meta / [] / 
+01-guide.md / meta / [] / 
+02-prologue.md / meta / [] / 
+03-venus-lighthouse.md / meta / [] / 
+04-suhalla-gate.md / prose-walkthrough / [locations, psynergy, walkthrough] / Suhalla Gate
+05-indra.md / meta / [] / 
+06-daila.md / prose-walkthrough / [djinn, equipment, items, locations, shops, walkthrough] / Daila
+07-kandorean-temple.md / prose-walkthrough / [bosses, djinn, items, locations, psynergy, walkthrough] / Kandorean Temple
+08-shrine-of-the-sea-god.md / prose-walkthrough / [djinn, locations, walkthrough] / Shrine of the Sea God
+09-dehkan-plateau.md / prose-walkthrough / [djinn, equipment, items, locations, psynergy, walkthrough] / Dehkan Plateau
+10-indra-cavern.md / prose-walkthrough / [locations, summons, walkthrough] / Indra Cavern
+100-se-angara-islet.md / prose-walkthrough / [items, locations, walkthrough] / SE Angara Islet
+101-yallam.md / prose-walkthrough / [equipment, items, locations, psynergy, shops, walkthrough] / Yallam
+102-taopo-swamp.md / prose-walkthrough / [djinn, equipment, items, locations, walkthrough] / Taopo Swamp
+103-apojii-islands.md / prose-walkthrough / [djinn, equipment, items, locations, shops, walkthrough] / Apojii Islands
+104-aqua-rock.md / prose-walkthrough / [djinn, equipment, items, locations, psynergy, walkthrough] / Aqua Rock
+105-aqua-rock-interior.md / prose-walkthrough / [bosses, djinn, equipment, items, locations, psynergy, walkthrough] / Aqua Rock Interior
+106-tundaria-tower.md / prose-walkthrough / [bosses, djinn, equipment, items, locations, psynergy, walkthrough] / Tundaria Tower
+107-eastern-sea-part-2.md / meta / [] / 
+108-izumo.md / prose-walkthrough / [bosses, equipment, items, locations, shops, walkthrough] / Izumo
+109-gaia-rock.md / prose-walkthrough / [bosses, djinn, equipment, items, locations, psynergy, summons, walkthrough] / Gaia Rock
+11-madra.md / prose-walkthrough / [djinn, equipment, items, locations, psynergy, shops, walkthrough] / Madra
+110-izumo-again.md / prose-walkthrough / [djinn, equipment, items, locations, summons, walkthrough] / Izumo again
+111-apojii-islands-again.md / prose-walkthrough / [djinn, equipment, items, locations, walkthrough] / Apojii Islands again
+112-n-osenia-islet.md / prose-walkthrough / [locations, walkthrough] / N Osenia Islet
+113-west-indra-islet.md / prose-walkthrough / [locations, walkthrough] / West Indra Islet
+114-alhafra-and-briggs.md / prose-walkthrough / [items, locations, psynergy, walkthrough] / Alhafra and Briggs
+115-champa.md / prose-walkthrough / [bosses, djinn, equipment, items, locations, psynergy, shops, transfer, walkthrough] / Champa
+116-ankohl-ruins.md / prose-walkthrough / [bosses, equipment, items, locations, psynergy, walkthrough] / Ankohl Ruins
+117-sea-of-time.md / prose-walkthrough / [bosses, djinn, items, locations, psynergy, walkthrough] / Sea of Time
+118-lemuria.md / prose-walkthrough / [djinn, equipment, items, locations, psynergy, shops, transfer, walkthrough] / Lemuria
+119-western-sea.md / meta / [] / 
+12-osenia.md / meta / [] / 
+120-more-gathering.md / prose-walkthrough / [bosses, djinn, equipment, items, locations, psynergy, walkthrough] / More Gathering
+121-shaman-village.md / prose-walkthrough / [bosses, djinn, equipment, items, locations, psynergy, shops, walkthrough] / Shaman Village
+122-atteka-inlet.md / prose-walkthrough / [djinn, equipment, items, locations, walkthrough] / Atteka Inlet
+123-contigo.md / prose-walkthrough / [djinn, equipment, items, locations, psynergy, shops, transfer, walkthrough] / Contigo
+124-jupiter-lighthouse.md / prose-walkthrough / [bosses, djinn, equipment, items, locations, psynergy, walkthrough] / Jupiter Lighthouse
+125-djinni-run.md / prose-walkthrough / [djinn, equipment, items, locations, psynergy, summons, transfer, walkthrough] / Djinni Run
+126-shaman-village-cave-event.md / prose-walkthrough / [transfer] / 
+127-the-grand-finale.md / meta / [] / 
+128-gondowan-settlement.md / prose-walkthrough / [djinn, locations, walkthrough] / Gondowan Settlement
+129-venus-djinn.md / meta / [] / 
+13-mikasalla.md / prose-walkthrough / [djinn, equipment, items, locations, psynergy, shops, walkthrough] / Mikasalla
+130-echo.md / data-table / [djinn] / 
+131-iron.md / data-table / [djinn] / 
+132-steel.md / data-table / [djinn] / 
+133-mud.md / data-table / [djinn] / 
+134-flower.md / data-table / [djinn] / 
+135-meld.md / data-table / [djinn] / 
+136-petra.md / data-table / [djinn] / 
+137-salt.md / data-table / [djinn] / 
+138-geode.md / data-table / [djinn] / 
+139-mold.md / data-table / [djinn] / 
+14-garoh.md / prose-walkthrough / [items, locations, walkthrough] / Garoh
+140-crystal.md / data-table / [djinn] / 
+141-fog.md / data-table / [djinn] / 
+142-sour.md / data-table / [djinn] / 
+143-spring.md / data-table / [djinn] / 
+144-shade.md / data-table / [djinn] / 
+145-chill.md / data-table / [djinn] / 
+146-steam.md / data-table / [djinn] / 
+147-rime.md / data-table / [djinn] / 
+148-gel.md / data-table / [djinn] / 
+149-eddy.md / data-table / [djinn] / 
+15-air-s-rock-exterior.md / prose-walkthrough / [equipment, items, locations, psynergy, walkthrough] / Air's Rock Exterior
+150-balm.md / data-table / [djinn] / 
+151-serac.md / data-table / [djinn] / 
+152-cannon.md / data-table / [djinn] / 
+153-spark.md / data-table / [djinn] / 
+154-kindle.md / data-table / [djinn] / 
+155-char.md / data-table / [djinn] / 
+156-coal.md / data-table / [djinn] / 
+157-reflux.md / data-table / [djinn] / 
+158-core.md / data-table / [djinn] / 
+159-tinder.md / data-table / [djinn] / 
+16-air-s-rock-interior.md / prose-walkthrough / [equipment, items, locations, psynergy, summons, walkthrough] / Air's Rock Interior
+160-shine.md / data-table / [djinn] / 
+161-fury.md / data-table / [djinn] / 
+162-fugue.md / data-table / [djinn] / 
+163-breath.md / data-table / [djinn] / 
+164-blitz.md / data-table / [djinn] / 
+165-ether.md / data-table / [djinn] / 
+166-waft.md / data-table / [djinn] / 
+167-haze.md / data-table / [djinn] / 
+168-wheeze.md / data-table / [djinn] / 
+169-aroma.md / data-table / [djinn] / 
+17-garoh-again.md / prose-walkthrough / [djinn, equipment, items, locations, shops, walkthrough] / Garoh again
+170-whorl.md / data-table / [djinn] / 
+171-gasp.md / data-table / [djinn] / 
+172-lull.md / data-table / [djinn] / 
+173-gale.md / data-table / [djinn] / 
+174-original-djinn.md / data-table / [djinn] / 
+175-venus-djinn.md / data-table / [djinn] / 
+176-mercury-djinn.md / data-table / [djinn] / 
+177-mars-djinn.md / data-table / [djinn] / 
+178-jupiter-djinn.md / data-table / [djinn] / 
+179-summons.md / data-table / [summons] / 
+18-yampi-desert.md / prose-walkthrough / [bosses, djinn, equipment, items, locations, psynergy, walkthrough] / Yampi Desert
+180-zagan.md / data-table / [summons] / 
+181-flora.md / data-table / [summons] / 
+182-megaera.md / data-table / [summons] / 
+183-moloch.md / data-table / [summons] / 
+184-ulysses.md / data-table / [summons] / 
+185-eclipse.md / data-table / [summons] / 
+186-coatlicue.md / data-table / [summons] / 
+187-haures.md / data-table / [summons] / 
+188-daedalus.md / data-table / [summons] / 
+189-catastrophe.md / data-table / [summons] / 
+19-alhafra.md / prose-walkthrough / [bosses, equipment, items, locations, psynergy, shops, transfer, walkthrough] / Alhafra
+190-azul.md / data-table / [summons] / 
+191-charon.md / data-table / [summons] / 
+192-iris.md / data-table / [summons] / 
+193-psynergy-and-classes.md / meta / [] / 
+194-knight.md / data-table / [classes, psynergy] / 
+195-flame-user.md / data-table / [classes, psynergy] / 
+196-guard.md / data-table / [classes, psynergy] / 
+197-wind-seer.md / data-table / [classes, psynergy] / 
+198-mariner.md / data-table / [classes, psynergy] / 
+199-water-seer.md / data-table / [classes, psynergy] / 
+20-to-gondowan.md / prose-walkthrough / [djinn, items, locations, shops, walkthrough] / To Gondowan
+200-swordsman-earth.md / data-table / [classes, psynergy] / 
+201-swordsman-fire.md / data-table / [classes, psynergy] / 
+202-apprentice.md / data-table / [classes, psynergy] / 
+203-page.md / data-table / [classes, psynergy] / 
+204-brute.md / data-table / [classes, psynergy] / 
+205-hermit.md / data-table / [classes, psynergy] / 
+206-samurai.md / data-table / [classes, psynergy] / 
+207-white-mage.md / data-table / [classes, psynergy] / 
+208-seer-water.md / data-table / [classes, psynergy] / 
+209-seer-wind.md / data-table / [classes, psynergy] / 
+21-gondowan.md / meta / [] / 
+210-dragoon.md / data-table / [classes, psynergy] / 
+211-ninja.md / data-table / [classes, psynergy] / 
+212-pilgrim-water.md / data-table / [classes, psynergy] / 
+213-pilgrim-fire.md / data-table / [classes, psynergy] / 
+214-medium.md / data-table / [classes, psynergy] / 
+215-ranger.md / data-table / [classes, psynergy] / 
+216-pierrot.md / data-table / [classes, psynergy] / 
+217-dark-mage.md / data-table / [classes, psynergy] / 
+218-tamer.md / data-table / [classes, psynergy] / 
+219-transfer-events.md / meta / [] / 
+22-gondowan-cliffs.md / prose-walkthrough / [djinn, items, locations, walkthrough] / Gondowan Cliffs
+220-random-djinn.md / prose-walkthrough / [transfer] / 
+221-madra-event.md / prose-walkthrough / [transfer] / 
+222-champa-event.md / prose-walkthrough / [transfer] / 
+223-atteka-inlet-event.md / prose-walkthrough / [transfer] / 
+224-deadbeard-event.md / prose-walkthrough / [transfer] / 
+225-sunshine-the-blacksmith.md / meta / [] / 
+226-rusty-weapons.md / data-table / [forging] / 
+227-tear-stone.md / data-table / [forging] / 
+228-stardust.md / data-table / [forging] / 
+229-sylph-feather.md / data-table / [forging] / 
+23-naribwe.md / prose-walkthrough / [equipment, items, locations, psynergy, shops, walkthrough] / Naribwe
+230-dragon-skin.md / data-table / [forging] / 
+231-dark-matter.md / data-table / [forging] / 
+232-orihalcon.md / data-table / [forging] / 
+233-salamander-tail.md / data-table / [forging] / 
+234-golem-core.md / data-table / [forging] / 
+235-mythril-silver.md / data-table / [forging] / 
+236-ultimate-equipment.md / meta / [] / 
+237-weapons.md / meta / [] / 
+238-axes.md / data-table / [equipment] / 
+239-light-blades.md / data-table / [equipment] / 
+24-kibombo-mountains.md / prose-walkthrough / [djinn, equipment, items, locations, walkthrough] / Kibombo Mountains
+240-long-swords.md / data-table / [equipment] / 
+241-staves.md / data-table / [equipment] / 
+242-armor.md / meta / [] / 
+243-armor.md / data-table / [equipment] / 
+244-clothes.md / data-table / [equipment] / 
+245-robes.md / data-table / [equipment] / 
+246-headgear.md / meta / [] / 
+247-circlets.md / data-table / [equipment] / 
+248-hats.md / meta / [] / 
+249-helms.md / data-table / [equipment] / 
+25-kibombo.md / prose-walkthrough / [djinn, equipment, items, locations, psynergy, shops, walkthrough] / Kibombo
+250-crowns.md / meta / [] / 
+251-shields.md / meta / [] / 
+252-bracelets.md / data-table / [equipment] / 
+253-gloves.md / data-table / [equipment] / 
+254-shields.md / data-table / [equipment] / 
+255-extras.md / meta / [] / 
+256-boots.md / data-table / [equipment] / 
+257-undershirts.md / meta / [] / 
+258-rings.md / data-table / [equipment] / 
+259-character-equipment-by-strength.md / data-table / [equipment] / 
+26-gathering.md / prose-walkthrough / [bosses, djinn, equipment, items, locations, psynergy, transfer, walkthrough] / Gathering
+260-char-1-suggested-for-felix-piers-isaac-garet.md / data-table / [equipment] / 
+261-char-2-suggested-for-felix-piers-isaac-garet.md / data-table / [equipment] / 
+262-char-3-suggested-for-felix-piers-isaac-garet.md / data-table / [equipment] / 
+263-char-4-suggested-for-felix-piers-isaac-garet.md / data-table / [equipment] / 
+264-char-5-suggested-for-sheba-mia.md / data-table / [equipment] / 
+265-char-6-suggested-for-sheba-mia.md / data-table / [equipment] / 
+266-char-7-suggested-for-jenna-ivan.md / data-table / [equipment] / 
+267-char-8-suggested-for-jenna-ivan.md / data-table / [equipment] / 
+268-character-equipment-by-element.md / data-table / [equipment] / 
+269-earth-adept-1-suggested-for-long-sword-users.md / data-table / [equipment] / 
+27-great-gabomba.md / prose-walkthrough / [djinn, items, locations, psynergy, walkthrough] / Great Gabomba
+270-earth-adept-2-suggested-for-long-sword-users.md / data-table / [equipment] / 
+271-earth-adept-3-suggested-for-light-blade-users.md / data-table / [equipment] / 
+272-fire-adept-1-suggested-for-staff-users.md / data-table / [equipment] / 
+273-fire-adept-2-suggested-for-long-sword-users.md / data-table / [equipment] / 
+274-fire-adept-3-suggested-for-long-sword-users.md / data-table / [equipment] / 
+275-wind-adpet-1-suggested-for-staff-users.md / data-table / [equipment] / 
+276-wind-adept-2-suggested-for-long-sword-users.md / data-table / [equipment] / 
+277-water-adept-1-suggested-for-light-blade-users.md / data-table / [equipment] / 
+278-water-adept-2-suggested-for-staff-users.md / data-table / [equipment] / 
+279-water-adept-3-suggested-for-long-sword-users.md / data-table / [equipment] / 
+28-eastern-sea-part-1.md / meta / [] / 
+280-boss-strategies.md / meta / [] / 
+281-chestbeater.md / prose-walkthrough / [bosses] / 
+282-king-scorpion.md / prose-walkthrough / [bosses] / 
+283-briggs.md / prose-walkthrough / [bosses] / 
+284-bandits.md / prose-walkthrough / [bosses] / 
+285-aqua-hydra.md / prose-walkthrough / [bosses] / 
+286-serpent.md / prose-walkthrough / [bosses] / 
+287-avimander.md / prose-walkthrough / [bosses] / 
+288-poseidon.md / prose-walkthrough / [bosses] / 
+289-moapa.md / prose-walkthrough / [bosses] / 
+29-east-indra-shore.md / prose-walkthrough / [bosses, djinn, items, locations, psynergy, walkthrough] / East Indra Shore
+290-karst-and-agatio.md / prose-walkthrough / [bosses] / 
+291-colosso-gladiators.md / prose-walkthrough / [bosses] / 
+292-flame-dragon.md / prose-walkthrough / [bosses] / 
+293-valukar.md / prose-walkthrough / [bosses] / 
+294-sentinel.md / prose-walkthrough / [bosses] / 
+295-star-magician.md / prose-walkthrough / [bosses] / 
+296-dullahan.md / prose-walkthrough / [bosses] / 
+297-doom-dragon.md / prose-walkthrough / [bosses] / 
+298-alternate-boss-strategy-1.md / prose-walkthrough / [bosses] / 
+299-tips-tricks-and-secrets.md / meta / [] / 
+30-trident-prong.md / prose-walkthrough / [items, locations, walkthrough] / Trident Prong
+300-basic-tips.md / meta / [] / 
+301-extra-modes.md / meta / [] / 
+302-level-up-tips.md / meta / [] / 
+303-location-tips.md / meta / [] / 
+304-item-tips.md / meta / [] / 
+305-battle-tips.md / meta / [] / 
+306-golden-sun-items-explained.md / meta / [] / 
+307-psynergy-tips.md / meta / [] / 
+308-frequently-asked-questions.md / meta / [] / 
+309-transfer-questions.md / meta / [] / 
+31-e-tundaria-islet.md / prose-walkthrough / [locations, walkthrough] / E Tundaria Islet
+310-general-questions.md / meta / [] / 
+311-weapon-armor-and-item-questions.md / meta / [] / 
+312-psynergy-related-questions.md / meta / [] / 
+313-guide-usage-and-hosting-questions.md / meta / [] / 
+314-bestiary.md / meta / [] / 
+315-prologue.md / data-table / [monsters] / 
+316-indra.md / data-table / [monsters] / 
+317-osenia.md / data-table / [monsters] / 
+318-gondowan.md / data-table / [monsters] / 
+319-eastern-sea.md / data-table / [monsters] / 
+32-se-angara-islet.md / prose-walkthrough / [locations, walkthrough] / SE Angara Islet
+320-western-sea.md / data-table / [monsters] / 
+321-gondowan-angara.md / data-table / [monsters] / 
+322-special-dungeons.md / data-table / [monsters] / 
+323-thanks.md / meta / [] / 
+324-legal-stuff.md / meta / [] / 
+33-yallam.md / prose-walkthrough / [equipment, items, locations, psynergy, shops, walkthrough] / Yallam
+34-taopo-swamp.md / prose-walkthrough / [djinn, equipment, items, locations, walkthrough] / Taopo Swamp
+35-apojii-islands.md / prose-walkthrough / [equipment, items, locations, shops, walkthrough] / Apojii Islands
+36-aqua-rock.md / prose-walkthrough / [equipment, items, locations, psynergy, walkthrough] / Aqua Rock
+37-aqua-rock-interior.md / prose-walkthrough / [djinn, equipment, items, locations, psynergy, walkthrough] / Aqua Rock Interior
+38-tundaria-tower.md / prose-walkthrough / [djinn, equipment, items, locations, psynergy, walkthrough] / Tundaria Tower
+39-eastern-sea-part-2.md / meta / [] / 
+40-izumo.md / prose-walkthrough / [equipment, items, locations, shops, walkthrough] / Izumo
+41-gaia-rock.md / prose-walkthrough / [bosses, djinn, equipment, items, locations, psynergy, walkthrough] / Gaia Rock
+42-izumo-again.md / prose-walkthrough / [djinn, equipment, items, locations, walkthrough] / Izumo again
+43-apojii-islands-again.md / prose-walkthrough / [djinn, equipment, items, locations, walkthrough] / Apojii Islands again
+44-n-osenia-islet.md / prose-walkthrough / [items, locations, walkthrough] / N Osenia Islet
+45-west-indra-islet.md / prose-walkthrough / [items, locations, walkthrough] / West Indra Islet
+46-alhafra-and-briggs.md / prose-walkthrough / [items, locations, walkthrough] / Alhafra and Briggs
+47-champa.md / prose-walkthrough / [bosses, equipment, items, locations, shops, transfer, walkthrough] / Champa
+48-ankohl-ruins.md / prose-walkthrough / [bosses, equipment, items, locations, psynergy, walkthrough] / Ankohl Ruins
+49-sea-of-time.md / prose-walkthrough / [bosses, items, locations, walkthrough] / Sea of Time
+50-lemuria.md / prose-walkthrough / [djinn, equipment, items, locations, psynergy, transfer, walkthrough] / Lemuria
+51-western-sea.md / meta / [] / 
+52-more-gathering.md / prose-walkthrough / [bosses, djinn, equipment, items, locations, walkthrough] / More Gathering
+53-shaman-village.md / prose-walkthrough / [bosses, djinn, equipment, items, locations, psynergy, walkthrough] / Shaman Village
+54-atteka-inlet.md / prose-walkthrough / [djinn, locations, psynergy, walkthrough] / Atteka Inlet
+55-contigo.md / prose-walkthrough / [djinn, equipment, items, locations, shops, transfer, walkthrough] / Contigo
+56-jupiter-lighthouse.md / prose-walkthrough / [bosses, djinn, equipment, items, locations, walkthrough] / Jupiter Lighthouse
+57-djinni-run.md / prose-walkthrough / [djinn, equipment, items, locations, psynergy, transfer, walkthrough] / Djinni Run
+58-the-grand-finale.md / meta / [] / 
+59-gondowan-settlement.md / prose-walkthrough / [bosses, locations, psynergy, walkthrough] / Gondowan Settlement
+60-magma-rock.md / prose-walkthrough / [djinn, items, locations, psynergy, transfer, walkthrough] / Magma Rock
+61-loho.md / prose-walkthrough / [djinn, items, locations, summons, walkthrough] / Loho
+62-prox.md / prose-walkthrough / [djinn, items, locations, transfer, walkthrough] / Prox
+63-mars-lighthouse.md / prose-walkthrough / [bosses, djinn, equipment, items, locations, psynergy, walkthrough] / Mars Lighthouse
+64-yampi-desert-cave.md / prose-walkthrough / [bosses, djinn, locations, summons, walkthrough] / Yampi Desert Cave
+65-sea-of-time-islet-cave.md / prose-walkthrough / [bosses, djinn, locations, summons, walkthrough] / Sea of Time Islet Cave
+66-treasure-isle.md / prose-walkthrough / [bosses, djinn, items, locations, psynergy, summons, transfer, walkthrough] / Treasure Isle
+67-anemos-sanctum.md / prose-walkthrough / [bosses, djinn, equipment, items, locations, transfer, walkthrough] / Anemos Sanctum
+68-the-end.md / prose-walkthrough / [bosses, locations, walkthrough] / The End
+69-walkthrough.md / meta / [] / 
+70-prologue.md / meta / [] / 
+71-venus-lighthouse.md / prose-walkthrough / [items, locations, walkthrough] / Venus Lighthouse
+72-suhalla-gate.md / prose-walkthrough / [locations, walkthrough] / Suhalla Gate
+73-indra.md / meta / [] / 
+74-daila.md / prose-walkthrough / [djinn, equipment, items, locations, psynergy, shops, walkthrough] / Daila
+75-kandorean-temple.md / prose-walkthrough / [bosses, djinn, items, locations, psynergy, walkthrough] / Kandorean Temple
+76-shrine-of-the-sea-god.md / prose-walkthrough / [bosses, djinn, locations, walkthrough] / Shrine of the Sea God
+77-dehkan-plateau.md / prose-walkthrough / [djinn, equipment, items, locations, psynergy, walkthrough] / Dehkan Plateau
+78-indra-cavern.md / prose-walkthrough / [djinn, items, locations, summons, walkthrough] / Indra Cavern
+79-madra.md / prose-walkthrough / [djinn, equipment, items, locations, psynergy, shops, walkthrough] / Madra
+80-osenia.md / meta / [] / 
+81-mikasalla.md / prose-walkthrough / [djinn, equipment, items, locations, psynergy, shops, transfer, walkthrough] / Mikasalla
+82-garoh.md / prose-walkthrough / [items, locations, shops, walkthrough] / Garoh
+83-air-s-rock-exterior.md / prose-walkthrough / [djinn, equipment, items, locations, psynergy, walkthrough] / Air's Rock Exterior
+84-air-s-rock-interior.md / prose-walkthrough / [equipment, items, locations, psynergy, summons, walkthrough] / Air's Rock Interior
+85-garoh-again.md / prose-walkthrough / [djinn, equipment, items, locations, shops, walkthrough] / Garoh again
+86-yampi-desert.md / prose-walkthrough / [bosses, djinn, equipment, items, locations, psynergy, walkthrough] / Yampi Desert
+87-alhafra.md / prose-walkthrough / [bosses, djinn, equipment, items, locations, psynergy, shops, transfer, walkthrough] / Alhafra
+88-to-gondowan.md / prose-walkthrough / [djinn, items, locations, psynergy, summons, walkthrough] / To Gondowan
+89-gondowan.md / meta / [] / 
+90-gondowan-cliffs.md / prose-walkthrough / [djinn, items, locations, walkthrough] / Gondowan Cliffs
+91-naribwe.md / prose-walkthrough / [equipment, items, locations, psynergy, shops, walkthrough] / Naribwe
+92-kibombo-mountains.md / prose-walkthrough / [djinn, equipment, items, locations, psynergy, walkthrough] / Kibombo Mountains
+93-kibombo.md / prose-walkthrough / [djinn, equipment, items, locations, psynergy, shops, walkthrough] / Kibombo
+94-gathering.md / prose-walkthrough / [bosses, djinn, equipment, items, locations, psynergy, summons, transfer, walkthrough] / Gathering
+95-great-gabomba.md / prose-walkthrough / [bosses, djinn, items, locations, psynergy, walkthrough] / Great Gabomba
+96-eastern-sea-part-1.md / meta / [] / 
+97-east-indra-shore.md / prose-walkthrough / [bosses, djinn, equipment, items, locations, psynergy, walkthrough] / East Indra Shore
+98-trident-prong.md / prose-walkthrough / [djinn, items, locations, walkthrough] / Trident Prong
+99-e-tundaria-islet.md / prose-walkthrough / [items, locations, psynergy, walkthrough] / E Tundaria Islet
