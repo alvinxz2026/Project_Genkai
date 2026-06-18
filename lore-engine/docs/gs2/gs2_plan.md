@@ -37,9 +37,10 @@ GS2 和 GS1 共用同一套管线、同一个仓库，按 `gs2` 命名空间分�
 |---|---|---|
 | **0. Kickoff** | 建 gs2 命名空间脚手架 + 这份 meta plan | ✅ 完成 2026-06-17 |
 | **1. Idea / 范围** | 想清楚 gs2 要覆盖哪些实体、做成什么应用（可参考 gs1 的 11 实体起步） | ⬜ 待 review |
-| **2. Raw 收集 + 标注** | 收齐 GameFAQs 源到 `raw/gs2/`，每篇加 frontmatter（见 §3）；建源清单/索引 | ⬜ 你主导，未开始 |
+| **2. Raw 收集 + 标注** | 收齐 GameFAQs 源到 `raw/gs2/`，每篇加 frontmatter（见 §3）；建源清单/索引 | 🔄 进行中：10 篇 walkthrough + 目录页已收+标注，索引 `gs2_sources.md` 已建；专项源待补 |
 | **3. Design — schema** | 以 `gs1_schema.md` 为模板写 `gs2_schema.md`（含 Master Source IDs 表） | ⬜ 未开始 |
-| **4. 提取 + 连图** | `extract.py --game gs2` 逐实体提；播种继承数据；跑 normalize→audit | ⬜ 未开始 |
+| **3.5 Extraction plan** | 下一轮补全专项源 frontmatter 后，专门讨论各类数据怎么提取、每个实体/源用 Gemini 还是 Claude Code（见 §4 已定 + 待定） | ⬜ 下一轮 |
+| **4. 提取 + 连图** | 逐实体提（agent 驱动，extract.py 为 fallback）；播种继承数据；跑 normalize→audit（纯 Python，免费） | ⬜ 未开始 |
 | **5. 应用层** | 复用/扩展 codex 等（gs2 版或合并版） | ⬜ 远期 |
 
 > 勾选用 ⬜/🔄/✅。每推进一块就回来改这张表 + §5 日志。
@@ -49,13 +50,23 @@ GS2 和 GS1 共用同一套管线、同一个仓库，按 `gs2` 命名空间分�
 ## 3. Raw 收集 + 标注规范（你的主战场）
 
 目标：收集阶段就把「作者 / 这份强在哪 / 能喂给哪个实体」标清楚，让 gs2 比 gs1 更 organized。
-这些标注最终会誊进 `gs2_schema.md` 的 Master Source IDs 表，是 `extract.py` 的输入。
+这些标注最终会誊进 `gs2_schema.md` 的 Master Source IDs 表，作为提取的源映射（agent 或 extract.py 都按它定位源文件，见 §4）。
 
 **工作分工**：frontmatter **你收集时先手动加最小集**（id/author/url/type），
 其余（`covers` 打标、`summary`）**我后面可代你补全**——我可以读完每篇后回填 `covers` 和一句话 `summary`。
 
 **存放**：每个源存成 `raw/gs2/<描述性文件名>.md`（统一 `.md` 以便带 frontmatter；
 extract.py 同时认 `.txt`/`.md`）。文件名建议 `<内容> - <作者>.md`，沿用 gs1 习惯。
+
+**正文处理铁律（2026-06-17 定）**：raw 正文**不整理、不重排、不物理拆分**——raw 是
+不可变源，结构在提取阶段才按 schema 赋予。超长 walkthrough 靠**标准化 TOC 做定向读取**
+（每篇用 `## TABLE OF CONTENTS` … `END OF TABLE OF CONTENTS` 包裹），提取时按 TOC 章节
+锚点只把相关段落喂给对应实体，省 token 又保持 raw 不可变。
+
+**covers 词表（gs2 版）**：沿用 gs1 的 11 实体 + `walkthrough`，新增 3 个 gs2 机制 tag：
+`transfer`（GS1→GS2 linkage/password/transfer events）、`forging`（Sunshine 铁匠/锈蚀武器/
+稀有材料锻造）、`mechanics`（战斗系统/djinn 用法/属性/RNG 等 basics）。石板/组合召唤归
+`summons`(数值) + `locations`/`walkthrough`(获取)。词表非封闭，写 schema 时可再加。
 
 **frontmatter 模板**（已纳入你的反馈：catch-all type、quality 默认、summary 可后补）：
 
@@ -76,13 +87,28 @@ notes:                       # 可选，一句话：强在哪 / 坑在哪
 <原文照抄，不改正文>
 ```
 
-**收齐后**：我会建一份 `docs/gs2/gs2_sources.md` 作总索引——把所有 raw 文件链在一起
-（作者 / type / covers / 链接 / 指回相关 docs），给你一个一览 + 「formal project」的目录感。
-（清单的空表头我先放在那个文件里，你可以边收边填。）
+**总索引**：[`docs/gs2/gs2_sources.md`](gs2_sources.md) 已建——把已收的 10 篇 walkthrough +
+目录页链在一起（source_id / 作者 / 版本年份 / quality / covers / 链接 / summary），
+并附"候选 / 未收集"区列出目录页里的专项 In-Depth Guides（Terence、torrentlord 等），便于按需补齐。
+新收一个源就登记进去。
 
 ---
 
 ## 4. 待定决策（动手前再拍板，先不展开）
+
+> **已定（2026-06-17）**：
+> - raw 是否预处理 → **不预处理**（正文不整理/不拆分，见 §3 铁律）；covers 词表见 §3。
+> - **提取走 subscription / agent，不依赖 `extract.py`(API)**：走 API 按 token 计费，比已付的
+>   subscription plan 更贵。所以 raw→JSON 提取由 agent 跑（Claude Code 和/或 Gemini CLI，
+>   按源大小分工），沿用 gs1 巨型 walkthrough 的"子代理批量提取"先例（见
+>   `docs/gs1/gs1_walkthrough_extraction_plan.md`）。`extract.py` **降级为可选 fallback**
+>   （某个小实体懒得开 agent 时用，API 成本几分钱）。
+>   - 推论：`gs2_schema.md` 仍是核心 spec（无论谁执行都按它产出，字段/0-vs-null/`sources[]`/
+>     冲突标记不变）；下游 `links_normalize→audit→build_codex` 是纯 Python、零 LLM 成本不受影响；
+>     extract.py 不扫子文件夹这点也不再绑文件夹结构。
+>   - **待定**：每个实体/源具体用 Gemini 还是 Claude Code → 下一轮 frontmatter 补全后，
+>     专门做一份 **extraction plan** 讨论（见 §2 阶段 3.5）。
+
 
 1. **半通用脚本怎么复用**：`links_normalize` / `links_audit` / `locations_refs` / `build_codex`
    现在 gs1 写死。走 (A) 参数化共用 还是 (B) fork 一份？倾向 A 但「等 gs2 实体定了再抽」。
@@ -98,3 +124,5 @@ notes:                       # 可选，一句话：强在哪 / 坑在哪
 | 日期 | 进展 |
 |---|---|
 | 2026-06-17 | Kickoff：建 `raw/gs2` `data/gs2` `docs/gs2` 脚手架 + `schema/gs2_schema.md` 骨架 + 这份 meta plan。待用户 review/annotate。 |
+| 2026-06-17 | Raw 标注：收 10 篇 walkthrough + 目录页；补全 frontmatter(短 source_id/covers/summary)；定"正文不整理/不拆分、用 TOC 定向读"铁律 + gs2 covers 词表(新增 transfer/forging/mechanics)；建总索引 `gs2_sources.md`(含候选专项源)。正文零改动。 |
+| 2026-06-17 | 定提取路线：**走 subscription/agent(Claude Code 和/或 Gemini)，不依赖 extract.py(API，更贵)**，extract.py 降级 fallback；schema 仍是核心 spec，下游 Python 连图免费。加阶段 3.5「Extraction plan」——下一轮补全专项源 frontmatter 后专门讨论各类数据怎么提取、每实体用谁。 |
