@@ -1,0 +1,693 @@
+[
+  {
+    "id": "venus",
+    "name": "Venus",
+    "element": "earth",
+    "game": "gs2",
+    "is_combo": false,
+    "djinn_required": 1,
+    "djinn_recipe": null,
+    "raises_power": 10,
+    "damage_power": 30,
+    "damage_hp_mod": 0.03,
+    "range": 6,
+    "effect": "---",
+    "acquisition": null,
+    "sources": [
+      "cooldude345"
+    ]
+  },
+  {
+    "id": "ramses",
+    "name": "Ramses",
+    "element": "earth",
+    "game": "gs2",
+    "is_combo": false,
+    "djinn_required": 2,
+    "djinn_recipe": null,
+    "raises_power": 30,
+    "damage_power": 60,
+    "damage_hp_mod": 0.06,
+    "range": 6,
+    "effect": "---",
+    "acquisition": null,
+    "sources": [
+      "cooldude345"
+    ]
+  },
+  {
+    "id": "cybele",
+    "name": "Cybele",
+    "element": "earth",
+    "game": "gs2",
+    "is_combo": false,
+    "djinn_required": 3,
+    "djinn_recipe": null,
+    "raises_power": 60,
+    "damage_power": 120,
+    "damage_hp_mod": 0.09,
+    "range": 6,
+    "effect": "---",
+    "acquisition": null,
+    "sources": [
+      "cooldude345"
+    ]
+  },
+  {
+    "id": "judgement",
+    "name": "Judgement",
+    "element": "earth",
+    "game": "gs2",
+    "is_combo": false,
+    "djinn_required": 4,
+    "djinn_recipe": null,
+    "raises_power": 90,
+    "damage_power": 240,
+    "damage_hp_mod": 0.12,
+    "range": 6,
+    "effect": "---",
+    "acquisition": null,
+    "sources": [
+      "cooldude345"
+    ]
+  },
+  {
+    "id": "mars",
+    "name": "Mars",
+    "element": "fire",
+    "game": "gs2",
+    "is_combo": false,
+    "djinn_required": 1,
+    "djinn_recipe": null,
+    "raises_power": 10,
+    "damage_power": 30,
+    "damage_hp_mod": 0.03,
+    "range": 6,
+    "effect": "---",
+    "acquisition": null,
+    "sources": [
+      "cooldude345"
+    ]
+  },
+  {
+    "id": "kirin",
+    "name": "Kirin",
+    "element": "fire",
+    "game": "gs2",
+    "is_combo": false,
+    "djinn_required": 2,
+    "djinn_recipe": null,
+    "raises_power": 30,
+    "damage_power": 60,
+    "damage_hp_mod": 0.06,
+    "range": 6,
+    "effect": "---",
+    "acquisition": null,
+    "sources": [
+      "cooldude345"
+    ]
+  },
+  {
+    "id": "tiamat",
+    "name": "Tiamat",
+    "element": "fire",
+    "game": "gs2",
+    "is_combo": false,
+    "djinn_required": 3,
+    "djinn_recipe": null,
+    "raises_power": 60,
+    "damage_power": 120,
+    "damage_hp_mod": 0.09,
+    "range": 6,
+    "effect": "---",
+    "acquisition": null,
+    "sources": [
+      "cooldude345"
+    ]
+  },
+  {
+    "id": "meteor",
+    "name": "Meteor",
+    "element": "fire",
+    "game": "gs2",
+    "is_combo": false,
+    "djinn_required": 4,
+    "djinn_recipe": null,
+    "raises_power": 90,
+    "damage_power": 240,
+    "damage_hp_mod": 0.12,
+    "range": 6,
+    "effect": "---",
+    "acquisition": null,
+    "sources": [
+      "cooldude345"
+    ]
+  },
+  {
+    "id": "mercury",
+    "name": "Mercury",
+    "element": "water",
+    "game": "gs2",
+    "is_combo": false,
+    "djinn_required": 1,
+    "djinn_recipe": null,
+    "raises_power": 10,
+    "damage_power": 30,
+    "damage_hp_mod": 0.03,
+    "range": 6,
+    "effect": "---",
+    "acquisition": null,
+    "sources": [
+      "cooldude345"
+    ]
+  },
+  {
+    "id": "nereid",
+    "name": "Nereid",
+    "element": "water",
+    "game": "gs2",
+    "is_combo": false,
+    "djinn_required": 2,
+    "djinn_recipe": null,
+    "raises_power": 30,
+    "damage_power": 60,
+    "damage_hp_mod": 0.06,
+    "range": 6,
+    "effect": "---",
+    "acquisition": null,
+    "sources": [
+      "cooldude345"
+    ]
+  },
+  {
+    "id": "neptune",
+    "name": "Neptune",
+    "element": "water",
+    "game": "gs2",
+    "is_combo": false,
+    "djinn_required": 3,
+    "djinn_recipe": null,
+    "raises_power": 60,
+    "damage_power": 120,
+    "damage_hp_mod": 0.09,
+    "range": 6,
+    "effect": "---",
+    "acquisition": null,
+    "sources": [
+      "cooldude345"
+    ]
+  },
+  {
+    "id": "boreas",
+    "name": "Boreas",
+    "element": "water",
+    "game": "gs2",
+    "is_combo": false,
+    "djinn_required": 4,
+    "djinn_recipe": null,
+    "raises_power": 90,
+    "damage_power": 240,
+    "damage_hp_mod": 0.12,
+    "range": 6,
+    "effect": "---",
+    "acquisition": null,
+    "sources": [
+      "cooldude345"
+    ]
+  },
+  {
+    "id": "jupiter",
+    "name": "Jupiter",
+    "element": "wind",
+    "game": "gs2",
+    "is_combo": false,
+    "djinn_required": 1,
+    "djinn_recipe": null,
+    "raises_power": 10,
+    "damage_power": 30,
+    "damage_hp_mod": 0.03,
+    "range": 6,
+    "effect": "---",
+    "acquisition": null,
+    "sources": [
+      "cooldude345"
+    ]
+  },
+  {
+    "id": "atalanta",
+    "name": "Atalanta",
+    "element": "wind",
+    "game": "gs2",
+    "is_combo": false,
+    "djinn_required": 2,
+    "djinn_recipe": null,
+    "raises_power": 30,
+    "damage_power": 60,
+    "damage_hp_mod": 0.06,
+    "range": 6,
+    "effect": "---",
+    "acquisition": null,
+    "sources": [
+      "cooldude345"
+    ]
+  },
+  {
+    "id": "procne",
+    "name": "Procne",
+    "element": "wind",
+    "game": "gs2",
+    "is_combo": false,
+    "djinn_required": 3,
+    "djinn_recipe": null,
+    "raises_power": 60,
+    "damage_power": 120,
+    "damage_hp_mod": 0.09,
+    "range": 6,
+    "effect": "---",
+    "acquisition": null,
+    "sources": [
+      "cooldude345"
+    ]
+  },
+  {
+    "id": "thor",
+    "name": "Thor",
+    "element": "wind",
+    "game": "gs2",
+    "is_combo": false,
+    "djinn_required": 4,
+    "djinn_recipe": null,
+    "raises_power": 90,
+    "damage_power": 240,
+    "damage_hp_mod": 0.12,
+    "range": 6,
+    "effect": "---",
+    "acquisition": null,
+    "sources": [
+      "cooldude345"
+    ]
+  },
+  {
+    "id": "zagan",
+    "name": "Zagan",
+    "element": "earth",
+    "game": "gs2",
+    "is_combo": true,
+    "djinn_required": null,
+    "djinn_recipe": [
+      {
+        "element": "earth",
+        "count": 1
+      },
+      {
+        "element": "fire",
+        "count": 1
+      }
+    ],
+    "raises_power": null,
+    "damage_power": 50,
+    "damage_hp_mod": 0.06,
+    "range": 6,
+    "effect": "-25% Defense : 50% Max",
+    "acquisition": {
+      "location": null,
+      "found_at": "Cave south of Dehkan Plateau",
+      "source": "cooldude345"
+    },
+    "sources": [
+      "cooldude345"
+    ]
+  },
+  {
+    "id": "haures",
+    "name": "Haures",
+    "element": "earth",
+    "game": "gs2",
+    "is_combo": true,
+    "djinn_required": null,
+    "djinn_recipe": [
+      {
+        "element": "earth",
+        "count": 3
+      },
+      {
+        "element": "fire",
+        "count": 2
+      }
+    ],
+    "raises_power": null,
+    "damage_power": 270,
+    "damage_hp_mod": 0.15,
+    "range": 6,
+    "effect": "Inflict 'Deadly Poison'",
+    "acquisition": {
+      "location": null,
+      "found_at": "Cave northwest of Loho",
+      "source": "cooldude345"
+    },
+    "sources": [
+      "cooldude345"
+    ]
+  },
+  {
+    "id": "charon",
+    "name": "Charon",
+    "element": "earth",
+    "game": "gs2",
+    "is_combo": true,
+    "djinn_required": null,
+    "djinn_recipe": [
+      {
+        "element": "earth",
+        "count": 8
+      },
+      {
+        "element": "wind",
+        "count": 2
+      }
+    ],
+    "raises_power": null,
+    "damage_power": 500,
+    "damage_hp_mod": 0.3,
+    "range": 6,
+    "effect": "Inflict 'Downed'",
+    "acquisition": {
+      "location": null,
+      "found_at": "Walk into the Anemos Sanctum Inner Chamber to see it.",
+      "source": "cooldude345"
+    },
+    "sources": [
+      "cooldude345"
+    ]
+  },
+  {
+    "id": "megaera",
+    "name": "Megaera",
+    "element": "fire",
+    "game": "gs2",
+    "is_combo": true,
+    "djinn_required": null,
+    "djinn_recipe": [
+      {
+        "element": "fire",
+        "count": 1
+      },
+      {
+        "element": "wind",
+        "count": 1
+      }
+    ],
+    "raises_power": null,
+    "damage_power": 40,
+    "damage_hp_mod": 0.06,
+    "range": 6,
+    "effect": "+12.5% Attack (Party Only) : 50% Max",
+    "acquisition": {
+      "location": null,
+      "found_at": "Cave by Mikasilla",
+      "source": "cooldude345"
+    },
+    "sources": [
+      "cooldude345"
+    ]
+  },
+  {
+    "id": "daedalus",
+    "name": "Daedalus",
+    "element": "fire",
+    "game": "gs2",
+    "is_combo": true,
+    "djinn_required": null,
+    "djinn_recipe": [
+      {
+        "element": "earth",
+        "count": 3
+      },
+      {
+        "element": "fire",
+        "count": 4
+      }
+    ],
+    "raises_power": null,
+    "damage_power": 100,
+    "damage_hp_mod": 0.07,
+    "range": 6,
+    "effect": "At End of Next Turn, Missile is used",
+    "acquisition": {
+      "location": null,
+      "found_at": "Yampi Desert Cave, Defeat Bullrog",
+      "source": "cooldude345"
+    },
+    "sources": [
+      "cooldude345"
+    ]
+  },
+  {
+    "id": "ulysses",
+    "name": "Ulysses",
+    "element": "fire",
+    "game": "gs2",
+    "is_combo": true,
+    "djinn_required": null,
+    "djinn_recipe": [
+      {
+        "element": "water",
+        "count": 2
+      },
+      {
+        "element": "fire",
+        "count": 2
+      }
+    ],
+    "raises_power": null,
+    "damage_power": 160,
+    "damage_hp_mod": 0.12,
+    "range": 6,
+    "effect": "Target cannot move for next Action",
+    "acquisition": {
+      "location": null,
+      "found_at": "Cave by Izumo",
+      "source": "cooldude345"
+    },
+    "sources": [
+      "cooldude345"
+    ]
+  },
+  {
+    "id": "iris",
+    "name": "Iris",
+    "element": "fire",
+    "game": "gs2",
+    "is_combo": true,
+    "djinn_required": null,
+    "djinn_recipe": [
+      {
+        "element": "fire",
+        "count": 9
+      },
+      {
+        "element": "water",
+        "count": 4
+      }
+    ],
+    "raises_power": null,
+    "damage_power": 800,
+    "damage_hp_mod": 0.4,
+    "range": 6,
+    "effect": "**Revives all 'Downed' and Restores HP",
+    "acquisition": {
+      "location": null,
+      "found_at": "Anemos Sanctum, Defeat Dullahan",
+      "source": "cooldude345"
+    },
+    "sources": [
+      "cooldude345"
+    ]
+  },
+  {
+    "id": "coatlicue",
+    "name": "Coatlicue",
+    "element": "water",
+    "game": "gs2",
+    "is_combo": true,
+    "djinn_required": null,
+    "djinn_recipe": [
+      {
+        "element": "water",
+        "count": 3
+      },
+      {
+        "element": "wind",
+        "count": 3
+      }
+    ],
+    "raises_power": null,
+    "damage_power": null,
+    "damage_hp_mod": null,
+    "range": "all",
+    "effect": "*Curative Spell Only, Inflict 'Regen'",
+    "acquisition": {
+      "location": null,
+      "found_at": "Cave Southwest of Contigo",
+      "source": "cooldude345"
+    },
+    "sources": [
+      "cooldude345"
+    ]
+  },
+  {
+    "id": "moloch",
+    "name": "Moloch",
+    "element": "water",
+    "game": "gs2",
+    "is_combo": true,
+    "djinn_required": null,
+    "djinn_recipe": [
+      {
+        "element": "water",
+        "count": 2
+      },
+      {
+        "element": "wind",
+        "count": 1
+      }
+    ],
+    "raises_power": null,
+    "damage_power": 100,
+    "damage_hp_mod": 0.09,
+    "range": 6,
+    "effect": "-50% Agility : 50% Max",
+    "acquisition": {
+      "location": null,
+      "found_at": "Inside Madra Catacombs",
+      "source": "cooldude345"
+    },
+    "sources": [
+      "cooldude345"
+    ]
+  },
+  {
+    "id": "azul",
+    "name": "Azul",
+    "element": "water",
+    "game": "gs2",
+    "is_combo": true,
+    "djinn_required": null,
+    "djinn_recipe": [
+      {
+        "element": "earth",
+        "count": 3
+      },
+      {
+        "element": "water",
+        "count": 4
+      }
+    ],
+    "raises_power": null,
+    "damage_power": 330,
+    "damage_hp_mod": 0.21,
+    "range": 6,
+    "effect": "Inflict 'Stun'",
+    "acquisition": {
+      "location": null,
+      "found_at": "Treasure Island, Defeat Star Magician",
+      "source": "cooldude345"
+    },
+    "sources": [
+      "cooldude345"
+    ]
+  },
+  {
+    "id": "flora",
+    "name": "Flora",
+    "element": "wind",
+    "game": "gs2",
+    "is_combo": true,
+    "djinn_required": null,
+    "djinn_recipe": [
+      {
+        "element": "earth",
+        "count": 1
+      },
+      {
+        "element": "wind",
+        "count": 2
+      }
+    ],
+    "raises_power": null,
+    "damage_power": 80,
+    "damage_hp_mod": 0.09,
+    "range": 6,
+    "effect": "Inflict 'Sleep'",
+    "acquisition": {
+      "location": null,
+      "found_at": "Inside Air's Rock",
+      "source": "cooldude345"
+    },
+    "sources": [
+      "cooldude345"
+    ]
+  },
+  {
+    "id": "eclipse",
+    "name": "Eclipse",
+    "element": "wind",
+    "game": "gs2",
+    "is_combo": true,
+    "djinn_required": null,
+    "djinn_recipe": [
+      {
+        "element": "water",
+        "count": 2
+      },
+      {
+        "element": "wind",
+        "count": 3
+      }
+    ],
+    "raises_power": null,
+    "damage_power": 300,
+    "damage_hp_mod": 0.15,
+    "range": 6,
+    "effect": "-25% Attack : 50% Max",
+    "acquisition": {
+      "location": null,
+      "found_at": "Win the Lucky Medal game in Lemuria.",
+      "source": "cooldude345"
+    },
+    "sources": [
+      "cooldude345"
+    ]
+  },
+  {
+    "id": "catastrophe",
+    "name": "Catastrophe",
+    "element": "wind",
+    "game": "gs2",
+    "is_combo": true,
+    "djinn_required": null,
+    "djinn_recipe": [
+      {
+        "element": "fire",
+        "count": 3
+      },
+      {
+        "element": "wind",
+        "count": 5
+      }
+    ],
+    "raises_power": null,
+    "damage_power": 400,
+    "damage_hp_mod": 0.24,
+    "range": 6,
+    "effect": "Reduce Target's PP by 10% of Max PP",
+    "acquisition": {
+      "location": null,
+      "found_at": "Islet Cave, Defeat Sentinal",
+      "source": "cooldude345"
+    },
+    "sources": [
+      "cooldude345"
+    ]
+  }
+]

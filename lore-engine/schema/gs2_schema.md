@@ -27,6 +27,8 @@ merged. Restate or amend here once gs2-specific rules emerge.
 | `super-slash` | `raw/gs2/Guide and Walkthrough/Guide and Walkthrough by Super_Slash.md` | Super_Slash | walkthrough, monsters, items, equipment, … (general) |
 | `mr-unorigino-item` | `raw/gs2/In-Depth Guides/Item List by Mr_UnOrigino.md` | Mr_UnOrigino | equipment, items |
 | `link-kirby-boss` | `raw/gs2/In-Depth Guides/Boss Guide by Link_Kirby.md` | Link_Kirby | bosses |
+| `demooni` | `raw/gs2/In-Depth Guides/Djinni Stat Boosts Guide by Demooni.md` | Demooni | djinn, locations |
+| `cooldude345` | `raw/gs2/In-Depth Guides/Summons FAQ by cooldude345.md` | cooldude345 | summons, djinn |
 
 > More rows are added per entity as extraction proceeds. The full per-source map
 > lives in `docs/gs2/gs2_sources.md`; only rows for entities being extracted need
@@ -356,3 +358,120 @@ conflicts            array of object   NO         Cross-source disagreements. Sa
 4. The strategy sidecar is the only hand-authored input; everything else is
    deterministic. Add more boss guides (goldmario-boss, rena-chan-hardboss) by
    merging into the sidecar + appending to `sources`. Do not invent data.
+
+---
+
+## Schema: `djinn`
+
+One entry per Djinni available in GS2 — all **72** (4 elements x 18). Per the ER
+sketch's transfer convention, a Djinni's `game` is where it *first* appeared:
+each element has 11 TLA djinn (`game: "gs2"`) and 7 GS1 djinn (`game: "gs1"`,
+brought in via transfer / re-found), so gs2's `djinn.json` legitimately includes
+the GS1 ones — they are re-extracted from a gs2 source (demooni), not imported
+from `data/gs1`.
+
+File: `data/gs2/djinn.json`
+
+Primary source — `demooni` (`Djinni Stat Boosts Guide`), a single clean source
+giving element + stat boosts + acquisition. Extracted deterministically by
+`scripts/djinn_extract_gs2.py`. The `---` split in demooni's section 2 is exactly
+the TLA/GS1 (gs2/gs1) boundary. Element mapping: Venus=earth, Mercury=water,
+Mars=fire, Jupiter=wind.
+
+```
+Field               Type              Required   Notes
+---------------------------------------------------------------------------
+id                  string            YES        Lowercase name. e.g. "flint", "echo"
+name                string            YES        Display name. e.g. "Flint"
+element             string            YES        "earth" | "fire" | "wind" | "water"
+game                string            YES        "gs2" (TLA-native) | "gs1" (transferred).
+                                                 From demooni's `---` group split.
+stat_bonus          object            YES        Permanent boosts when set. demooni columns
+                                                 "HP PP STR DEF AGL LCK" (STR->atk); "---" -> 0.
+  .hp/.pp/.atk/.def/.agi/.lck  integer YES        0 = confirmed none (table is exhaustive).
+battle_effect       object | null     YES        Unleash effect (damage/range/special). Deferred
+                                                 (null) — not in demooni; from a mechanics source later.
+location            object | null     YES        Acquisition. null for the 28 GS1 djinn (no TLA
+                                                 location in demooni).
+  .area             string | null     YES        Clean location name for the locations FK. Deferred
+                                                 (null) — demooni gives prose only.
+  .description      string            YES        demooni's acquisition prose (verbatim).
+  .source           string            YES        "demooni".
+must_fight          boolean | null    YES        true if won in battle (demooni "*FIGHT*" tag).
+                                                 null for GS1 djinn (no location entry).
+sources             array of string   YES        ["demooni"].
+conflicts           array of object   NO         Cross-source disagreements. Same shape as gs1.
+```
+
+### Notes for CC (Extraction Instructions)
+
+1. **Single clean source**: demooni alone covers element + boosts + location +
+   must_fight. `aspartate-djinn` / `android50` are optional cross-validation /
+   `location.area` enrichment for later (deferred), not needed for this slice.
+2. **The `---` split = game**: each element lists 11 TLA (gs2) djinn, then `---`,
+   then 7 GS1 (gs1) djinn. Reset to gs2 at each element header.
+3. **Deferred**: `battle_effect`, `location.area`, and the `monsters.djinn_id`
+   back-fill (the future gs2 `links_normalize`'s job — note: monsters lists 27
+   djinn-enemies vs demooni's 26 `*FIGHT*` tags; reconcile at link time).
+4. Do not invent data.
+
+---
+
+## Schema: `summons`
+
+One entry per summon — **29** total: the 16 standard summons (4 per element,
+needing N same-element djinn) plus 13 multi-element **combo** summons from tablets
+(per the ER sketch's gs2 increment: combos get a cross-element `djinn_recipe` +
+`acquisition`).
+
+File: `data/gs2/summons.json`
+
+Primary source — `cooldude345` (`Summons FAQ`). Extracted deterministically by
+`scripts/summons_extract_gs2.py`, which merges two of its tables by summon name:
+section VII "Summons Stats" (from Terence Fergusson: damage element, Base, HP%,
+range, special) and section V "Summons" (djinn requirement / combo recipe /
+Found-At). Element codes: E=earth, W=water, F=fire, A=wind; recipe element names
+Venus/Mercury/Mars/Jupiter map the same way.
+
+```
+Field            Type               Required   Notes
+---------------------------------------------------------------------------
+id               string             YES        Lowercase name. e.g. "judgement", "charon"
+name             string             YES        Source spelling. e.g. "Judgement"
+element          string             YES        Damage element (VII "Elm" column).
+game             string             YES        Always "gs2".
+is_combo         boolean            YES        true for the 13 multi-element tablet summons.
+djinn_required   integer | null     YES        Standard summons: N same-element djinn (1-4).
+                                               null for combos.
+djinn_recipe     array | null       YES        Combos: [{element, count}] cross-element recipe.
+                                               null for standard summons.
+  [].element     string             YES        "earth" | "fire" | "wind" | "water"
+  [].count       integer            YES        Djinn of that element required.
+raises_power     integer | null     YES        Elemental Power boost after summoning (standard
+                                               only, from section V). null for combos.
+damage_power     integer | null     YES        VII "Base" damage. null for Coatlicue (curative).
+damage_hp_mod    float | null       YES        VII "HP%" / 100 (e.g. 12 -> 0.12). null if curative.
+range            integer | string   YES        VII range: radius int (6) or "all".
+effect           string | null      YES        VII "Special" (status/buff/curative text). null if "---".
+acquisition      object | null      YES        Combos only (standard are available from the start).
+  .location      string | null      YES        Clean location name (locations FK). Deferred (null).
+  .found_at      string             YES        cooldude's Found-At prose (verbatim).
+  .source        string             YES        "cooldude345".
+sources          array of string    YES        ["cooldude345"] (stats via Terence Fergusson).
+conflicts        array of object    NO         Same shape as gs1.
+```
+
+### Notes for CC (Extraction Instructions)
+
+1. **Merge VII + V by name**: VII has the numbers (damage element/Base/HP%/range/
+   special), V has the djinn requirement (standard) or recipe + Found-At (combo).
+2. **Combo damage element vs recipe**: VII lists each combo under its *damage*
+   element (e.g. Charon under EARTH) while its `djinn_recipe` is cross-element
+   (8 Venus + 2 Jupiter). Keep both — `element` = damage element.
+3. **Coatlicue** is curative (VII Base code "c"): `damage_power`/`damage_hp_mod`
+   null, effect notes the heal/Regen. `<Missile>` is Daedalus' sub-attack, not a
+   summon — skip it.
+4. **Deferred / cross-source**: `acquisition.location` clean name (prose only);
+   note cooldude calls Valukar "Bullrog" and Sentinel "Sentinal" — reconcile with
+   `bosses` at link time. `dbfire` is an optional 2nd source for tablet sidequests.
+5. Do not invent data.
