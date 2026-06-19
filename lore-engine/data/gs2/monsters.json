@@ -44,6 +44,8 @@
       "items": [
         {
           "name": "Herb",
+          "ref_type": "item",
+          "ref_id": "herb",
           "icc": 1
         }
       ]
@@ -98,6 +100,8 @@
       "items": [
         {
           "name": "Smoke Bomb",
+          "ref_type": null,
+          "ref_id": null,
           "icc": 6
         }
       ]
@@ -153,6 +157,8 @@
       "items": [
         {
           "name": "Herb",
+          "ref_type": "item",
+          "ref_id": "herb",
           "icc": 5
         }
       ]
@@ -209,6 +215,8 @@
       "items": [
         {
           "name": "Herb",
+          "ref_type": "item",
+          "ref_id": "herb",
           "icc": 5
         }
       ]
@@ -265,6 +273,8 @@
       "items": [
         {
           "name": "Game Ticket",
+          "ref_type": null,
+          "ref_id": null,
           "icc": 1
         }
       ]
@@ -321,6 +331,8 @@
       "items": [
         {
           "name": "Elixir",
+          "ref_type": "item",
+          "ref_id": "elixir",
           "icc": 6
         }
       ]
@@ -374,6 +386,8 @@
       "items": [
         {
           "name": "Oil Drop",
+          "ref_type": null,
+          "ref_id": null,
           "icc": 5
         }
       ]
@@ -390,7 +404,7 @@
     "is_boss": false,
     "boss_id": null,
     "is_djinn_enemy": true,
-    "djinn_id": null,
+    "djinn_id": "fog",
     "found": [
       "Kandorean Temple"
     ],
@@ -438,7 +452,7 @@
     "game": "gs2",
     "variant": null,
     "is_boss": true,
-    "boss_id": null,
+    "boss_id": "chestbeater",
     "is_djinn_enemy": false,
     "djinn_id": null,
     "found": [
@@ -478,6 +492,8 @@
       "items": [
         {
           "name": "Nut",
+          "ref_type": "item",
+          "ref_id": "nut",
           "icc": 1
         }
       ]
@@ -533,6 +549,8 @@
       "items": [
         {
           "name": "Oil Drop",
+          "ref_type": null,
+          "ref_id": null,
           "icc": 5
         }
       ]
@@ -549,7 +567,7 @@
     "is_boss": false,
     "boss_id": null,
     "is_djinn_enemy": true,
-    "djinn_id": null,
+    "djinn_id": "breath",
     "found": [
       "Shrine of the Sea God"
     ],
@@ -639,6 +657,8 @@
       "items": [
         {
           "name": "Herb",
+          "ref_type": "item",
+          "ref_id": "herb",
           "icc": 5
         }
       ]
@@ -693,6 +713,8 @@
       "items": [
         {
           "name": "Sleep Bomb",
+          "ref_type": null,
+          "ref_id": null,
           "icc": 5
         }
       ]
@@ -748,6 +770,8 @@
       "items": [
         {
           "name": "Smoke Bomb",
+          "ref_type": null,
+          "ref_id": null,
           "icc": 5
         }
       ]
@@ -764,7 +788,7 @@
     "is_boss": false,
     "boss_id": null,
     "is_djinn_enemy": true,
-    "djinn_id": null,
+    "djinn_id": "cannon",
     "found": [
       "Dehkan Plateau"
     ],
@@ -853,6 +877,8 @@
       "items": [
         {
           "name": "Nut",
+          "ref_type": "item",
+          "ref_id": "nut",
           "icc": 6
         }
       ]
@@ -906,6 +932,8 @@
       "items": [
         {
           "name": "Smoke Bomb",
+          "ref_type": null,
+          "ref_id": null,
           "icc": 6
         }
       ]
@@ -959,6 +987,8 @@
       "items": [
         {
           "name": "Herb",
+          "ref_type": "item",
+          "ref_id": "herb",
           "icc": 6
         }
       ]
@@ -975,7 +1005,7 @@
     "is_boss": false,
     "boss_id": null,
     "is_djinn_enemy": true,
-    "djinn_id": null,
+    "djinn_id": "iron",
     "found": [
       "World Map B"
     ],
@@ -1062,6 +1092,8 @@
       "items": [
         {
           "name": "Elixir",
+          "ref_type": "item",
+          "ref_id": "elixir",
           "icc": 5
         }
       ]
@@ -1117,6 +1149,8 @@
       "items": [
         {
           "name": "Oil Drop",
+          "ref_type": null,
+          "ref_id": null,
           "icc": 5
         }
       ]
@@ -1172,6 +1206,8 @@
       "items": [
         {
           "name": "Herb",
+          "ref_type": "item",
+          "ref_id": "herb",
           "icc": 5
         }
       ]
@@ -1226,6 +1262,8 @@
       "items": [
         {
           "name": "Weasel's Claw",
+          "ref_type": null,
+          "ref_id": null,
           "icc": 6
         }
       ]
@@ -1242,7 +1280,7 @@
     "is_boss": false,
     "boss_id": null,
     "is_djinn_enemy": true,
-    "djinn_id": null,
+    "djinn_id": "sour",
     "found": [
       "World Map C"
     ],
@@ -1333,6 +1371,8 @@
       "items": [
         {
           "name": "Sacred Feather",
+          "ref_type": "item",
+          "ref_id": "sacred-feather",
           "icc": 6
         }
       ]
@@ -1386,6 +1426,8 @@
       "items": [
         {
           "name": "Antidote",
+          "ref_type": "item",
+          "ref_id": "antidote",
           "icc": 5
         }
       ]
@@ -1402,7 +1444,7 @@
     "is_boss": false,
     "boss_id": null,
     "is_djinn_enemy": true,
-    "djinn_id": null,
+    "djinn_id": "blitz",
     "found": [
       "Yampi Desert"
     ],
@@ -1453,7 +1495,7 @@
     "game": "gs2",
     "variant": null,
     "is_boss": true,
-    "boss_id": null,
+    "boss_id": "king-scorpion",
     "is_djinn_enemy": false,
     "djinn_id": null,
     "found": [
@@ -1497,6 +1539,8 @@
       "items": [
         {
           "name": "Vial",
+          "ref_type": "item",
+          "ref_id": "vial",
           "icc": 1
         }
       ]
@@ -1553,6 +1597,8 @@
       "items": [
         {
           "name": "Oil Drop",
+          "ref_type": null,
+          "ref_id": null,
           "icc": 6
         }
       ]
@@ -1567,7 +1613,7 @@
     "game": "gs2",
     "variant": null,
     "is_boss": true,
-    "boss_id": null,
+    "boss_id": "briggs",
     "is_djinn_enemy": false,
     "djinn_id": null,
     "found": [
@@ -1607,6 +1653,8 @@
       "items": [
         {
           "name": "Vial",
+          "ref_type": "item",
+          "ref_id": "vial",
           "icc": 1
         }
       ]
@@ -1621,7 +1669,7 @@
     "game": "gs2",
     "variant": null,
     "is_boss": true,
-    "boss_id": null,
+    "boss_id": "sea-fighter",
     "is_djinn_enemy": false,
     "djinn_id": null,
     "found": [
@@ -1709,6 +1757,8 @@
       "items": [
         {
           "name": "Herb",
+          "ref_type": "item",
+          "ref_id": "herb",
           "icc": 5
         }
       ]
@@ -1763,6 +1813,8 @@
       "items": [
         {
           "name": "Elixir",
+          "ref_type": "item",
+          "ref_id": "elixir",
           "icc": 5
         }
       ]
@@ -1817,6 +1869,8 @@
       "items": [
         {
           "name": "Antidote",
+          "ref_type": "item",
+          "ref_id": "antidote",
           "icc": 5
         }
       ]
@@ -1873,6 +1927,8 @@
       "items": [
         {
           "name": "Lucky Medal",
+          "ref_type": null,
+          "ref_id": null,
           "icc": 1
         }
       ]
@@ -1927,6 +1983,8 @@
       "items": [
         {
           "name": "Weasel's Claw",
+          "ref_type": null,
+          "ref_id": null,
           "icc": 6
         }
       ]
@@ -1980,6 +2038,8 @@
       "items": [
         {
           "name": "Elixir",
+          "ref_type": "item",
+          "ref_id": "elixir",
           "icc": 6
         }
       ]
@@ -2034,6 +2094,8 @@
       "items": [
         {
           "name": "Nut",
+          "ref_type": "item",
+          "ref_id": "nut",
           "icc": 6
         }
       ]
@@ -2088,6 +2150,8 @@
       "items": [
         {
           "name": "Weasel's Claw",
+          "ref_type": null,
+          "ref_id": null,
           "icc": 6
         }
       ]
@@ -2142,6 +2206,8 @@
       "items": [
         {
           "name": "Elixir",
+          "ref_type": "item",
+          "ref_id": "elixir",
           "icc": 6
         }
       ]
@@ -2197,6 +2263,8 @@
       "items": [
         {
           "name": "Bramble Seed",
+          "ref_type": null,
+          "ref_id": null,
           "icc": 6
         }
       ]
@@ -2213,7 +2281,7 @@
     "is_boss": false,
     "boss_id": null,
     "is_djinn_enemy": true,
-    "djinn_id": null,
+    "djinn_id": "kindle",
     "found": [
       "Gondowan Cliffs"
     ],
@@ -2305,6 +2373,8 @@
       "items": [
         {
           "name": "Sleep Bomb",
+          "ref_type": null,
+          "ref_id": null,
           "icc": 6
         }
       ]
@@ -2361,6 +2431,8 @@
       "items": [
         {
           "name": "Nut",
+          "ref_type": "item",
+          "ref_id": "nut",
           "icc": 5
         }
       ]
@@ -2414,6 +2486,8 @@
       "items": [
         {
           "name": "Bramble Seed",
+          "ref_type": null,
+          "ref_id": null,
           "icc": 5
         }
       ]
@@ -2430,7 +2504,7 @@
     "is_boss": false,
     "boss_id": null,
     "is_djinn_enemy": true,
-    "djinn_id": null,
+    "djinn_id": "chill",
     "found": [
       "World Map D"
     ],
@@ -2522,6 +2596,8 @@
       "items": [
         {
           "name": "Nut",
+          "ref_type": "item",
+          "ref_id": "nut",
           "icc": 4
         }
       ]
@@ -2575,6 +2651,8 @@
       "items": [
         {
           "name": "Antidote",
+          "ref_type": "item",
+          "ref_id": "antidote",
           "icc": 5
         }
       ]
@@ -2628,6 +2706,8 @@
       "items": [
         {
           "name": "Nut",
+          "ref_type": "item",
+          "ref_id": "nut",
           "icc": 5
         }
       ]
@@ -2644,7 +2724,7 @@
     "is_boss": false,
     "boss_id": null,
     "is_djinn_enemy": true,
-    "djinn_id": null,
+    "djinn_id": "waft",
     "found": [
       "Kibombo Mountains"
     ],
@@ -2737,6 +2817,8 @@
       "items": [
         {
           "name": "Oil Drop",
+          "ref_type": null,
+          "ref_id": null,
           "icc": 6
         }
       ]
@@ -2794,6 +2876,8 @@
       "items": [
         {
           "name": "Oil Drop",
+          "ref_type": null,
+          "ref_id": null,
           "icc": 5
         }
       ]
@@ -2849,6 +2933,8 @@
       "items": [
         {
           "name": "Crystal Powder",
+          "ref_type": null,
+          "ref_id": null,
           "icc": 6
         }
       ]
@@ -2905,6 +2991,8 @@
       "items": [
         {
           "name": "Hard Nut",
+          "ref_type": null,
+          "ref_id": null,
           "icc": 1
         }
       ]
@@ -2960,6 +3048,8 @@
       "items": [
         {
           "name": "Staff of Anubis",
+          "ref_type": "equipment",
+          "ref_id": "staff-of-anubis",
           "icc": 7
         }
       ]
@@ -2976,7 +3066,7 @@
     "is_boss": false,
     "boss_id": null,
     "is_djinn_enemy": true,
-    "djinn_id": null,
+    "djinn_id": "steel",
     "found": [
       "Gabomba Statue"
     ],
@@ -3029,7 +3119,7 @@
     "is_boss": false,
     "boss_id": null,
     "is_djinn_enemy": true,
-    "djinn_id": null,
+    "djinn_id": "mud",
     "found": [
       "Gabomba Catacombs"
     ],
@@ -3119,6 +3209,8 @@
       "items": [
         {
           "name": "Game Ticket",
+          "ref_type": null,
+          "ref_id": null,
           "icc": 1
         }
       ]
@@ -3273,6 +3365,8 @@
       "items": [
         {
           "name": "Sleep Bomb",
+          "ref_type": null,
+          "ref_id": null,
           "icc": 6
         }
       ]
@@ -3287,7 +3381,7 @@
     "game": "gs2",
     "variant": null,
     "is_boss": true,
-    "boss_id": null,
+    "boss_id": "aqua-hydra",
     "is_djinn_enemy": false,
     "djinn_id": null,
     "found": [
@@ -3330,6 +3424,8 @@
       "items": [
         {
           "name": "Vial",
+          "ref_type": "item",
+          "ref_id": "vial",
           "icc": 1
         }
       ]
@@ -3383,6 +3479,8 @@
       "items": [
         {
           "name": "Sacred Feather",
+          "ref_type": "item",
+          "ref_id": "sacred-feather",
           "icc": 6
         }
       ]
@@ -3436,6 +3534,8 @@
       "items": [
         {
           "name": "Antidote",
+          "ref_type": "item",
+          "ref_id": "antidote",
           "icc": 5
         }
       ]
@@ -3490,6 +3590,8 @@
       "items": [
         {
           "name": "Elixir",
+          "ref_type": "item",
+          "ref_id": "elixir",
           "icc": 6
         }
       ]
@@ -3544,6 +3646,8 @@
       "items": [
         {
           "name": "Elixir",
+          "ref_type": "item",
+          "ref_id": "elixir",
           "icc": 5
         }
       ]
@@ -3597,6 +3701,8 @@
       "items": [
         {
           "name": "Crystal Powder",
+          "ref_type": null,
+          "ref_id": null,
           "icc": 6
         }
       ]
@@ -3651,6 +3757,8 @@
       "items": [
         {
           "name": "Bramble Seed",
+          "ref_type": null,
+          "ref_id": null,
           "icc": 6
         }
       ]
@@ -3705,6 +3813,8 @@
       "items": [
         {
           "name": "Sleep Bomb",
+          "ref_type": null,
+          "ref_id": null,
           "icc": 6
         }
       ]
@@ -3757,6 +3867,8 @@
       "items": [
         {
           "name": "Smoke Bomb",
+          "ref_type": null,
+          "ref_id": null,
           "icc": 6
         }
       ]
@@ -3812,6 +3924,8 @@
       "items": [
         {
           "name": "Herb",
+          "ref_type": "item",
+          "ref_id": "herb",
           "icc": 6
         }
       ]
@@ -3867,6 +3981,8 @@
       "items": [
         {
           "name": "Weasel's Claw",
+          "ref_type": null,
+          "ref_id": null,
           "icc": 6
         }
       ]
@@ -3922,6 +4038,8 @@
       "items": [
         {
           "name": "Antidote",
+          "ref_type": "item",
+          "ref_id": "antidote",
           "icc": 5
         }
       ]
@@ -3975,6 +4093,8 @@
       "items": [
         {
           "name": "Elixir",
+          "ref_type": "item",
+          "ref_id": "elixir",
           "icc": 6
         }
       ]
@@ -4031,6 +4151,8 @@
       "items": [
         {
           "name": "Bramble Seed",
+          "ref_type": null,
+          "ref_id": null,
           "icc": 5
         }
       ]
@@ -4089,6 +4211,8 @@
       "items": [
         {
           "name": "Nut",
+          "ref_type": "item",
+          "ref_id": "nut",
           "icc": 3
         }
       ]
@@ -4142,6 +4266,8 @@
       "items": [
         {
           "name": "Nut",
+          "ref_type": "item",
+          "ref_id": "nut",
           "icc": 5
         }
       ]
@@ -4195,6 +4321,8 @@
       "items": [
         {
           "name": "Lucky Medal",
+          "ref_type": null,
+          "ref_id": null,
           "icc": 1
         }
       ]
@@ -4211,7 +4339,7 @@
     "is_boss": false,
     "boss_id": null,
     "is_djinn_enemy": true,
-    "djinn_id": null,
+    "djinn_id": "flower",
     "found": [
       "Taopo Swamp"
     ],
@@ -4302,6 +4430,8 @@
       "items": [
         {
           "name": "Antidote",
+          "ref_type": "item",
+          "ref_id": "antidote",
           "icc": 6
         }
       ]
@@ -4356,6 +4486,8 @@
       "items": [
         {
           "name": "Vial",
+          "ref_type": "item",
+          "ref_id": "vial",
           "icc": 5
         }
       ]
@@ -4410,6 +4542,8 @@
       "items": [
         {
           "name": "Elixir",
+          "ref_type": "item",
+          "ref_id": "elixir",
           "icc": 5
         }
       ]
@@ -4463,6 +4597,8 @@
       "items": [
         {
           "name": "Nut",
+          "ref_type": "item",
+          "ref_id": "nut",
           "icc": 5
         }
       ]
@@ -4516,6 +4652,8 @@
       "items": [
         {
           "name": "Unicorn Ring",
+          "ref_type": null,
+          "ref_id": null,
           "icc": 7
         }
       ]
@@ -4572,6 +4710,8 @@
       "items": [
         {
           "name": "Potion",
+          "ref_type": "item",
+          "ref_id": "potion",
           "icc": 1
         }
       ]
@@ -4588,7 +4728,7 @@
     "is_boss": false,
     "boss_id": null,
     "is_djinn_enemy": true,
-    "djinn_id": null,
+    "djinn_id": "steam",
     "found": [
       "Aqua Rock"
     ],
@@ -4679,6 +4819,8 @@
       "items": [
         {
           "name": "Antidote",
+          "ref_type": "item",
+          "ref_id": "antidote",
           "icc": 5
         }
       ]
@@ -4735,6 +4877,8 @@
       "items": [
         {
           "name": "Elixir",
+          "ref_type": "item",
+          "ref_id": "elixir",
           "icc": 6
         }
       ]
@@ -4791,6 +4935,8 @@
       "items": [
         {
           "name": "Nut",
+          "ref_type": "item",
+          "ref_id": "nut",
           "icc": 5
         }
       ]
@@ -4807,7 +4953,7 @@
     "is_boss": false,
     "boss_id": null,
     "is_djinn_enemy": true,
-    "djinn_id": null,
+    "djinn_id": "wheeze",
     "found": [
       "World Map F"
     ],
@@ -4898,6 +5044,8 @@
       "items": [
         {
           "name": "Tartarus Axe",
+          "ref_type": "equipment",
+          "ref_id": "tartarus-axe",
           "icc": 7
         }
       ]
@@ -4953,6 +5101,8 @@
       "items": [
         {
           "name": "Water of Life",
+          "ref_type": "item",
+          "ref_id": "water-of-life",
           "icc": 8
         }
       ]
@@ -5011,6 +5161,8 @@
       "items": [
         {
           "name": "Nut",
+          "ref_type": "item",
+          "ref_id": "nut",
           "icc": 6
         }
       ]
@@ -5068,6 +5220,8 @@
       "items": [
         {
           "name": "Elixir",
+          "ref_type": "item",
+          "ref_id": "elixir",
           "icc": null
         }
       ]
@@ -5125,6 +5279,8 @@
       "items": [
         {
           "name": "Aura Gloves",
+          "ref_type": null,
+          "ref_id": null,
           "icc": 8
         }
       ]
@@ -5141,7 +5297,7 @@
     "is_boss": false,
     "boss_id": null,
     "is_djinn_enemy": true,
-    "djinn_id": null,
+    "djinn_id": "reflux",
     "found": [
       "Tundaria Tower"
     ],
@@ -5233,6 +5389,8 @@
       "items": [
         {
           "name": "Elixir",
+          "ref_type": "item",
+          "ref_id": "elixir",
           "icc": 5
         }
       ]
@@ -5288,6 +5446,8 @@
       "items": [
         {
           "name": "Oil Drop",
+          "ref_type": null,
+          "ref_id": null,
           "icc": 6
         }
       ]
@@ -5344,6 +5504,8 @@
       "items": [
         {
           "name": "Potion",
+          "ref_type": "item",
+          "ref_id": "potion",
           "icc": 7
         }
       ]
@@ -5398,6 +5560,8 @@
       "items": [
         {
           "name": "Vial",
+          "ref_type": "item",
+          "ref_id": "vial",
           "icc": 7
         }
       ]
@@ -5454,6 +5618,8 @@
       "items": [
         {
           "name": "Crystal Powder",
+          "ref_type": null,
+          "ref_id": null,
           "icc": 5
         }
       ]
@@ -5510,6 +5676,8 @@
       "items": [
         {
           "name": "Prophet's Hat",
+          "ref_type": null,
+          "ref_id": null,
           "icc": 7
         }
       ]
@@ -5566,6 +5734,8 @@
       "items": [
         {
           "name": "Bramble Seed",
+          "ref_type": null,
+          "ref_id": null,
           "icc": 5
         }
       ]
@@ -5623,6 +5793,8 @@
       "items": [
         {
           "name": "Game Ticket",
+          "ref_type": null,
+          "ref_id": null,
           "icc": 1
         }
       ]
@@ -5677,6 +5849,8 @@
       "items": [
         {
           "name": "Potion",
+          "ref_type": "item",
+          "ref_id": "potion",
           "icc": 1
         }
       ]
@@ -5691,7 +5865,7 @@
     "game": "gs2",
     "variant": null,
     "is_boss": true,
-    "boss_id": null,
+    "boss_id": "serpent",
     "is_djinn_enemy": false,
     "djinn_id": null,
     "found": [
@@ -5784,6 +5958,8 @@
       "items": [
         {
           "name": "Otafuku Mask",
+          "ref_type": "equipment",
+          "ref_id": "otafuku-mask",
           "icc": 7
         }
       ]
@@ -5798,7 +5974,7 @@
     "game": "gs2",
     "variant": null,
     "is_boss": true,
-    "boss_id": null,
+    "boss_id": "avimander",
     "is_djinn_enemy": false,
     "djinn_id": null,
     "found": [
@@ -5842,6 +6018,8 @@
       "items": [
         {
           "name": "Potion",
+          "ref_type": "item",
+          "ref_id": "potion",
           "icc": 1
         }
       ]
@@ -5856,7 +6034,7 @@
     "game": "gs2",
     "variant": null,
     "is_boss": true,
-    "boss_id": null,
+    "boss_id": "poseidon",
     "is_djinn_enemy": false,
     "djinn_id": null,
     "found": [
@@ -5901,6 +6079,8 @@
       "items": [
         {
           "name": "Psy Crystal",
+          "ref_type": "item",
+          "ref_id": "psy-crystal",
           "icc": 1
         }
       ]
@@ -5956,6 +6136,8 @@
       "items": [
         {
           "name": "Antidote",
+          "ref_type": "item",
+          "ref_id": "antidote",
           "icc": 5
         }
       ]
@@ -6009,6 +6191,8 @@
       "items": [
         {
           "name": "Crystal Powder",
+          "ref_type": null,
+          "ref_id": null,
           "icc": 6
         }
       ]
@@ -6062,6 +6246,8 @@
       "items": [
         {
           "name": "Sacred Feather",
+          "ref_type": "item",
+          "ref_id": "sacred-feather",
           "icc": 6
         }
       ]
@@ -6116,6 +6302,8 @@
       "items": [
         {
           "name": "Weasel's Claw",
+          "ref_type": null,
+          "ref_id": null,
           "icc": 5
         }
       ]
@@ -6170,6 +6358,8 @@
       "items": [
         {
           "name": "Elixir",
+          "ref_type": "item",
+          "ref_id": "elixir",
           "icc": 6
         }
       ]
@@ -6225,6 +6415,8 @@
       "items": [
         {
           "name": "Blessed Mace",
+          "ref_type": null,
+          "ref_id": null,
           "icc": 8
         }
       ]
@@ -6281,6 +6473,8 @@
       "items": [
         {
           "name": "Weasel's Claw",
+          "ref_type": null,
+          "ref_id": null,
           "icc": 5
         }
       ]
@@ -6337,6 +6531,8 @@
       "items": [
         {
           "name": "Oil Drop",
+          "ref_type": null,
+          "ref_id": null,
           "icc": 5
         }
       ]
@@ -6392,6 +6588,8 @@
       "items": [
         {
           "name": "Sleep Bomb",
+          "ref_type": null,
+          "ref_id": null,
           "icc": 6
         }
       ]
@@ -6448,6 +6646,8 @@
       "items": [
         {
           "name": "Nut",
+          "ref_type": "item",
+          "ref_id": "nut",
           "icc": 5
         }
       ]
@@ -6502,6 +6702,8 @@
       "items": [
         {
           "name": "Bramble Seed",
+          "ref_type": null,
+          "ref_id": null,
           "icc": 6
         }
       ]
@@ -6518,7 +6720,7 @@
     "is_boss": false,
     "boss_id": null,
     "is_djinn_enemy": true,
-    "djinn_id": null,
+    "djinn_id": "core",
     "found": [
       "World Map G"
     ],
@@ -6571,7 +6773,7 @@
     "is_boss": false,
     "boss_id": null,
     "is_djinn_enemy": true,
-    "djinn_id": null,
+    "djinn_id": "petra",
     "found": [
       "World Map G"
     ],
@@ -6663,6 +6865,8 @@
       "items": [
         {
           "name": "Feathered Robe",
+          "ref_type": null,
+          "ref_id": null,
           "icc": 8
         }
       ]
@@ -6679,7 +6883,7 @@
     "is_boss": false,
     "boss_id": null,
     "is_djinn_enemy": true,
-    "djinn_id": null,
+    "djinn_id": "eddy",
     "found": [
       "Shaman Village Cave"
     ],
@@ -6874,7 +7078,7 @@
     "game": "gs2",
     "variant": null,
     "is_boss": true,
-    "boss_id": null,
+    "boss_id": "moapa",
     "is_djinn_enemy": false,
     "djinn_id": null,
     "found": [
@@ -6922,7 +7126,7 @@
     "game": "gs2",
     "variant": null,
     "is_boss": true,
-    "boss_id": null,
+    "boss_id": "knight",
     "is_djinn_enemy": false,
     "djinn_id": null,
     "found": [
@@ -7012,6 +7216,8 @@
       "items": [
         {
           "name": "Healing Ring",
+          "ref_type": null,
+          "ref_id": null,
           "icc": 7
         }
       ]
@@ -7067,6 +7273,8 @@
       "items": [
         {
           "name": "Antidote",
+          "ref_type": "item",
+          "ref_id": "antidote",
           "icc": 6
         }
       ]
@@ -7122,6 +7330,8 @@
       "items": [
         {
           "name": "Lucky Pepper",
+          "ref_type": null,
+          "ref_id": null,
           "icc": 1
         }
       ]
@@ -7138,7 +7348,7 @@
     "is_boss": false,
     "boss_id": null,
     "is_djinn_enemy": true,
-    "djinn_id": null,
+    "djinn_id": "gasp",
     "found": [
       "Trial Road (Bottom)"
     ],
@@ -7228,6 +7438,8 @@
       "items": [
         {
           "name": "Aeolian Cassock",
+          "ref_type": null,
+          "ref_id": null,
           "icc": 7
         }
       ]
@@ -7281,6 +7493,8 @@
       "items": [
         {
           "name": "Potion",
+          "ref_type": "item",
+          "ref_id": "potion",
           "icc": 7
         }
       ]
@@ -7336,6 +7550,8 @@
       "items": [
         {
           "name": "Antidote",
+          "ref_type": "item",
+          "ref_id": "antidote",
           "icc": 4
         }
       ]
@@ -7390,6 +7606,8 @@
       "items": [
         {
           "name": "Vial",
+          "ref_type": "item",
+          "ref_id": "vial",
           "icc": 7
         }
       ]
@@ -7444,6 +7662,8 @@
       "items": [
         {
           "name": "Mist Potion",
+          "ref_type": "item",
+          "ref_id": "mist-potion",
           "icc": 7
         }
       ]
@@ -7497,6 +7717,8 @@
       "items": [
         {
           "name": "Rising Mace",
+          "ref_type": "equipment",
+          "ref_id": "rising-mace",
           "icc": 7
         }
       ]
@@ -7551,6 +7773,8 @@
       "items": [
         {
           "name": "Mint",
+          "ref_type": null,
+          "ref_id": null,
           "icc": 1
         }
       ]
@@ -7609,6 +7833,8 @@
       "items": [
         {
           "name": "Psy Crystal",
+          "ref_type": "item",
+          "ref_id": "psy-crystal",
           "icc": 1
         }
       ]
@@ -7625,7 +7851,7 @@
     "is_boss": false,
     "boss_id": null,
     "is_djinn_enemy": true,
-    "djinn_id": null,
+    "djinn_id": "whorl",
     "found": [
       "Jupiter Lighthouse"
     ],
@@ -7676,7 +7902,7 @@
     "game": "gs2",
     "variant": null,
     "is_boss": true,
-    "boss_id": null,
+    "boss_id": "karst",
     "is_djinn_enemy": false,
     "djinn_id": null,
     "found": [
@@ -7721,6 +7947,8 @@
       "items": [
         {
           "name": "Dark Matter",
+          "ref_type": "item",
+          "ref_id": "dark-matter",
           "icc": 1
         }
       ]
@@ -7735,7 +7963,7 @@
     "game": "gs2",
     "variant": null,
     "is_boss": true,
-    "boss_id": null,
+    "boss_id": "agatio",
     "is_djinn_enemy": false,
     "djinn_id": null,
     "found": [
@@ -7790,7 +8018,7 @@
     "game": "gs2",
     "variant": null,
     "is_boss": true,
-    "boss_id": null,
+    "boss_id": "karst",
     "is_djinn_enemy": false,
     "djinn_id": null,
     "found": [
@@ -7835,6 +8063,8 @@
       "items": [
         {
           "name": "Dark Matter",
+          "ref_type": "item",
+          "ref_id": "dark-matter",
           "icc": 1
         }
       ]
@@ -7849,7 +8079,7 @@
     "game": "gs2",
     "variant": null,
     "is_boss": true,
-    "boss_id": null,
+    "boss_id": "agatio",
     "is_djinn_enemy": false,
     "djinn_id": null,
     "found": [
@@ -7903,7 +8133,7 @@
     "game": "gs2",
     "variant": null,
     "is_boss": true,
-    "boss_id": null,
+    "boss_id": "karst",
     "is_djinn_enemy": false,
     "djinn_id": null,
     "found": [
@@ -7948,6 +8178,8 @@
       "items": [
         {
           "name": "Dark Matter",
+          "ref_type": "item",
+          "ref_id": "dark-matter",
           "icc": 1
         }
       ]
@@ -7962,7 +8194,7 @@
     "game": "gs2",
     "variant": null,
     "is_boss": true,
-    "boss_id": null,
+    "boss_id": "agatio",
     "is_djinn_enemy": false,
     "djinn_id": null,
     "found": [
@@ -8061,6 +8293,8 @@
       "items": [
         {
           "name": "Potion",
+          "ref_type": "item",
+          "ref_id": "potion",
           "icc": 1
         }
       ]
@@ -8117,6 +8351,8 @@
       "items": [
         {
           "name": "Psy Crystal",
+          "ref_type": "item",
+          "ref_id": "psy-crystal",
           "icc": 8
         }
       ]
@@ -8172,6 +8408,8 @@
       "items": [
         {
           "name": "Hiotoko Mask",
+          "ref_type": "equipment",
+          "ref_id": "hiotoko-mask",
           "icc": 7
         }
       ]
@@ -8231,6 +8469,8 @@
       "items": [
         {
           "name": "Water of Life",
+          "ref_type": "item",
+          "ref_id": "water-of-life",
           "icc": 7
         }
       ]
@@ -8287,6 +8527,8 @@
       "items": [
         {
           "name": "Elixir",
+          "ref_type": "item",
+          "ref_id": "elixir",
           "icc": 6
         }
       ]
@@ -8341,6 +8583,8 @@
       "items": [
         {
           "name": "Rune Blade",
+          "ref_type": "equipment",
+          "ref_id": "rune-blade",
           "icc": 8
         }
       ]
@@ -8399,6 +8643,8 @@
       "items": [
         {
           "name": "Mist Potion",
+          "ref_type": "item",
+          "ref_id": "mist-potion",
           "icc": 7
         }
       ]
@@ -8457,6 +8703,8 @@
       "items": [
         {
           "name": "Apple",
+          "ref_type": null,
+          "ref_id": null,
           "icc": 1
         }
       ]
@@ -8473,7 +8721,7 @@
     "is_boss": false,
     "boss_id": null,
     "is_djinn_enemy": true,
-    "djinn_id": null,
+    "djinn_id": "fury",
     "found": [
       "Magma Rock"
     ],
@@ -8614,6 +8862,8 @@
       "items": [
         {
           "name": "Smoke Bomb",
+          "ref_type": null,
+          "ref_id": null,
           "icc": 6
         }
       ]
@@ -8668,6 +8918,8 @@
       "items": [
         {
           "name": "Clotho's Distaff",
+          "ref_type": "equipment",
+          "ref_id": "clotho-s-distaff",
           "icc": 7
         }
       ]
@@ -8723,6 +8975,8 @@
       "items": [
         {
           "name": "Elixir",
+          "ref_type": "item",
+          "ref_id": "elixir",
           "icc": 6
         }
       ]
@@ -8781,6 +9035,8 @@
       "items": [
         {
           "name": "Water of Life",
+          "ref_type": "item",
+          "ref_id": "water-of-life",
           "icc": 7
         }
       ]
@@ -8837,6 +9093,8 @@
       "items": [
         {
           "name": "Gloria Helm",
+          "ref_type": "equipment",
+          "ref_id": "gloria-helm",
           "icc": 8
         }
       ]
@@ -8853,7 +9111,7 @@
     "is_boss": false,
     "boss_id": null,
     "is_djinn_enemy": true,
-    "djinn_id": null,
+    "djinn_id": "balm",
     "found": [
       "Mars Lighthouse"
     ],
@@ -8948,6 +9206,8 @@
       "items": [
         {
           "name": "Cookie",
+          "ref_type": null,
+          "ref_id": null,
           "icc": 1
         }
       ]
@@ -8962,7 +9222,7 @@
     "game": "gs2",
     "variant": null,
     "is_boss": true,
-    "boss_id": null,
+    "boss_id": "flame-dragon",
     "is_djinn_enemy": false,
     "djinn_id": null,
     "found": [
@@ -9007,6 +9267,8 @@
       "items": [
         {
           "name": "Psy Crystal",
+          "ref_type": "item",
+          "ref_id": "psy-crystal",
           "icc": 1
         }
       ]
@@ -9021,7 +9283,7 @@
     "game": "gs2",
     "variant": null,
     "is_boss": true,
-    "boss_id": null,
+    "boss_id": "flame-dragon",
     "is_djinn_enemy": false,
     "djinn_id": null,
     "found": [
@@ -9076,7 +9338,7 @@
     "is_boss": false,
     "boss_id": null,
     "is_djinn_enemy": true,
-    "djinn_id": null,
+    "djinn_id": "fugue",
     "found": [
       "Mars Lighthouse"
     ],
@@ -9127,7 +9389,7 @@
     "game": "gs2",
     "variant": null,
     "is_boss": true,
-    "boss_id": null,
+    "boss_id": "doom-dragon",
     "is_djinn_enemy": false,
     "djinn_id": null,
     "found": [
@@ -9248,6 +9510,8 @@
       "items": [
         {
           "name": "Riot Gloves",
+          "ref_type": "equipment",
+          "ref_id": "riot-gloves",
           "icc": 8
         }
       ]
@@ -9303,6 +9567,8 @@
       "items": [
         {
           "name": "Star Dust",
+          "ref_type": "item",
+          "ref_id": "star-dust",
           "icc": 7
         }
       ]
@@ -9357,6 +9623,8 @@
       "items": [
         {
           "name": "Dragon Skin",
+          "ref_type": "item",
+          "ref_id": "dragon-skin",
           "icc": 7
         }
       ]
@@ -9412,6 +9680,8 @@
       "items": [
         {
           "name": "Mythril Silver",
+          "ref_type": "item",
+          "ref_id": "mythril-silver",
           "icc": 8
         }
       ]
@@ -9466,6 +9736,8 @@
       "items": [
         {
           "name": "Atropos' Rod",
+          "ref_type": "equipment",
+          "ref_id": "atropos-rod",
           "icc": 8
         }
       ]
@@ -9482,7 +9754,7 @@
     "is_boss": false,
     "boss_id": null,
     "is_djinn_enemy": true,
-    "djinn_id": null,
+    "djinn_id": "crystal",
     "found": [
       "Yampi Desert Cave"
     ],
@@ -9533,7 +9805,7 @@
     "game": "gs2",
     "variant": null,
     "is_boss": true,
-    "boss_id": null,
+    "boss_id": "valukar",
     "is_djinn_enemy": false,
     "djinn_id": null,
     "found": [
@@ -9622,6 +9894,8 @@
       "items": [
         {
           "name": "Giant Axe",
+          "ref_type": null,
+          "ref_id": null,
           "icc": 8
         }
       ]
@@ -9677,6 +9951,8 @@
       "items": [
         {
           "name": "Antidote",
+          "ref_type": "item",
+          "ref_id": "antidote",
           "icc": 6
         }
       ]
@@ -9732,6 +10008,8 @@
       "items": [
         {
           "name": "Salamander Tail",
+          "ref_type": "item",
+          "ref_id": "salamander-tail",
           "icc": 7
         }
       ]
@@ -9785,6 +10063,8 @@
       "items": [
         {
           "name": "Sylph Feather",
+          "ref_type": "item",
+          "ref_id": "sylph-feather",
           "icc": 7
         }
       ]
@@ -9839,6 +10119,8 @@
       "items": [
         {
           "name": "Triton's Ward",
+          "ref_type": "equipment",
+          "ref_id": "triton-s-ward",
           "icc": 8
         }
       ]
@@ -9892,6 +10174,8 @@
       "items": [
         {
           "name": "Potion",
+          "ref_type": "item",
+          "ref_id": "potion",
           "icc": 6
         }
       ]
@@ -9946,6 +10230,8 @@
       "items": [
         {
           "name": "Psy Crystal",
+          "ref_type": "item",
+          "ref_id": "psy-crystal",
           "icc": 7
         }
       ]
@@ -9999,6 +10285,8 @@
       "items": [
         {
           "name": "Tear Stone",
+          "ref_type": "item",
+          "ref_id": "tear-stone",
           "icc": 7
         }
       ]
@@ -10056,6 +10344,8 @@
       "items": [
         {
           "name": "Power Bread",
+          "ref_type": null,
+          "ref_id": null,
           "icc": 1
         }
       ]
@@ -10072,7 +10362,7 @@
     "is_boss": false,
     "boss_id": null,
     "is_djinn_enemy": true,
-    "djinn_id": null,
+    "djinn_id": "gale",
     "found": [
       "Treasure Isle"
     ],
@@ -10122,7 +10412,7 @@
     "game": "gs2",
     "variant": null,
     "is_boss": true,
-    "boss_id": null,
+    "boss_id": "star-magician",
     "is_djinn_enemy": false,
     "djinn_id": null,
     "found": [
@@ -10371,7 +10661,7 @@
     "is_boss": false,
     "boss_id": null,
     "is_djinn_enemy": true,
-    "djinn_id": null,
+    "djinn_id": "meld",
     "found": [
       "Islet Cave"
     ],
@@ -10462,6 +10752,8 @@
       "items": [
         {
           "name": "Water of Life",
+          "ref_type": "item",
+          "ref_id": "water-of-life",
           "icc": 6
         }
       ]
@@ -10518,6 +10810,8 @@
       "items": [
         {
           "name": "Berserker Band",
+          "ref_type": "equipment",
+          "ref_id": "berserker-band",
           "icc": 8
         }
       ]
@@ -10576,6 +10870,8 @@
       "items": [
         {
           "name": "Dark Matter",
+          "ref_type": "item",
+          "ref_id": "dark-matter",
           "icc": 8
         }
       ]
@@ -10630,6 +10926,8 @@
       "items": [
         {
           "name": "Tisiphone Edge",
+          "ref_type": "equipment",
+          "ref_id": "tisiphone-edge",
           "icc": 9
         }
       ]
@@ -10646,7 +10944,7 @@
     "is_boss": false,
     "boss_id": null,
     "is_djinn_enemy": true,
-    "djinn_id": null,
+    "djinn_id": "serac",
     "found": [
       "Islet Cave (Teleport Area)"
     ],
@@ -10696,7 +10994,7 @@
     "game": "gs2",
     "variant": null,
     "is_boss": true,
-    "boss_id": null,
+    "boss_id": "sentinel",
     "is_djinn_enemy": false,
     "djinn_id": null,
     "found": [
@@ -10792,6 +11090,8 @@
       "items": [
         {
           "name": "Golem Core",
+          "ref_type": "item",
+          "ref_id": "golem-core",
           "icc": 7
         }
       ]
@@ -10847,6 +11147,8 @@
       "items": [
         {
           "name": "Orihalcon",
+          "ref_type": "item",
+          "ref_id": "orihalcon",
           "icc": 8
         }
       ]
@@ -10903,6 +11205,8 @@
       "items": [
         {
           "name": "Lachesis' Rule",
+          "ref_type": "equipment",
+          "ref_id": "lachesis-rule",
           "icc": 9
         }
       ]
@@ -10957,6 +11261,8 @@
       "items": [
         {
           "name": "Psy Crystal",
+          "ref_type": "item",
+          "ref_id": "psy-crystal",
           "icc": 6
         }
       ]
@@ -10971,7 +11277,7 @@
     "game": "gs2",
     "variant": null,
     "is_boss": true,
-    "boss_id": null,
+    "boss_id": "dullahan",
     "is_djinn_enemy": false,
     "djinn_id": null,
     "found": [

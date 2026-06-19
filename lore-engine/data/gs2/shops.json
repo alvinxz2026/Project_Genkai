@@ -1,0 +1,1814 @@
+[
+  {
+    "id": "daila",
+    "name": "Daila",
+    "game": "gs2",
+    "location": "Daila",
+    "availability_notes": null,
+    "stock": [
+      {
+        "name": "Herb",
+        "ref_type": "item",
+        "ref_id": "herb",
+        "category": "item",
+        "price": 10,
+        "is_artifact": false
+      },
+      {
+        "name": "Antidote",
+        "ref_type": "item",
+        "ref_id": "antidote",
+        "category": "item",
+        "price": 20,
+        "is_artifact": false
+      },
+      {
+        "name": "Long Sword",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "weapon",
+        "price": 200,
+        "is_artifact": false
+      },
+      {
+        "name": "Short Sword",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "weapon",
+        "price": 120,
+        "is_artifact": false
+      },
+      {
+        "name": "Mace",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "weapon",
+        "price": 80,
+        "is_artifact": false
+      },
+      {
+        "name": "Wooden Stick",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "weapon",
+        "price": 40,
+        "is_artifact": false
+      },
+      {
+        "name": "Cotton Shirt",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "armor",
+        "price": 20,
+        "is_artifact": false
+      },
+      {
+        "name": "Travel Vest",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "armor",
+        "price": 50,
+        "is_artifact": false
+      },
+      {
+        "name": "One-Piece Dress",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "armor",
+        "price": 25,
+        "is_artifact": false
+      },
+      {
+        "name": "Wooden Shield",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "armor",
+        "price": 40,
+        "is_artifact": false
+      },
+      {
+        "name": "Padded Gloves",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "armor",
+        "price": 10,
+        "is_artifact": false
+      },
+      {
+        "name": "Leather Cap",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "armor",
+        "price": 30,
+        "is_artifact": false
+      }
+    ],
+    "sources": [
+      "shotgunnova-shop"
+    ]
+  },
+  {
+    "id": "madra",
+    "name": "Madra",
+    "game": "gs2",
+    "location": "Madra",
+    "availability_notes": null,
+    "stock": [
+      {
+        "name": "Herb",
+        "ref_type": "item",
+        "ref_id": "herb",
+        "category": "item",
+        "price": 10,
+        "is_artifact": false
+      },
+      {
+        "name": "Antidote",
+        "ref_type": "item",
+        "ref_id": "antidote",
+        "category": "item",
+        "price": 20,
+        "is_artifact": false
+      },
+      {
+        "name": "Long Sword",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "weapon",
+        "price": 200,
+        "is_artifact": false
+      },
+      {
+        "name": "Short Sword",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "weapon",
+        "price": 120,
+        "is_artifact": false
+      },
+      {
+        "name": "Battle Axe",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "weapon",
+        "price": 280,
+        "is_artifact": false
+      },
+      {
+        "name": "Mace",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "weapon",
+        "price": 80,
+        "is_artifact": false
+      },
+      {
+        "name": "Magic Rod",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "weapon",
+        "price": 380,
+        "is_artifact": true
+      },
+      {
+        "name": "Travel Vest",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "armor",
+        "price": 50,
+        "is_artifact": false
+      },
+      {
+        "name": "Wooden Shield",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "armor",
+        "price": 40,
+        "is_artifact": false
+      },
+      {
+        "name": "Padded Gloves",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "armor",
+        "price": 10,
+        "is_artifact": false
+      },
+      {
+        "name": "Leather Armlet",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "armor",
+        "price": 180,
+        "is_artifact": false
+      },
+      {
+        "name": "Leather Cap",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "armor",
+        "price": 30,
+        "is_artifact": false
+      },
+      {
+        "name": "Circlet",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "armor",
+        "price": 120,
+        "is_artifact": false
+      },
+      {
+        "name": "Leather Boots",
+        "ref_type": "equipment",
+        "ref_id": "leather-boots",
+        "category": "armor",
+        "price": 270,
+        "is_artifact": false
+      }
+    ],
+    "sources": [
+      "shotgunnova-shop"
+    ]
+  },
+  {
+    "id": "alhafra",
+    "name": "Alhafra",
+    "game": "gs2",
+    "location": "Alhafra",
+    "availability_notes": null,
+    "stock": [
+      {
+        "name": "Herb",
+        "ref_type": "item",
+        "ref_id": "herb",
+        "category": "item",
+        "price": 10,
+        "is_artifact": false
+      },
+      {
+        "name": "Antidote",
+        "ref_type": "item",
+        "ref_id": "antidote",
+        "category": "item",
+        "price": 20,
+        "is_artifact": false
+      },
+      {
+        "name": "Elixir",
+        "ref_type": "item",
+        "ref_id": "elixir",
+        "category": "item",
+        "price": 50,
+        "is_artifact": false
+      },
+      {
+        "name": "Sacred Feather",
+        "ref_type": "item",
+        "ref_id": "sacred-feather",
+        "category": "item",
+        "price": 70,
+        "is_artifact": false
+      },
+      {
+        "name": "Long Sword",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "weapon",
+        "price": 200,
+        "is_artifact": false
+      },
+      {
+        "name": "Broad Sword",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "weapon",
+        "price": 1000,
+        "is_artifact": false
+      },
+      {
+        "name": "Hunter's Sword",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "weapon",
+        "price": 520,
+        "is_artifact": false
+      },
+      {
+        "name": "Battle Axe",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "weapon",
+        "price": 280,
+        "is_artifact": false
+      },
+      {
+        "name": "Heavy Mace",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "weapon",
+        "price": 500,
+        "is_artifact": false
+      },
+      {
+        "name": "Leather Armor",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "armor",
+        "price": 240,
+        "is_artifact": false
+      },
+      {
+        "name": "Travel Vest",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "armor",
+        "price": 50,
+        "is_artifact": false
+      },
+      {
+        "name": "Travel Robe",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "armor",
+        "price": 200,
+        "is_artifact": false
+      },
+      {
+        "name": "Wooden Shield",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "armor",
+        "price": 40,
+        "is_artifact": false
+      },
+      {
+        "name": "Leather Gloves",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "armor",
+        "price": 220,
+        "is_artifact": false
+      },
+      {
+        "name": "Leather Armlet",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "armor",
+        "price": 180,
+        "is_artifact": false
+      },
+      {
+        "name": "Open Helm",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "armor",
+        "price": 180,
+        "is_artifact": false
+      },
+      {
+        "name": "Leather Cap",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "armor",
+        "price": 30,
+        "is_artifact": false
+      },
+      {
+        "name": "Circlet",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "armor",
+        "price": 120,
+        "is_artifact": false
+      },
+      {
+        "name": "Leather Boots",
+        "ref_type": "equipment",
+        "ref_id": "leather-boots",
+        "category": "armor",
+        "price": 270,
+        "is_artifact": false
+      }
+    ],
+    "sources": [
+      "shotgunnova-shop"
+    ]
+  },
+  {
+    "id": "mikisalla",
+    "name": "Mikisalla",
+    "game": "gs2",
+    "location": "Mikisalla",
+    "availability_notes": null,
+    "stock": [
+      {
+        "name": "Herb",
+        "ref_type": "item",
+        "ref_id": "herb",
+        "category": "item",
+        "price": 10,
+        "is_artifact": false
+      },
+      {
+        "name": "Antidote",
+        "ref_type": "item",
+        "ref_id": "antidote",
+        "category": "item",
+        "price": 20,
+        "is_artifact": false
+      },
+      {
+        "name": "Elixir",
+        "ref_type": "item",
+        "ref_id": "elixir",
+        "category": "item",
+        "price": 50,
+        "is_artifact": false
+      },
+      {
+        "name": "Sacred Feather",
+        "ref_type": "item",
+        "ref_id": "sacred-feather",
+        "category": "item",
+        "price": 70,
+        "is_artifact": false
+      },
+      {
+        "name": "Broad Axe",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "weapon",
+        "price": 1400,
+        "is_artifact": false
+      },
+      {
+        "name": "Blessed Ankh",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "weapon",
+        "price": 1600,
+        "is_artifact": true
+      },
+      {
+        "name": "Psynergy Armor",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "armor",
+        "price": 1000,
+        "is_artifact": false
+      },
+      {
+        "name": "Armlet",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "armor",
+        "price": 900,
+        "is_artifact": false
+      },
+      {
+        "name": "Bronze Helm",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "armor",
+        "price": 600,
+        "is_artifact": false
+      }
+    ],
+    "sources": [
+      "shotgunnova-shop"
+    ]
+  },
+  {
+    "id": "garoh",
+    "name": "Garoh",
+    "game": "gs2",
+    "location": "Garoh",
+    "availability_notes": "Weapon/Armor shop doesn't open until post-Air's Rock",
+    "stock": [
+      {
+        "name": "Herb",
+        "ref_type": "item",
+        "ref_id": "herb",
+        "category": "item",
+        "price": 10,
+        "is_artifact": false
+      },
+      {
+        "name": "Antidote",
+        "ref_type": "item",
+        "ref_id": "antidote",
+        "category": "item",
+        "price": 20,
+        "is_artifact": false
+      },
+      {
+        "name": "Elixir",
+        "ref_type": "item",
+        "ref_id": "elixir",
+        "category": "item",
+        "price": 50,
+        "is_artifact": false
+      },
+      {
+        "name": "Sacred Feather",
+        "ref_type": "item",
+        "ref_id": "sacred-feather",
+        "category": "item",
+        "price": 70,
+        "is_artifact": false
+      },
+      {
+        "name": "Broad Sword",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "weapon",
+        "price": 1000,
+        "is_artifact": false
+      },
+      {
+        "name": "Hunter's Sword",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "weapon",
+        "price": 520,
+        "is_artifact": false
+      },
+      {
+        "name": "Battle Axe",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "weapon",
+        "price": 280,
+        "is_artifact": false
+      },
+      {
+        "name": "Heavy Mace",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "weapon",
+        "price": 500,
+        "is_artifact": false
+      },
+      {
+        "name": "Witch's Wand",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "weapon",
+        "price": 850,
+        "is_artifact": true
+      },
+      {
+        "name": "Leather Armor",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "armor",
+        "price": 240,
+        "is_artifact": false
+      },
+      {
+        "name": "Adept's Clothes",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "armor",
+        "price": 850,
+        "is_artifact": false
+      },
+      {
+        "name": "Travel Robe",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "armor",
+        "price": 200,
+        "is_artifact": false
+      },
+      {
+        "name": "Bronze Shield",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "armor",
+        "price": 500,
+        "is_artifact": false
+      },
+      {
+        "name": "Leather Gloves",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "armor",
+        "price": 220,
+        "is_artifact": false
+      },
+      {
+        "name": "Leather Armlet",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "armor",
+        "price": 180,
+        "is_artifact": false
+      },
+      {
+        "name": "Open Helm",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "armor",
+        "price": 180,
+        "is_artifact": false
+      },
+      {
+        "name": "Circlet",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "armor",
+        "price": 120,
+        "is_artifact": false
+      },
+      {
+        "name": "Safety Boots",
+        "ref_type": "equipment",
+        "ref_id": "safety-boots",
+        "category": "armor",
+        "price": 700,
+        "is_artifact": true
+      }
+    ],
+    "sources": [
+      "shotgunnova-shop"
+    ]
+  },
+  {
+    "id": "namibwe",
+    "name": "Namibwe",
+    "game": "gs2",
+    "location": "Namibwe",
+    "availability_notes": null,
+    "stock": [
+      {
+        "name": "Herb",
+        "ref_type": "item",
+        "ref_id": "herb",
+        "category": "item",
+        "price": 10,
+        "is_artifact": false
+      },
+      {
+        "name": "Antidote",
+        "ref_type": "item",
+        "ref_id": "antidote",
+        "category": "item",
+        "price": 20,
+        "is_artifact": false
+      },
+      {
+        "name": "Elixir",
+        "ref_type": "item",
+        "ref_id": "elixir",
+        "category": "item",
+        "price": 50,
+        "is_artifact": false
+      },
+      {
+        "name": "Sacred Feather",
+        "ref_type": "item",
+        "ref_id": "sacred-feather",
+        "category": "item",
+        "price": 70,
+        "is_artifact": false
+      },
+      {
+        "name": "Broad Sword",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "weapon",
+        "price": 1000,
+        "is_artifact": false
+      },
+      {
+        "name": "Battle Rapier",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "weapon",
+        "price": 2900,
+        "is_artifact": false
+      },
+      {
+        "name": "Broad Axe",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "weapon",
+        "price": 1400,
+        "is_artifact": false
+      },
+      {
+        "name": "Battle Mace",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "weapon",
+        "price": 2600,
+        "is_artifact": false
+      },
+      {
+        "name": "Psynergy Rod",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "weapon",
+        "price": 3800,
+        "is_artifact": true
+      },
+      {
+        "name": "Adept's Clothes",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "armor",
+        "price": 850,
+        "is_artifact": false
+      },
+      {
+        "name": "Silk Robe",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "armor",
+        "price": 1400,
+        "is_artifact": false
+      },
+      {
+        "name": "Iron Shield",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "armor",
+        "price": 1200,
+        "is_artifact": false
+      },
+      {
+        "name": "Armlet",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "armor",
+        "price": 900,
+        "is_artifact": false
+      },
+      {
+        "name": "Bronze Helm",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "armor",
+        "price": 600,
+        "is_artifact": false
+      },
+      {
+        "name": "Silver Circlet",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "armor",
+        "price": 1300,
+        "is_artifact": false
+      }
+    ],
+    "sources": [
+      "shotgunnova-shop"
+    ]
+  },
+  {
+    "id": "kibombo",
+    "name": "Kibombo",
+    "game": "gs2",
+    "location": "Kibombo",
+    "availability_notes": "Weapon/Armor shops closed until post-Gobamba Statue",
+    "stock": [
+      {
+        "name": "Herb",
+        "ref_type": "item",
+        "ref_id": "herb",
+        "category": "item",
+        "price": 10,
+        "is_artifact": false
+      },
+      {
+        "name": "Nut",
+        "ref_type": "item",
+        "ref_id": "nut",
+        "category": "item",
+        "price": 200,
+        "is_artifact": false
+      },
+      {
+        "name": "Antidote",
+        "ref_type": "item",
+        "ref_id": "antidote",
+        "category": "item",
+        "price": 20,
+        "is_artifact": false
+      },
+      {
+        "name": "Elixir",
+        "ref_type": "item",
+        "ref_id": "elixir",
+        "category": "item",
+        "price": 50,
+        "is_artifact": false
+      },
+      {
+        "name": "Sacred Feather",
+        "ref_type": "item",
+        "ref_id": "sacred-feather",
+        "category": "item",
+        "price": 70,
+        "is_artifact": false
+      },
+      {
+        "name": "Claymore",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "weapon",
+        "price": 4000,
+        "is_artifact": false
+      },
+      {
+        "name": "Battle Rapier",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "weapon",
+        "price": 2900,
+        "is_artifact": false
+      },
+      {
+        "name": "Broad Axe",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "weapon",
+        "price": 1400,
+        "is_artifact": false
+      },
+      {
+        "name": "Battle Mace",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "weapon",
+        "price": 2600,
+        "is_artifact": false
+      },
+      {
+        "name": "Frost Wand",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "weapon",
+        "price": 5400,
+        "is_artifact": true
+      },
+      {
+        "name": "Chain Mail",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "armor",
+        "price": 2000,
+        "is_artifact": false
+      },
+      {
+        "name": "Adept's Clothes",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "armor",
+        "price": 850,
+        "is_artifact": false
+      },
+      {
+        "name": "Silk Robe",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "armor",
+        "price": 1400,
+        "is_artifact": false
+      },
+      {
+        "name": "Iron Shield",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "armor",
+        "price": 1200,
+        "is_artifact": false
+      },
+      {
+        "name": "Gauntlets",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "armor",
+        "price": 1600,
+        "is_artifact": false
+      },
+      {
+        "name": "Armlet",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "armor",
+        "price": 900,
+        "is_artifact": false
+      },
+      {
+        "name": "Iron Helm",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "armor",
+        "price": 1600,
+        "is_artifact": false
+      },
+      {
+        "name": "Silver Circlet",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "armor",
+        "price": 1300,
+        "is_artifact": false
+      }
+    ],
+    "sources": [
+      "shotgunnova-shop"
+    ]
+  },
+  {
+    "id": "yallam",
+    "name": "Yallam",
+    "game": "gs2",
+    "location": "Yallam",
+    "availability_notes": null,
+    "stock": [
+      {
+        "name": "Herb",
+        "ref_type": "item",
+        "ref_id": "herb",
+        "category": "item",
+        "price": 10,
+        "is_artifact": false
+      },
+      {
+        "name": "Nut",
+        "ref_type": "item",
+        "ref_id": "nut",
+        "category": "item",
+        "price": 200,
+        "is_artifact": false
+      },
+      {
+        "name": "Antidote",
+        "ref_type": "item",
+        "ref_id": "antidote",
+        "category": "item",
+        "price": 20,
+        "is_artifact": false
+      },
+      {
+        "name": "Elixir",
+        "ref_type": "item",
+        "ref_id": "elixir",
+        "category": "item",
+        "price": 50,
+        "is_artifact": false
+      },
+      {
+        "name": "Sacred Feather",
+        "ref_type": "item",
+        "ref_id": "sacred-feather",
+        "category": "item",
+        "price": 70,
+        "is_artifact": false
+      },
+      {
+        "name": "Claymore",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "weapon",
+        "price": 4000,
+        "is_artifact": false
+      },
+      {
+        "name": "Battle Rapier",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "weapon",
+        "price": 2900,
+        "is_artifact": false
+      },
+      {
+        "name": "Broad Axe",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "weapon",
+        "price": 1400,
+        "is_artifact": false
+      },
+      {
+        "name": "Battle Mace",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "weapon",
+        "price": 2600,
+        "is_artifact": false
+      },
+      {
+        "name": "Jerkin",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "weapon",
+        "price": 2400,
+        "is_artifact": false
+      },
+      {
+        "name": "Heavy Armlet",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "weapon",
+        "price": 2000,
+        "is_artifact": false
+      },
+      {
+        "name": "Mail Cap",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "weapon",
+        "price": 2000,
+        "is_artifact": false
+      }
+    ],
+    "sources": [
+      "shotgunnova-shop"
+    ]
+  },
+  {
+    "id": "apojii-islands",
+    "name": "Apojii Islands",
+    "game": "gs2",
+    "location": "Apojii Islands",
+    "availability_notes": null,
+    "stock": [
+      {
+        "name": "Great Sword",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "weapon",
+        "price": 7000,
+        "is_artifact": false
+      },
+      {
+        "name": "Armored Shell",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "armor",
+        "price": 3600,
+        "is_artifact": false
+      },
+      {
+        "name": "Knight's Shield",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "armor",
+        "price": 3000,
+        "is_artifact": false
+      },
+      {
+        "name": "Steel Helm",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "armor",
+        "price": 3100,
+        "is_artifact": false
+      },
+      {
+        "name": "Guardian Circlet",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "armor",
+        "price": 3400,
+        "is_artifact": false
+      },
+      {
+        "name": "Angelic Ankh",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "weapon",
+        "price": 6400,
+        "is_artifact": true
+      },
+      {
+        "name": "Water of Life",
+        "ref_type": "item",
+        "ref_id": "water-of-life",
+        "category": "item",
+        "price": 3000,
+        "is_artifact": true
+      },
+      {
+        "name": "Herb",
+        "ref_type": "item",
+        "ref_id": "herb",
+        "category": "item",
+        "price": 10,
+        "is_artifact": false
+      },
+      {
+        "name": "Nut",
+        "ref_type": "item",
+        "ref_id": "nut",
+        "category": "item",
+        "price": 200,
+        "is_artifact": false
+      },
+      {
+        "name": "Antidote",
+        "ref_type": "item",
+        "ref_id": "antidote",
+        "category": "item",
+        "price": 20,
+        "is_artifact": false
+      },
+      {
+        "name": "Elixir",
+        "ref_type": "item",
+        "ref_id": "elixir",
+        "category": "item",
+        "price": 50,
+        "is_artifact": false
+      },
+      {
+        "name": "Sacred Feather",
+        "ref_type": "item",
+        "ref_id": "sacred-feather",
+        "category": "item",
+        "price": 70,
+        "is_artifact": false
+      }
+    ],
+    "sources": [
+      "shotgunnova-shop"
+    ]
+  },
+  {
+    "id": "izumo",
+    "name": "Izumo",
+    "game": "gs2",
+    "location": "Izumo",
+    "availability_notes": null,
+    "stock": [
+      {
+        "name": "War Mace",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "weapon",
+        "price": 6400,
+        "is_artifact": false
+      },
+      {
+        "name": "Silver Vest",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "armor",
+        "price": 3200,
+        "is_artifact": false
+      },
+      {
+        "name": "Platinum Circlet",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "armor",
+        "price": 4200,
+        "is_artifact": false
+      },
+      {
+        "name": "Shamshir",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "weapon",
+        "price": 10000,
+        "is_artifact": true
+      },
+      {
+        "name": "Ninja Blade",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "weapon",
+        "price": 8800,
+        "is_artifact": true
+      },
+      {
+        "name": "War Gloves",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "armor",
+        "price": 4000,
+        "is_artifact": true
+      },
+      {
+        "name": "Herb",
+        "ref_type": "item",
+        "ref_id": "herb",
+        "category": "item",
+        "price": 10,
+        "is_artifact": false
+      },
+      {
+        "name": "Nut",
+        "ref_type": "item",
+        "ref_id": "nut",
+        "category": "item",
+        "price": 200,
+        "is_artifact": false
+      },
+      {
+        "name": "Antidote",
+        "ref_type": "item",
+        "ref_id": "antidote",
+        "category": "item",
+        "price": 20,
+        "is_artifact": false
+      },
+      {
+        "name": "Elixir",
+        "ref_type": "item",
+        "ref_id": "elixir",
+        "category": "item",
+        "price": 50,
+        "is_artifact": false
+      },
+      {
+        "name": "Sacred Feather",
+        "ref_type": "item",
+        "ref_id": "sacred-feather",
+        "category": "item",
+        "price": 70,
+        "is_artifact": false
+      },
+      {
+        "name": "Psy Crystal",
+        "ref_type": "item",
+        "ref_id": "psy-crystal",
+        "category": "item",
+        "price": 1500,
+        "is_artifact": true
+      }
+    ],
+    "sources": [
+      "shotgunnova-shop"
+    ]
+  },
+  {
+    "id": "champa",
+    "name": "Champa",
+    "game": "gs2",
+    "location": "Champa",
+    "availability_notes": null,
+    "stock": [
+      {
+        "name": "Master Rapier",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "weapon",
+        "price": 6800,
+        "is_artifact": false
+      },
+      {
+        "name": "Great Axe",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "weapon",
+        "price": 5200,
+        "is_artifact": false
+      },
+      {
+        "name": "Plate Mail",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "armor",
+        "price": 4400,
+        "is_artifact": false
+      },
+      {
+        "name": "Silver Armlet",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "armor",
+        "price": 4000,
+        "is_artifact": false
+      },
+      {
+        "name": "Silver Helm",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "armor",
+        "price": 3900,
+        "is_artifact": false
+      },
+      {
+        "name": "Demonic Staff",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "weapon",
+        "price": 10000,
+        "is_artifact": true
+      },
+      {
+        "name": "Blessed Robe",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "armor",
+        "price": 7000,
+        "is_artifact": true
+      },
+      {
+        "name": "Herb",
+        "ref_type": "item",
+        "ref_id": "herb",
+        "category": "item",
+        "price": 10,
+        "is_artifact": false
+      },
+      {
+        "name": "Nut",
+        "ref_type": "item",
+        "ref_id": "nut",
+        "category": "item",
+        "price": 200,
+        "is_artifact": false
+      },
+      {
+        "name": "Antidote",
+        "ref_type": "item",
+        "ref_id": "antidote",
+        "category": "item",
+        "price": 20,
+        "is_artifact": false
+      },
+      {
+        "name": "Elixir",
+        "ref_type": "item",
+        "ref_id": "elixir",
+        "category": "item",
+        "price": 50,
+        "is_artifact": false
+      },
+      {
+        "name": "Sacred Feather",
+        "ref_type": "item",
+        "ref_id": "sacred-feather",
+        "category": "item",
+        "price": 70,
+        "is_artifact": false
+      },
+      {
+        "name": "Potion",
+        "ref_type": "item",
+        "ref_id": "potion",
+        "category": "item",
+        "price": 1000,
+        "is_artifact": true
+      }
+    ],
+    "sources": [
+      "shotgunnova-shop"
+    ]
+  },
+  {
+    "id": "loho",
+    "name": "Loho",
+    "game": "gs2",
+    "location": "Loho",
+    "availability_notes": null,
+    "stock": [
+      {
+        "name": "Herb",
+        "ref_type": "item",
+        "ref_id": "herb",
+        "category": "item",
+        "price": 10,
+        "is_artifact": false
+      },
+      {
+        "name": "Nut",
+        "ref_type": "item",
+        "ref_id": "nut",
+        "category": "item",
+        "price": 200,
+        "is_artifact": false
+      },
+      {
+        "name": "Vial",
+        "ref_type": "item",
+        "ref_id": "vial",
+        "category": "item",
+        "price": 500,
+        "is_artifact": false
+      },
+      {
+        "name": "Antidote",
+        "ref_type": "item",
+        "ref_id": "antidote",
+        "category": "item",
+        "price": 20,
+        "is_artifact": false
+      },
+      {
+        "name": "Elixir",
+        "ref_type": "item",
+        "ref_id": "elixir",
+        "category": "item",
+        "price": 50,
+        "is_artifact": false
+      },
+      {
+        "name": "Sacred Feather",
+        "ref_type": "item",
+        "ref_id": "sacred-feather",
+        "category": "item",
+        "price": 70,
+        "is_artifact": false
+      },
+      {
+        "name": "Spirit Armlet",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "armor",
+        "price": 9000,
+        "is_artifact": true
+      },
+      {
+        "name": "Potion",
+        "ref_type": "item",
+        "ref_id": "potion",
+        "category": "item",
+        "price": 1000,
+        "is_artifact": true
+      },
+      {
+        "name": "Psy Crystal",
+        "ref_type": "item",
+        "ref_id": "psy-crystal",
+        "category": "item",
+        "price": 1500,
+        "is_artifact": true
+      },
+      {
+        "name": "Mist Potion",
+        "ref_type": "item",
+        "ref_id": "mist-potion",
+        "category": "item",
+        "price": 1000,
+        "is_artifact": true
+      }
+    ],
+    "sources": [
+      "shotgunnova-shop"
+    ]
+  },
+  {
+    "id": "contigo",
+    "name": "Contigo",
+    "game": "gs2",
+    "location": "Contigo",
+    "availability_notes": null,
+    "stock": [
+      {
+        "name": "Herb",
+        "ref_type": "item",
+        "ref_id": "herb",
+        "category": "item",
+        "price": 10,
+        "is_artifact": false
+      },
+      {
+        "name": "Nut",
+        "ref_type": "item",
+        "ref_id": "nut",
+        "category": "item",
+        "price": 200,
+        "is_artifact": false
+      },
+      {
+        "name": "Vial",
+        "ref_type": "item",
+        "ref_id": "vial",
+        "category": "item",
+        "price": 500,
+        "is_artifact": false
+      },
+      {
+        "name": "Antidote",
+        "ref_type": "item",
+        "ref_id": "antidote",
+        "category": "item",
+        "price": 20,
+        "is_artifact": false
+      },
+      {
+        "name": "Elixir",
+        "ref_type": "item",
+        "ref_id": "elixir",
+        "category": "item",
+        "price": 50,
+        "is_artifact": false
+      },
+      {
+        "name": "Mist Potion",
+        "ref_type": "item",
+        "ref_id": "mist-potion",
+        "category": "item",
+        "price": 9000,
+        "is_artifact": true
+      },
+      {
+        "name": "Water of Life",
+        "ref_type": "item",
+        "ref_id": "water-of-life",
+        "category": "item",
+        "price": 3000,
+        "is_artifact": true
+      },
+      {
+        "name": "Great Sword",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "weapon",
+        "price": 7000,
+        "is_artifact": false
+      },
+      {
+        "name": "Master Rapier",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "weapon",
+        "price": 6800,
+        "is_artifact": false
+      },
+      {
+        "name": "Great Axe",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "weapon",
+        "price": 5200,
+        "is_artifact": false
+      },
+      {
+        "name": "War Mace",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "weapon",
+        "price": 6200,
+        "is_artifact": false
+      },
+      {
+        "name": "Swift Sword",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "weapon",
+        "price": 9400,
+        "is_artifact": true
+      },
+      {
+        "name": "Righteous Mace",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "weapon",
+        "price": 8400,
+        "is_artifact": true
+      },
+      {
+        "name": "Steel Armor",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "armor",
+        "price": 4900,
+        "is_artifact": false
+      },
+      {
+        "name": "Silver Vest",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "armor",
+        "price": 3200,
+        "is_artifact": false
+      },
+      {
+        "name": "Silver Armlet",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "armor",
+        "price": 4000,
+        "is_artifact": false
+      },
+      {
+        "name": "Knight's Helm",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "armor",
+        "price": 4600,
+        "is_artifact": false
+      },
+      {
+        "name": "Platinum Circlet",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "armor",
+        "price": 4200,
+        "is_artifact": false
+      },
+      {
+        "name": "Mirrored Shield",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "armor",
+        "price": 5200,
+        "is_artifact": true
+      },
+      {
+        "name": "Jeweled Crown",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "armor",
+        "price": 4000,
+        "is_artifact": true
+      }
+    ],
+    "sources": [
+      "shotgunnova-shop"
+    ]
+  },
+  {
+    "id": "shaman-village",
+    "name": "Shaman Village",
+    "game": "gs2",
+    "location": "Shaman Village",
+    "availability_notes": "Shops are closed until post-Trial Road",
+    "stock": [
+      {
+        "name": "Herb",
+        "ref_type": "item",
+        "ref_id": "herb",
+        "category": "item",
+        "price": 10,
+        "is_artifact": false
+      },
+      {
+        "name": "Nut",
+        "ref_type": "item",
+        "ref_id": "nut",
+        "category": "item",
+        "price": 200,
+        "is_artifact": false
+      },
+      {
+        "name": "Vial",
+        "ref_type": "item",
+        "ref_id": "vial",
+        "category": "item",
+        "price": 500,
+        "is_artifact": false
+      },
+      {
+        "name": "Antidote",
+        "ref_type": "item",
+        "ref_id": "antidote",
+        "category": "item",
+        "price": 20,
+        "is_artifact": false
+      },
+      {
+        "name": "Elixir",
+        "ref_type": "item",
+        "ref_id": "elixir",
+        "category": "item",
+        "price": 50,
+        "is_artifact": false
+      },
+      {
+        "name": "Silver Blade",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "weapon",
+        "price": 12000,
+        "is_artifact": true
+      },
+      {
+        "name": "Crystal Rod",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "weapon",
+        "price": 13400,
+        "is_artifact": true
+      },
+      {
+        "name": "Magical Cassock",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "armor",
+        "price": 9000,
+        "is_artifact": true
+      },
+      {
+        "name": "Potion",
+        "ref_type": "item",
+        "ref_id": "potion",
+        "category": "item",
+        "price": 1000,
+        "is_artifact": true
+      },
+      {
+        "name": "Psy Crystal",
+        "ref_type": "item",
+        "ref_id": "psy-crystal",
+        "category": "item",
+        "price": 1500,
+        "is_artifact": true
+      }
+    ],
+    "sources": [
+      "shotgunnova-shop"
+    ]
+  },
+  {
+    "id": "prox",
+    "name": "Prox",
+    "game": "gs2",
+    "location": "Prox",
+    "availability_notes": null,
+    "stock": [
+      {
+        "name": "Herb",
+        "ref_type": "item",
+        "ref_id": "herb",
+        "category": "item",
+        "price": 10,
+        "is_artifact": false
+      },
+      {
+        "name": "Nut",
+        "ref_type": "item",
+        "ref_id": "nut",
+        "category": "item",
+        "price": 200,
+        "is_artifact": false
+      },
+      {
+        "name": "Vial",
+        "ref_type": "item",
+        "ref_id": "vial",
+        "category": "item",
+        "price": 500,
+        "is_artifact": false
+      },
+      {
+        "name": "Mist Potion",
+        "ref_type": "item",
+        "ref_id": "mist-potion",
+        "category": "item",
+        "price": 9000,
+        "is_artifact": false
+      },
+      {
+        "name": "Antidote",
+        "ref_type": "item",
+        "ref_id": "antidote",
+        "category": "item",
+        "price": 20,
+        "is_artifact": false
+      },
+      {
+        "name": "Elixir",
+        "ref_type": "item",
+        "ref_id": "elixir",
+        "category": "item",
+        "price": 50,
+        "is_artifact": false
+      },
+      {
+        "name": "Sacred Feather",
+        "ref_type": "item",
+        "ref_id": "sacred-feather",
+        "category": "item",
+        "price": 70,
+        "is_artifact": false
+      },
+      {
+        "name": "Mysterious Robe",
+        "ref_type": null,
+        "ref_id": null,
+        "category": "armor",
+        "price": 38500,
+        "is_artifact": true
+      },
+      {
+        "name": "Psy Crystal",
+        "ref_type": "item",
+        "ref_id": "psy-crystal",
+        "category": "item",
+        "price": 1500,
+        "is_artifact": true
+      },
+      {
+        "name": "Water of Life",
+        "ref_type": "item",
+        "ref_id": "water-of-life",
+        "category": "item",
+        "price": 3000,
+        "is_artifact": true
+      }
+    ],
+    "sources": [
+      "shotgunnova-shop"
+    ]
+  }
+]

@@ -35,6 +35,8 @@ merged. Restate or amend here once gs2-specific rules emerge.
 | `ultimalink` | `raw/gs2/In-Depth Guides/Character Class Guide by UltimaLink.md` | UltimaLink | classes (per-character chains, psynergy learnsets, available_to) |
 | `yoyoyoshi` | `raw/gs2/In-Depth Guides/Psynergy FAQ by YoyoYoshi.md` | YoyoYoshi | psynergy (master list: pp/range/description/element), mechanics |
 | `mr-unorigino-psy` | `raw/gs2/In-Depth Guides/Psynergy List by Mr_UnOrigino.md` | Mr_UnOrigino | psynergy (completeness cross-check; kana columns mojibake) |
+| `shotgunnova-shop` | `raw/gs2/In-Depth Guides/Shop List by Shotgunnova.md` | Shotgunnova | shops (per-town stock + price), equipment, items, locations |
+| `aspartate-forge` | `raw/gs2/In-Depth Guides/Forged Items Guide by aspartate.md` | aspartate | forging (forged_from), equipment, items, monsters |
 
 > More rows are added per entity as extraction proceeds. The full per-source map
 > lives in `docs/gs2/gs2_sources.md`; only rows for entities being extracted need
@@ -747,3 +749,83 @@ sources       array of string   YES        ["yoyoyoshi"] (+ "mr-unorigino-psy" w
 - **Deferred fields**: `series`/`tier`; and `level_learned` / `available_to` /
   `category` / `target` / `acquired_via_item` (level_learned + available_to are
   **derivable from `classes.json`** — the reverse-index belongs to links_normalize).
+
+---
+
+## Schema: `shops`
+
+One entry per town shop in the `shotgunnova-shop` Shop List. Each town is a single
+combined vendor table (`[SHnn] - TOWN`) with a `USE?`/`ATK`/`DEF`/.../`COST` grid;
+a leading `*` marks an artifact. Deterministic parser `scripts/shops_extract_gs2.py`
+(mirrors gs1 `shops_extract.py`).
+
+File: `data/gs2/shops.json`
+
+```
+Field               Type              Required   Notes
+---------------------------------------------------------------------------
+id                  string            YES        Town slug. e.g. "daila", "apojii-islands"
+name                string            YES        Town display name. e.g. "Daila"
+game                string            YES        Always "gs2".
+location            string            YES        Town name (natural key; resolves to a
+                                                 locations entry once that layer exists).
+availability_notes  string | null     YES        Bracketed shop note, e.g. "Shops are closed
+                                                 until post-Trial Road"; null if none.
+stock[]             array             YES        One per item row sold in the town:
+  .name             string            YES        Item/gear display name. e.g. "Long Sword"
+  .category         string            YES        "weapon" | "armor" | "item" (by ATK/DEF presence)
+  .price            int               YES        Buy price in coins.
+  .is_artifact      boolean           YES        True if the source row was '*'-prefixed.
+  .ref_type         string | null     links      "equipment" | "item" (links_normalize_gs2).
+  .ref_id           string | null     links      Resolved id, or null (see gap below).
+sources             [string]          YES        ["shotgunnova-shop"].
+```
+
+- **Consumables harvested**: `shops_extract_gs2.py` also merges the shop's
+  consumable rows (no ATK/DEF: Herb/Antidote/Elixir/Nut/Vial/Potion/Psy Crystal/
+  Water of Life/Sacred Feather/Mist Potion) into `items.json` as `item_type:
+  consumable` — these gs1↔gs2 shared consumables were deferred by the TLA-only
+  item extraction; the shop is the sanctioned gs2 source. Idempotent by id.
+- **Known gap (deferred)**: ~73 shared *basic gear* rows (Long Sword, Battle Axe,
+  Magic Rod, ...) are gs1↔gs2-shared equipment that `mr-unorigino`'s TLA-only
+  segment excluded, so they are absent from `equipment.json`. Their `stock` refs
+  stay null and `links_audit_gs2` reports them as **expected gaps**. A later focused
+  pass can backfill them from the shop source (needs name→type inference).
+
+---
+
+## Forging (equipment enrichment, not a separate entity)
+
+Per the ER sketch, forging is modeled as fields on `equipment`, not its own entity.
+`scripts/forging_extract_gs2.py` parses the `aspartate-forge` guide (section IV:
+material blocks `[Orihalcon]`… + `[Rusty Weapons]`) and backfills:
+
+```
+equipment.forged_from   [string]   The source material(s). Material blocks ->
+                                   ["Orihalcon"] etc.; rusty weapons -> ["Rusty Staff"] etc.
+                                   [] for non-forgeable gear.
+```
+
+- **Corroboration (flag, don't merge)**: the parser cross-checks the guide's
+  `Worth N coins` against `equipment.sell_price` (forge "Worth" == sell price =
+  0.75×buy) and `Unleashes X` against `unleash.name`. Mismatches are reported, not
+  silently applied. Found: two guide rounding typos (Nebula Wand, Pure Circlet) and
+  one equipment typo (`Radient Fire` → guide's `Radiant Fire` on Levatine).
+- **Name variants** (`FORGE_ALIASES`): the guide spells a few items differently
+  (Cosmo→Cosmos Shield, Psychic/Astral Circlet→Circle, Spirits→Spirit Ring, and the
+  equipment typo Apollo's→Appolo's Axe); aliased so `forged_from` resolves. `Dragon
+  Armor` has no equipment match (reported unmatched).
+- **`equippable_by`** is NOT set here — it is derived in `links_normalize_gs2` from
+  `equipment.type` → `characters.can_equip`; the guide's `for <chars>` lines serve
+  as an independent cross-check (55/56 forged items agree exactly).
+
+---
+
+## Equipment enrichment by links_normalize_gs2: `equippable_by`
+
+`equipment.equippable_by[]` (character names) is **derived deterministically** from
+`equipment.type` via `TYPE2CAT` → the `characters.can_equip` category that gates it
+(e.g. `long_sword`→"long swords", `circlet`→"circlets", `bracelet`→"armlets"); `ring`
+is a universal accessory (all 8). Types with no clean category mapping —
+`hat` (mixes caps/crowns/masks), `class_item`, `special` — are left `[]` (11 items).
+Validated against the forge guide's explicit lists (see above).

@@ -478,5 +478,205 @@
     "sources": [
       "mr-unorigino-item"
     ]
+  },
+  {
+    "id": "herb",
+    "name": "Herb",
+    "game": "gs2",
+    "name_literal": "Herb",
+    "item_type": "consumable",
+    "effect": {
+      "description": "heal 50 hp",
+      "target": null,
+      "stat_boosted": null
+    },
+    "usable_in_battle": null,
+    "debug_no": null,
+    "buy_price": 10,
+    "sell_price": null,
+    "can_trade": true,
+    "sources": [
+      "shotgunnova-shop"
+    ]
+  },
+  {
+    "id": "antidote",
+    "name": "Antidote",
+    "game": "gs2",
+    "name_literal": "Antidote",
+    "item_type": "consumable",
+    "effect": {
+      "description": "cure poison",
+      "target": null,
+      "stat_boosted": null
+    },
+    "usable_in_battle": null,
+    "debug_no": null,
+    "buy_price": 20,
+    "sell_price": null,
+    "can_trade": true,
+    "sources": [
+      "shotgunnova-shop"
+    ]
+  },
+  {
+    "id": "elixir",
+    "name": "Elixir",
+    "game": "gs2",
+    "name_literal": "Elixir",
+    "item_type": "consumable",
+    "effect": {
+      "description": "cure del/st/sl",
+      "target": null,
+      "stat_boosted": null
+    },
+    "usable_in_battle": null,
+    "debug_no": null,
+    "buy_price": 50,
+    "sell_price": null,
+    "can_trade": true,
+    "sources": [
+      "shotgunnova-shop"
+    ]
+  },
+  {
+    "id": "sacred-feather",
+    "name": "Sacred Feather",
+    "game": "gs2",
+    "name_literal": "Sacred Feather",
+    "item_type": "consumable",
+    "effect": {
+      "description": "less encountrs",
+      "target": null,
+      "stat_boosted": null
+    },
+    "usable_in_battle": null,
+    "debug_no": null,
+    "buy_price": 70,
+    "sell_price": null,
+    "can_trade": true,
+    "sources": [
+      "shotgunnova-shop"
+    ]
+  },
+  {
+    "id": "nut",
+    "name": "Nut",
+    "game": "gs2",
+    "name_literal": "Nut",
+    "item_type": "consumable",
+    "effect": {
+      "description": "heal 200 hp",
+      "target": null,
+      "stat_boosted": null
+    },
+    "usable_in_battle": null,
+    "debug_no": null,
+    "buy_price": 200,
+    "sell_price": null,
+    "can_trade": true,
+    "sources": [
+      "shotgunnova-shop"
+    ]
+  },
+  {
+    "id": "water-of-life",
+    "name": "Water of Life",
+    "game": "gs2",
+    "name_literal": "Water of Life",
+    "item_type": "consumable",
+    "effect": {
+      "description": "revive from ko",
+      "target": null,
+      "stat_boosted": null
+    },
+    "usable_in_battle": null,
+    "debug_no": null,
+    "buy_price": 3000,
+    "sell_price": null,
+    "can_trade": true,
+    "sources": [
+      "shotgunnova-shop"
+    ]
+  },
+  {
+    "id": "psy-crystal",
+    "name": "Psy Crystal",
+    "game": "gs2",
+    "name_literal": "Psy Crystal",
+    "item_type": "consumable",
+    "effect": {
+      "description": "restore all pp",
+      "target": null,
+      "stat_boosted": null
+    },
+    "usable_in_battle": null,
+    "debug_no": null,
+    "buy_price": 1500,
+    "sell_price": null,
+    "can_trade": true,
+    "sources": [
+      "shotgunnova-shop"
+    ]
+  },
+  {
+    "id": "potion",
+    "name": "Potion",
+    "game": "gs2",
+    "name_literal": "Potion",
+    "item_type": "consumable",
+    "effect": {
+      "description": "restore all hp",
+      "target": null,
+      "stat_boosted": null
+    },
+    "usable_in_battle": null,
+    "debug_no": null,
+    "buy_price": 1000,
+    "sell_price": null,
+    "can_trade": true,
+    "sources": [
+      "shotgunnova-shop"
+    ]
+  },
+  {
+    "id": "vial",
+    "name": "Vial",
+    "game": "gs2",
+    "name_literal": "Vial",
+    "item_type": "consumable",
+    "effect": {
+      "description": "heal 500 hp",
+      "target": null,
+      "stat_boosted": null
+    },
+    "usable_in_battle": null,
+    "debug_no": null,
+    "buy_price": 500,
+    "sell_price": null,
+    "can_trade": true,
+    "sources": [
+      "shotgunnova-shop"
+    ]
+  },
+  {
+    "id": "mist-potion",
+    "name": "Mist Potion",
+    "game": "gs2",
+    "name_literal": "Mist Potion",
+    "item_type": "consumable",
+    "effect": {
+      "description": "300 hp to all",
+      "target": null,
+      "stat_boosted": null
+    },
+    "usable_in_battle": null,
+    "debug_no": null,
+    "buy_price": 1000,
+    "sell_price": null,
+    "can_trade": true,
+    "sources": [
+      "shotgunnova-shop"
+    ]
   }
 ]
