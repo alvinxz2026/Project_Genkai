@@ -1,0 +1,2009 @@
+[
+  {
+    "region_id": "venus-lighthouse",
+    "name": "Venus Lighthouse",
+    "order": 0,
+    "kind": "main",
+    "connections": [
+      "idejima",
+      "suhalla-gate"
+    ],
+    "pickups": [
+      "Herb"
+    ],
+    "djinn_here": [],
+    "psynergy_here": [],
+    "summons_here": [],
+    "monsters_here": [
+      "Ruffian"
+    ],
+    "bosses_here": [],
+    "shop": false,
+    "forging": [],
+    "transfer": [
+      "Golden Sun 1 password or Game Link Cable"
+    ],
+    "sources": [
+      "data/gs2/walkthrough/00-venus-lighthouse.md"
+    ]
+  },
+  {
+    "region_id": "suhalla-gate",
+    "name": "Suhalla Gate",
+    "order": 1,
+    "kind": "main",
+    "connections": [
+      "idejima"
+    ],
+    "pickups": [],
+    "djinn_here": [],
+    "psynergy_here": [],
+    "summons_here": [],
+    "monsters_here": [
+      "Ruffian",
+      "Punch Ant"
+    ],
+    "bosses_here": [],
+    "shop": false,
+    "forging": [],
+    "transfer": [],
+    "sources": [
+      "data/gs2/walkthrough/01-suhalla-gate.md"
+    ]
+  },
+  {
+    "region_id": "idejima",
+    "name": "Idejima",
+    "order": 2,
+    "kind": "main",
+    "connections": [
+      "suhalla-gate",
+      "daila"
+    ],
+    "pickups": [],
+    "djinn_here": [],
+    "psynergy_here": [],
+    "summons_here": [],
+    "monsters_here": [],
+    "bosses_here": [],
+    "shop": false,
+    "forging": [],
+    "transfer": [],
+    "sources": [
+      "data/gs2/walkthrough/02-idejima.md"
+    ]
+  },
+  {
+    "region_id": "daila",
+    "name": "Daila",
+    "order": 3,
+    "kind": "main",
+    "connections": [
+      "kandorean-temple"
+    ],
+    "pickups": [
+      "Smoke Bomb",
+      "12 Coins",
+      "Herb",
+      "Sleep Bomb",
+      "Sea God's Tear"
+    ],
+    "djinn_here": [
+      "Echo"
+    ],
+    "psynergy_here": [],
+    "summons_here": [],
+    "monsters_here": [],
+    "bosses_here": [],
+    "shop": true,
+    "forging": [],
+    "transfer": [],
+    "sources": [
+      "data/gs2/walkthrough/03-daila.md"
+    ]
+  },
+  {
+    "region_id": "kandorean-temple",
+    "name": "Kandorean Temple",
+    "order": 4,
+    "kind": "main",
+    "connections": [],
+    "pickups": [
+      "Game Ticket",
+      "Mysterious Card",
+      "Lash Pebble"
+    ],
+    "djinn_here": [
+      "Fog"
+    ],
+    "psynergy_here": [
+      "Lash",
+      "Avoid",
+      "Juggle"
+    ],
+    "summons_here": [],
+    "monsters_here": [
+      "Amaze",
+      "Angler Worm",
+      "Giant Bat",
+      "Mimic",
+      "Punch Ant",
+      "Wild Wolf"
+    ],
+    "bosses_here": [
+      "Chestbeater",
+      "Mercury Djinni (Fog)"
+    ],
+    "shop": false,
+    "forging": [],
+    "transfer": [],
+    "sources": [
+      "data/gs2/walkthrough/04-kandorean-temple.md"
+    ]
+  },
+  {
+    "region_id": "shrine-of-the-sea-god",
+    "name": "Shrine of the Sea God",
+    "order": 5,
+    "kind": "main",
+    "connections": [
+      "daila"
+    ],
+    "pickups": [
+      "Rusty Staff",
+      "Right Prong"
+    ],
+    "djinn_here": [
+      "Breath"
+    ],
+    "psynergy_here": [],
+    "summons_here": [],
+    "monsters_here": [
+      "Angle Worm",
+      "Ghost",
+      "Punch Ant",
+      "Wild Wolf"
+    ],
+    "bosses_here": [
+      "Jupiter Djinni (Breath)"
+    ],
+    "shop": false,
+    "forging": [
+      "Glower Staff"
+    ],
+    "transfer": [],
+    "sources": [
+      "data/gs2/walkthrough/05-shrine-of-the-sea-god.md"
+    ]
+  },
+  {
+    "region_id": "dehkan-plateau",
+    "name": "Dehkan Plateau",
+    "order": 6,
+    "kind": "main",
+    "connections": [],
+    "pickups": [
+      "Full Metal Vest",
+      "Elixir",
+      "Mint",
+      "Themis' Axe",
+      "Nut",
+      "Pound Cube"
+    ],
+    "djinn_here": [
+      "Cannon"
+    ],
+    "psynergy_here": [
+      "Pound"
+    ],
+    "summons_here": [],
+    "monsters_here": [
+      "Angle Worm",
+      "Ghost",
+      "Mini-Goblin",
+      "Rat Soldier",
+      "Skeleton"
+    ],
+    "bosses_here": [
+      "Mars Djinni: Cannon"
+    ],
+    "shop": false,
+    "forging": [],
+    "transfer": [],
+    "sources": [
+      "data/gs2/walkthrough/06-dehkan-plateau.md"
+    ]
+  },
+  {
+    "region_id": "indra-cavern",
+    "name": "Indra Cavern",
+    "order": 7,
+    "kind": "main",
+    "connections": [
+      "madra",
+      "dehkan-plateau",
+      "east-indra-shore"
+    ],
+    "pickups": [
+      "Cookie",
+      "Elixir",
+      "Potion",
+      "Antidote",
+      "Vial"
+    ],
+    "djinn_here": [
+      "Iron"
+    ],
+    "psynergy_here": [],
+    "summons_here": [
+      "Zagan"
+    ],
+    "monsters_here": [
+      "Aqua Jelly"
+    ],
+    "bosses_here": [
+      "Aqua Hydra"
+    ],
+    "shop": false,
+    "forging": [],
+    "transfer": [],
+    "sources": [
+      "data/gs2/walkthrough/07-indra-cavern.md"
+    ]
+  },
+  {
+    "region_id": "madra",
+    "name": "Madra",
+    "order": 8,
+    "kind": "main",
+    "connections": [
+      "gondowan-cliffs",
+      "osenia",
+      "madra-drawbridge"
+    ],
+    "pickups": [
+      "Antidote",
+      "Smoke Bomb",
+      "Sleep Bomb",
+      "Elixir",
+      "15 Coins",
+      "Nurse's Cap",
+      "Magic Rod"
+    ],
+    "djinn_here": [
+      "Char"
+    ],
+    "psynergy_here": [],
+    "summons_here": [],
+    "monsters_here": [],
+    "bosses_here": [],
+    "shop": true,
+    "forging": [],
+    "transfer": [],
+    "sources": [
+      "data/gs2/walkthrough/08-madra.md"
+    ]
+  },
+  {
+    "region_id": "madra-catacombs",
+    "name": "Madra Catacombs",
+    "order": 9,
+    "kind": "main",
+    "connections": [
+      "madra"
+    ],
+    "pickups": [
+      "Tremor Bit",
+      "Apple",
+      "Lucky Medal",
+      "Mist Potion",
+      "Ruin Key"
+    ],
+    "djinn_here": [],
+    "psynergy_here": [
+      "Tremor"
+    ],
+    "summons_here": [
+      "Moloch"
+    ],
+    "monsters_here": [],
+    "bosses_here": [],
+    "shop": false,
+    "forging": [],
+    "transfer": [],
+    "sources": [
+      "data/gs2/walkthrough/09-madra-catacombs.md"
+    ]
+  },
+  {
+    "region_id": "madra-drawbridge",
+    "name": "Madra Drawbridge",
+    "order": 10,
+    "kind": "main",
+    "connections": [
+      "madra",
+      "osenia",
+      "alhafra"
+    ],
+    "pickups": [],
+    "djinn_here": [],
+    "psynergy_here": [],
+    "summons_here": [],
+    "monsters_here": [],
+    "bosses_here": [],
+    "shop": false,
+    "forging": [],
+    "transfer": [],
+    "sources": [
+      "data/gs2/walkthrough/10-madra-drawbridge.md"
+    ]
+  },
+  {
+    "region_id": "osenia-cliffs",
+    "name": "Osenia Cliffs",
+    "order": 11,
+    "kind": "main",
+    "connections": [
+      "osenia"
+    ],
+    "pickups": [
+      "Pirate's Sword"
+    ],
+    "djinn_here": [],
+    "psynergy_here": [],
+    "summons_here": [],
+    "monsters_here": [],
+    "bosses_here": [],
+    "shop": false,
+    "forging": [],
+    "transfer": [],
+    "sources": [
+      "data/gs2/walkthrough/11-osenia-cliffs.md"
+    ]
+  },
+  {
+    "region_id": "yampi-desert",
+    "name": "Yampi Desert",
+    "order": 12,
+    "kind": "main",
+    "connections": [
+      "madra",
+      "alhafra",
+      "airs-rock",
+      "garoh"
+    ],
+    "pickups": [
+      "Guardian Ring",
+      "Antidote",
+      "Lucky Medal",
+      "Trainer's Whip",
+      "Scoop Gem",
+      "315 Coins",
+      "Vial",
+      "Game Ticket",
+      "Blow Mace",
+      "Hard Nut",
+      "Water of Life",
+      "Mythril Silver",
+      "Dark Matter",
+      "Orihalcon"
+    ],
+    "djinn_here": [
+      "Blitz",
+      "Crystal"
+    ],
+    "psynergy_here": [
+      "Scoop"
+    ],
+    "summons_here": [
+      "Daedalus"
+    ],
+    "monsters_here": [
+      "Dino",
+      "Emu",
+      "Kobold",
+      "Momongo",
+      "Gnome",
+      "Spider"
+    ],
+    "bosses_here": [
+      "King Scorpion",
+      "Valukar"
+    ],
+    "shop": false,
+    "forging": [],
+    "transfer": [],
+    "sources": [
+      "data/gs2/walkthrough/12-yampi-desert.md"
+    ]
+  },
+  {
+    "region_id": "alhafra",
+    "name": "Alhafra",
+    "order": 13,
+    "kind": "main",
+    "connections": [
+      "yampi-desert",
+      "champa",
+      "mikasalla",
+      "madra",
+      "airs-rock",
+      "gondowan-cliffs"
+    ],
+    "pickups": [
+      "Sleep Bomb",
+      "Elixir",
+      "32 Coins",
+      "7 Coins",
+      "Smoke Bomb",
+      "Large Bread",
+      "Apple",
+      "Lucky Medal",
+      "Psy Crystal",
+      "Vial",
+      "123 Coins",
+      "Ixion Mail",
+      "777 Coins",
+      "Potion",
+      "Power Bread"
+    ],
+    "djinn_here": [],
+    "psynergy_here": [],
+    "summons_here": [],
+    "monsters_here": [
+      "Ghoul",
+      "Harpy",
+      "Ooze"
+    ],
+    "bosses_here": [
+      "Briggs",
+      "Sea Fighter"
+    ],
+    "shop": true,
+    "forging": [],
+    "transfer": [
+      "Deadbeard"
+    ],
+    "sources": [
+      "data/gs2/walkthrough/13-alhafra.md"
+    ]
+  },
+  {
+    "region_id": "garoh",
+    "name": "Garoh",
+    "order": 14,
+    "kind": "main",
+    "connections": [
+      "airs-rock"
+    ],
+    "pickups": [
+      "Smoke Bomb",
+      "Elixir",
+      "Nut",
+      "Sleep Bomb",
+      "Hypnos' Sword"
+    ],
+    "djinn_here": [
+      "Ether"
+    ],
+    "psynergy_here": [],
+    "summons_here": [],
+    "monsters_here": [],
+    "bosses_here": [],
+    "shop": true,
+    "forging": [],
+    "transfer": [],
+    "sources": [
+      "data/gs2/walkthrough/14-garoh.md"
+    ]
+  },
+  {
+    "region_id": "airs-rock",
+    "name": "Air's Rock",
+    "order": 15,
+    "kind": "main",
+    "connections": [],
+    "pickups": [
+      "Cookie",
+      "Fujin Shield",
+      "Sleep Bomb",
+      "Smoke Bomb",
+      "Storm Brand",
+      "Vial",
+      "Lucky Medal",
+      "Elixir",
+      "666 Coins",
+      "Clarity Circlet",
+      "Psy Crystal"
+    ],
+    "djinn_here": [],
+    "psynergy_here": [
+      "Reveal"
+    ],
+    "summons_here": [
+      "Flora"
+    ],
+    "monsters_here": [
+      "Mimic",
+      "Creeper",
+      "Dino",
+      "Emu",
+      "Ghoul",
+      "Harpy",
+      "Kobold",
+      "Mummy"
+    ],
+    "bosses_here": [
+      "Mimic 2"
+    ],
+    "shop": false,
+    "forging": [],
+    "transfer": [],
+    "sources": [
+      "data/gs2/walkthrough/15-airs-rock.md"
+    ]
+  },
+  {
+    "region_id": "osenia-cavern",
+    "name": "Osenia Cavern",
+    "order": 16,
+    "kind": "main",
+    "connections": [
+      "mikasalla"
+    ],
+    "pickups": [],
+    "djinn_here": [
+      "Sour"
+    ],
+    "psynergy_here": [],
+    "summons_here": [
+      "Megaera"
+    ],
+    "monsters_here": [],
+    "bosses_here": [],
+    "shop": false,
+    "forging": [],
+    "transfer": [],
+    "sources": [
+      "data/gs2/walkthrough/16-osenia-cavern.md"
+    ]
+  },
+  {
+    "region_id": "mikasalla",
+    "name": "Mikasalla",
+    "order": 17,
+    "kind": "main",
+    "connections": [
+      "garoh"
+    ],
+    "pickups": [
+      "Nut",
+      "Elixir",
+      "Herb",
+      "Lucky Pepper",
+      "82 Coins"
+    ],
+    "djinn_here": [
+      "Spark"
+    ],
+    "psynergy_here": [],
+    "summons_here": [],
+    "monsters_here": [],
+    "bosses_here": [],
+    "shop": true,
+    "forging": [],
+    "transfer": [
+      "Colosso Gladiators"
+    ],
+    "sources": [
+      "data/gs2/walkthrough/17-mikasalla.md"
+    ]
+  },
+  {
+    "region_id": "gondowan-cliffs",
+    "name": "Gondowan Cliffs",
+    "order": 18,
+    "kind": "main",
+    "connections": [
+      "naribwe",
+      "gondowan",
+      "venus-lighthouse"
+    ],
+    "pickups": [
+      "Sleep Bomb",
+      "Laughing Fungus",
+      "Healing Fungus"
+    ],
+    "djinn_here": [
+      "Kindle",
+      "Chill"
+    ],
+    "psynergy_here": [],
+    "summons_here": [],
+    "monsters_here": [
+      "Wild Gorilla",
+      "Wolfkin Cub",
+      "Wyvern Chick",
+      "Flash Ant"
+    ],
+    "bosses_here": [],
+    "shop": false,
+    "forging": [],
+    "transfer": [],
+    "sources": [
+      "data/gs2/walkthrough/18-gondowan-cliffs.md"
+    ]
+  },
+  {
+    "region_id": "naribwe",
+    "name": "Naribwe",
+    "order": 19,
+    "kind": "main",
+    "connections": [
+      "kibombo-mountains",
+      "kibombo"
+    ],
+    "pickups": [
+      "Elixir",
+      "Sleep Bomb",
+      "18 Coins",
+      "Unicorn Ring",
+      "Thorn Crown"
+    ],
+    "djinn_here": [],
+    "psynergy_here": [],
+    "summons_here": [],
+    "monsters_here": [],
+    "bosses_here": [],
+    "shop": true,
+    "forging": [],
+    "transfer": [],
+    "sources": [
+      "data/gs2/walkthrough/19-naribwe.md"
+    ]
+  },
+  {
+    "region_id": "kibombo-mountains",
+    "name": "Kibombo Mountains",
+    "order": 20,
+    "kind": "main",
+    "connections": [
+      "kibombo"
+    ],
+    "pickups": [
+      "Smoke Bomb",
+      "Bone",
+      "Power Bread",
+      "Tear Stone",
+      "Disk Axe"
+    ],
+    "djinn_here": [
+      "Waft"
+    ],
+    "psynergy_here": [],
+    "summons_here": [],
+    "monsters_here": [
+      "Assassin",
+      "Dirge",
+      "Pixie",
+      "Wild Gorilla"
+    ],
+    "bosses_here": [],
+    "shop": false,
+    "forging": [],
+    "transfer": [],
+    "sources": [
+      "data/gs2/walkthrough/20-kibombo-mountains.md"
+    ]
+  },
+  {
+    "region_id": "kibombo",
+    "name": "Kibombo",
+    "order": 21,
+    "kind": "main",
+    "connections": [
+      "gabomba-statue"
+    ],
+    "pickups": [
+      "Lucky Pepper",
+      "Nut",
+      "Lucky Medal",
+      "Psynergy Stone"
+    ],
+    "djinn_here": [
+      "Spring",
+      "Shade"
+    ],
+    "psynergy_here": [
+      "Frost"
+    ],
+    "summons_here": [],
+    "monsters_here": [],
+    "bosses_here": [],
+    "shop": true,
+    "forging": [],
+    "transfer": [],
+    "sources": [
+      "data/gs2/walkthrough/21-kibombo.md"
+    ]
+  },
+  {
+    "region_id": "gabomba-statue",
+    "name": "Gabomba Statue",
+    "order": 22,
+    "kind": "main",
+    "connections": [
+      "gabomba-catacombs"
+    ],
+    "pickups": [
+      "Black Orb",
+      "Bone Armlet",
+      "Elixir",
+      "Hard Nut",
+      "Staff of Anubis"
+    ],
+    "djinn_here": [
+      "Steel"
+    ],
+    "psynergy_here": [],
+    "summons_here": [],
+    "monsters_here": [
+      "Mimic",
+      "Bone Fighter",
+      "Death Head",
+      "Doomsayer",
+      "Red Demon",
+      "Salamander",
+      "Spirit"
+    ],
+    "bosses_here": [],
+    "shop": false,
+    "forging": [],
+    "transfer": [],
+    "sources": [
+      "data/gs2/walkthrough/22-gabomba-statue.md"
+    ]
+  },
+  {
+    "region_id": "gabomba-catacombs",
+    "name": "Gabomba Catacombs",
+    "order": 23,
+    "kind": "main",
+    "connections": [
+      "gabomba-statue"
+    ],
+    "pickups": [
+      "Mint",
+      "Game Ticket",
+      "Tomegathericon"
+    ],
+    "djinn_here": [
+      "Mud"
+    ],
+    "psynergy_here": [],
+    "summons_here": [],
+    "monsters_here": [
+      "Mad Plant",
+      "Doomsayer",
+      "Bone Fighter",
+      "Death Head",
+      "Spirit",
+      "Salamander",
+      "Red Demon"
+    ],
+    "bosses_here": [],
+    "shop": false,
+    "forging": [],
+    "transfer": [],
+    "sources": [
+      "data/gs2/walkthrough/23-gabomba-catacombs.md"
+    ]
+  },
+  {
+    "region_id": "lemurian-ship",
+    "name": "Lemurian Ship",
+    "order": 24,
+    "kind": "main",
+    "connections": [
+      "eastern-sea"
+    ],
+    "pickups": [
+      "Elixir",
+      "Potion",
+      "Antidote"
+    ],
+    "djinn_here": [],
+    "psynergy_here": [],
+    "summons_here": [],
+    "monsters_here": [
+      "Aqua Jelly"
+    ],
+    "bosses_here": [
+      "Aqua Hydra"
+    ],
+    "shop": false,
+    "forging": [],
+    "transfer": [],
+    "sources": [
+      "data/gs2/walkthrough/24-lemurian-ship.md"
+    ]
+  },
+  {
+    "region_id": "north-osenia-islet",
+    "name": "North Osenia Islet",
+    "order": 25,
+    "kind": "side",
+    "connections": [
+      "alhafra",
+      "sea-of-time"
+    ],
+    "pickups": [
+      "Lucky Medal",
+      "Milk"
+    ],
+    "djinn_here": [],
+    "psynergy_here": [],
+    "summons_here": [],
+    "monsters_here": [],
+    "bosses_here": [],
+    "shop": false,
+    "forging": [],
+    "transfer": [],
+    "sources": [
+      "data/gs2/walkthrough/25-north-osenia-islet.md"
+    ]
+  },
+  {
+    "region_id": "apojii-islands",
+    "name": "Apojii Islands",
+    "order": 26,
+    "kind": "main",
+    "connections": [
+      "aqua-rock"
+    ],
+    "pickups": [],
+    "djinn_here": [
+      "Haze"
+    ],
+    "psynergy_here": [],
+    "summons_here": [],
+    "monsters_here": [],
+    "bosses_here": [],
+    "shop": true,
+    "forging": [],
+    "transfer": [],
+    "sources": [
+      "data/gs2/walkthrough/26-apojii-islands.md"
+    ]
+  },
+  {
+    "region_id": "aqua-rock",
+    "name": "Aqua Rock",
+    "order": 27,
+    "kind": "main",
+    "connections": [
+      "apojii-islands"
+    ],
+    "pickups": [
+      "Nut",
+      "Elixir",
+      "Oil Drop",
+      "Mist Sabre",
+      "Vial",
+      "Tear Stone",
+      "Water of Life",
+      "Lucky Pepper",
+      "Aquarius Stone",
+      "Rusty Sword"
+    ],
+    "djinn_here": [
+      "Steam"
+    ],
+    "psynergy_here": [
+      "Parch"
+    ],
+    "summons_here": [],
+    "monsters_here": [
+      "Mimic"
+    ],
+    "bosses_here": [],
+    "shop": false,
+    "forging": [],
+    "transfer": [],
+    "sources": [
+      "raw/gs2/_chapters/autocon/104-aqua-rock.md",
+      "raw/gs2/_chapters/autocon/105-aqua-rock-interior.md",
+      "raw/gs2/_chapters/autocon/36-aqua-rock.md",
+      "raw/gs2/_chapters/autocon/37-aqua-rock-interior.md",
+      "raw/gs2/_chapters/cloud-blazer/43-aqua-rock.md",
+      "raw/gs2/_chapters/darthmarth/14-aqua-rock.md",
+      "raw/gs2/_chapters/ikillkenny/36-aqua-rock.md",
+      "raw/gs2/_chapters/shotgunnova/37-aqua-rock.md",
+      "raw/gs2/_chapters/strawhat/22-aqua-rock.md"
+    ]
+  },
+  {
+    "region_id": "sea-of-time-islet",
+    "name": "Sea of Time Islet",
+    "order": 28,
+    "kind": "main",
+    "connections": [
+      "east-tundaria-islet",
+      "se-angara-islet",
+      "north-osenia-islet",
+      "west-indra-islet",
+      "yallam"
+    ],
+    "pickups": [
+      "Lucky Medal",
+      "Li'l Turtle",
+      "Turtle Boots",
+      "Rusty Staff"
+    ],
+    "djinn_here": [
+      "Meld",
+      "Serac"
+    ],
+    "psynergy_here": [],
+    "summons_here": [
+      "Catastrophe"
+    ],
+    "monsters_here": [
+      "Wonder Birds"
+    ],
+    "bosses_here": [
+      "Sentinel"
+    ],
+    "shop": false,
+    "forging": [],
+    "transfer": [],
+    "sources": [
+      "raw/gs2/_chapters/cloud-blazer/44-sea-of-time-islet.md",
+      "raw/gs2/_chapters/shotgunnova/40-islet-trading-sidequest-optional.md",
+      "raw/gs2/_chapters/shotgunnova/57-islet-cave-optional.md"
+    ]
+  },
+  {
+    "region_id": "izumo",
+    "name": "Izumo",
+    "order": 29,
+    "kind": "main",
+    "connections": [
+      "gaia-rock"
+    ],
+    "pickups": [
+      "Festival Coat"
+    ],
+    "djinn_here": [
+      "Coal"
+    ],
+    "psynergy_here": [],
+    "summons_here": [],
+    "monsters_here": [],
+    "bosses_here": [],
+    "shop": true,
+    "forging": [],
+    "transfer": [],
+    "sources": [
+      "raw/gs2/_chapters/cloud-blazer/45-izumo.md"
+    ]
+  },
+  {
+    "region_id": "gaia-rock",
+    "name": "Gaia Rock",
+    "order": 30,
+    "kind": "main",
+    "connections": [
+      "izumo",
+      "izumo-ruins"
+    ],
+    "pickups": [
+      "Nut",
+      "Apple",
+      "Dancing Idol",
+      "Rusty Mace",
+      "Cloud Brand",
+      "Festival Coat"
+    ],
+    "djinn_here": [
+      "Coal"
+    ],
+    "psynergy_here": [
+      "Sand"
+    ],
+    "summons_here": [],
+    "monsters_here": [
+      "Mad Plant",
+      "Mimic"
+    ],
+    "bosses_here": [
+      "Serpent"
+    ],
+    "shop": false,
+    "forging": [],
+    "transfer": [],
+    "sources": [
+      "raw/gs2/_chapters/cloud-blazer/46-gaia-rock.md",
+      "raw/gs2/_chapters/shotgunnova/38-gaia-rock.md",
+      "raw/gs2/_chapters/strawhat/23-gaia-rock.md"
+    ]
+  },
+  {
+    "region_id": "izumo-ruins",
+    "name": "Izumo Ruins",
+    "order": 31,
+    "kind": "side",
+    "connections": [
+      "izumo"
+    ],
+    "pickups": [
+      "Phantasm Armor"
+    ],
+    "djinn_here": [],
+    "psynergy_here": [],
+    "summons_here": [
+      "Ulysses"
+    ],
+    "monsters_here": [],
+    "bosses_here": [],
+    "shop": false,
+    "forging": [],
+    "transfer": [],
+    "sources": [
+      "raw/gs2/_chapters/cloud-blazer/47-izumo-ruins.md"
+    ]
+  },
+  {
+    "region_id": "champa",
+    "name": "Champa",
+    "order": 32,
+    "kind": "main",
+    "connections": [
+      "ankohl-ruins",
+      "tolbi",
+      "lemuria"
+    ],
+    "pickups": [
+      "Viking Helm",
+      "Golden Ring",
+      "Trident of Ankohl"
+    ],
+    "djinn_here": [],
+    "psynergy_here": [],
+    "summons_here": [],
+    "monsters_here": [],
+    "bosses_here": [
+      "Avimander"
+    ],
+    "shop": true,
+    "forging": [
+      "Trident of Ankohl"
+    ],
+    "transfer": [
+      "Hsu/Ulmuch"
+    ],
+    "sources": [
+      "raw/gs2/_chapters/darthmarth/17-champa-ankohl-ruins-and-champa-revisited.md",
+      "raw/gs2/_chapters/cloud-blazer/53-champa.md",
+      "raw/gs2/_chapters/shotgunnova/44-champa.md",
+      "raw/gs2/_chapters/strawhat/27-champa.md"
+    ]
+  },
+  {
+    "region_id": "ankohl-ruins",
+    "name": "Ankohl Ruins",
+    "order": 33,
+    "kind": "main",
+    "connections": [
+      "champa"
+    ],
+    "pickups": [
+      "Coins",
+      "Crystal Powder",
+      "Nut",
+      "Thanatos Mace",
+      "Power Bread",
+      "365 Coins",
+      "Muni Robe",
+      "Sylph Feather",
+      "Potion",
+      "Left Prong"
+    ],
+    "djinn_here": [],
+    "psynergy_here": [],
+    "summons_here": [],
+    "monsters_here": [],
+    "bosses_here": [],
+    "shop": false,
+    "forging": [],
+    "transfer": [],
+    "sources": [
+      "raw/gs2/_chapters/darthmarth/17-champa-ankohl-ruins-and-champa-revisited.md",
+      "raw/gs2/_chapters/shotgunnova/43-ankohl-ruins.md",
+      "raw/gs2/_chapters/strawhat/25-ankohl-ruins.md",
+      "raw/gs2/_chapters/cloud-blazer/54-ankohl-ruins.md"
+    ]
+  },
+  {
+    "region_id": "east-tundaria-islet",
+    "name": "East Tundaria Islet",
+    "order": 34,
+    "kind": "side",
+    "connections": [
+      "garoh"
+    ],
+    "pickups": [
+      "Lucky Medal",
+      "Pretty Stone"
+    ],
+    "djinn_here": [],
+    "psynergy_here": [],
+    "summons_here": [],
+    "monsters_here": [],
+    "bosses_here": [],
+    "shop": false,
+    "forging": [],
+    "transfer": [],
+    "sources": [
+      "raw/gs2/_chapters/darthmarth/13-east-tundaria-islet-se-angara-islet-yallam-taopo-s.md",
+      "raw/gs2/_chapters/cloud-blazer/55-e-tundaria-islet.md"
+    ]
+  },
+  {
+    "region_id": "se-angara-islet",
+    "name": "SE Angara Islet",
+    "order": 35,
+    "kind": "side",
+    "connections": [
+      "sea-of-time",
+      "east-tundaria-islet",
+      "treasure-isle",
+      "sea-of-time-islet"
+    ],
+    "pickups": [
+      "Lucky Medal",
+      "Red Scarf",
+      "Rusty Mace",
+      "Rusty Axe"
+    ],
+    "djinn_here": [],
+    "psynergy_here": [],
+    "summons_here": [],
+    "monsters_here": [],
+    "bosses_here": [],
+    "shop": false,
+    "forging": [],
+    "transfer": [],
+    "sources": [
+      "raw/gs2/_chapters/autocon/100-se-angara-islet.md",
+      "raw/gs2/_chapters/autocon/32-se-angara-islet.md"
+    ]
+  },
+  {
+    "region_id": "west-indra-islet",
+    "name": "West Indra Islet",
+    "order": 36,
+    "kind": "side",
+    "connections": [
+      "n-osenia-islet"
+    ],
+    "pickups": [
+      "Lucky Medal",
+      "Li'l Turtle"
+    ],
+    "djinn_here": [],
+    "psynergy_here": [],
+    "summons_here": [],
+    "monsters_here": [],
+    "bosses_here": [],
+    "shop": false,
+    "forging": [],
+    "transfer": [],
+    "sources": [
+      "data/gs2/walkthrough/36-west-indra-islet.md"
+    ]
+  },
+  {
+    "region_id": "yallam",
+    "name": "Yallam",
+    "order": 37,
+    "kind": "main",
+    "connections": [
+      "east-tundaria-islet",
+      "champa",
+      "sea-of-time"
+    ],
+    "pickups": [
+      "16 gold coins",
+      "Elixir",
+      "Nut",
+      "Antidote",
+      "Oil Drop"
+    ],
+    "djinn_here": [],
+    "psynergy_here": [],
+    "summons_here": [],
+    "monsters_here": [],
+    "bosses_here": [],
+    "shop": true,
+    "forging": [
+      "Tear Stone",
+      "Star Dust",
+      "rusty weapons"
+    ],
+    "transfer": [],
+    "sources": [
+      "data/gs2/walkthrough/37-yallam.md"
+    ]
+  },
+  {
+    "region_id": "taopo-swamp",
+    "name": "Taopo Swamp",
+    "order": 38,
+    "kind": "side",
+    "connections": [
+      "yallam"
+    ],
+    "pickups": [
+      "Tear Stone",
+      "Cookie",
+      "Lucky Medal",
+      "Bramble Seed",
+      "Vial",
+      "Star Dust"
+    ],
+    "djinn_here": [
+      "Flower"
+    ],
+    "psynergy_here": [],
+    "summons_here": [],
+    "monsters_here": [
+      "Mad Plant"
+    ],
+    "bosses_here": [],
+    "shop": false,
+    "forging": [],
+    "transfer": [],
+    "sources": [
+      "data/gs2/walkthrough/38-taopo-swamp.md"
+    ]
+  },
+  {
+    "region_id": "islet-cave",
+    "name": "Islet Cave",
+    "order": 39,
+    "kind": "side",
+    "connections": [
+      "sea-of-time-islet",
+      "anemos-inner-sanctum"
+    ],
+    "pickups": [
+      "Tisiphone Edge"
+    ],
+    "djinn_here": [
+      "Serac"
+    ],
+    "psynergy_here": [],
+    "summons_here": [
+      "Catastrophe"
+    ],
+    "monsters_here": [
+      "Cruel Dragon"
+    ],
+    "bosses_here": [
+      "Sentinel"
+    ],
+    "shop": false,
+    "forging": [],
+    "transfer": [],
+    "sources": [
+      "data/gs2/walkthrough/39-islet-cave.md"
+    ]
+  },
+  {
+    "region_id": "tundaria-tower",
+    "name": "Tundaria Tower",
+    "order": 40,
+    "kind": "main",
+    "connections": [],
+    "pickups": [
+      "365 Coins",
+      "Mint",
+      "Crystal Powder",
+      "Hard Nut",
+      "Burst Brooch",
+      "Center Prong",
+      "Sylph Feather",
+      "Lucky Medal",
+      "Vial",
+      "Lightning Sword"
+    ],
+    "djinn_here": [
+      "Wheeze",
+      "Reflux"
+    ],
+    "psynergy_here": [
+      "Burst"
+    ],
+    "summons_here": [],
+    "monsters_here": [],
+    "bosses_here": [],
+    "shop": false,
+    "forging": [],
+    "transfer": [],
+    "sources": [
+      "data/gs2/walkthrough/40-tundaria-tower.md"
+    ]
+  },
+  {
+    "region_id": "alhafran-cavern",
+    "name": "Alhafran Cavern",
+    "order": 41,
+    "kind": "side",
+    "connections": [],
+    "pickups": [
+      "123 Coins",
+      "Ixion Mail",
+      "Lucky Medal",
+      "777 Coins",
+      "Potion",
+      "Psy Crystal",
+      "Power Bread"
+    ],
+    "djinn_here": [],
+    "psynergy_here": [],
+    "summons_here": [],
+    "monsters_here": [],
+    "bosses_here": [],
+    "shop": false,
+    "forging": [],
+    "transfer": [],
+    "sources": [
+      "data/gs2/walkthrough/41-alhafran-cavern.md"
+    ]
+  },
+  {
+    "region_id": "sea-of-time",
+    "name": "Sea of Time",
+    "order": 42,
+    "kind": "main",
+    "connections": [
+      "yallam",
+      "lemuria"
+    ],
+    "pickups": [],
+    "djinn_here": [],
+    "psynergy_here": [],
+    "summons_here": [],
+    "monsters_here": [],
+    "bosses_here": [
+      "Poseidon"
+    ],
+    "shop": false,
+    "forging": [],
+    "transfer": [],
+    "sources": [
+      "data/gs2/walkthrough/42-sea-of-time.md"
+    ]
+  },
+  {
+    "region_id": "lemuria",
+    "name": "Lemuria",
+    "order": 43,
+    "kind": "main",
+    "connections": [
+      "gondowan-cliffs"
+    ],
+    "pickups": [
+      "Mist Potion",
+      "Lucky Medal",
+      "Bone",
+      "Star Dust",
+      "Rusty Sword",
+      "Hard Nut",
+      "Grindstone",
+      "Hestia Blade",
+      "Mighty Axe",
+      "Erebus Armor",
+      "Aegis Shield"
+    ],
+    "djinn_here": [
+      "Rime"
+    ],
+    "psynergy_here": [
+      "Grind"
+    ],
+    "summons_here": [
+      "Eclipse"
+    ],
+    "monsters_here": [],
+    "bosses_here": [],
+    "shop": false,
+    "forging": [],
+    "transfer": [],
+    "sources": [
+      "data/gs2/walkthrough/43-lemuria.md"
+    ]
+  },
+  {
+    "region_id": "hesperia-settlement",
+    "name": "Hesperia Settlement",
+    "order": 44,
+    "kind": "main",
+    "connections": [
+      "shaman-village"
+    ],
+    "pickups": [
+      "186 coins"
+    ],
+    "djinn_here": [
+      "Tinder"
+    ],
+    "psynergy_here": [],
+    "summons_here": [],
+    "monsters_here": [],
+    "bosses_here": [],
+    "shop": false,
+    "forging": [],
+    "transfer": [],
+    "sources": [
+      "data/gs2/walkthrough/44-hesperia-settlement.md"
+    ]
+  },
+  {
+    "region_id": "shaman-village-cave",
+    "name": "Shaman Village Cave",
+    "order": 45,
+    "kind": "main",
+    "connections": [
+      "shaman-village",
+      "contigo"
+    ],
+    "pickups": [
+      "Golden Shirt"
+    ],
+    "djinn_here": [
+      "Eddy"
+    ],
+    "psynergy_here": [],
+    "summons_here": [],
+    "monsters_here": [],
+    "bosses_here": [
+      "Colosso gladiators"
+    ],
+    "shop": false,
+    "forging": [],
+    "transfer": [],
+    "sources": [
+      "data/gs2/walkthrough/45-shaman-village-cave.md"
+    ]
+  },
+  {
+    "region_id": "shaman-village",
+    "name": "Shaman Village",
+    "order": 46,
+    "kind": "main",
+    "connections": [
+      "trial-road",
+      "contigo"
+    ],
+    "pickups": [
+      "Elixir",
+      "Spirit Gloves",
+      "Hover Jade",
+      "Weasel's Claw",
+      "Lucky Pepper",
+      "Lucky Medal"
+    ],
+    "djinn_here": [
+      "Aroma"
+    ],
+    "psynergy_here": [],
+    "summons_here": [],
+    "monsters_here": [],
+    "bosses_here": [],
+    "shop": false,
+    "forging": [],
+    "transfer": [],
+    "sources": [
+      "data/gs2/walkthrough/46-shaman-village.md"
+    ]
+  },
+  {
+    "region_id": "trial-road",
+    "name": "Trial Road",
+    "order": 47,
+    "kind": "main",
+    "connections": [
+      "shaman-village"
+    ],
+    "pickups": [
+      "Potion",
+      "Vial",
+      "Nut"
+    ],
+    "djinn_here": [
+      "Gasp"
+    ],
+    "psynergy_here": [],
+    "summons_here": [],
+    "monsters_here": [],
+    "bosses_here": [
+      "Moapa & Knights"
+    ],
+    "shop": false,
+    "forging": [],
+    "transfer": [],
+    "sources": [
+      "data/gs2/walkthrough/47-trial-road.md"
+    ]
+  },
+  {
+    "region_id": "sw-atteka-islet",
+    "name": "SW Atteka Islet",
+    "order": 48,
+    "kind": "main",
+    "connections": [],
+    "pickups": [
+      "Vial",
+      "Orihalcon",
+      "Dragon Skin"
+    ],
+    "djinn_here": [
+      "Petra",
+      "Core",
+      "Geode"
+    ],
+    "psynergy_here": [],
+    "summons_here": [],
+    "monsters_here": [],
+    "bosses_here": [],
+    "shop": false,
+    "forging": [],
+    "transfer": [
+      "Hammet rescue",
+      "Jupiter Djinni transfer"
+    ],
+    "sources": [
+      "data/gs2/walkthrough/48-sw-atteka-islet.md"
+    ]
+  },
+  {
+    "region_id": "contigo",
+    "name": "Contigo",
+    "order": 49,
+    "kind": "main",
+    "connections": [
+      "jupiter-lighthouse",
+      "sw-atteka-islet"
+    ],
+    "pickups": [
+      "Corn",
+      "Dragon Skin"
+    ],
+    "djinn_here": [
+      "Salt",
+      "Shine"
+    ],
+    "psynergy_here": [],
+    "summons_here": [],
+    "monsters_here": [],
+    "bosses_here": [],
+    "shop": true,
+    "forging": [],
+    "transfer": [
+      "Isaac's party",
+      "Force Orb"
+    ],
+    "sources": [
+      "data/gs2/walkthrough/49-contigo.md"
+    ]
+  },
+  {
+    "region_id": "jupiter-lighthouse",
+    "name": "Jupiter Lighthouse",
+    "order": 50,
+    "kind": "main",
+    "connections": [
+      "sw-atteka-islet",
+      "contigo"
+    ],
+    "pickups": [
+      "Mint",
+      "Erinyes Tunic",
+      "Meditation Rod",
+      "Red Key",
+      "Psy Crystal",
+      "306 Coins",
+      "Mist Potion",
+      "Blue Key",
+      "Potion",
+      "Water of Life",
+      "Phaeton's Blade",
+      "Dark Matter"
+    ],
+    "djinn_here": [
+      "Whorl"
+    ],
+    "psynergy_here": [],
+    "summons_here": [],
+    "monsters_here": [
+      "Mad Plant",
+      "Mimic"
+    ],
+    "bosses_here": [
+      "Agatio & Karst"
+    ],
+    "shop": false,
+    "forging": [],
+    "transfer": [],
+    "sources": [
+      "data/gs2/walkthrough/50-jupiter-lighthouse.md"
+    ]
+  },
+  {
+    "region_id": "atteka-cavern",
+    "name": "Atteka Cavern",
+    "order": 51,
+    "kind": "side",
+    "connections": [
+      "loho"
+    ],
+    "pickups": [],
+    "djinn_here": [],
+    "psynergy_here": [],
+    "summons_here": [
+      "Coatlicue",
+      "Haures"
+    ],
+    "monsters_here": [],
+    "bosses_here": [],
+    "shop": false,
+    "forging": [],
+    "transfer": [],
+    "sources": [
+      "data/gs2/walkthrough/51-atteka-cavern.md"
+    ]
+  },
+  {
+    "region_id": "magma-rock",
+    "name": "Magma Rock",
+    "order": 52,
+    "kind": "main",
+    "connections": [],
+    "pickups": [
+      "Apple",
+      "383 Coins",
+      "Oil Drop",
+      "Salamander Tail",
+      "Mist Potion",
+      "Lucky Medal",
+      "Golem Core",
+      "Magma Ball"
+    ],
+    "djinn_here": [
+      "Fury"
+    ],
+    "psynergy_here": [
+      "Blaze"
+    ],
+    "summons_here": [],
+    "monsters_here": [
+      "Mimic",
+      "Lich",
+      "Little Death",
+      "Phoenix",
+      "Raging Rock",
+      "Wise Gryphon",
+      "Grand Chimera",
+      "Lesser Demon"
+    ],
+    "bosses_here": [],
+    "shop": false,
+    "forging": [],
+    "transfer": [
+      "GS1 Mars Djinni"
+    ],
+    "sources": [
+      "data/gs2/walkthrough/52-magma-rock.md"
+    ]
+  },
+  {
+    "region_id": "gondowan-settlement",
+    "name": "Gondowan Settlement",
+    "order": 53,
+    "kind": "main",
+    "connections": [
+      "jupiter-lighthouse",
+      "magma-rock"
+    ],
+    "pickups": [
+      "Star Dust",
+      "Lucky Medal"
+    ],
+    "djinn_here": [],
+    "psynergy_here": [],
+    "summons_here": [],
+    "monsters_here": [],
+    "bosses_here": [],
+    "shop": false,
+    "forging": [],
+    "transfer": [],
+    "sources": [
+      "data/gs2/walkthrough/53-gondowan-settlement.md"
+    ]
+  },
+  {
+    "region_id": "loho",
+    "name": "Loho",
+    "order": 54,
+    "kind": "main",
+    "connections": [],
+    "pickups": [
+      "Golem Core",
+      "Mythril Silver",
+      "Crystal Powder",
+      "Game Tickets"
+    ],
+    "djinn_here": [
+      "Lull"
+    ],
+    "psynergy_here": [],
+    "summons_here": [],
+    "monsters_here": [],
+    "bosses_here": [],
+    "shop": false,
+    "forging": [],
+    "transfer": [],
+    "sources": [
+      "raw/gs2/_chapters/autocon/61-loho.md",
+      "raw/gs2/_chapters/cloud-blazer/84-loho.md",
+      "raw/gs2/_chapters/darthmarth/23-loho-angara-cavern-and-prox.md",
+      "raw/gs2/_chapters/ikillkenny/67-gondowan-settlement-and-more.md",
+      "raw/gs2/_chapters/ikillkenny/68-loho.md",
+      "raw/gs2/_chapters/shotgunnova/52-loho.md"
+    ]
+  },
+  {
+    "region_id": "northern-reaches",
+    "name": "Northern Reaches",
+    "order": 55,
+    "kind": "main",
+    "connections": [
+      "prox"
+    ],
+    "pickups": [],
+    "djinn_here": [],
+    "psynergy_here": [],
+    "summons_here": [],
+    "monsters_here": [
+      "Grand Chimera",
+      "Phoenix",
+      "Spiral Shell",
+      "Turtle Dragon"
+    ],
+    "bosses_here": [],
+    "shop": false,
+    "forging": [],
+    "transfer": [],
+    "sources": [
+      "raw/gs2/_chapters/cloud-blazer/86-northern-reaches.md",
+      "raw/gs2/_chapters/telago/22-reaching-prox-via-the-northern-reaches.md"
+    ]
+  },
+  {
+    "region_id": "prox",
+    "name": "Prox",
+    "order": 56,
+    "kind": "main",
+    "connections": [
+      "mars-lighthouse"
+    ],
+    "pickups": [
+      "Dark Matter"
+    ],
+    "djinn_here": [
+      "Mold"
+    ],
+    "psynergy_here": [],
+    "summons_here": [],
+    "monsters_here": [],
+    "bosses_here": [],
+    "shop": false,
+    "forging": [],
+    "transfer": [],
+    "sources": [
+      "raw/gs2/_chapters/autocon/62-prox.md",
+      "raw/gs2/_chapters/cloud-blazer/87-prox.md",
+      "raw/gs2/_chapters/darthmarth/23-loho-angara-cavern-and-prox.md",
+      "raw/gs2/_chapters/ikillkenny/71-prox.md",
+      "raw/gs2/_chapters/shotgunnova/53-prox.md"
+    ]
+  },
+  {
+    "region_id": "mars-lighthouse",
+    "name": "Mars Lighthouse",
+    "order": 57,
+    "kind": "main",
+    "connections": [],
+    "pickups": [
+      "Apple",
+      "Cookie",
+      "Orihalcon",
+      "Teleport Lapis",
+      "Valkyrie Mail",
+      "Sol Blade",
+      "Mars Star",
+      "Psy Crystal",
+      "Alastor's Hood"
+    ],
+    "djinn_here": [
+      "Balm",
+      "Fugue"
+    ],
+    "psynergy_here": [
+      "Teleport"
+    ],
+    "summons_here": [],
+    "monsters_here": [
+      "Mimic"
+    ],
+    "bosses_here": [
+      "Flame Dragon",
+      "Doom Dragon"
+    ],
+    "shop": false,
+    "forging": [],
+    "transfer": [],
+    "sources": [
+      "raw/gs2/_chapters/autocon/63-mars-lighthouse.md",
+      "raw/gs2/_chapters/autocon/68-the-end.md",
+      "raw/gs2/_chapters/cloud-blazer/88-mars-lighthouse.md",
+      "raw/gs2/_chapters/darthmarth/24-mars-lighthouse-and-ending.md",
+      "raw/gs2/_chapters/ikillkenny/72-mars-lighthouse.md",
+      "raw/gs2/_chapters/ikillkenny/73-ending.md",
+      "raw/gs2/_chapters/shotgunnova/54-mars-lighthouse.md",
+      "raw/gs2/_chapters/strawhat/32-mars-lighthouse.md",
+      "raw/gs2/_chapters/telago/23-the-mars-lighthouse-the-final-beacon.md"
+    ]
+  },
+  {
+    "region_id": "kalt-island",
+    "name": "Kalt Island",
+    "order": 58,
+    "kind": "side",
+    "connections": [],
+    "pickups": [
+      "Apple"
+    ],
+    "djinn_here": [
+      "Gel"
+    ],
+    "psynergy_here": [],
+    "summons_here": [],
+    "monsters_here": [],
+    "bosses_here": [],
+    "shop": false,
+    "forging": [],
+    "transfer": [],
+    "sources": [
+      "raw/gs2/_chapters/cloud-blazer/78-kalt-island.md",
+      "raw/gs2/_chapters/ikillkenny/69-kalt-island.md"
+    ]
+  },
+  {
+    "region_id": "treasure-isle",
+    "name": "Treasure Isle",
+    "order": 59,
+    "kind": "postgame",
+    "connections": [],
+    "pickups": [
+      "161 Coins",
+      "Lucky Medal",
+      "Jester's Armlet",
+      "911 Coins",
+      "Sylph Feather",
+      "Rusty Axe",
+      "Psy Crystal",
+      "Star Dust",
+      "Cookie",
+      "Power Bread",
+      "Iris Robe",
+      "Fire Brand"
+    ],
+    "djinn_here": [
+      "Gale"
+    ],
+    "psynergy_here": [],
+    "summons_here": [
+      "Azul"
+    ],
+    "monsters_here": [
+      "Mimic"
+    ],
+    "bosses_here": [
+      "Star Magician"
+    ],
+    "shop": false,
+    "forging": [],
+    "transfer": [],
+    "sources": [
+      "raw/gs2/_chapters/autocon/66-treasure-isle.md",
+      "raw/gs2/_chapters/cloud-blazer/80-treasure-isle.md",
+      "raw/gs2/_chapters/darthmarth/27-treasure-isle.md",
+      "raw/gs2/_chapters/shotgunnova/55-treasure-isle-optional.md",
+      "raw/gs2/_chapters/strawhat/38-treasure-isle.md",
+      "raw/gs2/_chapters/telago/36-treasure-island.md"
+    ]
+  },
+  {
+    "region_id": "yampi-desert-cave",
+    "name": "Yampi Desert Cave",
+    "order": 60,
+    "kind": "postgame",
+    "connections": [
+      "alhafra"
+    ],
+    "pickups": [
+      "Water of Life",
+      "Mythril Silver",
+      "Dark Matter",
+      "Orihalcon"
+    ],
+    "djinn_here": [
+      "Crystal"
+    ],
+    "psynergy_here": [],
+    "summons_here": [
+      "Daedalus"
+    ],
+    "monsters_here": [],
+    "bosses_here": [
+      "Valukar"
+    ],
+    "shop": false,
+    "forging": [],
+    "transfer": [],
+    "sources": [
+      "raw/gs2/_chapters/autocon/64-yampi-desert-cave.md",
+      "raw/gs2/_chapters/cloud-blazer/92-yampi-desert-cave.md",
+      "raw/gs2/_chapters/darthmarth/25-yampi-desert-cave.md",
+      "raw/gs2/_chapters/strawhat/39-yampi-desert-cave.md",
+      "raw/gs2/_chapters/telago/37-yampi-desert.md"
+    ]
+  },
+  {
+    "region_id": "anemos-sanctum",
+    "name": "Anemos Inner Sanctum",
+    "order": 61,
+    "kind": "postgame",
+    "connections": [
+      "contigo"
+    ],
+    "pickups": [
+      "Dragon Skin",
+      "Dark Matter",
+      "Orihalcon"
+    ],
+    "djinn_here": [],
+    "psynergy_here": [],
+    "summons_here": [
+      "Charon",
+      "Iris"
+    ],
+    "monsters_here": [],
+    "bosses_here": [
+      "Dullahan"
+    ],
+    "shop": false,
+    "forging": [],
+    "transfer": [],
+    "sources": [
+      "raw/gs2/_chapters/autocon/67-anemos-sanctum.md",
+      "raw/gs2/_chapters/darthmarth/28-anemos-sanctum.md",
+      "raw/gs2/_chapters/shotgunnova/58-anemos-sanctum-optional.md",
+      "raw/gs2/_chapters/strawhat/40-anemos-sanctum.md",
+      "raw/gs2/_chapters/telago/39-anemos-inner-sanctum.md"
+    ]
+  }
+]
