@@ -178,68 +178,68 @@ Status: ⬜ not started · 🔄 in progress · ✅ done + gate-clean.
 
 | # | region | kind | #ch | #src | T | 2a |
 |---|---|---|---|---|---|---|
-| 0 | Venus Lighthouse | main | 7 | 7 |  | ⬜ |
-| 1 | Suhalla Gate | main | 8 | 6 |  | ⬜ |
-| 2 | Idejima | main | 5 | 5 |  | ⬜ |
-| 3 | Daila | main | 10 | 7 |  | ⬜ |
-| 4 | Kandorean Temple | main | 12 | 9 | T | ⬜ |
-| 5 | Shrine of the Sea God | main | 14 | 9 | T | ⬜ |
-| 6 | Dehkan Plateau | main | 10 | 9 | T | ⬜ |
-| 7 | Indra Cavern | main | 11 | 6 |  | ⬜ |
-| 8 | Madra | main | 16 | 8 | T | ⬜ |
-| 9 | Madra Catacombs | main | 7 | 5 |  | ⬜ |
-| 10 | Madra Drawbridge | main | 3 | 3 |  | ⬜ |
-| 11 | Osenia Cliffs | main | 3 | 3 |  | ⬜ |
-| 12 | Yampi Desert | main | 14 | 9 | T | ⬜ |
-| 13 | Alhafra | main | 17 | 9 | T | ⬜ |
-| 14 | Garoh | main | 19 | 9 | T | ⬜ |
-| 15 | Air's Rock | main | 17 | 9 | T | ⬜ |
-| 16 | Osenia Cavern | main | 8 | 6 | T | ⬜ |
-| 17 | Mikasalla | main | 13 | 8 | T | ⬜ |
-| 18 | Gondowan Cliffs | main | 14 | 9 | T | ⬜ |
-| 19 | Naribwe | main | 8 | 7 | T | ⬜ |
-| 20 | Kibombo Mountains | main | 10 | 7 | T | ⬜ |
-| 21 | Kibombo | main | 9 | 7 | T | ⬜ |
-| 22 | Gabomba Statue | main | 9 | 7 | T | ⬜ |
-| 23 | Gabomba Catacombs | main | 5 | 5 |  | ⬜ |
-| 24 | Lemurian Ship | main | 3 | 3 |  | ⬜ |
-| 25 | North Osenia Islet | side | 5 | 4 |  | ⬜ |
-| 26 | Apojii Islands | main | 10 | 5 |  | ⬜ |
-| 27 | Aqua Rock | main | 9 | 6 |  | ⬜ |
-| 28 | Sea of Time Islet | main | 7 | 5 |  | ⬜ |
-| 29 | Izumo | main | 9 | 5 |  | ⬜ |
-| 30 | Gaia Rock | main | 7 | 6 |  | ⬜ |
-| 31 | Izumo Ruins | side | 2 | 2 |  | ⬜ |
-| 32 | Champa | main | 9 | 7 |  | ⬜ |
-| 33 | Ankohl Ruins | main | 8 | 6 |  | ⬜ |
-| 34 | East Tundaria Islet | side | 4 | 3 |  | ⬜ |
-| 35 | SE Angara Islet | side | 2 | 1 |  | ⬜ |
-| 36 | West Indra Islet | side | 2 | 1 |  | ⬜ |
-| 37 | Yallam | main | 8 | 6 | T | ⬜ |
-| 38 | Taopo Swamp | side | 6 | 5 |  | ⬜ |
-| 39 | Islet Cave | side | 3 | 3 | T | ⬜ |
-| 40 | Tundaria Tower | main | 7 | 6 |  | ⬜ |
-| 41 | Alhafran Cavern | side | 2 | 2 |  | ⬜ |
-| 42 | Sea of Time | main | 8 | 6 | T | ⬜ |
-| 43 | Lemuria | main | 10 | 6 | T | ⬜ |
-| 44 | Hesperia Settlement | main | 3 | 3 |  | ⬜ |
-| 45 | Shaman Village Cave | main | 3 | 2 |  | ⬜ |
-| 46 | Shaman Village | main | 8 | 5 |  | ⬜ |
-| 47 | Trial Road | main | 4 | 4 | T | ⬜ |
-| 48 | SW Atteka Islet | main | 6 | 5 | T | ⬜ |
-| 49 | Contigo | main | 9 | 5 | T | ⬜ |
-| 50 | Jupiter Lighthouse | main | 8 | 7 | T | ⬜ |
-| 51 | Atteka Cavern | side | 3 | 2 |  | ⬜ |
-| 52 | Magma Rock | main | 7 | 7 | T | ⬜ |
-| 53 | Gondowan Settlement | main | 5 | 4 |  | ⬜ |
-| 54 | Loho | main | 6 | 5 |  | ⬜ |
-| 55 | Northern Reaches | main | 2 | 2 | T | ⬜ |
-| 56 | Prox | main | 5 | 5 |  | ⬜ |
-| 57 | Mars Lighthouse | main | 9 | 7 | T | ⬜ |
-| 58 | Kalt Island | side | 2 | 2 |  | ⬜ |
-| 59 | Treasure Isle | postgame | 6 | 6 | T | ⬜ |
-| 60 | Yampi Desert Cave | postgame | 5 | 5 | T | ⬜ |
-| 61 | Anemos Inner Sanctum | postgame | 5 | 5 | T | ⬜ |
+| 0 | Venus Lighthouse | main | 7 | 7 |  | ✅ |
+| 1 | Suhalla Gate | main | 8 | 6 |  | ✅ |
+| 2 | Idejima | main | 5 | 5 |  | ✅ |
+| 3 | Daila | main | 10 | 7 |  | ✅ |
+| 4 | Kandorean Temple | main | 12 | 9 | T | ✅ |
+| 5 | Shrine of the Sea God | main | 14 | 9 | T | ✅ |
+| 6 | Dehkan Plateau | main | 10 | 9 | T | ✅ |
+| 7 | Indra Cavern | main | 11 | 6 |  | ✅ |
+| 8 | Madra | main | 16 | 8 | T | ✅ |
+| 9 | Madra Catacombs | main | 7 | 5 |  | ✅ |
+| 10 | Madra Drawbridge | main | 3 | 3 |  | ✅ |
+| 11 | Osenia Cliffs | main | 3 | 3 |  | ✅ |
+| 12 | Yampi Desert | main | 14 | 9 | T | ✅ |
+| 13 | Alhafra | main | 17 | 9 | T | ✅ |
+| 14 | Garoh | main | 19 | 9 | T | ✅ |
+| 15 | Air's Rock | main | 17 | 9 | T | ✅ |
+| 16 | Osenia Cavern | main | 8 | 6 | T | ✅ |
+| 17 | Mikasalla | main | 13 | 8 | T | ✅ |
+| 18 | Gondowan Cliffs | main | 14 | 9 | T | ✅ |
+| 19 | Naribwe | main | 8 | 7 | T | ✅ |
+| 20 | Kibombo Mountains | main | 10 | 7 | T | ✅ |
+| 21 | Kibombo | main | 9 | 7 | T | ✅ |
+| 22 | Gabomba Statue | main | 9 | 7 | T | ✅ |
+| 23 | Gabomba Catacombs | main | 5 | 5 |  | ✅ |
+| 24 | Lemurian Ship | main | 3 | 3 |  | ✅ |
+| 25 | North Osenia Islet | side | 5 | 4 |  | ✅ |
+| 26 | Apojii Islands | main | 10 | 5 |  | ✅ |
+| 27 | Aqua Rock | main | 9 | 6 |  | ✅ |
+| 28 | Sea of Time Islet | main | 7 | 5 |  | ✅ |
+| 29 | Izumo | main | 9 | 5 |  | ✅ |
+| 30 | Gaia Rock | main | 7 | 6 |  | ✅ |
+| 31 | Izumo Ruins | side | 2 | 2 |  | ✅ |
+| 32 | Champa | main | 9 | 7 |  | ✅ |
+| 33 | Ankohl Ruins | main | 8 | 6 |  | ✅ |
+| 34 | East Tundaria Islet | side | 4 | 3 |  | ✅ |
+| 35 | SE Angara Islet | side | 2 | 1 |  | ✅ |
+| 36 | West Indra Islet | side | 2 | 1 |  | ✅ |
+| 37 | Yallam | main | 8 | 6 | T | ✅ |
+| 38 | Taopo Swamp | side | 6 | 5 |  | ✅ |
+| 39 | Islet Cave | side | 3 | 3 | T | ✅ |
+| 40 | Tundaria Tower | main | 7 | 6 |  | ✅ |
+| 41 | Alhafran Cavern | side | 2 | 2 |  | ✅ |
+| 42 | Sea of Time | main | 8 | 6 | T | ✅ |
+| 43 | Lemuria | main | 10 | 6 | T | ✅ |
+| 44 | Hesperia Settlement | main | 3 | 3 |  | ✅ |
+| 45 | Shaman Village Cave | main | 3 | 2 |  | ✅ |
+| 46 | Shaman Village | main | 8 | 5 |  | ✅ |
+| 47 | Trial Road | main | 4 | 4 | T | ✅ |
+| 48 | SW Atteka Islet | main | 6 | 5 | T | ✅ |
+| 49 | Contigo | main | 9 | 5 | T | ✅ |
+| 50 | Jupiter Lighthouse | main | 8 | 7 | T | ✅ |
+| 51 | Atteka Cavern | side | 3 | 2 |  | ✅ |
+| 52 | Magma Rock | main | 7 | 7 | T | ✅ |
+| 53 | Gondowan Settlement | main | 5 | 4 |  | ✅ |
+| 54 | Loho | main | 6 | 5 |  | ✅ |
+| 55 | Northern Reaches | main | 2 | 2 | T | ✅ |
+| 56 | Prox | main | 5 | 5 |  | ✅ |
+| 57 | Mars Lighthouse | main | 9 | 7 | T | ✅ |
+| 58 | Kalt Island | side | 2 | 2 |  | ✅ |
+| 59 | Treasure Isle | postgame | 6 | 6 | T | ✅ |
+| 60 | Yampi Desert Cave | postgame | 5 | 5 | T | ✅ |
+| 61 | Anemos Inner Sanctum | postgame | 5 | 5 | T | ✅ |
 | 62 | Overworld / Navigation | overworld | 40 | 8 | T | — (bucket, §4) |
 | 63 | Boss Strategies (appendix) | reference | 42 | 4 |  | — (bucket, §4) |
 
