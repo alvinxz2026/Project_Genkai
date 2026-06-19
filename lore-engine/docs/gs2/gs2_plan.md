@@ -41,6 +41,7 @@ GS2 和 GS1 共用同一套管线、同一个仓库，按 `gs2` 命名空间分�
 | **3. Design — schema** | 先有 ER 草图钉 id/FK，再以 `gs1_schema.md` 为模板写 `gs2_schema.md`（含 Master Source IDs 表） | 🔄 ER 草图 `gs2_er_sketch.md` ✅ + `gs2_schema.md` monsters ✅ / equipment ✅ / items ✅ / bosses ✅ / djinn ✅ / summons ✅ / characters ✅ / classes ✅(Layer1) 段；其余实体段未写 |
 | **3.5 Extraction plan** | 按实体讨论怎么提取、每个实体/源用 Gemini 还是 Claude Code（见 §4 已定 + 待定） | 🔄 已起草 draft：`docs/gs2/gs2_extraction_plan.md`（实体×源覆盖矩阵 + 初步分工），待 refine |
 | **4. 提取 + 连图** | 逐实体提（**规整 data-table 走确定性解析器**，见竖切结论；agent/extract.py 为退路）；播种继承数据；跑 normalize→audit（纯 Python，免费） | 🔄 monsters ✅（203）；equipment ✅（143）+ items ✅（24）走 `items_extract_gs2.py`；bosses ✅（18）走 `bosses_extract_gs2.py`（两层：确定性骨架 + curated strategy sidecar）；djinn ✅（72）走 `djinn_extract_gs2.py`（单源 demooni）；summons ✅（29=16 标准+13 组合）走 `summons_extract_gs2.py`（cooldude VII+V 双段 merge）；characters ✅（8）走 `characters_extract_gs2.py`（两层：darkslime 结构块 + curated join/from_gs1）；classes 🔄 Layer1+2 ✅（110）走 `classes_extract_gs2.py`(terence 脊柱:stat_multiplier+element_requirements+group+class_line)+`classes_ultimalink_gs2.py`(ultimalink:available_to 8 角色+djinn 数、psynergy 习得表 106/110；Tamer psynergy 缓)；Layer3 matcher/aku-chi ACR 待续；psynergy ✅（157）走 `psynergy_extract_gs2.py`（yoyoyoshi m11 主表，clean canonical）；**gs2 links_normalize/audit ✅**（`links_normalize_gs2.py`+`links_audit_gs2.py`，fork 自 gs1，回填 classes.psynergy id 1424/1588、monsters djinn_id 27/27、boss_id 23/23、drops ref **100/153**、equippable_by 132/143、shops.stock 83/204；audit 0 错+回归门禁）；**shops ✅**（15 城镇 204 stock，`shops_extract_gs2.py`，顺手收 10 共享消耗品进 items）；**forging ✅**（并入 equipment.forged_from 56/57，`forging_extract_gs2.py`，cross-check 出 3 处 typo）；其余未开始（locations）；73 共享基础装备缓 |
+| **4.5 Walkthrough 整合 + locations** | spine → 2a 整合(按地区分块) → locations 提取 → 2b 翻译；详细计划 + work queue 见 `walkthrough_consolidation_plan.md` | 🔄 keystone ✅（index+spine+gate：494/494 章映射到 64 节点、0 孤儿/0 空节点）；2a/locations/2b 待跑（交 Gemini Pro，按 spine 顺序）|
 | **5. 应用层** | 复用/扩展 codex 等（gs2 版或合并版） | ⬜ 远期 |
 
 > 勾选用 ⬜/🔄/✅。每推进一块就回来改这张表 + §5 日志。
@@ -128,6 +129,9 @@ notes:                       # 可选，一句话：强在哪 / 坑在哪
 4. **应用层**：gs2 单独出 codex，还是做成跨 game 的统一 app。
 5. **master-data / canonical id 层（新）**：用 hex 源（`90kirsdarke-hack` / `kaitia-savehack`）给
    每条数据挂 code/id + 做完整性校验？用户提议，待单独一轮（见 `gs2_extraction_plan.md §4`）。
+6. **cross-check（任务3，远期）**：拆出来的 walkthrough 章节 + 2a 整合稿 与现有 `data/gs2/*.json`
+   做交叉校验（道具位置/掉落/djinn 获取/boss 数值等），flag 不静默改。**安排在 2a + locations
+   完成之后**，因为整合稿会成为 cross-check 的干净比对面。见 `walkthrough_consolidation_plan.md §6`。
 
 ---
 
@@ -135,6 +139,7 @@ notes:                       # 可选，一句话：强在哪 / 坑在哪
 
 | 日期 | 进展 |
 |---|---|
+| 2026-06-18 | **Walkthrough 整合 pipeline — keystone ✅**（split+tag 之后的下一工作线）。定方案(与用户)：**spine → 2a 整合 → locations → 2b 翻译**，2a 重活交 Antigravity/Gemini Pro。建 3 个确定性脚本(免费)：`walkthrough_index_gs2.py`(855 章 metadata→index，494 prose=2a 语料)、`region_spine_gs2.py`(**键石**：cloud-blazer 干净 area 级章序当 canonical spine + 把全部 494 prose 章 map 到 64 节点；coarse/quest-arc 走 COARSE_MAP、拼写变体走 aliases；**494/494 映射、0 孤儿、0 空节点**)、`walkthrough_coverage_gs2.py`(QA 门禁：pre-2a 无孤儿/空节点；post-2a 每必需节点有文件+`sources`⊆该节点映射章)。**关键决策**：① 顺序 spine→2a→locations(locations 从 2a 干净整合稿抽，非重读 10 源)；② 2a/locations 两遍分开(handoff 简单)；③ 2a 输出按地区分块 `data/gs2/walkthrough/NN-<slug>.md`(对齐未来 HTML)；④ **Telago=most-recommended→2a 主叙述声+冲突 tie-breaker**(非 equal weight，cloud-blazer 仅作结构参考)。难点(各作者 TOC 拆法不一)由 spine many-to-many 映射化解：Telago 粗 quest-arc→多节点、monolithic(strawhat/super-slash)→overworld bucket+按地区检索、boss 策略 appendix(42 章)→boss-strategies bucket。详细计划+逐节点 work queue+Gemini handoff 提示词 = `walkthrough_consolidation_plan.md`。task 3 cross-check 占位入 §4。 |
 | 2026-06-17 | Kickoff：建 `raw/gs2` `data/gs2` `docs/gs2` 脚手架 + `schema/gs2_schema.md` 骨架 + 这份 meta plan。待用户 review/annotate。 |
 | 2026-06-17 | Raw 标注：收 10 篇 walkthrough + 目录页；补全 frontmatter(短 source_id/covers/summary)；定"正文不整理/不拆分、用 TOC 定向读"铁律 + gs2 covers 词表(新增 transfer/forging/mechanics)；建总索引 `gs2_sources.md`(含候选专项源)。正文零改动。 |
 | 2026-06-17 | 定提取路线：**走 subscription/agent(Claude Code 和/或 Gemini)，不依赖 extract.py(API，更贵)**，extract.py 降级 fallback；schema 仍是核心 spec，下游 Python 连图免费。加阶段 3.5「Extraction plan」——下一轮补全专项源 frontmatter 后专门讨论各类数据怎么提取、每实体用谁。 |
