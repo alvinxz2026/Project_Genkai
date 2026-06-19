@@ -12,6 +12,88 @@
 
 ---
 
+## 源使用状态速查（used / unused）— 2026-06-19
+
+> 这一节是「现状视图」：哪些源真被提取脚本吃过、哪些没。**ground truth 取自
+> `scripts/*_gs2.py` 实际打开的文件**（非凭印象）。下方原始收集表（## 已收集 …）保留作
+> 收集日志，不动。
+
+### 各实体的提取主源（脚本实测）
+| 实体 | 提取脚本实际读的源 |
+|---|---|
+| monsters / bosses | `torrentlord`（+ `link-kirby-boss` 作 boss strategy sidecar）|
+| equipment | `mr-unorigino-item`（+ `90kirsdarke-hack` canonical 名、`aspartate-forge` forged_from）|
+| items | `mr-unorigino-item`（+ `shotgunnova-shop`）|
+| djinn | `demooni`（+ walkthrough 反查回填 `location.area`）|
+| summons | `cooldude345` |
+| characters | `Darkslime`（**full guide**，非 In-Depth）|
+| classes | `terence` + `ultimalink` |
+| psynergy | `yoyoyoshi` + `mr-unorigino-psy` |
+| shops | `shotgunnova-shop` |
+| forging | `aspartate-forge` |
+| locations / walkthrough(2a) | **全 10 篇 full guide 的「走法 prose 章节」**（`_chapters/` cross-ref 合并，telago 主声）|
+
+### 已用 In-Depth（12）
+`torrentlord` · `mr-unorigino-item` · `mr-unorigino-psy` · `ultimalink` · `shotgunnova-shop` ·
+`yoyoyoshi` · `terence` · `demooni` · `cooldude345` · `aspartate-forge` · `90kirsdarke-hack` ·
+`link-kirby-boss`。
+
+### 未用 In-Depth（20）— 标 ⭐ 的对当前缺口有用（见下「缺口映射」）
+- **可能补缺口**：`dbfire` ⭐（summon 石板/支线 → `summons.acquisition.location`）、
+  `aku-chi` ⭐（职业系统 + psynergy board → classes Layer3 / Tamer psynergy）、
+  `goldmario-boss`·`rena-chan-hardboss`（boss 应用层策略）。
+- **冗余/已被更优源覆盖**：`aspartate-item`、`aspartate-djinn`、`android50`、`bbbbrain2000`
+  （多为 location 辅源，djinn area 已回填、item loc 暂不缺）。
+- **应用/参考向，非提取**：`astralfire`、`monet-ship`、`gamecubeguy49-islet`、`josher1212`（未 triage）、
+  `kaitia-savehack`（canonical id 已否决）、`sintaku-script`、`mtkennerly-script`、
+  `thehomeland-dialogue`、`barbarossa89-music`、`mr-unorigino-pw`、`barbarianbob-glitch`、`link-kirby-rng`。
+
+### Full guide 用了多少？
+- **走法 prose 章节 = 已用**（2a 合并 → 62 locations）。
+- **数据附录章节（djinn/items/weapons/classes/psynergy/monster 表）= 几乎全未用** ——
+  提取时一律改吃更干净的 In-Depth data-table 源。这批附录是 split 之后才单独可寻址的，
+  详见下一节，是当前缺口的**头号候选补料**。
+
+---
+
+## `_chapters/` 数据附录层（split 后才暴露的视角）— 待评估
+
+> `gs2_sources.md` 初版把 10 篇 full guide 当**整篇 walkthrough** 登记（covers 只标 high-level）。
+> 后来 `walkthrough_split.py` 把它们切成 855 个 per-chapter（`raw/gs2/_chapters/<src>/NN-slug.md`，
+> 字节精确，详 `walkthrough_chapters.md`）。切完才发现：每篇 full guide 尾部都挂着一份**数据附录**
+> （djinn/装备/职业/psynergy/怪物表），和 In-Depth 的 data-table 平行。**走法段已用，这些附录段没用。**
+
+### 各 full guide 的数据附录章节（均 **未用**）
+| guide | 数据附录章节 | 覆盖 |
+|---|---|---|
+| `telago` | **24–35** | djinn / summons / class-psynergy-effects / items / weapons / body-armor / arm-protection / helmets / accessories / psynergy-spells / weapon-unleash / monster-compendium |
+| `super-slash` | 06–14 | item / weapons / armor / accessories / djinn / character-classes / forging / psynergy / enemy-list |
+| `autocon` | **~129–322** | per-djinn 条目 / summons / psynergy-and-classes（per-class）|
+| `shotgunnova` | 59–63 | shop / equipment / djinn / psynergy / class-overview（其 In-Depth shop 版已用，附录版未用）|
+| `strawhat` | 尾部附录 | djinn / summons / psynergy / classes / items / weapons / armor / forged |
+| `darthmarth` | Indexes | character / items / djinn / psynergy / class / bestiary |
+| `darkslime` | Indexes | character（**已用**）/ items / djinn / psynergy / class / bestiary |
+| `ikillkenny` · `killerfusion` | 少量 | partial（bestiary/boss 起步）|
+
+### 缺口映射（这些附录 / 未用 In-Depth 能补 plan §5 D 的哪条）
+| 当前缺口（`gs2_plan.md §5 D`）| 候选补料 |
+|---|---|
+| **psynergy ~36 职业专属带 stats**（唯一剩余 expected-gap；yoyoyoshi canonical 非穷尽）| **Telago 26（class-psynergy-effects）+ 33（psynergy-spells）**、super-slash 13、autocon 193+（psynergy-and-classes 段）|
+| classes Layer3（terence 相对计数 + ACR）| `aku-chi` ⭐、autocon 193+、Telago 26 |
+| classes Tamer psynergy（4 sub-class 双栏难解）| Telago 26 / autocon Tamer 段 |
+| djinn `battle_effect` | Telago 24、super-slash 10、autocon per-djinn 段 |
+| summons `acquisition.location` 干净地名 | `dbfire` ⭐、Telago 25（about-the-summon）|
+
+### 是否纳入 gs2_sources？建议
+- **暂不**把 855 个 chapter 全登记成 source（噪声大、多数是走法 prose 已并入 2a）。**只把上面这张
+  「数据附录章节」表当作候选补料清单**，等真正要补某条缺口时定向取用。
+- **Gemini 先扫一轮再定**（沿用 plan §3「重活交 Gemini 省 usage」）：让 Gemini bulk-read 上表的
+  附录章节范围（telago 24–35 / super-slash 06–14 / autocon ~129–322 / strawhat 附录 / darthmarth Indexes），
+  产出一张 **质量 × 覆盖 triage 表**——标出哪些真带 stats（尤其 class-psynergy）、和已有 In-Depth 比有无
+  增量。再据此 cherry-pick，不在 Claude 上整块读。
+
+---
+
 ## 已收集 — Full Game Guides（10 篇，均 `type: general`）
 
 | source_id | 作者 | 版本/年份/大小 | quality | covers | 一句话 |
@@ -153,5 +235,9 @@ Summon Tablet/Sidequest Guide（[`dbfire`](../../raw/gs2/In-Depth%20Guides/Summo
 - [x] link-kirby-rng
 
 **遗留 TODO（下一轮）**：
+- **数据附录补料 triage**（2026-06-19 新增，本节「`_chapters/` 数据附录层」）：用 Gemini bulk-read
+  telago 24–35 / super-slash 06–14 / autocon ~129–322 / strawhat 附录 / darthmarth Indexes，产质量×覆盖
+  triage 表，定向补 plan §5 D 的缺口（首选 psynergy 职业专属 stats）。**触发条件 = 应用层方向定了再排**。
 - `josher1212`（Reference Guide）原文无 TOC 且未完成 → 单独一轮**通读后补 TOC**，再评估提取价值（用户指定）。
 - `90kirsdarke-hack` / `kaitia-savehack` 的 hex 码 → 单独一轮评估是否做 **canonical id / master-data 层**（用户提议）。
+- 未用但可能补缺口的 In-Depth：`dbfire`（summons loc）、`aku-chi`（classes L3）。

@@ -107,6 +107,12 @@ def main():
     ps_by_name = {}
     for p in psynergy:
         ps_by_name.setdefault(norm(p["name"]), []).append(p)
+    # name_variants resolve too (telago/ultimalink alt spellings folded onto a
+    # canonical entry, e.g. "Thunderhead"->Thunderstorm); canonical names always
+    # win, and a variant only fills a gap (never adds ambiguity).
+    for p in psynergy:
+        for v in p.get("name_variants", []):
+            ps_by_name.setdefault(norm(v), [p])
     # gear: name -> (ref_type, id). equipment and items names are disjoint.
     # Also index name_variants so renamed items (90Kirsdarke canonical names) and
     # singular/plural variants still resolve from a ref that uses the old/alt name.

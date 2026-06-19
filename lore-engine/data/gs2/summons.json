@@ -310,12 +310,13 @@
     "range": 6,
     "effect": "-25% Defense : 50% Max",
     "acquisition": {
-      "location": null,
+      "location": "Indra Cavern",
       "found_at": "Cave south of Dehkan Plateau",
-      "source": "cooldude345"
+      "source": "cooldude345 + telago"
     },
     "sources": [
-      "cooldude345"
+      "cooldude345",
+      "telago"
     ]
   },
   {
@@ -341,12 +342,13 @@
     "range": 6,
     "effect": "Inflict 'Deadly Poison'",
     "acquisition": {
-      "location": null,
+      "location": "Angara Cavern",
       "found_at": "Cave northwest of Loho",
-      "source": "cooldude345"
+      "source": "cooldude345 + telago"
     },
     "sources": [
-      "cooldude345"
+      "cooldude345",
+      "telago"
     ]
   },
   {
@@ -372,12 +374,13 @@
     "range": 6,
     "effect": "Inflict 'Downed'",
     "acquisition": {
-      "location": null,
+      "location": "Anemos Inner Sanctum",
       "found_at": "Walk into the Anemos Sanctum Inner Chamber to see it.",
-      "source": "cooldude345"
+      "source": "cooldude345 + telago"
     },
     "sources": [
-      "cooldude345"
+      "cooldude345",
+      "telago"
     ]
   },
   {
@@ -403,12 +406,13 @@
     "range": 6,
     "effect": "+12.5% Attack (Party Only) : 50% Max",
     "acquisition": {
-      "location": null,
+      "location": "Osenia Cave",
       "found_at": "Cave by Mikasilla",
-      "source": "cooldude345"
+      "source": "cooldude345 + telago"
     },
     "sources": [
-      "cooldude345"
+      "cooldude345",
+      "telago"
     ]
   },
   {
@@ -434,12 +438,13 @@
     "range": 6,
     "effect": "At End of Next Turn, Missile is used",
     "acquisition": {
-      "location": null,
+      "location": "Yampi Desert",
       "found_at": "Yampi Desert Cave, Defeat Bullrog",
-      "source": "cooldude345"
+      "source": "cooldude345 + telago"
     },
     "sources": [
-      "cooldude345"
+      "cooldude345",
+      "telago"
     ]
   },
   {
@@ -465,12 +470,13 @@
     "range": 6,
     "effect": "Target cannot move for next Action",
     "acquisition": {
-      "location": null,
+      "location": "Izumo Ruins",
       "found_at": "Cave by Izumo",
-      "source": "cooldude345"
+      "source": "cooldude345 + telago"
     },
     "sources": [
-      "cooldude345"
+      "cooldude345",
+      "telago"
     ]
   },
   {
@@ -496,12 +502,13 @@
     "range": 6,
     "effect": "**Revives all 'Downed' and Restores HP",
     "acquisition": {
-      "location": null,
+      "location": "Anemos Inner Sanctum",
       "found_at": "Anemos Sanctum, Defeat Dullahan",
-      "source": "cooldude345"
+      "source": "cooldude345 + telago"
     },
     "sources": [
-      "cooldude345"
+      "cooldude345",
+      "telago"
     ]
   },
   {
@@ -527,12 +534,13 @@
     "range": "all",
     "effect": "*Curative Spell Only, Inflict 'Regen'",
     "acquisition": {
-      "location": null,
+      "location": "Atteka Cavern",
       "found_at": "Cave Southwest of Contigo",
-      "source": "cooldude345"
+      "source": "cooldude345 + telago"
     },
     "sources": [
-      "cooldude345"
+      "cooldude345",
+      "telago"
     ]
   },
   {
@@ -558,12 +566,13 @@
     "range": 6,
     "effect": "-50% Agility : 50% Max",
     "acquisition": {
-      "location": null,
+      "location": "Madra Catacombs",
       "found_at": "Inside Madra Catacombs",
-      "source": "cooldude345"
+      "source": "cooldude345 + telago"
     },
     "sources": [
-      "cooldude345"
+      "cooldude345",
+      "telago"
     ]
   },
   {
@@ -589,12 +598,13 @@
     "range": 6,
     "effect": "Inflict 'Stun'",
     "acquisition": {
-      "location": null,
+      "location": "Treasure Island",
       "found_at": "Treasure Island, Defeat Star Magician",
-      "source": "cooldude345"
+      "source": "cooldude345 + telago"
     },
     "sources": [
-      "cooldude345"
+      "cooldude345",
+      "telago"
     ]
   },
   {
@@ -620,12 +630,13 @@
     "range": 6,
     "effect": "Inflict 'Sleep'",
     "acquisition": {
-      "location": null,
+      "location": "Air's Rock",
       "found_at": "Inside Air's Rock",
-      "source": "cooldude345"
+      "source": "cooldude345 + telago"
     },
     "sources": [
-      "cooldude345"
+      "cooldude345",
+      "telago"
     ]
   },
   {
@@ -651,12 +662,13 @@
     "range": 6,
     "effect": "-25% Attack : 50% Max",
     "acquisition": {
-      "location": null,
+      "location": "Spring of Lemuria",
       "found_at": "Win the Lucky Medal game in Lemuria.",
-      "source": "cooldude345"
+      "source": "cooldude345 + telago"
     },
     "sources": [
-      "cooldude345"
+      "cooldude345",
+      "telago"
     ]
   },
   {
@@ -682,12 +694,13 @@
     "range": 6,
     "effect": "Reduce Target's PP by 10% of Max PP",
     "acquisition": {
-      "location": null,
+      "location": "Islet Cave",
       "found_at": "Islet Cave, Defeat Sentinal",
-      "source": "cooldude345"
+      "source": "cooldude345 + telago"
     },
     "sources": [
-      "cooldude345"
+      "cooldude345",
+      "telago"
     ]
   }
 ]

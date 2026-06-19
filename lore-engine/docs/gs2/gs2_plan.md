@@ -47,11 +47,11 @@
 | equipment | **285** | mr-unorigino / `items_extract_gs2.py` | 143 TLA(gs2) + **142 base/shared(gs1)**；+`forged_from`（`forging_extract_gs2.py`） |
 | items | **86** | mr-unorigino + shotgunnova / `items_extract_gs2.py` | 23 consumable + **17 psynergy_item** + 33 key + 13 material |
 | bosses | 18 | monsters + link-kirby / `bosses_extract_gs2.py` | 两层：确定性骨架 + curated strategy sidecar |
-| djinn | 72 | demooni / `djinn_extract_gs2.py` | 4×18 = TLA-native + GS1-transferred；`location.area` 已回填 |
-| summons | 29 | cooldude / `summons_extract_gs2.py` | 16 标准 + 13 组合（`djinn_recipe`） |
+| djinn | 72 | demooni / `djinn_extract_gs2.py` | 4×18 = TLA-native + GS1-transferred；`location.area` 已回填；`battle_effect` 72/72 回填（telago 24，`djinn_telago_effects_gs2.py`）|
+| summons | 29 | cooldude / `summons_extract_gs2.py` | 16 标准 + 13 组合（`djinn_recipe`）；13 组合 `acquisition.location` 干净地名回填（telago 25，`summons_telago_loc_gs2.py`）|
 | characters | 8 | darkslime / `characters_extract_gs2.py` | 两层：结构块 + curated join/from_gs1 |
-| classes | 110 | terence + ultimalink / `classes_extract_gs2.py`(+`_ultimalink_gs2`) | L1 脊柱 + L2 psynergy/available_to；**L3 matcher/ACR 待续** |
-| psynergy | 157 | yoyoyoshi / `psynergy_extract_gs2.py` | clean canonical（**非穷尽**） |
+| classes | 110 | terence + ultimalink / `classes_extract_gs2.py`(+`_ultimalink_gs2`) | L1 脊柱 + L2 psynergy/available_to；**L3 djinn-combo（带 x\|y 范围）已附加**（telago 26，`classes_telago_reqs_gs2.py`，335 条 per-char，与 ultimalink 并存按 source）；ACR 仍 open |
+| psynergy | **229** | yoyoyoshi + telago / `psynergy_extract_gs2.py` + `psynergy_appendix_gs2.py` | 157 canonical + **72 职业专属/召唤系（telago 33，带 stats）**；4 变体名折进 canonical 的 `name_variants`（Thunderhead/Megacool/Ice Missle/HP Drain，normalize/audit 现 variant-aware）|
 | shops | 15 | shotgunnova / `shops_extract_gs2.py` | 204 stock |
 | locations | 62 | 2a walkthrough prose（Gemini）| → `locations.json`（gs2 模型相对 gs1 倒置） |
 
@@ -116,12 +116,12 @@ corroborate，三轮 net 0 data merge**；所有 findings 按 schema「flag 不�
 - ~~equipment 命名~~ ✅：6 处采纳 90Kirsdarke 真名（Astral/Psychic Circle→**Circlet**、Cossack→**Cassock**、Armlet→**Bracelet**、Rod→**Pole**、Appolo's→**Apollo's**），旧名进 `name_variants`、`sources` 加 90kirsdarke-hack；**已折进 `items_extract_gs2.py` 的 NAME_FIXES**（regen 不丢）。normalize/audit 现按 name_variants/literal 解析别名。
 - **残留**：boss 复合名 `Agatio & Karst`/`Moapa & Knights` 仍 split（UI 需要再加 compound→pair alias）。
 
-**D. 需 LLM / judgment（看 app 方向再排）**
-- **classes Layer3**：terence「Prm Aff Wek Neu」相对计数 matcher（gs2 版 `build_terence_class_reqs`）+ aku-chi ACR（`available_to[].acr`）。**build planner app 才用得上**。
-- **classes Tamer psynergy**（4 sub-class 并排双栏，难解）。
+**D. 需 LLM / judgment（看 app 方向再排）— 2026-06-19 telago 附录补料，4 项已清/半清**
+- ~~**psynergy `Juggle` + ~36 职业专属 psynergy**~~ ✅（telago 33，`psynergy_appendix_gs2.py`）：+72 条带 stats（lvl/elem/PP/range/effect）→ psynergy 157→**229**；classes.psynergy expected-gap **37→3 distinct**。**剩 3 个真 gap**：`Blast`（canonical 有 2 个同名，按名不可消歧，14 refs）、`Splash`（8 refs）、`Quake Strike`（2 refs）——后两者 telago 33 也无，疑 ultimalink 专有名/typo，待查。
+- ~~**djinn `battle_effect`**~~ ✅（telago 24，72/72）。~~**summons.acquisition.location**~~ ✅（telago 25，13/13 组合）。
+- **classes Layer3** 🔸半清：telago 26 的 djinn-combo（带 `x|y` 范围）已附加（335 条 per-char，与 ultimalink 并存）。**仍 open**：terence「Prm Aff Wek Neu」相对计数 matcher + aku-chi **ACR**（`available_to[].acr` 仍 null）；telago 26 的**职业 stat% 表**未做交叉校验（可选）。
+- **classes Tamer psynergy**（4 sub-class 并排双栏，难解）——psynergy 实体已建（Wild Wolf/Salamander 系列等在 229 内），仅「哪个 sub-class 几级学」的 learn-list 未解。
 - **2b 翻译**：`walkthrough/*.md` → `walkthrough_zh/`（Gemini Flash bulk）。**中文 companion app 才需**。
-- **djinn `battle_effect`**、**summons.acquisition.location** 干净地名（可借 `location_refs` 反查补）。
-- **psynergy `Juggle` + ~36 职业专属 psynergy**（Saber Dance/Searing Beam/Magma Storm/Hurricane/Thorn… + 重名 `Blast`）不在 157 canonical = 现唯一剩余 expected-gap 类（yoyoyoshi 非穷尽；补需带 stats 的 psynergy 源）。
 
 **E. 远期**
 - **应用层 brainstorm**（§1 阶段 6）——它决定 D 里的 Layer3 / 2b 要不要现在排。
@@ -139,6 +139,7 @@ corroborate，三轮 net 0 data merge**；所有 findings 按 schema「flag 不�
 
 | 日期 | 进展 |
 |---|---|
+| 2026-06-19 | **telago 附录补料（gap D 的 1–4）✅**。源=telago full-guide 数据附录章节（split 后单独可寻址，全是定宽表 → 确定性解析器，非 LLM），triage 见 `appendix_triage_report.md`、源映射见 `gs2_sources.md`「`_chapters` 数据附录层」。4 新脚本：**`psynergy_appendix_gs2.py`**（telago 33 → psynergy 157→**229**，+72 职业专属/召唤系带 stats；4 变体名折进 canonical name_variants；normalize/audit 改 **variant-aware**；classes.psynergy expected-gap **37→3**：Blast 歧义/Splash/Quake Strike）、**`djinn_telago_effects_gs2.py`**（telago 24 → battle_effect 72/72）、**`summons_telago_loc_gs2.py`**（telago 25 → 13 组合 acquisition.location 干净地名）、**`classes_telago_reqs_gs2.py`**（telago 26 → 335 条 per-char djinn-combo 带 x\|y 范围，按 name+元素签名+角色消歧，与 ultimalink 并存按 source，0 unmatched/ambiguous）。链尾 links_normalize→audit 仍 **exit 0**；4 cross-check gate 全 exit 0。剩余 open=classes ACR / stat% 交叉校验 / Tamer learn-list / 2b 翻译（均看 app 方向）。 |
 | 2026-06-19 | **SSoT 闭环 pass ✅**（cross-check findings → 落地修改）。**Tier A**（确定性收尾）：`djinn_area_backfill_gs2.py` 回填 44 djinn `location.area`（消解 6 处 placement 分歧）；locations.json 3 处 monster 名归一（→81/81 resolve）；split dead-code 查证 = moot（旧 commit）。**Tier C**（命名）：6 处 equipment 采纳 90Kirsdarke 真名，折进 `items_extract_gs2.py` NAME_FIXES + `name_variants`。**Tier B**（完整性 full extract）：`items_extract_gs2.py` 扩展解析 mr-unorigino **base 段**（`-A.`..`-R3.`，game="gs1"）→ equipment **143→285**、items **24→86**（17 Psynergy 道具 + key item + base 武防/Ring/Boots）。base 段坑：单复数/GS 注解名（strip 进 name_variants）、dual `GS / US -` stat 格式（取 US）、3 把终极武器多行 unleash 注解（noise filter）。连锁：normalize/audit 增 `name_variants`+`name_literal` 别名解析 → **drops 153/153、shops 204/204、equippable 265/285 全 resolve**，audit 仍 exit 0；90Kirsdarke 完整性 matched 160→**346/359**、gap 199→**13**。9 条 gate 全 exit 0、链可端到端重跑。 |
 | 2026-06-19 | **Cross-check 三轮全 ✅**（round1 FK / Q2b 完整性 / round2 placement / round3 语义 prose），net 0 merge；产出独立 `crosscheck_findings.md` 作 SSoT 修改依据。详见 §4。同日 compact 本 plan + 删 `walkthrough_chapters_audit.md`。 |
 | 2026-06-18 | **Walkthrough 整合**：keystone（`walkthrough_index`/`region_spine`/`walkthrough_coverage` 3 确定性脚本，494/494 章映射 0 孤儿）→ **2a**（62 节点合并，Gemini 3.1 Pro，gate clean，Telago 主声）→ **locations**（62 条 → `locations.json`）。 |

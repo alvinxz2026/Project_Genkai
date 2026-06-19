@@ -12,11 +12,12 @@
       "agi": 0,
       "lck": 0
     },
-    "battle_effect": null,
+    "battle_effect": "Hit & Venom Enemy",
     "location": null,
     "must_fight": null,
     "sources": [
-      "demooni"
+      "demooni",
+      "telago"
     ]
   },
   {
@@ -32,11 +33,12 @@
       "agi": 0,
       "lck": 0
     },
-    "battle_effect": null,
+    "battle_effect": "Swift Strike",
     "location": null,
     "must_fight": null,
     "sources": [
-      "demooni"
+      "demooni",
+      "telago"
     ]
   },
   {
@@ -52,11 +54,12 @@
       "agi": 2,
       "lck": 1
     },
-    "battle_effect": null,
+    "battle_effect": "Reduce Damage",
     "location": null,
     "must_fight": null,
     "sources": [
-      "demooni"
+      "demooni",
+      "telago"
     ]
   },
   {
@@ -72,11 +75,12 @@
       "agi": 3,
       "lck": 0
     },
-    "battle_effect": null,
+    "battle_effect": "Enemy must skip a turn",
     "location": null,
     "must_fight": null,
     "sources": [
-      "demooni"
+      "demooni",
+      "telago"
     ]
   },
   {
@@ -92,11 +96,12 @@
       "agi": 3,
       "lck": 0
     },
-    "battle_effect": null,
+    "battle_effect": "Revive Downed Ally",
     "location": null,
     "must_fight": null,
     "sources": [
-      "demooni"
+      "demooni",
+      "telago"
     ]
   },
   {
@@ -112,11 +117,12 @@
       "agi": 0,
       "lck": 1
     },
-    "battle_effect": null,
+    "battle_effect": "Hit & Drain enemy HP",
     "location": null,
     "must_fight": null,
     "sources": [
-      "demooni"
+      "demooni",
+      "telago"
     ]
   },
   {
@@ -132,11 +138,12 @@
       "agi": 0,
       "lck": 1
     },
-    "battle_effect": null,
+    "battle_effect": "Lower enemy AGL",
     "location": null,
     "must_fight": null,
     "sources": [
-      "demooni"
+      "demooni",
+      "telago"
     ]
   },
   {
@@ -152,7 +159,7 @@
       "agi": 0,
       "lck": 0
     },
-    "battle_effect": null,
+    "battle_effect": "Recover Allies' HP",
     "location": {
       "area": [
         "yampi-desert",
@@ -163,7 +170,8 @@
     },
     "must_fight": true,
     "sources": [
-      "demooni"
+      "demooni",
+      "telago"
     ]
   },
   {
@@ -179,7 +187,7 @@
       "agi": 0,
       "lck": 0
     },
-    "battle_effect": null,
+    "battle_effect": "Double Attack",
     "location": {
       "area": [
         "daila"
@@ -189,7 +197,8 @@
     },
     "must_fight": false,
     "sources": [
-      "demooni"
+      "demooni",
+      "telago"
     ]
   },
   {
@@ -205,7 +214,7 @@
       "agi": 0,
       "lck": 0
     },
-    "battle_effect": null,
+    "battle_effect": "Recover Allies' HP",
     "location": {
       "area": [
         "taopo-swamp"
@@ -215,7 +224,8 @@
     },
     "must_fight": true,
     "sources": [
-      "demooni"
+      "demooni",
+      "telago"
     ]
   },
   {
@@ -231,7 +241,7 @@
       "agi": 0,
       "lck": 0
     },
-    "battle_effect": null,
+    "battle_effect": "Attack Enemy",
     "location": {
       "area": [
         "sw-atteka-islet"
@@ -241,7 +251,8 @@
     },
     "must_fight": false,
     "sources": [
-      "demooni"
+      "demooni",
+      "telago"
     ]
   },
   {
@@ -257,7 +268,7 @@
       "agi": 3,
       "lck": 0
     },
-    "battle_effect": null,
+    "battle_effect": "Raise Allies' DEF",
     "location": {
       "area": [
         "indra-cavern"
@@ -267,7 +278,8 @@
     },
     "must_fight": true,
     "sources": [
-      "demooni"
+      "demooni",
+      "telago"
     ]
   },
   {
@@ -283,7 +295,7 @@
       "agi": 9,
       "lck": 1
     },
-    "battle_effect": null,
+    "battle_effect": "Strike with a partner",
     "location": {
       "area": [
         "sea-of-time-islet"
@@ -293,7 +305,8 @@
     },
     "must_fight": true,
     "sources": [
-      "demooni"
+      "demooni",
+      "telago"
     ]
   },
   {
@@ -309,7 +322,7 @@
       "agi": 2,
       "lck": 1
     },
-    "battle_effect": null,
+    "battle_effect": "Someone attacks target",
     "location": {
       "area": [
         "prox"
@@ -319,7 +332,8 @@
     },
     "must_fight": false,
     "sources": [
-      "demooni"
+      "demooni",
+      "telago"
     ]
   },
   {
@@ -335,7 +349,7 @@
       "agi": 3,
       "lck": 0
     },
-    "battle_effect": null,
+    "battle_effect": "Lower Enemies AGL",
     "location": {
       "area": [
         "gabomba-catacombs"
@@ -345,7 +359,8 @@
     },
     "must_fight": true,
     "sources": [
-      "demooni"
+      "demooni",
+      "telago"
     ]
   },
   {
@@ -361,7 +376,7 @@
       "agi": 0,
       "lck": 0
     },
-    "battle_effect": null,
+    "battle_effect": "Enemy must skip a turn",
     "location": {
       "area": [
         "sw-atteka-islet"
@@ -371,7 +386,8 @@
     },
     "must_fight": true,
     "sources": [
-      "demooni"
+      "demooni",
+      "telago"
     ]
   },
   {
@@ -387,7 +403,7 @@
       "agi": 0,
       "lck": 1
     },
-    "battle_effect": null,
+    "battle_effect": "Cure Allies' Ailments",
     "location": {
       "area": [
         "contigo"
@@ -397,7 +413,8 @@
     },
     "must_fight": false,
     "sources": [
-      "demooni"
+      "demooni",
+      "telago"
     ]
   },
   {
@@ -413,7 +430,7 @@
       "agi": 0,
       "lck": 1
     },
-    "battle_effect": null,
+    "battle_effect": "Hit & Drain enemy HP",
     "location": {
       "area": [
         "gabomba-statue"
@@ -423,7 +440,8 @@
     },
     "must_fight": true,
     "sources": [
-      "demooni"
+      "demooni",
+      "telago"
     ]
   },
   {
@@ -439,11 +457,12 @@
       "agi": 0,
       "lck": 1
     },
-    "battle_effect": null,
+    "battle_effect": "Raise Allies' DEF",
     "location": null,
     "must_fight": null,
     "sources": [
-      "demooni"
+      "demooni",
+      "telago"
     ]
   },
   {
@@ -459,11 +478,12 @@
       "agi": 2,
       "lck": 0
     },
-    "battle_effect": null,
+    "battle_effect": "Recover Allies' PP",
     "location": null,
     "must_fight": null,
     "sources": [
-      "demooni"
+      "demooni",
+      "telago"
     ]
   },
   {
@@ -479,11 +499,12 @@
       "agi": 2,
       "lck": 0
     },
-    "battle_effect": null,
+    "battle_effect": "Delude Enemies",
     "location": null,
     "must_fight": null,
     "sources": [
-      "demooni"
+      "demooni",
+      "telago"
     ]
   },
   {
@@ -499,11 +520,12 @@
       "agi": 0,
       "lck": 0
     },
-    "battle_effect": null,
+    "battle_effect": "Reduce damage",
     "location": null,
     "must_fight": null,
     "sources": [
-      "demooni"
+      "demooni",
+      "telago"
     ]
   },
   {
@@ -519,11 +541,12 @@
       "agi": 2,
       "lck": 2
     },
-    "battle_effect": null,
+    "battle_effect": "Raise Allies' ATK",
     "location": null,
     "must_fight": null,
     "sources": [
-      "demooni"
+      "demooni",
+      "telago"
     ]
   },
   {
@@ -539,11 +562,12 @@
       "agi": 0,
       "lck": 0
     },
-    "battle_effect": null,
+    "battle_effect": "Stun Enemy",
     "location": null,
     "must_fight": null,
     "sources": [
-      "demooni"
+      "demooni",
+      "telago"
     ]
   },
   {
@@ -559,11 +583,12 @@
       "agi": 0,
       "lck": 0
     },
-    "battle_effect": null,
+    "battle_effect": "Hit through Enemy DEF",
     "location": null,
     "must_fight": null,
     "sources": [
-      "demooni"
+      "demooni",
+      "telago"
     ]
   },
   {
@@ -579,7 +604,7 @@
       "agi": 0,
       "lck": 0
     },
-    "battle_effect": null,
+    "battle_effect": "Attack 1 Enemy",
     "location": {
       "area": [
         "dehkan-plateau"
@@ -589,7 +614,8 @@
     },
     "must_fight": true,
     "sources": [
-      "demooni"
+      "demooni",
+      "telago"
     ]
   },
   {
@@ -605,7 +631,7 @@
       "agi": 2,
       "lck": 1
     },
-    "battle_effect": null,
+    "battle_effect": "Hit & Stun Enemy",
     "location": {
       "area": [
         "madra"
@@ -615,7 +641,8 @@
     },
     "must_fight": false,
     "sources": [
-      "demooni"
+      "demooni",
+      "telago"
     ]
   },
   {
@@ -631,7 +658,7 @@
       "agi": 3,
       "lck": 0
     },
-    "battle_effect": null,
+    "battle_effect": "Raise Allies' AGL",
     "location": {
       "area": [
         "gaia-rock",
@@ -642,7 +669,8 @@
     },
     "must_fight": false,
     "sources": [
-      "demooni"
+      "demooni",
+      "telago"
     ]
   },
   {
@@ -658,7 +686,7 @@
       "agi": 0,
       "lck": 0
     },
-    "battle_effect": null,
+    "battle_effect": "Hit through Enemy DEF",
     "location": {
       "area": [
         "sw-atteka-islet"
@@ -668,7 +696,8 @@
     },
     "must_fight": true,
     "sources": [
-      "demooni"
+      "demooni",
+      "telago"
     ]
   },
   {
@@ -684,7 +713,7 @@
       "agi": 0,
       "lck": 0
     },
-    "battle_effect": null,
+    "battle_effect": "Lower Enemies' PP",
     "location": {
       "area": [
         "mars-lighthouse"
@@ -694,7 +723,8 @@
     },
     "must_fight": true,
     "sources": [
-      "demooni"
+      "demooni",
+      "telago"
     ]
   },
   {
@@ -710,7 +740,7 @@
       "agi": 0,
       "lck": 0
     },
-    "battle_effect": null,
+    "battle_effect": "Hit Enemy & induce Haunt",
     "location": {
       "area": [
         "magma-rock"
@@ -720,7 +750,8 @@
     },
     "must_fight": true,
     "sources": [
-      "demooni"
+      "demooni",
+      "telago"
     ]
   },
   {
@@ -736,7 +767,7 @@
       "agi": 0,
       "lck": 1
     },
-    "battle_effect": null,
+    "battle_effect": "Raise Allies' ATK",
     "location": {
       "area": [
         "gondowan-cliffs"
@@ -746,7 +777,8 @@
     },
     "must_fight": true,
     "sources": [
-      "demooni"
+      "demooni",
+      "telago"
     ]
   },
   {
@@ -762,7 +794,7 @@
       "agi": 0,
       "lck": 2
     },
-    "battle_effect": null,
+    "battle_effect": "Counter all attacks",
     "location": {
       "area": [
         "tundaria-tower"
@@ -772,7 +804,8 @@
     },
     "must_fight": true,
     "sources": [
-      "demooni"
+      "demooni",
+      "telago"
     ]
   },
   {
@@ -788,7 +821,7 @@
       "agi": 2,
       "lck": 0
     },
-    "battle_effect": null,
+    "battle_effect": "Attack an Enemy",
     "location": {
       "area": [
         "contigo"
@@ -798,7 +831,8 @@
     },
     "must_fight": false,
     "sources": [
-      "demooni"
+      "demooni",
+      "telago"
     ]
   },
   {
@@ -814,7 +848,7 @@
       "agi": 0,
       "lck": 0
     },
-    "battle_effect": null,
+    "battle_effect": "Revive Downed Character",
     "location": {
       "area": [
         "mikasalla"
@@ -824,7 +858,8 @@
     },
     "must_fight": false,
     "sources": [
-      "demooni"
+      "demooni",
+      "telago"
     ]
   },
   {
@@ -840,7 +875,7 @@
       "agi": 0,
       "lck": 0
     },
-    "battle_effect": null,
+    "battle_effect": "Revive downed Character",
     "location": {
       "area": [
         "hesperia-settlement"
@@ -850,7 +885,8 @@
     },
     "must_fight": false,
     "sources": [
-      "demooni"
+      "demooni",
+      "telago"
     ]
   },
   {
@@ -866,11 +902,12 @@
       "agi": 4,
       "lck": 0
     },
-    "battle_effect": null,
+    "battle_effect": "Revive Downed Ally",
     "location": null,
     "must_fight": null,
     "sources": [
-      "demooni"
+      "demooni",
+      "telago"
     ]
   },
   {
@@ -886,11 +923,12 @@
       "agi": 0,
       "lck": 0
     },
-    "battle_effect": null,
+    "battle_effect": "Recover ally's HP",
     "location": null,
     "must_fight": null,
     "sources": [
-      "demooni"
+      "demooni",
+      "telago"
     ]
   },
   {
@@ -906,11 +944,12 @@
       "agi": 0,
       "lck": 1
     },
-    "battle_effect": null,
+    "battle_effect": "Lower Enemy DEF",
     "location": null,
     "must_fight": null,
     "sources": [
-      "demooni"
+      "demooni",
+      "telago"
     ]
   },
   {
@@ -926,11 +965,12 @@
       "agi": 0,
       "lck": 0
     },
-    "battle_effect": null,
+    "battle_effect": "Make Enemy Fall Asleep",
     "location": null,
     "must_fight": null,
     "sources": [
-      "demooni"
+      "demooni",
+      "telago"
     ]
   },
   {
@@ -946,11 +986,12 @@
       "agi": 0,
       "lck": 1
     },
-    "battle_effect": null,
+    "battle_effect": "Lower Enemy ATK",
     "location": null,
     "must_fight": null,
     "sources": [
-      "demooni"
+      "demooni",
+      "telago"
     ]
   },
   {
@@ -966,11 +1007,12 @@
       "agi": 3,
       "lck": 0
     },
-    "battle_effect": null,
+    "battle_effect": "Recover allies' HP",
     "location": null,
     "must_fight": null,
     "sources": [
-      "demooni"
+      "demooni",
+      "telago"
     ]
   },
   {
@@ -986,11 +1028,12 @@
       "agi": 0,
       "lck": 2
     },
-    "battle_effect": null,
+    "battle_effect": "Restore all ailments",
     "location": null,
     "must_fight": null,
     "sources": [
-      "demooni"
+      "demooni",
+      "telago"
     ]
   },
   {
@@ -1006,7 +1049,7 @@
       "agi": 0,
       "lck": 0
     },
-    "battle_effect": null,
+    "battle_effect": "Revive all downed Allies",
     "location": {
       "area": [
         "mars-lighthouse"
@@ -1016,7 +1059,8 @@
     },
     "must_fight": true,
     "sources": [
-      "demooni"
+      "demooni",
+      "telago"
     ]
   },
   {
@@ -1032,7 +1076,7 @@
       "agi": 0,
       "lck": 0
     },
-    "battle_effect": null,
+    "battle_effect": "Hit Enemy & lower DEF",
     "location": {
       "area": [
         "gondowan-cliffs"
@@ -1042,7 +1086,8 @@
     },
     "must_fight": true,
     "sources": [
-      "demooni"
+      "demooni",
+      "telago"
     ]
   },
   {
@@ -1058,7 +1103,7 @@
       "agi": 3,
       "lck": 2
     },
-    "battle_effect": null,
+    "battle_effect": "All Djinn Recover 1 Turn",
     "location": {
       "area": [
         "shaman-village-cave"
@@ -1068,7 +1113,8 @@
     },
     "must_fight": true,
     "sources": [
-      "demooni"
+      "demooni",
+      "telago"
     ]
   },
   {
@@ -1084,7 +1130,7 @@
       "agi": 2,
       "lck": 1
     },
-    "battle_effect": null,
+    "battle_effect": "Hit & induce Delusion",
     "location": {
       "area": [
         "kandorean-temple"
@@ -1094,7 +1140,8 @@
     },
     "must_fight": true,
     "sources": [
-      "demooni"
+      "demooni",
+      "telago"
     ]
   },
   {
@@ -1110,7 +1157,7 @@
       "agi": 2,
       "lck": 0
     },
-    "battle_effect": null,
+    "battle_effect": "Hit Enemy & lower ATK",
     "location": {
       "area": [
         "kalt-island"
@@ -1120,7 +1167,8 @@
     },
     "must_fight": false,
     "sources": [
-      "demooni"
+      "demooni",
+      "telago"
     ]
   },
   {
@@ -1136,7 +1184,7 @@
       "agi": 0,
       "lck": 0
     },
-    "battle_effect": null,
+    "battle_effect": "Seal Enemy's Psynergy",
     "location": {
       "area": [
         "lemuria"
@@ -1146,7 +1194,8 @@
     },
     "must_fight": false,
     "sources": [
-      "demooni"
+      "demooni",
+      "telago"
     ]
   },
   {
@@ -1162,7 +1211,7 @@
       "agi": 0,
       "lck": 0
     },
-    "battle_effect": null,
+    "battle_effect": "Powerful Strike",
     "location": {
       "area": [
         "islet-cave",
@@ -1173,7 +1222,8 @@
     },
     "must_fight": false,
     "sources": [
-      "demooni"
+      "demooni",
+      "telago"
     ]
   },
   {
@@ -1189,7 +1239,7 @@
       "agi": 0,
       "lck": 2
     },
-    "battle_effect": null,
+    "battle_effect": "Reduce Damage",
     "location": {
       "area": [
         "kibombo"
@@ -1199,7 +1249,8 @@
     },
     "must_fight": false,
     "sources": [
-      "demooni"
+      "demooni",
+      "telago"
     ]
   },
   {
@@ -1215,7 +1266,7 @@
       "agi": 0,
       "lck": 0
     },
-    "battle_effect": null,
+    "battle_effect": "Hit & lower Resistance",
     "location": {
       "area": [
         "osenia-cavern"
@@ -1225,7 +1276,8 @@
     },
     "must_fight": true,
     "sources": [
-      "demooni"
+      "demooni",
+      "telago"
     ]
   },
   {
@@ -1241,7 +1293,7 @@
       "agi": 0,
       "lck": 0
     },
-    "battle_effect": null,
+    "battle_effect": "Recover Ally HP",
     "location": {
       "area": [
         "kibombo"
@@ -1251,7 +1303,8 @@
     },
     "must_fight": false,
     "sources": [
-      "demooni"
+      "demooni",
+      "telago"
     ]
   },
   {
@@ -1267,7 +1320,7 @@
       "agi": 0,
       "lck": 0
     },
-    "battle_effect": null,
+    "battle_effect": "Raise Allies' Resistance",
     "location": {
       "area": [
         "aqua-rock"
@@ -1277,7 +1330,8 @@
     },
     "must_fight": false,
     "sources": [
-      "demooni"
+      "demooni",
+      "telago"
     ]
   },
   {
@@ -1293,11 +1347,12 @@
       "agi": 0,
       "lck": 1
     },
-    "battle_effect": null,
+    "battle_effect": "Raise Allies' Resistance",
     "location": null,
     "must_fight": null,
     "sources": [
-      "demooni"
+      "demooni",
+      "telago"
     ]
   },
   {
@@ -1313,11 +1368,12 @@
       "agi": 2,
       "lck": 0
     },
-    "battle_effect": null,
+    "battle_effect": "1 or 2 Wind Attacks",
     "location": null,
     "must_fight": null,
     "sources": [
-      "demooni"
+      "demooni",
+      "telago"
     ]
   },
   {
@@ -1333,11 +1389,12 @@
       "agi": 3,
       "lck": 0
     },
-    "battle_effect": null,
+    "battle_effect": "2 Attacks Next Turn",
     "location": null,
     "must_fight": null,
     "sources": [
-      "demooni"
+      "demooni",
+      "telago"
     ]
   },
   {
@@ -1353,11 +1410,12 @@
       "agi": 0,
       "lck": 1
     },
-    "battle_effect": null,
+    "battle_effect": "Seal Enemy's Psynergy",
     "location": null,
     "must_fight": null,
     "sources": [
-      "demooni"
+      "demooni",
+      "telago"
     ]
   },
   {
@@ -1373,11 +1431,12 @@
       "agi": 0,
       "lck": 0
     },
-    "battle_effect": null,
+    "battle_effect": "Delude Enemies",
     "location": null,
     "must_fight": null,
     "sources": [
-      "demooni"
+      "demooni",
+      "telago"
     ]
   },
   {
@@ -1393,11 +1452,12 @@
       "agi": 0,
       "lck": 0
     },
-    "battle_effect": null,
+    "battle_effect": "Stun Enemy",
     "location": null,
     "must_fight": null,
     "sources": [
-      "demooni"
+      "demooni",
+      "telago"
     ]
   },
   {
@@ -1413,11 +1473,12 @@
       "agi": 2,
       "lck": 1
     },
-    "battle_effect": null,
+    "battle_effect": "Raise Allies' AGL",
     "location": null,
     "must_fight": null,
     "sources": [
-      "demooni"
+      "demooni",
+      "telago"
     ]
   },
   {
@@ -1433,7 +1494,7 @@
       "agi": 3,
       "lck": 2
     },
-    "battle_effect": null,
+    "battle_effect": "Recover Allies' PP",
     "location": {
       "area": [
         "shaman-village"
@@ -1443,7 +1504,8 @@
     },
     "must_fight": true,
     "sources": [
-      "demooni"
+      "demooni",
+      "telago"
     ]
   },
   {
@@ -1459,7 +1521,7 @@
       "agi": 0,
       "lck": 0
     },
-    "battle_effect": null,
+    "battle_effect": "Hit & Stun Enemy",
     "location": {
       "area": [
         "yampi-desert"
@@ -1469,7 +1531,8 @@
     },
     "must_fight": true,
     "sources": [
-      "demooni"
+      "demooni",
+      "telago"
     ]
   },
   {
@@ -1485,7 +1548,7 @@
       "agi": 4,
       "lck": 0
     },
-    "battle_effect": null,
+    "battle_effect": "Recover Ally HP",
     "location": {
       "area": [
         "shrine-of-the-sea-god"
@@ -1495,7 +1558,8 @@
     },
     "must_fight": true,
     "sources": [
-      "demooni"
+      "demooni",
+      "telago"
     ]
   },
   {
@@ -1511,7 +1575,7 @@
       "agi": 3,
       "lck": 2
     },
-    "battle_effect": null,
+    "battle_effect": "Recover Ally PP",
     "location": {
       "area": [
         "garoh"
@@ -1521,7 +1585,8 @@
     },
     "must_fight": false,
     "sources": [
-      "demooni"
+      "demooni",
+      "telago"
     ]
   },
   {
@@ -1537,7 +1602,7 @@
       "agi": 5,
       "lck": 3
     },
-    "battle_effect": null,
+    "battle_effect": "Hit enemy",
     "location": {
       "area": [
         "treasure-isle"
@@ -1547,7 +1612,8 @@
     },
     "must_fight": true,
     "sources": [
-      "demooni"
+      "demooni",
+      "telago"
     ]
   },
   {
@@ -1563,7 +1629,7 @@
       "agi": 0,
       "lck": 0
     },
-    "battle_effect": null,
+    "battle_effect": "Hit & induce Haunt",
     "location": {
       "area": [
         "trial-road"
@@ -1573,7 +1639,8 @@
     },
     "must_fight": true,
     "sources": [
-      "demooni"
+      "demooni",
+      "telago"
     ]
   },
   {
@@ -1589,7 +1656,7 @@
       "agi": 3,
       "lck": 2
     },
-    "battle_effect": null,
+    "battle_effect": "Avoid all attacks",
     "location": {
       "area": [
         "apojii-islands"
@@ -1599,7 +1666,8 @@
     },
     "must_fight": false,
     "sources": [
-      "demooni"
+      "demooni",
+      "telago"
     ]
   },
   {
@@ -1615,7 +1683,7 @@
       "agi": 0,
       "lck": 0
     },
-    "battle_effect": null,
+    "battle_effect": "Nullify attacks after it",
     "location": {
       "area": [
         "loho"
@@ -1625,7 +1693,8 @@
     },
     "must_fight": false,
     "sources": [
-      "demooni"
+      "demooni",
+      "telago"
     ]
   },
   {
@@ -1641,7 +1710,7 @@
       "agi": 0,
       "lck": 0
     },
-    "battle_effect": null,
+    "battle_effect": "Hit enemy & induce Sleep",
     "location": {
       "area": [
         "kibombo-mountains"
@@ -1651,7 +1720,8 @@
     },
     "must_fight": true,
     "sources": [
-      "demooni"
+      "demooni",
+      "telago"
     ]
   },
   {
@@ -1667,7 +1737,7 @@
       "agi": 0,
       "lck": 0
     },
-    "battle_effect": null,
+    "battle_effect": "Hit & induce Venom",
     "location": {
       "area": [
         "tundaria-tower"
@@ -1677,7 +1747,8 @@
     },
     "must_fight": true,
     "sources": [
-      "demooni"
+      "demooni",
+      "telago"
     ]
   },
   {
@@ -1693,7 +1764,7 @@
       "agi": 0,
       "lck": 0
     },
-    "battle_effect": null,
+    "battle_effect": "Hit an enemy",
     "location": {
       "area": [
         "jupiter-lighthouse"
@@ -1703,7 +1774,8 @@
     },
     "must_fight": true,
     "sources": [
-      "demooni"
+      "demooni",
+      "telago"
     ]
   }
 ]

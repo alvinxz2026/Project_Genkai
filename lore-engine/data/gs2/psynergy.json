@@ -538,7 +538,19 @@
     "series": null,
     "tier": null,
     "sources": [
-      "yoyoyoshi"
+      "yoyoyoshi",
+      "telago"
+    ],
+    "name_variants": [
+      "Megacool"
+    ],
+    "conflicts": [
+      {
+        "field": "name",
+        "value": "Megacool",
+        "source": "telago",
+        "note": "telago calls this 'Megacool'; canonical (yoyoyoshi) 'Extremecool'"
+      }
     ]
   },
   {
@@ -865,6 +877,9 @@
     "sources": [
       "yoyoyoshi",
       "mr-unorigino-psy"
+    ],
+    "name_variants": [
+      "Ice Missle"
     ]
   },
   {
@@ -2024,6 +2039,9 @@
     "sources": [
       "yoyoyoshi",
       "mr-unorigino-psy"
+    ],
+    "name_variants": [
+      "HP Drain"
     ]
   },
   {
@@ -2158,6 +2176,9 @@
     "sources": [
       "yoyoyoshi",
       "mr-unorigino-psy"
+    ],
+    "name_variants": [
+      "Thunderhead"
     ]
   },
   {
@@ -2321,6 +2342,1017 @@
     "sources": [
       "yoyoyoshi",
       "mr-unorigino-psy"
+    ]
+  },
+  {
+    "id": "lich",
+    "name": "Lich",
+    "game": "gs2",
+    "element": "earth",
+    "pp_cost": 10,
+    "range": "1",
+    "description": "Revives downed and recover HP",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "telago"
+    ]
+  },
+  {
+    "id": "phoenix",
+    "name": "Phoenix",
+    "game": "gs2",
+    "element": "fire",
+    "pp_cost": 10,
+    "range": "1",
+    "description": "Upgrade Lich",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "telago"
+    ]
+  },
+  {
+    "id": "guardian",
+    "name": "Guardian",
+    "game": "gs2",
+    "element": "wind",
+    "pp_cost": 3,
+    "range": "1",
+    "description": "Raise Ally Defense",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "telago"
+    ]
+  },
+  {
+    "id": "protector",
+    "name": "Protector",
+    "game": "gs2",
+    "element": "wind",
+    "pp_cost": 5,
+    "range": "all",
+    "description": "Raise Allies' Defenses",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "telago"
+    ]
+  },
+  {
+    "id": "blunt",
+    "name": "Blunt",
+    "game": "gs2",
+    "element": "wind",
+    "pp_cost": 11,
+    "range": "3",
+    "description": "Lower Enemies Attacks",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "telago"
+    ]
+  },
+  {
+    "id": "sword-card",
+    "name": "Sword Card",
+    "game": "gs2",
+    "element": "fire",
+    "pp_cost": 6,
+    "range": "1",
+    "description": "Lower Enemy Attack",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "telago"
+    ]
+  },
+  {
+    "id": "sleep-card",
+    "name": "Sleep Card",
+    "game": "gs2",
+    "element": "wind",
+    "pp_cost": 5,
+    "range": "3",
+    "description": "induce sleep",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "telago"
+    ]
+  },
+  {
+    "id": "baffle-card",
+    "name": "Baffle Card",
+    "game": "gs2",
+    "element": "wind",
+    "pp_cost": 4,
+    "range": "3",
+    "description": "induce Delusion",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "telago"
+    ]
+  },
+  {
+    "id": "death-card",
+    "name": "Death Card",
+    "game": "gs2",
+    "element": "earth",
+    "pp_cost": 8,
+    "range": "1",
+    "description": "Chance of Instantly killing enemy",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "telago"
+    ]
+  },
+  {
+    "id": "pixie",
+    "name": "Pixie",
+    "game": "gs2",
+    "element": "water",
+    "pp_cost": 5,
+    "range": "1",
+    "description": "Cure 115 HP",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "telago"
+    ]
+  },
+  {
+    "id": "faery",
+    "name": "Faery",
+    "game": "gs2",
+    "element": "water",
+    "pp_cost": 5,
+    "range": "1",
+    "description": "Cure 120 HP",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "telago"
+    ]
+  },
+  {
+    "id": "weird-nymph",
+    "name": "Weird Nymph",
+    "game": "gs2",
+    "element": "water",
+    "pp_cost": 5,
+    "range": "1",
+    "description": "Cure 125 HP",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "telago"
+    ]
+  },
+  {
+    "id": "succubus",
+    "name": "Succubus",
+    "game": "gs2",
+    "element": "water",
+    "pp_cost": 9,
+    "range": "1",
+    "description": "Cure 250 HP",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "telago"
+    ]
+  },
+  {
+    "id": "elder-wood",
+    "name": "Elder Wood",
+    "game": "gs2",
+    "element": "water",
+    "pp_cost": 14,
+    "range": "all",
+    "description": "Cures 170 HP",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "telago"
+    ]
+  },
+  {
+    "id": "estre-wood",
+    "name": "Estre Wood",
+    "game": "gs2",
+    "element": "water",
+    "pp_cost": 14,
+    "range": "all",
+    "description": "Cures 180 HP, upgrade Elder Wood",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "telago"
+    ]
+  },
+  {
+    "id": "manticore",
+    "name": "Manticore",
+    "game": "gs2",
+    "element": "fire",
+    "pp_cost": 18,
+    "range": "all",
+    "description": "Cures 300 HP",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "telago"
+    ]
+  },
+  {
+    "id": "saber-dance",
+    "name": "Saber Dance",
+    "game": "gs2",
+    "element": "earth",
+    "pp_cost": 7,
+    "range": "1",
+    "description": null,
+    "series": null,
+    "tier": null,
+    "sources": [
+      "telago"
+    ],
+    "name_variants": [
+      "Sabre Dance"
+    ]
+  },
+  {
+    "id": "helm-splitter",
+    "name": "Helm Splitter",
+    "game": "gs2",
+    "element": "earth",
+    "pp_cost": 8,
+    "range": "1",
+    "description": "Attack & Induce Paralysis",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "telago"
+    ]
+  },
+  {
+    "id": "skull-splitter",
+    "name": "Skull Splitter",
+    "game": "gs2",
+    "element": "earth",
+    "pp_cost": 8,
+    "range": "1",
+    "description": "Upgrade Helm Splitter",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "telago"
+    ]
+  },
+  {
+    "id": "liquifier",
+    "name": "Liquifier",
+    "game": "gs2",
+    "element": "fire",
+    "pp_cost": 17,
+    "range": "1",
+    "description": "Upgrade Heat Wave",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "telago"
+    ]
+  },
+  {
+    "id": "planetary",
+    "name": "Planetary",
+    "game": "gs2",
+    "element": "fire",
+    "pp_cost": 19,
+    "range": "1",
+    "description": "Upgrade Planet Diver",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "telago"
+    ]
+  },
+  {
+    "id": "dragon-cloud",
+    "name": "Dragon Cloud",
+    "game": "gs2",
+    "element": "fire",
+    "pp_cost": 6,
+    "range": "1",
+    "description": "Attack with a Fire Dragon",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "telago"
+    ]
+  },
+  {
+    "id": "epicenter",
+    "name": "Epicenter",
+    "game": "gs2",
+    "element": "fire",
+    "pp_cost": 33,
+    "range": "1",
+    "description": "Upgrade Dragon Cloud",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "telago"
+    ]
+  },
+  {
+    "id": "whiplash",
+    "name": "Whiplash",
+    "game": "gs2",
+    "element": "wind",
+    "pp_cost": 6,
+    "range": "1",
+    "description": null,
+    "series": null,
+    "tier": null,
+    "sources": [
+      "telago"
+    ]
+  },
+  {
+    "id": "thunder-mine",
+    "name": "Thunder Mine",
+    "game": "gs2",
+    "element": "wind",
+    "pp_cost": 16,
+    "range": "1",
+    "description": "Upgrade Astral Blast",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "telago"
+    ]
+  },
+  {
+    "id": "death-leap",
+    "name": "Death Leap",
+    "game": "gs2",
+    "element": "wind",
+    "pp_cost": 22,
+    "range": "1",
+    "description": "Upgrade Death Plunge",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "telago"
+    ]
+  },
+  {
+    "id": "backstab",
+    "name": "Backstab",
+    "game": "gs2",
+    "element": "wind",
+    "pp_cost": 16,
+    "range": "1",
+    "description": null,
+    "series": null,
+    "tier": null,
+    "sources": [
+      "telago"
+    ]
+  },
+  {
+    "id": "quick-strike",
+    "name": "Quick Strike",
+    "game": "gs2",
+    "element": "wind",
+    "pp_cost": 12,
+    "range": "1",
+    "description": "Attack in a split second",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "telago"
+    ]
+  },
+  {
+    "id": "plume-edge",
+    "name": "Plume Edge",
+    "game": "gs2",
+    "element": "water",
+    "pp_cost": 15,
+    "range": "1",
+    "description": "Upgrade Cutting Edge",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "telago"
+    ]
+  },
+  {
+    "id": "fire-puppet",
+    "name": "Fire Puppet",
+    "game": "gs2",
+    "element": "earth",
+    "pp_cost": 7,
+    "range": "3",
+    "description": "Attack & Induce Stun",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "telago"
+    ]
+  },
+  {
+    "id": "thorny-grave",
+    "name": "Thorny Grave",
+    "game": "gs2",
+    "element": "earth",
+    "pp_cost": 24,
+    "range": "3",
+    "description": "Upgrade Demon Night",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "telago"
+    ]
+  },
+  {
+    "id": "fire-breath",
+    "name": "Fire Breath",
+    "game": "gs2",
+    "element": "fire",
+    "pp_cost": 13,
+    "range": "3",
+    "description": "Attack with a stream of fire",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "telago"
+    ]
+  },
+  {
+    "id": "poison-flow",
+    "name": "Poison Flow",
+    "game": "gs2",
+    "element": "wind",
+    "pp_cost": 28,
+    "range": "5",
+    "description": "Attack all, induce Venom",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "telago"
+    ]
+  },
+  {
+    "id": "thorn",
+    "name": "Thorn",
+    "game": "gs2",
+    "element": "earth",
+    "pp_cost": 6,
+    "range": "3",
+    "description": null,
+    "series": "thorn",
+    "tier": null,
+    "sources": [
+      "telago"
+    ]
+  },
+  {
+    "id": "nettle",
+    "name": "Nettle",
+    "game": "gs2",
+    "element": "earth",
+    "pp_cost": 23,
+    "range": "5",
+    "description": null,
+    "series": "thorn",
+    "tier": null,
+    "sources": [
+      "telago"
+    ]
+  },
+  {
+    "id": "raging-heat",
+    "name": "Raging Heat",
+    "game": "gs2",
+    "element": "fire",
+    "pp_cost": 9,
+    "range": "5",
+    "description": null,
+    "series": "raging heat",
+    "tier": null,
+    "sources": [
+      "telago"
+    ]
+  },
+  {
+    "id": "fiery-abyss",
+    "name": "Fiery Abyss",
+    "game": "gs2",
+    "element": "fire",
+    "pp_cost": 18,
+    "range": "5",
+    "description": null,
+    "series": "raging heat",
+    "tier": null,
+    "sources": [
+      "telago"
+    ]
+  },
+  {
+    "id": "dire-inferno",
+    "name": "Dire Inferno",
+    "game": "gs2",
+    "element": "fire",
+    "pp_cost": 32,
+    "range": "7",
+    "description": null,
+    "series": "raging heat",
+    "tier": null,
+    "sources": [
+      "telago"
+    ]
+  },
+  {
+    "id": "magma-storm",
+    "name": "Magma Storm",
+    "game": "gs2",
+    "element": "fire",
+    "pp_cost": 27,
+    "range": "1",
+    "description": null,
+    "series": "lava shower",
+    "tier": null,
+    "sources": [
+      "telago"
+    ]
+  },
+  {
+    "id": "carpet-bomb",
+    "name": "Carpet Bomb",
+    "game": "gs2",
+    "element": "fire",
+    "pp_cost": 29,
+    "range": "7",
+    "description": null,
+    "series": "fire bomb",
+    "tier": null,
+    "sources": [
+      "telago"
+    ]
+  },
+  {
+    "id": "searing-beam",
+    "name": "Searing Beam",
+    "game": "gs2",
+    "element": "fire",
+    "pp_cost": 7,
+    "range": "3",
+    "description": null,
+    "series": "beam",
+    "tier": null,
+    "sources": [
+      "telago"
+    ]
+  },
+  {
+    "id": "juggle",
+    "name": "Juggle",
+    "game": "gs2",
+    "element": "fire",
+    "pp_cost": 7,
+    "range": "3",
+    "description": null,
+    "series": "juggle",
+    "tier": null,
+    "sources": [
+      "telago"
+    ]
+  },
+  {
+    "id": "heat-juggle",
+    "name": "Heat Juggle",
+    "game": "gs2",
+    "element": "fire",
+    "pp_cost": 13,
+    "range": "5",
+    "description": null,
+    "series": "juggle",
+    "tier": null,
+    "sources": [
+      "telago"
+    ]
+  },
+  {
+    "id": "fiery-juggle",
+    "name": "Fiery Juggle",
+    "game": "gs2",
+    "element": "fire",
+    "pp_cost": 25,
+    "range": "5",
+    "description": null,
+    "series": "juggle",
+    "tier": null,
+    "sources": [
+      "telago"
+    ]
+  },
+  {
+    "id": "hurricane",
+    "name": "Hurricane",
+    "game": "gs2",
+    "element": "wind",
+    "pp_cost": 25,
+    "range": "5",
+    "description": null,
+    "series": "gale",
+    "tier": null,
+    "sources": [
+      "telago"
+    ]
+  },
+  {
+    "id": "froth-spiral",
+    "name": "Froth Spiral",
+    "game": "gs2",
+    "element": "water",
+    "pp_cost": 31,
+    "range": "7",
+    "description": null,
+    "series": "froth",
+    "tier": null,
+    "sources": [
+      "telago"
+    ]
+  },
+  {
+    "id": "flame-card",
+    "name": "Flame Card",
+    "game": "gs2",
+    "element": "fire",
+    "pp_cost": 11,
+    "range": "3",
+    "description": "Attack with cards of Flame Suit",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "telago"
+    ]
+  },
+  {
+    "id": "thunder-card",
+    "name": "Thunder Card",
+    "game": "gs2",
+    "element": "wind",
+    "pp_cost": 17,
+    "range": "3",
+    "description": "Attack with cards of Thunder Suit",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "telago"
+    ]
+  },
+  {
+    "id": "bramble-card",
+    "name": "Bramble Card",
+    "game": "gs2",
+    "element": "earth",
+    "pp_cost": 22,
+    "range": "3",
+    "description": "Attack with cards of Thorn Suit",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "telago"
+    ]
+  },
+  {
+    "id": "frost-card",
+    "name": "Frost Card",
+    "game": "gs2",
+    "element": "water",
+    "pp_cost": 28,
+    "range": "3",
+    "description": "Attack with cards of Ice Suit",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "telago"
+    ]
+  },
+  {
+    "id": "wild-wolf",
+    "name": "Wild Wolf",
+    "game": "gs2",
+    "element": "neutral",
+    "pp_cost": 3,
+    "range": "1",
+    "description": "Call a Wild Wof",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "telago"
+    ]
+  },
+  {
+    "id": "orc",
+    "name": "Orc",
+    "game": "gs2",
+    "element": "neutral",
+    "pp_cost": 3,
+    "range": "1",
+    "description": "Upgrade Wild Wolf",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "telago"
+    ]
+  },
+  {
+    "id": "dinox",
+    "name": "Dinox",
+    "game": "gs2",
+    "element": "earth",
+    "pp_cost": 3,
+    "range": "1",
+    "description": "Upgrade Orc",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "telago"
+    ]
+  },
+  {
+    "id": "troll",
+    "name": "Troll",
+    "game": "gs2",
+    "element": "earth",
+    "pp_cost": 3,
+    "range": "1",
+    "description": "Upgrade Dinox",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "telago"
+    ]
+  },
+  {
+    "id": "salamander",
+    "name": "Salamander",
+    "game": "gs2",
+    "element": "fire",
+    "pp_cost": 7,
+    "range": "3",
+    "description": "Call a Salamander",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "telago"
+    ]
+  },
+  {
+    "id": "cerberus",
+    "name": "Cerberus",
+    "game": "gs2",
+    "element": "fire",
+    "pp_cost": 7,
+    "range": "3",
+    "description": "Upgrade Salamander",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "telago"
+    ]
+  },
+  {
+    "id": "chimera",
+    "name": "Chimera",
+    "game": "gs2",
+    "element": "fire",
+    "pp_cost": 7,
+    "range": "3",
+    "description": "Upgrade Cerebus",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "telago"
+    ]
+  },
+  {
+    "id": "macetail",
+    "name": "Macetail",
+    "game": "gs2",
+    "element": "fire",
+    "pp_cost": 7,
+    "range": "3",
+    "description": "Upgrade Chimera",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "telago"
+    ]
+  },
+  {
+    "id": "emu",
+    "name": "Emu",
+    "game": "gs2",
+    "element": "wind",
+    "pp_cost": 10,
+    "range": "1",
+    "description": "Call an Emu",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "telago"
+    ]
+  },
+  {
+    "id": "harpy",
+    "name": "Harpy",
+    "game": "gs2",
+    "element": "wind",
+    "pp_cost": 10,
+    "range": "1",
+    "description": "Upgrade Emu",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "telago"
+    ]
+  },
+  {
+    "id": "gryphon",
+    "name": "Gryphon",
+    "game": "gs2",
+    "element": "wind",
+    "pp_cost": 10,
+    "range": "1",
+    "description": "Upgrade Harpy",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "telago"
+    ]
+  },
+  {
+    "id": "minotaur",
+    "name": "Minotaur",
+    "game": "gs2",
+    "element": "earth",
+    "pp_cost": 10,
+    "range": "1",
+    "description": "Upgrade Gryphon",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "telago"
+    ]
+  },
+  {
+    "id": "roc",
+    "name": "Roc",
+    "game": "gs2",
+    "element": "neutral",
+    "pp_cost": 22,
+    "range": "1",
+    "description": "Call a Roc",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "telago"
+    ]
+  },
+  {
+    "id": "grand-golem",
+    "name": "Grand Golem",
+    "game": "gs2",
+    "element": "earth",
+    "pp_cost": 22,
+    "range": "1",
+    "description": "Upgrade Roc",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "telago"
+    ]
+  },
+  {
+    "id": "living-armor",
+    "name": "Living Armor",
+    "game": "gs2",
+    "element": "earth",
+    "pp_cost": 22,
+    "range": "1",
+    "description": "Upgrade Grand Golem",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "telago"
+    ]
+  },
+  {
+    "id": "ghost-soldier",
+    "name": "Ghost Soldier",
+    "game": "gs2",
+    "element": "wind",
+    "pp_cost": 22,
+    "range": "1",
+    "description": "Upgrade Living Armor",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "telago"
+    ]
+  },
+  {
+    "id": "wyvern",
+    "name": "Wyvern",
+    "game": "gs2",
+    "element": "fire",
+    "pp_cost": 17,
+    "range": "5",
+    "description": "Call a Wyvern",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "telago"
+    ]
+  },
+  {
+    "id": "blue-dragon",
+    "name": "Blue Dragon",
+    "game": "gs2",
+    "element": "fire",
+    "pp_cost": 17,
+    "range": "5",
+    "description": "Upgrade Wyvern",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "telago"
+    ]
+  },
+  {
+    "id": "fire-dragon",
+    "name": "Fire Dragon",
+    "game": "gs2",
+    "element": "fire",
+    "pp_cost": 17,
+    "range": "5",
+    "description": "Upgrade Blue Dragon",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "telago"
+    ]
+  },
+  {
+    "id": "call-zombie",
+    "name": "Call Zombie",
+    "game": "gs2",
+    "element": "water",
+    "pp_cost": 5,
+    "range": "1",
+    "description": "Strike with a Zombie",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "telago"
+    ]
+  },
+  {
+    "id": "call-demon",
+    "name": "Call Demon",
+    "game": "gs2",
+    "element": "earth",
+    "pp_cost": 13,
+    "range": "1",
+    "description": "Strike with a Demon",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "telago"
+    ]
+  },
+  {
+    "id": "call-dullahan",
+    "name": "Call Dullahan",
+    "game": "gs2",
+    "element": "wind",
+    "pp_cost": 21,
+    "range": "1",
+    "description": "Strike with Dullahan's Formina Sage",
+    "series": null,
+    "tier": null,
+    "sources": [
+      "telago"
     ]
   }
 ]

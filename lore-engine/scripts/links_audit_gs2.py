@@ -89,6 +89,15 @@ def main():
     ps_by_name = {}
     for p in data["psynergy"]:
         ps_by_name.setdefault(norm(p["name"]), []).append(p["id"])
+    # name_variants resolve too (canonical names win; variant only fills a gap),
+    # mirroring links_normalize_gs2.
+    for p in data["psynergy"]:
+        for v in p.get("name_variants", []):
+            ps_by_name.setdefault(norm(v), [p["id"]])
+    # accepted names per psynergy id = canonical + variants (so a ref resolved to a
+    # folded variant validates against the variant, not just the canonical name).
+    ps_alt = {p["id"]: {norm(p["name"])} | {norm(v) for v in p.get("name_variants", [])}
+              for p in data["psynergy"]}
 
     def check_psynergy(ctx, ref_id, ref_name):
         """classes.psynergy edge: alias- and ambiguity-aware.
@@ -107,7 +116,7 @@ def main():
             return
         if ref_id not in name_by_id["psynergy"]:
             err("classes.psynergy", ctx, f"dangling psynergy id {ref_id!r}")
-        elif norm(name_by_id["psynergy"][ref_id]) != target:
+        elif target not in ps_alt.get(ref_id, set()):
             err("classes.psynergy", ctx,
                 f"name/id mismatch: {ref_name!r} -> {ref_id!r} ({name_by_id['psynergy'][ref_id]!r})")
 
