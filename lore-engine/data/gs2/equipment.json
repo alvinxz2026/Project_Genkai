@@ -1,9 +1,7843 @@
 [
   {
+    "id": "long-sword",
+    "name": "Long Sword",
+    "game": "gs1",
+    "name_literal": "Long Sword",
+    "name_variants": [],
+    "category": "weapon",
+    "type": "long_sword",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Piers",
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 14,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 1,
+    "buy_price": 200,
+    "sell_price": 150,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "broad-sword",
+    "name": "Broad Sword",
+    "game": "gs1",
+    "name_literal": "Broadsword",
+    "name_variants": [],
+    "category": "weapon",
+    "type": "long_sword",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Piers",
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 40,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 2,
+    "buy_price": 1000,
+    "sell_price": 750,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "claymore",
+    "name": "Claymore",
+    "game": "gs1",
+    "name_literal": "Bastard Sword",
+    "name_variants": [],
+    "category": "weapon",
+    "type": "long_sword",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Piers",
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 70,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 3,
+    "buy_price": 4000,
+    "sell_price": 3000,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "great-sword",
+    "name": "Great Sword",
+    "game": "gs1",
+    "name_literal": "Great Sword",
+    "name_variants": [],
+    "category": "weapon",
+    "type": "long_sword",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Piers",
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 90,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 4,
+    "buy_price": 7000,
+    "sell_price": 5250,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "shamshir",
+    "name": "Shamshir",
+    "game": "gs1",
+    "name_literal": "Gran Shamshir",
+    "name_variants": [],
+    "category": "weapon",
+    "type": "long_sword",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Piers",
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 99,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": {
+      "name": "Acid Bath",
+      "name_literal": "Strong Acid",
+      "element": null,
+      "rate": null,
+      "power_level": null
+    },
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 5,
+    "buy_price": 10000,
+    "sell_price": 7500,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "silver-blade",
+    "name": "Silver Blade",
+    "game": "gs1",
+    "name_literal": "Silver Blade",
+    "name_variants": [],
+    "category": "weapon",
+    "type": "long_sword",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Piers",
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 108,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": {
+      "name": "Aqua Sock",
+      "name_literal": "Aqua Strike",
+      "element": null,
+      "rate": null,
+      "power_level": null
+    },
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 6,
+    "buy_price": 12000,
+    "sell_price": 9000,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "fire-brand",
+    "name": "Fire Brand",
+    "game": "gs1",
+    "name_literal": "Sword of Flame",
+    "name_variants": [
+      "Fire Brand (Listed as 'Masamune' in GS;"
+    ],
+    "category": "weapon",
+    "type": "long_sword",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Piers",
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 115,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": {
+      "name": "Purgatory",
+      "name_literal": "Fire Sword Purgatory",
+      "element": null,
+      "rate": null,
+      "power_level": null
+    },
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 7,
+    "buy_price": 23400,
+    "sell_price": 17550,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "arctic-blade",
+    "name": "Arctic Blade",
+    "game": "gs1",
+    "name_literal": "Arctic Sword",
+    "name_variants": [],
+    "category": "weapon",
+    "type": "long_sword",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Piers",
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 55,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": {
+      "name": "Blizzard",
+      "name_literal": "Blizzard Call",
+      "element": null,
+      "rate": null,
+      "power_level": null
+    },
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 8,
+    "buy_price": 2600,
+    "sell_price": 1950,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "gaia-blade",
+    "name": "Gaia Blade",
+    "game": "gs1",
+    "name_literal": "Sword of Gaia",
+    "name_variants": [],
+    "category": "weapon",
+    "type": "long_sword",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Piers",
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 135,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 20,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 20,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": {
+      "name": "Titan Sword",
+      "name_literal": "Titanic",
+      "element": null,
+      "rate": null,
+      "power_level": null
+    },
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 9,
+    "buy_price": 17000,
+    "sell_price": 12750,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "sol-blade",
+    "name": "Sol Blade",
+    "game": "gs1",
+    "name_literal": "Sol Blade",
+    "name_variants": [],
+    "category": "weapon",
+    "type": "long_sword",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Piers",
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 138,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": {
+      "name": "Meggido",
+      "name_literal": "Armageddon",
+      "element": null,
+      "rate": null,
+      "power_level": null
+    },
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 10,
+    "buy_price": 31200,
+    "sell_price": 23400,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "muramasa",
+    "name": "Muramasa",
+    "game": "gs1",
+    "name_literal": "Muramasa",
+    "name_variants": [],
+    "category": "weapon",
+    "type": "long_sword",
+    "is_cursed": true,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Piers",
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 126,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": {
+      "name": "Demon Fire",
+      "name_literal": "Will-o'-the-Wisp Escape",
+      "element": null,
+      "rate": null,
+      "power_level": null
+    },
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 11,
+    "buy_price": 13600,
+    "sell_price": 10200,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "machete",
+    "name": "Machete",
+    "game": "gs1",
+    "name_literal": "Work Sword",
+    "name_variants": [],
+    "category": "weapon",
+    "type": "light_blade",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Jenna",
+      "Piers",
+      "Isaac",
+      "Garet",
+      "Ivan"
+    ],
+    "stat_bonus": {
+      "atk": 6,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 15,
+    "buy_price": 30,
+    "sell_price": 22,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "short-sword",
+    "name": "Short Sword",
+    "game": "gs1",
+    "name_literal": "Short Sword",
+    "name_variants": [],
+    "category": "weapon",
+    "type": "light_blade",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Jenna",
+      "Piers",
+      "Isaac",
+      "Garet",
+      "Ivan"
+    ],
+    "stat_bonus": {
+      "atk": 8,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 16,
+    "buy_price": 120,
+    "sell_price": 90,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "hunter-s-sword",
+    "name": "Hunter's Sword",
+    "game": "gs1",
+    "name_literal": "Hunter Sword",
+    "name_variants": [],
+    "category": "weapon",
+    "type": "light_blade",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Jenna",
+      "Piers",
+      "Isaac",
+      "Garet",
+      "Ivan"
+    ],
+    "stat_bonus": {
+      "atk": 28,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 17,
+    "buy_price": 520,
+    "sell_price": 390,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "battle-rapier",
+    "name": "Battle Rapier",
+    "game": "gs1",
+    "name_literal": "Battle Rapier",
+    "name_variants": [],
+    "category": "weapon",
+    "type": "light_blade",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Jenna",
+      "Piers",
+      "Isaac",
+      "Garet",
+      "Ivan"
+    ],
+    "stat_bonus": {
+      "atk": 58,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 18,
+    "buy_price": 2900,
+    "sell_price": 2175,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "master-rapier",
+    "name": "Master Rapier",
+    "game": "gs1",
+    "name_literal": "Master Rapier",
+    "name_variants": [],
+    "category": "weapon",
+    "type": "light_blade",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Jenna",
+      "Piers",
+      "Isaac",
+      "Garet",
+      "Ivan"
+    ],
+    "stat_bonus": {
+      "atk": 86,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 19,
+    "buy_price": 6800,
+    "sell_price": 5100,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "ninja-blade",
+    "name": "Ninja Blade",
+    "game": "gs1",
+    "name_literal": "Shinobi Katana",
+    "name_variants": [],
+    "category": "weapon",
+    "type": "light_blade",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Jenna",
+      "Piers",
+      "Isaac",
+      "Garet",
+      "Ivan"
+    ],
+    "stat_bonus": {
+      "atk": 94,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": {
+      "name": "Cyclone Attack",
+      "name_literal": "Resist Slash",
+      "element": null,
+      "rate": null,
+      "power_level": null
+    },
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 20,
+    "buy_price": 8800,
+    "sell_price": 6600,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "swift-sword",
+    "name": "Swift Sword",
+    "game": "gs1",
+    "name_literal": "Swift Sword",
+    "name_variants": [],
+    "category": "weapon",
+    "type": "light_blade",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Jenna",
+      "Piers",
+      "Isaac",
+      "Garet",
+      "Ivan"
+    ],
+    "stat_bonus": {
+      "atk": 104,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 10,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": {
+      "name": "Sonic Smash",
+      "name_literal": "Sonic Slash",
+      "element": null,
+      "rate": null,
+      "power_level": null
+    },
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 21,
+    "buy_price": 9400,
+    "sell_price": 7050,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "elven-rapier",
+    "name": "Elven Rapier",
+    "game": "gs1",
+    "name_literal": "Elven Rapier",
+    "name_variants": [],
+    "category": "weapon",
+    "type": "light_blade",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Jenna",
+      "Piers",
+      "Isaac",
+      "Garet",
+      "Ivan"
+    ],
+    "stat_bonus": {
+      "atk": 44,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": {
+      "name": "Vorpal Slash",
+      "name_literal": "Wind Weasel",
+      "element": null,
+      "rate": null,
+      "power_level": null
+    },
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 22,
+    "buy_price": 2200,
+    "sell_price": 1650,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "assassin-blade",
+    "name": "Assassin Blade",
+    "game": "gs1",
+    "name_literal": "Assassin Sword",
+    "name_variants": [],
+    "category": "weapon",
+    "type": "light_blade",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Jenna",
+      "Piers",
+      "Isaac",
+      "Garet",
+      "Ivan"
+    ],
+    "stat_bonus": {
+      "atk": 90,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": {
+      "name": "Mortal Danger",
+      "name_literal": "Death Crisis",
+      "element": null,
+      "rate": null,
+      "power_level": null
+    },
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 23,
+    "buy_price": 7800,
+    "sell_price": 5850,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "mystery-blade",
+    "name": "Mystery Blade",
+    "game": "gs1",
+    "name_literal": "Mystery Sword",
+    "name_variants": [],
+    "category": "weapon",
+    "type": "light_blade",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Jenna",
+      "Piers",
+      "Isaac",
+      "Garet",
+      "Ivan"
+    ],
+    "stat_bonus": {
+      "atk": 84,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": {
+      "name": "Life Nourish",
+      "name_literal": null,
+      "element": null,
+      "rate": null,
+      "power_level": null
+    },
+    "use_effect": {
+      "description": "Unleashes 'ライフナリッシュ'  (Life Nourish)",
+      "may_break": false
+    },
+    "effects": [
+      "Unleashes 'ライフナリッシュ'  (Life Nourish)"
+    ],
+    "debug_no": 24,
+    "buy_price": 6400,
+    "sell_price": 4800,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "kikuichimonji",
+    "name": "Kikuichimonji",
+    "game": "gs1",
+    "name_literal": "Kikuichimonji",
+    "name_variants": [],
+    "category": "weapon",
+    "type": "light_blade",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Jenna",
+      "Piers",
+      "Isaac",
+      "Garet",
+      "Ivan"
+    ],
+    "stat_bonus": {
+      "atk": 128,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": {
+      "name": "Asura",
+      "name_literal": "Dance of Shura",
+      "element": null,
+      "rate": null,
+      "power_level": null
+    },
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 25,
+    "buy_price": 13400,
+    "sell_price": 10050,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "masamune",
+    "name": "Masamune",
+    "game": "gs1",
+    "name_literal": "Masamune",
+    "name_variants": [
+      "Masamune (Listed as 'Kusanagi' in GS; dummy weapon.)"
+    ],
+    "category": "weapon",
+    "type": "light_blade",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Jenna",
+      "Piers",
+      "Isaac",
+      "Garet",
+      "Ivan"
+    ],
+    "stat_bonus": {
+      "atk": 135,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": {
+      "name": "Rising Dragon",
+      "name_literal": "Waterfall Dragon Slash",
+      "element": null,
+      "rate": null,
+      "power_level": null
+    },
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 26,
+    "buy_price": 16400,
+    "sell_price": 12300,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "bandit-s-sword",
+    "name": "Bandit's Sword",
+    "game": "gs1",
+    "name_literal": "Bandit Sword",
+    "name_variants": [],
+    "category": "weapon",
+    "type": "light_blade",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Jenna",
+      "Piers",
+      "Isaac",
+      "Garet",
+      "Ivan"
+    ],
+    "stat_bonus": {
+      "atk": 12,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": {
+      "name": "Rapid Smash",
+      "name_literal": "Speed Slash",
+      "element": null,
+      "rate": null,
+      "power_level": null
+    },
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 27,
+    "buy_price": 700,
+    "sell_price": 525,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "battle-axe",
+    "name": "Battle Axe",
+    "game": "gs1",
+    "name_literal": "Battle Axe",
+    "name_variants": [],
+    "category": "weapon",
+    "type": "axe",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Piers",
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 24,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 31,
+    "buy_price": 280,
+    "sell_price": 210,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "broad-axe",
+    "name": "Broad Axe",
+    "game": "gs1",
+    "name_literal": "Broad Axe",
+    "name_variants": [],
+    "category": "weapon",
+    "type": "axe",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Piers",
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 50,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 32,
+    "buy_price": 1400,
+    "sell_price": 1050,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "great-axe",
+    "name": "Great Axe",
+    "game": "gs1",
+    "name_literal": "Great Axe",
+    "name_variants": [],
+    "category": "weapon",
+    "type": "axe",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Piers",
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 80,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 33,
+    "buy_price": 5200,
+    "sell_price": 3900,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "dragon-axe",
+    "name": "Dragon Axe",
+    "game": "gs1",
+    "name_literal": "Dragon Axe",
+    "name_variants": [],
+    "category": "weapon",
+    "type": "axe",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Piers",
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 100,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": {
+      "name": "Heat Mirage",
+      "name_literal": "Heat Mirage",
+      "element": null,
+      "rate": null,
+      "power_level": null
+    },
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 34,
+    "buy_price": 10300,
+    "sell_price": 7725,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "giant-axe",
+    "name": "Giant Axe",
+    "game": "gs1",
+    "name_literal": "Gigant Axe",
+    "name_variants": [],
+    "category": "weapon",
+    "type": "axe",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Piers",
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 114,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": {
+      "name": "Meltdown",
+      "name_literal": "Melty Armor",
+      "element": null,
+      "rate": null,
+      "power_level": null
+    },
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 35,
+    "buy_price": 14000,
+    "sell_price": 10500,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "vulcan-axe",
+    "name": "Vulcan Axe",
+    "game": "gs1",
+    "name_literal": "Smog Axe",
+    "name_variants": [],
+    "category": "weapon",
+    "type": "axe",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Piers",
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 76,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": {
+      "name": "Barrage",
+      "name_literal": "Explosion",
+      "element": null,
+      "rate": null,
+      "power_level": null
+    },
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 36,
+    "buy_price": 4600,
+    "sell_price": 3450,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "burning-axe",
+    "name": "Burning Axe",
+    "game": "gs1",
+    "name_literal": "Burning Axe",
+    "name_variants": [],
+    "category": "weapon",
+    "type": "axe",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Piers",
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 84,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": {
+      "name": "Broil",
+      "name_literal": "Fire Attack",
+      "element": null,
+      "rate": null,
+      "power_level": null
+    },
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 37,
+    "buy_price": 7500,
+    "sell_price": 5625,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "demon-axe",
+    "name": "Demon Axe",
+    "game": "gs1",
+    "name_literal": "Demon Axe",
+    "name_variants": [],
+    "category": "weapon",
+    "type": "axe",
+    "is_cursed": true,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Piers",
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 132,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": {
+      "name": "Poison Cloud",
+      "name_literal": "Poison Stab",
+      "element": null,
+      "rate": null,
+      "power_level": null
+    },
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 38,
+    "buy_price": 16000,
+    "sell_price": 12000,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "mace",
+    "name": "Mace",
+    "game": "gs1",
+    "name_literal": "Middle Mace",
+    "name_variants": [],
+    "category": "weapon",
+    "type": "mace",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Sheba",
+      "Piers",
+      "Isaac",
+      "Garet",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 6,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 43,
+    "buy_price": 80,
+    "sell_price": 60,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "heavy-mace",
+    "name": "Heavy Mace",
+    "game": "gs1",
+    "name_literal": "Heavy Mace",
+    "name_variants": [],
+    "category": "weapon",
+    "type": "mace",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Sheba",
+      "Piers",
+      "Isaac",
+      "Garet",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 26,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 44,
+    "buy_price": 500,
+    "sell_price": 375,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "battle-mace",
+    "name": "Battle Mace",
+    "game": "gs1",
+    "name_literal": "Battle Mace",
+    "name_variants": [],
+    "category": "weapon",
+    "type": "mace",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Sheba",
+      "Piers",
+      "Isaac",
+      "Garet",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 56,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 45,
+    "buy_price": 2600,
+    "sell_price": 1950,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "war-mace",
+    "name": "War Mace",
+    "game": "gs1",
+    "name_literal": "Star Mace",
+    "name_variants": [],
+    "category": "weapon",
+    "type": "mace",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Sheba",
+      "Piers",
+      "Isaac",
+      "Garet",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 84,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 46,
+    "buy_price": 6200,
+    "sell_price": 4650,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "righteous-mace",
+    "name": "Righteous Mace",
+    "game": "gs1",
+    "name_literal": "Holy Mace",
+    "name_variants": [],
+    "category": "weapon",
+    "type": "mace",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Sheba",
+      "Piers",
+      "Isaac",
+      "Garet",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 112,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 3,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": {
+      "name": "Blinding Smog",
+      "name_literal": "Blind Smog",
+      "element": null,
+      "rate": null,
+      "power_level": null
+    },
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 47,
+    "buy_price": 8400,
+    "sell_price": 6300,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "grievous-mace",
+    "name": "Grievous Mace",
+    "game": "gs1",
+    "name_literal": "Gravity Mace",
+    "name_variants": [],
+    "category": "weapon",
+    "type": "mace",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Sheba",
+      "Piers",
+      "Isaac",
+      "Garet",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 88,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": {
+      "name": "Terra Strike",
+      "name_literal": "Earth Attack",
+      "element": null,
+      "rate": null,
+      "power_level": null
+    },
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 48,
+    "buy_price": 7000,
+    "sell_price": 5250,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "blessed-mace",
+    "name": "Blessed Mace",
+    "game": "gs1",
+    "name_literal": "Saint Mace",
+    "name_variants": [],
+    "category": "weapon",
+    "type": "mace",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Sheba",
+      "Piers",
+      "Isaac",
+      "Garet",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 126,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 2,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": {
+      "description": "Effect - Restores 200 HP",
+      "may_break": true
+    },
+    "effects": [
+      "Effect - Restores 200 HP"
+    ],
+    "debug_no": 49,
+    "buy_price": 14500,
+    "sell_price": 10875,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "wicked-mace",
+    "name": "Wicked Mace",
+    "game": "gs1",
+    "name_literal": "Mace of the Wicked Heart",
+    "name_variants": [],
+    "category": "weapon",
+    "type": "mace",
+    "is_cursed": true,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Sheba",
+      "Piers",
+      "Isaac",
+      "Garet",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 130,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": {
+      "name": "Poison Death",
+      "name_literal": "Death Poison",
+      "element": null,
+      "rate": null,
+      "power_level": null
+    },
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 50,
+    "buy_price": 13800,
+    "sell_price": 10350,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "wooden-stick",
+    "name": "Wooden Stick",
+    "game": "gs1",
+    "name_literal": "Wood Stick",
+    "name_variants": [],
+    "category": "weapon",
+    "type": "staff",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Jenna",
+      "Sheba",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 4,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 55,
+    "buy_price": 40,
+    "sell_price": 30,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "magic-rod",
+    "name": "Magic Rod",
+    "game": "gs1",
+    "name_literal": "Magic Rod",
+    "name_variants": [],
+    "category": "weapon",
+    "type": "staff",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Jenna",
+      "Sheba",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 16,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": {
+      "name": "Murk",
+      "name_literal": null,
+      "element": null,
+      "rate": null,
+      "power_level": null
+    },
+    "use_effect": {
+      "description": "Unleashes 'ミルキークラウド'  (Milky Cloud)",
+      "may_break": false
+    },
+    "effects": [
+      "Unleashes 'ミルキークラウド'  (Milky Cloud)"
+    ],
+    "debug_no": 56,
+    "buy_price": 380,
+    "sell_price": 285,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "witch-s-wand",
+    "name": "Witch's Wand",
+    "game": "gs1",
+    "name_literal": "Witch Wand",
+    "name_variants": [],
+    "category": "weapon",
+    "type": "staff",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Jenna",
+      "Sheba",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 32,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": {
+      "name": "Stun Voltage",
+      "name_literal": "Stun Voltage",
+      "element": null,
+      "rate": null,
+      "power_level": null
+    },
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 57,
+    "buy_price": 860,
+    "sell_price": 645,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "blessed-ankh",
+    "name": "Blessed Ankh",
+    "game": "gs1",
+    "name_literal": "Saint Ankh",
+    "name_variants": [],
+    "category": "weapon",
+    "type": "staff",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Jenna",
+      "Sheba",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 46,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": {
+      "name": "Psyphon Seal",
+      "name_literal": "Anti-Energy Ray",
+      "element": null,
+      "rate": null,
+      "power_level": null
+    },
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 58,
+    "buy_price": 1600,
+    "sell_price": 1200,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "psynergy-rod",
+    "name": "Psynergy Rod",
+    "game": "gs1",
+    "name_literal": "Psychic Rod",
+    "name_variants": [],
+    "category": "weapon",
+    "type": "staff",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Jenna",
+      "Sheba",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 64,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": {
+      "name": "Psy Leech",
+      "name_literal": "Energy Suck",
+      "element": null,
+      "rate": null,
+      "power_level": null
+    },
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 59,
+    "buy_price": 3800,
+    "sell_price": 2850,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "frost-wand",
+    "name": "Frost Wand",
+    "game": "gs1",
+    "name_literal": "Spirit Wand",
+    "name_variants": [],
+    "category": "weapon",
+    "type": "staff",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Jenna",
+      "Sheba",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 76,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": {
+      "name": "Frost Bite",
+      "name_literal": "Frostbite",
+      "element": null,
+      "rate": null,
+      "power_level": null
+    },
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 60,
+    "buy_price": 5400,
+    "sell_price": 4050,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "angelic-ankh",
+    "name": "Angelic Ankh",
+    "game": "gs1",
+    "name_literal": "Angel Ankh",
+    "name_variants": [],
+    "category": "weapon",
+    "type": "staff",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Jenna",
+      "Sheba",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 83,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": {
+      "name": "Life Leech",
+      "name_literal": "Life Suck",
+      "element": null,
+      "rate": null,
+      "power_level": null
+    },
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 61,
+    "buy_price": 6400,
+    "sell_price": 4800,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "demonic-staff",
+    "name": "Demonic Staff",
+    "game": "gs1",
+    "name_literal": "Devil Stick",
+    "name_variants": [],
+    "category": "weapon",
+    "type": "staff",
+    "is_cursed": true,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Jenna",
+      "Sheba",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 92,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": {
+      "name": "Bad Omen",
+      "name_literal": "Bad Omen",
+      "element": null,
+      "rate": null,
+      "power_level": null
+    },
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 62,
+    "buy_price": 10000,
+    "sell_price": 7500,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "crystal-rod",
+    "name": "Crystal Rod",
+    "game": "gs1",
+    "name_literal": "Crystal Rod",
+    "name_variants": [],
+    "category": "weapon",
+    "type": "staff",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Jenna",
+      "Sheba",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 106,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": {
+      "name": "Drown",
+      "name_literal": "Drown Kill",
+      "element": null,
+      "rate": null,
+      "power_level": null
+    },
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 63,
+    "buy_price": 13400,
+    "sell_price": 10050,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "zodiac-wand",
+    "name": "Zodiac Wand",
+    "game": "gs1",
+    "name_literal": "Horoscope Wand",
+    "name_variants": [],
+    "category": "weapon",
+    "type": "staff",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Jenna",
+      "Sheba",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 102,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": {
+      "name": "Shining Star",
+      "name_literal": "Shining Star",
+      "element": null,
+      "rate": null,
+      "power_level": null
+    },
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 64,
+    "buy_price": 11400,
+    "sell_price": 8550,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "shaman-s-rod",
+    "name": "Shaman's Rod",
+    "game": "gs1",
+    "name_literal": "Cane of Shaman",
+    "name_variants": [],
+    "category": "weapon",
+    "type": "staff",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Jenna",
+      "Sheba",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 10,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 65,
+    "buy_price": null,
+    "sell_price": null,
+    "can_trade": false,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "leather-armor",
+    "name": "Leather Armor",
+    "game": "gs1",
+    "name_literal": "Leather Armor",
+    "name_variants": [],
+    "category": "armor",
+    "type": "armor",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Piers",
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 12,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 75,
+    "buy_price": 240,
+    "sell_price": 180,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "psynergy-armor",
+    "name": "Psynergy Armor",
+    "game": "gs1",
+    "name_literal": "Intelli Armor",
+    "name_variants": [],
+    "category": "armor",
+    "type": "armor",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Piers",
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 21,
+      "hp": 0,
+      "pp": 20,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 76,
+    "buy_price": 1000,
+    "sell_price": 750,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "chain-mail",
+    "name": "Chain Mail",
+    "game": "gs1",
+    "name_literal": "Chain Mail",
+    "name_variants": [],
+    "category": "armor",
+    "type": "armor",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Piers",
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 25,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 77,
+    "buy_price": 2000,
+    "sell_price": 1500,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "armored-shell",
+    "name": "Armored Shell",
+    "game": "gs1",
+    "name_literal": "Armor Shell",
+    "name_variants": [],
+    "category": "armor",
+    "type": "armor",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Piers",
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 30,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 78,
+    "buy_price": 3600,
+    "sell_price": 2700,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "plate-mail",
+    "name": "Plate Mail",
+    "game": "gs1",
+    "name_literal": "Plate Mail",
+    "name_variants": [],
+    "category": "armor",
+    "type": "armor",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Piers",
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 33,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 79,
+    "buy_price": 4400,
+    "sell_price": 3300,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "steel-armor",
+    "name": "Steel Armor",
+    "game": "gs1",
+    "name_literal": "Steel Armor",
+    "name_variants": [],
+    "category": "armor",
+    "type": "armor",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Piers",
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 36,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 80,
+    "buy_price": 4900,
+    "sell_price": 3675,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "spirit-armor",
+    "name": "Spirit Armor",
+    "game": "gs1",
+    "name_literal": "Spirit Armor",
+    "name_variants": [],
+    "category": "armor",
+    "type": "armor",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Piers",
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 32,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 15,
+      "fire": 15,
+      "wind": 15,
+      "water": 15
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 81,
+    "buy_price": 4000,
+    "sell_price": 3000,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "dragon-scales",
+    "name": "Dragon Scales",
+    "game": "gs1",
+    "name_literal": "Dragon Scale",
+    "name_variants": [],
+    "category": "armor",
+    "type": "armor",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Piers",
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 44,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 30,
+      "wind": 0,
+      "water": 30
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 82,
+    "buy_price": 17000,
+    "sell_price": 12750,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "demon-mail",
+    "name": "Demon Mail",
+    "game": "gs1",
+    "name_literal": "Daemon Mail",
+    "name_variants": [],
+    "category": "armor",
+    "type": "armor",
+    "is_cursed": true,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Piers",
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 50,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": -10,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 83,
+    "buy_price": 17000,
+    "sell_price": 12750,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "asura-s-armor",
+    "name": "Asura's Armor",
+    "game": "gs1",
+    "name_literal": "Armor of Asura",
+    "name_variants": [],
+    "category": "armor",
+    "type": "armor",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Piers",
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 5,
+      "def": 42,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 8,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 84,
+    "buy_price": 15000,
+    "sell_price": 11250,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "spiked-armor",
+    "name": "Spiked Armor",
+    "game": "gs1",
+    "name_literal": "Spike Armor",
+    "name_variants": [],
+    "category": "armor",
+    "type": "armor",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Piers",
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 10,
+      "def": 34,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": true,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [
+      "Rate of Criticals rise."
+    ],
+    "debug_no": 85,
+    "buy_price": 14000,
+    "sell_price": 10500,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "cotton-shirt",
+    "name": "Cotton Shirt",
+    "game": "gs1",
+    "name_literal": "Cotton Clothes",
+    "name_variants": [],
+    "category": "armor",
+    "type": "clothing",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Jenna",
+      "Sheba",
+      "Piers",
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 3,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 89,
+    "buy_price": 20,
+    "sell_price": 15,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "travel-vest",
+    "name": "Travel Vest",
+    "game": "gs1",
+    "name_literal": "Travel Vest",
+    "name_variants": [],
+    "category": "armor",
+    "type": "clothing",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Jenna",
+      "Sheba",
+      "Piers",
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 7,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 90,
+    "buy_price": 49,
+    "sell_price": 37,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "fur-coat",
+    "name": "Fur Coat",
+    "game": "gs1",
+    "name_literal": "Fur Coat",
+    "name_variants": [],
+    "category": "armor",
+    "type": "clothing",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Jenna",
+      "Sheba",
+      "Piers",
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 16,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 20
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 91,
+    "buy_price": 400,
+    "sell_price": 300,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "adept-s-clothes",
+    "name": "Adept's Clothes",
+    "game": "gs1",
+    "name_literal": "Scalar Wear",
+    "name_variants": [],
+    "category": "armor",
+    "type": "clothing",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Jenna",
+      "Sheba",
+      "Piers",
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 18,
+      "hp": 0,
+      "pp": 8,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 92,
+    "buy_price": 849,
+    "sell_price": 637,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "elven-shirt",
+    "name": "Elven Shirt",
+    "game": "gs1",
+    "name_literal": "Elven Clothes",
+    "name_variants": [],
+    "category": "armor",
+    "type": "clothing",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Jenna",
+      "Sheba",
+      "Piers",
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 22,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": {
+      "description": "Agility x1.5",
+      "may_break": false
+    },
+    "effects": [
+      "Agility x1.5"
+    ],
+    "debug_no": 93,
+    "buy_price": 1700,
+    "sell_price": 1275,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "silver-vest",
+    "name": "Silver Vest",
+    "game": "gs1",
+    "name_literal": "Silver Vest",
+    "name_variants": [],
+    "category": "armor",
+    "type": "clothing",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Jenna",
+      "Sheba",
+      "Piers",
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 28,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 94,
+    "buy_price": 3200,
+    "sell_price": 2400,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "water-jacket",
+    "name": "Water Jacket",
+    "game": "gs1",
+    "name_literal": "Aqua Jacket",
+    "name_variants": [],
+    "category": "armor",
+    "type": "clothing",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Jenna",
+      "Sheba",
+      "Piers",
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 30,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 20,
+      "wind": 0,
+      "water": 30
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 95,
+    "buy_price": 3000,
+    "sell_price": 2250,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "storm-gear",
+    "name": "Storm Gear",
+    "game": "gs1",
+    "name_literal": "Resist Screen",
+    "name_variants": [],
+    "category": "armor",
+    "type": "clothing",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Jenna",
+      "Sheba",
+      "Piers",
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 42,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 30,
+      "wind": 30,
+      "water": 30
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 96,
+    "buy_price": 9800,
+    "sell_price": 7350,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "kimono",
+    "name": "Kimono",
+    "game": "gs1",
+    "name_literal": "Kimono of Kasuri",
+    "name_variants": [],
+    "category": "armor",
+    "type": "clothing",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Jenna",
+      "Sheba",
+      "Piers",
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 25,
+      "hp": 0,
+      "pp": 0,
+      "agi": 10,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 10,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 97,
+    "buy_price": 2800,
+    "sell_price": 2100,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "ninja-garb",
+    "name": "Ninja Garb",
+    "game": "gs1",
+    "name_literal": "Black Clothes",
+    "name_variants": [],
+    "category": "armor",
+    "type": "clothing",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Jenna",
+      "Sheba",
+      "Piers",
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 36,
+      "hp": 0,
+      "pp": 0,
+      "agi": 30,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 10,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 98,
+    "buy_price": 6900,
+    "sell_price": 5175,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "one-piece-dress",
+    "name": "One-Piece Dress",
+    "game": "gs1",
+    "name_literal": "One-Piece",
+    "name_variants": [],
+    "category": "armor",
+    "type": "robe",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Jenna",
+      "Sheba",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 4,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 103,
+    "buy_price": 24,
+    "sell_price": 18,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "travel-robe",
+    "name": "Travel Robe",
+    "game": "gs1",
+    "name_literal": "Robe of Travel",
+    "name_variants": [],
+    "category": "armor",
+    "type": "robe",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Jenna",
+      "Sheba",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 10,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 104,
+    "buy_price": 200,
+    "sell_price": 150,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "silk-robe",
+    "name": "Silk Robe",
+    "game": "gs1",
+    "name_literal": "Robe of Silk",
+    "name_variants": [],
+    "category": "armor",
+    "type": "robe",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Jenna",
+      "Sheba",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 20,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 105,
+    "buy_price": 1400,
+    "sell_price": 1050,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "china-dress",
+    "name": "China Dress",
+    "game": "gs1",
+    "name_literal": "China Dress",
+    "name_variants": [],
+    "category": "armor",
+    "type": "robe",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Jenna",
+      "Sheba",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 19,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": {
+      "description": "Effect - Drops enemy attack",
+      "may_break": true
+    },
+    "effects": [
+      "Effect - Drops enemy attack"
+    ],
+    "debug_no": 106,
+    "buy_price": 1600,
+    "sell_price": 1200,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "jerkin",
+    "name": "Jerkin",
+    "game": "gs1",
+    "name_literal": "Jerkin Robe",
+    "name_variants": [],
+    "category": "armor",
+    "type": "robe",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Jenna",
+      "Sheba",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 26,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 107,
+    "buy_price": 2400,
+    "sell_price": 1800,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "cocktail-dress",
+    "name": "Cocktail Dress",
+    "game": "gs1",
+    "name_literal": "Cocktail Dress",
+    "name_variants": [],
+    "category": "armor",
+    "type": "robe",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Jenna",
+      "Sheba",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 29,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": {
+      "description": "Map PP +15",
+      "may_break": false
+    },
+    "effects": [
+      "Map PP +15"
+    ],
+    "debug_no": 108,
+    "buy_price": 4000,
+    "sell_price": 3000,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "blessed-robe",
+    "name": "Blessed Robe",
+    "game": "gs1",
+    "name_literal": "Saint Robe",
+    "name_variants": [],
+    "category": "armor",
+    "type": "robe",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Jenna",
+      "Sheba",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 36,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 5,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 109,
+    "buy_price": 7000,
+    "sell_price": 5250,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "magical-cassock",
+    "name": "Magical Cassock",
+    "game": "gs1",
+    "name_literal": "Magical Cassock",
+    "name_variants": [],
+    "category": "armor",
+    "type": "robe",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Jenna",
+      "Sheba",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 39,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 2
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 110,
+    "buy_price": 9000,
+    "sell_price": 6750,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "mysterious-robe",
+    "name": "Mysterious Robe",
+    "game": "gs1",
+    "name_literal": "Robe of True Beauty",
+    "name_variants": [],
+    "category": "armor",
+    "type": "robe",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Jenna",
+      "Sheba",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 40,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 20,
+      "pp_regen": 10
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 111,
+    "buy_price": 36500,
+    "sell_price": 27375,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "feathered-robe",
+    "name": "Feathered Robe",
+    "game": "gs1",
+    "name_literal": "Robe of Feather",
+    "name_variants": [],
+    "category": "armor",
+    "type": "robe",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Jenna",
+      "Sheba",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 45,
+      "hp": 0,
+      "pp": 0,
+      "agi": 30,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 20,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 30,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 112,
+    "buy_price": 14000,
+    "sell_price": 10500,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "oracle-s-robe",
+    "name": "Oracle's Robe",
+    "game": "gs1",
+    "name_literal": "Robe of the Youngest Princess",
+    "name_variants": [],
+    "category": "armor",
+    "type": "robe",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Jenna",
+      "Sheba",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 43,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 10,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 40
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 113,
+    "buy_price": 13500,
+    "sell_price": 10125,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "wooden-shield",
+    "name": "Wooden Shield",
+    "game": "gs1",
+    "name_literal": "Wood Shield",
+    "name_variants": [],
+    "category": "armor",
+    "type": "shield",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Piers",
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 6,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 118,
+    "buy_price": 40,
+    "sell_price": 30,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "bronze-shield",
+    "name": "Bronze Shield",
+    "game": "gs1",
+    "name_literal": "Bronze Shield",
+    "name_variants": [],
+    "category": "armor",
+    "type": "shield",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Piers",
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 14,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 119,
+    "buy_price": 500,
+    "sell_price": 375,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "iron-shield",
+    "name": "Iron Shield",
+    "game": "gs1",
+    "name_literal": "Iron Shield",
+    "name_variants": [],
+    "category": "armor",
+    "type": "shield",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Piers",
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 20,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 120,
+    "buy_price": 1200,
+    "sell_price": 900,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "knight-s-shield",
+    "name": "Knight's Shield",
+    "game": "gs1",
+    "name_literal": "Knight Shield",
+    "name_variants": [],
+    "category": "armor",
+    "type": "shield",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Piers",
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 28,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 121,
+    "buy_price": 3000,
+    "sell_price": 2250,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "mirrored-shield",
+    "name": "Mirrored Shield",
+    "game": "gs1",
+    "name_literal": "Mirror Shield",
+    "name_variants": [],
+    "category": "armor",
+    "type": "shield",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Piers",
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 39,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": {
+      "description": "Effect - Deludes enemies",
+      "may_break": true
+    },
+    "effects": [
+      "Effect - Deludes enemies"
+    ],
+    "debug_no": 122,
+    "buy_price": 5200,
+    "sell_price": 3900,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "dragon-shield",
+    "name": "Dragon Shield",
+    "game": "gs1",
+    "name_literal": "Shield of the Dragon",
+    "name_variants": [],
+    "category": "armor",
+    "type": "shield",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Piers",
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 26,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 30,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 123,
+    "buy_price": 2400,
+    "sell_price": 1800,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "earth-shield",
+    "name": "Earth Shield",
+    "game": "gs1",
+    "name_literal": "Earth Shield",
+    "name_variants": [],
+    "category": "armor",
+    "type": "shield",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Piers",
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 31,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 20,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": {
+      "description": "Effect - Restores 150HP",
+      "may_break": true
+    },
+    "effects": [
+      "Effect - Restores 150HP"
+    ],
+    "debug_no": 124,
+    "buy_price": 4100,
+    "sell_price": 3075,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "padded-gloves",
+    "name": "Padded Gloves",
+    "game": "gs1",
+    "name_literal": "Quilt Gloves",
+    "name_variants": [],
+    "category": "armor",
+    "type": "gloves",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Jenna",
+      "Sheba",
+      "Piers",
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 2,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 127,
+    "buy_price": 10,
+    "sell_price": 7,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "leather-gloves",
+    "name": "Leather Gloves",
+    "game": "gs1",
+    "name_literal": "Leather Gloves",
+    "name_variants": [],
+    "category": "armor",
+    "type": "gloves",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Jenna",
+      "Sheba",
+      "Piers",
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 10,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 128,
+    "buy_price": 220,
+    "sell_price": 165,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "gauntlets",
+    "name": "Gauntlets",
+    "game": "gs1",
+    "name_literal": "Gauntlet",
+    "name_variants": [],
+    "category": "armor",
+    "type": "gloves",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Jenna",
+      "Sheba",
+      "Piers",
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 23,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 129,
+    "buy_price": 1600,
+    "sell_price": 1200,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "vambrace",
+    "name": "Vambrace",
+    "game": "gs1",
+    "name_literal": "Vambrace",
+    "name_variants": [],
+    "category": "armor",
+    "type": "gloves",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Jenna",
+      "Sheba",
+      "Piers",
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 5,
+      "def": 27,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 130,
+    "buy_price": 1800,
+    "sell_price": 1350,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "war-gloves",
+    "name": "War Gloves",
+    "game": "gs1",
+    "name_literal": "Power Gloves",
+    "name_variants": [],
+    "category": "armor",
+    "type": "gloves",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Jenna",
+      "Sheba",
+      "Piers",
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 10,
+      "def": 32,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 131,
+    "buy_price": 4000,
+    "sell_price": 3000,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "spirit-gloves",
+    "name": "Spirit Gloves",
+    "game": "gs1",
+    "name_literal": "Mystery Gloves",
+    "name_variants": [],
+    "category": "armor",
+    "type": "gloves",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Jenna",
+      "Sheba",
+      "Piers",
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 34,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 5,
+      "fire": 5,
+      "wind": 5,
+      "water": 5
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 132,
+    "buy_price": 5200,
+    "sell_price": 3900,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "battle-gloves",
+    "name": "Battle Gloves",
+    "game": "gs1",
+    "name_literal": "Thorn Gloves",
+    "name_variants": [],
+    "category": "armor",
+    "type": "gloves",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Jenna",
+      "Sheba",
+      "Piers",
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 8,
+      "def": 26,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 133,
+    "buy_price": 2100,
+    "sell_price": 1575,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "aura-gloves",
+    "name": "Aura Gloves",
+    "game": "gs1",
+    "name_literal": "Aura Gloves",
+    "name_variants": [],
+    "category": "armor",
+    "type": "gloves",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Jenna",
+      "Sheba",
+      "Piers",
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 36,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": {
+      "description": "Effect - Raises elemental resistance",
+      "may_break": true
+    },
+    "effects": [
+      "Effect - Raises elemental resistance"
+    ],
+    "debug_no": 134,
+    "buy_price": 6500,
+    "sell_price": 4875,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "leather-armlet",
+    "name": "Leather Armlet",
+    "game": "gs1",
+    "name_literal": "Bracelet of Leather",
+    "name_variants": [],
+    "category": "armor",
+    "type": "bracelet",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Jenna",
+      "Sheba",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 7,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 136,
+    "buy_price": 180,
+    "sell_price": 135,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "armlet",
+    "name": "Armlet",
+    "game": "gs1",
+    "name_literal": "Armlet",
+    "name_variants": [],
+    "category": "armor",
+    "type": "bracelet",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Jenna",
+      "Sheba",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 17,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 137,
+    "buy_price": 900,
+    "sell_price": 675,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "heavy-armlet",
+    "name": "Heavy Armlet",
+    "game": "gs1",
+    "name_literal": "Van Armlet",
+    "name_variants": [],
+    "category": "armor",
+    "type": "bracelet",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Jenna",
+      "Sheba",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 25,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 138,
+    "buy_price": 2000,
+    "sell_price": 1500,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "silver-armlet",
+    "name": "Silver Armlet",
+    "game": "gs1",
+    "name_literal": "Armlet of Silver",
+    "name_variants": [],
+    "category": "armor",
+    "type": "bracelet",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Jenna",
+      "Sheba",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 30,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 139,
+    "buy_price": 4000,
+    "sell_price": 3000,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "spirit-armlet",
+    "name": "Spirit Armlet",
+    "game": "gs1",
+    "name_literal": "Armlet of Spirit",
+    "name_variants": [],
+    "category": "armor",
+    "type": "bracelet",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Jenna",
+      "Sheba",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 38,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 10,
+      "fire": 0,
+      "wind": 0,
+      "water": 10
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": {
+      "description": "Effect - Cures negative status effects",
+      "may_break": true
+    },
+    "effects": [
+      "Effect - Cures negative status effects"
+    ],
+    "debug_no": 140,
+    "buy_price": 9000,
+    "sell_price": 6750,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "virtuous-armlet",
+    "name": "Virtuous Armlet",
+    "game": "gs1",
+    "name_literal": "Armlet of Light",
+    "name_variants": [],
+    "category": "armor",
+    "type": "bracelet",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Jenna",
+      "Sheba",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 35,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 10,
+      "wind": 10,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": {
+      "description": "Effect - Restores 100HP",
+      "may_break": true
+    },
+    "effects": [
+      "Effect - Restores 100HP"
+    ],
+    "debug_no": 141,
+    "buy_price": 7000,
+    "sell_price": 5250,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "guardian-armlet",
+    "name": "Guardian Armlet",
+    "game": "gs1",
+    "name_literal": "Guard Armlet",
+    "name_variants": [],
+    "category": "armor",
+    "type": "bracelet",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Jenna",
+      "Sheba",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 27,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": {
+      "description": "Effect - Boosts Defense",
+      "may_break": true
+    },
+    "effects": [
+      "Effect - Boosts Defense"
+    ],
+    "debug_no": 142,
+    "buy_price": 2600,
+    "sell_price": 1950,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "open-helm",
+    "name": "Open Helm",
+    "game": "gs1",
+    "name_literal": "Open Helm",
+    "name_variants": [],
+    "category": "armor",
+    "type": "helm",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Piers",
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 9,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 145,
+    "buy_price": 180,
+    "sell_price": 135,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "bronze-helm",
+    "name": "Bronze Helm",
+    "game": "gs1",
+    "name_literal": "Bronze Helm",
+    "name_variants": [],
+    "category": "armor",
+    "type": "helm",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Piers",
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 14,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 146,
+    "buy_price": 600,
+    "sell_price": 450,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "iron-helm",
+    "name": "Iron Helm",
+    "game": "gs1",
+    "name_literal": "Iron Helm",
+    "name_variants": [],
+    "category": "armor",
+    "type": "helm",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Piers",
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 20,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 147,
+    "buy_price": 1600,
+    "sell_price": 1200,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "steel-helm",
+    "name": "Steel Helm",
+    "game": "gs1",
+    "name_literal": "Steel Helm",
+    "name_variants": [],
+    "category": "armor",
+    "type": "helm",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Piers",
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 27,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 148,
+    "buy_price": 3100,
+    "sell_price": 2325,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "silver-helm",
+    "name": "Silver Helm",
+    "game": "gs1",
+    "name_literal": "Silver Helm",
+    "name_variants": [],
+    "category": "armor",
+    "type": "helm",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Piers",
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 30,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 149,
+    "buy_price": 3900,
+    "sell_price": 2925,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "knight-s-helm",
+    "name": "Knight's Helm",
+    "game": "gs1",
+    "name_literal": "Knight Helm",
+    "name_variants": [],
+    "category": "armor",
+    "type": "helm",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Piers",
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 33,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 150,
+    "buy_price": 4600,
+    "sell_price": 3450,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "warrior-s-helm",
+    "name": "Warrior's Helm",
+    "game": "gs1",
+    "name_literal": "Zusha Helmet",
+    "name_variants": [],
+    "category": "armor",
+    "type": "helm",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Piers",
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 35,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 10,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": true,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [
+      "Rate of Criticals rise."
+    ],
+    "debug_no": 151,
+    "buy_price": 10000,
+    "sell_price": 7500,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "adept-s-helm",
+    "name": "Adept's Helm",
+    "game": "gs1",
+    "name_literal": "Ceres Helm",
+    "name_variants": [],
+    "category": "armor",
+    "type": "helm",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Piers",
+      "Isaac",
+      "Garet"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 29,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": {
+      "description": "Maximum PP x1.2",
+      "may_break": false
+    },
+    "effects": [
+      "Maximum PP x1.2"
+    ],
+    "debug_no": 152,
+    "buy_price": 3700,
+    "sell_price": 2775,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "leather-cap",
+    "name": "Leather Cap",
+    "game": "gs1",
+    "name_literal": "Leather Cap",
+    "name_variants": [],
+    "category": "armor",
+    "type": "hat",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 3,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 156,
+    "buy_price": 30,
+    "sell_price": 22,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "wooden-cap",
+    "name": "Wooden Cap",
+    "game": "gs1",
+    "name_literal": "Wood Cap",
+    "name_variants": [],
+    "category": "armor",
+    "type": "hat",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 10,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 157,
+    "buy_price": 400,
+    "sell_price": 300,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "mail-cap",
+    "name": "Mail Cap",
+    "game": "gs1",
+    "name_literal": "Chain Hood",
+    "name_variants": [],
+    "category": "armor",
+    "type": "hat",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 23,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 158,
+    "buy_price": 2000,
+    "sell_price": 1500,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "jeweled-crown",
+    "name": "Jeweled Crown",
+    "game": "gs1",
+    "name_literal": "Jewelry Crown",
+    "name_variants": [],
+    "category": "armor",
+    "type": "hat",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 35,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 5,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 159,
+    "buy_price": 4000,
+    "sell_price": 3000,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "ninja-hood",
+    "name": "Ninja Hood",
+    "game": "gs1",
+    "name_literal": "Black Hood",
+    "name_variants": [],
+    "category": "armor",
+    "type": "hat",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 28,
+      "hp": 0,
+      "pp": 0,
+      "agi": 20,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 160,
+    "buy_price": 2800,
+    "sell_price": 2100,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "lucky-cap",
+    "name": "Lucky Cap",
+    "game": "gs1",
+    "name_literal": "Shinobi no Hachigane",
+    "name_variants": [],
+    "category": "armor",
+    "type": "hat",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 33,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 3
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": true,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [
+      "Rate of Criticals rise."
+    ],
+    "debug_no": 161,
+    "buy_price": 5200,
+    "sell_price": 3900,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "thunder-crown",
+    "name": "Thunder Crown",
+    "game": "gs1",
+    "name_literal": "Satan Crown",
+    "name_variants": [],
+    "category": "armor",
+    "type": "hat",
+    "is_cursed": true,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 40,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 4
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 162,
+    "buy_price": 7500,
+    "sell_price": 5625,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "prophet-s-hat",
+    "name": "Prophet's Hat",
+    "game": "gs1",
+    "name_literal": "Hat of the Prophet",
+    "name_variants": [],
+    "category": "armor",
+    "type": "hat",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 30,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": {
+      "description": "Effect - Predicts being downed",
+      "may_break": true
+    },
+    "effects": [
+      "Effect - Predicts being downed"
+    ],
+    "debug_no": 163,
+    "buy_price": 4600,
+    "sell_price": 3450,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "lure-cap",
+    "name": "Lure Cap",
+    "game": "gs1",
+    "name_literal": "Inviting Hat",
+    "name_variants": [],
+    "category": "armor",
+    "type": "hat",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 20,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": {
+      "description": "Increases random encounters",
+      "may_break": false
+    },
+    "effects": [
+      "Increases random encounters"
+    ],
+    "debug_no": 164,
+    "buy_price": 3000,
+    "sell_price": 2250,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "circlet",
+    "name": "Circlet",
+    "game": "gs1",
+    "name_literal": "Circlet",
+    "name_variants": [],
+    "category": "armor",
+    "type": "circlet",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Jenna",
+      "Sheba",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 6,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 166,
+    "buy_price": 120,
+    "sell_price": 90,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "silver-circlet",
+    "name": "Silver Circlet",
+    "game": "gs1",
+    "name_literal": "Silver Circle",
+    "name_variants": [],
+    "category": "armor",
+    "type": "circlet",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Jenna",
+      "Sheba",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 16,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 167,
+    "buy_price": 1300,
+    "sell_price": 975,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "guardian-circlet",
+    "name": "Guardian Circlet",
+    "game": "gs1",
+    "name_literal": "Protect Circle",
+    "name_variants": [],
+    "category": "armor",
+    "type": "circlet",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Jenna",
+      "Sheba",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 25,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 168,
+    "buy_price": 3400,
+    "sell_price": 2550,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "platinum-circlet",
+    "name": "Platinum Circlet",
+    "game": "gs1",
+    "name_literal": "Platinum Circle",
+    "name_variants": [],
+    "category": "armor",
+    "type": "circlet",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Jenna",
+      "Sheba",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 29,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 169,
+    "buy_price": 4200,
+    "sell_price": 3150,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "mythril-circlet",
+    "name": "Mythril Circlet",
+    "game": "gs1",
+    "name_literal": "Mithril Circle",
+    "name_variants": [],
+    "category": "armor",
+    "type": "circlet",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Jenna",
+      "Sheba",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 34,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 3
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 170,
+    "buy_price": 7000,
+    "sell_price": 5250,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "glittering-tiara",
+    "name": "Glittering Tiara",
+    "game": "gs1",
+    "name_literal": "Glittering Tiara",
+    "name_variants": [],
+    "category": "armor",
+    "type": "circlet",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Jenna",
+      "Sheba",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 27,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": {
+      "description": "Effect - Prevents delusion",
+      "may_break": true
+    },
+    "effects": [
+      "Effect - Prevents delusion"
+    ],
+    "debug_no": 171,
+    "buy_price": 3600,
+    "sell_price": 2700,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "mythril-shirt",
+    "name": "Mythril Shirt",
+    "game": "gs1",
+    "name_literal": "Mithril Shirt",
+    "name_variants": [],
+    "category": "armor",
+    "type": "shirt",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Jenna",
+      "Sheba",
+      "Piers",
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 10,
+      "hp": 5,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 250,
+    "buy_price": 2900,
+    "sell_price": 2175,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "silk-shirt",
+    "name": "Silk Shirt",
+    "game": "gs1",
+    "name_literal": "Bisuche of Silk",
+    "name_variants": [],
+    "category": "armor",
+    "type": "shirt",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Jenna",
+      "Sheba",
+      "Piers",
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 6,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 1,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 251,
+    "buy_price": 1800,
+    "sell_price": 1350,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "running-shirt",
+    "name": "Running Shirt",
+    "game": "gs1",
+    "name_literal": "Running Shirt",
+    "name_variants": [],
+    "category": "armor",
+    "type": "shirt",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Jenna",
+      "Sheba",
+      "Piers",
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 1,
+      "hp": 0,
+      "pp": 0,
+      "agi": 15,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 252,
+    "buy_price": 400,
+    "sell_price": 300,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "hyper-boots",
+    "name": "Hyper Boots",
+    "game": "gs1",
+    "name_literal": "Extreme Boots",
+    "name_variants": [],
+    "category": "armor",
+    "type": "boots",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Jenna",
+      "Sheba",
+      "Piers",
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 4,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": true,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [
+      "Rate of Criticals rise."
+    ],
+    "debug_no": 256,
+    "buy_price": 2400,
+    "sell_price": 1800,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "quick-boots",
+    "name": "Quick Boots",
+    "game": "gs1",
+    "name_literal": "Quick Boots",
+    "name_variants": [],
+    "category": "armor",
+    "type": "boots",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Jenna",
+      "Sheba",
+      "Piers",
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 3,
+      "hp": 0,
+      "pp": 0,
+      "agi": 20,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 257,
+    "buy_price": 2100,
+    "sell_price": 1575,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "fur-boots",
+    "name": "Fur Boots",
+    "game": "gs1",
+    "name_literal": "Boots of Fur",
+    "name_variants": [],
+    "category": "armor",
+    "type": "boots",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Jenna",
+      "Sheba",
+      "Piers",
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 2,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 15
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": null,
+    "effects": [],
+    "debug_no": 258,
+    "buy_price": 1200,
+    "sell_price": 900,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "turtle-boots",
+    "name": "Turtle Boots",
+    "game": "gs1",
+    "name_literal": "Super Turtle Boots",
+    "name_variants": [],
+    "category": "armor",
+    "type": "boots",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Jenna",
+      "Sheba",
+      "Piers",
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 3,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": {
+      "description": "Agility x0.5",
+      "may_break": false
+    },
+    "effects": [
+      "Agility x0.5"
+    ],
+    "debug_no": 259,
+    "buy_price": 600,
+    "sell_price": 450,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "adept-ring",
+    "name": "Adept Ring",
+    "game": "gs1",
+    "name_literal": "Energist Ring",
+    "name_variants": [],
+    "category": "armor",
+    "type": "ring",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Jenna",
+      "Sheba",
+      "Piers",
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": {
+      "description": "Restores 7PP",
+      "may_break": true
+    },
+    "effects": [
+      "Restores 7PP"
+    ],
+    "debug_no": 262,
+    "buy_price": 3100,
+    "sell_price": 2325,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "war-ring",
+    "name": "War Ring",
+    "game": "gs1",
+    "name_literal": "Massuru Ring",
+    "name_variants": [],
+    "category": "armor",
+    "type": "ring",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Jenna",
+      "Sheba",
+      "Piers",
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": {
+      "description": "Boosts Attack in battle",
+      "may_break": true
+    },
+    "effects": [
+      "Boosts Attack in battle"
+    ],
+    "debug_no": 263,
+    "buy_price": 2600,
+    "sell_price": 1950,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "sleep-ring",
+    "name": "Sleep Ring",
+    "game": "gs1",
+    "name_literal": "Sleep Ring",
+    "name_variants": [],
+    "category": "armor",
+    "type": "ring",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Jenna",
+      "Sheba",
+      "Piers",
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": {
+      "description": "Sends enemy to sleep",
+      "may_break": true
+    },
+    "effects": [
+      "Sends enemy to sleep"
+    ],
+    "debug_no": 264,
+    "buy_price": 1400,
+    "sell_price": 1050,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "healing-ring",
+    "name": "Healing Ring",
+    "game": "gs1",
+    "name_literal": "Cure Ring",
+    "name_variants": [],
+    "category": "armor",
+    "type": "ring",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Jenna",
+      "Sheba",
+      "Piers",
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": {
+      "description": "Restores 70HP",
+      "may_break": true
+    },
+    "effects": [
+      "Restores 70HP"
+    ],
+    "debug_no": 265,
+    "buy_price": 800,
+    "sell_price": 600,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "unicorn-ring",
+    "name": "Unicorn Ring",
+    "game": "gs1",
+    "name_literal": "Monoceros Ring",
+    "name_variants": [],
+    "category": "armor",
+    "type": "ring",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Jenna",
+      "Sheba",
+      "Piers",
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": {
+      "description": "Cures poison",
+      "may_break": true
+    },
+    "effects": [
+      "Cures poison"
+    ],
+    "debug_no": 266,
+    "buy_price": 1100,
+    "sell_price": 825,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "fairy-ring",
+    "name": "Fairy Ring",
+    "game": "gs1",
+    "name_literal": "Fairy Ring",
+    "name_variants": [],
+    "category": "armor",
+    "type": "ring",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Jenna",
+      "Sheba",
+      "Piers",
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": {
+      "description": "Cures status ailments",
+      "may_break": true
+    },
+    "effects": [
+      "Cures status ailments"
+    ],
+    "debug_no": 267,
+    "buy_price": 2900,
+    "sell_price": 2175,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
+    "id": "cleric-s-ring",
+    "name": "Cleric's Ring",
+    "game": "gs1",
+    "name_literal": "Ring of Datenshi",
+    "name_variants": [],
+    "category": "armor",
+    "type": "ring",
+    "is_cursed": false,
+    "is_rusty": false,
+    "is_artifact": null,
+    "forged_from": [],
+    "equippable_by": [
+      "Felix",
+      "Jenna",
+      "Sheba",
+      "Piers",
+      "Isaac",
+      "Garet",
+      "Ivan",
+      "Mia"
+    ],
+    "stat_bonus": {
+      "atk": 0,
+      "def": 0,
+      "hp": 0,
+      "pp": 0,
+      "agi": 0,
+      "lck": 0,
+      "hp_regen": 0,
+      "pp_regen": 0
+    },
+    "elemental_power": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "elemental_resistance": {
+      "earth": 0,
+      "fire": 0,
+      "wind": 0,
+      "water": 0
+    },
+    "increases_critical": false,
+    "unleash": null,
+    "use_effect": {
+      "description": "Removes the effects of Curse",
+      "may_break": false
+    },
+    "effects": [
+      "Removes the effects of Curse"
+    ],
+    "debug_no": 268,
+    "buy_price": 6400,
+    "sell_price": 4800,
+    "can_trade": true,
+    "sources": [
+      "mr-unorigino-item"
+    ]
+  },
+  {
     "id": "huge-sword",
     "name": "Huge Sword",
     "game": "gs2",
     "name_literal": "Huge Sword",
+    "name_variants": [],
     "category": "weapon",
     "type": "long_sword",
     "is_cursed": false,
@@ -64,6 +7898,7 @@
     "name": "Mythril Blade",
     "game": "gs2",
     "name_literal": "Mithril Blade",
+    "name_variants": [],
     "category": "weapon",
     "type": "long_sword",
     "is_cursed": false,
@@ -124,6 +7959,7 @@
     "name": "Levatine",
     "game": "gs2",
     "name_literal": "Levatein",
+    "name_variants": [],
     "category": "weapon",
     "type": "long_sword",
     "is_cursed": false,
@@ -184,6 +8020,7 @@
     "name": "Darksword",
     "game": "gs2",
     "name_literal": "Darkside Sword",
+    "name_variants": [],
     "category": "weapon",
     "type": "long_sword",
     "is_cursed": true,
@@ -244,6 +8081,7 @@
     "name": "Excalibur",
     "game": "gs2",
     "name_literal": "Excalibur",
+    "name_variants": [],
     "category": "weapon",
     "type": "long_sword",
     "is_cursed": false,
@@ -304,6 +8142,7 @@
     "name": "Robber's Blade",
     "game": "gs2",
     "name_literal": "Lobar Blade",
+    "name_variants": [],
     "category": "weapon",
     "type": "long_sword",
     "is_cursed": false,
@@ -364,6 +8203,7 @@
     "name": "Soul Brand",
     "game": "gs2",
     "name_literal": "Blade of Soul",
+    "name_variants": [],
     "category": "weapon",
     "type": "long_sword",
     "is_cursed": false,
@@ -424,6 +8264,7 @@
     "name": "Storm Brand",
     "game": "gs2",
     "name_literal": "Storm Blade",
+    "name_variants": [],
     "category": "weapon",
     "type": "long_sword",
     "is_cursed": false,
@@ -481,6 +8322,7 @@
     "name": "Hestia Blade",
     "game": "gs2",
     "name_literal": "Hestia Blade",
+    "name_variants": [],
     "category": "weapon",
     "type": "long_sword",
     "is_cursed": false,
@@ -538,6 +8380,7 @@
     "name": "Lightning Sword",
     "game": "gs2",
     "name_literal": "Lightning Sword",
+    "name_variants": [],
     "category": "weapon",
     "type": "long_sword",
     "is_cursed": false,
@@ -595,6 +8438,7 @@
     "name": "Rune Blade",
     "game": "gs2",
     "name_literal": "Rune Blade",
+    "name_variants": [],
     "category": "weapon",
     "type": "long_sword",
     "is_cursed": false,
@@ -652,6 +8496,7 @@
     "name": "Cloud Brand",
     "game": "gs2",
     "name_literal": "Sword of Amakumo",
+    "name_variants": [],
     "category": "weapon",
     "type": "long_sword",
     "is_cursed": false,
@@ -709,6 +8554,7 @@
     "name": "Sylph Rapier",
     "game": "gs2",
     "name_literal": "Sylph Rapier",
+    "name_variants": [],
     "category": "weapon",
     "type": "light_blade",
     "is_cursed": false,
@@ -771,6 +8617,7 @@
     "name": "Burning Sword",
     "game": "gs2",
     "name_literal": "Burning Sword",
+    "name_variants": [],
     "category": "weapon",
     "type": "light_blade",
     "is_cursed": false,
@@ -833,6 +8680,7 @@
     "name": "Pirate's Sword",
     "game": "gs2",
     "name_literal": "Pirate Sword",
+    "name_variants": [],
     "category": "weapon",
     "type": "light_blade",
     "is_cursed": false,
@@ -892,6 +8740,7 @@
     "name": "Corsair's Edge",
     "game": "gs2",
     "name_literal": "Corsair Scimitar",
+    "name_variants": [],
     "category": "weapon",
     "type": "light_blade",
     "is_cursed": false,
@@ -954,6 +8803,7 @@
     "name": "Pirate's Sabre",
     "game": "gs2",
     "name_literal": "Pirate's Saber",
+    "name_variants": [],
     "category": "weapon",
     "type": "light_blade",
     "is_cursed": false,
@@ -1016,6 +8866,7 @@
     "name": "Hypnos' Sword",
     "game": "gs2",
     "name_literal": "Hypnos Sword",
+    "name_variants": [],
     "category": "weapon",
     "type": "light_blade",
     "is_cursed": false,
@@ -1075,6 +8926,7 @@
     "name": "Mist Sabre",
     "game": "gs2",
     "name_literal": "Mist Saber",
+    "name_variants": [],
     "category": "weapon",
     "type": "light_blade",
     "is_cursed": false,
@@ -1134,6 +8986,7 @@
     "name": "Phaeton's Blade",
     "game": "gs2",
     "name_literal": "Photon Rapier",
+    "name_variants": [],
     "category": "weapon",
     "type": "light_blade",
     "is_cursed": false,
@@ -1193,6 +9046,7 @@
     "name": "Tisiphone Edge",
     "game": "gs2",
     "name_literal": "Tisiphone Sword",
+    "name_variants": [],
     "category": "weapon",
     "type": "light_blade",
     "is_cursed": false,
@@ -1248,18 +9102,19 @@
     ]
   },
   {
-    "id": "appolo-s-axe",
-    "name": "Appolo's Axe",
+    "id": "apollo-s-axe",
+    "name": "Apollo's Axe",
     "game": "gs2",
     "name_literal": "Apollon Axe",
+    "name_variants": [
+      "Appolo's Axe"
+    ],
     "category": "weapon",
     "type": "axe",
     "is_cursed": false,
     "is_rusty": false,
     "is_artifact": null,
-    "forged_from": [
-      "Salamander Tail"
-    ],
+    "forged_from": [],
     "equippable_by": [
       "Felix",
       "Piers",
@@ -1304,7 +9159,7 @@
     "can_trade": true,
     "sources": [
       "mr-unorigino-item",
-      "aspartate-forge"
+      "90kirsdarke-hack"
     ]
   },
   {
@@ -1312,6 +9167,7 @@
     "name": "Gaia's Axe",
     "game": "gs2",
     "name_literal": "Gaia Axe",
+    "name_variants": [],
     "category": "weapon",
     "type": "axe",
     "is_cursed": false,
@@ -1372,6 +9228,7 @@
     "name": "Stellar Axe",
     "game": "gs2",
     "name_literal": "Stellar Axe",
+    "name_variants": [],
     "category": "weapon",
     "type": "axe",
     "is_cursed": false,
@@ -1432,6 +9289,7 @@
     "name": "Captain's Axe",
     "game": "gs2",
     "name_literal": "Captain's Axe",
+    "name_variants": [],
     "category": "weapon",
     "type": "axe",
     "is_cursed": false,
@@ -1491,6 +9349,7 @@
     "name": "Viking Axe",
     "game": "gs2",
     "name_literal": "Viking Axe",
+    "name_variants": [],
     "category": "weapon",
     "type": "axe",
     "is_cursed": false,
@@ -1551,6 +9410,7 @@
     "name": "Disk Axe",
     "game": "gs2",
     "name_literal": "Wheel Axe",
+    "name_variants": [],
     "category": "weapon",
     "type": "axe",
     "is_cursed": false,
@@ -1608,6 +9468,7 @@
     "name": "Themis' Axe",
     "game": "gs2",
     "name_literal": "Themis Axe",
+    "name_variants": [],
     "category": "weapon",
     "type": "axe",
     "is_cursed": false,
@@ -1665,6 +9526,7 @@
     "name": "Mighty Axe",
     "game": "gs2",
     "name_literal": "Mighty Axe",
+    "name_variants": [],
     "category": "weapon",
     "type": "axe",
     "is_cursed": false,
@@ -1722,6 +9584,7 @@
     "name": "Tartarus Axe",
     "game": "gs2",
     "name_literal": "Tartarus Axe",
+    "name_variants": [],
     "category": "weapon",
     "type": "axe",
     "is_cursed": false,
@@ -1779,6 +9642,7 @@
     "name": "Comet Mace",
     "game": "gs2",
     "name_literal": "Comet Mace",
+    "name_variants": [],
     "category": "weapon",
     "type": "mace",
     "is_cursed": false,
@@ -1841,6 +9705,7 @@
     "name": "Tungsten Mace",
     "game": "gs2",
     "name_literal": "Tungsten Mace",
+    "name_variants": [],
     "category": "weapon",
     "type": "mace",
     "is_cursed": false,
@@ -1903,6 +9768,7 @@
     "name": "Demon Mace",
     "game": "gs2",
     "name_literal": "Demon's Mace",
+    "name_variants": [],
     "category": "weapon",
     "type": "mace",
     "is_cursed": false,
@@ -1965,6 +9831,7 @@
     "name": "Hagbone Mace",
     "game": "gs2",
     "name_literal": "Hagbone Mace",
+    "name_variants": [],
     "category": "weapon",
     "type": "mace",
     "is_cursed": false,
@@ -2027,6 +9894,7 @@
     "name": "Blow Mace",
     "game": "gs2",
     "name_literal": "Blow Mace",
+    "name_variants": [],
     "category": "weapon",
     "type": "mace",
     "is_cursed": false,
@@ -2086,6 +9954,7 @@
     "name": "Rising Mace",
     "game": "gs2",
     "name_literal": "Rising Mace",
+    "name_variants": [],
     "category": "weapon",
     "type": "mace",
     "is_cursed": false,
@@ -2145,6 +10014,7 @@
     "name": "Thanatos Mace",
     "game": "gs2",
     "name_literal": "Thanatos Mace",
+    "name_variants": [],
     "category": "weapon",
     "type": "mace",
     "is_cursed": false,
@@ -2204,6 +10074,7 @@
     "name": "Cloud Wand",
     "game": "gs2",
     "name_literal": "Cloud Wand",
+    "name_variants": [],
     "category": "weapon",
     "type": "staff",
     "is_cursed": false,
@@ -2264,6 +10135,7 @@
     "name": "Salamander Rod",
     "game": "gs2",
     "name_literal": "Salamander Rod",
+    "name_variants": [],
     "category": "weapon",
     "type": "staff",
     "is_cursed": false,
@@ -2324,6 +10196,7 @@
     "name": "Nebula Wand",
     "game": "gs2",
     "name_literal": "Nebula Wand",
+    "name_variants": [],
     "category": "weapon",
     "type": "staff",
     "is_cursed": false,
@@ -2384,6 +10257,7 @@
     "name": "Dracomace",
     "game": "gs2",
     "name_literal": "Cane of the Dragon King's Palace",
+    "name_variants": [],
     "category": "weapon",
     "type": "staff",
     "is_cursed": false,
@@ -2444,6 +10318,7 @@
     "name": "Glower Staff",
     "game": "gs2",
     "name_literal": "Cane of the Sea's Rumble",
+    "name_variants": [],
     "category": "weapon",
     "type": "staff",
     "is_cursed": false,
@@ -2504,6 +10379,7 @@
     "name": "Goblin's Rod",
     "game": "gs2",
     "name_literal": "Cane of the Sea Priest",
+    "name_variants": [],
     "category": "weapon",
     "type": "staff",
     "is_cursed": false,
@@ -2564,6 +10440,7 @@
     "name": "Meditation Rod",
     "game": "gs2",
     "name_literal": "Cane of Enlightenment",
+    "name_variants": [],
     "category": "weapon",
     "type": "staff",
     "is_cursed": false,
@@ -2617,10 +10494,13 @@
     ]
   },
   {
-    "id": "fireman-s-rod",
-    "name": "Fireman's Rod",
+    "id": "fireman-s-pole",
+    "name": "Fireman's Pole",
     "game": "gs2",
     "name_literal": "Fire Extinguisher's Matoi",
+    "name_variants": [
+      "Fireman's Rod"
+    ],
     "category": "weapon",
     "type": "staff",
     "is_cursed": false,
@@ -2669,7 +10549,8 @@
     "sell_price": 6150,
     "can_trade": true,
     "sources": [
-      "mr-unorigino-item"
+      "mr-unorigino-item",
+      "90kirsdarke-hack"
     ]
   },
   {
@@ -2677,6 +10558,7 @@
     "name": "Atropos' Rod",
     "game": "gs2",
     "name_literal": "Atropos Rod",
+    "name_variants": [],
     "category": "weapon",
     "type": "staff",
     "is_cursed": false,
@@ -2734,6 +10616,7 @@
     "name": "Lachesis' Rule",
     "game": "gs2",
     "name_literal": "Lachesis Wand",
+    "name_variants": [],
     "category": "weapon",
     "type": "staff",
     "is_cursed": false,
@@ -2791,6 +10674,7 @@
     "name": "Clotho's Distaff",
     "game": "gs2",
     "name_literal": "Clotho Ankh",
+    "name_variants": [],
     "category": "weapon",
     "type": "staff",
     "is_cursed": false,
@@ -2847,6 +10731,7 @@
     "name": "Staff of Anubis",
     "game": "gs2",
     "name_literal": "Anubis Wand",
+    "name_variants": [],
     "category": "weapon",
     "type": "staff",
     "is_cursed": false,
@@ -2904,6 +10789,7 @@
     "name": "Trident",
     "game": "gs2",
     "name_literal": "3-Pronged Spear",
+    "name_variants": [],
     "category": "weapon",
     "type": "special",
     "is_cursed": false,
@@ -2950,6 +10836,7 @@
     "name": "Planet Armor",
     "game": "gs2",
     "name_literal": "Planet Armor",
+    "name_variants": [],
     "category": "armor",
     "type": "armor",
     "is_cursed": false,
@@ -3004,6 +10891,7 @@
     "name": "Dragon Mail",
     "game": "gs2",
     "name_literal": "Dragon Mail",
+    "name_variants": [],
     "category": "armor",
     "type": "armor",
     "is_cursed": false,
@@ -3055,6 +10943,7 @@
     "name": "Chronos Mail",
     "game": "gs2",
     "name_literal": "Cronos Mail",
+    "name_variants": [],
     "category": "armor",
     "type": "armor",
     "is_cursed": false,
@@ -3109,6 +10998,7 @@
     "name": "Stealth Armor",
     "game": "gs2",
     "name_literal": "Stealth Armor",
+    "name_variants": [],
     "category": "armor",
     "type": "armor",
     "is_cursed": true,
@@ -3163,6 +11053,7 @@
     "name": "Xylion Armor",
     "game": "gs2",
     "name_literal": "Zillion Armor",
+    "name_variants": [],
     "category": "armor",
     "type": "armor",
     "is_cursed": false,
@@ -3217,6 +11108,7 @@
     "name": "Ixion Mail",
     "game": "gs2",
     "name_literal": "Ixion Mail",
+    "name_variants": [],
     "category": "armor",
     "type": "armor",
     "is_cursed": false,
@@ -3268,6 +11160,7 @@
     "name": "Phantasmal Mail",
     "game": "gs2",
     "name_literal": "Armor of Mahoroba",
+    "name_variants": [],
     "category": "armor",
     "type": "armor",
     "is_cursed": false,
@@ -3324,6 +11217,7 @@
     "name": "Erebus Armor",
     "game": "gs2",
     "name_literal": "Erebos Armor",
+    "name_variants": [],
     "category": "armor",
     "type": "armor",
     "is_cursed": false,
@@ -3375,6 +11269,7 @@
     "name": "Valkyrie Mail",
     "game": "gs2",
     "name_literal": "Valkyrie Mail",
+    "name_variants": [],
     "category": "armor",
     "type": "armor",
     "is_cursed": false,
@@ -3428,6 +11323,7 @@
     "name": "Faery Vest",
     "game": "gs2",
     "name_literal": "Fairy Vest",
+    "name_variants": [],
     "category": "armor",
     "type": "clothing",
     "is_cursed": false,
@@ -3491,6 +11387,7 @@
     "name": "Mythril Clothes",
     "game": "gs2",
     "name_literal": "Mithril Clothing",
+    "name_variants": [],
     "category": "armor",
     "type": "clothing",
     "is_cursed": false,
@@ -3551,6 +11448,7 @@
     "name": "Full Metal Vest",
     "game": "gs2",
     "name_literal": "Full Metal Vest",
+    "name_variants": [],
     "category": "armor",
     "type": "clothing",
     "is_cursed": false,
@@ -3606,6 +11504,7 @@
     "name": "Wild Coat",
     "game": "gs2",
     "name_literal": "Wild Coat",
+    "name_variants": [],
     "category": "armor",
     "type": "clothing",
     "is_cursed": false,
@@ -3661,6 +11560,7 @@
     "name": "Floral Dress",
     "game": "gs2",
     "name_literal": "Floral Dress",
+    "name_variants": [],
     "category": "armor",
     "type": "clothing",
     "is_cursed": false,
@@ -3721,6 +11621,7 @@
     "name": "Festival Coat",
     "game": "gs2",
     "name_literal": "Happy Coat of the Festival",
+    "name_variants": [],
     "category": "armor",
     "type": "clothing",
     "is_cursed": false,
@@ -3776,6 +11677,7 @@
     "name": "Erinyes Tunic",
     "game": "gs2",
     "name_literal": "Aerines Coat",
+    "name_variants": [],
     "category": "armor",
     "type": "clothing",
     "is_cursed": false,
@@ -3833,6 +11735,7 @@
     "name": "Triton's Ward",
     "game": "gs2",
     "name_literal": "Triton Cloth",
+    "name_variants": [],
     "category": "armor",
     "type": "clothing",
     "is_cursed": false,
@@ -3888,6 +11791,7 @@
     "name": "Dragon Robe",
     "game": "gs2",
     "name_literal": "Dragon Robe",
+    "name_variants": [],
     "category": "armor",
     "type": "robe",
     "is_cursed": false,
@@ -3942,6 +11846,7 @@
     "name": "Ardagh Robe",
     "game": "gs2",
     "name_literal": "Arder Robe",
+    "name_variants": [],
     "category": "armor",
     "type": "robe",
     "is_cursed": false,
@@ -3996,6 +11901,7 @@
     "name": "Muni Robe",
     "game": "gs2",
     "name_literal": "Robe of Muni",
+    "name_variants": [],
     "category": "armor",
     "type": "robe",
     "is_cursed": false,
@@ -4043,10 +11949,13 @@
     ]
   },
   {
-    "id": "aeolian-cossack",
-    "name": "Aeolian Cossack",
+    "id": "aeolian-cassock",
+    "name": "Aeolian Cassock",
     "game": "gs2",
     "name_literal": "Eolia Cassock",
+    "name_variants": [
+      "Aeolian Cossack"
+    ],
     "category": "armor",
     "type": "robe",
     "is_cursed": false,
@@ -4090,7 +11999,8 @@
     "sell_price": 8550,
     "can_trade": true,
     "sources": [
-      "mr-unorigino-item"
+      "mr-unorigino-item",
+      "90kirsdarke-hack"
     ]
   },
   {
@@ -4098,6 +12008,7 @@
     "name": "Iris Robe",
     "game": "gs2",
     "name_literal": "Iris Robe",
+    "name_variants": [],
     "category": "armor",
     "type": "robe",
     "is_cursed": false,
@@ -4149,6 +12060,7 @@
     "name": "Luna Shield",
     "game": "gs2",
     "name_literal": "Luna Shield",
+    "name_variants": [],
     "category": "armor",
     "type": "shield",
     "is_cursed": false,
@@ -4199,10 +12111,11 @@
     ]
   },
   {
-    "id": "dragon-shield",
+    "id": "dragon-shield-2",
     "name": "Dragon Shield",
     "game": "gs2",
     "name_literal": "Dragon Shield",
+    "name_variants": [],
     "category": "armor",
     "type": "shield",
     "is_cursed": false,
@@ -4257,6 +12170,7 @@
     "name": "Flame Shield",
     "game": "gs2",
     "name_literal": "Flame Shield",
+    "name_variants": [],
     "category": "armor",
     "type": "shield",
     "is_cursed": false,
@@ -4311,6 +12225,7 @@
     "name": "Terra Shield",
     "game": "gs2",
     "name_literal": "Terra Shield",
+    "name_variants": [],
     "category": "armor",
     "type": "shield",
     "is_cursed": true,
@@ -4365,6 +12280,7 @@
     "name": "Cosmos Shield",
     "game": "gs2",
     "name_literal": "Cosmo Shield",
+    "name_variants": [],
     "category": "armor",
     "type": "shield",
     "is_cursed": false,
@@ -4419,6 +12335,7 @@
     "name": "Fujin Shield",
     "game": "gs2",
     "name_literal": "Shield of Fuujin",
+    "name_variants": [],
     "category": "armor",
     "type": "shield",
     "is_cursed": false,
@@ -4470,6 +12387,7 @@
     "name": "Aegis Shield",
     "game": "gs2",
     "name_literal": "Aegis Shield",
+    "name_variants": [],
     "category": "armor",
     "type": "shield",
     "is_cursed": false,
@@ -4523,6 +12441,7 @@
     "name": "Aerial Gloves",
     "game": "gs2",
     "name_literal": "Aerial Gloves",
+    "name_variants": [],
     "category": "armor",
     "type": "gloves",
     "is_cursed": false,
@@ -4581,6 +12500,7 @@
     "name": "Titan Gloves",
     "game": "gs2",
     "name_literal": "Titan Gloves",
+    "name_variants": [],
     "category": "armor",
     "type": "gloves",
     "is_cursed": false,
@@ -4639,6 +12559,7 @@
     "name": "Big Bang Gloves",
     "game": "gs2",
     "name_literal": "Big Bang Gloves",
+    "name_variants": [],
     "category": "armor",
     "type": "gloves",
     "is_cursed": false,
@@ -4697,6 +12618,7 @@
     "name": "Crafted Gloves",
     "game": "gs2",
     "name_literal": "Composite Gloves",
+    "name_variants": [],
     "category": "armor",
     "type": "gloves",
     "is_cursed": false,
@@ -4752,6 +12674,7 @@
     "name": "Riot Gloves",
     "game": "gs2",
     "name_literal": "Riot Gloves",
+    "name_variants": [],
     "category": "armor",
     "type": "gloves",
     "is_cursed": false,
@@ -4805,10 +12728,11 @@
     ]
   },
   {
-    "id": "spirit-gloves",
+    "id": "spirit-gloves-2",
     "name": "Spirit Gloves",
     "game": "gs2",
     "name_literal": "Spiritual Gloves",
+    "name_variants": [],
     "category": "armor",
     "type": "gloves",
     "is_cursed": false,
@@ -4864,6 +12788,7 @@
     "name": "Clear Bracelet",
     "game": "gs2",
     "name_literal": "Clear Bracelet",
+    "name_variants": [],
     "category": "armor",
     "type": "bracelet",
     "is_cursed": false,
@@ -4918,6 +12843,7 @@
     "name": "Mythril Armlet",
     "game": "gs2",
     "name_literal": "Mithril Armlet",
+    "name_variants": [],
     "category": "armor",
     "type": "bracelet",
     "is_cursed": false,
@@ -4974,6 +12900,7 @@
     "name": "Bone Armlet",
     "game": "gs2",
     "name_literal": "Bone Armlet",
+    "name_variants": [],
     "category": "armor",
     "type": "bracelet",
     "is_cursed": false,
@@ -5030,6 +12957,7 @@
     "name": "Jester's Armlet",
     "game": "gs2",
     "name_literal": "Armlet of Gusha",
+    "name_variants": [],
     "category": "armor",
     "type": "bracelet",
     "is_cursed": false,
@@ -5077,10 +13005,13 @@
     ]
   },
   {
-    "id": "leda-s-armlet",
-    "name": "Leda's Armlet",
+    "id": "leda-s-bracelet",
+    "name": "Leda's Bracelet",
     "game": "gs2",
     "name_literal": "Reda Armlet",
+    "name_variants": [
+      "Leda's Armlet"
+    ],
     "category": "armor",
     "type": "bracelet",
     "is_cursed": false,
@@ -5124,7 +13055,8 @@
     "sell_price": 4350,
     "can_trade": true,
     "sources": [
-      "mr-unorigino-item"
+      "mr-unorigino-item",
+      "90kirsdarke-hack"
     ]
   },
   {
@@ -5132,6 +13064,7 @@
     "name": "Dragon Helm",
     "game": "gs2",
     "name_literal": "Dragon Helm",
+    "name_variants": [],
     "category": "armor",
     "type": "helm",
     "is_cursed": false,
@@ -5186,6 +13119,7 @@
     "name": "Mythril Helm",
     "game": "gs2",
     "name_literal": "Mithril Helm",
+    "name_variants": [],
     "category": "armor",
     "type": "helm",
     "is_cursed": false,
@@ -5242,6 +13176,7 @@
     "name": "Fear Helm",
     "game": "gs2",
     "name_literal": "Fear Helm",
+    "name_variants": [],
     "category": "armor",
     "type": "helm",
     "is_cursed": true,
@@ -5296,6 +13231,7 @@
     "name": "Millenium Helm",
     "game": "gs2",
     "name_literal": "Millennium Helm",
+    "name_variants": [],
     "category": "armor",
     "type": "helm",
     "is_cursed": false,
@@ -5350,6 +13286,7 @@
     "name": "Viking Helm",
     "game": "gs2",
     "name_literal": "Viking Helm",
+    "name_variants": [],
     "category": "armor",
     "type": "helm",
     "is_cursed": false,
@@ -5401,6 +13338,7 @@
     "name": "Gloria Helm",
     "game": "gs2",
     "name_literal": "Gloria Helm",
+    "name_variants": [],
     "category": "armor",
     "type": "helm",
     "is_cursed": false,
@@ -5452,6 +13390,7 @@
     "name": "Minerva Helm",
     "game": "gs2",
     "name_literal": "Minerva Helm",
+    "name_variants": [],
     "category": "armor",
     "type": "helm",
     "is_cursed": false,
@@ -5503,6 +13442,7 @@
     "name": "Floating Hat",
     "game": "gs2",
     "name_literal": "Light Hat",
+    "name_variants": [],
     "category": "armor",
     "type": "hat",
     "is_cursed": false,
@@ -5557,6 +13497,7 @@
     "name": "Nurse's Cap",
     "game": "gs2",
     "name_literal": "Nurse Cap",
+    "name_variants": [],
     "category": "armor",
     "type": "hat",
     "is_cursed": false,
@@ -5608,6 +13549,7 @@
     "name": "Thorn Crown",
     "game": "gs2",
     "name_literal": "Thorn Crown",
+    "name_variants": [],
     "category": "armor",
     "type": "hat",
     "is_cursed": false,
@@ -5654,6 +13596,7 @@
     "name": "Otafuku Mask",
     "game": "gs2",
     "name_literal": "Face of the Homely Woman",
+    "name_variants": [],
     "category": "armor",
     "type": "hat",
     "is_cursed": false,
@@ -5705,6 +13648,7 @@
     "name": "Hiotoko Mask",
     "game": "gs2",
     "name_literal": "Face of Hyottoko",
+    "name_variants": [],
     "category": "armor",
     "type": "hat",
     "is_cursed": false,
@@ -5756,6 +13700,7 @@
     "name": "Crown of Glory",
     "game": "gs2",
     "name_literal": "Marvelous Crown",
+    "name_variants": [],
     "category": "armor",
     "type": "hat",
     "is_cursed": false,
@@ -5802,6 +13747,7 @@
     "name": "Alastor's Hood",
     "game": "gs2",
     "name_literal": "Arastal Hood",
+    "name_variants": [],
     "category": "armor",
     "type": "hat",
     "is_cursed": false,
@@ -5853,6 +13799,7 @@
     "name": "Pure Circlet",
     "game": "gs2",
     "name_literal": "Pure Circle",
+    "name_variants": [],
     "category": "armor",
     "type": "circlet",
     "is_cursed": false,
@@ -5903,18 +13850,19 @@
     ]
   },
   {
-    "id": "astral-circle",
-    "name": "Astral Circle",
+    "id": "astral-circlet",
+    "name": "Astral Circlet",
     "game": "gs2",
     "name_literal": "Astral Circle",
+    "name_variants": [
+      "Astral Circle"
+    ],
     "category": "armor",
     "type": "circlet",
     "is_cursed": false,
     "is_rusty": false,
     "is_artifact": null,
-    "forged_from": [
-      "Star Dust"
-    ],
+    "forged_from": [],
     "equippable_by": [
       "Jenna",
       "Sheba",
@@ -5953,22 +13901,23 @@
     "can_trade": true,
     "sources": [
       "mr-unorigino-item",
-      "aspartate-forge"
+      "90kirsdarke-hack"
     ]
   },
   {
-    "id": "psychic-circle",
-    "name": "Psychic Circle",
+    "id": "psychic-circlet",
+    "name": "Psychic Circlet",
     "game": "gs2",
     "name_literal": "Psychic Circle",
+    "name_variants": [
+      "Psychic Circle"
+    ],
     "category": "armor",
     "type": "circlet",
     "is_cursed": false,
     "is_rusty": false,
     "is_artifact": null,
-    "forged_from": [
-      "Mythril Silver"
-    ],
+    "forged_from": [],
     "equippable_by": [
       "Jenna",
       "Sheba",
@@ -6007,7 +13956,7 @@
     "can_trade": true,
     "sources": [
       "mr-unorigino-item",
-      "aspartate-forge"
+      "90kirsdarke-hack"
     ]
   },
   {
@@ -6015,6 +13964,7 @@
     "name": "Demon Circlet",
     "game": "gs2",
     "name_literal": "Demon Circle",
+    "name_variants": [],
     "category": "armor",
     "type": "circlet",
     "is_cursed": true,
@@ -6071,6 +14021,7 @@
     "name": "Clarity Circlet",
     "game": "gs2",
     "name_literal": "Clarity Circle",
+    "name_variants": [],
     "category": "armor",
     "type": "circlet",
     "is_cursed": false,
@@ -6122,6 +14073,7 @@
     "name": "Brilliant Circlet",
     "game": "gs2",
     "name_literal": "Brillian Circle",
+    "name_variants": [],
     "category": "armor",
     "type": "circlet",
     "is_cursed": false,
@@ -6173,6 +14125,7 @@
     "name": "Berserker Band",
     "game": "gs2",
     "name_literal": "Berserk Circle",
+    "name_variants": [],
     "category": "armor",
     "type": "circlet",
     "is_cursed": false,
@@ -6224,6 +14177,7 @@
     "name": "Divine Camisole",
     "game": "gs2",
     "name_literal": "Angel Cami",
+    "name_variants": [],
     "category": "armor",
     "type": "shirt",
     "is_cursed": false,
@@ -6279,6 +14233,7 @@
     "name": "Herbed Shirt",
     "game": "gs2",
     "name_literal": "Herb-knit Shirt",
+    "name_variants": [],
     "category": "armor",
     "type": "shirt",
     "is_cursed": false,
@@ -6339,6 +14294,7 @@
     "name": "Golden Shirt",
     "game": "gs2",
     "name_literal": "Shirt of Gold",
+    "name_variants": [],
     "category": "armor",
     "type": "shirt",
     "is_cursed": false,
@@ -6394,6 +14350,7 @@
     "name": "Casual Shirt",
     "game": "gs2",
     "name_literal": "Sasurii Band",
+    "name_variants": [],
     "category": "armor",
     "type": "shirt",
     "is_cursed": false,
@@ -6449,6 +14406,7 @@
     "name": "Leather Boots",
     "game": "gs2",
     "name_literal": "Leather Boots",
+    "name_variants": [],
     "category": "armor",
     "type": "boots",
     "is_cursed": false,
@@ -6504,6 +14462,7 @@
     "name": "Dragon Boots",
     "game": "gs2",
     "name_literal": "Dragon Boots",
+    "name_variants": [],
     "category": "armor",
     "type": "boots",
     "is_cursed": false,
@@ -6562,6 +14521,7 @@
     "name": "Safety Boots",
     "game": "gs2",
     "name_literal": "Safety Boots",
+    "name_variants": [],
     "category": "armor",
     "type": "boots",
     "is_cursed": false,
@@ -6622,6 +14582,7 @@
     "name": "Knight's Greave",
     "game": "gs2",
     "name_literal": "Knight Greave",
+    "name_variants": [],
     "category": "armor",
     "type": "boots",
     "is_cursed": false,
@@ -6677,6 +14638,7 @@
     "name": "Silver Greave",
     "game": "gs2",
     "name_literal": "Silver Greave",
+    "name_variants": [],
     "category": "armor",
     "type": "boots",
     "is_cursed": false,
@@ -6732,6 +14694,7 @@
     "name": "Ninja Sandals",
     "game": "gs2",
     "name_literal": "Straw Sandals of Shinobi",
+    "name_variants": [],
     "category": "armor",
     "type": "boots",
     "is_cursed": false,
@@ -6789,6 +14752,7 @@
     "name": "Golden Boots",
     "game": "gs2",
     "name_literal": "Boots of Gold",
+    "name_variants": [],
     "category": "armor",
     "type": "boots",
     "is_cursed": false,
@@ -6844,6 +14808,7 @@
     "name": "Spirit Ring",
     "game": "gs2",
     "name_literal": "Ring of Spirit",
+    "name_variants": [],
     "category": "armor",
     "type": "ring",
     "is_cursed": false,
@@ -6907,6 +14872,7 @@
     "name": "Stardust Ring",
     "game": "gs2",
     "name_literal": "Stardust Ring",
+    "name_variants": [],
     "category": "armor",
     "type": "ring",
     "is_cursed": false,
@@ -6970,6 +14936,7 @@
     "name": "Aroma Ring",
     "game": "gs2",
     "name_literal": "Aroma Ring",
+    "name_variants": [],
     "category": "armor",
     "type": "ring",
     "is_cursed": false,
@@ -7030,6 +14997,7 @@
     "name": "Rainbow Ring",
     "game": "gs2",
     "name_literal": "Rainbow Ring",
+    "name_variants": [],
     "category": "armor",
     "type": "ring",
     "is_cursed": false,
@@ -7090,6 +15058,7 @@
     "name": "Soul Ring",
     "game": "gs2",
     "name_literal": "Ring of Soul",
+    "name_variants": [],
     "category": "armor",
     "type": "ring",
     "is_cursed": false,
@@ -7150,6 +15119,7 @@
     "name": "Guardian Ring",
     "game": "gs2",
     "name_literal": "Guardian Ring",
+    "name_variants": [],
     "category": "armor",
     "type": "ring",
     "is_cursed": false,
@@ -7205,6 +15175,7 @@
     "name": "Golden Ring",
     "game": "gs2",
     "name_literal": "Ring of Gold",
+    "name_variants": [],
     "category": "armor",
     "type": "ring",
     "is_cursed": false,
@@ -7265,6 +15236,7 @@
     "name": "Rusty Sword",
     "game": "gs2",
     "name_literal": "Rusted Sword",
+    "name_variants": [],
     "category": "weapon",
     "type": "long_sword",
     "is_cursed": false,
@@ -7316,6 +15288,7 @@
     "name": "Rusty Sword",
     "game": "gs2",
     "name_literal": "Rusted Sword",
+    "name_variants": [],
     "category": "weapon",
     "type": "long_sword",
     "is_cursed": false,
@@ -7367,6 +15340,7 @@
     "name": "Rusty Sword",
     "game": "gs2",
     "name_literal": "Rusted Sword",
+    "name_variants": [],
     "category": "weapon",
     "type": "long_sword",
     "is_cursed": false,
@@ -7418,6 +15392,7 @@
     "name": "Rusty Sword",
     "game": "gs2",
     "name_literal": "Rusted Sword",
+    "name_variants": [],
     "category": "weapon",
     "type": "long_sword",
     "is_cursed": false,
@@ -7469,6 +15444,7 @@
     "name": "Rusty Axe",
     "game": "gs2",
     "name_literal": "Rusted Axe",
+    "name_variants": [],
     "category": "weapon",
     "type": "axe",
     "is_cursed": false,
@@ -7520,6 +15496,7 @@
     "name": "Rusty Axe",
     "game": "gs2",
     "name_literal": "Rusted Axe",
+    "name_variants": [],
     "category": "weapon",
     "type": "axe",
     "is_cursed": false,
@@ -7571,6 +15548,7 @@
     "name": "Rusty Mace",
     "game": "gs2",
     "name_literal": "Rusted Mace",
+    "name_variants": [],
     "category": "weapon",
     "type": "mace",
     "is_cursed": false,
@@ -7624,6 +15602,7 @@
     "name": "Rusty Mace",
     "game": "gs2",
     "name_literal": "Rusted Mace",
+    "name_variants": [],
     "category": "weapon",
     "type": "mace",
     "is_cursed": false,
@@ -7677,6 +15656,7 @@
     "name": "Rusty Staff",
     "game": "gs2",
     "name_literal": "Rusted Stick",
+    "name_variants": [],
     "category": "weapon",
     "type": "staff",
     "is_cursed": false,
@@ -7728,6 +15708,7 @@
     "name": "Rusty Staff",
     "game": "gs2",
     "name_literal": "Rusted Stick",
+    "name_variants": [],
     "category": "weapon",
     "type": "staff",
     "is_cursed": false,
@@ -7779,6 +15760,7 @@
     "name": "Rusty Staff",
     "game": "gs2",
     "name_literal": "Rusted Stick",
+    "name_variants": [],
     "category": "weapon",
     "type": "staff",
     "is_cursed": false,
@@ -7830,6 +15812,7 @@
     "name": "Mysterious Card",
     "game": "gs2",
     "name_literal": "Mystery Card",
+    "name_variants": [],
     "category": "item",
     "type": "class_item",
     "is_cursed": false,
@@ -7876,6 +15859,7 @@
     "name": "Trainer's Whip",
     "game": "gs2",
     "name_literal": "Whip of Hell",
+    "name_variants": [],
     "category": "item",
     "type": "class_item",
     "is_cursed": false,
@@ -7922,6 +15906,7 @@
     "name": "Tomegathericon",
     "game": "gs2",
     "name_literal": "Necronomicon",
+    "name_variants": [],
     "category": "item",
     "type": "class_item",
     "is_cursed": false,

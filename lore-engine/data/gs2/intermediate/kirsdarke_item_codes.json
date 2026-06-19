@@ -1,0 +1,2216 @@
+[
+  {
+    "bank": "00",
+    "section": "Weapons",
+    "code": "01",
+    "name": "Long Sword"
+  },
+  {
+    "bank": "00",
+    "section": "Weapons",
+    "code": "0F",
+    "name": "Machete"
+  },
+  {
+    "bank": "00",
+    "section": "Weapons",
+    "code": "1A",
+    "name": "Masamune"
+  },
+  {
+    "bank": "00",
+    "section": "Weapons",
+    "code": "02",
+    "name": "Broad Sword"
+  },
+  {
+    "bank": "00",
+    "section": "Weapons",
+    "code": "10",
+    "name": "Short Sword"
+  },
+  {
+    "bank": "00",
+    "section": "Weapons",
+    "code": "1B",
+    "name": "Bandit's Sword"
+  },
+  {
+    "bank": "00",
+    "section": "Weapons",
+    "code": "03",
+    "name": "Claymore"
+  },
+  {
+    "bank": "00",
+    "section": "Weapons",
+    "code": "11",
+    "name": "Hunter's Sword"
+  },
+  {
+    "bank": "00",
+    "section": "Weapons",
+    "code": "04",
+    "name": "Great Sword"
+  },
+  {
+    "bank": "00",
+    "section": "Weapons",
+    "code": "12",
+    "name": "Battle Rapier"
+  },
+  {
+    "bank": "00",
+    "section": "Weapons",
+    "code": "1F",
+    "name": "Battle Axe"
+  },
+  {
+    "bank": "00",
+    "section": "Weapons",
+    "code": "05",
+    "name": "Shamshir"
+  },
+  {
+    "bank": "00",
+    "section": "Weapons",
+    "code": "13",
+    "name": "Master Rapier"
+  },
+  {
+    "bank": "00",
+    "section": "Weapons",
+    "code": "20",
+    "name": "Broad Axe"
+  },
+  {
+    "bank": "00",
+    "section": "Weapons",
+    "code": "06",
+    "name": "Silver Blade"
+  },
+  {
+    "bank": "00",
+    "section": "Weapons",
+    "code": "14",
+    "name": "Ninja Blade"
+  },
+  {
+    "bank": "00",
+    "section": "Weapons",
+    "code": "21",
+    "name": "Great Axe"
+  },
+  {
+    "bank": "00",
+    "section": "Weapons",
+    "code": "07",
+    "name": "Fire Brand"
+  },
+  {
+    "bank": "00",
+    "section": "Weapons",
+    "code": "15",
+    "name": "Swift Sword"
+  },
+  {
+    "bank": "00",
+    "section": "Weapons",
+    "code": "22",
+    "name": "Dragon Axe"
+  },
+  {
+    "bank": "00",
+    "section": "Weapons",
+    "code": "08",
+    "name": "Arctic Blade"
+  },
+  {
+    "bank": "00",
+    "section": "Weapons",
+    "code": "16",
+    "name": "Elven Rapier"
+  },
+  {
+    "bank": "00",
+    "section": "Weapons",
+    "code": "23",
+    "name": "Giant Axe"
+  },
+  {
+    "bank": "00",
+    "section": "Weapons",
+    "code": "09",
+    "name": "Gaia Blade"
+  },
+  {
+    "bank": "00",
+    "section": "Weapons",
+    "code": "17",
+    "name": "Assassin Blade"
+  },
+  {
+    "bank": "00",
+    "section": "Weapons",
+    "code": "24",
+    "name": "Vulcan Axe"
+  },
+  {
+    "bank": "00",
+    "section": "Weapons",
+    "code": "0A",
+    "name": "Sol Blade"
+  },
+  {
+    "bank": "00",
+    "section": "Weapons",
+    "code": "18",
+    "name": "Mystery Blade"
+  },
+  {
+    "bank": "00",
+    "section": "Weapons",
+    "code": "25",
+    "name": "Burning Axe"
+  },
+  {
+    "bank": "00",
+    "section": "Weapons",
+    "code": "0B",
+    "name": "Muramasa"
+  },
+  {
+    "bank": "00",
+    "section": "Weapons",
+    "code": "19",
+    "name": "Kikuichimonji"
+  },
+  {
+    "bank": "00",
+    "section": "Weapons",
+    "code": "26",
+    "name": "Demon Axe"
+  },
+  {
+    "bank": "00",
+    "section": "Weapons",
+    "code": "2B",
+    "name": "Mace"
+  },
+  {
+    "bank": "00",
+    "section": "Weapons",
+    "code": "37",
+    "name": "Wooden Stick"
+  },
+  {
+    "bank": "00",
+    "section": "Weapons",
+    "code": "3F",
+    "name": "Crystal Rod"
+  },
+  {
+    "bank": "00",
+    "section": "Weapons",
+    "code": "2C",
+    "name": "Heavy Mace"
+  },
+  {
+    "bank": "00",
+    "section": "Weapons",
+    "code": "38",
+    "name": "Magic Rod"
+  },
+  {
+    "bank": "00",
+    "section": "Weapons",
+    "code": "40",
+    "name": "Zodiac Wand"
+  },
+  {
+    "bank": "00",
+    "section": "Weapons",
+    "code": "2D",
+    "name": "Battle Mace"
+  },
+  {
+    "bank": "00",
+    "section": "Weapons",
+    "code": "39",
+    "name": "Witch's Wand"
+  },
+  {
+    "bank": "00",
+    "section": "Weapons",
+    "code": "41",
+    "name": "Shaman's Wand"
+  },
+  {
+    "bank": "00",
+    "section": "Weapons",
+    "code": "2E",
+    "name": "War Mace"
+  },
+  {
+    "bank": "00",
+    "section": "Weapons",
+    "code": "3A",
+    "name": "Blessed Ankh"
+  },
+  {
+    "bank": "00",
+    "section": "Weapons",
+    "code": "2F",
+    "name": "Righteous Mace"
+  },
+  {
+    "bank": "00",
+    "section": "Weapons",
+    "code": "3B",
+    "name": "Psyenergy Rod"
+  },
+  {
+    "bank": "00",
+    "section": "Weapons",
+    "code": "30",
+    "name": "Grevious Mace"
+  },
+  {
+    "bank": "00",
+    "section": "Weapons",
+    "code": "3C",
+    "name": "Frost Wand"
+  },
+  {
+    "bank": "00",
+    "section": "Weapons",
+    "code": "31",
+    "name": "Blessed Mace"
+  },
+  {
+    "bank": "00",
+    "section": "Weapons",
+    "code": "3D",
+    "name": "Angelic Ankh"
+  },
+  {
+    "bank": "00",
+    "section": "Weapons",
+    "code": "32",
+    "name": "Wicked Mace"
+  },
+  {
+    "bank": "00",
+    "section": "Weapons",
+    "code": "3E",
+    "name": "Demonic Staff"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "4B",
+    "name": "Leather Armor"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "59",
+    "name": "Cotton Shirt"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "4C",
+    "name": "Psyenergy Armor"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "5A",
+    "name": "Travel Vest"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "68",
+    "name": "Travel Robe"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "4D",
+    "name": "Chain Mail"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "5B",
+    "name": "Fur Coat"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "69",
+    "name": "Silk Robe"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "4E",
+    "name": "Armored Shell"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "5C",
+    "name": "Adept's Clothes"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "6A",
+    "name": "China Dress"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "4F",
+    "name": "Plate Mail"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "5D",
+    "name": "Elven Shirt"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "6B",
+    "name": "Jerkin"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "50",
+    "name": "Steel Armor"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "5E",
+    "name": "Silver Vest"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "6C",
+    "name": "Cocktail Dress"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "51",
+    "name": "Spirit Armor"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "5F",
+    "name": "Water Jacket"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "6D",
+    "name": "Blessed Robe"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "52",
+    "name": "Dragon Scales"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "60",
+    "name": "Storm Gear"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "6E",
+    "name": "Magical Cassok"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "53",
+    "name": "Demon Mail"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "61",
+    "name": "Kimono"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "6F",
+    "name": "Mysterious Robe"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "54",
+    "name": "Asura's Armor"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "62",
+    "name": "Ninja Garb"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "70",
+    "name": "Feathered Robe"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "55",
+    "name": "Spiked Armor"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "71",
+    "name": "Oracle's Robe"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "76",
+    "name": "Wooden Shield"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "7F",
+    "name": "Padded Gloves"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "88",
+    "name": "Leather Armlet"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "77",
+    "name": "Bronze Shield"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "80",
+    "name": "Leather Gloves"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "89",
+    "name": "Armlet"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "78",
+    "name": "Iron Shield"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "81",
+    "name": "Gauntlets"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "8A",
+    "name": "Heavy Armlet"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "79",
+    "name": "Knight's Shield"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "82",
+    "name": "Vambrace"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "8B",
+    "name": "Silver Armlet"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "7A",
+    "name": "Mirrored Shield"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "83",
+    "name": "War Gloves"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "8C",
+    "name": "Spirit Armlet"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "7B",
+    "name": "Dragon Shield"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "84",
+    "name": "Spirit Gloves"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "8D",
+    "name": "Virtuous Armlet"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "7C",
+    "name": "Earth Shield"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "85",
+    "name": "Battle Gloves"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "8E",
+    "name": "Guardian Armlet"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "86",
+    "name": "Aura Gloves"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "91",
+    "name": "Open Helm"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "9C",
+    "name": "Leather Cap"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "A6",
+    "name": "Circlet"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "92",
+    "name": "Bronze Helm"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "9D",
+    "name": "Wooden Cap"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "A7",
+    "name": "Silver Circlet"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "93",
+    "name": "Iron Helm"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "9E",
+    "name": "Mail Cap"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "A8",
+    "name": "Guardian Circlet"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "94",
+    "name": "Steel Helm"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "9F",
+    "name": "Jeweled Crown"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "A9",
+    "name": "Platinum Circlet"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "95",
+    "name": "Silver Helm"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "A0",
+    "name": "Ninja Hood"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "AA",
+    "name": "Mythril Circlet"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "96",
+    "name": "Knight's Helm"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "A1",
+    "name": "Lucky Cap"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "AB",
+    "name": "Glittering Tiara"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "97",
+    "name": "Warrior's Helm"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "A2",
+    "name": "Thunder Crown"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "98",
+    "name": "Adept's Helm"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "A3",
+    "name": "Prophet's Hat"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "FA",
+    "name": "Mythril Shirt"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "A4",
+    "name": "Lure Cap"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "FB",
+    "name": "Silk Shirt"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "FC",
+    "name": "Running Shirt"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "B4",
+    "name": "Herb"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "C6",
+    "name": "Lash Pebble"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "B9",
+    "name": "Empty Bottle"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "B5",
+    "name": "Nut"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "C7",
+    "name": "Pound Cube"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "DD",
+    "name": "Venus Star"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "B6",
+    "name": "Vial"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "C8",
+    "name": "Orb of Force"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "DE",
+    "name": "Mercury Star"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "B7",
+    "name": "Potion"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "C9",
+    "name": "Douse Drop"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "DF",
+    "name": "Mythril Bag(Mars)"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "B8",
+    "name": "Hermes' Water"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "CA",
+    "name": "Frost Jewel"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "E0",
+    "name": "Mythril Bag(Jupiter)"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "BA",
+    "name": "Psy Crystal"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "CB",
+    "name": "Lifting Gem"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "E1",
+    "name": "Mythril Bag"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "BB",
+    "name": "Antidote"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "CC",
+    "name": "Halt Gem"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "E2",
+    "name": "Small Jewel"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "BC",
+    "name": "Elixir"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "CD",
+    "name": "Cloak Ball"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "E7",
+    "name": "Dragon's Eye"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "BD",
+    "name": "Water of Life"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "CE",
+    "name": "Carry Stone"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "E8",
+    "name": "Bone"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "BE",
+    "name": "Mist Potion"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "CF",
+    "name": "Catch Beads"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "E9",
+    "name": "Anchor Charm"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "BF",
+    "name": "Power Bread"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "D0",
+    "name": "Tremor Bit"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "EA",
+    "name": "Corn"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "C0",
+    "name": "Cookie"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "D1",
+    "name": "Scoop Gem"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "EB",
+    "name": "Cell Key"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "C1",
+    "name": "Apple"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "D2",
+    "name": "Cyclone Chip"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "EC",
+    "name": "Boat Ticket"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "C2",
+    "name": "Hard Nut"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "D5",
+    "name": "Burst Brooch"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "EE",
+    "name": "Mystic Draught"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "C3",
+    "name": "Mint"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "D6",
+    "name": "Grindstone"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "F3",
+    "name": "Red Key"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "C4",
+    "name": "Lucky Pepper"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "D8",
+    "name": "Hover Jade"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "F4",
+    "name": "Blue Key"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "E3",
+    "name": "Smoke Bomb"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "DA",
+    "name": "Teleport Lapis"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "F5",
+    "name": "Mythril Bag(Mr + Jr)"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "E4",
+    "name": "Sleep Bomb"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "F6",
+    "name": "Jupiter Star"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "E5",
+    "name": "Game Ticket"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "F7",
+    "name": "Mars Star"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "86",
+    "name": "Lucky Medal"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "ED",
+    "name": "Sacred Feather"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "EF",
+    "name": "Oil Drop"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "F0",
+    "name": "Weasel's Claw"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "F1",
+    "name": "Bramble Seed"
+  },
+  {
+    "bank": "00",
+    "section": "Armor",
+    "code": "F2",
+    "name": "Crystal Powder"
+  },
+  {
+    "bank": "01",
+    "section": "Weapons",
+    "code": "01",
+    "name": "Quick Boots"
+  },
+  {
+    "bank": "01",
+    "section": "Weapons",
+    "code": "0E",
+    "name": "Huge Sword"
+  },
+  {
+    "bank": "01",
+    "section": "Weapons",
+    "code": "1A",
+    "name": "Rune Blade"
+  },
+  {
+    "bank": "01",
+    "section": "Weapons",
+    "code": "02",
+    "name": "Fur Boots"
+  },
+  {
+    "bank": "01",
+    "section": "Weapons",
+    "code": "0F",
+    "name": "Mythril Blade"
+  },
+  {
+    "bank": "01",
+    "section": "Weapons",
+    "code": "1B",
+    "name": "Cloud Brand"
+  },
+  {
+    "bank": "01",
+    "section": "Weapons",
+    "code": "03",
+    "name": "Turtle Boots"
+  },
+  {
+    "bank": "01",
+    "section": "Weapons",
+    "code": "12",
+    "name": "Levatine"
+  },
+  {
+    "bank": "01",
+    "section": "Weapons",
+    "code": "1D",
+    "name": "Sylph Rapier"
+  },
+  {
+    "bank": "01",
+    "section": "Weapons",
+    "code": "04",
+    "name": "Adept Ring"
+  },
+  {
+    "bank": "01",
+    "section": "Weapons",
+    "code": "13",
+    "name": "Darksword"
+  },
+  {
+    "bank": "01",
+    "section": "Weapons",
+    "code": "1E",
+    "name": "Burning Sword"
+  },
+  {
+    "bank": "01",
+    "section": "Weapons",
+    "code": "05",
+    "name": "War Ring"
+  },
+  {
+    "bank": "01",
+    "section": "Weapons",
+    "code": "14",
+    "name": "Excalibur"
+  },
+  {
+    "bank": "01",
+    "section": "Weapons",
+    "code": "1F",
+    "name": "Pirate's Sabre"
+  },
+  {
+    "bank": "01",
+    "section": "Weapons",
+    "code": "06",
+    "name": "Sleep Ring"
+  },
+  {
+    "bank": "01",
+    "section": "Weapons",
+    "code": "15",
+    "name": "Robbers Blade"
+  },
+  {
+    "bank": "01",
+    "section": "Weapons",
+    "code": "20",
+    "name": "Cosair's Edge"
+  },
+  {
+    "bank": "01",
+    "section": "Weapons",
+    "code": "07",
+    "name": "Healing Ring"
+  },
+  {
+    "bank": "01",
+    "section": "Weapons",
+    "code": "16",
+    "name": "Soul Brand"
+  },
+  {
+    "bank": "01",
+    "section": "Weapons",
+    "code": "21",
+    "name": "Pirate's Sabre"
+  },
+  {
+    "bank": "01",
+    "section": "Weapons",
+    "code": "08",
+    "name": "Unicorn Ring"
+  },
+  {
+    "bank": "01",
+    "section": "Weapons",
+    "code": "17",
+    "name": "Storm Brand"
+  },
+  {
+    "bank": "01",
+    "section": "Weapons",
+    "code": "22",
+    "name": "Hypnos' Sword"
+  },
+  {
+    "bank": "01",
+    "section": "Weapons",
+    "code": "09",
+    "name": "Fairy Ring"
+  },
+  {
+    "bank": "01",
+    "section": "Weapons",
+    "code": "18",
+    "name": "Hestia Blade"
+  },
+  {
+    "bank": "01",
+    "section": "Weapons",
+    "code": "23",
+    "name": "Mist Sabre"
+  },
+  {
+    "bank": "01",
+    "section": "Weapons",
+    "code": "0A",
+    "name": "Cleric's Ring"
+  },
+  {
+    "bank": "01",
+    "section": "Weapons",
+    "code": "19",
+    "name": "Lightning Sword"
+  },
+  {
+    "bank": "01",
+    "section": "Weapons",
+    "code": "24",
+    "name": "Phaeton's Blade"
+  },
+  {
+    "bank": "01",
+    "section": "Weapons",
+    "code": "25",
+    "name": "Tisiphone Edge"
+  },
+  {
+    "bank": "01",
+    "section": "Weapons",
+    "code": "27",
+    "name": "Apollo's Axe"
+  },
+  {
+    "bank": "01",
+    "section": "Weapons",
+    "code": "31",
+    "name": "Comet Mace"
+  },
+  {
+    "bank": "01",
+    "section": "Weapons",
+    "code": "39",
+    "name": "Cloud Wand"
+  },
+  {
+    "bank": "01",
+    "section": "Weapons",
+    "code": "28",
+    "name": "Gaia's Axe"
+  },
+  {
+    "bank": "01",
+    "section": "Weapons",
+    "code": "32",
+    "name": "Tungsten Mace"
+  },
+  {
+    "bank": "01",
+    "section": "Weapons",
+    "code": "3A",
+    "name": "Salamander Rod"
+  },
+  {
+    "bank": "01",
+    "section": "Weapons",
+    "code": "29",
+    "name": "Stellar Axe"
+  },
+  {
+    "bank": "01",
+    "section": "Weapons",
+    "code": "33",
+    "name": "Demon Mace"
+  },
+  {
+    "bank": "01",
+    "section": "Weapons",
+    "code": "3B",
+    "name": "Nebula Wand"
+  },
+  {
+    "bank": "01",
+    "section": "Weapons",
+    "code": "2A",
+    "name": "Captain's Axe"
+  },
+  {
+    "bank": "01",
+    "section": "Weapons",
+    "code": "34",
+    "name": "Hagbone Mace"
+  },
+  {
+    "bank": "01",
+    "section": "Weapons",
+    "code": "3C",
+    "name": "Dracomace"
+  },
+  {
+    "bank": "01",
+    "section": "Weapons",
+    "code": "2B",
+    "name": "Viking Axe"
+  },
+  {
+    "bank": "01",
+    "section": "Weapons",
+    "code": "35",
+    "name": "Blow Mace"
+  },
+  {
+    "bank": "01",
+    "section": "Weapons",
+    "code": "3D",
+    "name": "Glower Staff"
+  },
+  {
+    "bank": "01",
+    "section": "Weapons",
+    "code": "2C",
+    "name": "Disk Axe"
+  },
+  {
+    "bank": "01",
+    "section": "Weapons",
+    "code": "36",
+    "name": "Rising Mace"
+  },
+  {
+    "bank": "01",
+    "section": "Weapons",
+    "code": "3E",
+    "name": "Goblin's Rod"
+  },
+  {
+    "bank": "01",
+    "section": "Weapons",
+    "code": "2D",
+    "name": "Themis' Axe"
+  },
+  {
+    "bank": "01",
+    "section": "Weapons",
+    "code": "37",
+    "name": "Thanatos Mace"
+  },
+  {
+    "bank": "01",
+    "section": "Weapons",
+    "code": "3F",
+    "name": "Meditation Rod"
+  },
+  {
+    "bank": "01",
+    "section": "Weapons",
+    "code": "2E",
+    "name": "Mighty Axe"
+  },
+  {
+    "bank": "01",
+    "section": "Weapons",
+    "code": "40",
+    "name": "Fireman's Pole"
+  },
+  {
+    "bank": "01",
+    "section": "Weapons",
+    "code": "2F",
+    "name": "Tartarus Axe"
+  },
+  {
+    "bank": "01",
+    "section": "Weapons",
+    "code": "41",
+    "name": "Atropos' Rod"
+  },
+  {
+    "bank": "01",
+    "section": "Weapons",
+    "code": "42",
+    "name": "Lachesis' Rule"
+  },
+  {
+    "bank": "01",
+    "section": "Weapons",
+    "code": "46",
+    "name": "Trident"
+  },
+  {
+    "bank": "01",
+    "section": "Weapons",
+    "code": "43",
+    "name": "Clotho's Distaff"
+  },
+  {
+    "bank": "01",
+    "section": "Weapons",
+    "code": "44",
+    "name": "Staff of Anubis"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "48",
+    "name": "Planet Armor"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "52",
+    "name": "Faery Vest"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "5B",
+    "name": "Dragon Robe"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "49",
+    "name": "Dragon Mail"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "53",
+    "name": "Mythril Clothes"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "5C",
+    "name": "Ardagh Robe"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "4A",
+    "name": "Chronos Mail"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "54",
+    "name": "Full Metal Vest"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "5D",
+    "name": "Muni Robe"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "4B",
+    "name": "Stealth Armor"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "55",
+    "name": "Wild Coat"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "5E",
+    "name": "Aeolian Cassock"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "4C",
+    "name": "Xylion Armor"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "56",
+    "name": "Floral Dress"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "5F",
+    "name": "Iris Robe"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "4D",
+    "name": "Ixion Mail"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "57",
+    "name": "Festive Coat"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "4E",
+    "name": "Phantasmal Mail"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "58",
+    "name": "Erinyes Tunic"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "4F",
+    "name": "Erebus Armor"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "59",
+    "name": "Triton's Ward"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "50",
+    "name": "Valkyrie Mail"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "61",
+    "name": "Luna Shield"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "69",
+    "name": "Aerial Gloves"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "70",
+    "name": "Clear Bracelet"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "62",
+    "name": "Dragon Shield"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "6A",
+    "name": "Titan Gloves"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "71",
+    "name": "Mythril Armlet"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "63",
+    "name": "Flame Shield"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "6B",
+    "name": "Big Bang Gloves"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "72",
+    "name": "Bone Armlet"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "64",
+    "name": "Terra Shield"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "6C",
+    "name": "Crafted Gloves"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "73",
+    "name": "Jester's Armlet"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "65",
+    "name": "Cosmos Shield"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "6D",
+    "name": "Riot Gloves"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "74",
+    "name": "Leda's Braclet"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "66",
+    "name": "Fujin Shield"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "6E",
+    "name": "Spirit Gloves"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "67",
+    "name": "Aegis Shield"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "76",
+    "name": "Dragon Helm"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "7E",
+    "name": "Floating Hat"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "86",
+    "name": "Pure Circlet"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "77",
+    "name": "Mythril Helm"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "7F",
+    "name": "Nurse's Cap"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "87",
+    "name": "Astral Circlet"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "78",
+    "name": "Fear Helm"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "80",
+    "name": "Thorn Crown"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "88",
+    "name": "Psychic Circlet"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "79",
+    "name": "Millenium Helm"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "81",
+    "name": "Otafuku Mask"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "89",
+    "name": "Demon Circlet"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "7A",
+    "name": "Viking Helm"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "82",
+    "name": "Hiotoko Mask"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "8A",
+    "name": "Clarity Circlet"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "7B",
+    "name": "Gloria Helm"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "83",
+    "name": "Crown of Glory"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "8B",
+    "name": "Brilliant Circlet"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "7C",
+    "name": "Minerva Helm"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "84",
+    "name": "Alastor's Hood"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "8C",
+    "name": "Beserker Band"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "8E",
+    "name": "Divine Camisole"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "92",
+    "name": "Leather Boots"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "99",
+    "name": "Spirit Ring"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "8F",
+    "name": "Herbed Shirt"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "93",
+    "name": "Dragon Boots"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "9A",
+    "name": "Stardust Ring"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "90",
+    "name": "Golden Shirt"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "94",
+    "name": "Saftey Boots"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "9B",
+    "name": "Aroma Ring"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "91",
+    "name": "Casual Shirt"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "95",
+    "name": "Knight's Greave"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "9C",
+    "name": "Rainbow Ring"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "96",
+    "name": "Silver Greave"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "9D",
+    "name": "Soul Ring"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "97",
+    "name": "Ninja Sandals"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "9E",
+    "name": "Guardian Ring"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "98",
+    "name": "Golden Boots"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "9F",
+    "name": "Golden Ring"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "A1",
+    "name": "Rusty Sword"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "AD",
+    "name": "Tear Stone"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "B7",
+    "name": "Right Prong"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "A2",
+    "name": "Rusty Sword"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "AE",
+    "name": "Star Dust"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "B8",
+    "name": "Left Prong"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "A3",
+    "name": "Rusty Sword"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "AF",
+    "name": "Sylph Feather"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "B9",
+    "name": "Center Prong"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "A4",
+    "name": "Rusty Sword"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "B0",
+    "name": "Dragon Skin"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "A5",
+    "name": "Rusty Axe"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "B1",
+    "name": "Salamander Tail"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "A6",
+    "name": "Rusty Axe"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "B2",
+    "name": "Golem Core"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "A7",
+    "name": "Rusty Mace"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "B3",
+    "name": "Mythril Silver"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "A8",
+    "name": "Rusty Mace"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "B4",
+    "name": "Dark Matter"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "A9",
+    "name": "Rusty Staff"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "B5",
+    "name": "Orihalcon"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "AA",
+    "name": "Rusty Staff"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "AB",
+    "name": "Rusty Staff"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "BB",
+    "name": "Mysterious Card"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "C0",
+    "name": "Healing Fungus"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "C6",
+    "name": "Milk"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "BC",
+    "name": "Trainers Whip"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "C1",
+    "name": "Laughing Fungus"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "C7",
+    "name": "Li'l Turtle"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "BD",
+    "name": "Tomegathericon"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "C2",
+    "name": "Signal Whistle"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "C8",
+    "name": "Aquarius Stone"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "C3",
+    "name": "Dancing Idol"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "C9",
+    "name": "Large Bread"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "C4",
+    "name": "Pretty Stone"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "CA",
+    "name": "Sea God's Tear"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "C5",
+    "name": "Red Cloth"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "CB",
+    "name": "Ruin Key"
+  },
+  {
+    "bank": "01",
+    "section": "Armor",
+    "code": "CC",
+    "name": "Magma Ball"
+  }
+]

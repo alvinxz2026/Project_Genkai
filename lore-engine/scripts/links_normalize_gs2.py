@@ -108,11 +108,24 @@ def main():
     for p in psynergy:
         ps_by_name.setdefault(norm(p["name"]), []).append(p)
     # gear: name -> (ref_type, id). equipment and items names are disjoint.
+    # Also index name_variants so renamed items (90Kirsdarke canonical names) and
+    # singular/plural variants still resolve from a ref that uses the old/alt name.
     gear = {}
     for e in equipment:
         gear[norm(e["name"])] = ("equipment", e["id"])
     for i in items:
         gear[norm(i["name"])] = ("item", i["id"])
+    # lower-priority aliases (setdefault: canonical names always win): name_variants
+    # (90Kirsdarke renames, GS annotations) + the English-literal column (handles
+    # singular/plural like drop "Oil Drop" -> item "Oil Drops").
+    for e in equipment:
+        for v in e.get("name_variants", []) + [e.get("name_literal")]:
+            if v:
+                gear.setdefault(norm(v), ("equipment", e["id"]))
+    for i in items:
+        for v in i.get("name_variants", []) + [i.get("name_literal")]:
+            if v:
+                gear.setdefault(norm(v), ("item", i["id"]))
     # bosses: resolve by id, name, or any encounter form_id
     boss_lookup = {}
     for b in bosses:

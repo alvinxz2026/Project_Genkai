@@ -10,12 +10,23 @@ cross-lists **GS1 and TLA** items in debug-room order. Each entry is:
     Buy: N coins      (optional)
     Sell: N coins      (optional)
 
-Only the **TLA sections (2A-2U)** are parsed — the GS1-numbered sections are
-gs1 data (extracted separately; "two independent truth sources, no import").
-This means TLA-exclusive equipment + gs2-only items (forging materials, trident
-pieces, TLA "other" items) are captured here; consumables shared with GS1
-(Herb / Potion / Psy Crystal / stat-boost foods) live only in the GS1-numbered
-sections and are DEFERRED to a later pass against a TLA-complete appendix source.
+BOTH segments are parsed (SSoT completeness pass, 2026-06-19; user opted for full
+extraction so the gs2 item data is a complete single-source-of-truth):
+  * base/shared sections `-A.`..`-R3.` (debug_no 1-247) — base weapons/armor,
+    consumables (Herb/Potion/Psy Crystal/stat-boost foods), Psynergy items
+    (Lash Pebble teaches Lash, ...), key items (Red/Blue Key, Venus/Mars Stars,
+    Black Crystal=Black Orb, ...). mr-unorigino cross-lists GS1's numbering first,
+    so these are tagged game="gs1" (origin) — but they ARE present/obtainable in
+    TLA (90Kirsdarke confirms them in the base/shared item bank).
+  * TLA-native sections `-2A.`..`-2U.` — TLA-exclusive equipment + gs2-only items
+    (forging materials, trident pieces, TLA "other"), tagged game="gs2".
+(Earlier passes parsed only the TLA segment under a "two independent truth sources"
+reading and deferred the base set; that deferral was scope, not principle — the base
+segment of a TLA guide is legitimate gs2 extraction. gs1's own JSON is still never
+imported.)
+
+A few mr-unorigino US-name-column quirks are corrected to 90Kirsdarke's real-game
+names inline (NAME_FIXES; cross-check Q2b) with the old name kept in name_variants.
 
 Output is split by entity, mirroring the gs1 equipment/items schema split:
   - data/gs2/equipment.json  (weapons, armor, artifacts, rusty weapons, class items)
@@ -74,7 +85,40 @@ SECTION = {
     "2S": ("items", "key", None),
     "2T": ("equipment", "item", "class_item"),
     "2U": ("items", "other", None),           # sub-classified by name below
+    # --- base/shared segment (single-letter codes, debug_no 1-247, game="gs1") ---
+    "A": ("equipment", "weapon", "long_sword"),
+    "B": ("equipment", "weapon", "light_blade"),
+    "C": ("equipment", "weapon", "axe"),
+    "D": ("equipment", "weapon", "mace"),
+    "E": ("equipment", "weapon", "staff"),
+    "F": ("equipment", "armor", "armor"),
+    "G": ("equipment", "armor", "clothing"),
+    "H": ("equipment", "armor", "robe"),
+    "I": ("equipment", "armor", "shield"),
+    "J": ("equipment", "armor", "gloves"),
+    "K": ("equipment", "armor", "bracelet"),
+    "L": ("equipment", "armor", "helm"),
+    "M": ("equipment", "armor", "hat"),
+    "N": ("equipment", "armor", "circlet"),
+    "O": ("items", "consumable", None),
+    "P": ("items", "psynergy_item", None),
+    "Q": ("items", "key", None),              # Other Items: stars, key/quest items
+    "R1": ("equipment", "armor", "shirt"),
+    "R2": ("equipment", "armor", "boots"),
+    "R3": ("equipment", "armor", "ring"),
 }
+
+# mr-unorigino US-name-column quirks -> 90Kirsdarke real-game name (Q2b; user
+# decision 2026-06-19). Old name preserved in name_variants; 90kirsdarke credited.
+NAME_FIXES = {
+    "Astral Circle": "Astral Circlet",
+    "Psychic Circle": "Psychic Circlet",
+    "Aeolian Cossack": "Aeolian Cassock",
+    "Leda's Armlet": "Leda's Bracelet",
+    "Fireman's Rod": "Fireman's Pole",
+    "Appolo's Axe": "Apollo's Axe",
+}
+KIRS_SRC = "90kirsdarke-hack"
 
 ELEM = {"Venus": "earth", "Mercury": "water", "Mars": "fire", "Jupiter": "wind"}
 
@@ -89,13 +133,15 @@ STAT_PATTERNS = [
     (re.compile(r"^PP recovery \+(\d+)$"), "pp_regen"),
 ]
 ELEM_RE = re.compile(r"^(Venus|Mercury|Mars|Jupiter) (Power|Resist) ([+-]\d+)$")
-SECTION_RE = re.compile(r"^-?(2[A-U]\d?)\.\s+(.+)$")
+# Real section headers carry a leading '-' ("-A. Long Blades", "-2O. TLA Circlets");
+# the table-of-contents lists them WITHOUT the dash, so the dash is mandatory here.
+SECTION_RE = re.compile(r"^-(2?[A-U]\d?)\.\s+(.+)$")
 ENTRY_RE = re.compile(r"^(\d+)\s*/\s*(.+?)\s*/\s*(.+?)\s*/\s*(.+?)$")
 BUY_RE = re.compile(r"^Buy:\s*(\d+)\s*coins?$", re.I)
 SELL_RE = re.compile(r"^Sell:\s*(\d+)\s*coins?$", re.I)
 # Greedy to the LAST quote so apostrophes inside the name survive
 # (e.g. "Acheron's Grief" must not truncate at "Acheron").
-UNLEASH_US_RE = re.compile(r"^US\s*-\s*Unleashe?s? '(.+)'\s*$", re.I)
+UNLEASH_US_RE = re.compile(r"^US\s*-\s*Unleashe?s? '(.+)'(?:\s*\(.*)?$", re.I)
 # JP source line: Unleashes '<katakana>' (<english literal>) -> capture the literal.
 UNLEASH_LIT_RE = re.compile(r"^Unleashe?s? '.+' \((.+)\)\s*$")
 CRIT_RE = re.compile(r"^Rate of Criticals rise\.?$", re.I)
@@ -116,12 +162,26 @@ def slug(s):
     return re.sub(r"-+", "-", re.sub(r"[^a-z0-9]+", "-", s.lower())).strip("-")
 
 
+def section_code(s):
+    """Return the SECTION code if `s` is a known section header, else None."""
+    m = SECTION_RE.match(s)
+    return m.group(1) if (m and m.group(1) in SECTION) else None
+
+
 def new_record(debug_no, jp, en_literal, us_name):
     # `jp` (4th-column katakana) is mojibake under this file's encoding -> dropped.
     # `en_literal` is clean ASCII (a useful alternate name) -> kept.
+    # A few base-segment US names carry a trailing parenthetical GS annotation
+    # ("Black Crystal (Black Orb in GS)", "Jupiter Star (listed as 222 in GS)").
+    # No real item name uses '(', so strip from the first " (" and keep the full
+    # original in name_variants (lossless; keeps e.g. "Black Orb" searchable).
+    us = us_name.strip()
+    m = re.match(r"^(.*?)\s*\(.*$", us)
+    clean = m.group(1).strip() if m else us
     return {
         "debug_no": int(debug_no),
-        "name": us_name.strip(),
+        "name": clean,
+        "name_annotation": us if clean != us else None,
         "name_literal": en_literal.strip(),
         "stat_bonus": {k: 0 for k in ("atk", "def", "hp", "pp", "agi", "lck", "hp_regen", "pp_regen")},
         "elemental_power": {e: 0 for e in ("earth", "fire", "wind", "water")},
@@ -135,6 +195,12 @@ def new_record(debug_no, jp, en_literal, us_name):
 
 def parse_attribute(rec, s):
     """Apply one attribute line to a record. Unrecognized -> effects[] (lossless)."""
+    # base segment's dual "GS-value / US - US-value" lines -> keep the US (gs2) value.
+    if " / US - " in s:
+        s = s.split(" / US - ", 1)[1]
+    # GS1 unleash-annotation spillover line (Sol Blade/Masamune/Fire Brand) -> noise.
+    if "dummy weapon" in s:
+        return
     for pat, key in STAT_PATTERNS:
         m = pat.match(s)
         if m:
@@ -181,25 +247,27 @@ def parse_attribute(rec, s):
 
 def parse(lines):
     """Walk the TLA sections; return per-section normalized records."""
-    start = next(i for i, l in enumerate(lines) if l.strip().startswith("-2A."))
+    # span both segments: from the first real section header ("-A. Long Blades")
+    # through to "4. Planned Updates" (covers base -A..-R3 then TLA -2A..-2U).
+    start = next(i for i, l in enumerate(lines) if section_code(l.strip()))
     end = next(i for i, l in enumerate(lines[start:], start)
                if l.strip().startswith("4. Planned Updates"))
-    records = []          # list of (section_code, record)
+    records = []          # list of (section code, record)
     cur = None
-    section_code = None
+    code = None
     for raw in lines[start:end]:
         s = raw.strip()
         if not s or set(s) <= {"-", "="}:
             continue
-        sm = SECTION_RE.match(s)
-        if sm and sm.group(1) in SECTION:
-            section_code = sm.group(1)
+        sc = section_code(s)
+        if sc:
+            code = sc
             cur = None
             continue
         em = ENTRY_RE.match(s)
-        if em and section_code:
+        if em and code:
             cur = new_record(*em.groups())
-            records.append((section_code, cur))
+            records.append((code, cur))
             continue
         if cur is not None:
             parse_attribute(cur, s)
@@ -246,7 +314,19 @@ def enrich(records):
     seen = {}
     for code, r in records:
         entity, a, b = SECTION[code]
-        eid = slug(r["name"])
+        # base/shared segment uses single-letter codes (no "2" prefix) -> game gs1
+        game = "gs2" if code.startswith("2") else "gs1"
+        # canonical-name correction (90Kirsdarke real-game name over US-column quirk)
+        orig_name = r["name"]
+        canon = NAME_FIXES.get(orig_name)
+        name = canon or orig_name
+        name_variants = []
+        if r.get("name_annotation"):
+            name_variants.append(r["name_annotation"])
+        if canon:
+            name_variants.append(orig_name)
+        sources = [SOURCE_ID] + ([KIRS_SRC] if canon else [])
+        eid = slug(name)
         if eid in seen:
             seen[eid] += 1
             eid = f"{eid}-{seen[eid]}"
@@ -255,10 +335,11 @@ def enrich(records):
         if entity == "equipment":
             category, etype = a, b
             if code == "2Q":
-                etype = rusty_type(r["name"])
+                etype = rusty_type(name)
             equipment.append({
-                "id": eid, "name": r["name"], "game": "gs2",
+                "id": eid, "name": name, "game": game,
                 "name_literal": r["name_literal"],
+                "name_variants": name_variants,
                 "category": category, "type": etype,
                 "is_cursed": r["is_cursed"],
                 "is_rusty": code == "2Q",
@@ -274,20 +355,21 @@ def enrich(records):
                 "effects": r["effects"],
                 "debug_no": r["debug_no"],
                 "buy_price": r["buy_price"], "sell_price": r["sell_price"],
-                "can_trade": r["can_trade"], "sources": [SOURCE_ID],
+                "can_trade": r["can_trade"], "sources": sources,
             })
         else:
-            item_type = a if a != "other" else other_item_type(r["name"])
+            item_type = a if a != "other" else other_item_type(name)
             desc = "; ".join(r["effects"]) if r["effects"] else None
             items.append({
-                "id": eid, "name": r["name"], "game": "gs2",
+                "id": eid, "name": name, "game": game,
                 "name_literal": r["name_literal"],
+                "name_variants": name_variants,
                 "item_type": item_type,
                 "effect": {"description": desc, "target": None, "stat_boosted": None},
                 "usable_in_battle": None,      # source doesn't state; deferred
                 "debug_no": r["debug_no"],
                 "buy_price": r["buy_price"], "sell_price": r["sell_price"],
-                "can_trade": r["can_trade"], "sources": [SOURCE_ID],
+                "can_trade": r["can_trade"], "sources": sources,
             })
     return equipment, items
 

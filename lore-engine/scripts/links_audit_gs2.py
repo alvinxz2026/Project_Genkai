@@ -75,6 +75,13 @@ def main():
             err("id-uniqueness", f, f"duplicate ids: {dup}")
 
     name_by_id = {f: {r["id"]: r["name"] for r in data[f]} for f in files}
+    # accepted names per id = canonical name + name_variants + name_literal. A gear
+    # ref that matches a known alias (e.g. drop "Oil Drop" -> item "Oil Drops", or a
+    # 90Kirsdarke-renamed item's old name) is a legitimate alias, not a corruption.
+    alt_names = {f: {r["id"]: {norm(r["name"])}
+                     | {norm(v) for v in r.get("name_variants", [])}
+                     | ({norm(r["name_literal"])} if r.get("name_literal") else set())
+                     for r in data[f]} for f in files}
     char_names = {r["name"] for r in data["characters"]}
     # normalized name presence in each target table (to judge expected vs error)
     has_name = {f: {norm(r["name"]) for r in data[f]} for f in files}
@@ -112,7 +119,7 @@ def main():
         if ref_id not in name_by_id[table]:
             err(category, ctx, f"dangling {table} id {ref_id!r}")
             return
-        if norm(name_by_id[table][ref_id]) != norm(ref_name):
+        if norm(ref_name) not in alt_names[table].get(ref_id, set()):
             err(category, ctx, f"name/id mismatch: {ref_name!r} -> {ref_id!r} "
                                f"({name_by_id[table][ref_id]!r})")
 

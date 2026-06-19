@@ -1,159 +1,148 @@
 # GS2 — 项目计划 & 进度追踪（meta，living doc）
 
-> **这是一份会持续迭代的元文档**，不是一次性计划。一开始故意只写到 high-level；
-> 做着做着有了新想法、或执行方法变了，就回来改这里。它的作用是给 gs2 一个
-> idea → design → plan → execution 的主线 + 一个能随时看「做到哪了」的地方。
-> 细节（schema、脚本怎么复用、怎么提取）**留到真正动手那一步再展开**。
->
-> 配套：收尾 + 启动的来龙去脉见 `docs/gs1_wrapup_gs2_kickoff_plan.md`。
+> 持续迭代的元文档，不是一次性计划。给 gs2 一条 idea→design→plan→execution 主线
+> + 一处看「做到哪了」。细节留到真正动手那步展开。**详细的逐刀踩坑记录已 compact——
+> 完整历史在 git log + 各 `scripts/*_gs2.py` 的 docstring + memory `gs2-extraction.md`。**
+> 配套启动来龙去脉见 `docs/gs1_wrapup_gs2_kickoff_plan.md`。
 
 ---
 
 ## 0. 一句话定位
 
-把 lore-engine 这套**「schema 先行 → 提取 → 冲突标记 → FK 连图 → audit」**管线，
-第二次跑在一份真实语料上（Golden Sun 2），验证它**可泛化**——同时产出一份 gs2 的
-结构化知识库，目标是「**我可以一边打 gs2 一边用**」。
-
-GS2 和 GS1 共用同一套管线、同一个仓库，按 `gs2` 命名空间分目录：
-`raw/gs2/`、`data/gs2/`、`schema/gs2_schema.md`、`docs/gs2/`、`tools/gs2_*.html`。
-
----
-
-## 1. 起点 / 继承自 GS1
-
-- **管线现成**：`scripts/extract.py` 直接 `--game gs2` 可用；其余脚本是否复用见 §4 待定。
-- **数据可播种**：gs2 在机制上继承 gs1（4 名 gs1 Adept 后期回归、Djinn 体系延续、
-  部分 item/equipment 复现），所以 djinn / classes / 部分 equipment 可拿 gs1 当种子草稿再 diff。
-  原则：**gs1 与 gs2 是两份独立真相源，不互相 import**。（细节 §4 待定。）
-- **约定现成**：snake_case / `0` vs `null` / 每条带 `sources` / 冲突标记不静默合并
-  （见 `schema/gs1_schema.md` General Rules，gs2 沿用）。
+把 lore-engine 的**「schema 先行 → 提取 → 冲突标记 → FK 连图 → audit」**管线第二次跑在
+真实语料（Golden Sun 2）上，验证它**可泛化**，同时产出一份「**能一边打 gs2 一边用**」的
+结构化知识库。与 gs1 共用管线/仓库，按 `gs2` 命名空间分目录（`raw/gs2/`、`data/gs2/`、
+`schema/gs2_schema.md`、`docs/gs2/`、`tools/gs2_*.html`）。**gs1 与 gs2 是两份独立真相源，
+不互相 import**（机制可继承、数据各自独立提取再 diff）。
 
 ---
 
-## 2. 阶段主线（high-level，状态随做随更）
+## 1. 阶段主线（high-level，随做随更）
 
 | 阶段 | 内容 | 状态 |
 |---|---|---|
-| **0. Kickoff** | 建 gs2 命名空间脚手架 + 这份 meta plan | ✅ 完成 2026-06-17 |
-| **1. Idea / 范围** | 想清楚 gs2 要覆盖哪些实体、做成什么应用（可参考 gs1 的 11 实体起步） | ⬜ 待 review |
-| **2. Raw 收集 + 标注** | 收齐 GameFAQs 源到 `raw/gs2/`，每篇加 frontmatter（见 §3）；建源清单/索引 | 🔄 近完成：10 篇 walkthrough + 32 篇 In-Depth + 目录页均已收+标注，索引 `gs2_sources.md` 已建（含 tracker）；目录页专项源已悉数到位，仅余 Maps 暂不收 |
-| **3. Design — schema** | 先有 ER 草图钉 id/FK，再以 `gs1_schema.md` 为模板写 `gs2_schema.md`（含 Master Source IDs 表） | 🔄 ER 草图 `gs2_er_sketch.md` ✅ + `gs2_schema.md` monsters ✅ / equipment ✅ / items ✅ / bosses ✅ / djinn ✅ / summons ✅ / characters ✅ / classes ✅(Layer1) 段；其余实体段未写 |
-| **3.5 Extraction plan** | 按实体讨论怎么提取、每个实体/源用 Gemini 还是 Claude Code（见 §4 已定 + 待定） | 🔄 已起草 draft：`docs/gs2/gs2_extraction_plan.md`（实体×源覆盖矩阵 + 初步分工），待 refine |
-| **4. 提取 + 连图** | 逐实体提（**规整 data-table 走确定性解析器**，见竖切结论；agent/extract.py 为退路）；播种继承数据；跑 normalize→audit（纯 Python，免费） | 🔄 monsters ✅（203）；equipment ✅（143）+ items ✅（24）走 `items_extract_gs2.py`；bosses ✅（18）走 `bosses_extract_gs2.py`（两层：确定性骨架 + curated strategy sidecar）；djinn ✅（72）走 `djinn_extract_gs2.py`（单源 demooni）；summons ✅（29=16 标准+13 组合）走 `summons_extract_gs2.py`（cooldude VII+V 双段 merge）；characters ✅（8）走 `characters_extract_gs2.py`（两层：darkslime 结构块 + curated join/from_gs1）；classes 🔄 Layer1+2 ✅（110）走 `classes_extract_gs2.py`(terence 脊柱:stat_multiplier+element_requirements+group+class_line)+`classes_ultimalink_gs2.py`(ultimalink:available_to 8 角色+djinn 数、psynergy 习得表 106/110；Tamer psynergy 缓)；Layer3 matcher/aku-chi ACR 待续；psynergy ✅（157）走 `psynergy_extract_gs2.py`（yoyoyoshi m11 主表，clean canonical）；**gs2 links_normalize/audit ✅**（`links_normalize_gs2.py`+`links_audit_gs2.py`，fork 自 gs1，回填 classes.psynergy id 1424/1588、monsters djinn_id 27/27、boss_id 23/23、drops ref **100/153**、equippable_by 132/143、shops.stock 83/204；audit 0 错+回归门禁）；**shops ✅**（15 城镇 204 stock，`shops_extract_gs2.py`，顺手收 10 共享消耗品进 items）；**forging ✅**（并入 equipment.forged_from 56/57，`forging_extract_gs2.py`，cross-check 出 3 处 typo）；其余未开始（locations）；73 共享基础装备缓 |
-| **4.5 Walkthrough 整合 + locations** | spine → 2a 整合(按地区分块) → locations 提取 → 2b 翻译；详细计划 + work queue 见 `walkthrough_consolidation_plan.md` | 🔄 keystone ✅（index+spine+gate：494/494 章映射到 64 节点、0 孤儿/0 空节点）；2a/locations/2b 待跑（交 Gemini Pro，按 spine 顺序）|
-| **5. 应用层** | 复用/扩展 codex 等（gs2 版或合并版） | ⬜ 远期 |
+| 0. Kickoff | gs2 命名空间脚手架 + 这份 meta plan | ✅ |
+| 1. Idea / 范围 | gs2 覆盖哪些实体、做成什么应用 | ⬜ 待 app brainstorm（§6） |
+| 2. Raw 收集 + 标注 | 10 walkthrough + 32 In-Depth + 目录页全收+标注，索引 `gs2_sources.md` | ✅（仅 Maps 不收） |
+| 3. Design — schema | ER 草图 `gs2_er_sketch.md` ✅；`gs2_schema.md` 11 实体段已写，**locations § 待写** | 🔄 |
+| 3.5 Extraction plan | `gs2_extraction_plan.md`（实体×源覆盖矩阵 + 分工） | ✅ draft |
+| 4. 提取 + 连图 | 见 §2 实体清单 | 🔄 近完成 |
+| 4.5 Walkthrough 整合 + locations | spine→2a→locations→2b；详见 `walkthrough_consolidation_plan.md` | 🔄 2a / locations / FK ✅，**2b 翻译 ⬜** |
+| 5. Cross-check（任务3） | 两条独立 provenance 流核验；详见 `crosscheck_findings.md` | ✅ 三轮全完成（net 0 merge） |
+| 6. 应用层 | 复用/扩展 codex（gs2 版或合并版） | ⬜ 先做轻量 brainstorm 定方向 |
 
-> 勾选用 ⬜/🔄/✅。每推进一块就回来改这张表 + §5 日志。
-
----
-
-## 3. Raw 收集 + 标注规范（你的主战场）
-
-目标：收集阶段就把「作者 / 这份强在哪 / 能喂给哪个实体」标清楚，让 gs2 比 gs1 更 organized。
-这些标注最终会誊进 `gs2_schema.md` 的 Master Source IDs 表，作为提取的源映射（agent 或 extract.py 都按它定位源文件，见 §4）。
-
-**工作分工**：frontmatter **你收集时先手动加最小集**（id/author/url/type），
-其余（`covers` 打标、`summary`）**我后面可代你补全**——我可以读完每篇后回填 `covers` 和一句话 `summary`。
-
-**存放**：每个源存成 `raw/gs2/<描述性文件名>.md`（统一 `.md` 以便带 frontmatter；
-extract.py 同时认 `.txt`/`.md`）。文件名建议 `<内容> - <作者>.md`，沿用 gs1 习惯。
-
-**正文处理铁律（2026-06-17 定）**：raw 正文**不整理、不重排、不物理拆分**——raw 是
-不可变源，结构在提取阶段才按 schema 赋予。超长 walkthrough 靠**标准化 TOC 做定向读取**
-（每篇用 `## TABLE OF CONTENTS` … `END OF TABLE OF CONTENTS` 包裹），提取时按 TOC 章节
-锚点只把相关段落喂给对应实体，省 token 又保持 raw 不可变。
-
-**covers 词表（gs2 版）**：沿用 gs1 的 11 实体 + `walkthrough`，新增 3 个 gs2 机制 tag：
-`transfer`（GS1→GS2 linkage/password/transfer events）、`forging`（Sunshine 铁匠/锈蚀武器/
-稀有材料锻造）、`mechanics`（战斗系统/djinn 用法/属性/RNG 等 basics）。石板/组合召唤归
-`summons`(数值) + `locations`/`walkthrough`(获取)。词表非封闭，写 schema 时可再加。
-> **2026-06-17 标注 In-Depth 时新增 4 个 tag**：`story`（剧本/对白 dump，非实体提取）、
-> `music`、`glitch`（杂项 FAQ，非提取）、`ids`（hex/内存码源，价值在 canonical id + 完整性校验）。
-> 这些主要用于把「非实体提取源」与真正的数据源区分开。
-
-**frontmatter 模板**（已纳入你的反馈：catch-all type、quality 默认、summary 可后补）：
-
-```markdown
----
-source_id: telago            # 短 id；用 -/_ 分词便于文件名 token 匹配；最终进 schema 的 Master Source IDs
-author: Telago
-url: https://gamefaqs.gamespot.com/...
-type: general                # walkthrough | faq | data-table | mechanics | general
-                             #   general = catch-all：一篇里啥都有的综合源（可不拆）
-covers: []                   # 这份对哪些实体有用，如 [djinn, classes]；收集时可留空，我后面帮你 tag
-quality: unknown             # unknown(默认) | high | medium | partial —— 拿不准就留 unknown
-summary:                     # 留空即可；我读完可代填一句话
-gs1_counterpart:             # 若同作者也写过 gs1，标一下 gs1 文件名，便于对照继承
-notes:                       # 可选，一句话：强在哪 / 坑在哪
----
-
-<原文照抄，不改正文>
-```
-
-**总索引**：[`docs/gs2/gs2_sources.md`](gs2_sources.md) 已建——把已收的 10 篇 walkthrough +
-目录页链在一起（source_id / 作者 / 版本年份 / quality / covers / 链接 / summary），
-并附"候选 / 未收集"区列出目录页里的专项 In-Depth Guides（Terence、torrentlord 等），便于按需补齐。
-新收一个源就登记进去。
+> 勾选 ⬜/🔄/✅；每推进一块回来改这表 + §7 日志。
 
 ---
 
-## 4. 待定决策（动手前再拍板，先不展开）
+## 2. 实体提取状态
 
-> **已定（2026-06-17）**：
-> - raw 是否预处理 → **不预处理**（正文不整理/不拆分，见 §3 铁律）；covers 词表见 §3。
-> - **提取走 subscription / agent，不依赖 `extract.py`(API)**：走 API 按 token 计费，比已付的
->   subscription plan 更贵。所以 raw→JSON 提取由 agent 跑（Claude Code 和/或 Gemini CLI，
->   按源大小分工），沿用 gs1 巨型 walkthrough 的"子代理批量提取"先例（见
->   `docs/gs1/gs1_walkthrough_extraction_plan.md`）。`extract.py` **降级为可选 fallback**
->   （某个小实体懒得开 agent 时用，API 成本几分钱）。
->   - 推论：`gs2_schema.md` 仍是核心 spec（无论谁执行都按它产出，字段/0-vs-null/`sources[]`/
->     冲突标记不变）；下游 `links_normalize→audit→build_codex` 是纯 Python、零 LLM 成本不受影响；
->     extract.py 不扫子文件夹这点也不再绑文件夹结构。
->   - **待定**：每个实体/源具体用 Gemini 还是 Claude Code → 下一轮 frontmatter 补全后，
->     专门做一份 **extraction plan** 讨论（见 §2 阶段 3.5）。
+全部走 `scripts/*_gs2.py` **确定性解析器**（免费/精确/可重跑），从 In-Depth data-table 源提取
+（干净 data-table → 确定性解析器，非 LLM 蒸馏；详 `gs2_extraction_plan.md §0`）。agent/extract.py
+为退路。
 
+| 实体 | 数量 | 主源 / 脚本 | 备注 |
+|---|---|---|---|
+| monsters | 203 | torrentlord / `monsters_extract_gs2.py` | 含 23 boss + 27 djinn-enemy stat-line |
+| equipment | **285** | mr-unorigino / `items_extract_gs2.py` | 143 TLA(gs2) + **142 base/shared(gs1)**；+`forged_from`（`forging_extract_gs2.py`） |
+| items | **86** | mr-unorigino + shotgunnova / `items_extract_gs2.py` | 23 consumable + **17 psynergy_item** + 33 key + 13 material |
+| bosses | 18 | monsters + link-kirby / `bosses_extract_gs2.py` | 两层：确定性骨架 + curated strategy sidecar |
+| djinn | 72 | demooni / `djinn_extract_gs2.py` | 4×18 = TLA-native + GS1-transferred；`location.area` 已回填 |
+| summons | 29 | cooldude / `summons_extract_gs2.py` | 16 标准 + 13 组合（`djinn_recipe`） |
+| characters | 8 | darkslime / `characters_extract_gs2.py` | 两层：结构块 + curated join/from_gs1 |
+| classes | 110 | terence + ultimalink / `classes_extract_gs2.py`(+`_ultimalink_gs2`) | L1 脊柱 + L2 psynergy/available_to；**L3 matcher/ACR 待续** |
+| psynergy | 157 | yoyoyoshi / `psynergy_extract_gs2.py` | clean canonical（**非穷尽**） |
+| shops | 15 | shotgunnova / `shops_extract_gs2.py` | 204 stock |
+| locations | 62 | 2a walkthrough prose（Gemini）| → `locations.json`（gs2 模型相对 gs1 倒置） |
 
-1. **半通用脚本怎么复用**：`links_normalize` / `links_audit` / `locations_refs` / `build_codex`
-   现在 gs1 写死。走 (A) 参数化共用 还是 (B) fork 一份？倾向 A 但「等 gs2 实体定了再抽」。
-   → **已定（2026-06-18）= B（fork `_gs2` 副本）**：gs2 的边集与 gs1 实质性发散（gs2 无
-   shops/locations 边；psynergy 用 element-level；`djinn_id`/`boss_id` gs2 是新建回填 gs1 是预存；
-   psynergy 协调逻辑不同——canonical 非穷尽，需 expected-gap 分级而非 gs1「任何 unresolved 即 fail」），
-   参数化单脚本会变一堆 per-game 分支。照 gs2 既有范式（每个提取器都是 `*_gs2.py`）fork 了
-   `links_normalize_gs2.py`+`links_audit_gs2.py`。`locations_refs`/`build_codex` 等出现第 3 份语料再考虑抽公共层。
-2. **继承数据怎么播种**：哪些实体从 gs1 拷草稿（djinn/classes/equipment？），怎么标「继承 vs 待改」。
-   → discovery 草记见 [`gs2_extraction_plan.md §3`](gs2_extraction_plan.md)（mr-unorigino-item 直接 GS1+TLA 并列等）。
-3. **schema 差异**：gs2 新增（队伍 Felix/Jenna/Sheba/Piers、transfer 机制、新 summon/地点/boss），
-   哪些实体直接沿用 gs1 段、哪些要改。→ 实体范围草记见 [`gs2_extraction_plan.md §3`](gs2_extraction_plan.md)
-   （characters 8 角色、forging/transfer/组合召唤 是否独立实体）。
-4. **应用层**：gs2 单独出 codex，还是做成跨 game 的统一 app。
-5. **master-data / canonical id 层（新）**：用 hex 源（`90kirsdarke-hack` / `kaitia-savehack`）给
-   每条数据挂 code/id + 做完整性校验？用户提议，待单独一轮（见 `gs2_extraction_plan.md §4`）。
-6. **cross-check（任务3，远期）**：拆出来的 walkthrough 章节 + 2a 整合稿 与现有 `data/gs2/*.json`
-   做交叉校验（道具位置/掉落/djinn 获取/boss 数值等），flag 不静默改。**安排在 2a + locations
-   完成之后**，因为整合稿会成为 cross-check 的干净比对面。见 `walkthrough_consolidation_plan.md §6`。
+**连图（纯 Python，免费）**：`links_normalize_gs2.py` + `links_audit_gs2.py`（fork 自 gs1，§3）
+回填 classes.psynergy id / monsters djinn_id·boss_id / drops / equippable_by / shops.stock；audit 分
+**FATAL vs expected-gap** 作回归门禁（exit 0=干净）。base/shared 全集进 data 后**drops 153/153、
+shops.stock 204/204、equippable_by 265/285 全 resolve**；normalize/audit 现额外按 `name_variants` +
+`name_literal` 解析别名（renamed 旧名、单复数变体如 Oil Drop→Oil Drops）。`locations_refs_gs2.py` 把
+locations.json 的 name-ref 物化成双向连图 `location_refs.json`（正向 region→ids + 反向 entity→regions，
+**不污染实体文件**）；`djinn_area_backfill_gs2.py` 用其反向 index 回填 djinn `location.area`（44/44）。
 
 ---
 
-## 5. 进度日志
+## 3. 关键决策
+
+**已定：**
+- **正文不预处理**：raw 不可变，不整理/不拆分；超长 walkthrough 用标准化 TOC 定向读取。
+  covers 词表 + frontmatter 模板见 `gs2_sources.md` / `walkthrough_chapters.md`。
+- **提取走 subscription/agent，不依赖 `extract.py`(API，更贵)**，extract.py 降级 fallback；
+  schema 仍是核心 spec；重活（如 62 walkthrough 文件）交 **Gemini**，不在 Claude 上跑（省 usage）。
+- **半通用脚本 = fork `_gs2` 副本**（非参数化）：gs2 边集与 gs1 实质发散（无 shops/locations 边、
+  psynergy element-level、canonical 非穷尽需 expected-gap 分级）。出现第 3 份语料再抽公共层。
+
+**仍开放：**
+- **应用层** = gs2 单独 codex 还是跨 game 统一 app（§6 brainstorm）。
+- **canonical-id / hex 层 = 否决**（90Kirsdarke hex 与 mr-unorigino `debug_no` 编号体系不通用，
+  见 §5 backlog Q2b）；`kaitia-savehack`（存档地址=改档结构非实体）低优先 / 可不做。
+
+---
+
+## 4. Cross-check（任务3，三轮全 ✅）→ 详见 [`crosscheck_findings.md`](crosscheck_findings.md)
+
+两条独立 provenance 流（In-Depth data-table vs 2a walkthrough prose）是否一致。**结论：广泛
+corroborate，三轮 net 0 data merge**；所有 findings 按 schema「flag 不静默改」记入
+`crosscheck_findings.md`（= 后续 SSoT 修改依据，缺口/冲突清单见 §5）。
+
+- **round 1（FK，`locations_refs_gs2.py`）**：name-ref→实体 id；修 2 处 connection typo；flag 命名变体 + 真实缺口。
+- **Q2b（完整性，`kirsdarke_completeness_gs2.py`）**：90Kirsdarke 码表按名 diff，枚举出 deferred 的
+  base/shared 全集；查出 mr-unorigino 命名瑕疵（跨源冲突）。
+- **round 2（placement，`crosscheck_placement_gs2.py`）**：bosses 0 total-disagree；6 djinn 真分歧（town vs dungeon 粒度）。
+- **round 3（语义 prose，Gemini B1–B8）**：boss HP/weakness/djinn 数值核对，全为 prose typo 或单源孤证，0 改动（torrentlord/link-kirby 权威）。
+
+重跑门禁：`python scripts/{locations_refs,kirsdarke_completeness,crosscheck_placement}_gs2.py`。
+
+---
+
+## 5. Open backlog（SSoT 缺口 + 待办，一处可看）
+
+> 把数据做成 SSoT 要清的清单。按可执行性分层。缺口/冲突的来源细节在 `crosscheck_findings.md`。
+> **2026-06-19 SSoT pass：A/B/C 主体已清**（详见 §7 log）。
+
+**A. 确定性收尾 ✅（2026-06-19）**
+- ~~djinn placement 回填~~ ✅ `djinn_area_backfill_gs2.py`：44/44 djinn `location.area` 用 walkthrough dungeon（消解 6 处 round2 分歧）。
+- ~~locations.json monster 名归一~~ ✅（Angler→Angle Worm / Momongo→Momonga / Wonder Birds→Wonder Bird；locations monsters 现 81/81 resolve）。
+- ~~`walkthrough_split.py` dead code~~ — **MOOT**：当前文件已无该 dead code（audit 针对旧 commit fce52e9，已演进）。
+
+**B. base/shared 完整性 ✅（2026-06-19，full extract）**
+- ~~base/shared 全集~~ ✅：`items_extract_gs2.py` 扩展解析 mr-unorigino base 段（`-A.`..`-R3.`，debug_no 1-247，game="gs1"）→ equipment 143→**285**、items 24→**86**（含 **17 Psynergy 道具** Lash Pebble→Lash 等 + key item Red/Blue Key/Stars/Black Orb + base 武防/Ring/Boots/消耗品）。90Kirsdarke 完整性 diff：matched 160→**346/359**，theirs-not-ours 199→**13**。
+- **残留**：Mikasalla/Naribwe shop（`shop:true` 但 shotgunnova 没收；或从 2a prose 补 stock）；90Kirsdarke 13 个 theirs-not-ours（边角，待查）。
+
+**C. 跨源命名冲突 ✅采纳（2026-06-19）**
+- ~~equipment 命名~~ ✅：6 处采纳 90Kirsdarke 真名（Astral/Psychic Circle→**Circlet**、Cossack→**Cassock**、Armlet→**Bracelet**、Rod→**Pole**、Appolo's→**Apollo's**），旧名进 `name_variants`、`sources` 加 90kirsdarke-hack；**已折进 `items_extract_gs2.py` 的 NAME_FIXES**（regen 不丢）。normalize/audit 现按 name_variants/literal 解析别名。
+- **残留**：boss 复合名 `Agatio & Karst`/`Moapa & Knights` 仍 split（UI 需要再加 compound→pair alias）。
+
+**D. 需 LLM / judgment（看 app 方向再排）**
+- **classes Layer3**：terence「Prm Aff Wek Neu」相对计数 matcher（gs2 版 `build_terence_class_reqs`）+ aku-chi ACR（`available_to[].acr`）。**build planner app 才用得上**。
+- **classes Tamer psynergy**（4 sub-class 并排双栏，难解）。
+- **2b 翻译**：`walkthrough/*.md` → `walkthrough_zh/`（Gemini Flash bulk）。**中文 companion app 才需**。
+- **djinn `battle_effect`**、**summons.acquisition.location** 干净地名（可借 `location_refs` 反查补）。
+- **psynergy `Juggle` + ~36 职业专属 psynergy**（Saber Dance/Searing Beam/Magma Storm/Hurricane/Thorn… + 重名 `Blast`）不在 157 canonical = 现唯一剩余 expected-gap 类（yoyoyoshi 非穷尽；补需带 stats 的 psynergy 源）。
+
+**E. 远期**
+- **应用层 brainstorm**（§1 阶段 6）——它决定 D 里的 Layer3 / 2b 要不要现在排。
+
+---
+
+## 6. 应用层（远期占位）
+
+复用/扩展 gs1 的 codex（graph wiki + build planner），出 gs2 版或跨 game 统一 app。建议先做一轮
+轻量 brainstorm 定方向——它会重排 §5 backlog（尤其 D 类）。
+
+---
+
+## 7. 进度日志（compact；逐刀详情见 git log + 脚本 docstring + memory）
 
 | 日期 | 进展 |
 |---|---|
-| 2026-06-18 | **Walkthrough 整合 pipeline — keystone ✅**（split+tag 之后的下一工作线）。定方案(与用户)：**spine → 2a 整合 → locations → 2b 翻译**，2a 重活交 Antigravity/Gemini Pro。建 3 个确定性脚本(免费)：`walkthrough_index_gs2.py`(855 章 metadata→index，494 prose=2a 语料)、`region_spine_gs2.py`(**键石**：cloud-blazer 干净 area 级章序当 canonical spine + 把全部 494 prose 章 map 到 64 节点；coarse/quest-arc 走 COARSE_MAP、拼写变体走 aliases；**494/494 映射、0 孤儿、0 空节点**)、`walkthrough_coverage_gs2.py`(QA 门禁：pre-2a 无孤儿/空节点；post-2a 每必需节点有文件+`sources`⊆该节点映射章)。**关键决策**：① 顺序 spine→2a→locations(locations 从 2a 干净整合稿抽，非重读 10 源)；② 2a/locations 两遍分开(handoff 简单)；③ 2a 输出按地区分块 `data/gs2/walkthrough/NN-<slug>.md`(对齐未来 HTML)；④ **Telago=most-recommended→2a 主叙述声+冲突 tie-breaker**(非 equal weight，cloud-blazer 仅作结构参考)。难点(各作者 TOC 拆法不一)由 spine many-to-many 映射化解：Telago 粗 quest-arc→多节点、monolithic(strawhat/super-slash)→overworld bucket+按地区检索、boss 策略 appendix(42 章)→boss-strategies bucket。详细计划+逐节点 work queue+Gemini handoff 提示词 = `walkthrough_consolidation_plan.md`。task 3 cross-check 占位入 §4。 |
-| 2026-06-17 | Kickoff：建 `raw/gs2` `data/gs2` `docs/gs2` 脚手架 + `schema/gs2_schema.md` 骨架 + 这份 meta plan。待用户 review/annotate。 |
-| 2026-06-17 | Raw 标注：收 10 篇 walkthrough + 目录页；补全 frontmatter(短 source_id/covers/summary)；定"正文不整理/不拆分、用 TOC 定向读"铁律 + gs2 covers 词表(新增 transfer/forging/mechanics)；建总索引 `gs2_sources.md`(含候选专项源)。正文零改动。 |
-| 2026-06-17 | 定提取路线：**走 subscription/agent(Claude Code 和/或 Gemini)，不依赖 extract.py(API，更贵)**，extract.py 降级 fallback；schema 仍是核心 spec，下游 Python 连图免费。加阶段 3.5「Extraction plan」——下一轮补全专项源 frontmatter 后专门讨论各类数据怎么提取、每实体用谁。 |
-| 2026-06-17 | 收 32 篇 In-Depth Guides（含补回的 `bbbbrain2000`）+ 补全 frontmatter（短 `source_id` 规范化 / `type` / `covers` / `quality` / `summary`）；新增 4 个 covers tag（`story`/`music`/`glitch`/`ids`）。`gs2_sources.md` 加四组「已收集 In-Depth」表 + 标注进度 tracker；候选区只剩 Maps。起草 `gs2_extraction_plan.md`（实体×源覆盖矩阵 + 初步 Claude/Gemini 分工，draft）。正文零改动。遗留：`josher1212` 待补 TOC、hex 源（`90kirsdarke-hack`/`kaitia-savehack`）待评估做 master-data/canonical id 层。 |
-| 2026-06-17 | **第一刀竖切：monsters ✅**。写 `gs2_schema.md` monsters 段 + Master Source IDs 起头；写确定性解析器 `scripts/monsters_extract_gs2.py`（镜像 gs1 `monsters_extract.py`）解析 torrentlord Division A → 物化中间层 `data/gs2/intermediate/monsters__torrentlord.json` → `data/gs2/monsters.json`：**203 条**（23 boss + 27 djinn-enemy），全字段齐、0 错、零 LLM。**结论：干净 data-table 源的「中间层」= 确定性解析器（免费/精确/可重跑），非 LLM 蒸馏**（详见 `gs2_extraction_plan.md §0`）。FK（boss_id/djinn_id/drop ref）按计划暂缓。 |
-| 2026-06-18 | **ER 草图 `gs2_er_sketch.md` ✅**。把 gs1 已跑通的实体关系图（11 实体 + characters 维度 / locations 枢纽 + 各 FK 边）整理成 gs2 版，钉死 id 方案 + 引用字段 + 连接原则（存 name、最后 `links_normalize` 回填 id、idempotent → 实体可任意顺序独立提取，不返工）；标出 4 个 gs2 增量及建模倾向（8 角色、forging=equipment.forged_from、组合召唤=djinn_recipe、transfer=标志/小事件表）。回答了「中间层直觉」：字段完整性靠源够多、关联设计靠这张图，两者分开；无需先做 mechanics 预处理。 |
-| 2026-06-18 | **新工作线：walkthrough 章节拆分（split + tag）**。把 10 篇巨型 walkthrough 拆成派生 per-chapter 层 `raw/gs2/_chapters/<source>/NN-slug.md`（**字节精确切片** + frontmatter，raw 不动；`source_lines` 是回溯桥）。服务三下游：定向提取(locations/流程/cross-check) / 攻略整合 / 翻译。写确定性 `scripts/walkthrough_split.py`（按标准化 TOC 锚点切，匹配=剥装饰后 `^enum[.)] 标题词子序列，format-agnostic；`--verify` 校验字节级重建；container/别名/已知缺口分类报告）。**reference run = darkslime**：47 TOC→41 定位→42 章(area 级:Daila/Kandorean…)，5 container、1 已知缺口(v0.2 未完成)，verify OK。搭好给 Antigravity(Gemini) 的可复用套件：plan+tracker+frontmatter 规范+tag 提示词+模型选型 = `docs/gs2/walkthrough_chapters.md`（+ `_chapters/README.md`）。**分工**：split=确定性脚本(免费)；语义 tag(kind/covers/region)=Gemini Flash High 逐源跑；提取/翻译=后续。raw 不可变铁律守住。 |
-| 2026-06-18 | **第十一刀：shops + forging + 收口 ✅**。两个干净 data-table 源走确定性解析器。**shops**：`scripts/shops_extract_gs2.py` 解析 `shotgunnova-shop` 15 城镇 boxed 表（`[SHnn] - TOWN` + USE?/ATK/DEF/.../COST，`*`=artifact）→ `shops.json`（15 城镇 204 stock，每条 name/category/price/is_artifact）。**顺手收口**：① 同源把 10 个共享消耗品（Herb/Antidote/Elixir/Nut/Vial/Potion/Psy Crystal/Water of Life/Sacred Feather/Mist Potion）merge 进 `items.json`（24→34，item_type=consumable，关闭之前 deferred 的共享消耗品；幂等按 id）。**forging**：`scripts/forging_extract_gs2.py` 解析 `aspartate-forge` section IV（材料块 `[Orihalcon]`… + `[Rusty Weapons]`）→ 回填 `equipment.forged_from`（**56/57 匹配**，Dragon Armor 无匹配；rusty→`["Rusty Staff"]` 等、材料→`["Orihalcon"]` 等）。**cross-check 价值**（flag 不静默改）：forge「Worth」= sell_price（=0.75×buy），核出 2 处 forge 取整 typo（Nebula Wand/Pure Circlet）+ **1 处 equipment typo**（Levatine unleash `Radient Fire`→应 `Radiant Fire`）；`FORGE_ALIASES` 处理 5 个命名变体（Cosmo/Cosmos、Circlet/Circle、Spirits/Spirit、Appolo's typo）。**equippable_by**：归 links 派生（见下），forge「for X」作独立校验源——**55/56 派生与 forge 完全吻合**（唯一 Floating Hat=hat 型留 []、forge 说 everyone）。**links 扩 2 边**：F. `equipment.equippable_by` 由 `equipment.type`→`characters.can_equip` 类别派生（TYPE2CAT 15 干净型 + ring=全 8；hat/class_item/special 11 件 ambiguous 留 []）= **132/143**；G. `shops.stock`→gear ref（**83/204**，其余 121 = 73 共享基础装备 deferred，expected-gap）。**连锁收益**：消耗品进 items 后 monsters.drops resolve 从 26→**100/153**。链：shops→forging→normalize→audit，全幂等、audit 0 错 exit 0（10 文件 789 行）。schema 加 shops 段 + forging/equippable_by 增强说明 + Master Source IDs 加 shotgunnova-shop/aspartate-forge。**决策**：73 共享基础装备本轮缓（shop 只给单 stat+unleash 名+cost+USE?，补进 equipment 需按名推 type，非「简单」），标 expected-gap 待下轮 focused pass。 |
-| 2026-06-18 | **第十刀：gs2 links_normalize/audit ✅（FK 连图 + 回归门禁）**。fork 自 gs1 两脚本 → `scripts/links_normalize_gs2.py`+`scripts/links_audit_gs2.py`（`DATA=data/gs2`；§4 决策 1 拍板 = **fork 而非参数化**，因 gs2 边集与 gs1 实质性发散）。**回填 5 边**：① `classes.psynergy[].id` 名→id **1424/1588 resolved**（5 处 ultimalink typo 走 `ALIASES`：frezze/flare strom/strom ray/high imapct/drian→canonical；"Blast" 重名无 pp 不可消歧→留 null+flag；~35 职业专属 psynergy 不在 canonical→**expected gap** 不污染 psynergy.json）；② `monsters.drops.items[]` →equipment\|item ref **26/153**（其余 32 名 = 共享消耗品 + gs1 共享 gear，在 deferred 的 GS1 编号段→expected）；③ `monsters.djinn_id` **27/27**（敌名「Mercury Djinni (Fog)」取括号内名→djinn）；④ `monsters.boss_id` **23/23**（剥「(vs All)/(vs 2/3)」变体后缀→boss id）；⑤ `available_to[].character_id` 358 条校验自洽。**关键设计**：gs2 canonical psynergy 与 items 故意非穷尽，故 audit 分 **FATAL vs expected-gap**（规则式：名在目标表却 null=error；名缺席=warning），而非 gs1「任何 unresolved 即 fail」——这样 audit 才能当真正回归门禁（exit 0=干净，故意改坏 id→exit 1 验证过）。normalize FATAL=0、幂等（再跑 md5 不变、能从 name 自愈）、audit 0 错 + 291 expected warning。**deferred 边**：equipment.equippable_by（需 type→can_equip 类别桶派生）、forged_from、summons.djinn_recipe（非 FK）、location 名解析（待 locations+独立 refs 步骤）、available_to[].acr（classes Layer3）。 |
-| 2026-06-18 | **第九刀：psynergy ✅（157 条）** — characters→classes→psynergy 组**收官**。`scripts/psynergy_extract_gs2.py` 确定性解析 `yoyoyoshi` section「11 > ALL PSYNERGIES」定宽表→name/element(Venus→earth 等/Neutral)/pp_cost/range(I-bar:1/3/5/7、8→"all")/description。"Blast" 重名按 pp 消歧(blast-5pp/blast-7pp)。`mr-unorigino-psy` 仅作 completeness 校验(kana 乱码，只用 ASCII 的第4个"/"US 名)，corroborate 126/157 进 sources。**关键发现**：yoyoyoshi m11 **非穷尽**——classes 学法表(ultimalink)里约 37 个职业 psynergy(Pierrot 卡牌技/Magma Storm/Hurricane/Thorn/Nettle/Guardian/Protector 等)不在此列，外加 ultimalink ~7 处拼写(Frezze Prism/Flare Strom/Strom Ray/High Imapct/Drian/Wind slash/`Cluster\tBomb` tab)与一处名冲突(Megacool vs Supercool)。**决策**：psynergy.json 保持 yoyoyoshi clean canonical(157，全 stats)，不拿带拼写/无 stats 的名污染；classes.psynergy 名→id 的核对+补漏(含修 typo、flag 冲突)交给 **gs2 links_normalize**(其本职；classes.psynergy[].id 现为 null 待回填)。写 `gs2_schema.md` psynergy 段(含 Coverage&deferred)+Master Source IDs 加 yoyoyoshi/mr-unorigino-psy。**deferred 字段**：series/tier(yoyoyoshi 元素段分组混了真进化链与主题簇，不可靠)、level_learned/available_to(可从 classes.json 反查，属 links 层)。 |
-| 2026-06-18 | **第八刀：classes Layer2 ✅（available_to + psynergy 回填）** — `scripts/classes_ultimalink_gs2.py` 确定性解析 `ultimalink`(8 角色每角色的职业块)。**核心做法**：每个 block(title+tier 行+per-chain Psynergy 表) 按 **block title→terence class_line**(`BLOCK2LINE`，全局一致：如 "Swordsman"→swordsman-earth 对 earth/water 角色都成立、"Luminier"→swordsman-fire) 映射，再把 block 的 tier 行**按位置 zip** 到该 line 的 terence 链(已按 tier 序)——所有 block 的 tier 数都与链长吻合(校验过 25 链)。非 N/A tier→该角色 `available_to` 该职业(带 ultimalink 的 djinn 数)；block 的 psynergy 表赋给整条 class_line(同元素角色共享，Felix==Isaac 已验证)。**关键洞见**：Layer1 的元素上下文 id 已**预先消解** gs1 那种 per-角色 psynergy 分歧(swordsman-isaac/garet)——同元素共享、跨元素(如 shaman-water 被 earth 角色 water×6 与 water 角色 earth×4 同时 reach)由 available_to 多条覆盖。**踩坑**：psynergy 读取循环会把下一个 block 的标题行误吞→非数据行应 break 不消费(否则 Wind Seer 块继承 "White Mage" 标题)。结果 106/110 有 psynergy(Tamer 4 条缓——它 4 个 sub-class 各自 psynergy 在并排双栏，难解)、110/110 有 available_to。psynergy 名去脚注 `*`("Aura*"→"Aura"，与 "Healing Aura" 区分)。写 schema classes 段(标 Layer1+2 done)+Master Source IDs 加 `ultimalink`。**deferred**：Tamer psynergy、Layer3=aku-chi ACR(`available_to[].acr`)+terence「Prm Aff Wek Neu」相对计数 matcher；psynergy.id 待 gs2 links_normalize。 |
-| 2026-06-18 | **第七刀：classes Layer1 ✅（110 条）** — characters→classes→psynergy 组第二刀。classes 是最大/最复杂实体，**分层建**（仿 bosses）。**Layer1 = terence 脊柱**：`scripts/classes_extract_gs2.py` 确定性解析 `terence`「== CLASS BONUSES AND REQS ==」9 张分组表→每类 `stat_multiplier`(HP/PP/Att/Def/Agi/Lck %) + `element_requirements`(元素等级，列序 Eth Wtr Fre Wnd；5=主元素 base、`-`→null) + `dominance_group`(basic/lost-age-new/各 aligned/item-required) + `class_line`(组内 `----` 子块首行=链根)。**关键：gs2 用 Element-Level+Dominance，不是 gs1 的 djinn 计数表**——element_requirements 是等级不是数量；相对计数 matcher(terence「Prm Aff Wek Neu」表，gs1 build_terence_class_reqs 的 gs2 版)留 Layer3。**踩坑**：① id 冲突——"Water Seer"(基础 Mercury 主)与"Seer (W)"(earth-dip)都 slug 成 water-seer，改 qualifier 作**后缀**(seer-water)避让前导元素复合名；② 组 banner 子串误匹配——"FIRE ALIGNED CLASSES" 是 "EARTH/FIRE ALIGNED CLASSES" 子串，改 banner **精确**匹配(strip `= `后 == GROUPS 键)，修正后 9 组 20/10/13/13/13/13/8/8/12=110、25 条 class_line。写 `gs2_schema.md` classes 段(标三层) + Master Source IDs 加 `terence`。**deferred**：Layer2=ultimalink 的 psynergy 习得表 + available_to(8 角色)，有 per-角色 psynergy 分歧(同 gs1 swordsman-isaac/garet 拆分)+角色元素感知的名→id 映射，专做下一刀；Layer3=matcher+aku-chi ACR。 |
-| 2026-06-18 | **第六刀：characters ✅（8 条）** — 新一组(characters→classes→psynergy)第一刀。`scripts/characters_extract_gs2.py` 两层(仿 bosses)：① 结构层确定性解析 `darkslime`「1. The Character Guide」块——**8 可玩角色 = 恰好带 `Can Equip:` 行的块**(反派无此行→天然判据)，取 name/jp_name/element(Alignment 部族→元素)/hometown/can_equip；② curated 8 行 judgment：按 ER §4.1 把 gs1 的 `is_permanent` 拆成 `is_starter`(开局 Idejima：Felix/Jenna/Sheba)+`from_gs1`(回归 4 人 Isaac/Garet/Ivan/Mia)+散文 `join`。`ultimalink` 确认 8 花名册(其职业表留给下一刀 classes)。写 `gs2_schema.md` characters 段 + Master Source IDs 加 `darkslime`/`darthmarth`。**源缺陷**：darkslime 的 Sheba 块把 equip 类 "Caps" 折行进 `Hometown:` 行→她 hometown 读作 "...Tolbi, Caps"、can_equip 漏 "caps"；保持 literal 不静默改，连图核对。0 重复 id、花名册校验过。**连图**：can_equip 是 equipment.equippable_by 的反向，连图时可双向校验。 |
-| 2026-06-18 | **第五刀：summons ✅（29 条=16 标准+13 组合）**。`scripts/summons_extract_gs2.py` 确定性解析 `cooldude345`，**双段按名 merge**：section VII「Summons Stats」(引 Terence Fergusson 的数值：伤害元素/Base/HP%/range/special) + section V「Summons」(djinn 需求/组合配方/Found-At)。组合召唤落地 ER 增量：`djinn_recipe`[{element,count}] 跨元素配方 + `acquisition`（石板地点）。Coatlicue 治疗特判(damage 置 null)、`<Missile>`(Daedalus 子攻击)跳过。**踩坑（沉淀给杂乱 FAQ 源）**：① 这篇有两个 TOC，且 "V.)" 是 "IV.)" 的子串——段定位要 `startswith`+下一行 `====` 下划线双判据；② 介绍句里出现 "Multi-Elemental" 误触发段切换——要精确等于段标题；③ 名字夹在双 `####` 栅栏间，闭合栅栏会把 "Djinn Used:" 误当名字——改用「最近单词行」。0 乱码、29 id 唯一。**cross-source**：cooldude 把 Valukar 写作 Bullrog、Sentinel→Sentinal，连图时核对；acquisition.location 干净地名 deferred；dbfire 作可选 2 源未用。 |
-| 2026-06-18 | **第四刀：djinn ✅（72 条）**。`scripts/djinn_extract_gs2.py` 确定性解析 `demooni`（Djinni Stat Boosts Guide）——单源即覆盖 element + stat boosts + 位置 + *FIGHT*。**关键发现**：demooni section 2 的 `---` 分隔符正好是 **TLA-native(game=gs2) vs GS1-transferred(game=gs1)** 分界，每元素 11+7=18，4×18=72（符合 ER 草图「transfer 带入的 gs1 djinn 其 game 仍 gs1」）。stat 列 HP/PP/STR(→atk)/DEF/AGL/LCK，`---`→0。section 3 给 44 个 TLA djinn 的获取 prose + *FIGHT*→must_fight。写 `gs2_schema.md` djinn 段 + Master Source IDs 加 demooni。0 乱码、72 id 唯一、每元素 18 校验过。**deferred**：battle_effect(demooni 无，待 aspartate/cooldude/terence)、location.area(demooni 仅 prose，待 android50/aspartate 或连图)、monsters.djinn_id 回填(monsters 27 djinn-enemy vs demooni 26 *FIGHT*，连图时核对)。aspartate-djinn/android50 作可选交叉校验源未用。 |
-| 2026-06-18 | **第三刀：bosses ✅（18 条）**。boss = 数值(已在 monsters，确定性) + 打法(散文，judgment)，故走**两层**：① `scripts/bosses_extract_gs2.py` 确定性骨架——从 monsters.json 23 条 boss stat-line 拉 stats/元素/技能/掉落/地点，curated map 合并 party-config 变体(karst/agatio vs-all/vs-2-3)与多形态(flame-dragon big/small→1 boss 2 encounter)；4 个石板守护者标 optional+superboss；② `data/gs2/intermediate/bosses_strategy.json` curated sidecar——从 `link-kirby-boss` 提 weakness/recommended_level/strategy/special_mechanics，脚本 merge。写 `gs2_schema.md` bosses 段 + Master Source IDs 加 link-kirby-boss。**数值冲突**(link-kirby 的 HP 如 King Scorpion 1054 vs torrentlord 1064、Doom Dragon 14400 总血 vs 分头)以 torrentlord 为准，prose 数字进 special_mechanics 不静默改。0 乱码、id 唯一。**deferred**：monsters.boss_id 回填待 gs2 links_normalize；goldmario/rena-chan/ikillkenny 待并入 sidecar。 |
-| 2026-06-18 | **第二刀：equipment + items ✅**（沿用 monsters 确定性解析器先例）。写 `gs2_schema.md` equipment/items 两段 + Master Source IDs 加 `mr-unorigino-item` 行；写 `scripts/items_extract_gs2.py` 确定性解析 mr-unorigino **TLA 段(2A–2U)**（GS1 编号段不提，守「两份独立真相源」）→ 物化 `intermediate/equipment_items__mr-unorigino.json` → `equipment.json` **143 条**（61 武器 + 79 防具/饰品 + class items；含 cursed/rusty/unleash/use_effect）+ `items.json` **24 条**（13 材料 + 6 key + 5 消耗）。0 id 冲突、0 乱码。**范围决策**：items 只取 gs2 专属（材料/trident/other）；gs1↔gs2 共享消耗品（Herb/Potion/Psy Crystal/补品）在源里仅列于 GS1 编号段，deferred 待下轮用 super-slash 附录补。**deferred 字段**：equippable_by/is_artifact/forged_from/unleash element·rate·power 留 null/[]，待 aspartate-forge + links_normalize 回填。修两个解析 bug：unleash 名撇号截断（"Acheron's Grief"）、日文列乱码（丢弃，留 en_literal）。 |
+| 2026-06-19 | **SSoT 闭环 pass ✅**（cross-check findings → 落地修改）。**Tier A**（确定性收尾）：`djinn_area_backfill_gs2.py` 回填 44 djinn `location.area`（消解 6 处 placement 分歧）；locations.json 3 处 monster 名归一（→81/81 resolve）；split dead-code 查证 = moot（旧 commit）。**Tier C**（命名）：6 处 equipment 采纳 90Kirsdarke 真名，折进 `items_extract_gs2.py` NAME_FIXES + `name_variants`。**Tier B**（完整性 full extract）：`items_extract_gs2.py` 扩展解析 mr-unorigino **base 段**（`-A.`..`-R3.`，game="gs1"）→ equipment **143→285**、items **24→86**（17 Psynergy 道具 + key item + base 武防/Ring/Boots）。base 段坑：单复数/GS 注解名（strip 进 name_variants）、dual `GS / US -` stat 格式（取 US）、3 把终极武器多行 unleash 注解（noise filter）。连锁：normalize/audit 增 `name_variants`+`name_literal` 别名解析 → **drops 153/153、shops 204/204、equippable 265/285 全 resolve**，audit 仍 exit 0；90Kirsdarke 完整性 matched 160→**346/359**、gap 199→**13**。9 条 gate 全 exit 0、链可端到端重跑。 |
+| 2026-06-19 | **Cross-check 三轮全 ✅**（round1 FK / Q2b 完整性 / round2 placement / round3 语义 prose），net 0 merge；产出独立 `crosscheck_findings.md` 作 SSoT 修改依据。详见 §4。同日 compact 本 plan + 删 `walkthrough_chapters_audit.md`。 |
+| 2026-06-18 | **Walkthrough 整合**：keystone（`walkthrough_index`/`region_spine`/`walkthrough_coverage` 3 确定性脚本，494/494 章映射 0 孤儿）→ **2a**（62 节点合并，Gemini 3.1 Pro，gate clean，Telago 主声）→ **locations**（62 条 → `locations.json`）。 |
+| 2026-06-18 | **实体提取竖切**（确定性解析器）：monsters(203)→equipment/items(143/34)→bosses(18)→djinn(72)→summons(29)→characters(8)→classes L1+L2(110)→psynergy(157)→shops(15)/forging。`links_normalize/audit_gs2` + `locations_refs_gs2` 连图。详见 §2。 |
+| 2026-06-18 | **Walkthrough 章节 split+tag**：10 源 → 855 派生 per-chapter（字节精确切片 + frontmatter，raw 不动），`walkthrough_split.py`；语义 tag 交 Gemini。详见 `walkthrough_chapters.md`。 |
+| 2026-06-18 | **ER 草图** `gs2_er_sketch.md`（钉 id/FK/连接原则 + 4 个 gs2 增量建模倾向）。 |
+| 2026-06-17 | **Kickoff** + **raw 标注**（10 walkthrough + 32 In-Depth + 目录页，frontmatter / covers 词表 / 总索引 `gs2_sources.md`）；定**提取路线**（agent 非 API，extract.py 降级 fallback）。 |

@@ -1,0 +1,3239 @@
+{
+  "generated_by": "scripts/locations_refs_gs2.py",
+  "note": "DERIVED view. Do not hand-edit. Rebuild: python scripts/locations_refs_gs2.py",
+  "source_files": [
+    "locations.json",
+    "djinn.json",
+    "monsters.json",
+    "bosses.json",
+    "summons.json",
+    "psynergy.json",
+    "equipment.json",
+    "items.json",
+    "shops.json"
+  ],
+  "regions": {
+    "airs-rock": {
+      "name": "Air's Rock",
+      "order": 15,
+      "kind": "main",
+      "connections": [],
+      "connections_unresolved": [],
+      "djinn": [],
+      "monsters": [
+        "mimic-9",
+        "creeper",
+        "dino",
+        "emu",
+        "ghoul",
+        "harpy",
+        "kobold",
+        "mummy"
+      ],
+      "bosses": [],
+      "summons": [
+        "flora"
+      ],
+      "psynergy": [
+        "reveal"
+      ],
+      "pickups": [
+        {
+          "name": "Cookie",
+          "ref_type": "item",
+          "ref_id": "cookie"
+        },
+        {
+          "name": "Fujin Shield",
+          "ref_type": "equipment",
+          "ref_id": "fujin-shield"
+        },
+        {
+          "name": "Sleep Bomb",
+          "ref_type": "item",
+          "ref_id": "sleep-bomb"
+        },
+        {
+          "name": "Smoke Bomb",
+          "ref_type": "item",
+          "ref_id": "smoke-bomb"
+        },
+        {
+          "name": "Storm Brand",
+          "ref_type": "equipment",
+          "ref_id": "storm-brand"
+        },
+        {
+          "name": "Vial",
+          "ref_type": "item",
+          "ref_id": "vial"
+        },
+        {
+          "name": "Lucky Medal",
+          "ref_type": "item",
+          "ref_id": "lucky-medal"
+        },
+        {
+          "name": "Elixir",
+          "ref_type": "item",
+          "ref_id": "elixir"
+        },
+        {
+          "name": "666 Coins",
+          "ref_type": null,
+          "ref_id": null
+        },
+        {
+          "name": "Clarity Circlet",
+          "ref_type": "equipment",
+          "ref_id": "clarity-circlet"
+        },
+        {
+          "name": "Psy Crystal",
+          "ref_type": "item",
+          "ref_id": "psy-crystal"
+        }
+      ],
+      "forging": [],
+      "shop": null
+    },
+    "alhafra": {
+      "name": "Alhafra",
+      "order": 13,
+      "kind": "main",
+      "connections": [
+        "yampi-desert",
+        "champa",
+        "mikasalla",
+        "madra",
+        "airs-rock",
+        "gondowan-cliffs"
+      ],
+      "connections_unresolved": [],
+      "djinn": [],
+      "monsters": [
+        "ghoul",
+        "harpy",
+        "ooze"
+      ],
+      "bosses": [
+        "briggs",
+        "sea-fighter"
+      ],
+      "summons": [],
+      "psynergy": [],
+      "pickups": [
+        {
+          "name": "Sleep Bomb",
+          "ref_type": "item",
+          "ref_id": "sleep-bomb"
+        },
+        {
+          "name": "Elixir",
+          "ref_type": "item",
+          "ref_id": "elixir"
+        },
+        {
+          "name": "32 Coins",
+          "ref_type": null,
+          "ref_id": null
+        },
+        {
+          "name": "7 Coins",
+          "ref_type": null,
+          "ref_id": null
+        },
+        {
+          "name": "Smoke Bomb",
+          "ref_type": "item",
+          "ref_id": "smoke-bomb"
+        },
+        {
+          "name": "Large Bread",
+          "ref_type": "item",
+          "ref_id": "large-bread"
+        },
+        {
+          "name": "Apple",
+          "ref_type": "item",
+          "ref_id": "apple"
+        },
+        {
+          "name": "Lucky Medal",
+          "ref_type": "item",
+          "ref_id": "lucky-medal"
+        },
+        {
+          "name": "Psy Crystal",
+          "ref_type": "item",
+          "ref_id": "psy-crystal"
+        },
+        {
+          "name": "Vial",
+          "ref_type": "item",
+          "ref_id": "vial"
+        },
+        {
+          "name": "123 Coins",
+          "ref_type": null,
+          "ref_id": null
+        },
+        {
+          "name": "Ixion Mail",
+          "ref_type": "equipment",
+          "ref_id": "ixion-mail"
+        },
+        {
+          "name": "777 Coins",
+          "ref_type": null,
+          "ref_id": null
+        },
+        {
+          "name": "Potion",
+          "ref_type": "item",
+          "ref_id": "potion"
+        },
+        {
+          "name": "Power Bread",
+          "ref_type": "item",
+          "ref_id": "power-bread"
+        }
+      ],
+      "forging": [],
+      "shop": "alhafra"
+    },
+    "alhafran-cavern": {
+      "name": "Alhafran Cavern",
+      "order": 41,
+      "kind": "side",
+      "connections": [],
+      "connections_unresolved": [],
+      "djinn": [],
+      "monsters": [],
+      "bosses": [],
+      "summons": [],
+      "psynergy": [],
+      "pickups": [
+        {
+          "name": "123 Coins",
+          "ref_type": null,
+          "ref_id": null
+        },
+        {
+          "name": "Ixion Mail",
+          "ref_type": "equipment",
+          "ref_id": "ixion-mail"
+        },
+        {
+          "name": "Lucky Medal",
+          "ref_type": "item",
+          "ref_id": "lucky-medal"
+        },
+        {
+          "name": "777 Coins",
+          "ref_type": null,
+          "ref_id": null
+        },
+        {
+          "name": "Potion",
+          "ref_type": "item",
+          "ref_id": "potion"
+        },
+        {
+          "name": "Psy Crystal",
+          "ref_type": "item",
+          "ref_id": "psy-crystal"
+        },
+        {
+          "name": "Power Bread",
+          "ref_type": "item",
+          "ref_id": "power-bread"
+        }
+      ],
+      "forging": [],
+      "shop": null
+    },
+    "anemos-sanctum": {
+      "name": "Anemos Inner Sanctum",
+      "order": 61,
+      "kind": "postgame",
+      "connections": [
+        "contigo"
+      ],
+      "connections_unresolved": [],
+      "djinn": [],
+      "monsters": [],
+      "bosses": [
+        "dullahan"
+      ],
+      "summons": [
+        "charon",
+        "iris"
+      ],
+      "psynergy": [],
+      "pickups": [
+        {
+          "name": "Dragon Skin",
+          "ref_type": "item",
+          "ref_id": "dragon-skin"
+        },
+        {
+          "name": "Dark Matter",
+          "ref_type": "item",
+          "ref_id": "dark-matter"
+        },
+        {
+          "name": "Orihalcon",
+          "ref_type": "item",
+          "ref_id": "orihalcon"
+        }
+      ],
+      "forging": [],
+      "shop": null
+    },
+    "ankohl-ruins": {
+      "name": "Ankohl Ruins",
+      "order": 33,
+      "kind": "main",
+      "connections": [
+        "champa"
+      ],
+      "connections_unresolved": [],
+      "djinn": [],
+      "monsters": [],
+      "bosses": [],
+      "summons": [],
+      "psynergy": [],
+      "pickups": [
+        {
+          "name": "Coins",
+          "ref_type": null,
+          "ref_id": null
+        },
+        {
+          "name": "Crystal Powder",
+          "ref_type": "item",
+          "ref_id": "crystal-powder"
+        },
+        {
+          "name": "Nut",
+          "ref_type": "item",
+          "ref_id": "nut"
+        },
+        {
+          "name": "Thanatos Mace",
+          "ref_type": "equipment",
+          "ref_id": "thanatos-mace"
+        },
+        {
+          "name": "Power Bread",
+          "ref_type": "item",
+          "ref_id": "power-bread"
+        },
+        {
+          "name": "365 Coins",
+          "ref_type": null,
+          "ref_id": null
+        },
+        {
+          "name": "Muni Robe",
+          "ref_type": "equipment",
+          "ref_id": "muni-robe"
+        },
+        {
+          "name": "Sylph Feather",
+          "ref_type": "item",
+          "ref_id": "sylph-feather"
+        },
+        {
+          "name": "Potion",
+          "ref_type": "item",
+          "ref_id": "potion"
+        },
+        {
+          "name": "Left Prong",
+          "ref_type": "item",
+          "ref_id": "left-prong"
+        }
+      ],
+      "forging": [],
+      "shop": null
+    },
+    "apojii-islands": {
+      "name": "Apojii Islands",
+      "order": 26,
+      "kind": "main",
+      "connections": [
+        "aqua-rock"
+      ],
+      "connections_unresolved": [],
+      "djinn": [
+        "haze"
+      ],
+      "monsters": [],
+      "bosses": [],
+      "summons": [],
+      "psynergy": [],
+      "pickups": [],
+      "forging": [],
+      "shop": "apojii-islands"
+    },
+    "aqua-rock": {
+      "name": "Aqua Rock",
+      "order": 27,
+      "kind": "main",
+      "connections": [
+        "apojii-islands"
+      ],
+      "connections_unresolved": [],
+      "djinn": [
+        "steam"
+      ],
+      "monsters": [
+        "mimic-9"
+      ],
+      "bosses": [],
+      "summons": [],
+      "psynergy": [
+        "parch"
+      ],
+      "pickups": [
+        {
+          "name": "Nut",
+          "ref_type": "item",
+          "ref_id": "nut"
+        },
+        {
+          "name": "Elixir",
+          "ref_type": "item",
+          "ref_id": "elixir"
+        },
+        {
+          "name": "Oil Drop",
+          "ref_type": null,
+          "ref_id": null
+        },
+        {
+          "name": "Mist Sabre",
+          "ref_type": "equipment",
+          "ref_id": "mist-sabre"
+        },
+        {
+          "name": "Vial",
+          "ref_type": "item",
+          "ref_id": "vial"
+        },
+        {
+          "name": "Tear Stone",
+          "ref_type": "item",
+          "ref_id": "tear-stone"
+        },
+        {
+          "name": "Water of Life",
+          "ref_type": "item",
+          "ref_id": "water-of-life"
+        },
+        {
+          "name": "Lucky Pepper",
+          "ref_type": "item",
+          "ref_id": "lucky-pepper"
+        },
+        {
+          "name": "Aquarius Stone",
+          "ref_type": "item",
+          "ref_id": "aquarius-stone"
+        },
+        {
+          "name": "Rusty Sword",
+          "ref_type": "equipment",
+          "ref_id": "rusty-sword-4"
+        }
+      ],
+      "forging": [],
+      "shop": null
+    },
+    "atteka-cavern": {
+      "name": "Atteka Cavern",
+      "order": 51,
+      "kind": "side",
+      "connections": [
+        "loho"
+      ],
+      "connections_unresolved": [],
+      "djinn": [],
+      "monsters": [],
+      "bosses": [],
+      "summons": [
+        "coatlicue",
+        "haures"
+      ],
+      "psynergy": [],
+      "pickups": [],
+      "forging": [],
+      "shop": null
+    },
+    "champa": {
+      "name": "Champa",
+      "order": 32,
+      "kind": "main",
+      "connections": [
+        "ankohl-ruins",
+        "lemuria"
+      ],
+      "connections_unresolved": [
+        "tolbi"
+      ],
+      "djinn": [],
+      "monsters": [],
+      "bosses": [
+        "avimander"
+      ],
+      "summons": [],
+      "psynergy": [],
+      "pickups": [
+        {
+          "name": "Viking Helm",
+          "ref_type": "equipment",
+          "ref_id": "viking-helm"
+        },
+        {
+          "name": "Golden Ring",
+          "ref_type": "equipment",
+          "ref_id": "golden-ring"
+        },
+        {
+          "name": "Trident of Ankohl",
+          "ref_type": null,
+          "ref_id": null
+        }
+      ],
+      "forging": [
+        {
+          "name": "Trident of Ankohl",
+          "ref_type": null,
+          "ref_id": null
+        }
+      ],
+      "shop": "champa"
+    },
+    "contigo": {
+      "name": "Contigo",
+      "order": 49,
+      "kind": "main",
+      "connections": [
+        "jupiter-lighthouse",
+        "sw-atteka-islet"
+      ],
+      "connections_unresolved": [],
+      "djinn": [
+        "salt",
+        "shine"
+      ],
+      "monsters": [],
+      "bosses": [],
+      "summons": [],
+      "psynergy": [],
+      "pickups": [
+        {
+          "name": "Corn",
+          "ref_type": "item",
+          "ref_id": "corn"
+        },
+        {
+          "name": "Dragon Skin",
+          "ref_type": "item",
+          "ref_id": "dragon-skin"
+        }
+      ],
+      "forging": [],
+      "shop": "contigo"
+    },
+    "daila": {
+      "name": "Daila",
+      "order": 3,
+      "kind": "main",
+      "connections": [
+        "kandorean-temple"
+      ],
+      "connections_unresolved": [],
+      "djinn": [
+        "echo"
+      ],
+      "monsters": [],
+      "bosses": [],
+      "summons": [],
+      "psynergy": [],
+      "pickups": [
+        {
+          "name": "Smoke Bomb",
+          "ref_type": "item",
+          "ref_id": "smoke-bomb"
+        },
+        {
+          "name": "12 Coins",
+          "ref_type": null,
+          "ref_id": null
+        },
+        {
+          "name": "Herb",
+          "ref_type": "item",
+          "ref_id": "herb"
+        },
+        {
+          "name": "Sleep Bomb",
+          "ref_type": "item",
+          "ref_id": "sleep-bomb"
+        },
+        {
+          "name": "Sea God's Tear",
+          "ref_type": "item",
+          "ref_id": "sea-god-s-tear"
+        }
+      ],
+      "forging": [],
+      "shop": "daila"
+    },
+    "dehkan-plateau": {
+      "name": "Dehkan Plateau",
+      "order": 6,
+      "kind": "main",
+      "connections": [],
+      "connections_unresolved": [],
+      "djinn": [
+        "cannon"
+      ],
+      "monsters": [
+        "angle-worm",
+        "ghost",
+        "mini-goblin",
+        "rat-soldier",
+        "skeleton"
+      ],
+      "bosses": [],
+      "summons": [],
+      "psynergy": [
+        "pound"
+      ],
+      "pickups": [
+        {
+          "name": "Full Metal Vest",
+          "ref_type": "equipment",
+          "ref_id": "full-metal-vest"
+        },
+        {
+          "name": "Elixir",
+          "ref_type": "item",
+          "ref_id": "elixir"
+        },
+        {
+          "name": "Mint",
+          "ref_type": "item",
+          "ref_id": "mint"
+        },
+        {
+          "name": "Themis' Axe",
+          "ref_type": "equipment",
+          "ref_id": "themis-axe"
+        },
+        {
+          "name": "Nut",
+          "ref_type": "item",
+          "ref_id": "nut"
+        },
+        {
+          "name": "Pound Cube",
+          "ref_type": "item",
+          "ref_id": "pound-cube"
+        }
+      ],
+      "forging": [],
+      "shop": null
+    },
+    "east-tundaria-islet": {
+      "name": "East Tundaria Islet",
+      "order": 34,
+      "kind": "side",
+      "connections": [
+        "garoh"
+      ],
+      "connections_unresolved": [],
+      "djinn": [],
+      "monsters": [],
+      "bosses": [],
+      "summons": [],
+      "psynergy": [],
+      "pickups": [
+        {
+          "name": "Lucky Medal",
+          "ref_type": "item",
+          "ref_id": "lucky-medal"
+        },
+        {
+          "name": "Pretty Stone",
+          "ref_type": "item",
+          "ref_id": "pretty-stone"
+        }
+      ],
+      "forging": [],
+      "shop": null
+    },
+    "gabomba-catacombs": {
+      "name": "Gabomba Catacombs",
+      "order": 23,
+      "kind": "main",
+      "connections": [
+        "gabomba-statue"
+      ],
+      "connections_unresolved": [],
+      "djinn": [
+        "mud"
+      ],
+      "monsters": [
+        "mad-plant-5",
+        "doomsayer",
+        "bone-fighter",
+        "death-head",
+        "spirit",
+        "salamander",
+        "red-demon"
+      ],
+      "bosses": [],
+      "summons": [],
+      "psynergy": [],
+      "pickups": [
+        {
+          "name": "Mint",
+          "ref_type": "item",
+          "ref_id": "mint"
+        },
+        {
+          "name": "Game Ticket",
+          "ref_type": "item",
+          "ref_id": "game-ticket"
+        },
+        {
+          "name": "Tomegathericon",
+          "ref_type": "equipment",
+          "ref_id": "tomegathericon"
+        }
+      ],
+      "forging": [],
+      "shop": null
+    },
+    "gabomba-statue": {
+      "name": "Gabomba Statue",
+      "order": 22,
+      "kind": "main",
+      "connections": [
+        "gabomba-catacombs"
+      ],
+      "connections_unresolved": [],
+      "djinn": [
+        "steel"
+      ],
+      "monsters": [
+        "mimic-9",
+        "bone-fighter",
+        "death-head",
+        "doomsayer",
+        "red-demon",
+        "salamander",
+        "spirit"
+      ],
+      "bosses": [],
+      "summons": [],
+      "psynergy": [],
+      "pickups": [
+        {
+          "name": "Black Orb",
+          "ref_type": null,
+          "ref_id": null
+        },
+        {
+          "name": "Bone Armlet",
+          "ref_type": "equipment",
+          "ref_id": "bone-armlet"
+        },
+        {
+          "name": "Elixir",
+          "ref_type": "item",
+          "ref_id": "elixir"
+        },
+        {
+          "name": "Hard Nut",
+          "ref_type": "item",
+          "ref_id": "hard-nut"
+        },
+        {
+          "name": "Staff of Anubis",
+          "ref_type": "equipment",
+          "ref_id": "staff-of-anubis"
+        }
+      ],
+      "forging": [],
+      "shop": null
+    },
+    "gaia-rock": {
+      "name": "Gaia Rock",
+      "order": 30,
+      "kind": "main",
+      "connections": [
+        "izumo",
+        "izumo-ruins"
+      ],
+      "connections_unresolved": [],
+      "djinn": [
+        "coal"
+      ],
+      "monsters": [
+        "mad-plant-5",
+        "mimic-9"
+      ],
+      "bosses": [
+        "serpent"
+      ],
+      "summons": [],
+      "psynergy": [
+        "sand"
+      ],
+      "pickups": [
+        {
+          "name": "Nut",
+          "ref_type": "item",
+          "ref_id": "nut"
+        },
+        {
+          "name": "Apple",
+          "ref_type": "item",
+          "ref_id": "apple"
+        },
+        {
+          "name": "Dancing Idol",
+          "ref_type": "item",
+          "ref_id": "dancing-idol"
+        },
+        {
+          "name": "Rusty Mace",
+          "ref_type": "equipment",
+          "ref_id": "rusty-mace-2"
+        },
+        {
+          "name": "Cloud Brand",
+          "ref_type": "equipment",
+          "ref_id": "cloud-brand"
+        },
+        {
+          "name": "Festival Coat",
+          "ref_type": "equipment",
+          "ref_id": "festival-coat"
+        }
+      ],
+      "forging": [],
+      "shop": null
+    },
+    "garoh": {
+      "name": "Garoh",
+      "order": 14,
+      "kind": "main",
+      "connections": [
+        "airs-rock"
+      ],
+      "connections_unresolved": [],
+      "djinn": [
+        "ether"
+      ],
+      "monsters": [],
+      "bosses": [],
+      "summons": [],
+      "psynergy": [],
+      "pickups": [
+        {
+          "name": "Smoke Bomb",
+          "ref_type": "item",
+          "ref_id": "smoke-bomb"
+        },
+        {
+          "name": "Elixir",
+          "ref_type": "item",
+          "ref_id": "elixir"
+        },
+        {
+          "name": "Nut",
+          "ref_type": "item",
+          "ref_id": "nut"
+        },
+        {
+          "name": "Sleep Bomb",
+          "ref_type": "item",
+          "ref_id": "sleep-bomb"
+        },
+        {
+          "name": "Hypnos' Sword",
+          "ref_type": "equipment",
+          "ref_id": "hypnos-sword"
+        }
+      ],
+      "forging": [],
+      "shop": "garoh"
+    },
+    "gondowan-cliffs": {
+      "name": "Gondowan Cliffs",
+      "order": 18,
+      "kind": "main",
+      "connections": [
+        "naribwe",
+        "venus-lighthouse"
+      ],
+      "connections_unresolved": [
+        "gondowan"
+      ],
+      "djinn": [
+        "kindle",
+        "chill"
+      ],
+      "monsters": [
+        "wild-gorilla",
+        "wolfkin-cub",
+        "wyvern-chick",
+        "flash-ant"
+      ],
+      "bosses": [],
+      "summons": [],
+      "psynergy": [],
+      "pickups": [
+        {
+          "name": "Sleep Bomb",
+          "ref_type": "item",
+          "ref_id": "sleep-bomb"
+        },
+        {
+          "name": "Laughing Fungus",
+          "ref_type": "item",
+          "ref_id": "laughing-fungus"
+        },
+        {
+          "name": "Healing Fungus",
+          "ref_type": "item",
+          "ref_id": "healing-fungus"
+        }
+      ],
+      "forging": [],
+      "shop": null
+    },
+    "gondowan-settlement": {
+      "name": "Gondowan Settlement",
+      "order": 53,
+      "kind": "main",
+      "connections": [
+        "jupiter-lighthouse",
+        "magma-rock"
+      ],
+      "connections_unresolved": [],
+      "djinn": [],
+      "monsters": [],
+      "bosses": [],
+      "summons": [],
+      "psynergy": [],
+      "pickups": [
+        {
+          "name": "Star Dust",
+          "ref_type": "item",
+          "ref_id": "star-dust"
+        },
+        {
+          "name": "Lucky Medal",
+          "ref_type": "item",
+          "ref_id": "lucky-medal"
+        }
+      ],
+      "forging": [],
+      "shop": null
+    },
+    "hesperia-settlement": {
+      "name": "Hesperia Settlement",
+      "order": 44,
+      "kind": "main",
+      "connections": [
+        "shaman-village"
+      ],
+      "connections_unresolved": [],
+      "djinn": [
+        "tinder"
+      ],
+      "monsters": [],
+      "bosses": [],
+      "summons": [],
+      "psynergy": [],
+      "pickups": [
+        {
+          "name": "186 coins",
+          "ref_type": null,
+          "ref_id": null
+        }
+      ],
+      "forging": [],
+      "shop": null
+    },
+    "idejima": {
+      "name": "Idejima",
+      "order": 2,
+      "kind": "main",
+      "connections": [
+        "suhalla-gate",
+        "daila"
+      ],
+      "connections_unresolved": [],
+      "djinn": [],
+      "monsters": [],
+      "bosses": [],
+      "summons": [],
+      "psynergy": [],
+      "pickups": [],
+      "forging": [],
+      "shop": null
+    },
+    "indra-cavern": {
+      "name": "Indra Cavern",
+      "order": 7,
+      "kind": "main",
+      "connections": [
+        "madra",
+        "dehkan-plateau"
+      ],
+      "connections_unresolved": [
+        "east-indra-shore"
+      ],
+      "djinn": [
+        "iron"
+      ],
+      "monsters": [
+        "aqua-jelly"
+      ],
+      "bosses": [
+        "aqua-hydra"
+      ],
+      "summons": [
+        "zagan"
+      ],
+      "psynergy": [],
+      "pickups": [
+        {
+          "name": "Cookie",
+          "ref_type": "item",
+          "ref_id": "cookie"
+        },
+        {
+          "name": "Elixir",
+          "ref_type": "item",
+          "ref_id": "elixir"
+        },
+        {
+          "name": "Potion",
+          "ref_type": "item",
+          "ref_id": "potion"
+        },
+        {
+          "name": "Antidote",
+          "ref_type": "item",
+          "ref_id": "antidote"
+        },
+        {
+          "name": "Vial",
+          "ref_type": "item",
+          "ref_id": "vial"
+        }
+      ],
+      "forging": [],
+      "shop": null
+    },
+    "islet-cave": {
+      "name": "Islet Cave",
+      "order": 39,
+      "kind": "side",
+      "connections": [
+        "sea-of-time-islet",
+        "anemos-sanctum"
+      ],
+      "connections_unresolved": [],
+      "djinn": [
+        "serac"
+      ],
+      "monsters": [
+        "cruel-dragon"
+      ],
+      "bosses": [
+        "sentinel"
+      ],
+      "summons": [
+        "catastrophe"
+      ],
+      "psynergy": [],
+      "pickups": [
+        {
+          "name": "Tisiphone Edge",
+          "ref_type": "equipment",
+          "ref_id": "tisiphone-edge"
+        }
+      ],
+      "forging": [],
+      "shop": null
+    },
+    "izumo": {
+      "name": "Izumo",
+      "order": 29,
+      "kind": "main",
+      "connections": [
+        "gaia-rock"
+      ],
+      "connections_unresolved": [],
+      "djinn": [
+        "coal"
+      ],
+      "monsters": [],
+      "bosses": [],
+      "summons": [],
+      "psynergy": [],
+      "pickups": [
+        {
+          "name": "Festival Coat",
+          "ref_type": "equipment",
+          "ref_id": "festival-coat"
+        }
+      ],
+      "forging": [],
+      "shop": "izumo"
+    },
+    "izumo-ruins": {
+      "name": "Izumo Ruins",
+      "order": 31,
+      "kind": "side",
+      "connections": [
+        "izumo"
+      ],
+      "connections_unresolved": [],
+      "djinn": [],
+      "monsters": [],
+      "bosses": [],
+      "summons": [
+        "ulysses"
+      ],
+      "psynergy": [],
+      "pickups": [
+        {
+          "name": "Phantasm Armor",
+          "ref_type": null,
+          "ref_id": null
+        }
+      ],
+      "forging": [],
+      "shop": null
+    },
+    "jupiter-lighthouse": {
+      "name": "Jupiter Lighthouse",
+      "order": 50,
+      "kind": "main",
+      "connections": [
+        "sw-atteka-islet",
+        "contigo"
+      ],
+      "connections_unresolved": [],
+      "djinn": [
+        "whorl"
+      ],
+      "monsters": [
+        "mad-plant-5",
+        "mimic-9"
+      ],
+      "bosses": [],
+      "summons": [],
+      "psynergy": [],
+      "pickups": [
+        {
+          "name": "Mint",
+          "ref_type": "item",
+          "ref_id": "mint"
+        },
+        {
+          "name": "Erinyes Tunic",
+          "ref_type": "equipment",
+          "ref_id": "erinyes-tunic"
+        },
+        {
+          "name": "Meditation Rod",
+          "ref_type": "equipment",
+          "ref_id": "meditation-rod"
+        },
+        {
+          "name": "Red Key",
+          "ref_type": "item",
+          "ref_id": "red-key"
+        },
+        {
+          "name": "Psy Crystal",
+          "ref_type": "item",
+          "ref_id": "psy-crystal"
+        },
+        {
+          "name": "306 Coins",
+          "ref_type": null,
+          "ref_id": null
+        },
+        {
+          "name": "Mist Potion",
+          "ref_type": "item",
+          "ref_id": "mist-potion"
+        },
+        {
+          "name": "Blue Key",
+          "ref_type": "item",
+          "ref_id": "blue-key"
+        },
+        {
+          "name": "Potion",
+          "ref_type": "item",
+          "ref_id": "potion"
+        },
+        {
+          "name": "Water of Life",
+          "ref_type": "item",
+          "ref_id": "water-of-life"
+        },
+        {
+          "name": "Phaeton's Blade",
+          "ref_type": "equipment",
+          "ref_id": "phaeton-s-blade"
+        },
+        {
+          "name": "Dark Matter",
+          "ref_type": "item",
+          "ref_id": "dark-matter"
+        }
+      ],
+      "forging": [],
+      "shop": null
+    },
+    "kalt-island": {
+      "name": "Kalt Island",
+      "order": 58,
+      "kind": "side",
+      "connections": [],
+      "connections_unresolved": [],
+      "djinn": [
+        "gel"
+      ],
+      "monsters": [],
+      "bosses": [],
+      "summons": [],
+      "psynergy": [],
+      "pickups": [
+        {
+          "name": "Apple",
+          "ref_type": "item",
+          "ref_id": "apple"
+        }
+      ],
+      "forging": [],
+      "shop": null
+    },
+    "kandorean-temple": {
+      "name": "Kandorean Temple",
+      "order": 4,
+      "kind": "main",
+      "connections": [],
+      "connections_unresolved": [],
+      "djinn": [
+        "fog"
+      ],
+      "monsters": [
+        "amaze",
+        "angle-worm",
+        "giant-bat",
+        "mimic-9",
+        "punch-ant",
+        "wild-wolf"
+      ],
+      "bosses": [
+        "chestbeater"
+      ],
+      "summons": [],
+      "psynergy": [
+        "lash",
+        "avoid"
+      ],
+      "pickups": [
+        {
+          "name": "Game Ticket",
+          "ref_type": "item",
+          "ref_id": "game-ticket"
+        },
+        {
+          "name": "Mysterious Card",
+          "ref_type": "equipment",
+          "ref_id": "mysterious-card"
+        },
+        {
+          "name": "Lash Pebble",
+          "ref_type": "item",
+          "ref_id": "lash-pebble"
+        }
+      ],
+      "forging": [],
+      "shop": null
+    },
+    "kibombo": {
+      "name": "Kibombo",
+      "order": 21,
+      "kind": "main",
+      "connections": [
+        "gabomba-statue"
+      ],
+      "connections_unresolved": [],
+      "djinn": [
+        "spring",
+        "shade"
+      ],
+      "monsters": [],
+      "bosses": [],
+      "summons": [],
+      "psynergy": [
+        "frost"
+      ],
+      "pickups": [
+        {
+          "name": "Lucky Pepper",
+          "ref_type": "item",
+          "ref_id": "lucky-pepper"
+        },
+        {
+          "name": "Nut",
+          "ref_type": "item",
+          "ref_id": "nut"
+        },
+        {
+          "name": "Lucky Medal",
+          "ref_type": "item",
+          "ref_id": "lucky-medal"
+        },
+        {
+          "name": "Psynergy Stone",
+          "ref_type": null,
+          "ref_id": null
+        }
+      ],
+      "forging": [],
+      "shop": "kibombo"
+    },
+    "kibombo-mountains": {
+      "name": "Kibombo Mountains",
+      "order": 20,
+      "kind": "main",
+      "connections": [
+        "kibombo"
+      ],
+      "connections_unresolved": [],
+      "djinn": [
+        "waft"
+      ],
+      "monsters": [
+        "assassin",
+        "dirge",
+        "pixie",
+        "wild-gorilla"
+      ],
+      "bosses": [],
+      "summons": [],
+      "psynergy": [],
+      "pickups": [
+        {
+          "name": "Smoke Bomb",
+          "ref_type": "item",
+          "ref_id": "smoke-bomb"
+        },
+        {
+          "name": "Bone",
+          "ref_type": "item",
+          "ref_id": "bone"
+        },
+        {
+          "name": "Power Bread",
+          "ref_type": "item",
+          "ref_id": "power-bread"
+        },
+        {
+          "name": "Tear Stone",
+          "ref_type": "item",
+          "ref_id": "tear-stone"
+        },
+        {
+          "name": "Disk Axe",
+          "ref_type": "equipment",
+          "ref_id": "disk-axe"
+        }
+      ],
+      "forging": [],
+      "shop": null
+    },
+    "lemuria": {
+      "name": "Lemuria",
+      "order": 43,
+      "kind": "main",
+      "connections": [
+        "gondowan-cliffs"
+      ],
+      "connections_unresolved": [],
+      "djinn": [
+        "rime"
+      ],
+      "monsters": [],
+      "bosses": [],
+      "summons": [
+        "eclipse"
+      ],
+      "psynergy": [
+        "grind"
+      ],
+      "pickups": [
+        {
+          "name": "Mist Potion",
+          "ref_type": "item",
+          "ref_id": "mist-potion"
+        },
+        {
+          "name": "Lucky Medal",
+          "ref_type": "item",
+          "ref_id": "lucky-medal"
+        },
+        {
+          "name": "Bone",
+          "ref_type": "item",
+          "ref_id": "bone"
+        },
+        {
+          "name": "Star Dust",
+          "ref_type": "item",
+          "ref_id": "star-dust"
+        },
+        {
+          "name": "Rusty Sword",
+          "ref_type": "equipment",
+          "ref_id": "rusty-sword-4"
+        },
+        {
+          "name": "Hard Nut",
+          "ref_type": "item",
+          "ref_id": "hard-nut"
+        },
+        {
+          "name": "Grindstone",
+          "ref_type": "item",
+          "ref_id": "grindstone"
+        },
+        {
+          "name": "Hestia Blade",
+          "ref_type": "equipment",
+          "ref_id": "hestia-blade"
+        },
+        {
+          "name": "Mighty Axe",
+          "ref_type": "equipment",
+          "ref_id": "mighty-axe"
+        },
+        {
+          "name": "Erebus Armor",
+          "ref_type": "equipment",
+          "ref_id": "erebus-armor"
+        },
+        {
+          "name": "Aegis Shield",
+          "ref_type": "equipment",
+          "ref_id": "aegis-shield"
+        }
+      ],
+      "forging": [],
+      "shop": null
+    },
+    "lemurian-ship": {
+      "name": "Lemurian Ship",
+      "order": 24,
+      "kind": "main",
+      "connections": [],
+      "connections_unresolved": [
+        "eastern-sea"
+      ],
+      "djinn": [],
+      "monsters": [
+        "aqua-jelly"
+      ],
+      "bosses": [
+        "aqua-hydra"
+      ],
+      "summons": [],
+      "psynergy": [],
+      "pickups": [
+        {
+          "name": "Elixir",
+          "ref_type": "item",
+          "ref_id": "elixir"
+        },
+        {
+          "name": "Potion",
+          "ref_type": "item",
+          "ref_id": "potion"
+        },
+        {
+          "name": "Antidote",
+          "ref_type": "item",
+          "ref_id": "antidote"
+        }
+      ],
+      "forging": [],
+      "shop": null
+    },
+    "loho": {
+      "name": "Loho",
+      "order": 54,
+      "kind": "main",
+      "connections": [],
+      "connections_unresolved": [],
+      "djinn": [
+        "lull"
+      ],
+      "monsters": [],
+      "bosses": [],
+      "summons": [],
+      "psynergy": [],
+      "pickups": [
+        {
+          "name": "Golem Core",
+          "ref_type": "item",
+          "ref_id": "golem-core"
+        },
+        {
+          "name": "Mythril Silver",
+          "ref_type": "item",
+          "ref_id": "mythril-silver"
+        },
+        {
+          "name": "Crystal Powder",
+          "ref_type": "item",
+          "ref_id": "crystal-powder"
+        },
+        {
+          "name": "Game Tickets",
+          "ref_type": null,
+          "ref_id": null
+        }
+      ],
+      "forging": [],
+      "shop": null
+    },
+    "madra": {
+      "name": "Madra",
+      "order": 8,
+      "kind": "main",
+      "connections": [
+        "gondowan-cliffs",
+        "madra-drawbridge"
+      ],
+      "connections_unresolved": [
+        "osenia"
+      ],
+      "djinn": [
+        "char"
+      ],
+      "monsters": [],
+      "bosses": [],
+      "summons": [],
+      "psynergy": [],
+      "pickups": [
+        {
+          "name": "Antidote",
+          "ref_type": "item",
+          "ref_id": "antidote"
+        },
+        {
+          "name": "Smoke Bomb",
+          "ref_type": "item",
+          "ref_id": "smoke-bomb"
+        },
+        {
+          "name": "Sleep Bomb",
+          "ref_type": "item",
+          "ref_id": "sleep-bomb"
+        },
+        {
+          "name": "Elixir",
+          "ref_type": "item",
+          "ref_id": "elixir"
+        },
+        {
+          "name": "15 Coins",
+          "ref_type": null,
+          "ref_id": null
+        },
+        {
+          "name": "Nurse's Cap",
+          "ref_type": "equipment",
+          "ref_id": "nurse-s-cap"
+        },
+        {
+          "name": "Magic Rod",
+          "ref_type": "equipment",
+          "ref_id": "magic-rod"
+        }
+      ],
+      "forging": [],
+      "shop": "madra"
+    },
+    "madra-catacombs": {
+      "name": "Madra Catacombs",
+      "order": 9,
+      "kind": "main",
+      "connections": [
+        "madra"
+      ],
+      "connections_unresolved": [],
+      "djinn": [],
+      "monsters": [],
+      "bosses": [],
+      "summons": [
+        "moloch"
+      ],
+      "psynergy": [
+        "tremor"
+      ],
+      "pickups": [
+        {
+          "name": "Tremor Bit",
+          "ref_type": "item",
+          "ref_id": "tremor-bit"
+        },
+        {
+          "name": "Apple",
+          "ref_type": "item",
+          "ref_id": "apple"
+        },
+        {
+          "name": "Lucky Medal",
+          "ref_type": "item",
+          "ref_id": "lucky-medal"
+        },
+        {
+          "name": "Mist Potion",
+          "ref_type": "item",
+          "ref_id": "mist-potion"
+        },
+        {
+          "name": "Ruin Key",
+          "ref_type": "item",
+          "ref_id": "ruin-key"
+        }
+      ],
+      "forging": [],
+      "shop": null
+    },
+    "madra-drawbridge": {
+      "name": "Madra Drawbridge",
+      "order": 10,
+      "kind": "main",
+      "connections": [
+        "madra",
+        "alhafra"
+      ],
+      "connections_unresolved": [
+        "osenia"
+      ],
+      "djinn": [],
+      "monsters": [],
+      "bosses": [],
+      "summons": [],
+      "psynergy": [],
+      "pickups": [],
+      "forging": [],
+      "shop": null
+    },
+    "magma-rock": {
+      "name": "Magma Rock",
+      "order": 52,
+      "kind": "main",
+      "connections": [],
+      "connections_unresolved": [],
+      "djinn": [
+        "fury"
+      ],
+      "monsters": [
+        "mimic-9",
+        "lich",
+        "little-death",
+        "phoenix",
+        "raging-rock",
+        "wise-gryphon",
+        "grand-chimera",
+        "lesser-demon"
+      ],
+      "bosses": [],
+      "summons": [],
+      "psynergy": [
+        "blaze"
+      ],
+      "pickups": [
+        {
+          "name": "Apple",
+          "ref_type": "item",
+          "ref_id": "apple"
+        },
+        {
+          "name": "383 Coins",
+          "ref_type": null,
+          "ref_id": null
+        },
+        {
+          "name": "Oil Drop",
+          "ref_type": null,
+          "ref_id": null
+        },
+        {
+          "name": "Salamander Tail",
+          "ref_type": "item",
+          "ref_id": "salamander-tail"
+        },
+        {
+          "name": "Mist Potion",
+          "ref_type": "item",
+          "ref_id": "mist-potion"
+        },
+        {
+          "name": "Lucky Medal",
+          "ref_type": "item",
+          "ref_id": "lucky-medal"
+        },
+        {
+          "name": "Golem Core",
+          "ref_type": "item",
+          "ref_id": "golem-core"
+        },
+        {
+          "name": "Magma Ball",
+          "ref_type": "item",
+          "ref_id": "magma-ball"
+        }
+      ],
+      "forging": [],
+      "shop": null
+    },
+    "mars-lighthouse": {
+      "name": "Mars Lighthouse",
+      "order": 57,
+      "kind": "main",
+      "connections": [],
+      "connections_unresolved": [],
+      "djinn": [
+        "balm",
+        "fugue"
+      ],
+      "monsters": [
+        "mimic-9"
+      ],
+      "bosses": [
+        "flame-dragon",
+        "doom-dragon"
+      ],
+      "summons": [],
+      "psynergy": [
+        "teleport"
+      ],
+      "pickups": [
+        {
+          "name": "Apple",
+          "ref_type": "item",
+          "ref_id": "apple"
+        },
+        {
+          "name": "Cookie",
+          "ref_type": "item",
+          "ref_id": "cookie"
+        },
+        {
+          "name": "Orihalcon",
+          "ref_type": "item",
+          "ref_id": "orihalcon"
+        },
+        {
+          "name": "Teleport Lapis",
+          "ref_type": "item",
+          "ref_id": "teleport-lapis"
+        },
+        {
+          "name": "Valkyrie Mail",
+          "ref_type": "equipment",
+          "ref_id": "valkyrie-mail"
+        },
+        {
+          "name": "Sol Blade",
+          "ref_type": "equipment",
+          "ref_id": "sol-blade"
+        },
+        {
+          "name": "Mars Star",
+          "ref_type": "item",
+          "ref_id": "mars-star"
+        },
+        {
+          "name": "Psy Crystal",
+          "ref_type": "item",
+          "ref_id": "psy-crystal"
+        },
+        {
+          "name": "Alastor's Hood",
+          "ref_type": "equipment",
+          "ref_id": "alastor-s-hood"
+        }
+      ],
+      "forging": [],
+      "shop": null
+    },
+    "mikasalla": {
+      "name": "Mikasalla",
+      "order": 17,
+      "kind": "main",
+      "connections": [
+        "garoh"
+      ],
+      "connections_unresolved": [],
+      "djinn": [
+        "spark"
+      ],
+      "monsters": [],
+      "bosses": [],
+      "summons": [],
+      "psynergy": [],
+      "pickups": [
+        {
+          "name": "Nut",
+          "ref_type": "item",
+          "ref_id": "nut"
+        },
+        {
+          "name": "Elixir",
+          "ref_type": "item",
+          "ref_id": "elixir"
+        },
+        {
+          "name": "Herb",
+          "ref_type": "item",
+          "ref_id": "herb"
+        },
+        {
+          "name": "Lucky Pepper",
+          "ref_type": "item",
+          "ref_id": "lucky-pepper"
+        },
+        {
+          "name": "82 Coins",
+          "ref_type": null,
+          "ref_id": null
+        }
+      ],
+      "forging": [],
+      "shop": null
+    },
+    "naribwe": {
+      "name": "Naribwe",
+      "order": 19,
+      "kind": "main",
+      "connections": [
+        "kibombo-mountains",
+        "kibombo"
+      ],
+      "connections_unresolved": [],
+      "djinn": [],
+      "monsters": [],
+      "bosses": [],
+      "summons": [],
+      "psynergy": [],
+      "pickups": [
+        {
+          "name": "Elixir",
+          "ref_type": "item",
+          "ref_id": "elixir"
+        },
+        {
+          "name": "Sleep Bomb",
+          "ref_type": "item",
+          "ref_id": "sleep-bomb"
+        },
+        {
+          "name": "18 Coins",
+          "ref_type": null,
+          "ref_id": null
+        },
+        {
+          "name": "Unicorn Ring",
+          "ref_type": "equipment",
+          "ref_id": "unicorn-ring"
+        },
+        {
+          "name": "Thorn Crown",
+          "ref_type": "equipment",
+          "ref_id": "thorn-crown"
+        }
+      ],
+      "forging": [],
+      "shop": null
+    },
+    "north-osenia-islet": {
+      "name": "North Osenia Islet",
+      "order": 25,
+      "kind": "side",
+      "connections": [
+        "alhafra",
+        "sea-of-time"
+      ],
+      "connections_unresolved": [],
+      "djinn": [],
+      "monsters": [],
+      "bosses": [],
+      "summons": [],
+      "psynergy": [],
+      "pickups": [
+        {
+          "name": "Lucky Medal",
+          "ref_type": "item",
+          "ref_id": "lucky-medal"
+        },
+        {
+          "name": "Milk",
+          "ref_type": "item",
+          "ref_id": "milk"
+        }
+      ],
+      "forging": [],
+      "shop": null
+    },
+    "northern-reaches": {
+      "name": "Northern Reaches",
+      "order": 55,
+      "kind": "main",
+      "connections": [
+        "prox"
+      ],
+      "connections_unresolved": [],
+      "djinn": [],
+      "monsters": [
+        "grand-chimera",
+        "phoenix",
+        "spiral-shell",
+        "turtle-dragon"
+      ],
+      "bosses": [],
+      "summons": [],
+      "psynergy": [],
+      "pickups": [],
+      "forging": [],
+      "shop": null
+    },
+    "osenia-cavern": {
+      "name": "Osenia Cavern",
+      "order": 16,
+      "kind": "main",
+      "connections": [
+        "mikasalla"
+      ],
+      "connections_unresolved": [],
+      "djinn": [
+        "sour"
+      ],
+      "monsters": [],
+      "bosses": [],
+      "summons": [
+        "megaera"
+      ],
+      "psynergy": [],
+      "pickups": [],
+      "forging": [],
+      "shop": null
+    },
+    "osenia-cliffs": {
+      "name": "Osenia Cliffs",
+      "order": 11,
+      "kind": "main",
+      "connections": [],
+      "connections_unresolved": [
+        "osenia"
+      ],
+      "djinn": [],
+      "monsters": [],
+      "bosses": [],
+      "summons": [],
+      "psynergy": [],
+      "pickups": [
+        {
+          "name": "Pirate's Sword",
+          "ref_type": "equipment",
+          "ref_id": "pirate-s-sword"
+        }
+      ],
+      "forging": [],
+      "shop": null
+    },
+    "prox": {
+      "name": "Prox",
+      "order": 56,
+      "kind": "main",
+      "connections": [
+        "mars-lighthouse"
+      ],
+      "connections_unresolved": [],
+      "djinn": [
+        "mold"
+      ],
+      "monsters": [],
+      "bosses": [],
+      "summons": [],
+      "psynergy": [],
+      "pickups": [
+        {
+          "name": "Dark Matter",
+          "ref_type": "item",
+          "ref_id": "dark-matter"
+        }
+      ],
+      "forging": [],
+      "shop": null
+    },
+    "se-angara-islet": {
+      "name": "SE Angara Islet",
+      "order": 35,
+      "kind": "side",
+      "connections": [
+        "sea-of-time",
+        "east-tundaria-islet",
+        "treasure-isle",
+        "sea-of-time-islet"
+      ],
+      "connections_unresolved": [],
+      "djinn": [],
+      "monsters": [],
+      "bosses": [],
+      "summons": [],
+      "psynergy": [],
+      "pickups": [
+        {
+          "name": "Lucky Medal",
+          "ref_type": "item",
+          "ref_id": "lucky-medal"
+        },
+        {
+          "name": "Red Scarf",
+          "ref_type": null,
+          "ref_id": null
+        },
+        {
+          "name": "Rusty Mace",
+          "ref_type": "equipment",
+          "ref_id": "rusty-mace-2"
+        },
+        {
+          "name": "Rusty Axe",
+          "ref_type": "equipment",
+          "ref_id": "rusty-axe-2"
+        }
+      ],
+      "forging": [],
+      "shop": null
+    },
+    "sea-of-time": {
+      "name": "Sea of Time",
+      "order": 42,
+      "kind": "main",
+      "connections": [
+        "yallam",
+        "lemuria"
+      ],
+      "connections_unresolved": [],
+      "djinn": [],
+      "monsters": [],
+      "bosses": [
+        "poseidon"
+      ],
+      "summons": [],
+      "psynergy": [],
+      "pickups": [],
+      "forging": [],
+      "shop": null
+    },
+    "sea-of-time-islet": {
+      "name": "Sea of Time Islet",
+      "order": 28,
+      "kind": "main",
+      "connections": [
+        "east-tundaria-islet",
+        "se-angara-islet",
+        "north-osenia-islet",
+        "west-indra-islet",
+        "yallam"
+      ],
+      "connections_unresolved": [],
+      "djinn": [
+        "meld",
+        "serac"
+      ],
+      "monsters": [
+        "wonder-bird"
+      ],
+      "bosses": [
+        "sentinel"
+      ],
+      "summons": [
+        "catastrophe"
+      ],
+      "psynergy": [],
+      "pickups": [
+        {
+          "name": "Lucky Medal",
+          "ref_type": "item",
+          "ref_id": "lucky-medal"
+        },
+        {
+          "name": "Li'l Turtle",
+          "ref_type": "item",
+          "ref_id": "li-l-turtle"
+        },
+        {
+          "name": "Turtle Boots",
+          "ref_type": "equipment",
+          "ref_id": "turtle-boots"
+        },
+        {
+          "name": "Rusty Staff",
+          "ref_type": "equipment",
+          "ref_id": "rusty-staff-3"
+        }
+      ],
+      "forging": [],
+      "shop": null
+    },
+    "shaman-village": {
+      "name": "Shaman Village",
+      "order": 46,
+      "kind": "main",
+      "connections": [
+        "trial-road",
+        "contigo"
+      ],
+      "connections_unresolved": [],
+      "djinn": [
+        "aroma"
+      ],
+      "monsters": [],
+      "bosses": [],
+      "summons": [],
+      "psynergy": [],
+      "pickups": [
+        {
+          "name": "Elixir",
+          "ref_type": "item",
+          "ref_id": "elixir"
+        },
+        {
+          "name": "Spirit Gloves",
+          "ref_type": "equipment",
+          "ref_id": "spirit-gloves-2"
+        },
+        {
+          "name": "Hover Jade",
+          "ref_type": "item",
+          "ref_id": "hover-jade"
+        },
+        {
+          "name": "Weasel's Claw",
+          "ref_type": "item",
+          "ref_id": "weasel-s-claw"
+        },
+        {
+          "name": "Lucky Pepper",
+          "ref_type": "item",
+          "ref_id": "lucky-pepper"
+        },
+        {
+          "name": "Lucky Medal",
+          "ref_type": "item",
+          "ref_id": "lucky-medal"
+        }
+      ],
+      "forging": [],
+      "shop": null
+    },
+    "shaman-village-cave": {
+      "name": "Shaman Village Cave",
+      "order": 45,
+      "kind": "main",
+      "connections": [
+        "shaman-village",
+        "contigo"
+      ],
+      "connections_unresolved": [],
+      "djinn": [
+        "eddy"
+      ],
+      "monsters": [],
+      "bosses": [],
+      "summons": [],
+      "psynergy": [],
+      "pickups": [
+        {
+          "name": "Golden Shirt",
+          "ref_type": "equipment",
+          "ref_id": "golden-shirt"
+        }
+      ],
+      "forging": [],
+      "shop": null
+    },
+    "shrine-of-the-sea-god": {
+      "name": "Shrine of the Sea God",
+      "order": 5,
+      "kind": "main",
+      "connections": [
+        "daila"
+      ],
+      "connections_unresolved": [],
+      "djinn": [
+        "breath"
+      ],
+      "monsters": [
+        "angle-worm",
+        "ghost",
+        "punch-ant",
+        "wild-wolf"
+      ],
+      "bosses": [],
+      "summons": [],
+      "psynergy": [],
+      "pickups": [
+        {
+          "name": "Rusty Staff",
+          "ref_type": "equipment",
+          "ref_id": "rusty-staff-3"
+        },
+        {
+          "name": "Right Prong",
+          "ref_type": "item",
+          "ref_id": "right-prong"
+        }
+      ],
+      "forging": [
+        {
+          "name": "Glower Staff",
+          "ref_type": "equipment",
+          "ref_id": "glower-staff"
+        }
+      ],
+      "shop": null
+    },
+    "suhalla-gate": {
+      "name": "Suhalla Gate",
+      "order": 1,
+      "kind": "main",
+      "connections": [
+        "idejima"
+      ],
+      "connections_unresolved": [],
+      "djinn": [],
+      "monsters": [
+        "ruffian",
+        "punch-ant"
+      ],
+      "bosses": [],
+      "summons": [],
+      "psynergy": [],
+      "pickups": [],
+      "forging": [],
+      "shop": null
+    },
+    "sw-atteka-islet": {
+      "name": "SW Atteka Islet",
+      "order": 48,
+      "kind": "main",
+      "connections": [],
+      "connections_unresolved": [],
+      "djinn": [
+        "petra",
+        "core",
+        "geode"
+      ],
+      "monsters": [],
+      "bosses": [],
+      "summons": [],
+      "psynergy": [],
+      "pickups": [
+        {
+          "name": "Vial",
+          "ref_type": "item",
+          "ref_id": "vial"
+        },
+        {
+          "name": "Orihalcon",
+          "ref_type": "item",
+          "ref_id": "orihalcon"
+        },
+        {
+          "name": "Dragon Skin",
+          "ref_type": "item",
+          "ref_id": "dragon-skin"
+        }
+      ],
+      "forging": [],
+      "shop": null
+    },
+    "taopo-swamp": {
+      "name": "Taopo Swamp",
+      "order": 38,
+      "kind": "side",
+      "connections": [
+        "yallam"
+      ],
+      "connections_unresolved": [],
+      "djinn": [
+        "flower"
+      ],
+      "monsters": [
+        "mad-plant-5"
+      ],
+      "bosses": [],
+      "summons": [],
+      "psynergy": [],
+      "pickups": [
+        {
+          "name": "Tear Stone",
+          "ref_type": "item",
+          "ref_id": "tear-stone"
+        },
+        {
+          "name": "Cookie",
+          "ref_type": "item",
+          "ref_id": "cookie"
+        },
+        {
+          "name": "Lucky Medal",
+          "ref_type": "item",
+          "ref_id": "lucky-medal"
+        },
+        {
+          "name": "Bramble Seed",
+          "ref_type": "item",
+          "ref_id": "bramble-seed"
+        },
+        {
+          "name": "Vial",
+          "ref_type": "item",
+          "ref_id": "vial"
+        },
+        {
+          "name": "Star Dust",
+          "ref_type": "item",
+          "ref_id": "star-dust"
+        }
+      ],
+      "forging": [],
+      "shop": null
+    },
+    "treasure-isle": {
+      "name": "Treasure Isle",
+      "order": 59,
+      "kind": "postgame",
+      "connections": [],
+      "connections_unresolved": [],
+      "djinn": [
+        "gale"
+      ],
+      "monsters": [
+        "mimic-9"
+      ],
+      "bosses": [
+        "star-magician"
+      ],
+      "summons": [
+        "azul"
+      ],
+      "psynergy": [],
+      "pickups": [
+        {
+          "name": "161 Coins",
+          "ref_type": null,
+          "ref_id": null
+        },
+        {
+          "name": "Lucky Medal",
+          "ref_type": "item",
+          "ref_id": "lucky-medal"
+        },
+        {
+          "name": "Jester's Armlet",
+          "ref_type": "equipment",
+          "ref_id": "jester-s-armlet"
+        },
+        {
+          "name": "911 Coins",
+          "ref_type": null,
+          "ref_id": null
+        },
+        {
+          "name": "Sylph Feather",
+          "ref_type": "item",
+          "ref_id": "sylph-feather"
+        },
+        {
+          "name": "Rusty Axe",
+          "ref_type": "equipment",
+          "ref_id": "rusty-axe-2"
+        },
+        {
+          "name": "Psy Crystal",
+          "ref_type": "item",
+          "ref_id": "psy-crystal"
+        },
+        {
+          "name": "Star Dust",
+          "ref_type": "item",
+          "ref_id": "star-dust"
+        },
+        {
+          "name": "Cookie",
+          "ref_type": "item",
+          "ref_id": "cookie"
+        },
+        {
+          "name": "Power Bread",
+          "ref_type": "item",
+          "ref_id": "power-bread"
+        },
+        {
+          "name": "Iris Robe",
+          "ref_type": "equipment",
+          "ref_id": "iris-robe"
+        },
+        {
+          "name": "Fire Brand",
+          "ref_type": "equipment",
+          "ref_id": "fire-brand"
+        }
+      ],
+      "forging": [],
+      "shop": null
+    },
+    "trial-road": {
+      "name": "Trial Road",
+      "order": 47,
+      "kind": "main",
+      "connections": [
+        "shaman-village"
+      ],
+      "connections_unresolved": [],
+      "djinn": [
+        "gasp"
+      ],
+      "monsters": [],
+      "bosses": [],
+      "summons": [],
+      "psynergy": [],
+      "pickups": [
+        {
+          "name": "Potion",
+          "ref_type": "item",
+          "ref_id": "potion"
+        },
+        {
+          "name": "Vial",
+          "ref_type": "item",
+          "ref_id": "vial"
+        },
+        {
+          "name": "Nut",
+          "ref_type": "item",
+          "ref_id": "nut"
+        }
+      ],
+      "forging": [],
+      "shop": null
+    },
+    "tundaria-tower": {
+      "name": "Tundaria Tower",
+      "order": 40,
+      "kind": "main",
+      "connections": [],
+      "connections_unresolved": [],
+      "djinn": [
+        "wheeze",
+        "reflux"
+      ],
+      "monsters": [],
+      "bosses": [],
+      "summons": [],
+      "psynergy": [
+        "burst"
+      ],
+      "pickups": [
+        {
+          "name": "365 Coins",
+          "ref_type": null,
+          "ref_id": null
+        },
+        {
+          "name": "Mint",
+          "ref_type": "item",
+          "ref_id": "mint"
+        },
+        {
+          "name": "Crystal Powder",
+          "ref_type": "item",
+          "ref_id": "crystal-powder"
+        },
+        {
+          "name": "Hard Nut",
+          "ref_type": "item",
+          "ref_id": "hard-nut"
+        },
+        {
+          "name": "Burst Brooch",
+          "ref_type": "item",
+          "ref_id": "burst-brooch"
+        },
+        {
+          "name": "Center Prong",
+          "ref_type": "item",
+          "ref_id": "center-prong"
+        },
+        {
+          "name": "Sylph Feather",
+          "ref_type": "item",
+          "ref_id": "sylph-feather"
+        },
+        {
+          "name": "Lucky Medal",
+          "ref_type": "item",
+          "ref_id": "lucky-medal"
+        },
+        {
+          "name": "Vial",
+          "ref_type": "item",
+          "ref_id": "vial"
+        },
+        {
+          "name": "Lightning Sword",
+          "ref_type": "equipment",
+          "ref_id": "lightning-sword"
+        }
+      ],
+      "forging": [],
+      "shop": null
+    },
+    "venus-lighthouse": {
+      "name": "Venus Lighthouse",
+      "order": 0,
+      "kind": "main",
+      "connections": [
+        "idejima",
+        "suhalla-gate"
+      ],
+      "connections_unresolved": [],
+      "djinn": [],
+      "monsters": [
+        "ruffian"
+      ],
+      "bosses": [],
+      "summons": [],
+      "psynergy": [],
+      "pickups": [
+        {
+          "name": "Herb",
+          "ref_type": "item",
+          "ref_id": "herb"
+        }
+      ],
+      "forging": [],
+      "shop": null
+    },
+    "west-indra-islet": {
+      "name": "West Indra Islet",
+      "order": 36,
+      "kind": "side",
+      "connections": [
+        "north-osenia-islet"
+      ],
+      "connections_unresolved": [],
+      "djinn": [],
+      "monsters": [],
+      "bosses": [],
+      "summons": [],
+      "psynergy": [],
+      "pickups": [
+        {
+          "name": "Lucky Medal",
+          "ref_type": "item",
+          "ref_id": "lucky-medal"
+        },
+        {
+          "name": "Li'l Turtle",
+          "ref_type": "item",
+          "ref_id": "li-l-turtle"
+        }
+      ],
+      "forging": [],
+      "shop": null
+    },
+    "yallam": {
+      "name": "Yallam",
+      "order": 37,
+      "kind": "main",
+      "connections": [
+        "east-tundaria-islet",
+        "champa",
+        "sea-of-time"
+      ],
+      "connections_unresolved": [],
+      "djinn": [],
+      "monsters": [],
+      "bosses": [],
+      "summons": [],
+      "psynergy": [],
+      "pickups": [
+        {
+          "name": "16 gold coins",
+          "ref_type": null,
+          "ref_id": null
+        },
+        {
+          "name": "Elixir",
+          "ref_type": "item",
+          "ref_id": "elixir"
+        },
+        {
+          "name": "Nut",
+          "ref_type": "item",
+          "ref_id": "nut"
+        },
+        {
+          "name": "Antidote",
+          "ref_type": "item",
+          "ref_id": "antidote"
+        },
+        {
+          "name": "Oil Drop",
+          "ref_type": null,
+          "ref_id": null
+        }
+      ],
+      "forging": [
+        {
+          "name": "Tear Stone",
+          "ref_type": "item",
+          "ref_id": "tear-stone"
+        },
+        {
+          "name": "Star Dust",
+          "ref_type": "item",
+          "ref_id": "star-dust"
+        },
+        {
+          "name": "rusty weapons",
+          "ref_type": null,
+          "ref_id": null
+        }
+      ],
+      "shop": "yallam"
+    },
+    "yampi-desert": {
+      "name": "Yampi Desert",
+      "order": 12,
+      "kind": "main",
+      "connections": [
+        "madra",
+        "alhafra",
+        "airs-rock",
+        "garoh"
+      ],
+      "connections_unresolved": [],
+      "djinn": [
+        "blitz",
+        "crystal"
+      ],
+      "monsters": [
+        "dino",
+        "emu",
+        "kobold",
+        "momonga",
+        "gnome",
+        "spider"
+      ],
+      "bosses": [
+        "king-scorpion",
+        "valukar"
+      ],
+      "summons": [
+        "daedalus"
+      ],
+      "psynergy": [
+        "scoop"
+      ],
+      "pickups": [
+        {
+          "name": "Guardian Ring",
+          "ref_type": "equipment",
+          "ref_id": "guardian-ring"
+        },
+        {
+          "name": "Antidote",
+          "ref_type": "item",
+          "ref_id": "antidote"
+        },
+        {
+          "name": "Lucky Medal",
+          "ref_type": "item",
+          "ref_id": "lucky-medal"
+        },
+        {
+          "name": "Trainer's Whip",
+          "ref_type": "equipment",
+          "ref_id": "trainer-s-whip"
+        },
+        {
+          "name": "Scoop Gem",
+          "ref_type": "item",
+          "ref_id": "scoop-gem"
+        },
+        {
+          "name": "315 Coins",
+          "ref_type": null,
+          "ref_id": null
+        },
+        {
+          "name": "Vial",
+          "ref_type": "item",
+          "ref_id": "vial"
+        },
+        {
+          "name": "Game Ticket",
+          "ref_type": "item",
+          "ref_id": "game-ticket"
+        },
+        {
+          "name": "Blow Mace",
+          "ref_type": "equipment",
+          "ref_id": "blow-mace"
+        },
+        {
+          "name": "Hard Nut",
+          "ref_type": "item",
+          "ref_id": "hard-nut"
+        },
+        {
+          "name": "Water of Life",
+          "ref_type": "item",
+          "ref_id": "water-of-life"
+        },
+        {
+          "name": "Mythril Silver",
+          "ref_type": "item",
+          "ref_id": "mythril-silver"
+        },
+        {
+          "name": "Dark Matter",
+          "ref_type": "item",
+          "ref_id": "dark-matter"
+        },
+        {
+          "name": "Orihalcon",
+          "ref_type": "item",
+          "ref_id": "orihalcon"
+        }
+      ],
+      "forging": [],
+      "shop": null
+    },
+    "yampi-desert-cave": {
+      "name": "Yampi Desert Cave",
+      "order": 60,
+      "kind": "postgame",
+      "connections": [
+        "alhafra"
+      ],
+      "connections_unresolved": [],
+      "djinn": [
+        "crystal"
+      ],
+      "monsters": [],
+      "bosses": [
+        "valukar"
+      ],
+      "summons": [
+        "daedalus"
+      ],
+      "psynergy": [],
+      "pickups": [
+        {
+          "name": "Water of Life",
+          "ref_type": "item",
+          "ref_id": "water-of-life"
+        },
+        {
+          "name": "Mythril Silver",
+          "ref_type": "item",
+          "ref_id": "mythril-silver"
+        },
+        {
+          "name": "Dark Matter",
+          "ref_type": "item",
+          "ref_id": "dark-matter"
+        },
+        {
+          "name": "Orihalcon",
+          "ref_type": "item",
+          "ref_id": "orihalcon"
+        }
+      ],
+      "forging": [],
+      "shop": null
+    }
+  },
+  "index": {
+    "djinn": {
+      "aroma": [
+        "shaman-village"
+      ],
+      "balm": [
+        "mars-lighthouse"
+      ],
+      "blitz": [
+        "yampi-desert"
+      ],
+      "breath": [
+        "shrine-of-the-sea-god"
+      ],
+      "cannon": [
+        "dehkan-plateau"
+      ],
+      "char": [
+        "madra"
+      ],
+      "chill": [
+        "gondowan-cliffs"
+      ],
+      "coal": [
+        "gaia-rock",
+        "izumo"
+      ],
+      "core": [
+        "sw-atteka-islet"
+      ],
+      "crystal": [
+        "yampi-desert",
+        "yampi-desert-cave"
+      ],
+      "echo": [
+        "daila"
+      ],
+      "eddy": [
+        "shaman-village-cave"
+      ],
+      "ether": [
+        "garoh"
+      ],
+      "flower": [
+        "taopo-swamp"
+      ],
+      "fog": [
+        "kandorean-temple"
+      ],
+      "fugue": [
+        "mars-lighthouse"
+      ],
+      "fury": [
+        "magma-rock"
+      ],
+      "gale": [
+        "treasure-isle"
+      ],
+      "gasp": [
+        "trial-road"
+      ],
+      "gel": [
+        "kalt-island"
+      ],
+      "geode": [
+        "sw-atteka-islet"
+      ],
+      "haze": [
+        "apojii-islands"
+      ],
+      "iron": [
+        "indra-cavern"
+      ],
+      "kindle": [
+        "gondowan-cliffs"
+      ],
+      "lull": [
+        "loho"
+      ],
+      "meld": [
+        "sea-of-time-islet"
+      ],
+      "mold": [
+        "prox"
+      ],
+      "mud": [
+        "gabomba-catacombs"
+      ],
+      "petra": [
+        "sw-atteka-islet"
+      ],
+      "reflux": [
+        "tundaria-tower"
+      ],
+      "rime": [
+        "lemuria"
+      ],
+      "salt": [
+        "contigo"
+      ],
+      "serac": [
+        "islet-cave",
+        "sea-of-time-islet"
+      ],
+      "shade": [
+        "kibombo"
+      ],
+      "shine": [
+        "contigo"
+      ],
+      "sour": [
+        "osenia-cavern"
+      ],
+      "spark": [
+        "mikasalla"
+      ],
+      "spring": [
+        "kibombo"
+      ],
+      "steam": [
+        "aqua-rock"
+      ],
+      "steel": [
+        "gabomba-statue"
+      ],
+      "tinder": [
+        "hesperia-settlement"
+      ],
+      "waft": [
+        "kibombo-mountains"
+      ],
+      "wheeze": [
+        "tundaria-tower"
+      ],
+      "whorl": [
+        "jupiter-lighthouse"
+      ]
+    },
+    "monsters": {
+      "amaze": [
+        "kandorean-temple"
+      ],
+      "angle-worm": [
+        "dehkan-plateau",
+        "kandorean-temple",
+        "shrine-of-the-sea-god"
+      ],
+      "aqua-jelly": [
+        "indra-cavern",
+        "lemurian-ship"
+      ],
+      "assassin": [
+        "kibombo-mountains"
+      ],
+      "bone-fighter": [
+        "gabomba-catacombs",
+        "gabomba-statue"
+      ],
+      "creeper": [
+        "airs-rock"
+      ],
+      "cruel-dragon": [
+        "islet-cave"
+      ],
+      "death-head": [
+        "gabomba-catacombs",
+        "gabomba-statue"
+      ],
+      "dino": [
+        "airs-rock",
+        "yampi-desert"
+      ],
+      "dirge": [
+        "kibombo-mountains"
+      ],
+      "doomsayer": [
+        "gabomba-catacombs",
+        "gabomba-statue"
+      ],
+      "emu": [
+        "airs-rock",
+        "yampi-desert"
+      ],
+      "flash-ant": [
+        "gondowan-cliffs"
+      ],
+      "ghost": [
+        "dehkan-plateau",
+        "shrine-of-the-sea-god"
+      ],
+      "ghoul": [
+        "airs-rock",
+        "alhafra"
+      ],
+      "giant-bat": [
+        "kandorean-temple"
+      ],
+      "gnome": [
+        "yampi-desert"
+      ],
+      "grand-chimera": [
+        "magma-rock",
+        "northern-reaches"
+      ],
+      "harpy": [
+        "airs-rock",
+        "alhafra"
+      ],
+      "kobold": [
+        "airs-rock",
+        "yampi-desert"
+      ],
+      "lesser-demon": [
+        "magma-rock"
+      ],
+      "lich": [
+        "magma-rock"
+      ],
+      "little-death": [
+        "magma-rock"
+      ],
+      "mad-plant-5": [
+        "gabomba-catacombs",
+        "gaia-rock",
+        "jupiter-lighthouse",
+        "taopo-swamp"
+      ],
+      "mimic-9": [
+        "airs-rock",
+        "aqua-rock",
+        "gabomba-statue",
+        "gaia-rock",
+        "jupiter-lighthouse",
+        "kandorean-temple",
+        "magma-rock",
+        "mars-lighthouse",
+        "treasure-isle"
+      ],
+      "mini-goblin": [
+        "dehkan-plateau"
+      ],
+      "momonga": [
+        "yampi-desert"
+      ],
+      "mummy": [
+        "airs-rock"
+      ],
+      "ooze": [
+        "alhafra"
+      ],
+      "phoenix": [
+        "magma-rock",
+        "northern-reaches"
+      ],
+      "pixie": [
+        "kibombo-mountains"
+      ],
+      "punch-ant": [
+        "kandorean-temple",
+        "shrine-of-the-sea-god",
+        "suhalla-gate"
+      ],
+      "raging-rock": [
+        "magma-rock"
+      ],
+      "rat-soldier": [
+        "dehkan-plateau"
+      ],
+      "red-demon": [
+        "gabomba-catacombs",
+        "gabomba-statue"
+      ],
+      "ruffian": [
+        "suhalla-gate",
+        "venus-lighthouse"
+      ],
+      "salamander": [
+        "gabomba-catacombs",
+        "gabomba-statue"
+      ],
+      "skeleton": [
+        "dehkan-plateau"
+      ],
+      "spider": [
+        "yampi-desert"
+      ],
+      "spiral-shell": [
+        "northern-reaches"
+      ],
+      "spirit": [
+        "gabomba-catacombs",
+        "gabomba-statue"
+      ],
+      "turtle-dragon": [
+        "northern-reaches"
+      ],
+      "wild-gorilla": [
+        "gondowan-cliffs",
+        "kibombo-mountains"
+      ],
+      "wild-wolf": [
+        "kandorean-temple",
+        "shrine-of-the-sea-god"
+      ],
+      "wise-gryphon": [
+        "magma-rock"
+      ],
+      "wolfkin-cub": [
+        "gondowan-cliffs"
+      ],
+      "wonder-bird": [
+        "sea-of-time-islet"
+      ],
+      "wyvern-chick": [
+        "gondowan-cliffs"
+      ]
+    },
+    "bosses": {
+      "aqua-hydra": [
+        "indra-cavern",
+        "lemurian-ship"
+      ],
+      "avimander": [
+        "champa"
+      ],
+      "briggs": [
+        "alhafra"
+      ],
+      "chestbeater": [
+        "kandorean-temple"
+      ],
+      "doom-dragon": [
+        "mars-lighthouse"
+      ],
+      "dullahan": [
+        "anemos-sanctum"
+      ],
+      "flame-dragon": [
+        "mars-lighthouse"
+      ],
+      "king-scorpion": [
+        "yampi-desert"
+      ],
+      "poseidon": [
+        "sea-of-time"
+      ],
+      "sea-fighter": [
+        "alhafra"
+      ],
+      "sentinel": [
+        "islet-cave",
+        "sea-of-time-islet"
+      ],
+      "serpent": [
+        "gaia-rock"
+      ],
+      "star-magician": [
+        "treasure-isle"
+      ],
+      "valukar": [
+        "yampi-desert",
+        "yampi-desert-cave"
+      ]
+    },
+    "summons": {
+      "azul": [
+        "treasure-isle"
+      ],
+      "catastrophe": [
+        "islet-cave",
+        "sea-of-time-islet"
+      ],
+      "charon": [
+        "anemos-sanctum"
+      ],
+      "coatlicue": [
+        "atteka-cavern"
+      ],
+      "daedalus": [
+        "yampi-desert",
+        "yampi-desert-cave"
+      ],
+      "eclipse": [
+        "lemuria"
+      ],
+      "flora": [
+        "airs-rock"
+      ],
+      "haures": [
+        "atteka-cavern"
+      ],
+      "iris": [
+        "anemos-sanctum"
+      ],
+      "megaera": [
+        "osenia-cavern"
+      ],
+      "moloch": [
+        "madra-catacombs"
+      ],
+      "ulysses": [
+        "izumo-ruins"
+      ],
+      "zagan": [
+        "indra-cavern"
+      ]
+    },
+    "shops": {
+      "alhafra": [
+        "alhafra"
+      ],
+      "apojii-islands": [
+        "apojii-islands"
+      ],
+      "champa": [
+        "champa"
+      ],
+      "contigo": [
+        "contigo"
+      ],
+      "daila": [
+        "daila"
+      ],
+      "garoh": [
+        "garoh"
+      ],
+      "izumo": [
+        "izumo"
+      ],
+      "kibombo": [
+        "kibombo"
+      ],
+      "madra": [
+        "madra"
+      ],
+      "yallam": [
+        "yallam"
+      ]
+    }
+  }
+}

@@ -100,8 +100,8 @@
       "items": [
         {
           "name": "Smoke Bomb",
-          "ref_type": null,
-          "ref_id": null,
+          "ref_type": "item",
+          "ref_id": "smoke-bomb",
           "icc": 6
         }
       ]
@@ -273,8 +273,8 @@
       "items": [
         {
           "name": "Game Ticket",
-          "ref_type": null,
-          "ref_id": null,
+          "ref_type": "item",
+          "ref_id": "game-ticket",
           "icc": 1
         }
       ]
@@ -386,8 +386,8 @@
       "items": [
         {
           "name": "Oil Drop",
-          "ref_type": null,
-          "ref_id": null,
+          "ref_type": "item",
+          "ref_id": "oil-drops",
           "icc": 5
         }
       ]
@@ -549,8 +549,8 @@
       "items": [
         {
           "name": "Oil Drop",
-          "ref_type": null,
-          "ref_id": null,
+          "ref_type": "item",
+          "ref_id": "oil-drops",
           "icc": 5
         }
       ]
@@ -713,8 +713,8 @@
       "items": [
         {
           "name": "Sleep Bomb",
-          "ref_type": null,
-          "ref_id": null,
+          "ref_type": "item",
+          "ref_id": "sleep-bomb",
           "icc": 5
         }
       ]
@@ -770,8 +770,8 @@
       "items": [
         {
           "name": "Smoke Bomb",
-          "ref_type": null,
-          "ref_id": null,
+          "ref_type": "item",
+          "ref_id": "smoke-bomb",
           "icc": 5
         }
       ]
@@ -932,8 +932,8 @@
       "items": [
         {
           "name": "Smoke Bomb",
-          "ref_type": null,
-          "ref_id": null,
+          "ref_type": "item",
+          "ref_id": "smoke-bomb",
           "icc": 6
         }
       ]
@@ -1149,8 +1149,8 @@
       "items": [
         {
           "name": "Oil Drop",
-          "ref_type": null,
-          "ref_id": null,
+          "ref_type": "item",
+          "ref_id": "oil-drops",
           "icc": 5
         }
       ]
@@ -1262,8 +1262,8 @@
       "items": [
         {
           "name": "Weasel's Claw",
-          "ref_type": null,
-          "ref_id": null,
+          "ref_type": "item",
+          "ref_id": "weasel-s-claw",
           "icc": 6
         }
       ]
@@ -1597,8 +1597,8 @@
       "items": [
         {
           "name": "Oil Drop",
-          "ref_type": null,
-          "ref_id": null,
+          "ref_type": "item",
+          "ref_id": "oil-drops",
           "icc": 6
         }
       ]
@@ -1927,8 +1927,8 @@
       "items": [
         {
           "name": "Lucky Medal",
-          "ref_type": null,
-          "ref_id": null,
+          "ref_type": "item",
+          "ref_id": "lucky-medal",
           "icc": 1
         }
       ]
@@ -1983,8 +1983,8 @@
       "items": [
         {
           "name": "Weasel's Claw",
-          "ref_type": null,
-          "ref_id": null,
+          "ref_type": "item",
+          "ref_id": "weasel-s-claw",
           "icc": 6
         }
       ]
@@ -2150,8 +2150,8 @@
       "items": [
         {
           "name": "Weasel's Claw",
-          "ref_type": null,
-          "ref_id": null,
+          "ref_type": "item",
+          "ref_id": "weasel-s-claw",
           "icc": 6
         }
       ]
@@ -2263,8 +2263,8 @@
       "items": [
         {
           "name": "Bramble Seed",
-          "ref_type": null,
-          "ref_id": null,
+          "ref_type": "item",
+          "ref_id": "bramble-seed",
           "icc": 6
         }
       ]
@@ -2373,8 +2373,8 @@
       "items": [
         {
           "name": "Sleep Bomb",
-          "ref_type": null,
-          "ref_id": null,
+          "ref_type": "item",
+          "ref_id": "sleep-bomb",
           "icc": 6
         }
       ]
@@ -2486,8 +2486,8 @@
       "items": [
         {
           "name": "Bramble Seed",
-          "ref_type": null,
-          "ref_id": null,
+          "ref_type": "item",
+          "ref_id": "bramble-seed",
           "icc": 5
         }
       ]
@@ -2817,8 +2817,8 @@
       "items": [
         {
           "name": "Oil Drop",
-          "ref_type": null,
-          "ref_id": null,
+          "ref_type": "item",
+          "ref_id": "oil-drops",
           "icc": 6
         }
       ]
@@ -2876,8 +2876,8 @@
       "items": [
         {
           "name": "Oil Drop",
-          "ref_type": null,
-          "ref_id": null,
+          "ref_type": "item",
+          "ref_id": "oil-drops",
           "icc": 5
         }
       ]
@@ -2933,8 +2933,8 @@
       "items": [
         {
           "name": "Crystal Powder",
-          "ref_type": null,
-          "ref_id": null,
+          "ref_type": "item",
+          "ref_id": "crystal-powder",
           "icc": 6
         }
       ]
@@ -2991,8 +2991,8 @@
       "items": [
         {
           "name": "Hard Nut",
-          "ref_type": null,
-          "ref_id": null,
+          "ref_type": "item",
+          "ref_id": "hard-nut",
           "icc": 1
         }
       ]
@@ -3209,8 +3209,8 @@
       "items": [
         {
           "name": "Game Ticket",
-          "ref_type": null,
-          "ref_id": null,
+          "ref_type": "item",
+          "ref_id": "game-ticket",
           "icc": 1
         }
       ]
@@ -3365,8 +3365,8 @@
       "items": [
         {
           "name": "Sleep Bomb",
-          "ref_type": null,
-          "ref_id": null,
+          "ref_type": "item",
+          "ref_id": "sleep-bomb",
           "icc": 6
         }
       ]
@@ -3701,8 +3701,8 @@
       "items": [
         {
           "name": "Crystal Powder",
-          "ref_type": null,
-          "ref_id": null,
+          "ref_type": "item",
+          "ref_id": "crystal-powder",
           "icc": 6
         }
       ]
@@ -3757,8 +3757,8 @@
       "items": [
         {
           "name": "Bramble Seed",
-          "ref_type": null,
-          "ref_id": null,
+          "ref_type": "item",
+          "ref_id": "bramble-seed",
           "icc": 6
         }
       ]
@@ -3813,8 +3813,8 @@
       "items": [
         {
           "name": "Sleep Bomb",
-          "ref_type": null,
-          "ref_id": null,
+          "ref_type": "item",
+          "ref_id": "sleep-bomb",
           "icc": 6
         }
       ]
@@ -3867,8 +3867,8 @@
       "items": [
         {
           "name": "Smoke Bomb",
-          "ref_type": null,
-          "ref_id": null,
+          "ref_type": "item",
+          "ref_id": "smoke-bomb",
           "icc": 6
         }
       ]
@@ -3981,8 +3981,8 @@
       "items": [
         {
           "name": "Weasel's Claw",
-          "ref_type": null,
-          "ref_id": null,
+          "ref_type": "item",
+          "ref_id": "weasel-s-claw",
           "icc": 6
         }
       ]
@@ -4151,8 +4151,8 @@
       "items": [
         {
           "name": "Bramble Seed",
-          "ref_type": null,
-          "ref_id": null,
+          "ref_type": "item",
+          "ref_id": "bramble-seed",
           "icc": 5
         }
       ]
@@ -4321,8 +4321,8 @@
       "items": [
         {
           "name": "Lucky Medal",
-          "ref_type": null,
-          "ref_id": null,
+          "ref_type": "item",
+          "ref_id": "lucky-medal",
           "icc": 1
         }
       ]
@@ -4652,8 +4652,8 @@
       "items": [
         {
           "name": "Unicorn Ring",
-          "ref_type": null,
-          "ref_id": null,
+          "ref_type": "equipment",
+          "ref_id": "unicorn-ring",
           "icc": 7
         }
       ]
@@ -5279,8 +5279,8 @@
       "items": [
         {
           "name": "Aura Gloves",
-          "ref_type": null,
-          "ref_id": null,
+          "ref_type": "equipment",
+          "ref_id": "aura-gloves",
           "icc": 8
         }
       ]
@@ -5446,8 +5446,8 @@
       "items": [
         {
           "name": "Oil Drop",
-          "ref_type": null,
-          "ref_id": null,
+          "ref_type": "item",
+          "ref_id": "oil-drops",
           "icc": 6
         }
       ]
@@ -5618,8 +5618,8 @@
       "items": [
         {
           "name": "Crystal Powder",
-          "ref_type": null,
-          "ref_id": null,
+          "ref_type": "item",
+          "ref_id": "crystal-powder",
           "icc": 5
         }
       ]
@@ -5676,8 +5676,8 @@
       "items": [
         {
           "name": "Prophet's Hat",
-          "ref_type": null,
-          "ref_id": null,
+          "ref_type": "equipment",
+          "ref_id": "prophet-s-hat",
           "icc": 7
         }
       ]
@@ -5734,8 +5734,8 @@
       "items": [
         {
           "name": "Bramble Seed",
-          "ref_type": null,
-          "ref_id": null,
+          "ref_type": "item",
+          "ref_id": "bramble-seed",
           "icc": 5
         }
       ]
@@ -5793,8 +5793,8 @@
       "items": [
         {
           "name": "Game Ticket",
-          "ref_type": null,
-          "ref_id": null,
+          "ref_type": "item",
+          "ref_id": "game-ticket",
           "icc": 1
         }
       ]
@@ -6191,8 +6191,8 @@
       "items": [
         {
           "name": "Crystal Powder",
-          "ref_type": null,
-          "ref_id": null,
+          "ref_type": "item",
+          "ref_id": "crystal-powder",
           "icc": 6
         }
       ]
@@ -6302,8 +6302,8 @@
       "items": [
         {
           "name": "Weasel's Claw",
-          "ref_type": null,
-          "ref_id": null,
+          "ref_type": "item",
+          "ref_id": "weasel-s-claw",
           "icc": 5
         }
       ]
@@ -6415,8 +6415,8 @@
       "items": [
         {
           "name": "Blessed Mace",
-          "ref_type": null,
-          "ref_id": null,
+          "ref_type": "equipment",
+          "ref_id": "blessed-mace",
           "icc": 8
         }
       ]
@@ -6473,8 +6473,8 @@
       "items": [
         {
           "name": "Weasel's Claw",
-          "ref_type": null,
-          "ref_id": null,
+          "ref_type": "item",
+          "ref_id": "weasel-s-claw",
           "icc": 5
         }
       ]
@@ -6531,8 +6531,8 @@
       "items": [
         {
           "name": "Oil Drop",
-          "ref_type": null,
-          "ref_id": null,
+          "ref_type": "item",
+          "ref_id": "oil-drops",
           "icc": 5
         }
       ]
@@ -6588,8 +6588,8 @@
       "items": [
         {
           "name": "Sleep Bomb",
-          "ref_type": null,
-          "ref_id": null,
+          "ref_type": "item",
+          "ref_id": "sleep-bomb",
           "icc": 6
         }
       ]
@@ -6702,8 +6702,8 @@
       "items": [
         {
           "name": "Bramble Seed",
-          "ref_type": null,
-          "ref_id": null,
+          "ref_type": "item",
+          "ref_id": "bramble-seed",
           "icc": 6
         }
       ]
@@ -6865,8 +6865,8 @@
       "items": [
         {
           "name": "Feathered Robe",
-          "ref_type": null,
-          "ref_id": null,
+          "ref_type": "equipment",
+          "ref_id": "feathered-robe",
           "icc": 8
         }
       ]
@@ -7216,8 +7216,8 @@
       "items": [
         {
           "name": "Healing Ring",
-          "ref_type": null,
-          "ref_id": null,
+          "ref_type": "equipment",
+          "ref_id": "healing-ring",
           "icc": 7
         }
       ]
@@ -7330,8 +7330,8 @@
       "items": [
         {
           "name": "Lucky Pepper",
-          "ref_type": null,
-          "ref_id": null,
+          "ref_type": "item",
+          "ref_id": "lucky-pepper",
           "icc": 1
         }
       ]
@@ -7438,8 +7438,8 @@
       "items": [
         {
           "name": "Aeolian Cassock",
-          "ref_type": null,
-          "ref_id": null,
+          "ref_type": "equipment",
+          "ref_id": "aeolian-cassock",
           "icc": 7
         }
       ]
@@ -7773,8 +7773,8 @@
       "items": [
         {
           "name": "Mint",
-          "ref_type": null,
-          "ref_id": null,
+          "ref_type": "item",
+          "ref_id": "mint",
           "icc": 1
         }
       ]
@@ -8703,8 +8703,8 @@
       "items": [
         {
           "name": "Apple",
-          "ref_type": null,
-          "ref_id": null,
+          "ref_type": "item",
+          "ref_id": "apple",
           "icc": 1
         }
       ]
@@ -8862,8 +8862,8 @@
       "items": [
         {
           "name": "Smoke Bomb",
-          "ref_type": null,
-          "ref_id": null,
+          "ref_type": "item",
+          "ref_id": "smoke-bomb",
           "icc": 6
         }
       ]
@@ -9206,8 +9206,8 @@
       "items": [
         {
           "name": "Cookie",
-          "ref_type": null,
-          "ref_id": null,
+          "ref_type": "item",
+          "ref_id": "cookie",
           "icc": 1
         }
       ]
@@ -9894,8 +9894,8 @@
       "items": [
         {
           "name": "Giant Axe",
-          "ref_type": null,
-          "ref_id": null,
+          "ref_type": "equipment",
+          "ref_id": "giant-axe",
           "icc": 8
         }
       ]
@@ -10344,8 +10344,8 @@
       "items": [
         {
           "name": "Power Bread",
-          "ref_type": null,
-          "ref_id": null,
+          "ref_type": "item",
+          "ref_id": "power-bread",
           "icc": 1
         }
       ]

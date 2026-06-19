@@ -37,6 +37,7 @@ merged. Restate or amend here once gs2-specific rules emerge.
 | `mr-unorigino-psy` | `raw/gs2/In-Depth Guides/Psynergy List by Mr_UnOrigino.md` | Mr_UnOrigino | psynergy (completeness cross-check; kana columns mojibake) |
 | `shotgunnova-shop` | `raw/gs2/In-Depth Guides/Shop List by Shotgunnova.md` | Shotgunnova | shops (per-town stock + price), equipment, items, locations |
 | `aspartate-forge` | `raw/gs2/In-Depth Guides/Forged Items Guide by aspartate.md` | aspartate | forging (forged_from), equipment, items, monsters |
+| `90kirsdarke-hack` | `raw/gs2/In-Depth Guides/Item Djinn Hacking Guide by 90Kirsdarke.md` | 90Kirsdarke | items, equipment (real-game canonical names for `NAME_FIXES` + completeness check) |
 
 > More rows are added per entity as extraction proceeds. The full per-source map
 > lives in `docs/gs2/gs2_sources.md`; only rows for entities being extracted need
@@ -173,11 +174,17 @@ Field                Type              Required   Notes
 ---------------------------------------------------------------------------
 id                   string            YES        Lowercase, hyphens, from GS-US name.
                                                   Collisions get a "-n" suffix (rusty weapons).
-name                 string            YES        GS-US English name (canonical). e.g. "Huge Sword"
+name                 string            YES        GS-US English name (canonical). e.g. "Huge Sword".
+                                                  A few mr-unorigino US-name quirks are corrected to
+                                                  90Kirsdarke real-game names (NAME_FIXES in the extractor).
 name_literal         string            YES        Mr_UnOrigino's literal English column (alt name).
                                                   e.g. "Darkside Sword" for Darksword. The 4th-column
                                                   Japanese is mojibake under this file's encoding -> dropped.
-game                 string            YES        Always "gs2".
+name_variants        array of string   YES        Alt/old names ([] if none): the pre-correction name for
+                                                  NAME_FIXES entries, and stripped GS parenthetical
+                                                  annotations. links_normalize/audit resolve refs via these.
+game                 string            YES        "gs2" (TLA-native sections 2A-2U) | "gs1" (base/shared
+                                                  sections A-R3, debug_no 1-247 — present/obtainable in TLA).
 category             string            YES        "weapon" | "armor" | "item" (class-change items).
 type                 string            YES        See Type Enums (gs1 set + "special", "ring", "rusty",
                                                   "class_item").
@@ -267,10 +274,16 @@ Field               Type              Required   Notes
 id                  string            YES        Lowercase, hyphens, from GS-US name.
 name                string            YES        GS-US English name. e.g. "Tear Stone"
 name_literal        string            YES        Mr_UnOrigino literal English column (alt name).
-game                string            YES        Always "gs2".
-item_type           string            YES        "material" (forging) | "key" | "consumable".
+name_variants       array of string   YES        Alt names ([] if none): stripped GS annotations
+                                                 (e.g. "Jupiter Star (listed as 222 in GS)") so the
+                                                 cleaned name stays + the original is searchable/resolvable.
+game                string            YES        "gs2" (TLA 2R/2S/2U) | "gs1" (base/shared O/P/Q, debug 1-247).
+item_type           string            YES        "material" | "key" | "consumable" | "psynergy_item".
                                                  2R blacksmith -> material; 2S trident -> key;
-                                                 2U "Other" -> curated map (else key).
+                                                 2U "Other" -> curated map (else key). Base segment:
+                                                 -O -> consumable; -P -> psynergy_item (teaches a field
+                                                 Psynergy, e.g. Lash Pebble -> Lash); -Q -> key (stars,
+                                                 keys, quest items).
 effect              object            YES
   .description      string | null     YES        Source effect text if any; else null.
   .target           string | null     YES        Deferred (null) — not stated in this source.
@@ -401,9 +414,11 @@ battle_effect       object | null     YES        Unleash effect (damage/range/sp
                                                  (null) — not in demooni; from a mechanics source later.
 location            object | null     YES        Acquisition. null for the 28 GS1 djinn (no TLA
                                                  location in demooni).
-  .area             string | null     YES        Clean location name for the locations FK. Deferred
-                                                 (null) — demooni gives prose only.
-  .description      string            YES        demooni's acquisition prose (verbatim).
+  .area             array of region_id YES       Walkthrough-authoritative placement (locations FK),
+                                                 backfilled by djinn_area_backfill_gs2.py from
+                                                 location_refs.json. 1 id (or 2 for djinn spanning
+                                                 adjacent regions: coal/crystal/serac). [] if no entry.
+  .description      string            YES        demooni's acquisition prose (verbatim, kept as-is).
   .source           string            YES        "demooni".
 must_fight          boolean | null    YES        true if won in battle (demooni "*FIGHT*" tag).
                                                  null for GS1 djinn (no location entry).

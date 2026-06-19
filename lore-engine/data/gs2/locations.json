@@ -124,7 +124,7 @@
     "summons_here": [],
     "monsters_here": [
       "Amaze",
-      "Angler Worm",
+      "Angle Worm",
       "Giant Bat",
       "Mimic",
       "Punch Ant",
@@ -402,7 +402,7 @@
       "Dino",
       "Emu",
       "Kobold",
-      "Momongo",
+      "Momonga",
       "Gnome",
       "Spider"
     ],
@@ -949,7 +949,7 @@
       "Catastrophe"
     ],
     "monsters_here": [
-      "Wonder Birds"
+      "Wonder Bird"
     ],
     "bosses_here": [
       "Sentinel"
@@ -1185,7 +1185,7 @@
     "order": 36,
     "kind": "side",
     "connections": [
-      "n-osenia-islet"
+      "north-osenia-islet"
     ],
     "pickups": [
       "Lucky Medal",
@@ -1275,7 +1275,7 @@
     "kind": "side",
     "connections": [
       "sea-of-time-islet",
-      "anemos-inner-sanctum"
+      "anemos-sanctum"
     ],
     "pickups": [
       "Tisiphone Edge"

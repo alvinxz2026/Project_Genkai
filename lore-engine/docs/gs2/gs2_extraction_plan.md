@@ -105,7 +105,14 @@ general`）几乎对每个实体都有附录表，作为通用辅源/兜底，�
 
 1. **`josher1212`（Reference Guide）补 TOC**：原文无 TOC 且未完成，但内容有价值。需**单独一轮
    通读**后给它加标准化 TOC（`## TABLE OF CONTENTS` … `END OF TABLE OF CONTENTS`），再评估提取价值。
-2. **hex / master-data 层**（`90kirsdarke-hack` item/djinn 码 + `kaitia-savehack` 全存档地址）：
-   评估能否用这些内存码给我方每条数据挂一个 **canonical id / code**，做一个跨实体的
-   master-data / 完整性校验层。用户提议，单独一轮处理。
+2. ~~**hex / master-data 层**~~ **已评估并部分落地（2026-06-19）**：
+   - `90kirsdarke-hack` **item 完整性 cross-check 完成** = `scripts/kirsdarke_completeness_gs2.py`
+     （解析两段码表 359 distinct name，按名 diff equipment+items；matched 160/359、theirs-not-ours
+     199=完整枚举 deferred 共享段、ours-not-theirs 10=查出 mr-unorigino 命名瑕疵）。可重跑当门禁。
+   - **canonical-id / code 层提案 → 否决**：90Kirsdarke hex 码与我方 `debug_no`(mr-unorigino) 编号
+     体系不同（非线性、不可换算），挂不上统一 code；只能按名做完整性兜底。
+   - **djinn 不在覆盖**：该源 djinn 段是改档内存地址，非 djinn 名单（仅 8 Venus 名作 binary 示例），
+     djinn 完整性仍以 demooni 为准。
+   - `kaitia-savehack`（全存档地址 = 改档结构，非实体数据）**低优先 / 可不做**。
+   详见 `gs2_plan.md §5 日志(2026-06-19) + §6 backlog`。
 3. **分工表拍板**：§2 的 Claude/Gemini 分工待 schema 定稿后确认。

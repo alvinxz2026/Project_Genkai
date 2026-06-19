@@ -158,8 +158,7 @@ region: the primary in-game area (free text); blank for meta/story/index.
 Print one line per file: <filename>  kind=<..> covers=[..] region=<..>
 ```
 
-After a tagging pass, Claude (me) spot-audits per source (see the audit report
-`walkthrough_chapters_audit.md`).
+After a tagging pass, Claude (me) spot-audits per source (see the Audit section below).
 
 ## Antigravity kickoff (per-source rounds)
 
@@ -246,7 +245,7 @@ re-tag with the tightened spec is pending (see audit below).
 > Update this table per Antigravity round. `split`/`verify` = Stage 1 clean;
 > `tagged ✅` = Stage 2 done + audited clean.
 
-### Audit 2026-06-18 (`walkthrough_chapters_audit.md`)
+### Audit 2026-06-18 (Gemini 3.1 Pro, full report folded in here — standalone doc removed 2026-06-19)
 
 Independent audit of all 10 sources (855 chapters). **Objective layer all PASS**:
 raw immutability (no source edited), split reproducibility (every source byte-exact),
@@ -256,6 +255,13 @@ pass lacked a firm `covers` threshold, so sources swung between over-claim
 (shotgunnova/strawhat tag every entity that's mentioned) and under-claim
 (super-slash/darthmarth). The Stage-2 spec above has been tightened accordingly; a
 single re-tag pass over all 10 (below) resolves it.
+
+> **Disposition (2026-06-19):** the load-bearing guarantees PASS. The FAIL is on
+> semantic `covers`/`kind` tagging — and **the spine uses the `region` tag, on which 2a
+> already ran gate-clean**, so the covers/kind issues are *moot now* (those chapters are
+> already consumed). Outstanding (low priority): ① `walkthrough_split.py` dead code
+> (`gs2_plan.md` §5 backlog A); ② re-tag `covers` to one standard **only if** a future
+> app needs covers as a filter. No re-tag done; not blocking.
 
 ## Notes / gotchas (sediment as sources are processed)
 

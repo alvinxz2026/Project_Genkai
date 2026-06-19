@@ -24,80 +24,80 @@
       },
       {
         "name": "Long Sword",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "long-sword",
         "category": "weapon",
         "price": 200,
         "is_artifact": false
       },
       {
         "name": "Short Sword",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "short-sword",
         "category": "weapon",
         "price": 120,
         "is_artifact": false
       },
       {
         "name": "Mace",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "mace",
         "category": "weapon",
         "price": 80,
         "is_artifact": false
       },
       {
         "name": "Wooden Stick",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "wooden-stick",
         "category": "weapon",
         "price": 40,
         "is_artifact": false
       },
       {
         "name": "Cotton Shirt",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "cotton-shirt",
         "category": "armor",
         "price": 20,
         "is_artifact": false
       },
       {
         "name": "Travel Vest",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "travel-vest",
         "category": "armor",
         "price": 50,
         "is_artifact": false
       },
       {
         "name": "One-Piece Dress",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "one-piece-dress",
         "category": "armor",
         "price": 25,
         "is_artifact": false
       },
       {
         "name": "Wooden Shield",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "wooden-shield",
         "category": "armor",
         "price": 40,
         "is_artifact": false
       },
       {
         "name": "Padded Gloves",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "padded-gloves",
         "category": "armor",
         "price": 10,
         "is_artifact": false
       },
       {
         "name": "Leather Cap",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "leather-cap",
         "category": "armor",
         "price": 30,
         "is_artifact": false
@@ -132,88 +132,88 @@
       },
       {
         "name": "Long Sword",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "long-sword",
         "category": "weapon",
         "price": 200,
         "is_artifact": false
       },
       {
         "name": "Short Sword",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "short-sword",
         "category": "weapon",
         "price": 120,
         "is_artifact": false
       },
       {
         "name": "Battle Axe",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "battle-axe",
         "category": "weapon",
         "price": 280,
         "is_artifact": false
       },
       {
         "name": "Mace",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "mace",
         "category": "weapon",
         "price": 80,
         "is_artifact": false
       },
       {
         "name": "Magic Rod",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "magic-rod",
         "category": "weapon",
         "price": 380,
         "is_artifact": true
       },
       {
         "name": "Travel Vest",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "travel-vest",
         "category": "armor",
         "price": 50,
         "is_artifact": false
       },
       {
         "name": "Wooden Shield",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "wooden-shield",
         "category": "armor",
         "price": 40,
         "is_artifact": false
       },
       {
         "name": "Padded Gloves",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "padded-gloves",
         "category": "armor",
         "price": 10,
         "is_artifact": false
       },
       {
         "name": "Leather Armlet",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "leather-armlet",
         "category": "armor",
         "price": 180,
         "is_artifact": false
       },
       {
         "name": "Leather Cap",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "leather-cap",
         "category": "armor",
         "price": 30,
         "is_artifact": false
       },
       {
         "name": "Circlet",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "circlet",
         "category": "armor",
         "price": 120,
         "is_artifact": false
@@ -272,112 +272,112 @@
       },
       {
         "name": "Long Sword",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "long-sword",
         "category": "weapon",
         "price": 200,
         "is_artifact": false
       },
       {
         "name": "Broad Sword",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "broad-sword",
         "category": "weapon",
         "price": 1000,
         "is_artifact": false
       },
       {
         "name": "Hunter's Sword",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "hunter-s-sword",
         "category": "weapon",
         "price": 520,
         "is_artifact": false
       },
       {
         "name": "Battle Axe",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "battle-axe",
         "category": "weapon",
         "price": 280,
         "is_artifact": false
       },
       {
         "name": "Heavy Mace",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "heavy-mace",
         "category": "weapon",
         "price": 500,
         "is_artifact": false
       },
       {
         "name": "Leather Armor",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "leather-armor",
         "category": "armor",
         "price": 240,
         "is_artifact": false
       },
       {
         "name": "Travel Vest",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "travel-vest",
         "category": "armor",
         "price": 50,
         "is_artifact": false
       },
       {
         "name": "Travel Robe",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "travel-robe",
         "category": "armor",
         "price": 200,
         "is_artifact": false
       },
       {
         "name": "Wooden Shield",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "wooden-shield",
         "category": "armor",
         "price": 40,
         "is_artifact": false
       },
       {
         "name": "Leather Gloves",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "leather-gloves",
         "category": "armor",
         "price": 220,
         "is_artifact": false
       },
       {
         "name": "Leather Armlet",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "leather-armlet",
         "category": "armor",
         "price": 180,
         "is_artifact": false
       },
       {
         "name": "Open Helm",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "open-helm",
         "category": "armor",
         "price": 180,
         "is_artifact": false
       },
       {
         "name": "Leather Cap",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "leather-cap",
         "category": "armor",
         "price": 30,
         "is_artifact": false
       },
       {
         "name": "Circlet",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "circlet",
         "category": "armor",
         "price": 120,
         "is_artifact": false
@@ -436,40 +436,40 @@
       },
       {
         "name": "Broad Axe",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "broad-axe",
         "category": "weapon",
         "price": 1400,
         "is_artifact": false
       },
       {
         "name": "Blessed Ankh",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "blessed-ankh",
         "category": "weapon",
         "price": 1600,
         "is_artifact": true
       },
       {
         "name": "Psynergy Armor",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "psynergy-armor",
         "category": "armor",
         "price": 1000,
         "is_artifact": false
       },
       {
         "name": "Armlet",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "armlet",
         "category": "armor",
         "price": 900,
         "is_artifact": false
       },
       {
         "name": "Bronze Helm",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "bronze-helm",
         "category": "armor",
         "price": 600,
         "is_artifact": false
@@ -520,104 +520,104 @@
       },
       {
         "name": "Broad Sword",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "broad-sword",
         "category": "weapon",
         "price": 1000,
         "is_artifact": false
       },
       {
         "name": "Hunter's Sword",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "hunter-s-sword",
         "category": "weapon",
         "price": 520,
         "is_artifact": false
       },
       {
         "name": "Battle Axe",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "battle-axe",
         "category": "weapon",
         "price": 280,
         "is_artifact": false
       },
       {
         "name": "Heavy Mace",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "heavy-mace",
         "category": "weapon",
         "price": 500,
         "is_artifact": false
       },
       {
         "name": "Witch's Wand",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "witch-s-wand",
         "category": "weapon",
         "price": 850,
         "is_artifact": true
       },
       {
         "name": "Leather Armor",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "leather-armor",
         "category": "armor",
         "price": 240,
         "is_artifact": false
       },
       {
         "name": "Adept's Clothes",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "adept-s-clothes",
         "category": "armor",
         "price": 850,
         "is_artifact": false
       },
       {
         "name": "Travel Robe",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "travel-robe",
         "category": "armor",
         "price": 200,
         "is_artifact": false
       },
       {
         "name": "Bronze Shield",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "bronze-shield",
         "category": "armor",
         "price": 500,
         "is_artifact": false
       },
       {
         "name": "Leather Gloves",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "leather-gloves",
         "category": "armor",
         "price": 220,
         "is_artifact": false
       },
       {
         "name": "Leather Armlet",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "leather-armlet",
         "category": "armor",
         "price": 180,
         "is_artifact": false
       },
       {
         "name": "Open Helm",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "open-helm",
         "category": "armor",
         "price": 180,
         "is_artifact": false
       },
       {
         "name": "Circlet",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "circlet",
         "category": "armor",
         "price": 120,
         "is_artifact": false
@@ -676,88 +676,88 @@
       },
       {
         "name": "Broad Sword",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "broad-sword",
         "category": "weapon",
         "price": 1000,
         "is_artifact": false
       },
       {
         "name": "Battle Rapier",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "battle-rapier",
         "category": "weapon",
         "price": 2900,
         "is_artifact": false
       },
       {
         "name": "Broad Axe",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "broad-axe",
         "category": "weapon",
         "price": 1400,
         "is_artifact": false
       },
       {
         "name": "Battle Mace",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "battle-mace",
         "category": "weapon",
         "price": 2600,
         "is_artifact": false
       },
       {
         "name": "Psynergy Rod",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "psynergy-rod",
         "category": "weapon",
         "price": 3800,
         "is_artifact": true
       },
       {
         "name": "Adept's Clothes",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "adept-s-clothes",
         "category": "armor",
         "price": 850,
         "is_artifact": false
       },
       {
         "name": "Silk Robe",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "silk-robe",
         "category": "armor",
         "price": 1400,
         "is_artifact": false
       },
       {
         "name": "Iron Shield",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "iron-shield",
         "category": "armor",
         "price": 1200,
         "is_artifact": false
       },
       {
         "name": "Armlet",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "armlet",
         "category": "armor",
         "price": 900,
         "is_artifact": false
       },
       {
         "name": "Bronze Helm",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "bronze-helm",
         "category": "armor",
         "price": 600,
         "is_artifact": false
       },
       {
         "name": "Silver Circlet",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "silver-circlet",
         "category": "armor",
         "price": 1300,
         "is_artifact": false
@@ -816,104 +816,104 @@
       },
       {
         "name": "Claymore",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "claymore",
         "category": "weapon",
         "price": 4000,
         "is_artifact": false
       },
       {
         "name": "Battle Rapier",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "battle-rapier",
         "category": "weapon",
         "price": 2900,
         "is_artifact": false
       },
       {
         "name": "Broad Axe",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "broad-axe",
         "category": "weapon",
         "price": 1400,
         "is_artifact": false
       },
       {
         "name": "Battle Mace",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "battle-mace",
         "category": "weapon",
         "price": 2600,
         "is_artifact": false
       },
       {
         "name": "Frost Wand",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "frost-wand",
         "category": "weapon",
         "price": 5400,
         "is_artifact": true
       },
       {
         "name": "Chain Mail",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "chain-mail",
         "category": "armor",
         "price": 2000,
         "is_artifact": false
       },
       {
         "name": "Adept's Clothes",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "adept-s-clothes",
         "category": "armor",
         "price": 850,
         "is_artifact": false
       },
       {
         "name": "Silk Robe",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "silk-robe",
         "category": "armor",
         "price": 1400,
         "is_artifact": false
       },
       {
         "name": "Iron Shield",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "iron-shield",
         "category": "armor",
         "price": 1200,
         "is_artifact": false
       },
       {
         "name": "Gauntlets",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "gauntlets",
         "category": "armor",
         "price": 1600,
         "is_artifact": false
       },
       {
         "name": "Armlet",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "armlet",
         "category": "armor",
         "price": 900,
         "is_artifact": false
       },
       {
         "name": "Iron Helm",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "iron-helm",
         "category": "armor",
         "price": 1600,
         "is_artifact": false
       },
       {
         "name": "Silver Circlet",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "silver-circlet",
         "category": "armor",
         "price": 1300,
         "is_artifact": false
@@ -972,56 +972,56 @@
       },
       {
         "name": "Claymore",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "claymore",
         "category": "weapon",
         "price": 4000,
         "is_artifact": false
       },
       {
         "name": "Battle Rapier",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "battle-rapier",
         "category": "weapon",
         "price": 2900,
         "is_artifact": false
       },
       {
         "name": "Broad Axe",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "broad-axe",
         "category": "weapon",
         "price": 1400,
         "is_artifact": false
       },
       {
         "name": "Battle Mace",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "battle-mace",
         "category": "weapon",
         "price": 2600,
         "is_artifact": false
       },
       {
         "name": "Jerkin",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "jerkin",
         "category": "weapon",
         "price": 2400,
         "is_artifact": false
       },
       {
         "name": "Heavy Armlet",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "heavy-armlet",
         "category": "weapon",
         "price": 2000,
         "is_artifact": false
       },
       {
         "name": "Mail Cap",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "mail-cap",
         "category": "weapon",
         "price": 2000,
         "is_artifact": false
@@ -1040,48 +1040,48 @@
     "stock": [
       {
         "name": "Great Sword",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "great-sword",
         "category": "weapon",
         "price": 7000,
         "is_artifact": false
       },
       {
         "name": "Armored Shell",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "armored-shell",
         "category": "armor",
         "price": 3600,
         "is_artifact": false
       },
       {
         "name": "Knight's Shield",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "knight-s-shield",
         "category": "armor",
         "price": 3000,
         "is_artifact": false
       },
       {
         "name": "Steel Helm",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "steel-helm",
         "category": "armor",
         "price": 3100,
         "is_artifact": false
       },
       {
         "name": "Guardian Circlet",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "guardian-circlet",
         "category": "armor",
         "price": 3400,
         "is_artifact": false
       },
       {
         "name": "Angelic Ankh",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "angelic-ankh",
         "category": "weapon",
         "price": 6400,
         "is_artifact": true
@@ -1148,48 +1148,48 @@
     "stock": [
       {
         "name": "War Mace",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "war-mace",
         "category": "weapon",
         "price": 6400,
         "is_artifact": false
       },
       {
         "name": "Silver Vest",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "silver-vest",
         "category": "armor",
         "price": 3200,
         "is_artifact": false
       },
       {
         "name": "Platinum Circlet",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "platinum-circlet",
         "category": "armor",
         "price": 4200,
         "is_artifact": false
       },
       {
         "name": "Shamshir",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "shamshir",
         "category": "weapon",
         "price": 10000,
         "is_artifact": true
       },
       {
         "name": "Ninja Blade",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "ninja-blade",
         "category": "weapon",
         "price": 8800,
         "is_artifact": true
       },
       {
         "name": "War Gloves",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "war-gloves",
         "category": "armor",
         "price": 4000,
         "is_artifact": true
@@ -1256,56 +1256,56 @@
     "stock": [
       {
         "name": "Master Rapier",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "master-rapier",
         "category": "weapon",
         "price": 6800,
         "is_artifact": false
       },
       {
         "name": "Great Axe",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "great-axe",
         "category": "weapon",
         "price": 5200,
         "is_artifact": false
       },
       {
         "name": "Plate Mail",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "plate-mail",
         "category": "armor",
         "price": 4400,
         "is_artifact": false
       },
       {
         "name": "Silver Armlet",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "silver-armlet",
         "category": "armor",
         "price": 4000,
         "is_artifact": false
       },
       {
         "name": "Silver Helm",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "silver-helm",
         "category": "armor",
         "price": 3900,
         "is_artifact": false
       },
       {
         "name": "Demonic Staff",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "demonic-staff",
         "category": "weapon",
         "price": 10000,
         "is_artifact": true
       },
       {
         "name": "Blessed Robe",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "blessed-robe",
         "category": "armor",
         "price": 7000,
         "is_artifact": true
@@ -1420,8 +1420,8 @@
       },
       {
         "name": "Spirit Armlet",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "spirit-armlet",
         "category": "armor",
         "price": 9000,
         "is_artifact": true
@@ -1520,104 +1520,104 @@
       },
       {
         "name": "Great Sword",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "great-sword",
         "category": "weapon",
         "price": 7000,
         "is_artifact": false
       },
       {
         "name": "Master Rapier",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "master-rapier",
         "category": "weapon",
         "price": 6800,
         "is_artifact": false
       },
       {
         "name": "Great Axe",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "great-axe",
         "category": "weapon",
         "price": 5200,
         "is_artifact": false
       },
       {
         "name": "War Mace",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "war-mace",
         "category": "weapon",
         "price": 6200,
         "is_artifact": false
       },
       {
         "name": "Swift Sword",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "swift-sword",
         "category": "weapon",
         "price": 9400,
         "is_artifact": true
       },
       {
         "name": "Righteous Mace",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "righteous-mace",
         "category": "weapon",
         "price": 8400,
         "is_artifact": true
       },
       {
         "name": "Steel Armor",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "steel-armor",
         "category": "armor",
         "price": 4900,
         "is_artifact": false
       },
       {
         "name": "Silver Vest",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "silver-vest",
         "category": "armor",
         "price": 3200,
         "is_artifact": false
       },
       {
         "name": "Silver Armlet",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "silver-armlet",
         "category": "armor",
         "price": 4000,
         "is_artifact": false
       },
       {
         "name": "Knight's Helm",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "knight-s-helm",
         "category": "armor",
         "price": 4600,
         "is_artifact": false
       },
       {
         "name": "Platinum Circlet",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "platinum-circlet",
         "category": "armor",
         "price": 4200,
         "is_artifact": false
       },
       {
         "name": "Mirrored Shield",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "mirrored-shield",
         "category": "armor",
         "price": 5200,
         "is_artifact": true
       },
       {
         "name": "Jeweled Crown",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "jeweled-crown",
         "category": "armor",
         "price": 4000,
         "is_artifact": true
@@ -1676,24 +1676,24 @@
       },
       {
         "name": "Silver Blade",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "silver-blade",
         "category": "weapon",
         "price": 12000,
         "is_artifact": true
       },
       {
         "name": "Crystal Rod",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "crystal-rod",
         "category": "weapon",
         "price": 13400,
         "is_artifact": true
       },
       {
         "name": "Magical Cassock",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "magical-cassock",
         "category": "armor",
         "price": 9000,
         "is_artifact": true
@@ -1784,8 +1784,8 @@
       },
       {
         "name": "Mysterious Robe",
-        "ref_type": null,
-        "ref_id": null,
+        "ref_type": "equipment",
+        "ref_id": "mysterious-robe",
         "category": "armor",
         "price": 38500,
         "is_artifact": true

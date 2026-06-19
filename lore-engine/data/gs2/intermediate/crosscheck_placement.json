@@ -1,0 +1,519 @@
+{
+  "summary": {
+    "bosses": {
+      "agree": 13,
+      "walkthrough_extra": 4,
+      "indepth_extra": 4
+    },
+    "summons": {
+      "agree": 5,
+      "walkthrough_extra": 9,
+      "indepth_extra": 5
+    },
+    "djinn": {
+      "agree": 27,
+      "walkthrough_extra": 19,
+      "indepth_extra": 8
+    },
+    "monsters": {
+      "agree": 61,
+      "walkthrough_extra": 20,
+      "recurring_or_singlefound": 17
+    }
+  },
+  "findings": {
+    "bosses": [
+      {
+        "id": "aqua-hydra",
+        "indepth": [
+          "lemurian-ship"
+        ],
+        "walkthrough": [
+          "indra-cavern",
+          "lemurian-ship"
+        ],
+        "disagree": false
+      },
+      {
+        "id": "poseidon",
+        "indepth": [],
+        "walkthrough": [
+          "sea-of-time"
+        ],
+        "disagree": false
+      },
+      {
+        "id": "valukar",
+        "indepth": [
+          "yampi-desert-cave"
+        ],
+        "walkthrough": [
+          "yampi-desert",
+          "yampi-desert-cave"
+        ],
+        "disagree": false
+      },
+      {
+        "id": "sentinel",
+        "indepth": [
+          "islet-cave"
+        ],
+        "walkthrough": [
+          "islet-cave",
+          "sea-of-time-islet"
+        ],
+        "disagree": false
+      }
+    ],
+    "djinn": [
+      {
+        "id": "geode",
+        "desc": "At Atteka Inlet, use Lift on the stone there, and then Cyclone the leaves.",
+        "indepth": [],
+        "walkthrough": [
+          "sw-atteka-islet"
+        ],
+        "disagree": false
+      },
+      {
+        "id": "iron",
+        "desc": "Random encounter in the forest next to Madra",
+        "indepth": [
+          "madra"
+        ],
+        "walkthrough": [
+          "indra-cavern"
+        ],
+        "disagree": true
+      },
+      {
+        "id": "meld",
+        "desc": "Ride the logs in Islet Cave",
+        "indepth": [
+          "islet-cave"
+        ],
+        "walkthrough": [
+          "sea-of-time-islet"
+        ],
+        "disagree": true
+      },
+      {
+        "id": "mud",
+        "desc": "Use Cyclone to some weeds in the underground part of Kibombo Statue",
+        "indepth": [
+          "kibombo"
+        ],
+        "walkthrough": [
+          "gabomba-catacombs"
+        ],
+        "disagree": true
+      },
+      {
+        "id": "petra",
+        "desc": "Random encounter in the continent of Hesperia. In the southeastern part of the continent, ride up the river. At some point you'll see a patch of land with a forest. Walk around in the forest and you'll encounter Petra.",
+        "indepth": [],
+        "walkthrough": [
+          "sw-atteka-islet"
+        ],
+        "disagree": false
+      },
+      {
+        "id": "steel",
+        "desc": "Solve a small puzzle in the Kibombo Statue.",
+        "indepth": [
+          "kibombo"
+        ],
+        "walkthrough": [
+          "gabomba-statue"
+        ],
+        "disagree": true
+      },
+      {
+        "id": "cannon",
+        "desc": "Solve the little puzzle in Dehkau Plateau",
+        "indepth": [],
+        "walkthrough": [
+          "dehkan-plateau"
+        ],
+        "disagree": false
+      },
+      {
+        "id": "coal",
+        "desc": "Give the Dancing Idol to Lady Uzume in Izumo.",
+        "indepth": [
+          "izumo"
+        ],
+        "walkthrough": [
+          "gaia-rock",
+          "izumo"
+        ],
+        "disagree": false
+      },
+      {
+        "id": "core",
+        "desc": "Random encounter in the continent of Atteka. Land on one of the two beaches in the western part of the continent. Go west, and you'll find a forest surrounded by water. Wander around in that forest.",
+        "indepth": [],
+        "walkthrough": [
+          "sw-atteka-islet"
+        ],
+        "disagree": false
+      },
+      {
+        "id": "chill",
+        "desc": "Random encounter in the forest west from Naribwe. Go pass a few bridges and wander around in the forest by a beach.",
+        "indepth": [
+          "naribwe"
+        ],
+        "walkthrough": [
+          "gondowan-cliffs"
+        ],
+        "disagree": true
+      },
+      {
+        "id": "eddy",
+        "desc": "Return to Shaman Cave after getting Lift (comes with Isaac and gang). Solve the small puzzle.",
+        "indepth": [],
+        "walkthrough": [
+          "shaman-village-cave"
+        ],
+        "disagree": false
+      },
+      {
+        "id": "gel",
+        "desc": "In E Tundaria Islet, go through the small ice-slide puzzle",
+        "indepth": [],
+        "walkthrough": [
+          "kalt-island"
+        ],
+        "disagree": false
+      },
+      {
+        "id": "serac",
+        "desc": "In Islet Cave, use Tremor on the shaking statue in the hallway.",
+        "indepth": [
+          "islet-cave"
+        ],
+        "walkthrough": [
+          "islet-cave",
+          "sea-of-time-islet"
+        ],
+        "disagree": false
+      },
+      {
+        "id": "shade",
+        "desc": "Comes with Piers",
+        "indepth": [],
+        "walkthrough": [
+          "kibombo"
+        ],
+        "disagree": false
+      },
+      {
+        "id": "sour",
+        "desc": "Random encounter in the area north from Mikasalla. Wander around in the area between the two mountains, near the cave.",
+        "indepth": [
+          "mikasalla"
+        ],
+        "walkthrough": [
+          "osenia-cavern"
+        ],
+        "disagree": true
+      },
+      {
+        "id": "spring",
+        "desc": "Comes with Piers",
+        "indepth": [],
+        "walkthrough": [
+          "kibombo"
+        ],
+        "disagree": false
+      },
+      {
+        "id": "ether",
+        "desc": "Maha the Werewolf gives Ether to you",
+        "indepth": [],
+        "walkthrough": [
+          "garoh"
+        ],
+        "disagree": false
+      },
+      {
+        "id": "gale",
+        "desc": "Solve the small puzzle in Treasure Island.",
+        "indepth": [],
+        "walkthrough": [
+          "treasure-isle"
+        ],
+        "disagree": false
+      },
+      {
+        "id": "wheeze",
+        "desc": "Random encounter in the unnamed southern snowy continent. Wander around in the area surrounded by mountains in the western part.",
+        "indepth": [],
+        "walkthrough": [
+          "tundaria-tower"
+        ],
+        "disagree": false
+      }
+    ],
+    "summons": [
+      {
+        "id": "zagan",
+        "found_at": "Cave south of Dehkan Plateau",
+        "indepth": [
+          "dehkan-plateau"
+        ],
+        "walkthrough": [
+          "indra-cavern"
+        ],
+        "disagree": true
+      },
+      {
+        "id": "haures",
+        "found_at": "Cave northwest of Loho",
+        "indepth": [
+          "loho"
+        ],
+        "walkthrough": [
+          "atteka-cavern"
+        ],
+        "disagree": true
+      },
+      {
+        "id": "charon",
+        "found_at": "Walk into the Anemos Sanctum Inner Chamber to see it.",
+        "indepth": [],
+        "walkthrough": [
+          "anemos-sanctum"
+        ],
+        "disagree": false
+      },
+      {
+        "id": "megaera",
+        "found_at": "Cave by Mikasilla",
+        "indepth": [],
+        "walkthrough": [
+          "osenia-cavern"
+        ],
+        "disagree": false
+      },
+      {
+        "id": "ulysses",
+        "found_at": "Cave by Izumo",
+        "indepth": [
+          "izumo"
+        ],
+        "walkthrough": [
+          "izumo-ruins"
+        ],
+        "disagree": true
+      },
+      {
+        "id": "iris",
+        "found_at": "Anemos Sanctum, Defeat Dullahan",
+        "indepth": [],
+        "walkthrough": [
+          "anemos-sanctum"
+        ],
+        "disagree": false
+      },
+      {
+        "id": "coatlicue",
+        "found_at": "Cave Southwest of Contigo",
+        "indepth": [
+          "contigo"
+        ],
+        "walkthrough": [
+          "atteka-cavern"
+        ],
+        "disagree": true
+      },
+      {
+        "id": "azul",
+        "found_at": "Treasure Island, Defeat Star Magician",
+        "indepth": [],
+        "walkthrough": [
+          "treasure-isle"
+        ],
+        "disagree": false
+      },
+      {
+        "id": "catastrophe",
+        "found_at": "Islet Cave, Defeat Sentinal",
+        "indepth": [
+          "islet-cave"
+        ],
+        "walkthrough": [
+          "islet-cave",
+          "sea-of-time-islet"
+        ],
+        "disagree": false
+      }
+    ],
+    "monsters": [
+      {
+        "monster": "Punch Ant",
+        "walkthrough_region": "suhalla-gate",
+        "indepth": [
+          "kandorean-temple"
+        ],
+        "recurring": true
+      },
+      {
+        "monster": "Mimic",
+        "walkthrough_region": "kandorean-temple",
+        "indepth": [
+          "treasure-isle"
+        ],
+        "recurring": true
+      },
+      {
+        "monster": "Punch Ant",
+        "walkthrough_region": "shrine-of-the-sea-god",
+        "indepth": [
+          "kandorean-temple"
+        ],
+        "recurring": true
+      },
+      {
+        "monster": "Aqua Jelly",
+        "walkthrough_region": "indra-cavern",
+        "indepth": [
+          "lemurian-ship"
+        ],
+        "recurring": true
+      },
+      {
+        "monster": "Ghoul",
+        "walkthrough_region": "alhafra",
+        "indepth": [
+          "airs-rock",
+          "alhafran-cavern"
+        ],
+        "recurring": false
+      },
+      {
+        "monster": "Harpy",
+        "walkthrough_region": "alhafra",
+        "indepth": [
+          "airs-rock",
+          "alhafran-cavern"
+        ],
+        "recurring": false
+      },
+      {
+        "monster": "Ooze",
+        "walkthrough_region": "alhafra",
+        "indepth": [
+          "alhafran-cavern"
+        ],
+        "recurring": true
+      },
+      {
+        "monster": "Mimic",
+        "walkthrough_region": "airs-rock",
+        "indepth": [
+          "treasure-isle"
+        ],
+        "recurring": true
+      },
+      {
+        "monster": "Mimic",
+        "walkthrough_region": "gabomba-statue",
+        "indepth": [
+          "treasure-isle"
+        ],
+        "recurring": true
+      },
+      {
+        "monster": "Mad Plant",
+        "walkthrough_region": "gabomba-catacombs",
+        "indepth": [
+          "jupiter-lighthouse"
+        ],
+        "recurring": true
+      },
+      {
+        "monster": "Mimic",
+        "walkthrough_region": "aqua-rock",
+        "indepth": [
+          "treasure-isle"
+        ],
+        "recurring": true
+      },
+      {
+        "monster": "Wonder Bird",
+        "walkthrough_region": "sea-of-time-islet",
+        "indepth": [
+          "islet-cave"
+        ],
+        "recurring": true
+      },
+      {
+        "monster": "Mad Plant",
+        "walkthrough_region": "gaia-rock",
+        "indepth": [
+          "jupiter-lighthouse"
+        ],
+        "recurring": true
+      },
+      {
+        "monster": "Mimic",
+        "walkthrough_region": "gaia-rock",
+        "indepth": [
+          "treasure-isle"
+        ],
+        "recurring": true
+      },
+      {
+        "monster": "Mad Plant",
+        "walkthrough_region": "taopo-swamp",
+        "indepth": [
+          "jupiter-lighthouse"
+        ],
+        "recurring": true
+      },
+      {
+        "monster": "Mimic",
+        "walkthrough_region": "jupiter-lighthouse",
+        "indepth": [
+          "treasure-isle"
+        ],
+        "recurring": true
+      },
+      {
+        "monster": "Mimic",
+        "walkthrough_region": "magma-rock",
+        "indepth": [
+          "treasure-isle"
+        ],
+        "recurring": true
+      },
+      {
+        "monster": "Grand Chimera",
+        "walkthrough_region": "magma-rock",
+        "indepth": [
+          "jupiter-lighthouse",
+          "northern-reaches"
+        ],
+        "recurring": false
+      },
+      {
+        "monster": "Lesser Demon",
+        "walkthrough_region": "magma-rock",
+        "indepth": [
+          "jupiter-lighthouse"
+        ],
+        "recurring": true
+      },
+      {
+        "monster": "Mimic",
+        "walkthrough_region": "mars-lighthouse",
+        "indepth": [
+          "treasure-isle"
+        ],
+        "recurring": true
+      }
+    ]
+  }
+}
