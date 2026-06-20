@@ -175,7 +175,12 @@ Phase 2 的 B2 是最有价值也最值得投入的一块，唯一需要补的�
 
 1. **Phase 1 的 MVP 切片**：是先把 wiki+交叉链接+source inspector 这条"连接层"打通（最能体现差异化），
    还是先把 boss 卡/图鉴/锻造这些"独立查表页"快速铺满给你即时可用？（我倾向先连接层，但听你的。）
-2. **build planner**：直接照搬 gs1 的视觉/交互，还是借这次重做一版？（照搬最快。）
+2. ~~**build planner**：直接照搬 gs1 的视觉/交互，还是借这次重做一版？~~ ✅ **已定·已交（2026-06-19）**：
+   机制同源（Set-Djinn 分布→职业），**移植**而非重做、视觉/交互照搬 gs1。gs2 数据适配 = telago 区间 +
+   ultimalink 定点行 OR 合并、`other`=每个非本命元素（Trickster 系）、native fallback；**8 adept 共享一个
+   72-Djinn 池（18/元素）**——选了「建模共享池」而非每角色独立。**满池沙盒版**已交进 `gs2_codex.html`；
+   **进度感版**（按 region order 放池，C2 地基）留好接口：JS `availableDjinnPool()` 后的 PROGRESSION SEAM，
+   Phase 2 只换这一个函数 + 加 region 选择器，下游池账本/stepper/matcher 不动。
 3. **② NotebookLM**：要不要我**现在就先把喂料整理好**（一个 `export/` 把 JSON + walkthrough 拼成
    适合丢进去的格式），让你这两天就能先用上问答？这是真正的零成本最快 quick win。
 4. **③ 中文翻译**：现在就开 Gemini bulk 跑 `walkthrough_zh/`？（独立、不阻塞 app。）

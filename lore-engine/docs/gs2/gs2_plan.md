@@ -29,7 +29,7 @@
 | 4. 提取 + 连图 | 见 §2 实体清单 | 🔄 近完成 |
 | 4.5 Walkthrough 整合 + locations | spine→2a→locations→2b；详见 `walkthrough_consolidation_plan.md` | 🔄 2a / locations / FK ✅，**2b 翻译 ⬜** |
 | 5. Cross-check（任务3） | 两条独立 provenance 流核验；详见 `crosscheck_findings.md` | ✅ 三轮全完成（net 0 merge） |
-| 6. 应用层 | 方向 + 分阶段见 [`gs2_app_brainstorm.md`](gs2_app_brainstorm.md) | 🔄 **Phase 1 MVP（连接层）✅**：`build_codex_gs2.py`→`tools/gs2_codex.html`（wiki + 双向交叉链接 + hover tooltip + source inspector）。下一切：planner / boss卡·图鉴·锻造 / ② NotebookLM 喂料 / ③ 中文翻译 |
+| 6. 应用层 | 方向 + 分阶段见 [`gs2_app_brainstorm.md`](gs2_app_brainstorm.md) | 🔄 **Phase 1 MVP（连接层）✅** + **Build Planner ✅**：`build_codex_gs2.py`→`tools/gs2_codex.html`（wiki + 双向交叉链接 + hover tooltip + source inspector + planner tab）。**Planner**：移植 gs1 机制（Set-Djinn 分布→职业/stat/Psynergy），gs2 适配 = telago 区间 + ultimalink 定点行 OR 合并、`other`=每个非本命元素（Trickster 系）、native fallback；**8 adept 共享一个 72-Djinn 池（18/元素）**；smoke 5/5 pass。**Phase-2 进度门控池**留好接口（JS `availableDjinnPool()` 后的 PROGRESSION SEAM，换这一个函数即可）。下一切：boss卡·图鉴·锻造 / ② NotebookLM 喂料 / ③ 中文翻译 |
 
 > 勾选 ⬜/🔄/✅；每推进一块回来改这表 + §7 日志。
 

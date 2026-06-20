@@ -122,6 +122,53 @@
   #tip .tt { font-family:var(--font-display); font-size:15px; color:var(--gold-bright); margin-bottom:4px; }
   #tip .tk { color:var(--text-faint); }
   #tip .ttype { font-size:9px; letter-spacing:1px; text-transform:uppercase; color:var(--text-faint); }
+
+  /* ---- nav / tabs ---- */
+  nav { display:flex; justify-content:center; gap:6px; padding:14px 20px 0; flex-wrap:wrap; }
+  nav button { font-family:var(--font-display); font-size:14px; letter-spacing:2px; text-transform:uppercase;
+    background:transparent; color:var(--text-dim); border:1px solid transparent; border-bottom:none;
+    padding:9px 28px; cursor:pointer; border-radius:var(--radius) var(--radius) 0 0; transition:color .15s, background .15s; }
+  nav button:hover { color:var(--gold-bright); }
+  nav button.active { color:var(--gold-bright); background:var(--panel); border-color:var(--line); box-shadow:0 -4px 16px rgba(80,64,24,.08); }
+  .tabpane { display:none; } .tabpane.active { display:block; }
+
+  /* ---- planner ---- */
+  .infobox { background:linear-gradient(180deg,var(--panel-2),var(--panel)); border:1px solid var(--line); border-left:3px solid var(--gold-dim);
+    border-radius:var(--radius); padding:12px 16px; margin-bottom:14px; color:var(--text-dim); font-size:13px; line-height:1.55; }
+  .infobox b { color:var(--gold-bright); } .infobox code { color:var(--text); background:var(--bg-deep); padding:1px 6px; border-radius:4px; font-size:12px; }
+  .poolbar { display:flex; flex-wrap:wrap; gap:10px 22px; align-items:center; background:var(--panel); border:1px solid var(--line);
+    border-radius:var(--radius); padding:10px 16px; margin-bottom:18px; }
+  .poolbar .ptitle { font-size:10px; letter-spacing:2px; text-transform:uppercase; color:var(--text-faint); }
+  .poolel { display:flex; align-items:center; gap:8px; min-width:150px; }
+  .poolel .pn { font-size:12px; min-width:54px; } .poolel .pcount { font-size:12px; font-variant-numeric:tabular-nums; color:var(--text-dim); min-width:42px; text-align:right; }
+  .poolel .pcount.over { color:var(--bad); font-weight:700; }
+  .poolwrap { flex:1; background:var(--bg-deep); border-radius:4px; height:9px; overflow:hidden; min-width:50px; }
+  .poolwrap .pfill { height:100%; border-radius:4px; }
+  .pgrid { display:grid; grid-template-columns:repeat(4,1fr); gap:14px; align-items:start; }
+  @media (max-width:1200px){ .pgrid{ grid-template-columns:repeat(2,1fr);} } @media (max-width:640px){ .pgrid{ grid-template-columns:1fr;} }
+  .charcard { background:var(--panel); border:1px solid var(--line); border-radius:var(--radius); padding:14px 15px; border-top:3px solid var(--neutral); }
+  .charcard h2 { font-family:var(--font-display); font-size:20px; font-weight:400; letter-spacing:1.5px; color:var(--gold-bright); display:flex; align-items:center; gap:8px; }
+  .charcard .nativetag { color:var(--text-faint); font-size:11px; letter-spacing:1.5px; text-transform:uppercase; margin-bottom:12px; }
+  .stepper { display:flex; align-items:center; justify-content:space-between; padding:5px 0; border-bottom:1px solid var(--line-soft); }
+  .stepper .lbl { display:flex; align-items:center; gap:7px; font-size:13px; color:var(--text-dim); }
+  .stepper .lbl.native .nm { font-weight:700; color:var(--text); }
+  .stepper .ctrls { display:flex; align-items:center; gap:8px; }
+  .stepper button { width:24px; height:24px; border-radius:6px; border:1px solid var(--line); background:var(--panel-2); color:var(--gold-bright); font-size:15px; line-height:1; cursor:pointer; font-family:var(--font-body); }
+  .stepper button:hover:not(:disabled){ border-color:var(--gold-dim); background:var(--panel-3); } .stepper button:disabled{ opacity:.35; cursor:default; }
+  .stepper .val { min-width:18px; text-align:center; font-variant-numeric:tabular-nums; font-size:15px; color:var(--text); }
+  .totalrow { display:flex; justify-content:space-between; align-items:center; margin-top:8px; font-size:12px; color:var(--text-faint); }
+  .totalrow .reset { cursor:pointer; color:var(--gold-dim); text-decoration:underline; }
+  .reverse { margin-top:10px; } .reverse select { width:100%; background:#fffdf6; border:1px solid var(--line); color:var(--text); border-radius:6px; padding:6px 8px; font-size:12.5px; font-family:var(--font-body); }
+  .result { margin-top:14px; padding-top:12px; border-top:1px solid var(--line); }
+  .result .classname { font-family:var(--font-display); font-size:19px; letter-spacing:1px; color:var(--gold-bright); cursor:pointer; }
+  .result .classname:hover { text-decoration:underline; }
+  .result .meta { font-size:11.5px; color:var(--text-faint); letter-spacing:1px; text-transform:uppercase; margin-top:2px; }
+  .result .none { color:var(--bad); font-style:italic; font-size:13px; }
+  .result .multi { color:var(--text-dim); font-size:12px; margin-top:6px; } .result .multi .alt { cursor:pointer; text-decoration:underline dotted; }
+  .psy { margin-top:12px; } .psy h3 { font-size:10.5px; letter-spacing:2px; text-transform:uppercase; color:var(--gold-dim); border-bottom:1px solid var(--line-soft); padding-bottom:4px; margin-bottom:6px; }
+  .psy ul { list-style:none; max-height:230px; overflow-y:auto; } .psy li { display:flex; align-items:center; gap:7px; padding:2.5px 0; font-size:12.5px; color:var(--text-dim); cursor:pointer; }
+  .psy li:hover .pn { text-decoration:underline; } .psy li .pn { color:var(--text); } .psy li .pp { margin-left:auto; color:var(--text-faint); font-size:11px; }
+  .psy .empty { color:var(--text-faint); font-style:italic; font-size:12px; }
   footer { text-align:center; color:var(--text-faint); font-size:11px; letter-spacing:1px; padding:10px; }
   footer code { color:var(--text-dim); }
 </style>
@@ -131,18 +178,35 @@
   <h1>Adept's Codex</h1>
   <div class="subtitle">Golden Sun: The Lost Age &middot; Knowledge Graph</div>
 </header>
+<nav>
+  <button id="navbtn-wiki" class="active" data-tab="wiki">Wiki</button>
+  <button id="navbtn-planner" data-tab="planner">Build Planner</button>
+</nav>
 <main>
-  <div class="toolbar">
-    <input type="text" id="search" placeholder="Search any entity&hellip;" autocomplete="off">
-    <div class="chipbar" id="typechips"></div>
-  </div>
-  <div class="facetbar" id="facets"></div>
-  <div class="wiki-layout">
-    <div>
-      <div class="listcount" id="listcount"></div>
-      <div class="list" id="list"></div>
+  <div class="tabpane active" id="tab-wiki">
+    <div class="toolbar">
+      <input type="text" id="search" placeholder="Search any entity&hellip;" autocomplete="off">
+      <div class="chipbar" id="typechips"></div>
     </div>
-    <div class="detail" id="detail"><div class="placeholder">Pick an entity, or click any linked chip to walk the graph. Hover a chip for a quick peek.</div></div>
+    <div class="facetbar" id="facets"></div>
+    <div class="wiki-layout">
+      <div>
+        <div class="listcount" id="listcount"></div>
+        <div class="list" id="list"></div>
+      </div>
+      <div class="detail" id="detail"><div class="placeholder">Pick an entity, or click any linked chip to walk the graph. Hover a chip for a quick peek.</div></div>
+    </div>
+  </div>
+  <div class="tabpane" id="tab-planner">
+    <div class="infobox">
+      Set the Djinn each adept has <b>Set</b> (by element) to resolve their <b>current class</b>, <b>stat multipliers</b>,
+      and <b>Psynergy</b> — or pick a target class to see a Djinn setup for it. The whole party <b>shares one Djinn pool</b>
+      (18 per element); assigning a Djinni to one adept removes it from the others. Matching follows <code>telago</code>
+      ranges + <code>ultimalink</code> exact builds; <code>other</code> = "each non-native element" (Trickster lines).
+      Class &amp; Psynergy names link into the Wiki. <i>Phase 1 = full-game sandbox; progress-gated pool comes in Phase 2.</i>
+    </div>
+    <div class="poolbar" id="poolbar"></div>
+    <div class="pgrid" id="pgrid"></div>
   </div>
 </main>
 <footer>Pure read view over <code>data/gs2/</code> &middot; provenance-first &middot; rebuild: <code>python scripts/build_codex_gs2.py</code></footer>
@@ -497,6 +561,130 @@ document.getElementById("detail").addEventListener("click",e=>{
   const r=e.target.closest(".ref[data-id]"); if(!r) return; hideTip(); openEntity(r.dataset.type,r.dataset.id); });
 
 renderFacets(); renderList(); renderDetail();
+
+/* ================= BUILD PLANNER ==========================================
+   Ported from gs1 build_codex.py. Same mechanic (Set-Djinn distribution by
+   element -> class/stats/Psynergy), adapted to gs2 data shapes:
+     * requirement rows live in available_to[].djinn_requirements[].parsed;
+       telago rows are RANGES {element,count_min,count_max}; ultimalink rows are
+       EXACT points {element,count}. We OR-combine both sources (a counts vector
+       matches a class if ANY row is satisfied) and pick the tightest row.
+     * pseudo-element "other" = "each non-native element" (Trickster lines:
+       Harlequin/Acrobat...) -> expanded to all 3 off-native elements.
+     * native-element fallback: any element a row does NOT name must be 0
+       (unless it's the adept's native element, which is always free) — neither
+       gs2 source names all 4 elements, so this disambiguates like gs1's legacy rows.
+     * 8 adepts (TLA merges both parties) share ONE 72-Djinn pool (18/element). */
+const CLASSES=DB.classes||[];
+const NATIVE={}; (DB.characters||[]).forEach(c=>{ if(c.element) NATIVE[c.name]=c.element; });
+const PARTY=(DB.characters||[]).filter(c=>c.element);
+
+/* ----- PROGRESSION SEAM (Phase-2 hook) -------------------------------------
+   Phase 1 is the full-game sandbox: the entire 72-Djinn pool is available.
+   The Phase-2 "progress-aware" planner swaps ONLY availableDjinnPool(): have it
+   return the Djinn reachable by a chosen region order (materialize a djinn->region
+   map from djinn.location.area + the 62-region spine — see gs2_app_brainstorm.md
+   §C2). Everything downstream (pool ledger, steppers, matcher) is progress-agnostic
+   and unchanged; a region selector would just set progressIndex and re-run rebuildPool(). */
+let progressIndex=null;                  // null = full game (Phase 1); Phase 2 sets a region order index
+function availableDjinnPool(){           // {earth,fire,wind,water} -> # of Set-able Djinn reachable now
+  const pool={earth:0,fire:0,wind:0,water:0};
+  (DB.djinn||[]).forEach(d=>{ if(pool[d.element]==null) return;
+    /* Phase-2 seam: if(progressIndex!=null && djinnRegionOrder(d) > progressIndex) return; */
+    pool[d.element]++; });
+  return pool;
+}
+let POOL_MAX=availableDjinnPool();
+function rebuildPool(){ POOL_MAX=availableDjinnPool(); renderAll(); }   // Phase-2 calls this after setProgress
+
+/* ----- matcher ----- */
+function expandRow(parsed,native){ const out=[];
+  for(const p of parsed){ const mn=(p.count_min!=null?p.count_min:p.count), mx=(p.count_max!=null?p.count_max:p.count);
+    if(p.element==="other"){ for(const el of ELEMS) if(el!==native) out.push({element:el,min:mn,max:mx}); }
+    else if(ELEMS.includes(p.element)) out.push({element:p.element,min:mn,max:mx}); }
+  return out; }
+function classRows(av,native){ const out=[];
+  for(const r of av.djinn_requirements||[]){ if(!r.parsed||!r.parsed.length) continue;
+    if(r.source==="telago"||r.source==="ultimalink"){ const ex=expandRow(r.parsed,native); if(ex.length) out.push(ex); } }
+  return out; }
+function rowSatisfies(parsed,counts,native){ const named={};
+  for(const p of parsed){ if(counts[p.element]<p.min||counts[p.element]>p.max) return false; named[p.element]=true; }
+  for(const el of ELEMS){ if(el===native||named[el]) continue; if(counts[el]>0) return false; } return true; }
+function rowWidth(parsed){ return parsed.reduce((s,p)=>s+(p.max-p.min),0); }
+function matchClasses(charName,counts){ const native=NATIVE[charName]; const out=[];
+  for(const c of CLASSES){ const av=(c.available_to||[]).find(a=>a.character===charName); if(!av) continue;
+    let best=null; for(const parsed of classRows(av,native)){ if(rowSatisfies(parsed,counts,native)){ const w=rowWidth(parsed); if(best===null||w<best) best=w; } }
+    if(best!==null) out.push({cls:c,av,width:best}); }
+  out.sort((a,b)=>a.width-b.width); return out; }
+// reverse: prefer an ultimalink EXACT build (a concrete point); fall back to the first range row's mins.
+function reverseCounts(av,native){
+  const ulti=(av.djinn_requirements||[]).filter(r=>r.source==="ultimalink"&&r.parsed&&r.parsed.length);
+  const src = ulti.length ? expandRow(ulti[ulti.length-1].parsed,native) : (classRows(av,native)[0]||null);
+  const c={earth:0,fire:0,wind:0,water:0}; if(src) for(const p of src) c[p.element]=Math.max(c[p.element],p.min); return c; }
+
+/* ----- shared-pool state + rendering ----- */
+const psyById=byId.psynergy||{};
+const pstate={}; PARTY.forEach(c=>pstate[c.name]={earth:0,fire:0,wind:0,water:0});
+function poolUsed(){ const u={earth:0,fire:0,wind:0,water:0}; PARTY.forEach(c=>ELEMS.forEach(el=>u[el]+=pstate[c.name][el])); return u; }
+function renderPool(used){
+  const html=`<span class="ptitle">Djinn Pool</span>`+ELEMS.map(el=>{ const u=used[el],m=POOL_MAX[el]; const over=u>m;
+    const pct=Math.max(0,Math.min(100,m?(u/m)*100:0));
+    return `<div class="poolel">${elDot(el)}<span class="pn tx-${el}">${EL_DJINN[el]}</span>
+      <div class="poolwrap"><div class="pfill" style="width:${pct}%;background:var(--${el})"></div></div>
+      <span class="pcount ${over?'over':''}">${u} / ${m}</span></div>`; }).join("");
+  document.getElementById("poolbar").innerHTML=html; }
+function pStatBars(sm){ if(!sm) return '<div class="psy empty" style="margin-top:10px">No stat multipliers in source.</div>';
+  return `<div class="statgrid" style="margin-top:10px">`+[["hp","HP"],["pp","PP"],["atk","ATK"],["def","DEF"],["agi","AGI"],["lck","LCK"]].map(([k,l])=>{
+    const v=sm[k]; if(v==null) return ""; const pct=Math.max(0,Math.min(100,(v/200)*100)); const cls=v>100?"high":(v<100?"low":"");
+    return `<div class="sn">${l}</div><div class="barwrap"><div class="bar ${cls}" style="width:${pct}%"></div><div class="base" style="left:50%"></div></div><div class="sv">${v}%</div>`;
+  }).join("")+`</div>`; }
+function pPsyList(cls){ const ps=cls.psynergy||[]; if(!ps.length) return '<div class="empty">None.</div>';
+  return "<ul>"+ps.map(x=>{ const p=psyById[x.id]||{}; const el=p.element||"none"; const pp=p.pp_cost!=null?p.pp_cost+" PP":"";
+    return `<li data-pid="${esc(x.id)}">${elDot(el)}<span class="pn">${esc(x.name||p.name||x.id)}</span><span class="pp">${pp}</span></li>`; }).join("")+"</ul>"; }
+function renderResult(name){ const counts=pstate[name]; const matches=matchClasses(name,counts); const box=document.getElementById("res-"+name);
+  if(!matches.length){ box.innerHTML='<div class="none">No class in the data matches this Djinn mix.</div>'; return; }
+  const c=matches[0].cls; const lineTip=c.class_line&&c.class_line!==c.id?` &middot; ${esc(c.class_line)} line`:"";
+  let h=`<div class="classname" data-cid="${esc(c.id)}">${esc(c.qualified_name||c.name)}</div><div class="meta">${esc(c.dominance_group||"")}${lineTip}</div>`;
+  if(matches.length>1) h+=`<div class="multi">Also valid: `+matches.slice(1,6).map(m=>`<span class="alt" data-c="${esc(name)}" data-id="${esc(m.cls.id)}">${esc(m.cls.qualified_name||m.cls.name)}</span>`).join(", ")+`</div>`;
+  h+=pStatBars(c.stat_multiplier)+`<div class="psy"><h3>Psynergy &middot; ${(c.psynergy||[]).length}</h3>${pPsyList(c)}</div>`;
+  box.innerHTML=h; }
+function renderCard(name,used){ used=used||poolUsed(); const counts=pstate[name]; const total=ELEMS.reduce((s,e)=>s+counts[e],0);
+  ELEMS.forEach(el=>{ document.getElementById(`pval-${name}-${el}`).textContent=counts[el];
+    document.getElementById(`pinc-${name}-${el}`).disabled=used[el]>=POOL_MAX[el];
+    document.getElementById(`pdec-${name}-${el}`).disabled=counts[el]<=0; });
+  document.getElementById("ptot-"+name).textContent=`Set: ${total} Djinn`; renderResult(name); }
+function renderAll(){ const used=poolUsed(); renderPool(used); PARTY.forEach(c=>renderCard(c.name,used)); }
+function setCounts(name,counts){ pstate[name]=Object.assign({earth:0,fire:0,wind:0,water:0},counts); renderAll(); }
+function buildCard(c){ const native=c.element;
+  const reachable=CLASSES.filter(cl=>(cl.available_to||[]).some(a=>a.character===c.name&&classRows(a,native).length))
+    .map(cl=>({id:cl.id,label:cl.qualified_name||cl.name})).sort((a,b)=>a.label.localeCompare(b.label));
+  const steppers=ELEMS.map(el=>{ const isN=el===native; return `<div class="stepper">
+    <span class="lbl ${isN?'native':''}">${elDot(el)}<span class="nm tx-${el}">${EL_DJINN[el]}</span>${isN?' &#9733;':''}</span>
+    <span class="ctrls"><button id="pdec-${c.name}-${el}" data-c="${esc(c.name)}" data-el="${el}" data-d="-1">&minus;</button>
+    <span class="val" id="pval-${c.name}-${el}">0</span><button id="pinc-${c.name}-${el}" data-c="${esc(c.name)}" data-el="${el}" data-d="1">+</button></span></div>`; }).join("");
+  const opts=`<option value="">&mdash; set Djinn for a target class &mdash;</option>`+reachable.map(r=>`<option value="${esc(r.id)}">${esc(r.label)}</option>`).join("");
+  return `<div class="charcard" style="border-top-color:var(--${native})"><h2>${elDot(native)}${esc(c.name)}</h2>
+    <div class="nativetag tx-${native}">${EL_DJINN[native]} Adept</div>${steppers}
+    <div class="totalrow"><span id="ptot-${esc(c.name)}"></span><span class="reset" data-c="${esc(c.name)}">reset</span></div>
+    <div class="reverse"><select id="prev-${esc(c.name)}" data-c="${esc(c.name)}">${opts}</select></div>
+    <div class="result" id="res-${esc(c.name)}"></div></div>`; }
+const pgrid=document.getElementById("pgrid"); pgrid.innerHTML=PARTY.map(buildCard).join("");
+pgrid.addEventListener("click",e=>{
+  const btn=e.target.closest("button[data-d]"); if(btn){ const {c,el,d}=btn.dataset; const counts=pstate[c]; const used=poolUsed();
+    const nv=counts[el]+(+d); if(nv<0) return; if(+d>0&&used[el]>=POOL_MAX[el]) return; counts[el]=nv; renderAll(); return; }
+  const rs=e.target.closest(".reset[data-c]"); if(rs){ setCounts(rs.dataset.c,{}); document.getElementById("prev-"+rs.dataset.c).value=""; return; }
+  const alt=e.target.closest(".alt[data-id]"); if(alt){ const cl=CLASSES.find(x=>x.id===alt.dataset.id); if(!cl) return; const av=cl.available_to.find(a=>a.character===alt.dataset.c); setCounts(alt.dataset.c,reverseCounts(av,NATIVE[alt.dataset.c])); return; }
+  const cn=e.target.closest(".classname[data-cid]"); if(cn){ document.getElementById("navbtn-wiki").click(); openEntity("classes",cn.dataset.cid); return; }
+  const li=e.target.closest("li[data-pid]"); if(li){ document.getElementById("navbtn-wiki").click(); openEntity("psynergy",li.dataset.pid); return; }
+});
+pgrid.addEventListener("change",e=>{ const sel=e.target.closest("select[data-c]"); if(!sel||!sel.value) return;
+  const cl=CLASSES.find(x=>x.id===sel.value); if(!cl) return; const av=cl.available_to.find(a=>a.character===sel.dataset.c); setCounts(sel.dataset.c,reverseCounts(av,NATIVE[sel.dataset.c])); });
+renderAll();
+
+/* ----- tabs ----- */
+document.querySelector("nav").addEventListener("click",e=>{ const b=e.target.closest("button[data-tab]"); if(!b) return; hideTip();
+  const tab=b.dataset.tab; document.querySelectorAll("nav button").forEach(x=>x.classList.toggle("active",x===b));
+  document.querySelectorAll(".tabpane").forEach(p=>p.classList.toggle("active",p.id==="tab-"+tab)); });
 </script>
 </body>
 </html>
