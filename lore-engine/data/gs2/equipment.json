@@ -7998,11 +7998,14 @@
     },
     "increases_critical": false,
     "unleash": {
-      "name": "Radient Fire",
+      "name": "Radiant Fire",
       "name_literal": "Hell Fire",
       "element": null,
       "rate": null,
-      "power_level": null
+      "power_level": null,
+      "name_variants": [
+        "Radient Fire"
+      ]
     },
     "use_effect": null,
     "effects": [],
@@ -9114,7 +9117,9 @@
     "is_cursed": false,
     "is_rusty": false,
     "is_artifact": null,
-    "forged_from": [],
+    "forged_from": [
+      "Salamander Tail"
+    ],
     "equippable_by": [
       "Felix",
       "Piers",
@@ -9159,7 +9164,8 @@
     "can_trade": true,
     "sources": [
       "mr-unorigino-item",
-      "90kirsdarke-hack"
+      "90kirsdarke-hack",
+      "aspartate-forge"
     ]
   },
   {
@@ -10897,7 +10903,9 @@
     "is_cursed": false,
     "is_rusty": false,
     "is_artifact": null,
-    "forged_from": [],
+    "forged_from": [
+      "Dragon Skin"
+    ],
     "equippable_by": [
       "Felix",
       "Piers",
@@ -10935,7 +10943,8 @@
     "sell_price": 7275,
     "can_trade": true,
     "sources": [
-      "mr-unorigino-item"
+      "mr-unorigino-item",
+      "aspartate-forge"
     ]
   },
   {
@@ -13862,7 +13871,9 @@
     "is_cursed": false,
     "is_rusty": false,
     "is_artifact": null,
-    "forged_from": [],
+    "forged_from": [
+      "Star Dust"
+    ],
     "equippable_by": [
       "Jenna",
       "Sheba",
@@ -13901,7 +13912,8 @@
     "can_trade": true,
     "sources": [
       "mr-unorigino-item",
-      "90kirsdarke-hack"
+      "90kirsdarke-hack",
+      "aspartate-forge"
     ]
   },
   {
@@ -13917,7 +13929,9 @@
     "is_cursed": false,
     "is_rusty": false,
     "is_artifact": null,
-    "forged_from": [],
+    "forged_from": [
+      "Mythril Silver"
+    ],
     "equippable_by": [
       "Jenna",
       "Sheba",
@@ -13956,7 +13970,8 @@
     "can_trade": true,
     "sources": [
       "mr-unorigino-item",
-      "90kirsdarke-hack"
+      "90kirsdarke-hack",
+      "aspartate-forge"
     ]
   },
   {

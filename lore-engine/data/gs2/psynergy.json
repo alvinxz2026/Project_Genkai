@@ -2496,6 +2496,9 @@
     "tier": null,
     "sources": [
       "telago"
+    ],
+    "name_variants": [
+      "Fairy"
     ]
   },
   {
@@ -3213,6 +3216,9 @@
     "tier": null,
     "sources": [
       "telago"
+    ],
+    "name_variants": [
+      "Minotaurus"
     ]
   },
   {
@@ -3353,6 +3359,50 @@
     "tier": null,
     "sources": [
       "telago"
+    ]
+  },
+  {
+    "id": "splash",
+    "name": "Splash",
+    "game": "gs2",
+    "element": "water",
+    "pp_cost": null,
+    "range": null,
+    "description": null,
+    "series": null,
+    "tier": null,
+    "sources": [
+      "ultimalink"
+    ],
+    "conflicts": [
+      {
+        "field": "stats",
+        "value": null,
+        "source": "ultimalink",
+        "note": "name-only from ultimalink class learn-lists (water Seer-line + Ranger/Bard/Warlock, L30/34); no stat source (absent from yoyoyoshi m11 + telago 33); element inferred water from learner classes, pp/range/description unconfirmed"
+      }
+    ]
+  },
+  {
+    "id": "siren",
+    "name": "Siren",
+    "game": "gs2",
+    "element": null,
+    "pp_cost": null,
+    "range": null,
+    "description": null,
+    "series": null,
+    "tier": null,
+    "sources": [
+      "autocon"
+    ],
+    "conflicts": [
+      {
+        "field": "stats",
+        "value": null,
+        "source": "autocon",
+        "note": "name-only from autocon Tamer learn-list (Beast Lord L24); no stat source (absent from yoyoyoshi m11 + telago 33); element + pp/range/description unconfirmed"
+      }
     ]
   }
 ]

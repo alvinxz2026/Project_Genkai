@@ -51,7 +51,25 @@ VARIANT_OF = {
     "Megacool": ("Extremecool", "conflict"),  # telago vs yoyoyoshi
     "Ice Missle": ("Ice Missile", "telago-typo"),   # telago drops an 'i'
     "HP Drain": ("Drain", "telago-variant"),         # canonical "Drain" == telago "HP Drain"
+    "Fairy": ("Faery", "autocon-variant"),           # autocon Tamer learn-list spelling
+    "Minotaurus": ("Minotaur", "autocon-variant"),   # autocon Tamer learn-list spelling
 }
+
+# Psynergy named only by class learn-lists (ultimalink/autocon), absent from EVERY
+# stat source (yoyoyoshi m11, telago 33). Added as name-only entries (stats=null,
+# unconfirmed per schema) so classes.psynergy resolves instead of dangling; each
+# carries a `conflicts` flag noting the missing-stat provenance. element is set
+# only where context makes it certain, else null.
+#   (display name, element|None, source, note)
+NAME_ONLY = [
+    ("Splash", "water", "ultimalink",
+     "name-only from ultimalink class learn-lists (water Seer-line + Ranger/Bard/"
+     "Warlock, L30/34); no stat source (absent from yoyoyoshi m11 + telago 33); "
+     "element inferred water from learner classes, pp/range/description unconfirmed"),
+    ("Siren", None, "autocon",
+     "name-only from autocon Tamer learn-list (Beast Lord L24); no stat source "
+     "(absent from yoyoyoshi m11 + telago 33); element + pp/range/description unconfirmed"),
+]
 
 
 def norm(s):
@@ -91,8 +109,9 @@ def parse_telago33():
 def main():
     psy = json.loads((DATA / "psynergy.json").read_text(encoding="utf-8"))
 
-    # --- idempotency: strip prior telago additions + telago-added variants ---
-    psy = [p for p in psy if "telago" not in p.get("sources", []) or p.get("sources") != ["telago"]]
+    # --- idempotency: strip prior telago additions + name-only adds + telago-added variants ---
+    name_only_ids = {slug(n) for n, *_ in NAME_ONLY}
+    psy = [p for p in psy if p.get("sources") != ["telago"] and p["id"] not in name_only_ids]
     by_name = {norm(p["name"]): p for p in psy}
     for canon, _ in VARIANT_OF.values():
         e = by_name.get(norm(canon))
@@ -105,21 +124,6 @@ def main():
 
     canon_names = {norm(p["name"]) for p in psy}
     added, folded = [], []
-
-    # --- fold VARIANT_OF names into existing canonical entries ---
-    for variant, (canon, kind) in VARIANT_OF.items():
-        e = by_name.get(norm(canon))
-        if not e:
-            continue
-        e.setdefault("name_variants", [])
-        if norm(variant) not in {norm(v) for v in e["name_variants"]}:
-            e["name_variants"].append(variant)
-        if kind == "conflict":
-            e["conflicts"] = [{"field": "name", "value": variant, "source": "telago",
-                               "note": f"telago calls this {variant!r}; canonical (yoyoyoshi) {e['name']!r}"}]
-            if "telago" not in e["sources"]:
-                e["sources"].append("telago")
-        folded.append(f"{variant} -> {canon} ({kind})")
 
     # --- add telago battle spells absent from canonical ---
     for name, elem, pp, rng, eff in parse_telago33():
@@ -139,11 +143,41 @@ def main():
         added.append(entry)
         canon_names.add(norm(disp))
 
+    # --- name-only psynergy (referenced by classes, no stat source anywhere) ---
+    for name, elem, src, note in NAME_ONLY:
+        if norm(name) in canon_names:
+            continue
+        added.append({
+            "id": slug(name), "name": name, "game": "gs2", "element": elem,
+            "pp_cost": None, "range": None, "description": None,
+            "series": None, "tier": None, "sources": [src],
+            "conflicts": [{"field": "stats", "value": None, "source": src, "note": note}],
+        })
+        canon_names.add(norm(name))
+
     # guard: no id collisions
     ids = [p["id"] for p in psy] + [e["id"] for e in added]
     assert len(ids) == len(set(ids)), f"id collision: {[i for i in ids if ids.count(i) > 1]}"
 
     psy.extend(added)
+
+    # --- fold VARIANT_OF names into canonical entries (after add, so telago-
+    #     added canonicals like Faery/Minotaur are present in by_name) ---
+    by_name = {norm(p["name"]): p for p in psy}
+    for variant, (canon, kind) in VARIANT_OF.items():
+        e = by_name.get(norm(canon))
+        if not e:
+            continue
+        e.setdefault("name_variants", [])
+        if norm(variant) not in {norm(v) for v in e["name_variants"]}:
+            e["name_variants"].append(variant)
+        if kind == "conflict":
+            e["conflicts"] = [{"field": "name", "value": variant, "source": "telago",
+                               "note": f"telago calls this {variant!r}; canonical (yoyoyoshi) {e['name']!r}"}]
+            if "telago" not in e["sources"]:
+                e["sources"].append("telago")
+        folded.append(f"{variant} -> {canon} ({kind})")
+
     (DATA / "psynergy.json").write_text(json.dumps(psy, ensure_ascii=False, indent=2) + "\n",
                                         encoding="utf-8")
 
@@ -151,8 +185,11 @@ def main():
     print(f"  folded as variants ({len(folded)}): {', '.join(folded)}")
     print(f"  added ({len(added)}):")
     for e in sorted(added, key=lambda x: x["name"]):
-        print(f"    {e['name']:16} {e['element']:7} pp={e['pp_cost']:<3} range={e['range']} "
-              f"series={e['series']}")
+        elem = e["element"] or "-"
+        pp = e["pp_cost"] if e["pp_cost"] is not None else "-"
+        flag = "  [name-only/no-stats]" if e.get("conflicts") else ""
+        print(f"    {e['name']:16} {elem:7} pp={str(pp):<3} range={e['range']} "
+              f"series={e['series']}{flag}")
     return 0
 
 

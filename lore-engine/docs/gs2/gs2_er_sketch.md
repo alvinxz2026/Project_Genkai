@@ -28,7 +28,7 @@
 | `items` | 事实表 | 小写连字符，如 `herb` | 增量：**锻造原材料** |
 | `shops` | 事实表（连 location↔货品） | 小写城镇名 | 主源 `shotgunnova-shop`（15 城镇） |
 | `monsters` | 事实表 | 小写连字符 + `#n`→`-n` 变体，如 `mimic-1` | ✅ **已提取，203 条**（`scripts/monsters_extract_gs2.py`） |
-| `bosses` | 事实表（比 monsters 多 encounters/attacks/strategy） | 小写连字符 | 未开始；monsters 里已有 boss stat-line 待 cross-link |
+| `bosses` | 事实表（比 monsters 多 encounters/attacks/strategy） | 小写连字符 | ✅ **已提取，18 条**（两层：确定性骨架 + curated strategy sidecar）。复合 boss（`Agatio & Karst`/`Moapa & Knights`）split 存储 + 拟加 `compound_names` 别名层（见 §4.5） |
 
 > **`game` 字段语义**：标"首次出现的游戏"而非"文件归属"。gs2 文件里多数实体 = `"gs2"`，
 > 但 transfer 从 gs1 带入的 djinn 仍记 `"gs1"`（沿用 gs1 djinn schema 约定）。
@@ -93,6 +93,12 @@ characters/classes 都带 `element`，作软 join 键。
 4. **transfer（不是实体）**：**[倾向]** 建成**标志/小事件表**，不建 JSON 实体。在受影响的 djinn/item 上加
    `via_transfer` 之类布尔；4–6 个 transfer 触发事件归 walkthrough/locations，或一张极小的 `transfer_events`
    参考表。主源 `dbfire`(事件) / `mr-unorigino-pw`(password)。**[TBD]**
+5. **缺口收尾轮新增字段（2026-06-20，✅ 已落地，见 `gs2_extraction_plan.md §5`）**：
+   - `classes.available_to[].acr`（aku-chi Combat efficiency Rank）+ `acr_config`（达成该最高 ACR 的 djinn
+     配置串，如 `"8 wind"`）——单值取跨 setup 最高。回填 37 条（`classes_acr_gs2.py`）。
+   - `bosses.compound_names`（复合 boss 展示名，如 `["Agatio & Karst"]`，`bosses_extract` 的 COMPOUND_NAMES）。
+     **消费者 = `locations_refs_gs2.py`**（数据驱动建 `compound_by`，把 `bosses_here` 的 "X & Y" ref 展开到 split 的
+     pair；非 links_normalize）。数据仍按个体 split 存储（cross-check 已确认正确）。
 
 ---
 

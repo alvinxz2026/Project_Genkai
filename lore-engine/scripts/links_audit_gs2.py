@@ -51,6 +51,7 @@ ALIASES = {
     "strom ray": "storm ray",
     "high imapct": "high impact",
     "drian": "drain",
+    "quake strike": "quick strike",  # ultimalink typo (samurai/ronin L40); aku-chi corroborates "Quick Strike"
 }
 
 

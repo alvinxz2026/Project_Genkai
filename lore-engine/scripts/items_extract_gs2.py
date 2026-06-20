@@ -118,6 +118,11 @@ NAME_FIXES = {
     "Fireman's Rod": "Fireman's Pole",
     "Appolo's Axe": "Apollo's Axe",
 }
+# mr-unorigino unleash-name typos -> correct spelling (corroborated by aspartate-
+# forge). Old spelling kept in unleash.name_variants for provenance.
+UNLEASH_FIXES = {
+    "Radient Fire": "Radiant Fire",  # Levatine; aspartate-forge spells it "Radiant"
+}
 KIRS_SRC = "90kirsdarke-hack"
 
 ELEM = {"Venus": "earth", "Mercury": "water", "Mars": "fire", "Jupiter": "wind"}
@@ -295,10 +300,15 @@ def other_item_type(name):
 def build_unleash(rec):
     if not rec["unleash_name"]:
         return None
-    return {
-        "name": rec["unleash_name"], "name_literal": rec["unleash_name_literal"],
+    name = rec["unleash_name"]
+    out = {
+        "name": name, "name_literal": rec["unleash_name_literal"],
         "element": None, "rate": None, "power_level": None,
     }
+    if name in UNLEASH_FIXES:
+        out["name"] = UNLEASH_FIXES[name]
+        out["name_variants"] = [name]
+    return out
 
 
 def build_use_effect(rec):

@@ -36,12 +36,14 @@ CHARS = ["Isaac", "Garet", "Ivan", "Mia", "Felix", "Jenna", "Sheba", "Piers"]
 # forge-guide spelling -> equipment.json canonical name (same item, source variance).
 # "appolo's axe" is an equipment.json typo (mr-unorigino) the forge guide spells
 # correctly; aliased so forged_from resolves, and reported below.
+# forge-guide name -> our equipment name (only where they genuinely differ).
+# NOTE: Psychic/Astral Circlet + Apollo's Axe used to need aliases, but items_extract
+# NAME_FIXES (2026-06-19) renamed our equipment to those same real-game names, so
+# they now match directly — keeping the old aliases would mis-redirect to dead names.
 FORGE_ALIASES = {
     "cosmo shield": "Cosmos Shield",
-    "psychic circlet": "Psychic Circle",
-    "astral circlet": "Astral Circle",
     "spirits ring": "Spirit Ring",
-    "apollo's axe": "Appolo's Axe",
+    "dragon armor": "Dragon Mail",  # aspartate's name; matches Dragon Mail (def+44, 15/15 resist, worth 7275=sell)
 }
 
 

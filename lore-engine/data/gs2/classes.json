@@ -829,7 +829,8 @@
             "source": "telago"
           }
         ],
-        "acr": null
+        "acr": 8.0,
+        "acr_config": "8 earth"
       },
       {
         "character": "Isaac",
@@ -857,7 +858,8 @@
             "source": "telago"
           }
         ],
-        "acr": null
+        "acr": 8.5,
+        "acr_config": "8 earth"
       }
     ],
     "psynergy": [
@@ -1734,7 +1736,8 @@
             "source": "telago"
           }
         ],
-        "acr": null
+        "acr": 7.5,
+        "acr_config": "8 water"
       }
     ],
     "psynergy": [
@@ -2417,7 +2420,8 @@
             "source": "telago"
           }
         ],
-        "acr": null
+        "acr": 6.5,
+        "acr_config": "8 fire"
       }
     ],
     "psynergy": [
@@ -3539,7 +3543,8 @@
             "source": "telago"
           }
         ],
-        "acr": null
+        "acr": 8.5,
+        "acr_config": "8 wind"
       },
       {
         "character": "Ivan",
@@ -3567,7 +3572,8 @@
             "source": "telago"
           }
         ],
-        "acr": null
+        "acr": 8.5,
+        "acr_config": "8 wind"
       }
     ],
     "psynergy": [
@@ -4412,7 +4418,8 @@
             "source": "telago"
           }
         ],
-        "acr": null
+        "acr": 7.5,
+        "acr_config": "8 water"
       }
     ],
     "psynergy": [
@@ -5246,7 +5253,8 @@
             "source": "telago"
           }
         ],
-        "acr": null
+        "acr": 8.0,
+        "acr_config": "8 fire"
       }
     ],
     "psynergy": [
@@ -8435,7 +8443,8 @@
             "source": "telago"
           }
         ],
-        "acr": null
+        "acr": 9.0,
+        "acr_config": "4 earth, 5 water"
       },
       {
         "character": "Isaac",
@@ -8509,7 +8518,8 @@
             "source": "telago"
           }
         ],
-        "acr": null
+        "acr": 8.5,
+        "acr_config": "4 earth, 5 water"
       },
       {
         "character": "Garet",
@@ -8546,7 +8556,8 @@
             "source": "telago"
           }
         ],
-        "acr": null
+        "acr": 9.0,
+        "acr_config": "4 earth, 5 water"
       }
     ],
     "psynergy": [
@@ -9760,7 +9771,8 @@
             "source": "telago"
           }
         ],
-        "acr": null
+        "acr": 9.0,
+        "acr_config": "2 earth, 7 wind"
       }
     ],
     "psynergy": [
@@ -11781,7 +11793,8 @@
             "source": "telago"
           }
         ],
-        "acr": null
+        "acr": 9.5,
+        "acr_config": "4 fire, 5 wind"
       },
       {
         "character": "Isaac",
@@ -11818,7 +11831,8 @@
             "source": "telago"
           }
         ],
-        "acr": null
+        "acr": 10.0,
+        "acr_config": "4 fire, 5 wind"
       },
       {
         "character": "Jenna",
@@ -11855,7 +11869,8 @@
             "source": "telago"
           }
         ],
-        "acr": null
+        "acr": 9.0,
+        "acr_config": "4 earth, 5 wind"
       },
       {
         "character": "Garet",
@@ -12216,7 +12231,7 @@
       },
       {
         "name": "Splash",
-        "id": null,
+        "id": "splash",
         "level": 30,
         "sources": [
           "ultimalink"
@@ -12430,7 +12445,7 @@
       },
       {
         "name": "Splash",
-        "id": null,
+        "id": "splash",
         "level": 30,
         "sources": [
           "ultimalink"
@@ -12700,7 +12715,7 @@
       },
       {
         "name": "Splash",
-        "id": null,
+        "id": "splash",
         "level": 30,
         "sources": [
           "ultimalink"
@@ -13006,7 +13021,7 @@
       },
       {
         "name": "Splash",
-        "id": null,
+        "id": "splash",
         "level": 30,
         "sources": [
           "ultimalink"
@@ -13091,7 +13106,8 @@
             "source": "telago"
           }
         ],
-        "acr": null
+        "acr": 7.5,
+        "acr_config": "2 water, 7 earth"
       },
       {
         "character": "Mia",
@@ -13238,7 +13254,7 @@
       },
       {
         "name": "Splash",
-        "id": null,
+        "id": "splash",
         "level": 30,
         "sources": [
           "ultimalink"
@@ -16385,7 +16401,8 @@
             "source": "telago"
           }
         ],
-        "acr": null
+        "acr": 8.5,
+        "acr_config": "2 water, 7 fire"
       },
       {
         "character": "Mia",
@@ -16422,7 +16439,8 @@
             "source": "telago"
           }
         ],
-        "acr": null
+        "acr": 9.0,
+        "acr_config": "2 water, 7 fire"
       }
     ],
     "psynergy": [
@@ -17978,7 +17996,7 @@
       },
       {
         "name": "Splash",
-        "id": null,
+        "id": "splash",
         "level": 34,
         "sources": [
           "ultimalink"
@@ -18276,7 +18294,7 @@
       },
       {
         "name": "Splash",
-        "id": null,
+        "id": "splash",
         "level": 34,
         "sources": [
           "ultimalink"
@@ -18435,7 +18453,8 @@
             "source": "telago"
           }
         ],
-        "acr": null
+        "acr": 7.5,
+        "acr_config": "4 wind, 5 fire"
       },
       {
         "character": "Mia",
@@ -18574,7 +18593,7 @@
       },
       {
         "name": "Splash",
-        "id": null,
+        "id": "splash",
         "level": 34,
         "sources": [
           "ultimalink"
@@ -20045,7 +20064,8 @@
             "source": "telago"
           }
         ],
-        "acr": null
+        "acr": 9.5,
+        "acr_config": "2 earth, 7 fire"
       },
       {
         "character": "Isaac",
@@ -20119,7 +20139,8 @@
             "source": "telago"
           }
         ],
-        "acr": null
+        "acr": 8.5,
+        "acr_config": "2 fire, 7 earth"
       },
       {
         "character": "Garet",
@@ -20156,7 +20177,8 @@
             "source": "telago"
           }
         ],
-        "acr": null
+        "acr": 9.0,
+        "acr_config": "2 fire, 7 earth"
       }
     ],
     "psynergy": [
@@ -20572,7 +20594,7 @@
       },
       {
         "name": "Quake Strike",
-        "id": null,
+        "id": "quick-strike",
         "level": 40,
         "sources": [
           "ultimalink"
@@ -20657,7 +20679,8 @@
             "source": "telago"
           }
         ],
-        "acr": null
+        "acr": 9.5,
+        "acr_config": "5 fire, 4 wind"
       },
       {
         "character": "Isaac",
@@ -20731,7 +20754,8 @@
             "source": "telago"
           }
         ],
-        "acr": null
+        "acr": 8.5,
+        "acr_config": "5 earth, 4 wind"
       },
       {
         "character": "Garet",
@@ -20768,7 +20792,8 @@
             "source": "telago"
           }
         ],
-        "acr": null
+        "acr": 9.5,
+        "acr_config": "5 earth, 4 wind"
       }
     ],
     "psynergy": [
@@ -20878,7 +20903,7 @@
       },
       {
         "name": "Quake Strike",
-        "id": null,
+        "id": "quick-strike",
         "level": 40,
         "sources": [
           "ultimalink"
@@ -22245,7 +22270,8 @@
             "source": "telago"
           }
         ],
-        "acr": null
+        "acr": 9.5,
+        "acr_config": "2 wind, 7 water"
       },
       {
         "character": "Ivan",
@@ -22282,7 +22308,8 @@
             "source": "telago"
           }
         ],
-        "acr": null
+        "acr": 9.5,
+        "acr_config": "2 wind, 7 water"
       },
       {
         "character": "Piers",
@@ -22356,7 +22383,8 @@
             "source": "telago"
           }
         ],
-        "acr": null
+        "acr": 9.0,
+        "acr_config": "2 water, 7 wind"
       }
     ],
     "psynergy": [
@@ -22849,7 +22877,8 @@
             "source": "telago"
           }
         ],
-        "acr": null
+        "acr": 9.5,
+        "acr_config": "5 water, 4 earth"
       },
       {
         "character": "Ivan",
@@ -22886,7 +22915,8 @@
             "source": "telago"
           }
         ],
-        "acr": null
+        "acr": 9.5,
+        "acr_config": "5 water, 4 earth"
       },
       {
         "character": "Piers",
@@ -24420,7 +24450,8 @@
             "source": "telago"
           }
         ],
-        "acr": null
+        "acr": 7.0,
+        "acr_config": "3 earth, 3 fire, 3 wind, Mystery Card"
       },
       {
         "character": "Mia",
@@ -24737,7 +24768,80 @@
         "acr": null
       }
     ],
-    "psynergy": [],
+    "psynergy": [
+      {
+        "name": "Wild Wolf",
+        "id": "wild-wolf",
+        "level": 1,
+        "sources": [
+          "autocon"
+        ]
+      },
+      {
+        "name": "Cure Poison",
+        "id": "cure-poison",
+        "level": 5,
+        "sources": [
+          "autocon"
+        ]
+      },
+      {
+        "name": "Impact",
+        "id": "impact",
+        "level": 6,
+        "sources": [
+          "autocon"
+        ]
+      },
+      {
+        "name": "Salamander",
+        "id": "salamander",
+        "level": 10,
+        "sources": [
+          "autocon"
+        ]
+      },
+      {
+        "name": "Whiplash",
+        "id": "whiplash",
+        "level": 10,
+        "sources": [
+          "autocon"
+        ]
+      },
+      {
+        "name": "Restore",
+        "id": "restore",
+        "level": 13,
+        "sources": [
+          "autocon"
+        ]
+      },
+      {
+        "name": "Emu",
+        "id": "emu",
+        "level": 20,
+        "sources": [
+          "autocon"
+        ]
+      },
+      {
+        "name": "High Impact",
+        "id": "high-impact",
+        "level": 22,
+        "sources": [
+          "autocon"
+        ]
+      },
+      {
+        "name": "Roc",
+        "id": "roc",
+        "level": 45,
+        "sources": [
+          "autocon"
+        ]
+      }
+    ],
     "sources": [
       "terence",
       "ultimalink"
@@ -25054,7 +25158,96 @@
         "acr": null
       }
     ],
-    "psynergy": [],
+    "psynergy": [
+      {
+        "name": "Orc",
+        "id": "orc",
+        "level": 1,
+        "sources": [
+          "autocon"
+        ]
+      },
+      {
+        "name": "Cure Poison",
+        "id": "cure-poison",
+        "level": 5,
+        "sources": [
+          "autocon"
+        ]
+      },
+      {
+        "name": "Impact",
+        "id": "impact",
+        "level": 6,
+        "sources": [
+          "autocon"
+        ]
+      },
+      {
+        "name": "Pixie",
+        "id": "pixie",
+        "level": 7,
+        "sources": [
+          "autocon"
+        ]
+      },
+      {
+        "name": "Cerberus",
+        "id": "cerberus",
+        "level": 10,
+        "sources": [
+          "autocon"
+        ]
+      },
+      {
+        "name": "Whiplash",
+        "id": "whiplash",
+        "level": 10,
+        "sources": [
+          "autocon"
+        ]
+      },
+      {
+        "name": "Restore",
+        "id": "restore",
+        "level": 13,
+        "sources": [
+          "autocon"
+        ]
+      },
+      {
+        "name": "Harpy",
+        "id": "harpy",
+        "level": 20,
+        "sources": [
+          "autocon"
+        ]
+      },
+      {
+        "name": "High Impact",
+        "id": "high-impact",
+        "level": 22,
+        "sources": [
+          "autocon"
+        ]
+      },
+      {
+        "name": "Wyvern",
+        "id": "wyvern",
+        "level": 32,
+        "sources": [
+          "autocon"
+        ]
+      },
+      {
+        "name": "Grand Golem",
+        "id": "grand-golem",
+        "level": 45,
+        "sources": [
+          "autocon"
+        ]
+      }
+    ],
     "sources": [
       "terence",
       "ultimalink"
@@ -25283,7 +25476,112 @@
         "acr": null
       }
     ],
-    "psynergy": [],
+    "psynergy": [
+      {
+        "name": "Dinox",
+        "id": "dinox",
+        "level": 1,
+        "sources": [
+          "autocon"
+        ]
+      },
+      {
+        "name": "Cure Poison",
+        "id": "cure-poison",
+        "level": 5,
+        "sources": [
+          "autocon"
+        ]
+      },
+      {
+        "name": "Impact",
+        "id": "impact",
+        "level": 6,
+        "sources": [
+          "autocon"
+        ]
+      },
+      {
+        "name": "Fairy",
+        "id": "faery",
+        "level": 7,
+        "sources": [
+          "autocon"
+        ]
+      },
+      {
+        "name": "Chimera",
+        "id": "chimera",
+        "level": 10,
+        "sources": [
+          "autocon"
+        ]
+      },
+      {
+        "name": "Whiplash",
+        "id": "whiplash",
+        "level": 10,
+        "sources": [
+          "autocon"
+        ]
+      },
+      {
+        "name": "Restore",
+        "id": "restore",
+        "level": 13,
+        "sources": [
+          "autocon"
+        ]
+      },
+      {
+        "name": "Elder Wood",
+        "id": "elder-wood",
+        "level": 15,
+        "sources": [
+          "autocon"
+        ]
+      },
+      {
+        "name": "Gryphon",
+        "id": "gryphon",
+        "level": 20,
+        "sources": [
+          "autocon"
+        ]
+      },
+      {
+        "name": "High Impact",
+        "id": "high-impact",
+        "level": 22,
+        "sources": [
+          "autocon"
+        ]
+      },
+      {
+        "name": "Lich",
+        "id": "lich",
+        "level": 28,
+        "sources": [
+          "autocon"
+        ]
+      },
+      {
+        "name": "Blue Dragon",
+        "id": "blue-dragon",
+        "level": 32,
+        "sources": [
+          "autocon"
+        ]
+      },
+      {
+        "name": "Living Armor",
+        "id": "living-armor",
+        "level": 45,
+        "sources": [
+          "autocon"
+        ]
+      }
+    ],
     "sources": [
       "terence",
       "ultimalink"
@@ -25345,7 +25643,8 @@
             "source": "telago"
           }
         ],
-        "acr": null
+        "acr": 8.5,
+        "acr_config": "3 fire, 3 wind, 3 water, Trainer’s Whip"
       },
       {
         "character": "Isaac",
@@ -25453,7 +25752,8 @@
             "source": "telago"
           }
         ],
-        "acr": null
+        "acr": 8.5,
+        "acr_config": "3 earth, 3 wind, 3 water, Trainer’s Whip"
       },
       {
         "character": "Sheba",
@@ -25600,7 +25900,128 @@
         "acr": null
       }
     ],
-    "psynergy": [],
+    "psynergy": [
+      {
+        "name": "Troll",
+        "id": "troll",
+        "level": 1,
+        "sources": [
+          "autocon"
+        ]
+      },
+      {
+        "name": "Cure Poison",
+        "id": "cure-poison",
+        "level": 5,
+        "sources": [
+          "autocon"
+        ]
+      },
+      {
+        "name": "Impact",
+        "id": "impact",
+        "level": 6,
+        "sources": [
+          "autocon"
+        ]
+      },
+      {
+        "name": "Weird Nymph",
+        "id": "weird-nymph",
+        "level": 7,
+        "sources": [
+          "autocon"
+        ]
+      },
+      {
+        "name": "Macetail",
+        "id": "macetail",
+        "level": 10,
+        "sources": [
+          "autocon"
+        ]
+      },
+      {
+        "name": "Whiplash",
+        "id": "whiplash",
+        "level": 10,
+        "sources": [
+          "autocon"
+        ]
+      },
+      {
+        "name": "Restore",
+        "id": "restore",
+        "level": 13,
+        "sources": [
+          "autocon"
+        ]
+      },
+      {
+        "name": "Estre Wood",
+        "id": "estre-wood",
+        "level": 15,
+        "sources": [
+          "autocon"
+        ]
+      },
+      {
+        "name": "Minotaurus",
+        "id": "minotaur",
+        "level": 20,
+        "sources": [
+          "autocon"
+        ]
+      },
+      {
+        "name": "High Impact",
+        "id": "high-impact",
+        "level": 22,
+        "sources": [
+          "autocon"
+        ]
+      },
+      {
+        "name": "Siren",
+        "id": "siren",
+        "level": 24,
+        "sources": [
+          "autocon"
+        ]
+      },
+      {
+        "name": "Phoenix",
+        "id": "phoenix",
+        "level": 28,
+        "sources": [
+          "autocon"
+        ]
+      },
+      {
+        "name": "Fire Dragon",
+        "id": "fire-dragon",
+        "level": 32,
+        "sources": [
+          "autocon"
+        ]
+      },
+      {
+        "name": "Manticore",
+        "id": "manticore",
+        "level": 38,
+        "sources": [
+          "autocon"
+        ]
+      },
+      {
+        "name": "Ghost Soldier",
+        "id": "ghost-soldier",
+        "level": 45,
+        "sources": [
+          "autocon"
+        ]
+      }
+    ],
     "sources": [
       "terence",
       "ultimalink"
@@ -26836,7 +27257,8 @@
             "source": "telago"
           }
         ],
-        "acr": null
+        "acr": 9.5,
+        "acr_config": "3 fire, 3 wind, 3 water, Tomegathericon"
       },
       {
         "character": "Jenna",
@@ -26872,7 +27294,8 @@
             "source": "telago"
           }
         ],
-        "acr": null
+        "acr": 9.5,
+        "acr_config": "3 earth, 3 wind, 3 water, Tomegathericon"
       },
       {
         "character": "Garet",
@@ -26944,7 +27367,8 @@
             "source": "telago"
           }
         ],
-        "acr": null
+        "acr": 9.0,
+        "acr_config": "3 earth, 3 fire, 3 water, Tomegathericon"
       },
       {
         "character": "Ivan",
@@ -26980,7 +27404,8 @@
             "source": "telago"
           }
         ],
-        "acr": null
+        "acr": 9.0,
+        "acr_config": "3 earth, 3 fire, 3 water, Tomegathericon"
       },
       {
         "character": "Piers",

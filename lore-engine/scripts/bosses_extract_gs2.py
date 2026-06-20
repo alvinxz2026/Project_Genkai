@@ -34,6 +34,14 @@ MONSTERS = ROOT / "data" / "gs2" / "monsters.json"
 STRATEGY = ROOT / "data" / "gs2" / "intermediate" / "bosses_strategy.json"
 OUT = ROOT / "data" / "gs2" / "bosses.json"
 
+# Compound display names for bosses fought as a pair (stored split for clean stats;
+# the prose/walkthrough refer to the pair). Lets the codex surface the pairing and
+# locations_refs_gs2 resolve a "X & Y" boss-ref to both ids.
+COMPOUND_NAMES = {
+    "agatio": ["Agatio & Karst"], "karst": ["Agatio & Karst"],
+    "moapa": ["Moapa & Knights"], "knight": ["Moapa & Knights"],
+}
+
 # Curated boss map. Each boss pulls its stat-line(s) from monsters.json.
 #   monster  : primary monster id (canonical stats)
 #   variants : party-config stat variants (collapsed; noted, not separate fights)
@@ -130,6 +138,7 @@ def main():
             "strategy": st.get("strategy"),
             "special_mechanics": st.get("special_mechanics", []),
             "special_notes": " ".join(notes) if notes else None,
+            "compound_names": COMPOUND_NAMES.get(b["id"]),
             "sources": sorted(set(["torrentlord"] + st.get("sources", []))),
         })
 

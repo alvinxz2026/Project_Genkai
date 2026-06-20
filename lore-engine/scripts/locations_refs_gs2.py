@@ -91,12 +91,17 @@ def main():
         gear[norm(i["name"])] = ("item", i["id"])
     # bosses: id, name, or any encounter form_id
     boss_by = {}
+    # compound display names ("Agatio & Karst") -> the pair of split boss ids,
+    # data-driven from bosses.json compound_names (set by bosses_extract_gs2).
+    compound_by = defaultdict(list)
     for b in bosses:
         boss_by[norm(b["id"])] = b["id"]
         boss_by[norm(b["name"])] = b["id"]
         for enc in b.get("encounters", []):
             if enc.get("form_id"):
                 boss_by[norm(enc["form_id"])] = b["id"]
+        for cn in b.get("compound_names") or []:
+            compound_by[norm(cn)].append(b["id"])
 
     # accumulators
     regions = {}
@@ -149,6 +154,9 @@ def main():
                 hit = boss_by.get(norm(base))
             if hit is not None:
                 bo.append(hit)
+                counts["bosses"][0] += 1
+            elif norm(raw) in compound_by:  # "Agatio & Karst" -> both ids
+                bo.extend(compound_by[norm(raw)])
                 counts["bosses"][0] += 1
             elif DJINNI_ENCOUNTER_RE.search(raw):
                 expected["bosses"].append((rid, raw))

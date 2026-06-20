@@ -65,6 +65,7 @@
       "resistant to wind"
     ],
     "special_notes": "Fought as three Chestbeaters at once (x3).",
+    "compound_names": null,
     "sources": [
       "link-kirby-boss",
       "torrentlord"
@@ -154,6 +155,7 @@
       "resistant to wind"
     ],
     "special_notes": null,
+    "compound_names": null,
     "sources": [
       "link-kirby-boss",
       "torrentlord"
@@ -224,6 +226,7 @@
       "fought with two Sea Fighters"
     ],
     "special_notes": "Fought alongside two Sea Fighters.",
+    "compound_names": null,
     "sources": [
       "link-kirby-boss",
       "torrentlord"
@@ -287,6 +290,7 @@
       "summoned as Briggs' reinforcements"
     ],
     "special_notes": "Two appear as Briggs' escorts.",
+    "compound_names": null,
     "sources": [
       "link-kirby-boss",
       "torrentlord"
@@ -369,6 +373,7 @@
       "Raging Flood is its main group attack"
     ],
     "special_notes": null,
+    "compound_names": null,
     "sources": [
       "link-kirby-boss",
       "torrentlord"
@@ -458,6 +463,7 @@
       "resistant to earth"
     ],
     "special_notes": null,
+    "compound_names": null,
     "sources": [
       "link-kirby-boss",
       "torrentlord"
@@ -544,6 +550,7 @@
       "resistant to fire"
     ],
     "special_notes": null,
+    "compound_names": null,
     "sources": [
       "link-kirby-boss",
       "torrentlord"
@@ -637,6 +644,7 @@
       "Counter-rush retaliates"
     ],
     "special_notes": null,
+    "compound_names": null,
     "sources": [
       "link-kirby-boss",
       "torrentlord"
@@ -706,6 +714,9 @@
       "fought with two Knights"
     ],
     "special_notes": "Fought alongside two Knights.",
+    "compound_names": [
+      "Moapa & Knights"
+    ],
     "sources": [
       "link-kirby-boss",
       "torrentlord"
@@ -769,6 +780,9 @@
       "two appear as Moapa's escorts"
     ],
     "special_notes": "Two appear as Moapa's escorts.",
+    "compound_names": [
+      "Moapa & Knights"
+    ],
     "sources": [
       "link-kirby-boss",
       "torrentlord"
@@ -861,6 +875,9 @@
       "fought alongside Karst"
     ],
     "special_notes": "Fought together with Karst at Jupiter Lighthouse. Stats vary by GS1-transfer party size — agatio-vs-all: HP 4248, Atk 377; agatio-vs-2-3: HP 4248, Atk 377.",
+    "compound_names": [
+      "Agatio & Karst"
+    ],
     "sources": [
       "link-kirby-boss",
       "torrentlord"
@@ -953,6 +970,9 @@
       "fought alongside Agatio"
     ],
     "special_notes": "Fought together with Agatio at Jupiter Lighthouse. Stats vary by GS1-transfer party size — karst-vs-all: HP 3186, Atk 354; karst-vs-2-3: HP 3186, Atk 354.",
+    "compound_names": [
+      "Agatio & Karst"
+    ],
     "sources": [
       "link-kirby-boss",
       "torrentlord"
@@ -1105,6 +1125,7 @@
       "resistant to fire"
     ],
     "special_notes": "Two Flame Dragons (Agatio & Karst transformed) at Mars Lighthouse.",
+    "compound_names": null,
     "sources": [
       "link-kirby-boss",
       "torrentlord"
@@ -1306,6 +1327,7 @@
       "resistant to earth and fire"
     ],
     "special_notes": "Final boss; three heads / multiple HP phases (5000 / 4200 / 4000).",
+    "compound_names": null,
     "sources": [
       "link-kirby-boss",
       "torrentlord"
@@ -1378,6 +1400,7 @@
       "rewards the Daedalus summon tablet"
     ],
     "special_notes": null,
+    "compound_names": null,
     "sources": [
       "link-kirby-boss",
       "torrentlord"
@@ -1457,6 +1480,7 @@
       "rewards the Azul summon tablet"
     ],
     "special_notes": null,
+    "compound_names": null,
     "sources": [
       "link-kirby-boss",
       "torrentlord"
@@ -1550,6 +1574,7 @@
       "rewards the Catastrophe summon tablet"
     ],
     "special_notes": null,
+    "compound_names": null,
     "sources": [
       "link-kirby-boss",
       "torrentlord"
@@ -1656,6 +1681,7 @@
       "rewards the ultimate Iris summon tablet"
     ],
     "special_notes": null,
+    "compound_names": null,
     "sources": [
       "link-kirby-boss",
       "torrentlord"

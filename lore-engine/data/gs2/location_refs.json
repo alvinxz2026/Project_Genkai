@@ -1144,7 +1144,10 @@
         "mad-plant-5",
         "mimic-9"
       ],
-      "bosses": [],
+      "bosses": [
+        "agatio",
+        "karst"
+      ],
       "summons": [],
       "psynergy": [],
       "pickups": [
@@ -2435,7 +2438,10 @@
         "gasp"
       ],
       "monsters": [],
-      "bosses": [],
+      "bosses": [
+        "moapa",
+        "knight"
+      ],
       "summons": [],
       "psynergy": [],
       "pickups": [
@@ -3115,6 +3121,9 @@
       ]
     },
     "bosses": {
+      "agatio": [
+        "jupiter-lighthouse"
+      ],
       "aqua-hydra": [
         "indra-cavern",
         "lemurian-ship"
@@ -3137,8 +3146,17 @@
       "flame-dragon": [
         "mars-lighthouse"
       ],
+      "karst": [
+        "jupiter-lighthouse"
+      ],
       "king-scorpion": [
         "yampi-desert"
+      ],
+      "knight": [
+        "trial-road"
+      ],
+      "moapa": [
+        "trial-road"
       ],
       "poseidon": [
         "sea-of-time"
