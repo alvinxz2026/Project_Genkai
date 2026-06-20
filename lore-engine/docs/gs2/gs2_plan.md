@@ -22,14 +22,14 @@
 | 阶段 | 内容 | 状态 |
 |---|---|---|
 | 0. Kickoff | gs2 命名空间脚手架 + 这份 meta plan | ✅ |
-| 1. Idea / 范围 | gs2 覆盖哪些实体、做成什么应用 | ⬜ 待 app brainstorm（§6） |
+| 1. Idea / 范围 | gs2 覆盖哪些实体、做成什么应用 | ✅ app 方向已定（`gs2_app_brainstorm.md`，3 交付物 + 分 Phase） |
 | 2. Raw 收集 + 标注 | 10 walkthrough + 32 In-Depth + 目录页全收+标注，索引 `gs2_sources.md` | ✅（仅 Maps 不收） |
 | 3. Design — schema | ER 草图 `gs2_er_sketch.md` ✅；`gs2_schema.md` 11 实体段已写，**locations § 待写** | 🔄 |
 | 3.5 Extraction plan | `gs2_extraction_plan.md`（实体×源覆盖矩阵 + 分工） | ✅ draft |
 | 4. 提取 + 连图 | 见 §2 实体清单 | 🔄 近完成 |
 | 4.5 Walkthrough 整合 + locations | spine→2a→locations→2b；详见 `walkthrough_consolidation_plan.md` | 🔄 2a / locations / FK ✅，**2b 翻译 ⬜** |
 | 5. Cross-check（任务3） | 两条独立 provenance 流核验；详见 `crosscheck_findings.md` | ✅ 三轮全完成（net 0 merge） |
-| 6. 应用层 | 复用/扩展 codex（gs2 版或合并版） | ⬜ 先做轻量 brainstorm 定方向 |
+| 6. 应用层 | 方向 + 分阶段见 [`gs2_app_brainstorm.md`](gs2_app_brainstorm.md) | 🔄 **Phase 1 MVP（连接层）✅**：`build_codex_gs2.py`→`tools/gs2_codex.html`（wiki + 双向交叉链接 + hover tooltip + source inspector）。下一切：planner / boss卡·图鉴·锻造 / ② NotebookLM 喂料 / ③ 中文翻译 |
 
 > 勾选 ⬜/🔄/✅；每推进一块回来改这表 + §7 日志。
 
@@ -139,6 +139,7 @@ corroborate，三轮 net 0 data merge**；所有 findings 按 schema「flag 不�
 
 | 日期 | 进展 |
 |---|---|
+| 2026-06-19 | **应用层 brainstorm 收敛 + Phase 1 MVP（连接层）✅**。方向定为 **3 个共享 SSoT 的交付物**（① 单文件 HTML Codex / ② NotebookLM·Project 问答 / ③ 中文 walkthrough），分 Phase 渐进（详见 [`gs2_app_brainstorm.md`](gs2_app_brainstorm.md)）。落地 Phase 1 第一刀=**连接层**：`scripts/build_codex_gs2.py`（fork 自 gs1 `build_codex.py`，per-entity coreHTML/linksHTML/reverse-index 全部按 gs2 形状重写）→ `tools/gs2_codex.html`（835 KB 单文件，11 实体内嵌）。功能：graph wiki（search/type-filter/master-detail）+ **双向交叉链接 chip** + **hover tooltip 快速预览**（gs1 无）+ **Source Inspector**（sources/conflicts/name_variants）。node 冒烟测试 11/11 类型 0 fail、交叉链接全 resolve。`walkthrough_zh/` 空目录已建 + 翻译 prompt 已交付（散文译、名词留英文）。下一切：build planner 移植 / D1·D2·C3 查表页 / ② 喂料导出。 |
 | 2026-06-19 | **telago 附录补料（gap D 的 1–4）✅**。源=telago full-guide 数据附录章节（split 后单独可寻址，全是定宽表 → 确定性解析器，非 LLM），triage 见 `appendix_triage_report.md`、源映射见 `gs2_sources.md`「`_chapters` 数据附录层」。4 新脚本：**`psynergy_appendix_gs2.py`**（telago 33 → psynergy 157→**229**，+72 职业专属/召唤系带 stats；4 变体名折进 canonical name_variants；normalize/audit 改 **variant-aware**；classes.psynergy expected-gap **37→3**：Blast 歧义/Splash/Quake Strike）、**`djinn_telago_effects_gs2.py`**（telago 24 → battle_effect 72/72）、**`summons_telago_loc_gs2.py`**（telago 25 → 13 组合 acquisition.location 干净地名）、**`classes_telago_reqs_gs2.py`**（telago 26 → 335 条 per-char djinn-combo 带 x\|y 范围，按 name+元素签名+角色消歧，与 ultimalink 并存按 source，0 unmatched/ambiguous）。链尾 links_normalize→audit 仍 **exit 0**；4 cross-check gate 全 exit 0。剩余 open=classes ACR / stat% 交叉校验 / Tamer learn-list / 2b 翻译（均看 app 方向）。 |
 | 2026-06-19 | **SSoT 闭环 pass ✅**（cross-check findings → 落地修改）。**Tier A**（确定性收尾）：`djinn_area_backfill_gs2.py` 回填 44 djinn `location.area`（消解 6 处 placement 分歧）；locations.json 3 处 monster 名归一（→81/81 resolve）；split dead-code 查证 = moot（旧 commit）。**Tier C**（命名）：6 处 equipment 采纳 90Kirsdarke 真名，折进 `items_extract_gs2.py` NAME_FIXES + `name_variants`。**Tier B**（完整性 full extract）：`items_extract_gs2.py` 扩展解析 mr-unorigino **base 段**（`-A.`..`-R3.`，game="gs1"）→ equipment **143→285**、items **24→86**（17 Psynergy 道具 + key item + base 武防/Ring/Boots）。base 段坑：单复数/GS 注解名（strip 进 name_variants）、dual `GS / US -` stat 格式（取 US）、3 把终极武器多行 unleash 注解（noise filter）。连锁：normalize/audit 增 `name_variants`+`name_literal` 别名解析 → **drops 153/153、shops 204/204、equippable 265/285 全 resolve**，audit 仍 exit 0；90Kirsdarke 完整性 matched 160→**346/359**、gap 199→**13**。9 条 gate 全 exit 0、链可端到端重跑。 |
 | 2026-06-19 | **Cross-check 三轮全 ✅**（round1 FK / Q2b 完整性 / round2 placement / round3 语义 prose），net 0 merge；产出独立 `crosscheck_findings.md` 作 SSoT 修改依据。详见 §4。同日 compact 本 plan + 删 `walkthrough_chapters_audit.md`。 |
