@@ -21,6 +21,7 @@ gs2 data shapes differ from gs1, so coreHTML/linksHTML/reverse-indexes were
 rewritten for gs2 (see gs2_er_sketch.md).
 """
 import json
+import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -30,9 +31,42 @@ OUT = ROOT / "tools" / "gs2_codex.html"
 ENTITIES = ["djinn", "summons", "classes", "psynergy", "equipment", "items",
             "shops", "monsters", "bosses", "locations", "characters"]
 
+# B1 walkthrough reader: 62 region nodes per language, joined on region_id.
+WT_LANGS = {"zh": DATA / "walkthrough_zh", "en": DATA / "walkthrough"}
+
 
 def load(name):
     return json.loads((DATA / f"{name}.json").read_text(encoding="utf-8"))
+
+
+def _parse_front(text):
+    """Split a `---`-delimited YAML-ish frontmatter block from the markdown body.
+    Only the flat scalar keys we need (region_id/region/order/kind) are read."""
+    m = re.match(r"^---\n(.*?)\n---\n?(.*)$", text, re.S)
+    if not m:
+        return {}, text.strip()
+    fm = {}
+    for line in m.group(1).splitlines():
+        kv = re.match(r"^(\w+):\s*(.+?)\s*$", line)
+        if kv:
+            fm[kv.group(1)] = kv.group(2)
+    return fm, m.group(2).strip()
+
+
+def load_walkthrough():
+    """Return [{region_id, region, order, kind, zh, en}] sorted by order."""
+    nodes = {}
+    for lang, d in WT_LANGS.items():
+        for f in sorted(d.glob("*.md")):
+            fm, body = _parse_front(f.read_text(encoding="utf-8"))
+            rid = fm.get("region_id")
+            if not rid:
+                continue
+            n = nodes.setdefault(rid, {
+                "region_id": rid, "region": fm.get("region", rid),
+                "order": int(fm.get("order", 0)), "kind": fm.get("kind", "main")})
+            n[lang] = body
+    return sorted(nodes.values(), key=lambda x: x["order"])
 
 
 def embed(data):
@@ -247,6 +281,40 @@ TEMPLATE = r"""<!DOCTYPE html>
   .psy ul { list-style:none; max-height:230px; overflow-y:auto; } .psy li { display:flex; align-items:center; gap:7px; padding:2.5px 0; font-size:12.5px; color:var(--text-dim); cursor:pointer; }
   .psy li:hover .pn { text-decoration:underline; } .psy li .pn { color:var(--text); } .psy li .pp { margin-left:auto; color:var(--text-faint); font-size:11px; }
   .psy .empty { color:var(--text-faint); font-style:italic; font-size:12px; }
+
+  /* ---- guide / walkthrough reader (B1) ---- */
+  .guide-layout { display:grid; grid-template-columns:300px minmax(0,1fr); gap:16px; align-items:start; }
+  @media (max-width:900px){ .guide-layout{ grid-template-columns:1fr; } }
+  .wt-toc { position:sticky; top:12px; background:var(--panel); border:1px solid var(--line); border-radius:var(--radius); padding:6px; max-height:calc(100vh - 24px); overflow-y:auto; }
+  .wt-trow { display:flex; align-items:center; gap:8px; padding:6px 9px; border-radius:7px; cursor:pointer; }
+  .wt-trow:hover { background:var(--panel-3); }
+  .wt-trow.sel { background:var(--panel-3); box-shadow:inset 3px 0 0 var(--gold); }
+  .wt-trow.locked { opacity:.5; }
+  .wt-trow .wt-ord { font-size:11px; color:var(--text-faint); font-variant-numeric:tabular-nums; min-width:30px; }
+  .wt-trow .wt-tname { font-size:13px; color:var(--text); }
+  .wt-trow .wt-lockicon { margin-left:auto; font-size:11px; }
+  .wt-trow .tk-kind { margin-left:auto; }
+  .wt-reader { background:var(--panel); border:1px solid var(--line); border-radius:var(--radius); padding:18px 24px; min-height:60vh; }
+  .wt-reader .placeholder { color:var(--text-faint); text-align:center; padding:70px 10px; font-style:italic; }
+  .wt-rhead { display:flex; align-items:center; gap:10px; flex-wrap:wrap; margin-bottom:10px; border-bottom:1px solid var(--line-soft); padding-bottom:10px; }
+  .wt-rhead h2 { font-family:var(--font-display); font-size:25px; letter-spacing:1px; color:var(--gold-bright); font-weight:400; }
+  .wt-body { font-size:14px; color:var(--text); line-height:1.78; max-width:74ch; }
+  .wt-body p { margin:11px 0; }
+  .wt-body .wt-h { font-family:var(--font-display); color:var(--gold-bright); font-weight:400; margin:20px 0 6px; letter-spacing:.5px; }
+  h4.wt-h { font-size:18px; } h5.wt-h { font-size:15px; }
+  h6.wt-h { font-size:12px; text-transform:uppercase; letter-spacing:1.5px; color:var(--gold-dim); }
+  .wt-body ul, .wt-body ol { margin:8px 0 8px 22px; } .wt-body li { margin:3px 0; }
+  .wt-body strong { color:var(--gold-bright); font-weight:600; }
+  .wt-body em { color:var(--text-dim); }
+  .wt-body .ref { margin:0 1px; padding:1px 7px; }
+  .wt-lang { display:inline-flex; border:1px solid var(--line); border-radius:6px; overflow:hidden; }
+  .wt-lang button { background:var(--panel-2); border:none; color:var(--text-dim); padding:5px 13px; cursor:pointer; font-size:12px; font-family:var(--font-body); }
+  .wt-lang button:hover { color:var(--text); }
+  .wt-lang button.on { background:var(--gold); color:#fdfbf4; font-weight:600; }
+  .wt-lock { background:var(--panel-2); border:1px dashed var(--line); border-radius:var(--radius); padding:36px 22px; text-align:center; color:var(--text-dim); margin-top:14px; }
+  .wt-lock p { margin-bottom:6px; }
+  .wt-lock button { margin-top:12px; background:var(--gold); color:#fdfbf4; border:none; border-radius:6px; padding:8px 18px; cursor:pointer; font-size:13px; font-family:var(--font-body); }
+  .wt-lock button:hover { background:var(--gold-bright); }
   footer { text-align:center; color:var(--text-faint); font-size:11px; letter-spacing:1px; padding:10px; }
   footer code { color:var(--text-dim); }
 </style>
@@ -258,6 +326,7 @@ TEMPLATE = r"""<!DOCTYPE html>
 </header>
 <nav>
   <button id="navbtn-wiki" class="active" data-tab="wiki">Wiki</button>
+  <button id="navbtn-guide" data-tab="guide">Guide</button>
   <button id="navbtn-planner" data-tab="planner">Build Planner</button>
   <button id="navbtn-tracker" data-tab="tracker">Tracker</button>
 </nav>
@@ -309,6 +378,24 @@ TEMPLATE = r"""<!DOCTYPE html>
     <div id="tracker-reachable"></div>
     <div id="tracker-list"></div>
   </div>
+  <div class="tabpane" id="tab-guide">
+    <div class="infobox">
+      Read the GS2 walkthrough region by region; entity names in the prose are <b>live links</b> into the Wiki
+      (hover for a peek, click to jump). Proper nouns stay in English in the Chinese text. Set a <b>Spoiler gate</b>
+      to your current point and later regions are hidden behind a reveal button. <i>Shared with the Planner/Tracker gate.</i>
+    </div>
+    <div class="toolbar">
+      <div class="wt-lang" id="wt-lang"><button data-lang="zh" class="on">中文</button><button data-lang="en">EN</button></div>
+      <div class="progress-row" style="margin:0">
+        <label for="guide-region-sel">Spoiler gate:</label>
+        <select id="guide-region-sel"><option value="">Full game (no spoiler gate)</option></select>
+      </div>
+    </div>
+    <div class="guide-layout">
+      <div class="wt-toc" id="wt-toc"></div>
+      <div class="wt-reader" id="wt-reader"><div class="placeholder">Pick a region from the list.</div></div>
+    </div>
+  </div>
 </main>
 <footer>Pure read view over <code>data/gs2/</code> &middot; provenance-first &middot; rebuild: <code>python scripts/build_codex_gs2.py</code></footer>
 <div id="tip"></div>
@@ -316,11 +403,13 @@ TEMPLATE = r"""<!DOCTYPE html>
 <script type="application/json" id="data-db">__DB__</script>
 <script type="application/json" id="data-lr">__LR__</script>
 <script type="application/json" id="data-ag">__AG__</script>
+<script type="application/json" id="data-wt">__WT__</script>
 <script>
 "use strict";
 const DB = JSON.parse(document.getElementById("data-db").textContent);
 const LR = JSON.parse(document.getElementById("data-lr").textContent);
 const AG = JSON.parse(document.getElementById("data-ag").textContent);
+const WT = JSON.parse(document.getElementById("data-wt").textContent);
 const TYPES = ["djinn","summons","classes","psynergy","equipment","items","shops","monsters","bosses","locations","characters"];
 const ELEMS = ["earth","fire","wind","water"];
 const EL_DJINN = { earth:"Venus", fire:"Mars", wind:"Jupiter", water:"Mercury" };
@@ -914,6 +1003,92 @@ fillRegionSelect(document.getElementById("tracker-region-sel"));
 onProgressChange(renderTracker);
 renderTracker();
 
+/* ===== Walkthrough Guide reader (B1) ===== */
+const WT_BY={}; WT.forEach(w=>WT_BY[w.region_id]=w);
+let wtRid=WT.length?WT[0].region_id:null, wtLang="zh";
+const wtRevealed=new Set();
+
+/* minimal markdown -> HTML: headings, bullet and numbered lists, bold, italic, paragraphs */
+function wtInline(s){ return esc(s)
+  .replace(/\*\*([^*]+)\*\*/g,"<strong>$1</strong>")
+  .replace(/\*([^*]+)\*/g,"<em>$1</em>"); }
+function wtMd(src){
+  const out=[]; let para=[], list=null;
+  const flushP=()=>{ if(para.length){ out.push("<p>"+para.map(wtInline).join("<br>")+"</p>"); para=[]; } };
+  const flushL=()=>{ if(list){ out.push(`<${list.t}>`+list.items.map(x=>"<li>"+wtInline(x)+"</li>").join("")+`</${list.t}>`); list=null; } };
+  for(const raw of src.split(/\r?\n/)){ const line=raw.replace(/\s+$/,""); let m;
+    if(!line.trim()){ flushP(); flushL(); continue; }
+    if(m=line.match(/^(#{1,6})\s+(.*)$/)){ flushP(); flushL(); const lv=Math.min(6,m[1].length+3); out.push(`<h${lv} class="wt-h">${wtInline(m[2])}</h${lv}>`); continue; }
+    if(m=line.match(/^\s*[-*]\s+(.*)$/)){ flushP(); if(!list||list.t!=="ul"){ flushL(); list={t:"ul",items:[]}; } list.items.push(m[1]); continue; }
+    if(m=line.match(/^\s*\d+\.\s+(.*)$/)){ flushP(); if(!list||list.t!=="ol"){ flushL(); list={t:"ol",items:[]}; } list.items.push(m[1]); continue; }
+    flushL(); para.push(line);
+  }
+  flushP(); flushL(); return out.join(""); }
+
+/* entity-name linkifier: common single-word entity names that double as English
+   words are skipped; only the first mention of each name per region is linked. */
+const WT_STOP=new Set(["Pole","Mace","Staff","Club","Herb","Apple","Mist","Bone","Catch","Lash","Carry",
+  "Force","Growth","Cyclone","Douse","Frost","Halt","Wish","Cure","Flash","Spark","Char","Ember","Sleet",
+  "Mold","Tonic","Crystal","Star","Stars","Boots","Ring","Shield","Power","Guard","Coal","Mole","Bane",
+  "Echo","Flush","Wind","Fire","Earth","Water","Robe","Coat","Bow","Whip","Mars","Venus","Sleep","Bind",
+  "Gust","Ply","Wave","Tremor","Quartz","Granite","Flint","Mud","Bubble","Spring","Steam","Corona","Torch",
+  "Fever","Forge","Kindle","Scorch","Squall","Breath","Blitz","Luff","Haze","Vine","Sap","Fizz","Sour"]);
+function wtEscRe(s){ return s.replace(/[.*+?^${}()|[\]\\]/g,"\\$&"); }
+const WT_NAMES=(function(){ const seen=new Set(), arr=[];
+  TYPES.forEach(t=>(DB[t]||[]).forEach(o=>{ const name=o.name; if(!name||name.length<4) return;
+    const k=name.toLowerCase(); if(seen.has(k)) return;
+    const multi=/\s/.test(name);
+    const allow = (["characters","locations","bosses","summons"].includes(t)) || multi || (name.length>=5 && !WT_STOP.has(name));
+    if(!allow || WT_STOP.has(name)) return;
+    seen.add(k); arr.push([name,t,o.id]); }));
+  return arr.sort((a,b)=>b[0].length-a[0].length); })();
+const WT_LOOKUP={}; WT_NAMES.forEach(([n,t,id])=>WT_LOOKUP[n.toLowerCase()]=[t,id]);
+const WT_RE = WT_NAMES.length
+  ? new RegExp("(?<![A-Za-z0-9])(?:"+WT_NAMES.map(x=>wtEscRe(x[0])).join("|")+")(?![A-Za-z0-9])","g")
+  : null;
+function wtLinkifyNode(node,linked){
+  const text=node.nodeValue; if(!WT_RE||!text.trim()) return; WT_RE.lastIndex=0;
+  let m, last=0; const parts=[];
+  while(m=WT_RE.exec(text)){ const name=m[0], lk=name.toLowerCase(); const ent=WT_LOOKUP[lk];
+    if(!ent||linked.has(lk)) continue; linked.add(lk);
+    parts.push(document.createTextNode(text.slice(last,m.index)));
+    const sp=document.createElement("span"); sp.className="ref"; sp.dataset.type=ent[0]; sp.dataset.id=ent[1]; sp.textContent=name;
+    parts.push(sp); last=m.index+name.length; }
+  if(parts.length){ parts.push(document.createTextNode(text.slice(last))); node.replaceWith(...parts); } }
+function wtLinkify(container){ const linked=new Set();
+  const tw=document.createTreeWalker(container,NodeFilter.SHOW_TEXT); const nodes=[]; let n;
+  while(n=tw.nextNode()) nodes.push(n); nodes.forEach(nd=>wtLinkifyNode(nd,linked)); }
+
+function wtLocked(w){ return progressIndex!=null && w.order>progressIndex && !wtRevealed.has(w.region_id); }
+function wtRenderTOC(){ const t=document.getElementById("wt-toc");
+  t.innerHTML=WT.map(w=>{ const lock=progressIndex!=null&&w.order>progressIndex&&!wtRevealed.has(w.region_id);
+    const tail=lock?'<span class="wt-lockicon">🔒</span>':(w.kind&&w.kind!=="main"?`<span class="tk-kind">${esc(w.kind)}</span>`:"");
+    return `<div class="wt-trow ${w.region_id===wtRid?'sel':''} ${lock?'locked':''}" data-rid="${esc(w.region_id)}">`+
+      `<span class="wt-ord">#${String(w.order+1).padStart(2,"0")}</span>`+
+      `<span class="wt-tname">${esc(w.region)}</span>${tail}</div>`; }).join(""); }
+function wtRenderReader(){ const r=document.getElementById("wt-reader"); const w=WT_BY[wtRid];
+  if(!w){ r.innerHTML='<div class="placeholder">Pick a region from the list.</div>'; return; }
+  const head=`<div class="wt-rhead"><h2>${esc(w.region)}</h2>`+
+    `<span class="badge t-locations">#${String(w.order+1).padStart(2,"0")} · ${esc(w.kind||"main")}</span></div>`;
+  if(wtLocked(w)){ r.innerHTML=head+`<div class="wt-lock"><p>⚠ Spoiler gate: this region comes after your current progress.</p>`+
+      `<button id="wt-reveal">Reveal this region</button></div>`; return; }
+  const body=w[wtLang]||w[wtLang==="zh"?"en":"zh"]||"";
+  r.innerHTML=head+`<div class="wt-body" id="wt-body"></div>`;
+  const bodyEl=document.getElementById("wt-body"); bodyEl.innerHTML=wtMd(body); wtLinkify(bodyEl);
+  r.scrollTop=0; window.scrollTo({top:0,behavior:"auto"}); }
+function wtRender(){ wtRenderTOC(); wtRenderReader(); }
+
+document.getElementById("wt-toc").addEventListener("click",e=>{ const row=e.target.closest(".wt-trow[data-rid]");
+  if(!row) return; wtRid=row.dataset.rid; wtRender(); });
+document.getElementById("wt-reader").addEventListener("click",e=>{
+  const rv=e.target.closest("#wt-reveal"); if(rv){ wtRevealed.add(wtRid); wtRender(); return; }
+  const ref=e.target.closest(".ref[data-id]"); if(ref){ hideTip(); document.getElementById("navbtn-wiki").click(); openEntity(ref.dataset.type,ref.dataset.id); } });
+document.getElementById("wt-lang").addEventListener("click",e=>{ const b=e.target.closest("button[data-lang]");
+  if(!b) return; wtLang=b.dataset.lang; [...e.currentTarget.children].forEach(x=>x.classList.toggle("on",x===b)); wtRenderReader(); });
+fillRegionSelect(document.getElementById("guide-region-sel"));
+onProgressChange(wtRender);
+wtRender();
+
 /* ----- tabs ----- */
 document.querySelector("nav").addEventListener("click",e=>{ const b=e.target.closest("button[data-tab]"); if(!b) return; hideTip();
   const tab=b.dataset.tab; document.querySelectorAll("nav button").forEach(x=>x.classList.toggle("active",x===b));
@@ -931,14 +1106,17 @@ def main():
         loc.setdefault("id", loc.get("region_id"))
     lr = load("location_refs")
     ag = load("access_gates")
+    wt = load_walkthrough()
     html = (TEMPLATE
             .replace("__DB__", embed(db))
             .replace("__LR__", embed(lr))
-            .replace("__AG__", embed(ag)))
+            .replace("__AG__", embed(ag))
+            .replace("__WT__", embed(wt)))
     OUT.write_text(html, encoding="utf-8")
     print(f"wrote {OUT.relative_to(ROOT)} ({len(html):,} bytes)")
     for name in ENTITIES:
         print(f"  {name:12} {len(db[name])}")
+    print(f"  {'walkthrough':12} {len(wt)} regions (zh+en)")
 
 
 if __name__ == "__main__":
