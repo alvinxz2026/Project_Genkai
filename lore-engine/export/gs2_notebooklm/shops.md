@@ -59,8 +59,8 @@ The shop in Alhafra stocks:
 - Leather Boots — 270 coins (armor)
  _(sources: shotgunnova-shop)_
 
-## Mikisalla Shop
-The shop in Mikisalla stocks:
+## Mikasalla Shop
+The shop in Mikasalla stocks:
 - Herb — 10 coins (item)
 - Antidote — 20 coins (item)
 - Elixir — 50 coins (item)
@@ -94,8 +94,8 @@ The shop in Garoh (Weapon/Armor shop doesn't open until post-Air's Rock) stocks:
 - Safety Boots — 700 coins (armor) [artifact]
  _(sources: shotgunnova-shop)_
 
-## Namibwe Shop
-The shop in Namibwe stocks:
+## Naribwe Shop
+The shop in Naribwe stocks:
 - Herb — 10 coins (item)
 - Antidote — 20 coins (item)
 - Elixir — 50 coins (item)

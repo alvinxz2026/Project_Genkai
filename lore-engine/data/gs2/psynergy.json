@@ -129,6 +129,14 @@
     "sources": [
       "yoyoyoshi",
       "mr-unorigino-psy"
+    ],
+    "conflicts": [
+      {
+        "field": "name",
+        "value": "Blast",
+        "source": "all",
+        "note": "Two distinct psynergy share this display name (differentiated by id suffix -5pp); class refs by name alone are unresolvable — classified as expected-gap in links_normalize"
+      }
     ]
   },
   {
@@ -144,6 +152,14 @@
     "sources": [
       "yoyoyoshi",
       "mr-unorigino-psy"
+    ],
+    "conflicts": [
+      {
+        "field": "name",
+        "value": "Blast",
+        "source": "all",
+        "note": "Two distinct psynergy share this display name (differentiated by id suffix -7pp); class refs by name alone are unresolvable — classified as expected-gap in links_normalize"
+      }
     ]
   },
   {

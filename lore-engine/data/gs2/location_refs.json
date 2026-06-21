@@ -1839,7 +1839,7 @@
         }
       ],
       "forging": [],
-      "shop": null
+      "shop": "mikasalla"
     },
     "naribwe": {
       "name": "Naribwe",
@@ -1883,7 +1883,7 @@
         }
       ],
       "forging": [],
-      "shop": null
+      "shop": "naribwe"
     },
     "north-osenia-islet": {
       "name": "North Osenia Islet",
@@ -3249,6 +3249,12 @@
       ],
       "madra": [
         "madra"
+      ],
+      "mikasalla": [
+        "mikasalla"
+      ],
+      "naribwe": [
+        "naribwe"
       ],
       "yallam": [
         "yallam"

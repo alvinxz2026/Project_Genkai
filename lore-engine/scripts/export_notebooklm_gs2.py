@@ -169,8 +169,11 @@ def r_psynergy():
     blocks = []
     for p in data:
         L = [f"## {p['name']} (Psynergy)"]
-        el = cap(p.get('element', ''))
-        line = f"{p['name']} is {art(el)} {el} Psynergy"
+        el = cap(p.get('element') or '')
+        if el:
+            line = f"{p['name']} is {art(el)} {el} Psynergy"
+        else:
+            line = f"{p['name']} is a Psynergy ability"
         if p.get("pp_cost") is not None:
             line += f" costing {p['pp_cost']} PP"
         line += "."

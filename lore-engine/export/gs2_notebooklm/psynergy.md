@@ -1130,3 +1130,11 @@ Strike with a Demon
 Call Dullahan is a Wind Psynergy costing 21 PP. Range: 1.
 Strike with Dullahan's Formina Sage
  _(sources: telago)_
+
+## Splash (Psynergy)
+Splash is a Water Psynergy.
+ _(sources: ultimalink)_
+
+## Siren (Psynergy)
+Siren is a Psynergy ability.
+ _(sources: autocon)_

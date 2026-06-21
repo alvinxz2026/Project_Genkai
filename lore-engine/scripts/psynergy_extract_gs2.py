@@ -107,6 +107,17 @@ def main():
     ids = [e["id"] for e in out]
     assert len(ids) == len(set(ids)), f"dup ids: {[i for i in ids if ids.count(i) > 1]}"
 
+    # flag entries that share a display name — links_normalize treats them as
+    # ambiguous (expected-gap); document this explicitly in the data
+    dup_names = {r["name"] for r in out if name_counts.get(r["name"], 0) > 1}
+    for e in out:
+        if e["name"] in dup_names:
+            e["conflicts"] = [{"field": "name", "value": e["name"], "source": "all",
+                               "note": "Two distinct psynergy share this display name "
+                                       f"(differentiated by id suffix -{e['pp_cost']}pp); "
+                                       "class refs by name alone are unresolvable — "
+                                       "classified as expected-gap in links_normalize"}]
+
     # completeness cross-check vs mr-unorigino (corroborate sources on name match)
     unor = parse_unorigino_names()
     yoyo_names = {e["name"].lower() for e in out}

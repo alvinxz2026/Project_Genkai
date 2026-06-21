@@ -62,6 +62,11 @@ def norm(s):
 # ref shapes that are intentionally not entities -> EXPECTED, never a finding
 COIN_RE = re.compile(r"\bcoins?\b", re.I)            # "315 Coins", "16 gold coins"
 DJINNI_ENCOUNTER_RE = re.compile(r"\bdjinn?i\b", re.I)  # "Mercury Djinni (Fog)" etc.
+# monster-layer entities listed as bosses in the walkthrough (not in bosses.json)
+MONSTER_AS_BOSS = {
+    "mimic2",           # second Mimic chest in Air's Rock; Mimic is in monsters.json
+    "colossogladiators",  # Colosso tournament NPCs (Satrage etc.); monster-layer
+}
 
 
 def main():
@@ -159,6 +164,8 @@ def main():
                 bo.extend(compound_by[norm(raw)])
                 counts["bosses"][0] += 1
             elif DJINNI_ENCOUNTER_RE.search(raw):
+                expected["bosses"].append((rid, raw))
+            elif norm(raw) in MONSTER_AS_BOSS:
                 expected["bosses"].append((rid, raw))
             else:
                 findings["bosses"].append((rid, raw))

@@ -1081,7 +1081,7 @@ Price: buy 14600, sell 10950 coins.
 ## Levatine
 Levatine is a long sword.
 Stats: atk +173.
-Unleash: Radient Fire.
+Unleash: Radiant Fire.
 Equippable by: Felix, Piers, Isaac, Garet.
 Forged from: Mythril Silver.
 Price: buy 19700, sell 14775 coins.
@@ -1244,8 +1244,9 @@ Apollo's Axe is a axe.
 Stats: atk +158.
 Unleash: Flare Burst.
 Equippable by: Felix, Piers, Isaac, Garet.
+Forged from: Salamander Tail.
 Price: buy 15200, sell 11400 coins.
- _(sources: mr-unorigino-item, 90kirsdarke-hack)_
+ _(sources: mr-unorigino-item, 90kirsdarke-hack, aspartate-forge)_
 
 ## Gaia's Axe
 Gaia's Axe is a axe.
@@ -1496,8 +1497,9 @@ Dragon Mail is a armor.
 Stats: def +44.
 Elemental resistance: Fire 15, Water 15.
 Equippable by: Felix, Piers, Isaac, Garet.
+Forged from: Dragon Skin.
 Price: buy 9700, sell 7275 coins.
- _(sources: mr-unorigino-item)_
+ _(sources: mr-unorigino-item, aspartate-forge)_
 
 ## Chronos Mail
 Chronos Mail is a armor.
@@ -1929,15 +1931,17 @@ Price: buy 3700, sell 2775 coins.
 Astral Circlet is a circlet.
 Stats: def +32, pp +15.
 Equippable by: Jenna, Sheba, Ivan, Mia.
+Forged from: Star Dust.
 Price: buy 4600, sell 3450 coins.
- _(sources: mr-unorigino-item, 90kirsdarke-hack)_
+ _(sources: mr-unorigino-item, 90kirsdarke-hack, aspartate-forge)_
 
 ## Psychic Circlet
 Psychic Circlet is a circlet.
 Stats: def +39, pp_regen +12.
 Equippable by: Jenna, Sheba, Ivan, Mia.
+Forged from: Mythril Silver.
 Price: buy 8800, sell 6600 coins.
- _(sources: mr-unorigino-item, 90kirsdarke-hack)_
+ _(sources: mr-unorigino-item, 90kirsdarke-hack, aspartate-forge)_
 
 ## Demon Circlet
 Demon Circlet is a circlet (cursed).

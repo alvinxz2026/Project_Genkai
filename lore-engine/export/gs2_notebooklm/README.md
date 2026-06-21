@@ -12,7 +12,7 @@
 - `characters.md` — 8 条
 - `djinn.md` — 72 条
 - `summons.md` — 29 条
-- `psynergy.md` — 229 条
+- `psynergy.md` — 231 条
 - `classes.md` — 110 条
 - `equipment.md` — 285 条
 - `items.md` — 86 条

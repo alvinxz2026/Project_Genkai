@@ -821,6 +821,7 @@ Learns: Baffle Card (Lv3), Juggle (Lv5), Avoid (Lv8), Sword Card (Lv10), Saber D
 Tamer is a class in the tamer line.
 Stat multipliers: hp 100%, pp 70%, atk 110%, def 120%, agi 90%, lck 80%.
 Available to — Felix: none (ultimalink); base (telago) | Isaac: none (ultimalink); base (telago) | Jenna: none (ultimalink); base (telago) | Garet: none (ultimalink); base (telago) | Sheba: none (ultimalink); base (telago) | Ivan: none (ultimalink); base (telago) | Piers: none (ultimalink); base (telago) | Mia: none (ultimalink); base (telago).
+Learns: Wild Wolf (Lv1), Cure Poison (Lv5), Impact (Lv6), Salamander (Lv10), Whiplash (Lv10), Restore (Lv13), Emu (Lv20), High Impact (Lv22), Roc (Lv45).
  _(sources: terence, ultimalink)_
 
 ## Trainer (Class)
@@ -828,6 +829,7 @@ Trainer is a class in the tamer line.
 Stat multipliers: hp 130%, pp 90%, atk 120%, def 130%, agi 100%, lck 80%.
 Element requirements: Earth 1, Water 1, Fire 1, Wind 1.
 Available to — Felix: wind x1, water x1, fire x1 (ultimalink); other x1 (each non-native) (telago) | Isaac: wind x1, water x1, fire x1 (ultimalink); other x1 (each non-native) (telago) | Jenna: wind x1, water x1, earth x1 (ultimalink); other x1 (each non-native) (telago) | Garet: wind x1, water x1, earth x1 (ultimalink); other x1 (each non-native) (telago) | Sheba: water x1, earth x1, fire x1 (ultimalink); other x1 (each non-native) (telago) | Ivan: water x1, earth x1, fire x1 (ultimalink); other x1 (each non-native) (telago) | Piers: wind x1, earth x1, fire x1 (ultimalink); other x1 (each non-native) (telago) | Mia: wind x1, earth x1, fire x1 (ultimalink); other x1 (each non-native) (telago).
+Learns: Orc (Lv1), Cure Poison (Lv5), Impact (Lv6), Pixie (Lv7), Cerberus (Lv10), Whiplash (Lv10), Restore (Lv13), Harpy (Lv20), High Impact (Lv22), Wyvern (Lv32), Grand Golem (Lv45).
  _(sources: terence, ultimalink)_
 
 ## Beastkeeper (Class)
@@ -835,6 +837,7 @@ Beastkeeper is a class in the tamer line.
 Stat multipliers: hp 160%, pp 100%, atk 140%, def 140%, agi 110%, lck 80%.
 Element requirements: Earth 2, Water 2, Fire 2, Wind 2.
 Available to — Felix: wind x2, water x2, fire x2 (ultimalink) | Isaac: wind x2, water x2, fire x2 (ultimalink) | Jenna: wind x2, water x2, earth x2 (ultimalink) | Garet: wind x2, water x2, earth x2 (ultimalink) | Sheba: water x2, earth x2, fire x2 (ultimalink) | Ivan: water x2, earth x2, fire x2 (ultimalink) | Piers: wind x2, earth x2, fire x2 (ultimalink) | Mia: wind x2, earth x2, fire x2 (ultimalink).
+Learns: Dinox (Lv1), Cure Poison (Lv5), Impact (Lv6), Fairy (Lv7), Chimera (Lv10), Whiplash (Lv10), Restore (Lv13), Elder Wood (Lv15), Gryphon (Lv20), High Impact (Lv22), Lich (Lv28), Blue Dragon (Lv32), Living Armor (Lv45).
  _(sources: terence, ultimalink)_
 
 ## Beast Lord (Class)
@@ -842,6 +845,7 @@ Beast Lord is a class in the tamer line.
 Stat multipliers: hp 190%, pp 110%, atk 150%, def 150%, agi 120%, lck 80%.
 Element requirements: Earth 3, Water 3, Fire 3, Wind 3.
 Available to — Felix: wind x3, water x3, fire x3 (ultimalink); other x3 (each non-native) (telago) | Isaac: wind x3, water x3, fire x3 (ultimalink); other x3 (each non-native) (telago) | Jenna: wind x3, water x3, earth x3 (ultimalink); other x3 (each non-native) (telago) | Garet: wind x3, water x3, earth x3 (ultimalink); other x3 (each non-native) (telago) | Sheba: water x3, earth x3, fire x3 (ultimalink); other x3 (each non-native) (telago) | Ivan: water x3, earth x3, fire x3 (ultimalink); other x3 (each non-native) (telago) | Piers: wind x3, earth x3, fire x3 (ultimalink); other x3 (each non-native) (telago) | Mia: wind x3, earth x3, fire x3 (ultimalink); other x3 (each non-native) (telago).
+Learns: Troll (Lv1), Cure Poison (Lv5), Impact (Lv6), Weird Nymph (Lv7), Macetail (Lv10), Whiplash (Lv10), Restore (Lv13), Estre Wood (Lv15), Minotaurus (Lv20), High Impact (Lv22), Siren (Lv24), Phoenix (Lv28), Fire Dragon (Lv32), Manticore (Lv38), Ghost Soldier (Lv45).
  _(sources: terence, ultimalink)_
 
 ## Dark Mage (Class)

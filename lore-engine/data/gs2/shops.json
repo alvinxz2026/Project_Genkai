@@ -396,10 +396,10 @@
     ]
   },
   {
-    "id": "mikisalla",
-    "name": "Mikisalla",
+    "id": "mikasalla",
+    "name": "Mikasalla",
     "game": "gs2",
-    "location": "Mikisalla",
+    "location": "Mikasalla",
     "availability_notes": null,
     "stock": [
       {
@@ -636,10 +636,10 @@
     ]
   },
   {
-    "id": "namibwe",
-    "name": "Namibwe",
+    "id": "naribwe",
+    "name": "Naribwe",
     "game": "gs2",
-    "location": "Namibwe",
+    "location": "Naribwe",
     "availability_notes": null,
     "stock": [
       {

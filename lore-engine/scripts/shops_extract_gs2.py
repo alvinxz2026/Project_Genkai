@@ -31,6 +31,12 @@ DATA = ROOT / "data" / "gs2"
 
 HEADER = re.compile(r"^\[SH\d+\]\s*-\s*(.+)$")
 
+# shotgunnova source uses these misspellings; correct to canonical game names
+NAME_FIXES = {
+    "Mikisalla": "Mikasalla",
+    "Namibwe": "Naribwe",
+}
+
 
 def slug(s):
     return re.sub(r"-+", "-", re.sub(r"[^a-z0-9]+", "-", s.lower())).strip("-")
@@ -68,6 +74,7 @@ def parse_shops():
             if nm:
                 note = nm.group(1).strip()
             name = head.split("[")[0].strip().title()
+            name = NAME_FIXES.get(name, name)
             cur = {"id": slug(name), "name": name, "game": "gs2",
                    "location": name, "availability_notes": note, "stock": [],
                    "sources": ["shotgunnova-shop"]}
