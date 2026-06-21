@@ -1,0 +1,764 @@
+[
+  {
+    "region_id": "daila",
+    "order": 3,
+    "name": "Daila",
+    "point_of_no_return": false,
+    "gates": [
+      {
+        "item": "Sea God's Tear",
+        "kind": "item",
+        "access": "return_required",
+        "requires_psynergy": [
+          "Frost"
+        ],
+        "requires_event": null,
+        "missable": false,
+        "note": "Daila Revisited: return with Frost, freeze the Sanctum puddles. Key item used later at Shrine of the Sea God."
+      }
+    ]
+  },
+  {
+    "region_id": "shrine-of-the-sea-god",
+    "order": 5,
+    "name": "Shrine of the Sea God",
+    "point_of_no_return": false,
+    "gates": [
+      {
+        "item": "Rusty Staff",
+        "kind": "item",
+        "access": "return_required",
+        "requires_psynergy": [],
+        "requires_event": "Piers joins party",
+        "missable": false,
+        "note": "Marked '* reachable after Piers joins'; grabbed on the Second Visit downriver."
+      },
+      {
+        "item": "Right Prong",
+        "kind": "item",
+        "access": "return_required",
+        "requires_psynergy": [],
+        "requires_event": "Piers joins party",
+        "missable": false,
+        "note": "Marked '* reachable after Piers joins'."
+      }
+    ]
+  },
+  {
+    "region_id": "indra-cavern",
+    "order": 7,
+    "name": "Indra Cavern",
+    "point_of_no_return": false,
+    "gates": [
+      {
+        "item": "Cookie",
+        "kind": "item",
+        "access": "return_required",
+        "requires_psynergy": [
+          "Frost"
+        ],
+        "requires_event": "Piers joins + Black Crystal",
+        "missable": false,
+        "note": "East Indra Shore / Piers' Ship section — relevant only after Piers and the Black Crystal."
+      },
+      {
+        "item": "Elixir",
+        "kind": "item",
+        "access": "return_required",
+        "requires_psynergy": [
+          "Frost"
+        ],
+        "requires_event": "Piers joins + Black Crystal",
+        "missable": false,
+        "note": "Piers' Ship cabin, after the locked door opens."
+      },
+      {
+        "item": "Potion",
+        "kind": "item",
+        "access": "return_required",
+        "requires_psynergy": [
+          "Frost"
+        ],
+        "requires_event": "Piers joins + Black Crystal",
+        "missable": false,
+        "note": "Piers' Ship below deck, Aqua-Jelly Frost puzzle."
+      },
+      {
+        "item": "Antidote",
+        "kind": "item",
+        "access": "return_required",
+        "requires_psynergy": [
+          "Frost"
+        ],
+        "requires_event": "Piers joins + Black Crystal",
+        "missable": false,
+        "note": "Piers' Ship below deck, Aqua-Jelly Frost puzzle."
+      }
+    ]
+  },
+  {
+    "region_id": "madra",
+    "order": 8,
+    "name": "Madra",
+    "point_of_no_return": false,
+    "gates": [
+      {
+        "item": "Char",
+        "kind": "djinn",
+        "access": "return_required",
+        "requires_psynergy": [
+          "Frost"
+        ],
+        "requires_event": "trade Healing Fungus",
+        "missable": false,
+        "note": "Traded by the townsman for the Healing Fungus (which itself needs Frost at Gondowan Cliffs)."
+      }
+    ]
+  },
+  {
+    "region_id": "madra-catacombs",
+    "order": 9,
+    "name": "Madra Catacombs",
+    "point_of_no_return": false,
+    "gates": [
+      {
+        "item": "Apple",
+        "kind": "item",
+        "access": "return_required",
+        "requires_psynergy": [
+          "Frost",
+          "Reveal"
+        ],
+        "requires_event": null,
+        "missable": false,
+        "note": "Return Visit (needs Frost + Reveal); Frost the puddle to reach the chest."
+      },
+      {
+        "item": "Lucky Medal",
+        "kind": "item",
+        "access": "return_required",
+        "requires_psynergy": [
+          "Frost",
+          "Reveal"
+        ],
+        "requires_event": null,
+        "missable": false,
+        "note": "Return Visit (needs Frost + Reveal)."
+      },
+      {
+        "item": "Tremor Bit",
+        "kind": "item",
+        "access": "first_visit_only",
+        "requires_psynergy": [],
+        "requires_event": null,
+        "missable": false,
+        "note": "Graveyard entrance is first-visit-only; if you return the cave is blocked and you must use the main ladder + Reveal. Content still reachable, so not missable."
+      }
+    ]
+  },
+  {
+    "region_id": "yampi-desert",
+    "order": 12,
+    "name": "Yampi Desert",
+    "point_of_no_return": false,
+    "gates": [
+      {
+        "item": "Water of Life",
+        "kind": "item",
+        "access": "return_required",
+        "requires_psynergy": [
+          "Sand"
+        ],
+        "requires_event": null,
+        "missable": false,
+        "note": "Optional Yampi Desert Cave, accessible much later with Sand."
+      },
+      {
+        "item": "Mythril Silver",
+        "kind": "item",
+        "access": "return_required",
+        "requires_psynergy": [
+          "Sand"
+        ],
+        "requires_event": null,
+        "missable": false,
+        "note": "Optional Yampi Desert Cave (Sand)."
+      },
+      {
+        "item": "Dark Matter",
+        "kind": "item",
+        "access": "return_required",
+        "requires_psynergy": [
+          "Sand"
+        ],
+        "requires_event": null,
+        "missable": false,
+        "note": "Optional Yampi Desert Cave (Sand)."
+      },
+      {
+        "item": "Orihalcon",
+        "kind": "item",
+        "access": "return_required",
+        "requires_psynergy": [
+          "Sand",
+          "Burst"
+        ],
+        "requires_event": null,
+        "missable": false,
+        "note": "Optional Yampi Desert Cave; Burst the crumbling pillar."
+      },
+      {
+        "item": "Crystal",
+        "kind": "djinn",
+        "access": "return_required",
+        "requires_psynergy": [
+          "Sand",
+          "Scoop"
+        ],
+        "requires_event": null,
+        "missable": false,
+        "note": "Optional Yampi Desert Cave; time Scoop to unearth it."
+      },
+      {
+        "item": "Daedalus",
+        "kind": "summon",
+        "access": "return_required",
+        "requires_psynergy": [
+          "Sand"
+        ],
+        "requires_event": null,
+        "missable": false,
+        "note": "Optional Yampi Desert Cave."
+      }
+    ]
+  },
+  {
+    "region_id": "garoh",
+    "order": 14,
+    "name": "Garoh",
+    "point_of_no_return": false,
+    "gates": [
+      {
+        "item": "Hypnos' Sword",
+        "kind": "item",
+        "access": "return_required",
+        "requires_psynergy": [
+          "Reveal"
+        ],
+        "requires_event": null,
+        "missable": false,
+        "note": "Revisit: Reveal the six cavern platforms to open the path to the chest."
+      }
+    ]
+  },
+  {
+    "region_id": "airs-rock",
+    "order": 15,
+    "name": "Air's Rock",
+    "point_of_no_return": false,
+    "gates": [
+      {
+        "item": "Vial",
+        "kind": "item",
+        "access": "return_required",
+        "requires_psynergy": [
+          "Frost"
+        ],
+        "requires_event": null,
+        "missable": false,
+        "note": "Exterior chest marked '* reachable after learning Frost'."
+      }
+    ]
+  },
+  {
+    "region_id": "gondowan-cliffs",
+    "order": 18,
+    "name": "Gondowan Cliffs",
+    "point_of_no_return": false,
+    "gates": [
+      {
+        "item": "Healing Fungus",
+        "kind": "item",
+        "access": "return_required",
+        "requires_psynergy": [
+          "Frost"
+        ],
+        "requires_event": null,
+        "missable": false,
+        "note": "Flagged 'requires Frost, cannot be collected yet'. Feeds the Madra trade for Char."
+      }
+    ]
+  },
+  {
+    "region_id": "kibombo-mountains",
+    "order": 20,
+    "name": "Kibombo Mountains",
+    "point_of_no_return": false,
+    "gates": [
+      {
+        "item": "Waft",
+        "kind": "djinn",
+        "access": "return_required",
+        "requires_psynergy": [
+          "Frost",
+          "Growth"
+        ],
+        "requires_event": null,
+        "missable": false,
+        "note": "Footnote: 'must return later with Frost and Growth to reach it'."
+      }
+    ]
+  },
+  {
+    "region_id": "lemurian-ship",
+    "order": 24,
+    "name": "Lemurian Ship",
+    "point_of_no_return": false,
+    "gates": [
+      {
+        "item": null,
+        "kind": "item",
+        "access": "return_required",
+        "requires_psynergy": [
+          "Parch"
+        ],
+        "requires_event": null,
+        "missable": false,
+        "note": "After the boss the room floods; one chest is unreachable until Parch (contents unnamed in prose)."
+      }
+    ]
+  },
+  {
+    "region_id": "islet-cave",
+    "order": 39,
+    "name": "Islet Cave",
+    "point_of_no_return": false,
+    "gates": [
+      {
+        "item": "Tisiphone Edge",
+        "kind": "item",
+        "access": "return_required",
+        "requires_psynergy": [
+          "Teleport"
+        ],
+        "requires_event": null,
+        "missable": false,
+        "note": "Second stretch of the Islet Cave opens only after Teleport; dropped by the Cruel Dragons."
+      }
+    ]
+  },
+  {
+    "region_id": "alhafran-cavern",
+    "order": 41,
+    "name": "Alhafran Cavern",
+    "point_of_no_return": false,
+    "gates": [
+      {
+        "item": "777 Coins",
+        "kind": "item",
+        "access": "return_required",
+        "requires_psynergy": [
+          "Frost"
+        ],
+        "requires_event": "Briggs escapes",
+        "missable": false,
+        "note": "After Briggs' escape removes the pillar; Frost the puddle for the three deeper chests."
+      },
+      {
+        "item": "Potion",
+        "kind": "item",
+        "access": "return_required",
+        "requires_psynergy": [
+          "Frost"
+        ],
+        "requires_event": "Briggs escapes",
+        "missable": false,
+        "note": "Deeper Frost-gated chest after Briggs escapes."
+      },
+      {
+        "item": "Psy Crystal",
+        "kind": "item",
+        "access": "return_required",
+        "requires_psynergy": [
+          "Frost"
+        ],
+        "requires_event": "Briggs escapes",
+        "missable": false,
+        "note": "Deeper Frost-gated chest after Briggs escapes."
+      }
+    ]
+  },
+  {
+    "region_id": "shaman-village-cave",
+    "order": 45,
+    "name": "Shaman Village Cave",
+    "point_of_no_return": false,
+    "gates": [
+      {
+        "item": "Eddy",
+        "kind": "djinn",
+        "access": "return_required",
+        "requires_psynergy": [
+          "Lift"
+        ],
+        "requires_event": null,
+        "missable": false,
+        "note": "Middle path Mercury Djinni unreachable without Lift; return on the Second Visit."
+      }
+    ]
+  },
+  {
+    "region_id": "trial-road",
+    "order": 47,
+    "name": "Trial Road",
+    "point_of_no_return": false,
+    "gates": [
+      {
+        "item": "Gasp",
+        "kind": "djinn",
+        "access": "return_required",
+        "requires_psynergy": [
+          "Lift",
+          "Reveal"
+        ],
+        "requires_event": null,
+        "missable": false,
+        "note": "Second Visit after Hover Jade + joining Isaac's party (Lift + Reveal)."
+      }
+    ]
+  },
+  {
+    "region_id": "sw-atteka-islet",
+    "order": 48,
+    "name": "SW Atteka Islet",
+    "point_of_no_return": false,
+    "gates": [
+      {
+        "item": "Petra",
+        "kind": "djinn",
+        "access": "return_required",
+        "requires_psynergy": [
+          "Hover",
+          "Lift"
+        ],
+        "requires_event": null,
+        "missable": false,
+        "note": "Islet only reachable after Hover (ship wings)."
+      },
+      {
+        "item": "Core",
+        "kind": "djinn",
+        "access": "return_required",
+        "requires_psynergy": [
+          "Hover"
+        ],
+        "requires_event": null,
+        "missable": false,
+        "note": "Islet only reachable after Hover."
+      },
+      {
+        "item": "Geode",
+        "kind": "djinn",
+        "access": "return_required",
+        "requires_psynergy": [
+          "Hover",
+          "Lift",
+          "Cyclone"
+        ],
+        "requires_event": null,
+        "missable": false,
+        "note": "Lift the boulder, Cyclone the weeds."
+      },
+      {
+        "item": "Vial",
+        "kind": "item",
+        "access": "return_required",
+        "requires_psynergy": [
+          "Hover"
+        ],
+        "requires_event": null,
+        "missable": false,
+        "note": "Islet only reachable after Hover."
+      },
+      {
+        "item": "Orihalcon",
+        "kind": "item",
+        "access": "return_required",
+        "requires_psynergy": [
+          "Hover"
+        ],
+        "requires_event": null,
+        "missable": false,
+        "note": "Islet only reachable after Hover."
+      },
+      {
+        "item": "Dragon Skin",
+        "kind": "item",
+        "access": "return_required",
+        "requires_psynergy": [
+          "Hover"
+        ],
+        "requires_event": null,
+        "missable": false,
+        "note": "Islet only reachable after Hover."
+      }
+    ]
+  },
+  {
+    "region_id": "contigo",
+    "order": 49,
+    "name": "Contigo",
+    "point_of_no_return": false,
+    "gates": [
+      {
+        "item": "Shine",
+        "kind": "djinn",
+        "access": "transfer_only",
+        "requires_psynergy": [
+          "Force"
+        ],
+        "requires_event": "Force Orb (GS1 transfer)",
+        "missable": false,
+        "note": "Only if data transferred from GS1 (Force Orb); Force the stump on the Contigo revisit after Jupiter Lighthouse."
+      }
+    ]
+  },
+  {
+    "region_id": "atteka-cavern",
+    "order": 51,
+    "name": "Atteka Cavern",
+    "point_of_no_return": false,
+    "gates": [
+      {
+        "item": "Coatlicue",
+        "kind": "summon",
+        "access": "return_required",
+        "requires_psynergy": [
+          "Hover",
+          "Carry"
+        ],
+        "requires_event": null,
+        "missable": false,
+        "note": "Cavern only reachable once the ship has wings (Hover); inner puzzle needs Carry."
+      },
+      {
+        "item": "Haures",
+        "kind": "summon",
+        "access": "return_required",
+        "requires_psynergy": [
+          "Hover",
+          "Carry"
+        ],
+        "requires_event": null,
+        "missable": false,
+        "note": "Cavern only reachable once the ship has wings (Hover); inner puzzle needs Carry."
+      }
+    ]
+  },
+  {
+    "region_id": "treasure-isle",
+    "order": 59,
+    "name": "Treasure Isle",
+    "point_of_no_return": false,
+    "gates": [
+      {
+        "item": "Jester's Armlet",
+        "kind": "item",
+        "access": "return_required",
+        "requires_psynergy": [
+          "Grind"
+        ],
+        "requires_event": null,
+        "missable": false,
+        "note": "Dungeon reachable early but only fully cleared with Grind + Lift."
+      },
+      {
+        "item": "Gale",
+        "kind": "djinn",
+        "access": "return_required",
+        "requires_psynergy": [
+          "Lift"
+        ],
+        "requires_event": null,
+        "missable": false,
+        "note": "Lift the center boulder to reach the Jupiter Djinni."
+      },
+      {
+        "item": "Iris Robe",
+        "kind": "item",
+        "access": "return_required",
+        "requires_psynergy": [
+          "Grind",
+          "Lift"
+        ],
+        "requires_event": null,
+        "missable": false,
+        "note": "Deep Treasure Isle (Grind + Lift)."
+      },
+      {
+        "item": "Fire Brand",
+        "kind": "item",
+        "access": "return_required",
+        "requires_psynergy": [
+          "Grind",
+          "Lift"
+        ],
+        "requires_event": null,
+        "missable": false,
+        "note": "Deep Treasure Isle (Grind + Lift)."
+      },
+      {
+        "item": "Azul",
+        "kind": "summon",
+        "access": "return_required",
+        "requires_psynergy": [
+          "Grind",
+          "Lift"
+        ],
+        "requires_event": null,
+        "missable": false,
+        "note": "Deep Treasure Isle (Grind + Lift)."
+      }
+    ]
+  },
+  {
+    "region_id": "yampi-desert-cave",
+    "order": 60,
+    "name": "Yampi Desert Cave",
+    "point_of_no_return": false,
+    "gates": [
+      {
+        "item": "Water of Life",
+        "kind": "item",
+        "access": "return_required",
+        "requires_psynergy": [
+          "Sand"
+        ],
+        "requires_event": null,
+        "missable": false,
+        "note": "Optional cave, accessible much later with Sand."
+      },
+      {
+        "item": "Mythril Silver",
+        "kind": "item",
+        "access": "return_required",
+        "requires_psynergy": [
+          "Sand",
+          "Scoop"
+        ],
+        "requires_event": null,
+        "missable": false,
+        "note": "Scoop the sparkling ground."
+      },
+      {
+        "item": "Dark Matter",
+        "kind": "item",
+        "access": "return_required",
+        "requires_psynergy": [
+          "Sand"
+        ],
+        "requires_event": null,
+        "missable": false,
+        "note": "Optional cave (Sand)."
+      },
+      {
+        "item": "Orihalcon",
+        "kind": "item",
+        "access": "return_required",
+        "requires_psynergy": [
+          "Sand",
+          "Burst"
+        ],
+        "requires_event": null,
+        "missable": false,
+        "note": "Burst the broken pillar."
+      },
+      {
+        "item": "Crystal",
+        "kind": "djinn",
+        "access": "return_required",
+        "requires_psynergy": [
+          "Sand",
+          "Scoop"
+        ],
+        "requires_event": null,
+        "missable": false,
+        "note": "Time Scoop (or Halt then Scoop) to unearth it."
+      },
+      {
+        "item": "Daedalus",
+        "kind": "summon",
+        "access": "return_required",
+        "requires_psynergy": [
+          "Sand"
+        ],
+        "requires_event": null,
+        "missable": false,
+        "note": "Optional cave (Sand)."
+      }
+    ]
+  },
+  {
+    "region_id": "anemos-sanctum",
+    "order": 61,
+    "name": "Anemos Inner Sanctum",
+    "point_of_no_return": false,
+    "gates": [
+      {
+        "item": "Dragon Skin",
+        "kind": "item",
+        "access": "return_required",
+        "requires_psynergy": [
+          "Reveal"
+        ],
+        "requires_event": null,
+        "missable": false,
+        "note": "Reveal at the main entrance for the chest."
+      },
+      {
+        "item": "Dark Matter",
+        "kind": "item",
+        "access": "return_required",
+        "requires_psynergy": [
+          "Teleport"
+        ],
+        "requires_event": "all 72 Djinn collected",
+        "missable": false,
+        "note": "Inner Sanctum needs all 72 Djinn + Teleport (Teleport the Contigo circle)."
+      },
+      {
+        "item": "Orihalcon",
+        "kind": "item",
+        "access": "return_required",
+        "requires_psynergy": [
+          "Teleport"
+        ],
+        "requires_event": "all 72 Djinn collected",
+        "missable": false,
+        "note": "Inner Sanctum (all 72 Djinn + Teleport)."
+      },
+      {
+        "item": "Charon",
+        "kind": "summon",
+        "access": "return_required",
+        "requires_psynergy": [
+          "Teleport"
+        ],
+        "requires_event": "all 72 Djinn collected",
+        "missable": false,
+        "note": "Inner Sanctum (all 72 Djinn + Teleport)."
+      },
+      {
+        "item": "Iris",
+        "kind": "summon",
+        "access": "return_required",
+        "requires_psynergy": [
+          "Teleport"
+        ],
+        "requires_event": "all 72 Djinn collected",
+        "missable": false,
+        "note": "Inner Sanctum (all 72 Djinn + Teleport)."
+      }
+    ]
+  }
+]

@@ -15,10 +15,10 @@ with no fetch/CORS). Pure read view. Rerun after any data change:
 
 Ported from gs1: the Build Planner tab (Set-Djinn distribution -> class/stats/
 Psynergy), adapted to gs2 data shapes + a SHARED 72-Djinn pool across all 8 TLA
-adepts. The progression-gated pool is a Phase-2 swap behind availableDjinnPool()
-(see the PROGRESSION SEAM comment in the planner JS). Still NOT ported: the
-progression/missable Companion layer (Phase 2). gs2 data shapes differ from gs1,
-so coreHTML/linksHTML/reverse-indexes were rewritten for gs2 (see gs2_er_sketch.md).
+adepts. Phase 2 progression gate is LIVE: the region selector filters the pool to
+Djinn reachable by that point (djinn.location.area -> locations.order join).
+gs2 data shapes differ from gs1, so coreHTML/linksHTML/reverse-indexes were
+rewritten for gs2 (see gs2_er_sketch.md).
 """
 import json
 from pathlib import Path
@@ -181,6 +181,42 @@ TEMPLATE = r"""<!DOCTYPE html>
   .poolbar { display:flex; flex-wrap:wrap; gap:10px 22px; align-items:center; background:var(--panel); border:1px solid var(--line);
     border-radius:var(--radius); padding:10px 16px; margin-bottom:18px; }
   .poolbar .ptitle { font-size:10px; letter-spacing:2px; text-transform:uppercase; color:var(--text-faint); }
+  .progress-row { display:flex; align-items:center; gap:10px; margin-bottom:12px; flex-wrap:wrap; }
+  .progress-row label { font-size:12px; color:var(--text-faint); white-space:nowrap; }
+  .progress-row select { background:var(--panel); color:var(--text); border:1px solid var(--line); border-radius:4px; padding:3px 8px; font-size:13px; }
+  .pool-hint { font-size:12px; color:var(--text-faint); }
+  .tk-reset { font-size:11px; color:var(--text-faint); cursor:pointer; text-decoration:underline; margin-left:auto; }
+  .tk-reset:hover { color:var(--text); }
+  #tracker-reachable { margin-bottom:18px; }
+  .tk-reach { background:var(--panel); border:1px solid var(--line); border-left:3px solid var(--earth);
+    border-radius:var(--radius); padding:12px 16px; }
+  .tk-reach h3 { margin:0 0 8px; font-size:12px; letter-spacing:1px; text-transform:uppercase; color:var(--text-dim); }
+  .tk-reach ul { margin:0; padding-left:0; list-style:none; display:flex; flex-wrap:wrap; gap:6px 10px; }
+  .tk-reach li { font-size:12px; }
+  .tk-reach .tk-go { color:var(--text); cursor:pointer; border-bottom:1px dotted var(--text-faint); }
+  .tk-reach .tk-where { color:var(--text-faint); }
+  .tk-reach.empty { border-left-color:var(--line); color:var(--text-faint); font-size:12px; }
+  .tk-region { background:var(--panel); border:1px solid var(--line); border-radius:var(--radius);
+    margin-bottom:10px; overflow:hidden; }
+  .tk-region.locked { opacity:.55; }
+  .tk-rhead { display:flex; align-items:center; gap:10px; padding:9px 14px; cursor:pointer; user-select:none; }
+  .tk-rhead:hover { background:var(--panel-2,rgba(255,255,255,.02)); }
+  .tk-rhead .tk-ord { font-size:11px; color:var(--text-faint); font-variant-numeric:tabular-nums; min-width:32px; }
+  .tk-rhead .tk-name { font-weight:600; font-size:14px; }
+  .tk-rhead .tk-count { margin-left:auto; font-size:12px; color:var(--text-dim); font-variant-numeric:tabular-nums; }
+  .tk-rhead .tk-bar { width:60px; height:4px; border-radius:2px; background:var(--line); overflow:hidden; }
+  .tk-rhead .tk-fill { height:100%; background:var(--earth); width:0; }
+  .tk-rbody { padding:4px 14px 12px 14px; display:none; }
+  .tk-region.open .tk-rbody { display:block; }
+  .tk-row { display:flex; align-items:center; gap:9px; padding:4px 0; font-size:13px; }
+  .tk-row input { accent-color:var(--earth); cursor:pointer; }
+  .tk-row.done .tk-iname { text-decoration:line-through; color:var(--text-faint); }
+  .tk-iname { cursor:pointer; }
+  .tk-iname:hover { color:var(--earth); }
+  .tk-kind { font-size:10px; text-transform:uppercase; letter-spacing:.5px; color:var(--text-faint);
+    border:1px solid var(--line); border-radius:3px; padding:0 4px; }
+  .tk-gate { font-size:11px; color:#caa84a; }
+  .tk-gate.open { color:#6fae5f; }
   .poolel { display:flex; align-items:center; gap:8px; min-width:150px; }
   .poolel .pn { font-size:12px; min-width:54px; } .poolel .pcount { font-size:12px; font-variant-numeric:tabular-nums; color:var(--text-dim); min-width:42px; text-align:right; }
   .poolel .pcount.over { color:var(--bad); font-weight:700; }
@@ -223,6 +259,7 @@ TEMPLATE = r"""<!DOCTYPE html>
 <nav>
   <button id="navbtn-wiki" class="active" data-tab="wiki">Wiki</button>
   <button id="navbtn-planner" data-tab="planner">Build Planner</button>
+  <button id="navbtn-tracker" data-tab="tracker">Tracker</button>
 </nav>
 <main>
   <div class="tabpane active" id="tab-wiki">
@@ -245,10 +282,32 @@ TEMPLATE = r"""<!DOCTYPE html>
       and <b>Psynergy</b> — or pick a target class to see a Djinn setup for it. The whole party <b>shares one Djinn pool</b>
       (18 per element); assigning a Djinni to one adept removes it from the others. Matching follows <code>telago</code>
       ranges + <code>ultimalink</code> exact builds; <code>other</code> = "each non-native element" (Trickster lines).
-      Class &amp; Psynergy names link into the Wiki. <i>Phase 1 = full-game sandbox; progress-gated pool comes in Phase 2.</i>
+      Class &amp; Psynergy names link into the Wiki. Use the <b>Progress gate</b> to restrict the pool to Djinn reachable at your current point in the game.
+    </div>
+    <div class="progress-row">
+      <label for="region-sel">Progress gate:</label>
+      <select id="region-sel"><option value="">Full game (sandbox)</option></select>
+      <span class="pool-hint" id="pool-hint"></span>
     </div>
     <div class="poolbar" id="poolbar"></div>
     <div class="pgrid" id="pgrid"></div>
+  </div>
+  <div class="tabpane" id="tab-tracker">
+    <div class="infobox">
+      Tick off what you've collected; progress is saved in your browser (<code>localStorage</code>).
+      Items behind a Psynergy or story event you don't yet have show a <b>return-trip badge</b>.
+      Set the <b>Progress gate</b> to your current point and the panel up top lists everything that's
+      become reachable but isn't checked off &mdash; your "go back for it" list. <i>GS2 is an open
+      world: nothing is permanently missable, so this is a backtrack reminder, not a last-chance warning.</i>
+    </div>
+    <div class="progress-row">
+      <label for="tracker-region-sel">Progress gate:</label>
+      <select id="tracker-region-sel"><option value="">Full game (sandbox)</option></select>
+      <span class="pool-hint" id="tracker-overall"></span>
+      <span class="tk-reset" id="tracker-reset">reset checklist</span>
+    </div>
+    <div id="tracker-reachable"></div>
+    <div id="tracker-list"></div>
   </div>
 </main>
 <footer>Pure read view over <code>data/gs2/</code> &middot; provenance-first &middot; rebuild: <code>python scripts/build_codex_gs2.py</code></footer>
@@ -256,10 +315,12 @@ TEMPLATE = r"""<!DOCTYPE html>
 
 <script type="application/json" id="data-db">__DB__</script>
 <script type="application/json" id="data-lr">__LR__</script>
+<script type="application/json" id="data-ag">__AG__</script>
 <script>
 "use strict";
 const DB = JSON.parse(document.getElementById("data-db").textContent);
 const LR = JSON.parse(document.getElementById("data-lr").textContent);
+const AG = JSON.parse(document.getElementById("data-ag").textContent);
 const TYPES = ["djinn","summons","classes","psynergy","equipment","items","shops","monsters","bosses","locations","characters"];
 const ELEMS = ["earth","fire","wind","water"];
 const EL_DJINN = { earth:"Venus", fire:"Mars", wind:"Jupiter", water:"Mercury" };
@@ -621,23 +682,27 @@ const CLASSES=DB.classes||[];
 const NATIVE={}; (DB.characters||[]).forEach(c=>{ if(c.element) NATIVE[c.name]=c.element; });
 const PARTY=(DB.characters||[]).filter(c=>c.element);
 
-/* ----- PROGRESSION SEAM (Phase-2 hook) -------------------------------------
-   Phase 1 is the full-game sandbox: the entire 72-Djinn pool is available.
-   The Phase-2 "progress-aware" planner swaps ONLY availableDjinnPool(): have it
-   return the Djinn reachable by a chosen region order (materialize a djinn->region
-   map from djinn.location.area + the 62-region spine — see gs2_app_brainstorm.md
-   §C2). Everything downstream (pool ledger, steppers, matcher) is progress-agnostic
-   and unchanged; a region selector would just set progressIndex and re-run rebuildPool(). */
-let progressIndex=null;                  // null = full game (Phase 1); Phase 2 sets a region order index
-function availableDjinnPool(){           // {earth,fire,wind,water} -> # of Set-able Djinn reachable now
+/* ----- progression-aware pool ----- */
+const REGION_ORDER={};
+(DB.locations||[]).forEach(l=>{ REGION_ORDER[l.region_id]=l.order; });
+/* The 28 area==null Djinn are the GS1 set (game="gs1"); they arrive when Isaac's party
+   rejoins at Contigo, NOT at the start. Anchor them to that reunion order (no TLA
+   location.area exists for them, so the reunion is the most precise we can be). */
+const GS1_DJINN_ORDER=(REGION_ORDER["contigo"]!=null?REGION_ORDER["contigo"]:49);
+function djinnRegionOrder(d){
+  const loc=d.location; if(!loc||loc.area==null) return GS1_DJINN_ORDER;   // GS1-transferred set: rejoin at Contigo
+  const areas=Array.isArray(loc.area)?loc.area:[loc.area];
+  const orders=areas.map(a=>REGION_ORDER[a]).filter(o=>o!=null);
+  return orders.length?Math.min(...orders):GS1_DJINN_ORDER; }
+let progressIndex=null;   // null = full game; number = region.order ceiling
+function availableDjinnPool(){
   const pool={earth:0,fire:0,wind:0,water:0};
   (DB.djinn||[]).forEach(d=>{ if(pool[d.element]==null) return;
-    /* Phase-2 seam: if(progressIndex!=null && djinnRegionOrder(d) > progressIndex) return; */
+    if(progressIndex!=null&&djinnRegionOrder(d)>progressIndex) return;
     pool[d.element]++; });
-  return pool;
-}
+  return pool; }
 let POOL_MAX=availableDjinnPool();
-function rebuildPool(){ POOL_MAX=availableDjinnPool(); renderAll(); }   // Phase-2 calls this after setProgress
+function rebuildPool(){ POOL_MAX=availableDjinnPool(); renderAll(); updatePoolHint(); }
 
 /* ----- matcher ----- */
 function expandRow(parsed,native){ const out=[];
@@ -723,6 +788,132 @@ pgrid.addEventListener("change",e=>{ const sel=e.target.closest("select[data-c]"
   const cl=CLASSES.find(x=>x.id===sel.value); if(!cl) return; const av=cl.available_to.find(a=>a.character===sel.dataset.c); setCounts(sel.dataset.c,reverseCounts(av,NATIVE[sel.dataset.c])); });
 renderAll();
 
+/* ----- shared progress anchor (one selector drives BOTH the planner pool gate and the tracker) ----- */
+const PROGRESS_LISTENERS=[];
+function onProgressChange(fn){ PROGRESS_LISTENERS.push(fn); }
+function setProgress(idx){ progressIndex=idx;
+  document.querySelectorAll(".progress-sel").forEach(s=>{ s.value=idx==null?"":String(idx); });
+  PROGRESS_LISTENERS.forEach(fn=>fn()); }
+function fillRegionSelect(sel){
+  (DB.locations||[]).slice().sort((a,b)=>a.order-b.order).forEach(l=>{
+    const o=document.createElement("option"); o.value=l.order;
+    o.textContent=`#${String(l.order+1).padStart(2,"0")} – ${l.name}`; sel.appendChild(o); });
+  sel.classList.add("progress-sel");
+  sel.addEventListener("change",()=>setProgress(sel.value===""?null:+sel.value)); }
+fillRegionSelect(document.getElementById("region-sel"));
+function updatePoolHint(){ const p=POOL_MAX; const t=p.earth+p.fire+p.wind+p.water;
+  document.getElementById("pool-hint").textContent=progressIndex==null?"":`${t} / 72 Djinn available`; }
+onProgressChange(()=>{ rebuildPool(); });
+updatePoolHint();
+
+/* ===== Collection Tracker (B2) ===== */
+const TK_KEY="gs2-codex-collection";
+const LOCS=(DB.locations||[]).slice().sort((a,b)=>a.order-b.order);
+/* AG (access_gates sidecar): region_id -> {meta, items:{name->gate}} */
+const AG_BY_REGION={}; AG.forEach(r=>{ const m={}; (r.gates||[]).forEach(g=>{ if(g.item) m[g.item]=g; });
+  AG_BY_REGION[r.region_id]={meta:r,items:m}; });
+/* name -> wiki entity id, to make checklist rows clickable into the Wiki */
+const tkIdBy={}; ["djinn","summons","psynergy","items","equipment"].forEach(t=>{ tkIdBy[t]={};
+  (DB[t]||[]).forEach(e=>{ if(e&&e.name!=null) tkIdBy[t][e.name]=e.id; }); });
+function tkRef(kind,name){
+  if(kind==="djinn")    return tkIdBy.djinn[name]!=null?["djinn",tkIdBy.djinn[name]]:null;
+  if(kind==="summon")   return tkIdBy.summons[name]!=null?["summons",tkIdBy.summons[name]]:null;
+  if(kind==="psynergy") return tkIdBy.psynergy[name]!=null?["psynergy",tkIdBy.psynergy[name]]:null;
+  if(tkIdBy.items[name]!=null)     return ["items",tkIdBy.items[name]];
+  if(tkIdBy.equipment[name]!=null) return ["equipment",tkIdBy.equipment[name]];
+  return null; }
+/* when a gate's Psynergy / event is satisfied at the current progress, the item is reachable.
+   Psynergy order: derived from locations.psynergy_here + a curated map for the utility/class
+   Psynergy granted by items or Djinn (not learned in a psynergy_here slot). Event anchors are
+   approximate region orders; an unknown event stays "not yet" (conservative). */
+const PSY_ACQUIRED_ORDER=(function(){ const m={};
+  LOCS.forEach(l=>{ (l.psynergy_here||[]).forEach(p=>{ if(m[p]==null) m[p]=l.order; }); });
+  const curated={Lift:46,Hover:47,Carry:51,Force:49,Growth:23,Cyclone:23};
+  for(const k in curated) if(m[k]==null) m[k]=curated[k];
+  return m; })();
+const EVENT_ORDER={"Piers joins party":24,"Piers joins + Black Crystal":42,"Briggs escapes":27,
+  "trade Healing Fungus":21,"all 72 Djinn collected":61,"Force Orb (GS1 transfer)":49};
+function gateOpen(g){
+  if(progressIndex==null) return true;                 // full-game sandbox
+  for(const p of (g.requires_psynergy||[])){ const o=PSY_ACQUIRED_ORDER[p]; if(o==null||progressIndex<o) return false; }
+  if(g.requires_event){ const o=EVENT_ORDER[g.requires_event]; if(o==null||progressIndex<o) return false; }
+  return true; }
+
+let tkCollected=new Set(); try{ tkCollected=new Set(JSON.parse(localStorage.getItem(TK_KEY)||"[]")); }catch(e){}
+function tkSave(){ try{ localStorage.setItem(TK_KEY,JSON.stringify([...tkCollected])); }catch(e){} }
+function tkKey(rid,kind,name){ return rid+"::"+kind+"::"+name; }
+function regionItems(l){ const out=[];
+  (l.pickups||[]).forEach(n=>out.push(["item",n]));
+  (l.djinn_here||[]).forEach(n=>out.push(["djinn",n]));
+  (l.psynergy_here||[]).forEach(n=>out.push(["psynergy",n]));
+  (l.summons_here||[]).forEach(n=>out.push(["summon",n]));
+  return out; }
+const TK_TOTAL=LOCS.reduce((s,l)=>s+regionItems(l).length,0);
+
+function renderReachable(){ const box=document.getElementById("tracker-reachable");
+  if(progressIndex==null){ box.innerHTML='<div class="tk-reach empty">Set a Progress gate above to see what has become reachable but is not collected yet.</div>'; return; }
+  const pending=[];
+  LOCS.forEach(l=>{ const ag=AG_BY_REGION[l.region_id]; if(!ag) return;
+    ag.meta.gates.forEach(g=>{ if(!g.item||!gateOpen(g)) return;
+      if(tkCollected.has(tkKey(l.region_id,g.kind,g.item))) return; pending.push([l,g]); }); });
+  if(!pending.length){ box.innerHTML='<div class="tk-reach empty">Nothing pending &mdash; every reachable gated item is checked off. &#10003;</div>'; return; }
+  const lis=pending.map(([l,g])=>`<li><span class="tk-go" data-rid="${esc(l.region_id)}">${esc(g.item)}</span> <span class="tk-where">&mdash; ${esc(l.name)}</span></li>`).join("");
+  box.innerHTML=`<div class="tk-reach"><h3>Reachable now, not yet collected &middot; ${pending.length}</h3><ul>${lis}</ul></div>`; }
+
+function rowHTML(rid,kind,name,gate){ const key=tkKey(rid,kind,name); const done=tkCollected.has(key);
+  const ref=tkRef(kind,name);
+  const nm=ref?`<span class="tk-iname" data-t="${ref[0]}" data-id="${esc(ref[1])}">${esc(name)}</span>`:`<span class="tk-iname">${esc(name)}</span>`;
+  let badge="";
+  if(gate){ const open=gateOpen(gate);
+    const reqs=[...(gate.requires_psynergy||[]),gate.requires_event].filter(Boolean).join(", ");
+    badge=open?'<span class="tk-gate open">&#10003; reachable</span>':`<span class="tk-gate">&#128205; ${esc(reqs)}</span>`; }
+  return `<div class="tk-row ${done?'done':''}" data-key="${esc(key)}">`+
+    `<input type="checkbox" ${done?'checked':''} data-key="${esc(key)}">`+
+    `<span class="tk-kind">${esc(kind)}</span>${nm}${badge}</div>`; }
+
+function renderTracker(){ renderReachable();
+  const html=LOCS.map(l=>{ const items=regionItems(l); if(!items.length) return "";
+    const rid=l.region_id; const ag=AG_BY_REGION[rid];
+    const rows=items.map(([kind,name])=>rowHTML(rid,kind,name,ag&&ag.items[name])).join("");
+    const unnamed=ag?ag.meta.gates.filter(g=>!g.item):[];
+    const note=unnamed.length?`<div class="tk-row" style="color:var(--text-faint);font-size:12px">&#128205; `+
+      esc(unnamed.map(g=>(g.requires_psynergy||[]).join("+")+" chest (contents unconfirmed)").join("; "))+`</div>`:"";
+    const total=items.length; const done=items.filter(([k,n])=>tkCollected.has(tkKey(rid,k,n))).length;
+    const pct=total?Math.round(done/total*100):0;
+    const locked=progressIndex!=null&&l.order>progressIndex;
+    return `<div class="tk-region ${locked?'locked':''}" data-rid="${esc(rid)}">`+
+      `<div class="tk-rhead"><span class="tk-ord">#${String(l.order+1).padStart(2,"0")}</span>`+
+      `<span class="tk-name">${esc(l.name)}</span>`+
+      `<span class="tk-bar"><span class="tk-fill" style="width:${pct}%"></span></span>`+
+      `<span class="tk-count">${done}/${total}</span></div>`+
+      `<div class="tk-rbody">${rows}${note}</div></div>`; }).join("");
+  document.getElementById("tracker-list").innerHTML=html;
+  document.getElementById("tracker-overall").textContent=`${tkCollected.size} / ${TK_TOTAL} collected`; }
+
+function tkUpdateRegion(regEl){ if(!regEl) return; const rows=[...regEl.querySelectorAll(".tk-row[data-key]")];
+  const total=rows.length, done=rows.filter(r=>tkCollected.has(r.dataset.key)).length;
+  regEl.querySelector(".tk-count").textContent=`${done}/${total}`;
+  regEl.querySelector(".tk-fill").style.width=(total?Math.round(done/total*100):0)+"%"; }
+
+document.getElementById("tab-tracker").addEventListener("click",e=>{
+  const cb=e.target.closest('input[type=checkbox][data-key]');
+  if(cb){ const k=cb.dataset.key; if(cb.checked) tkCollected.add(k); else tkCollected.delete(k); tkSave();
+    const row=cb.closest(".tk-row"); if(row) row.classList.toggle("done",cb.checked);
+    tkUpdateRegion(cb.closest(".tk-region"));
+    document.getElementById("tracker-overall").textContent=`${tkCollected.size} / ${TK_TOTAL} collected`;
+    renderReachable(); return; }
+  const nm=e.target.closest(".tk-iname[data-t]");
+  if(nm){ document.getElementById("navbtn-wiki").click(); openEntity(nm.dataset.t,nm.dataset.id); return; }
+  const go=e.target.closest(".tk-go[data-rid]");
+  if(go){ const reg=document.querySelector(`.tk-region[data-rid="${go.dataset.rid}"]`);
+    if(reg){ reg.classList.add("open"); reg.scrollIntoView({behavior:"smooth",block:"center"}); } return; }
+  const hd=e.target.closest(".tk-rhead"); if(hd){ hd.parentElement.classList.toggle("open"); return; } });
+document.getElementById("tracker-reset").addEventListener("click",()=>{
+  if(confirm("Clear all collection checkmarks?")){ tkCollected.clear(); tkSave(); renderTracker(); } });
+fillRegionSelect(document.getElementById("tracker-region-sel"));
+onProgressChange(renderTracker);
+renderTracker();
+
 /* ----- tabs ----- */
 document.querySelector("nav").addEventListener("click",e=>{ const b=e.target.closest("button[data-tab]"); if(!b) return; hideTip();
   const tab=b.dataset.tab; document.querySelectorAll("nav button").forEach(x=>x.classList.toggle("active",x===b));
@@ -739,9 +930,11 @@ def main():
     for loc in db["locations"]:
         loc.setdefault("id", loc.get("region_id"))
     lr = load("location_refs")
+    ag = load("access_gates")
     html = (TEMPLATE
             .replace("__DB__", embed(db))
-            .replace("__LR__", embed(lr)))
+            .replace("__LR__", embed(lr))
+            .replace("__AG__", embed(ag)))
     OUT.write_text(html, encoding="utf-8")
     print(f"wrote {OUT.relative_to(ROOT)} ({len(html):,} bytes)")
     for name in ENTITIES:
