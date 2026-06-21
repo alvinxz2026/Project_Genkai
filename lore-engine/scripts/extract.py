@@ -93,6 +93,15 @@ def resolve_source_files(source_ids: list[str], raw_dir: Path) -> tuple[list[Pat
     -> {fandom, wiki} matches every FandomWiki file, so the shortest stem wins
     ("FandomWiki - Boss.txt"). Source IDs with no candidate are returned as
     unmatched. Returns the de-duplicated union of matched files and the unmatched IDs.
+
+    LEGACY / FLAT-LAYOUT ONLY: the glob below is non-recursive, so this resolves
+    sources only when raw files sit directly in `raw/{game}/` (the gs1 layout).
+    The gs2 corpus is nested under `raw/gs2/Guide and Walkthrough/` and
+    `raw/gs2/In-Depth Guides/`, so `extract.py --game gs2` resolves *zero* files
+    and is effectively dead. That is intentional and not maintained: gs2 was
+    extracted with the dedicated, per-entity `scripts/*_extract_gs2.py` scripts
+    (which read the subfolders directly), and that is the path to use for gs2.
+    If the generic path is ever revived for nested corpora, switch to `rglob`.
     """
     files = sorted(p for p in raw_dir.glob("*.txt")) + sorted(p for p in raw_dir.glob("*.md"))
     norm = {f: re.sub(r"[^a-z0-9]", "", f.stem.lower()) for f in files}
