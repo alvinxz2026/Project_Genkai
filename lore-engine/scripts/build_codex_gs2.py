@@ -315,6 +315,17 @@ TEMPLATE = r"""<!DOCTYPE html>
   .wt-lock p { margin-bottom:6px; }
   .wt-lock button { margin-top:12px; background:var(--gold); color:#fdfbf4; border:none; border-radius:6px; padding:8px 18px; cursor:pointer; font-size:13px; font-family:var(--font-body); }
   .wt-lock button:hover { background:var(--gold-bright); }
+
+  /* ---- forging planner (C3) ---- */
+  .forge-sect-h { font-family:var(--font-display); font-size:13px; letter-spacing:2px; text-transform:uppercase; color:var(--gold-dim); margin:18px 4px 10px; border-bottom:1px solid var(--line-soft); padding-bottom:6px; }
+  .forge-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(320px,1fr)); gap:14px; }
+  .forge-card { background:var(--panel); border:1px solid var(--line); border-radius:var(--radius); padding:13px 15px; border-top:3px solid var(--gold-dim); }
+  .forge-head { display:flex; align-items:center; gap:8px; margin-bottom:8px; }
+  .forge-head .forge-matname { font-weight:600; color:var(--text); }
+  .forge-head .forge-n { margin-left:auto; font-size:11px; color:var(--text-faint); letter-spacing:.5px; white-space:nowrap; }
+  .forge-src { margin-bottom:8px; } .forge-src .linkgroup { margin-bottom:5px; } .forge-src .glabel { font-size:11px; }
+  .forge-src .rusty-note { font-size:11.5px; color:var(--text-faint); font-style:italic; }
+  .forge-into { font-size:10px; letter-spacing:1.5px; text-transform:uppercase; color:var(--text-faint); margin:8px 0 6px; }
   footer { text-align:center; color:var(--text-faint); font-size:11px; letter-spacing:1px; padding:10px; }
   footer code { color:var(--text-dim); }
 </style>
@@ -329,6 +340,7 @@ TEMPLATE = r"""<!DOCTYPE html>
   <button id="navbtn-guide" data-tab="guide">Guide</button>
   <button id="navbtn-planner" data-tab="planner">Build Planner</button>
   <button id="navbtn-tracker" data-tab="tracker">Tracker</button>
+  <button id="navbtn-forge" data-tab="forge">Forging</button>
 </nav>
 <main>
   <div class="tabpane active" id="tab-wiki">
@@ -395,6 +407,14 @@ TEMPLATE = r"""<!DOCTYPE html>
       <div class="wt-toc" id="wt-toc"></div>
       <div class="wt-reader" id="wt-reader"><div class="placeholder">Pick a region from the list.</div></div>
     </div>
+  </div>
+  <div class="tabpane" id="tab-forge">
+    <div class="infobox">
+      Give a forge material to <b>Sunshine</b> the smith in <b>Yallam</b> and he forges it into <b>one random item</b>
+      from a fixed pool — so each card shows the full gamble. Rare materials drop from monsters or sit in chests;
+      rusty equipment is dug up around the world. Material and result names link into the Wiki (hover for stats).
+    </div>
+    <div id="forge-body"></div>
   </div>
 </main>
 <footer>Pure read view over <code>data/gs2/</code> &middot; provenance-first &middot; rebuild: <code>python scripts/build_codex_gs2.py</code></footer>
@@ -1032,7 +1052,11 @@ const WT_STOP=new Set(["Pole","Mace","Staff","Club","Herb","Apple","Mist","Bone"
   "Mold","Tonic","Crystal","Star","Stars","Boots","Ring","Shield","Power","Guard","Coal","Mole","Bane",
   "Echo","Flush","Wind","Fire","Earth","Water","Robe","Coat","Bow","Whip","Mars","Venus","Sleep","Bind",
   "Gust","Ply","Wave","Tremor","Quartz","Granite","Flint","Mud","Bubble","Spring","Steam","Corona","Torch",
-  "Fever","Forge","Kindle","Scorch","Squall","Breath","Blitz","Luff","Haze","Vine","Sap","Fizz","Sour"]);
+  "Fever","Forge","Kindle","Scorch","Squall","Breath","Blitz","Luff","Haze","Vine","Sap","Fizz","Sour",
+  // element names double as the 4 basic summons but in prose almost always mean the element/lighthouse/Djinn type:
+  "Jupiter","Mercury",
+  // common words that double as a class / monster / verb-psynergy (more often the plain word in prose):
+  "Master","Spirit","Break"]);
 function wtEscRe(s){ return s.replace(/[.*+?^${}()|[\]\\]/g,"\\$&"); }
 const WT_NAMES=(function(){ const seen=new Set(), arr=[];
   TYPES.forEach(t=>(DB[t]||[]).forEach(o=>{ const name=o.name; if(!name||name.length<4) return;
@@ -1088,6 +1112,38 @@ document.getElementById("wt-lang").addEventListener("click",e=>{ const b=e.targe
 fillRegionSelect(document.getElementById("guide-region-sel"));
 onProgressChange(wtRender);
 wtRender();
+
+/* ===== Forging planner (C3) — material -> random output pool + where to get it ===== */
+const FORGE=(function(){
+  const mat2out={}; (DB.equipment||[]).forEach(e=>(e.forged_from||[]).forEach(m=>{ (mat2out[m]=mat2out[m]||[]).push(e.id); }));
+  const eqIdsByName={}; (DB.equipment||[]).forEach(e=>{ const k=(e.name||"").toLowerCase(); (eqIdsByName[k]=eqIdsByName[k]||[]).push(e.id); });
+  return Object.keys(mat2out).map(m=>{
+    const it=itemByName[m.toLowerCase()], eqIds=eqIdsByName[m.toLowerCase()]||[];
+    let cat=null,id=null,ids=[];
+    if(it){ cat="items"; id=it.id; ids=[it.id]; }
+    else if(eqIds.length){ cat="equipment"; id=eqIds[0]; ids=eqIds.slice(); }
+    const rusty=/rust/i.test(m)||(cat==="equipment"&&((byId.equipment[id]||{}).is_rusty));
+    return {name:m, cat, id, ids, outputs:mat2out[m], rusty};
+  }).sort((a,b)=>b.outputs.length-a.outputs.length); })();
+function forgeSources(f){ if(!f.cat) return "";
+  const rt=f.cat==="items"?"item":"equipment"; let mon=[],loc=[],shop=[];
+  f.ids.forEach(id=>{ mon=mon.concat(rev.gearToMonsters[rt+":"+id]||[]); shop=shop.concat(rev.gearToShops[rt+":"+id]||[]); loc=loc.concat(locFor(rt,id)); });
+  return linkGroup("Dropped by", refsFromList("monsters",mon))
+       + linkGroup("Found in", refsFromList("locations",loc))
+       + linkGroup("Sold at", refsFromList("shops",shop)); }
+function forgeCard(f){
+  const mat = f.cat ? refChip(f.cat,f.id) : `<span class="forge-matname">${esc(f.name)}</span>`;
+  const src = f.cat ? forgeSources(f) : `<div class="rusty-note">Dug up as a Rusty Sword — see the Wiki for locations.</div>`;
+  return `<div class="forge-card"><div class="forge-head">${mat}<span class="forge-n">1 of ${f.outputs.length}</span></div>`+
+    `<div class="forge-src">${src}</div>`+
+    `<div class="forge-into">Forges into one of</div>${refsFromList("equipment",f.outputs)}</div>`; }
+function renderForge(){ const rare=FORGE.filter(f=>!f.rusty), rusty=FORGE.filter(f=>f.rusty);
+  const sect=(title,arr)=>arr.length?`<div class="forge-sect-h">${title} &middot; ${arr.length}</div><div class="forge-grid">${arr.map(forgeCard).join("")}</div>`:"";
+  document.getElementById("forge-body").innerHTML=sect("Rare Materials",rare)+sect("Rusty Equipment",rusty); }
+document.getElementById("tab-forge").addEventListener("click",e=>{
+  const more=e.target.closest(".refmore"); if(more){ more.parentElement.querySelectorAll(".refhidden").forEach(s=>s.removeAttribute("hidden")); more.remove(); return; }
+  const ref=e.target.closest(".ref[data-id]"); if(ref){ hideTip(); document.getElementById("navbtn-wiki").click(); openEntity(ref.dataset.type,ref.dataset.id); } });
+renderForge();
 
 /* ----- tabs ----- */
 document.querySelector("nav").addEventListener("click",e=>{ const b=e.target.closest("button[data-tab]"); if(!b) return; hideTip();
