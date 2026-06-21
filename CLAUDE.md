@@ -52,7 +52,10 @@ Each corpus is namespaced: `raw/{game}/`, `data/{game}/`, `schema/{game}_schema.
 (e.g. `gs2`) gets its own copy of each. Scripts split by scope:
 
 - **`scripts/` (top level)** — the cross-cutting / active rebuild chain:
-  `extract.py` (game-parameterized via `--game`), plus the gs1 post-extraction
+  `extract.py` (game-parameterized via `--game`; **note:** its raw-file lookup is
+  non-recursive, so the generic `--game gs2` path is legacy/dead — gs2's nested
+  `raw/gs2/` corpus is re-extracted via the dedicated `scripts/*_extract_gs2.py`
+  scripts instead), plus the gs1 post-extraction
   chain `build_terence_class_reqs.py` → `links_normalize.py` → `links_audit.py` →
   `build_codex.py`, and `locations_refs.py` (materialized reverse-index view).
   These still hardcode `data/gs1` internally; they get parameterized per game when
